@@ -1,0 +1,149 @@
+{
+  "source_path": "rebuttal_20260929\\uc4d_followup\\native\\models.joblib",
+  "family": "residual_hgb",
+  "selection": {
+    "config_id": 1,
+    "parameters": {
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20
+    },
+    "clip": [
+      -7.261777652534431,
+      9.470192974858463
+    ]
+  },
+  "estimator_gates": {
+    "column": {
+      "passed": true,
+      "raw": {
+        "median": 4.735913298061153,
+        "p90": 29.793313867201032,
+        "p95": 55.50462759294827,
+        "p99": 1163.1115548305752,
+        "max": 4010.71820258949,
+        "mean": 64.80898924543281
+      },
+      "candidate": {
+        "median": 2.931624820954891,
+        "p90": 19.02914578918314,
+        "p95": 28.891103700680247,
+        "p99": 60.02551543992239,
+        "max": 104.39779957498392,
+        "mean": 7.214545539282206
+      },
+      "global": {
+        "median": 2.7476563929351525,
+        "p90": 24.765846038804877,
+        "p95": 48.61464498436633,
+        "p99": 1558.6384217309708,
+        "max": 7692.343958015395,
+        "mean": 103.15960196972617
+      },
+      "reductions": {
+        "p90": 0.36129475646775866,
+        "p95": 0.4794829736980202,
+        "p99": 0.9483922972043158
+      },
+      "vs_global": {
+        "p95": 0.40571192672555456,
+        "p99": 0.961488492389877
+      },
+      "unique_subqueries": 84
+    },
+    "table": {
+      "passed": true,
+      "raw": {
+        "median": 1.9088373703748316,
+        "p90": 9.76419381330414,
+        "p95": 84.8138087248323,
+        "p99": 183.40141889760739,
+        "max": 185.27310061601642,
+        "mean": 11.413640141843922
+      },
+      "candidate": {
+        "median": 1.6227094484071793,
+        "p90": 4.08636669665881,
+        "p95": 4.671448367838298,
+        "p99": 8.102704314978304,
+        "max": 8.910355940402669,
+        "mean": 2.162052862123654
+      },
+      "global": {
+        "median": 2.4410661641278404,
+        "p90": 13.82785490137301,
+        "p95": 44.22114876040848,
+        "p99": 95.62383236736459,
+        "max": 96.59971019841959,
+        "mean": 7.785671606300202
+      },
+      "reductions": {
+        "p90": 0.5814947168407332,
+        "p95": 0.9449211344464646,
+        "p99": 0.9558198384522749
+      },
+      "vs_global": {
+        "p95": 0.8943616685955322,
+        "p99": 0.9152648025666907
+      },
+      "unique_subqueries": 82
+    },
+    "value": {
+      "passed": true,
+      "raw": {
+        "median": 101.4375,
+        "p90": 8501.099999999997,
+        "p95": 22834.650000000005,
+        "p99": 93187.46000000004,
+        "max": 97216.0,
+        "mean": 4770.425244031818
+      },
+      "candidate": {
+        "median": 2.5717965330335506,
+        "p90": 14.974106584522074,
+        "p95": 19.896119867234788,
+        "p99": 57.017062946386204,
+        "max": 57.23242939081972,
+        "mean": 6.207717466426719
+      },
+      "global": {
+        "median": 52.88859025229213,
+        "p90": 4432.396249846069,
+        "p95": 11905.77890232412,
+        "p99": 48587.09440386312,
+        "max": 50687.53853325282,
+        "mean": 2487.3575398857656
+      },
+      "reductions": {
+        "p90": 0.9982385683517989,
+        "p95": 0.9991286873296839,
+        "p99": 0.9993881466138643
+      },
+      "vs_global": {
+        "p95": 0.9983288686922155,
+        "p99": 0.9988264977841141
+      },
+      "unique_subqueries": 72
+    }
+  },
+  "inputs": {
+    "rebuttal_20260929\\uc4d_followup\\native\\models.joblib": "97be126f6143b7c4ba61ba9d1571f2fda6a0ac8f47121f57ca1bfb7cdc63bc1d",
+    "rebuttal_20260929\\uc4d_followup\\native\\model_selection.json": "27bcea0eb7102425f3834691512cea2c163a3a9b5e4edd0f0cb0825ae3840ae0",
+    "rebuttal_20260929\\uc4d_followup\\native\\estimator_gates.json": "deb5ef508d2a11424c761a2e9d12d69cfb55473e43b34c16a8b61faf2561d5d7",
+    "rebuttal_20260929\\uc4d_followup\\native\\development.json": "e79bd87133fbf138696b234a732c8b5c077e451e1f9b6358eb2b552adb5e485f",
+    "rebuttal_20260929\\uc4d_followup\\native\\rule_search.json": "fbf6fe33ed7efb242876db8772eba440954b5cacd025f648b9275590a9f7db5c",
+    "rebuttal_20260929\\uc4d_followup\\native\\selected_rules.json": "42ea72dc2cab5a2a165f8cb710d220e935fc9871f644e2ef861098e07d0e5e84",
+    "rebuttal_20260929\\uc4d_followup\\native\\validation_requests.csv": "72f088f4e352d1b69558bdaee5b936b833e32c03f7889dfd4b44276fba2e965a",
+    "rebuttal_20260929\\uc4d_followup\\native\\validation_count_cases.json": "8d66f5306b1d05ba6feff8a07ad5861a55d11200aa01958c0ecabde1cbfbaa2e",
+    "rebuttal_20260929\\uc4d_followup\\native\\cost_ledger.json": "96afe7a6d110e6b7450a96166b7aea2fc232e360665bbf6d34d55c242660b249",
+    "rebuttal_20260929\\uc4d_followup\\run_native.py": "0346f68e1979bb2f1599ca441b807bd9455f25d272ff7b1d554929bb12c07d75",
+    "rebuttal_20260929\\native_subplan_learning\\run_learning.py": "67a1efc1eb8f0ce22cfeec440c399dfab1c48609480a82f6259738b90d3ed12f",
+    "rebuttal_20260929\\native_subplan_learning\\semantic_audit.py": "a3bcddb767a94cba9953488d9515a1a89e9afcd948048e70efef56626ec96a51",
+    "rebuttal_20260929\\reviewer_rrdl\\cap_selected_rules.json": "7423ef5f4d0e3ad711cfa3e6b7a91376223f62b0b2e6b68621b883e7608cf2c3"
+  },
+  "source_validation_mix": {
+    "column": 30,
+    "table": 30,
+    "value": 30
+  },
+  "unchanged_source_validation_and_model": true
+}

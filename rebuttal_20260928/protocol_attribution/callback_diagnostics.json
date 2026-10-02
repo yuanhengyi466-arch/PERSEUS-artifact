@@ -1,0 +1,13 @@
+{
+  "cases": 540,
+  "checks": 1620,
+  "root_matches": 1620,
+  "plan_changes": {
+    "hgb": 159,
+    "rf": 153,
+    "raw": 15
+  },
+  "seconds": 2.3853792999871075,
+  "map_sha256": "b7d03fbcfc33ce05be72848752bcf5ccd456a4138749bd73f3a1d3f63c7e83ae",
+  "outside_timed_experiment": true
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "outer_seeds": [
+    401,
+    402,
+    403
+  ],
+  "inner_seeds": [
+    1,
+    2,
+    3
+  ],
+  "split_proportions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "native_per_drift_role": 60,
+  "timing_repeats": 3,
+  "statement_timeout_ms": 5000,
+  "models": [
+    "hgb",
+    "rf"
+  ],
+  "injection": "native connected-subplan root-ratio",
+  "runtime_class": {
+    "min_support": 20,
+    "median_cap": 0.98,
+    "p95_cap": 1.1,
+    "loss_cap": 0.25,
+    "whole_p95_cap": 1.01
+  },
+  "bootstrap_resamples": 2000
+}

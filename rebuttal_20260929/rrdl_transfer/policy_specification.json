@@ -1,0 +1,157 @@
+{
+  "source_model": "Frozen PG-relative residual HGB; 1340 fit/tune/gate labels; no target fitting.",
+  "source_estimator_gate": {
+    "raw_reductions": {
+      "p90": 0.3,
+      "p95": 0.4,
+      "p99": 0.6
+    },
+    "scalar_reductions": {
+      "p95": 0.25,
+      "p99": 0.4
+    },
+    "median_over_raw_cap": 1.2,
+    "target_recomputed": false,
+    "source_passed_drifts": [
+      "column",
+      "table",
+      "value"
+    ]
+  },
+  "runtime_contract": {
+    "minimum_validation_parents": 20,
+    "all_selected_repetitions_correct": true,
+    "accepted_ratio_median_cap": 0.98,
+    "accepted_ratio_p95_caps": {
+      "primary": 1.1,
+      "sensitivity": 1.25
+    },
+    "fraction_ratio_above_1p01_cap": 0.25,
+    "ratio_of_whole_latency_p95_cap": 1.01,
+    "positive_total_saved_ms_required": true,
+    "grid_size": 336,
+    "ranking": [
+      "larger_saved_ms",
+      "larger_support",
+      "lower_subset_p95",
+      "lower_grid_index"
+    ],
+    "features": [
+      "drift",
+      "table_count",
+      "native_root_rows",
+      "root_correction_direction"
+    ]
+  },
+  "fallback_precedence": "Failed source estimator gate excludes its drift; no qualified native region or unmatched query uses native PG. Only a matched frozen region activates repair.",
+  "selections": {
+    "pg4": {
+      "source110": {
+        "rule": null,
+        "subset_p95_cap": 1.1,
+        "validation_origin": "source",
+        "qualifying_rules": 0,
+        "nonempty_selection": false,
+        "selected_region_support": 0,
+        "selected_region_ratio_p95": null,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      },
+      "source125": {
+        "rule": {
+          "drifts": [
+            "table",
+            "value"
+          ],
+          "min_tables": 2,
+          "min_pg_rows": 0,
+          "direction": "up"
+        },
+        "subset_p95_cap": 1.25,
+        "validation_origin": "source",
+        "qualifying_rules": 4,
+        "nonempty_selection": true,
+        "selected_region_support": 38,
+        "selected_region_ratio_p95": 1.1721133035905114,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      },
+      "target110": {
+        "rule": null,
+        "subset_p95_cap": 1.1,
+        "validation_origin": "target_pg4",
+        "qualifying_rules": 0,
+        "nonempty_selection": false,
+        "selected_region_support": 0,
+        "selected_region_ratio_p95": null,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      },
+      "target125": {
+        "rule": null,
+        "subset_p95_cap": 1.25,
+        "validation_origin": "target_pg4",
+        "qualifying_rules": 0,
+        "nonempty_selection": false,
+        "selected_region_support": 0,
+        "selected_region_ratio_p95": null,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      }
+    },
+    "pg11": {
+      "source110": {
+        "rule": null,
+        "subset_p95_cap": 1.1,
+        "validation_origin": "source",
+        "qualifying_rules": 0,
+        "nonempty_selection": false,
+        "selected_region_support": 0,
+        "selected_region_ratio_p95": null,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      },
+      "source125": {
+        "rule": {
+          "drifts": [
+            "table",
+            "value"
+          ],
+          "min_tables": 2,
+          "min_pg_rows": 0,
+          "direction": "up"
+        },
+        "subset_p95_cap": 1.25,
+        "validation_origin": "source",
+        "qualifying_rules": 4,
+        "nonempty_selection": true,
+        "selected_region_support": 38,
+        "selected_region_ratio_p95": 1.1721133035905114,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      },
+      "target110": {
+        "rule": null,
+        "subset_p95_cap": 1.1,
+        "validation_origin": "target_pg11",
+        "qualifying_rules": 0,
+        "nonempty_selection": false,
+        "selected_region_support": 0,
+        "selected_region_ratio_p95": null,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      },
+      "target125": {
+        "rule": null,
+        "subset_p95_cap": 1.25,
+        "validation_origin": "target_pg11",
+        "qualifying_rules": 0,
+        "nonempty_selection": false,
+        "selected_region_support": 0,
+        "selected_region_ratio_p95": null,
+        "fallback": "native_pg",
+        "source_estimator_gates_unchanged": true
+      }
+    }
+  }
+}

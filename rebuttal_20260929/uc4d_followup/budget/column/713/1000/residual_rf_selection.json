@@ -1,0 +1,91 @@
+{
+  "family": "residual_rf",
+  "selected_config_id": 2,
+  "candidates": [
+    {
+      "family": "residual_rf",
+      "config_id": 0,
+      "config": {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "min_samples_leaf": 3,
+        "n_jobs": 2
+      },
+      "tuning": {
+        "n": 200,
+        "median": 2.6489963526343057,
+        "p90": 52.788092404309225,
+        "p95": 167.97140232796664,
+        "p99": 5521.828083626133,
+        "max": 223596.6638356705,
+        "mean": 1219.5338340052142
+      },
+      "fit_and_tune_seconds": 0.44447230000514537
+    },
+    {
+      "family": "residual_rf",
+      "config_id": 1,
+      "config": {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "n_jobs": 2
+      },
+      "tuning": {
+        "n": 200,
+        "median": 2.5830496794139375,
+        "p90": 47.57582194023427,
+        "p95": 200.8917388718586,
+        "p99": 6262.823322519287,
+        "max": 161094.55946276433,
+        "mean": 908.6160182498018
+      },
+      "fit_and_tune_seconds": 0.39984410000033677
+    },
+    {
+      "family": "residual_rf",
+      "config_id": 2,
+      "config": {
+        "n_estimators": 250,
+        "max_depth": 14,
+        "min_samples_leaf": 3,
+        "n_jobs": 2
+      },
+      "tuning": {
+        "n": 200,
+        "median": 2.506042376740701,
+        "p90": 52.976230806381444,
+        "p95": 176.3283326236744,
+        "p99": 5010.478713371808,
+        "max": 205621.5696508966,
+        "mean": 1125.2483393946316
+      },
+      "fit_and_tune_seconds": 0.5189580000005662
+    },
+    {
+      "family": "residual_rf",
+      "config_id": 3,
+      "config": {
+        "n_estimators": 250,
+        "max_depth": 14,
+        "min_samples_leaf": 5,
+        "n_jobs": 2
+      },
+      "tuning": {
+        "n": 200,
+        "median": 2.557881987966156,
+        "p90": 45.91075991206467,
+        "p95": 199.54952520840163,
+        "p99": 6255.986865037411,
+        "max": 165334.12181503733,
+        "mean": 926.8961345145353
+      },
+      "fit_and_tune_seconds": 0.4683936999645084
+    }
+  ],
+  "clip": [
+    -6.811310397920055,
+    11.127809197185359
+  ],
+  "selected_before_gate_and_test": true
+}

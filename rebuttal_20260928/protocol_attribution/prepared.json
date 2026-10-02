@@ -1,0 +1,78 @@
+{
+  "config": {
+    "version": 1,
+    "outer_seeds": [
+      401,
+      402,
+      403
+    ],
+    "inner_seeds": [
+      1,
+      2,
+      3
+    ],
+    "split_proportions": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "native_per_drift_role": 60,
+    "timing_repeats": 3,
+    "statement_timeout_ms": 5000,
+    "models": [
+      "hgb",
+      "rf"
+    ],
+    "injection": "native connected-subplan root-ratio",
+    "runtime_class": {
+      "min_support": 20,
+      "median_cap": 0.98,
+      "p95_cap": 1.1,
+      "loss_cap": 0.25,
+      "whole_p95_cap": 1.01
+    },
+    "bootstrap_resamples": 2000
+  },
+  "input_hashes": {
+    "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_hash_full_seeds123\\native_callback_detail.csv": "586b03825ff24e4ab3924978654683324deaa7739dbadd21b675e26204375699",
+    "rebuttal_20260928\\protocol_attribution\\PROTOCOL.md": "b607518067f52f64aa12ce54d5bec193b275b67a737d57df8e96dd30e9b43448",
+    "rebuttal_20260928\\protocol_attribution\\run_protocol_attribution.py": "ac52138f32b0dad0a1b7c0784192ad26c3f856b1ca84a4df0af99ad03995a748",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns.csv": "26f6f35ad773273e3960d072e2c7c2a6988176735016c92cfb5f03f388d22388",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\predict_predictions.txt": "d01cb9ea39ef78b6372f808de9a729763f36ed3f5a7235fe16bdf4b4478451ce",
+    "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_table_queries\\queries_5_tables.csv": "cb15d570a7e327068e8377551be39834591e6268a021e2b3e0ed365608a915c3",
+    "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\predict_predictions.txt": "63fbef31aea783a7eaee5a491fddcf5ee3eb430c9808d0a5a7b493f1da7455f5",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2.csv": "1167b155967a3812b400c75a5e705140da11f57fe9a33dd9e87652c5657be5db",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\predict_predictions.txt": "00f652b570f9570dc88c31261d92421074b92e72f8055e5e33945fe878280dfb"
+  },
+  "prepared_at": "2026-09-28T10:10:12.495631+00:00",
+  "cases": 1080,
+  "cases_hash": "7c5474e6a5e0b7a5e0e21b4571de4ac2d14e4e89b7716d86a69dde0da2b92ea0",
+  "models_hash": "c9d6ca6eb6c9ecb702334e667a2ce84cdc28f28df0af3f3c600e39d63007bd11",
+  "map_hash": "b7d03fbcfc33ce05be72848752bcf5ccd456a4138749bd73f3a1d3f63c7e83ae",
+  "pg_version": "PostgreSQL 13.1, compiled by Visual C++ build 1944, 64-bit",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "logical_cpus": 16,
+  "prepare_seconds": 96.17337370000314,
+  "native_counts": {
+    "401/column/validation": 60,
+    "401/column/test": 60,
+    "401/table/validation": 60,
+    "401/table/test": 60,
+    "401/value/validation": 60,
+    "401/value/test": 60,
+    "402/column/validation": 60,
+    "402/column/test": 60,
+    "402/table/validation": 60,
+    "402/table/test": 60,
+    "402/value/validation": 60,
+    "402/value/test": 60,
+    "403/column/validation": 60,
+    "403/column/test": 60,
+    "403/table/validation": 60,
+    "403/table/test": 60,
+    "403/value/validation": 60,
+    "403/value/test": 60
+  },
+  "zero_sql_overlap": true
+}

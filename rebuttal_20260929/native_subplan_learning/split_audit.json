@@ -1,0 +1,37 @@
+{
+  "components": 146,
+  "component_sizes": {
+    "25": 1,
+    "7": 1,
+    "4": 1,
+    "1": 142,
+    "2": 1
+  },
+  "role_unique_subqueries": {
+    "fit": 879,
+    "tune": 238,
+    "gate": 237,
+    "validation": 1468,
+    "test": 1502
+  },
+  "all_pairwise_subquery_overlap": 0,
+  "native_unique_parents": 360,
+  "successful_development_labels": {
+    "fit": 867,
+    "tune": 237,
+    "gate": 237
+  },
+  "inputs": {
+    "rebuttal_20260929\\native_subplan_diagnostic\\cases.json": "8a71c6c41944386cae1d1da8f79e2ffae7af45323ccf35f9e743efd87faa7708",
+    "rebuttal_20260929\\native_subplan_diagnostic\\count_acquisition.csv": "02d2857e4224d42d88eaefa14f35b7c9725732eb9a42f561bea9ab83ac66e895",
+    "rebuttal_20260929\\native_subplan_diagnostic\\prepared.json": "3aa2a6db45f1b12b7c39fe769cc048db3a98de193da1a618cb028c9af3a84141",
+    "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_full_seed1\\native_callback_detail.csv": "f4cca1aa948bdf9a46cd336d4d9c26e90e994f6fa5af9b7e21a04d4e46505947",
+    "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_hash_full_seeds123\\native_callback_detail.csv": "586b03825ff24e4ab3924978654683324deaa7739dbadd21b675e26204375699",
+    "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_smoke\\native_callback_detail.csv": "4d536286390f76643b3411bb3a8c0a6a7ed3d20ab626fcbdc56d1c9532deef3c",
+    "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_smoke2\\native_callback_detail.csv": "a5a9601b23e0c1bc1d8425c797f566e44d359de1cc3bdbe1e3dc7026a5b5afc0",
+    "rebuttal_20260928\\protocol_attribution\\cases.json": "7c5474e6a5e0b7a5e0e21b4571de4ac2d14e4e89b7716d86a69dde0da2b92ea0",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns.csv": "26f6f35ad773273e3960d072e2c7c2a6988176735016c92cfb5f03f388d22388",
+    "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_table_queries\\queries_5_tables.csv": "cb15d570a7e327068e8377551be39834591e6268a021e2b3e0ed365608a915c3",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2.csv": "1167b155967a3812b400c75a5e705140da11f57fe9a33dd9e87652c5657be5db"
+  }
+}

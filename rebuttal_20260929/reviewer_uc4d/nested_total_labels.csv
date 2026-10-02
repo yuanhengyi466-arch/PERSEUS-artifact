@@ -1,0 +1,4 @@
+drift,fit_rows_per_split,gate_rows_per_split,unique_fit_rows_across_seeds,unique_gate_rows_across_seeds,fit_gate_union_rows,cross_seed_fit_gate_overlap_rows,fit_gate_union_unique_sql,identity_groups_with_conflicting_archived_labels_in_full_target,all_index_hashes_verified,scope
+column,2000,1000,4640,2682,6143,1179,6142,0,True,Supervision union across repeated splits; final-test labels excluded.
+table,2000,1000,4736,2683,6233,1186,6231,0,True,Supervision union across repeated splits; final-test labels excluded.
+value,500,500,1151,1150,1732,569,1732,0,True,Supervision union across repeated splits; final-test labels excluded.

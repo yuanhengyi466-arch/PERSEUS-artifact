@@ -1,0 +1,14 @@
+{
+  "passed": false,
+  "scope": "Readiness audit for SSCard PostgreSQL end-to-end reproduction",
+  "reason": "Local hook execution is available, but pure official 700-slot regeneration remains blocked by missing predicate-order/model assets.",
+  "static_like_predicates": 119,
+  "official_card_rows": {
+    "sscard_pg_single": 416,
+    "pg_pg_single": 416
+  },
+  "csv": "paper\\workload_drift_residual_field\\results\\sscard_end_to_end_readiness.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\sscard_end_to_end_readiness.tex",
+  "source_root": "baselines\\SSCard",
+  "end_to_end_root": "baselines\\SSCard\\end_to_end"
+}

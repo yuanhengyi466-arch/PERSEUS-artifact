@@ -1,0 +1,9 @@
+policy,regions_with_support,passes,fails_correctness,fails_median,fails_subset_p95,fails_loss_fraction,fails_whole_p95,fails_positive_savings
+runtime__residual_hgb,170,0,155,146,170,147,0,128
+runtime__direct_hgb,172,0,157,150,172,154,0,154
+runtime__residual_rf,172,0,157,148,158,158,0,154
+runtime__direct_rf,172,0,157,148,172,157,0,154
+full__residual_hgb,170,0,155,146,170,147,0,128
+full__direct_hgb,172,0,157,150,172,154,0,154
+full__residual_rf,73,0,64,61,73,64,0,64
+full__direct_rf,38,0,29,26,38,29,0,26

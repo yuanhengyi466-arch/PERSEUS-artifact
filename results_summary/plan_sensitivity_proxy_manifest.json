@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "scope": "Cardinality-only plan-ordering sensitivity proxy for held-out target query pairs",
+  "drifts": [
+    "column",
+    "table",
+    "value"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "max_pairs": 200000,
+  "min_true_ratio": 10.0,
+  "tail_fraction": 0.01,
+  "finetune_epochs": 20,
+  "finetune_lr": 0.001,
+  "csv": "paper\\workload_drift_residual_field\\results\\plan_sensitivity_proxy.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\plan_sensitivity_proxy.tex",
+  "json": "paper\\workload_drift_residual_field\\results\\plan_sensitivity_proxy.json"
+}

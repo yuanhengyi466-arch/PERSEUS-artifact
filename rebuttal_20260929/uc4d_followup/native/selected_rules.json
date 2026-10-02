@@ -1,0 +1,34 @@
+{
+  "runtime__residual_hgb": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "runtime__direct_hgb": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "runtime__residual_rf": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "runtime__direct_rf": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "full__residual_hgb": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "full__direct_hgb": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "full__residual_rf": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "full__direct_rf": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  }
+}

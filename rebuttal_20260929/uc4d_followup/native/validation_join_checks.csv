@@ -1,0 +1,1717 @@
+qid,method,active,aliases,parameterized_context,expected,observed,matches
+s601:column:q917,pg,pg,b p,False,,102970,
+s601:column:q917,pg_map,pg_map,b p,False,102970.0,102970,True
+s601:column:q917,residual_hgb,residual_hgb,b p,False,258722.4492120826,258722,True
+s601:column:q917,direct_hgb,direct_hgb,b p,False,66337.1614138759,66337,True
+s601:column:q917,residual_rf,residual_rf,b p,False,66283.50972522008,66284,True
+s601:column:q917,direct_rf,direct_rf,b p,False,90820.10492114043,90820,True
+s601:column:q1193,pg,pg,p pl,False,,328,
+s601:column:q1193,pg,pg,c p pl,False,,621,
+s601:column:q1193,pg_map,pg_map,p pl,False,328.0,328,True
+s601:column:q1193,pg_map,pg_map,c p pl,False,621.0,621,True
+s601:column:q1193,residual_hgb,residual_hgb,p pl,False,3533.1221061676465,3533,True
+s601:column:q1193,residual_hgb,residual_hgb,c p pl,False,7990.370998195368,7990,True
+s601:column:q1193,direct_hgb,direct_hgb,p pl,False,2753.4615831193173,2753,True
+s601:column:q1193,direct_hgb,direct_hgb,c p pl,False,6804.754100068661,6805,True
+s601:column:q1193,residual_rf,residual_rf,p pl,False,3476.0313421875926,3476,True
+s601:column:q1193,residual_rf,residual_rf,c p pl,False,6455.850713717668,6456,True
+s601:column:q1193,direct_rf,direct_rf,p pl,False,2593.3312890525613,2593,True
+s601:column:q1193,direct_rf,direct_rf,c p pl,False,5493.229387586046,5493,True
+s601:column:q3469,pg,pg,p pl,False,,10797,
+s601:column:q3469,pg,pg,p ph pl,False,,34222,
+s601:column:q3469,pg_map,pg_map,p pl,False,10797.0,10797,True
+s601:column:q3469,pg_map,pg_map,p ph pl,False,34222.0,34222,True
+s601:column:q3469,residual_hgb,residual_hgb,p pl,False,1778.4100379853953,1778,True
+s601:column:q3469,residual_hgb,residual_hgb,p ph pl,False,18338.82698737699,18339,True
+s601:column:q3469,direct_hgb,direct_hgb,p pl,False,1394.7286725561164,1395,True
+s601:column:q3469,direct_hgb,direct_hgb,p ph pl,False,34911.86294457134,34912,True
+s601:column:q3469,residual_rf,residual_rf,p pl,False,2932.598676424228,2933,True
+s601:column:q3469,residual_rf,residual_rf,p ph pl,False,17492.125093251572,17492,True
+s601:column:q3469,direct_rf,direct_rf,p pl,False,1018.5072038761966,1019,True
+s601:column:q3469,direct_rf,direct_rf,p ph pl,False,12939.738030464692,12940,True
+s601:column:q5344,pg,pg,b v,False,,730063,
+s601:column:q5344,pg,pg,p u,False,,18974,
+s601:column:q5344,pg,pg,b p u v,False,,111177,
+s601:column:q5344,pg_map,pg_map,b v,False,,730063,
+s601:column:q5344,pg_map,pg_map,p u,False,18974.0,18974,True
+s601:column:q5344,pg_map,pg_map,b p u v,False,592294.0,592294,True
+s601:column:q5344,residual_hgb,residual_hgb,b v,False,,730063,
+s601:column:q5344,residual_hgb,residual_hgb,p u,False,8546.27813808532,8546,True
+s601:column:q5344,residual_hgb,residual_hgb,b p u v,False,11215.478542462375,11215,True
+s601:column:q5344,direct_hgb,direct_hgb,b v,False,,730063,
+s601:column:q5344,direct_hgb,direct_hgb,p u,False,14803.414113339473,14803,True
+s601:column:q5344,direct_hgb,direct_hgb,b p u v,False,156117.79729504534,156118,True
+s601:column:q5344,residual_rf,residual_rf,b v,False,,730063,
+s601:column:q5344,residual_rf,residual_rf,p u,False,7138.076489350436,7138,True
+s601:column:q5344,residual_rf,residual_rf,b p u v,False,122628.4279391832,122628,True
+s601:column:q5344,direct_rf,direct_rf,b v,False,,730063,
+s601:column:q5344,direct_rf,direct_rf,p u,False,9416.019723437183,9416,True
+s601:column:q5344,direct_rf,direct_rf,b p u v,False,135947.67470638372,135948,True
+s601:column:q4504,pg,pg,b v,False,,640637,
+s601:column:q4504,pg,pg,b u v,False,,67413,
+s601:column:q4504,pg_map,pg_map,b v,False,640637.0,640637,True
+s601:column:q4504,pg_map,pg_map,b u v,False,59985.0,59985,True
+s601:column:q4504,residual_hgb,residual_hgb,b v,False,1095565.900625696,1095566,True
+s601:column:q4504,residual_hgb,residual_hgb,b u v,False,44014.903152395964,44015,True
+s601:column:q4504,direct_hgb,direct_hgb,b v,False,562044.4575052507,562044,True
+s601:column:q4504,direct_hgb,direct_hgb,b u v,False,64663.71402186217,64664,True
+s601:column:q4504,residual_rf,residual_rf,b v,False,467201.6414233302,467202,True
+s601:column:q4504,residual_rf,residual_rf,b u v,False,20183.60786919521,20184,True
+s601:column:q4504,direct_rf,direct_rf,b v,False,354396.94387561124,354397,True
+s601:column:q4504,direct_rf,direct_rf,b u v,False,45417.94431924584,45418,True
+s601:column:q3729,pg,pg,p u,False,,43507,
+s601:column:q3729,pg,pg,p pl u,False,,4726,
+s601:column:q3729,pg_map,pg_map,p u,False,43507.0,43507,True
+s601:column:q3729,pg_map,pg_map,p pl u,False,4726.0,4726,True
+s601:column:q3729,residual_hgb,residual_hgb,p u,False,24106.904626395935,24107,True
+s601:column:q3729,residual_hgb,residual_hgb,p pl u,False,1132.5201315769941,1133,True
+s601:column:q3729,direct_hgb,direct_hgb,p u,False,17857.922177635177,17858,True
+s601:column:q3729,direct_hgb,direct_hgb,p pl u,False,2433.4627826923065,2433,True
+s601:column:q3729,residual_rf,residual_rf,p u,False,17369.03986126599,17369,True
+s601:column:q3729,residual_rf,residual_rf,p pl u,False,1411.9220621539425,1412,True
+s601:column:q3729,direct_rf,direct_rf,p u,False,13232.438110685005,13232,True
+s601:column:q3729,direct_rf,direct_rf,p pl u,False,3441.2349927104883,3441,True
+s601:column:q5120,pg,pg,p u,False,,82697,
+s601:column:q5120,pg,pg,c p u,False,,156721,
+s601:column:q5120,pg,pg,c p u v,False,,446640,
+s601:column:q5120,pg_map,pg_map,p u,False,82697.0,82697,True
+s601:column:q5120,pg_map,pg_map,c p u,False,156721.0,156721,True
+s601:column:q5120,pg_map,pg_map,c p u v,False,446640.0,446640,True
+s601:column:q5120,residual_hgb,residual_hgb,p u,False,67738.58876919099,67739,True
+s601:column:q5120,residual_hgb,residual_hgb,c p u,False,76869.91572449206,76870,True
+s601:column:q5120,residual_hgb,residual_hgb,c p u v,False,272556.6480603632,272557,True
+s601:column:q5120,direct_hgb,direct_hgb,p u,False,49388.41475451982,49388,True
+s601:column:q5120,direct_hgb,direct_hgb,c p u,False,94142.04968140545,94142,True
+s601:column:q5120,direct_hgb,direct_hgb,c p u v,False,180413.38939403827,180413,True
+s601:column:q5120,residual_rf,residual_rf,p u,False,37232.099021955146,37232,True
+s601:column:q5120,residual_rf,residual_rf,c p u,False,56085.34760925019,56085,True
+s601:column:q5120,residual_rf,residual_rf,c p u v,False,152071.41865579336,152071,True
+s601:column:q5120,direct_rf,direct_rf,p u,False,57864.06659335512,57864,True
+s601:column:q5120,direct_rf,direct_rf,c p u,False,62768.91643833098,62769,True
+s601:column:q5120,direct_rf,direct_rf,c p u v,False,163570.61292932314,163571,True
+s601:column:q5802,pg,pg,c pl,False,,50054,
+s601:column:q5802,pg,pg,c ph pl,False,,211649,
+s601:column:q5802,pg,pg,c ph pl v,False,,1319525,
+s601:column:q5802,pg_map,pg_map,c pl,False,50054.0,50054,True
+s601:column:q5802,pg_map,pg_map,c ph pl,False,211648.0,211648,True
+s601:column:q5802,pg_map,pg_map,c ph pl v,False,1319519.0,1319519,True
+s601:column:q5802,residual_hgb,residual_hgb,c pl,False,33918.39525800605,33918,True
+s601:column:q5802,residual_hgb,residual_hgb,ph v,False,145093.48701227744,145093,True
+s601:column:q5802,residual_hgb,residual_hgb,c ph pl v,False,75782.65090661179,75783,True
+s601:column:q5802,direct_hgb,direct_hgb,c pl,False,36522.57976613128,36523,True
+s601:column:q5802,direct_hgb,direct_hgb,c ph pl,False,150255.64979503432,150256,True
+s601:column:q5802,direct_hgb,direct_hgb,c ph pl v,False,184345.3364432808,184345,True
+s601:column:q5802,residual_rf,residual_rf,c pl,False,34703.64625219063,34704,True
+s601:column:q5802,residual_rf,residual_rf,c ph pl,False,138709.50320880234,138710,True
+s601:column:q5802,residual_rf,residual_rf,c ph pl v,False,199599.57570695455,199600,True
+s601:column:q5802,direct_rf,direct_rf,c pl,False,32191.086494939937,32191,True
+s601:column:q5802,direct_rf,direct_rf,c pl v,False,,200695,
+s601:column:q5802,direct_rf,direct_rf,c ph pl v,False,321152.47634460736,321152,True
+s601:column:q1794,pg,pg,c ph,False,,5,
+s601:column:q1794,pg,pg,c p ph,False,,1,
+s601:column:q1794,pg_map,pg_map,c ph,False,,5,
+s601:column:q1794,pg_map,pg_map,c p ph,False,1.0,1,True
+s601:column:q1794,residual_hgb,residual_hgb,c ph,False,,5,
+s601:column:q1794,residual_hgb,residual_hgb,c p ph,False,8.101601757370458,8,True
+s601:column:q1794,direct_hgb,direct_hgb,c ph,False,,5,
+s601:column:q1794,direct_hgb,direct_hgb,c p ph,False,344.54301154711754,345,True
+s601:column:q1794,residual_rf,residual_rf,c ph,False,,5,
+s601:column:q1794,residual_rf,residual_rf,c p ph,False,3.754337633307097,4,True
+s601:column:q1794,direct_rf,direct_rf,c ph,False,,5,
+s601:column:q1794,direct_rf,direct_rf,c p ph,False,220.02807720025382,220,True
+s601:column:q3072,pg,pg,b u,False,,74613,
+s601:column:q3072,pg,pg,b c u,False,,11067369,
+s601:column:q3072,pg_map,pg_map,b u,False,,74613,
+s601:column:q3072,pg_map,pg_map,b c u,False,11067369.0,11067369,True
+s601:column:q3072,residual_hgb,residual_hgb,c u,False,30922.904961283213,30923,True
+s601:column:q3072,residual_hgb,residual_hgb,b c u,False,15855.013221781039,15855,True
+s601:column:q3072,direct_hgb,direct_hgb,c u,False,6715.453765690403,6715,True
+s601:column:q3072,direct_hgb,direct_hgb,b c u,False,27226.49018361741,27226,True
+s601:column:q3072,residual_rf,residual_rf,c u,False,40795.361496751175,40795,True
+s601:column:q3072,residual_rf,residual_rf,b c u,False,94471.87678065209,94472,True
+s601:column:q3072,direct_rf,direct_rf,c u,False,43756.31236667474,43756,True
+s601:column:q3072,direct_rf,direct_rf,b c u,False,172586.9493538771,172587,True
+s601:column:q7940,pg,pg,p t,False,,85,
+s601:column:q7940,pg,pg,p t u,False,,82,
+s601:column:q7940,pg,pg,p t u v,False,,70,
+s601:column:q7940,pg,pg,b p t u v,False,,135,
+s601:column:q7940,pg_map,pg_map,p t,False,85.0,85,True
+s601:column:q7940,pg_map,pg_map,p t u,False,82.0,82,True
+s601:column:q7940,pg_map,pg_map,p t u v,False,70.0,70,True
+s601:column:q7940,pg_map,pg_map,b p t u v,False,2524.0,2524,True
+s601:column:q7940,residual_hgb,residual_hgb,p t,False,339.25628502320836,339,True
+s601:column:q7940,residual_hgb,residual_hgb,p t u,False,503.310608982172,503,True
+s601:column:q7940,residual_hgb,residual_hgb,p t u v,False,429.93086063047514,430,True
+s601:column:q7940,residual_hgb,residual_hgb,b p t u v,False,1651.7603340474634,1652,True
+s601:column:q7940,direct_hgb,direct_hgb,p t,False,369.33861209732964,369,True
+s601:column:q7940,direct_hgb,direct_hgb,p t u,False,260.1709417537988,260,True
+s601:column:q7940,direct_hgb,direct_hgb,p t u v,False,271.4197443868519,271,True
+s601:column:q7940,direct_hgb,direct_hgb,b p t u v,False,780.7769571661867,781,True
+s601:column:q7940,residual_rf,residual_rf,p t,False,254.74149664309695,255,True
+s601:column:q7940,residual_rf,residual_rf,p t u,False,128.82624234486585,129,True
+s601:column:q7940,residual_rf,residual_rf,p t u v,False,119.16592893919439,119,True
+s601:column:q7940,residual_rf,residual_rf,b p t u v,False,1468.6230611257292,1469,True
+s601:column:q7940,direct_rf,direct_rf,p t,False,569.4187454247226,569,True
+s601:column:q7940,direct_rf,direct_rf,p t u,False,313.0960556878322,313,True
+s601:column:q7940,direct_rf,direct_rf,p t u v,False,312.38969168877327,312,True
+s601:column:q7940,direct_rf,direct_rf,b p t u v,False,1571.6334469310327,1572,True
+s601:column:q6681,pg,pg,p u,False,,12873,
+s601:column:q6681,pg,pg,p ph u,False,,42434,
+s601:column:q6681,pg,pg,p ph u v,False,,120933,
+s601:column:q6681,pg_map,pg_map,p u,False,12873.0,12873,True
+s601:column:q6681,pg_map,pg_map,p ph u,False,42434.0,42434,True
+s601:column:q6681,pg_map,pg_map,p ph u v,False,120933.0,120933,True
+s601:column:q6681,residual_hgb,residual_hgb,p u,False,2232.1431934608213,2232,True
+s601:column:q6681,residual_hgb,residual_hgb,p u v,False,3156.0343873833294,3156,True
+s601:column:q6681,residual_hgb,residual_hgb,p ph u v,False,10471.394873249514,10471,True
+s601:column:q6681,direct_hgb,direct_hgb,p v,False,5303.4777020595675,5303,True
+s601:column:q6681,direct_hgb,direct_hgb,p ph v,False,60085.53467808575,60086,True
+s601:column:q6681,direct_hgb,direct_hgb,p ph u v,False,53759.761258323386,53760,True
+s601:column:q6681,residual_rf,residual_rf,p u,False,3120.417862682669,3120,True
+s601:column:q6681,residual_rf,residual_rf,p u v,False,8461.627508755955,8462,True
+s601:column:q6681,residual_rf,residual_rf,p ph u v,False,35508.112227248006,35508,True
+s601:column:q6681,direct_rf,direct_rf,p u,False,5350.469096834718,5350,True
+s601:column:q6681,direct_rf,direct_rf,p ph u,False,10290.455156276574,10290,True
+s601:column:q6681,direct_rf,direct_rf,p ph u v,False,46997.52378960067,46998,True
+s601:column:q5238,pg,pg,p v,False,,121768,
+s601:column:q5238,pg,pg,b u,False,,79133,
+s601:column:q5238,pg,pg,b p u v,False,,4329554,
+s601:column:q5238,pg_map,pg_map,p v,False,121768.0,121768,True
+s601:column:q5238,pg_map,pg_map,b u,False,79133.0,79133,True
+s601:column:q5238,pg_map,pg_map,b p u v,False,4329555.0,4329555,True
+s601:column:q5238,residual_hgb,residual_hgb,p v,False,86331.6222180862,86332,True
+s601:column:q5238,residual_hgb,residual_hgb,p u v,False,90817.05023187779,90817,True
+s601:column:q5238,residual_hgb,residual_hgb,b p u v,False,2042304.830079526,2042305,True
+s601:column:q5238,direct_hgb,direct_hgb,p v,False,147086.87792544332,147087,True
+s601:column:q5238,direct_hgb,direct_hgb,b u,False,87735.1455894812,87735,True
+s601:column:q5238,direct_hgb,direct_hgb,b p u v,False,565754.5524871073,565755,True
+s601:column:q5238,residual_rf,residual_rf,p v,False,199909.6471530267,199910,True
+s601:column:q5238,residual_rf,residual_rf,b u,False,84201.62754648272,84202,True
+s601:column:q5238,residual_rf,residual_rf,b p u v,False,1099192.952875727,1099193,True
+s601:column:q5238,direct_rf,direct_rf,p v,False,76272.55488937703,76273,True
+s601:column:q5238,direct_rf,direct_rf,b u,False,63246.584450265356,63247,True
+s601:column:q5238,direct_rf,direct_rf,b p u v,False,266000.26284733124,266000,True
+s601:column:q6844,pg,pg,p u,False,,18491,
+s601:column:q6844,pg,pg,b p u,False,,36616,
+s601:column:q6844,pg,pg,b p ph u,False,,21248718,
+s601:column:q6844,pg_map,pg_map,p u,False,18491.0,18491,True
+s601:column:q6844,pg_map,pg_map,b p u,False,,36616,
+s601:column:q6844,pg_map,pg_map,b p ph u,False,390650142.0,390650142,True
+s601:column:q6844,residual_hgb,residual_hgb,p u,False,37206.198658836925,37206,True
+s601:column:q6844,residual_hgb,residual_hgb,b p u,False,,73675,
+s601:column:q6844,residual_hgb,residual_hgb,b p ph u,False,184756549.51710245,184756550,True
+s601:column:q6844,direct_hgb,direct_hgb,p u,False,31358.043334515572,31358,True
+s601:column:q6844,direct_hgb,direct_hgb,b p u,False,,62095,
+s601:column:q6844,direct_hgb,direct_hgb,b p ph u,False,815072.2649345307,815072,True
+s601:column:q6844,residual_rf,residual_rf,p u,False,19481.441394523004,19481,True
+s601:column:q6844,residual_rf,residual_rf,b p u,False,,38576,
+s601:column:q6844,residual_rf,residual_rf,b p ph u,False,50956309.456869915,50956309,True
+s601:column:q6844,direct_rf,direct_rf,p u,False,25584.68527530004,25585,True
+s601:column:q6844,direct_rf,direct_rf,b p u,False,,50663,
+s601:column:q6844,direct_rf,direct_rf,b p ph u,False,508899.4976327542,508899,True
+s601:column:q331,pg,pg,b u,False,,74751,
+s601:column:q331,pg_map,pg_map,b u,False,74751.0,74751,True
+s601:column:q331,residual_hgb,residual_hgb,b u,False,42668.61401859462,42669,True
+s601:column:q331,direct_hgb,direct_hgb,b u,False,40718.49545536731,40718,True
+s601:column:q331,residual_rf,residual_rf,b u,False,31814.594296869083,31815,True
+s601:column:q331,direct_rf,direct_rf,b u,False,43832.89355895096,43833,True
+s601:column:q3010,pg,pg,c u,False,,161707,
+s601:column:q3010,pg,pg,c u v,False,,1277813,
+s601:column:q3010,pg_map,pg_map,c u,False,161707.0,161707,True
+s601:column:q3010,pg_map,pg_map,c u v,False,1277811.0,1277811,True
+s601:column:q3010,residual_hgb,residual_hgb,c u,False,85053.64047288315,85054,True
+s601:column:q3010,residual_hgb,residual_hgb,c u v,False,9879.384407599517,9879,True
+s601:column:q3010,direct_hgb,direct_hgb,c u,False,70400.63319566274,70401,True
+s601:column:q3010,direct_hgb,direct_hgb,c u v,False,162501.34011914488,162501,True
+s601:column:q3010,residual_rf,residual_rf,c u,False,61825.285861561824,61825,True
+s601:column:q3010,residual_rf,residual_rf,c u v,False,21925.59261791856,21926,True
+s601:column:q3010,direct_rf,direct_rf,c u,False,55734.12092666741,55734,True
+s601:column:q3010,direct_rf,direct_rf,c u v,False,196388.77520170616,196389,True
+s601:column:q1041,pg,pg,b p,False,,97820,
+s601:column:q1041,pg_map,pg_map,b p,False,97820.0,97820,True
+s601:column:q1041,residual_hgb,residual_hgb,b p,False,479604.686988939,479605,True
+s601:column:q1041,direct_hgb,direct_hgb,b p,False,67562.07728465913,67562,True
+s601:column:q1041,residual_rf,residual_rf,b p,False,197709.07509697013,197709,True
+s601:column:q1041,direct_rf,direct_rf,b p,False,59712.61563793654,59713,True
+s601:column:q2232,pg,pg,p u,False,,41459,
+s601:column:q2232,pg,pg,c p u,False,,25037750,
+s601:column:q2232,pg_map,pg_map,p u,False,41459.0,41459,True
+s601:column:q2232,pg_map,pg_map,c p u,False,25037750.0,25037750,True
+s601:column:q2232,residual_hgb,residual_hgb,p u,False,12955.686414968312,12956,True
+s601:column:q2232,residual_hgb,residual_hgb,c p u,False,207427.62986428326,207428,True
+s601:column:q2232,direct_hgb,direct_hgb,p u,False,24106.68873488169,24107,True
+s601:column:q2232,direct_hgb,direct_hgb,c p u,False,270304.7089068387,270305,True
+s601:column:q2232,residual_rf,residual_rf,p u,False,18607.712450075942,18608,True
+s601:column:q2232,residual_rf,residual_rf,c p u,False,147180.99815442282,147181,True
+s601:column:q2232,direct_rf,direct_rf,p u,False,9754.53827400418,9755,True
+s601:column:q2232,direct_rf,direct_rf,c p u,False,212679.0758774923,212679,True
+s601:column:q1276,pg,pg,p pl,False,,737,
+s601:column:q1276,pg,pg,c p pl,False,,1367,
+s601:column:q1276,pg_map,pg_map,p pl,False,737.0,737,True
+s601:column:q1276,pg_map,pg_map,c p pl,False,1367.0,1367,True
+s601:column:q1276,residual_hgb,residual_hgb,p pl,False,8093.777095175306,8094,True
+s601:column:q1276,residual_hgb,residual_hgb,c p pl,False,7143.159124152026,7143,True
+s601:column:q1276,direct_hgb,direct_hgb,p pl,False,5106.282952135852,5106,True
+s601:column:q1276,direct_hgb,direct_hgb,c p pl,False,11072.078243081178,11072,True
+s601:column:q1276,residual_rf,residual_rf,p pl,False,8764.698592871604,8765,True
+s601:column:q1276,residual_rf,residual_rf,c p pl,False,11180.17602394286,11180,True
+s601:column:q1276,direct_rf,direct_rf,p pl,False,5418.486574856132,5418,True
+s601:column:q1276,direct_rf,direct_rf,c p pl,False,10931.938742451059,10932,True
+s601:column:q5933,pg,pg,pl v,False,,372,
+s601:column:q5933,pg,pg,c pl v,False,,1305,
+s601:column:q5933,pg,pg,c ph pl v,False,,6164,
+s601:column:q5933,pg_map,pg_map,pl v,False,,372,
+s601:column:q5933,pg_map,pg_map,c pl v,False,,1305,
+s601:column:q5933,pg_map,pg_map,c ph pl v,False,6164.0,6164,True
+s601:column:q5933,residual_hgb,residual_hgb,pl v,False,,372,
+s601:column:q5933,residual_hgb,residual_hgb,c pl v,False,,851,
+s601:column:q5933,residual_hgb,residual_hgb,c ph pl v,False,17512.477921828406,17512,True
+s601:column:q5933,direct_hgb,direct_hgb,pl v,False,,372,
+s601:column:q5933,direct_hgb,direct_hgb,c pl v,False,,626,
+s601:column:q5933,direct_hgb,direct_hgb,c ph pl v,False,8153.954471960723,8154,True
+s601:column:q5933,residual_rf,residual_rf,pl v,False,,372,
+s601:column:q5933,residual_rf,residual_rf,c pl v,False,,627,
+s601:column:q5933,residual_rf,residual_rf,c ph pl v,False,5707.675472742594,5708,True
+s601:column:q5933,direct_rf,direct_rf,pl v,False,,372,
+s601:column:q5933,direct_rf,direct_rf,c pl v,False,,440,
+s601:column:q5933,direct_rf,direct_rf,c ph pl v,False,6173.341394351448,6173,True
+s601:column:q1957,pg,pg,c u,False,,169726,
+s601:column:q1957,pg,pg,c p u,False,,163769,
+s601:column:q1957,pg_map,pg_map,c u,False,169726.0,169726,True
+s601:column:q1957,pg_map,pg_map,c p u,False,163769.0,163769,True
+s601:column:q1957,residual_hgb,residual_hgb,c p,False,139689.26257160402,139689,True
+s601:column:q1957,residual_hgb,residual_hgb,c p u,False,112882.34438647602,112882,True
+s601:column:q1957,direct_hgb,direct_hgb,c u,False,155915.5363646392,155916,True
+s601:column:q1957,direct_hgb,direct_hgb,c p u,False,114855.27561308233,114855,True
+s601:column:q1957,residual_rf,residual_rf,c u,False,121545.26170875279,121545,True
+s601:column:q1957,residual_rf,residual_rf,c p u,False,70089.27278483799,70089,True
+s601:column:q1957,direct_rf,direct_rf,c u,False,129067.44672500783,129067,True
+s601:column:q1957,direct_rf,direct_rf,c p u,False,76004.75824513275,76005,True
+s601:column:q5735,pg,pg,c u,False,,159009,
+s601:column:q5735,pg,pg,b v,False,,710651,
+s601:column:q5735,pg,pg,b c u v,False,,860347493,
+s601:column:q5735,pg_map,pg_map,b v,False,,710651,
+s601:column:q5735,pg_map,pg_map,b u v,False,61795.0,61795,True
+s601:column:q5735,pg_map,pg_map,b c u v,False,11885957.0,11885957,True
+s601:column:q5735,residual_hgb,residual_hgb,b v,False,,710651,
+s601:column:q5735,residual_hgb,residual_hgb,b u v,False,43092.171362210254,43092,True
+s601:column:q5735,residual_hgb,residual_hgb,b c u v,False,61450.21814389327,61450,True
+s601:column:q5735,direct_hgb,direct_hgb,b v,False,,710651,
+s601:column:q5735,direct_hgb,direct_hgb,b u v,False,43565.30564139127,43565,True
+s601:column:q5735,direct_hgb,direct_hgb,b c u v,False,323081.3332804294,323081,True
+s601:column:q5735,residual_rf,residual_rf,b v,False,,710651,
+s601:column:q5735,residual_rf,residual_rf,b u v,False,20356.514618956528,20357,True
+s601:column:q5735,residual_rf,residual_rf,b c u v,False,106706.49282766985,106706,True
+s601:column:q5735,direct_rf,direct_rf,c u,False,50759.849272211475,50760,True
+s601:column:q5735,direct_rf,direct_rf,b v,False,,710651,
+s601:column:q5735,direct_rf,direct_rf,b c u v,False,277407.7073005595,277408,True
+s601:column:q8294,pg,pg,p v,False,,3654,
+s601:column:q8294,pg,pg,p u v,False,,3494,
+s601:column:q8294,pg,pg,c p u v,False,,6622,
+s601:column:q8294,pg,pg,c p ph u v,False,,20486,
+s601:column:q8294,pg,pg,b c p ph u v,False,,745788,
+s601:column:q8294,pg_map,pg_map,p v,False,3654.0,3654,True
+s601:column:q8294,pg_map,pg_map,p u v,False,3494.0,3494,True
+s601:column:q8294,pg_map,pg_map,c p u v,False,6622.0,6622,True
+s601:column:q8294,pg_map,pg_map,c p ph u v,False,20486.0,20486,True
+s601:column:q8294,pg_map,pg_map,b c p ph u v,False,745788.0,745788,True
+s601:column:q8294,residual_hgb,residual_hgb,p v,False,590.2023167583659,590,True
+s601:column:q8294,residual_hgb,residual_hgb,p u v,False,250.28655419132104,250,True
+s601:column:q8294,residual_hgb,residual_hgb,c p u v,False,248.37098489273836,248,True
+s601:column:q8294,residual_hgb,residual_hgb,c p ph u v,False,1469.5572152693142,1470,True
+s601:column:q8294,residual_hgb,residual_hgb,b c p ph u v,False,3004.4153499516506,3004,True
+s601:column:q8294,direct_hgb,direct_hgb,p v,False,183.06465171500525,183,True
+s601:column:q8294,direct_hgb,direct_hgb,c p v,False,334.88280709661075,335,True
+s601:column:q8294,direct_hgb,direct_hgb,c p ph v,False,1208.226521650704,1208,True
+s601:column:q8294,direct_hgb,direct_hgb,c p ph u v,False,6159.591100955676,6160,True
+s601:column:q8294,direct_hgb,direct_hgb,b c p ph u v,False,34203.114279834655,34203,True
+s601:column:q8294,residual_rf,residual_rf,p v,False,949.2789075396292,949,True
+s601:column:q8294,residual_rf,residual_rf,p u v,False,480.3333895405426,480,True
+s601:column:q8294,residual_rf,residual_rf,c p u v,False,521.6204340737105,522,True
+s601:column:q8294,residual_rf,residual_rf,c p ph u v,False,2340.9149943415373,2341,True
+s601:column:q8294,residual_rf,residual_rf,b c p ph u v,False,22433.572965612937,22434,True
+s601:column:q8294,direct_rf,direct_rf,p v,False,1329.5101072194016,1330,True
+s601:column:q8294,direct_rf,direct_rf,p u v,False,848.366492715899,848,True
+s601:column:q8294,direct_rf,direct_rf,c p u v,False,1107.6728860016865,1108,True
+s601:column:q8294,direct_rf,direct_rf,c p ph u v,False,5466.674441215822,5467,True
+s601:column:q8294,direct_rf,direct_rf,b c p ph u v,False,28601.545465486965,28602,True
+s601:column:q3455,pg,pg,p pl,False,,664,
+s601:column:q3455,pg,pg,p ph pl,False,,2189,
+s601:column:q3455,pg_map,pg_map,p pl,False,664.0,664,True
+s601:column:q3455,pg_map,pg_map,p ph pl,False,2188.0,2188,True
+s601:column:q3455,residual_hgb,residual_hgb,p pl,False,3773.6364522392214,3774,True
+s601:column:q3455,residual_hgb,residual_hgb,p ph pl,False,17861.540166365332,17862,True
+s601:column:q3455,direct_hgb,direct_hgb,p pl,False,4552.192303936434,4552,True
+s601:column:q3455,direct_hgb,direct_hgb,p ph pl,False,16015.14648356654,16015,True
+s601:column:q3455,residual_rf,residual_rf,p pl,False,4500.264878548266,4500,True
+s601:column:q3455,residual_rf,residual_rf,p ph pl,False,20700.979421491335,20701,True
+s601:column:q3455,direct_rf,direct_rf,p pl,False,6085.570039431967,6086,True
+s601:column:q3455,direct_rf,direct_rf,p ph pl,False,14176.956554841001,14177,True
+s601:column:q6139,pg,pg,b u,False,,77245,
+s601:column:q6139,pg,pg,b ph u,False,,13399280,
+s601:column:q6139,pg,pg,b c ph u,False,,20746533694,
+s601:column:q6139,pg_map,pg_map,b u,False,77245.0,77245,True
+s601:column:q6139,pg_map,pg_map,b ph u,False,13399280.0,13399280,True
+s601:column:q6139,pg_map,pg_map,b c ph u,False,20746533018.0,20746533018,True
+s601:column:q6139,residual_hgb,residual_hgb,c u,False,24674.20604774556,24674,True
+s601:column:q6139,residual_hgb,residual_hgb,b c u,False,78288.24623756266,78288,True
+s601:column:q6139,residual_hgb,residual_hgb,b c ph u,False,64829943.20231264,64829943,True
+s601:column:q6139,direct_hgb,direct_hgb,c u,False,24060.490657873386,24060,True
+s601:column:q6139,direct_hgb,direct_hgb,c ph u,False,132523.80626462714,132524,True
+s601:column:q6139,direct_hgb,direct_hgb,b c ph u,False,117489.0022493457,117489,True
+s601:column:q6139,residual_rf,residual_rf,b u,False,36022.662877637864,36023,True
+s601:column:q6139,residual_rf,residual_rf,b ph u,False,202393.01327240656,202393,True
+s601:column:q6139,residual_rf,residual_rf,b c ph u,False,146712546.42307976,146712546,True
+s601:column:q6139,direct_rf,direct_rf,c u,False,61796.85673179423,61797,True
+s601:column:q6139,direct_rf,direct_rf,c ph u,False,368923.26945789816,368923,True
+s601:column:q6139,direct_rf,direct_rf,b c ph u,False,372335.2269729421,372335,True
+s601:column:q3128,pg,pg,b u,False,,67034,
+s601:column:q3128,pg,pg,b c u,False,,12893781,
+s601:column:q3128,pg_map,pg_map,b u,False,,67034,
+s601:column:q3128,pg_map,pg_map,b c u,False,12893781.0,12893781,True
+s601:column:q3128,residual_hgb,residual_hgb,c u,False,53727.99197682943,53728,True
+s601:column:q3128,residual_hgb,residual_hgb,b c u,False,59503.16552471735,59503,True
+s601:column:q3128,direct_hgb,direct_hgb,c u,False,67032.15312991431,67032,True
+s601:column:q3128,direct_hgb,direct_hgb,b c u,False,280012.5800273653,280013,True
+s601:column:q3128,residual_rf,residual_rf,c u,False,55648.864916115774,55649,True
+s601:column:q3128,residual_rf,residual_rf,b c u,False,134422.7302484603,134423,True
+s601:column:q3128,direct_rf,direct_rf,c u,False,54377.59495650063,54378,True
+s601:column:q3128,direct_rf,direct_rf,b c u,False,295954.06732949073,295954,True
+s601:column:q6952,pg,pg,b v,False,,3385,
+s601:column:q6952,pg,pg,b u v,False,,313,
+s601:column:q6952,pg,pg,b ph u v,False,,29808,
+s601:column:q6952,pg_map,pg_map,b v,False,,3385,
+s601:column:q6952,pg_map,pg_map,b u v,False,312.0,312,True
+s601:column:q6952,pg_map,pg_map,b ph u v,False,16793.0,16793,True
+s601:column:q6952,residual_hgb,residual_hgb,b v,False,,3385,
+s601:column:q6952,residual_hgb,residual_hgb,b u v,False,1317.8862136280054,1318,True
+s601:column:q6952,residual_hgb,residual_hgb,b ph u v,False,8527.712032474881,8528,True
+s601:column:q6952,direct_hgb,direct_hgb,u v,False,594.1620464598018,594,True
+s601:column:q6952,direct_hgb,direct_hgb,ph u v,False,2281.9577039371216,2282,True
+s601:column:q6952,direct_hgb,direct_hgb,b ph u v,False,9441.557907307633,9442,True
+s601:column:q6952,residual_rf,residual_rf,b v,False,,3385,
+s601:column:q6952,residual_rf,residual_rf,b u v,False,1751.1885012008026,1751,True
+s601:column:q6952,residual_rf,residual_rf,b ph u v,False,6897.30117597258,6897,True
+s601:column:q6952,direct_rf,direct_rf,b v,False,,3385,
+s601:column:q6952,direct_rf,direct_rf,b u v,False,1343.6995053046496,1344,True
+s601:column:q6952,direct_rf,direct_rf,b ph u v,False,5642.36472103782,5642,True
+s601:column:q7101,pg,pg,p pl,False,,9801,
+s601:column:q7101,pg,pg,p pl v,False,,27932,
+s601:column:q7101,pg,pg,c p pl v,False,,52931,
+s601:column:q7101,pg,pg,c p ph pl v,False,,174480,
+s601:column:q7101,pg_map,pg_map,p pl,False,9801.0,9801,True
+s601:column:q7101,pg_map,pg_map,p pl v,False,27932.0,27932,True
+s601:column:q7101,pg_map,pg_map,c p pl v,False,52931.0,52931,True
+s601:column:q7101,pg_map,pg_map,c p ph pl v,False,174486.0,174486,True
+s601:column:q7101,residual_hgb,residual_hgb,p pl,False,11908.279657995921,11908,True
+s601:column:q7101,residual_hgb,residual_hgb,p pl v,False,40687.88734988458,40688,True
+s601:column:q7101,residual_hgb,residual_hgb,c p pl v,False,85049.82850786866,85050,True
+s601:column:q7101,residual_hgb,residual_hgb,c p ph pl v,False,444181.58535622875,444182,True
+s601:column:q7101,direct_hgb,direct_hgb,p pl,False,15141.679014168467,15142,True
+s601:column:q7101,direct_hgb,direct_hgb,c p pl,False,26267.21064123629,26267,True
+s601:column:q7101,direct_hgb,direct_hgb,c p pl v,False,87528.2603626091,87528,True
+s601:column:q7101,direct_hgb,direct_hgb,c p ph pl v,False,132055.9524617618,132056,True
+s601:column:q7101,residual_rf,residual_rf,p pl,False,16966.942121476826,16967,True
+s601:column:q7101,residual_rf,residual_rf,c p pl,False,26778.04454944067,26778,True
+s601:column:q7101,residual_rf,residual_rf,c p pl v,False,85949.61971329058,85950,True
+s601:column:q7101,residual_rf,residual_rf,c p ph pl v,False,319613.6405264929,319614,True
+s601:column:q7101,direct_rf,direct_rf,p pl,False,14723.2760824689,14723,True
+s601:column:q7101,direct_rf,direct_rf,c p pl,False,23083.718216466186,23084,True
+s601:column:q7101,direct_rf,direct_rf,c p pl v,False,36179.40829661167,36179,True
+s601:column:q7101,direct_rf,direct_rf,c p ph pl v,False,32914.08729682481,32914,True
+s601:column:q4945,pg,pg,p pl,False,,5176,
+s601:column:q4945,pg,pg,p pl u,False,,5029,
+s601:column:q4945,pg,pg,c p pl u,False,,9440,
+s601:column:q4945,pg_map,pg_map,p pl,False,5176.0,5176,True
+s601:column:q4945,pg_map,pg_map,p pl u,False,5029.0,5029,True
+s601:column:q4945,pg_map,pg_map,c p pl u,False,9440.0,9440,True
+s601:column:q4945,residual_hgb,residual_hgb,p pl,False,1967.4688378422093,1967,True
+s601:column:q4945,residual_hgb,residual_hgb,p pl u,False,2000.0875892764057,2000,True
+s601:column:q4945,residual_hgb,residual_hgb,c p pl u,False,4089.895475553659,4090,True
+s601:column:q4945,direct_hgb,direct_hgb,p pl,False,1758.9458296285618,1759,True
+s601:column:q4945,direct_hgb,direct_hgb,p pl u,False,2242.809196618404,2243,True
+s601:column:q4945,direct_hgb,direct_hgb,c p pl u,False,5275.110962079216,5275,True
+s601:column:q4945,residual_rf,residual_rf,p pl,False,3738.761581508908,3739,True
+s601:column:q4945,residual_rf,residual_rf,p pl u,False,1660.2767899817795,1660,True
+s601:column:q4945,residual_rf,residual_rf,c p pl u,False,3783.2451771938727,3783,True
+s601:column:q4945,direct_rf,direct_rf,p pl,False,1691.378169033817,1691,True
+s601:column:q4945,direct_rf,direct_rf,p pl u,False,1889.2439192355816,1889,True
+s601:column:q4945,direct_rf,direct_rf,c p pl u,False,3599.0613032205047,3599,True
+s601:column:q5454,pg,pg,ph v,False,,55052,
+s601:column:q5454,pg,pg,ph u v,False,,5752,
+s601:column:q5454,pg,pg,c ph u v,False,,3752392,
+s601:column:q5454,pg_map,pg_map,ph v,False,55052.0,55052,True
+s601:column:q5454,pg_map,pg_map,ph u v,False,1108.0,1108,True
+s601:column:q5454,pg_map,pg_map,c ph u v,False,722876.0,722876,True
+s601:column:q5454,residual_hgb,residual_hgb,ph v,False,213172.61474731003,213173,True
+s601:column:q5454,residual_hgb,residual_hgb,ph u v,False,1432.4879324178135,1432,True
+s601:column:q5454,residual_hgb,residual_hgb,c ph u v,False,9373.24356006108,9373,True
+s601:column:q5454,direct_hgb,direct_hgb,ph v,False,65089.02941904023,65089,True
+s601:column:q5454,direct_hgb,direct_hgb,ph u v,False,2419.3306516362873,2419,True
+s601:column:q5454,direct_hgb,direct_hgb,c ph u v,False,287612.7780229019,287613,True
+s601:column:q5454,residual_rf,residual_rf,ph v,False,89855.75498858347,89856,True
+s601:column:q5454,residual_rf,residual_rf,ph u v,False,1982.896247448442,1983,True
+s601:column:q5454,residual_rf,residual_rf,c ph u v,False,34188.12575117929,34188,True
+s601:column:q5454,direct_rf,direct_rf,ph v,False,70251.26719342449,70251,True
+s601:column:q5454,direct_rf,direct_rf,ph u v,False,1260.9752285713853,1261,True
+s601:column:q5454,direct_rf,direct_rf,c ph u v,False,132783.70429359772,132784,True
+s601:table:q590,pg,pg,p pl,False,,606,
+s601:table:q590,pg,pg,c p pl,False,,886,
+s601:table:q590,pg,pg,c p ph pl,False,,651,
+s601:table:q590,pg,pg,c p ph pl v,False,,1838,
+s601:table:q590,pg_map,pg_map,p pl,False,606.0,606,True
+s601:table:q590,pg_map,pg_map,c p pl,False,886.0,886,True
+s601:table:q590,pg_map,pg_map,c p ph pl,False,652.0,652,True
+s601:table:q590,pg_map,pg_map,c p ph pl v,False,1841.0,1841,True
+s601:table:q590,residual_hgb,residual_hgb,p pl,False,8483.261789712362,8483,True
+s601:table:q590,residual_hgb,residual_hgb,p ph pl,False,4617.148318018032,4617,True
+s601:table:q590,residual_hgb,residual_hgb,p ph pl v,False,8590.07282636845,8590,True
+s601:table:q590,residual_hgb,residual_hgb,c p ph pl v,False,15193.90448392348,15194,True
+s601:table:q590,direct_hgb,direct_hgb,p pl,False,7493.952267646183,7494,True
+s601:table:q590,direct_hgb,direct_hgb,p ph pl,False,5871.3277454567715,5871,True
+s601:table:q590,direct_hgb,direct_hgb,p ph pl v,False,4186.391183498063,4186,True
+s601:table:q590,direct_hgb,direct_hgb,c p ph pl v,False,6083.912413043108,6084,True
+s601:table:q590,residual_rf,residual_rf,p pl,False,5078.936989161531,5079,True
+s601:table:q590,residual_rf,residual_rf,p ph pl,False,4422.96548985324,4423,True
+s601:table:q590,residual_rf,residual_rf,c p ph pl,False,6904.90423884178,6905,True
+s601:table:q590,residual_rf,residual_rf,c p ph pl v,False,19736.21334062358,19736,True
+s601:table:q590,direct_rf,direct_rf,p pl,False,5625.488707462972,5625,True
+s601:table:q590,direct_rf,direct_rf,p ph pl,False,4827.755811425788,4828,True
+s601:table:q590,direct_rf,direct_rf,p ph pl v,False,6896.04077611997,6896,True
+s601:table:q590,direct_rf,direct_rf,c p ph pl v,False,7735.811139414704,7736,True
+s601:table:q4941,pg,pg,b v,False,,3354,
+s601:table:q4941,pg,pg,b u v,False,,332,
+s601:table:q4941,pg,pg,b p u v,False,,181920,
+s601:table:q4941,pg,pg,b c p u v,False,,682560462,
+s601:table:q4941,pg_map,pg_map,u v,False,,149,
+s601:table:q4941,pg_map,pg_map,p u v,False,,4997,
+s601:table:q4941,pg_map,pg_map,c p u v,False,105296.0,105296,True
+s601:table:q4941,pg_map,pg_map,b c p u v,False,9429776.0,9429776,True
+s601:table:q4941,residual_hgb,residual_hgb,u v,False,,149,
+s601:table:q4941,residual_hgb,residual_hgb,c u v,False,,45863,
+s601:table:q4941,residual_hgb,residual_hgb,c p u v,False,22949.366633241432,22949,True
+s601:table:q4941,residual_hgb,residual_hgb,b c p u v,False,43139.88263186386,43140,True
+s601:table:q4941,direct_hgb,direct_hgb,u v,False,,149,
+s601:table:q4941,direct_hgb,direct_hgb,c u v,False,,45863,
+s601:table:q4941,direct_hgb,direct_hgb,c p u v,False,35071.41436506611,35071,True
+s601:table:q4941,direct_hgb,direct_hgb,b c p u v,False,106983.46689964786,106983,True
+s601:table:q4941,residual_rf,residual_rf,u v,False,,149,
+s601:table:q4941,residual_rf,residual_rf,p u v,False,,3007,
+s601:table:q4941,residual_rf,residual_rf,c p u v,False,26279.81798307587,26280,True
+s601:table:q4941,residual_rf,residual_rf,b c p u v,False,71098.14732757669,71098,True
+s601:table:q4941,direct_rf,direct_rf,u v,False,,149,
+s601:table:q4941,direct_rf,direct_rf,p u v,False,,3619,
+s601:table:q4941,direct_rf,direct_rf,c p u v,False,39904.43754436484,39904,True
+s601:table:q4941,direct_rf,direct_rf,b c p u v,False,169735.0307824884,169735,True
+s601:table:q837,pg,pg,p pl,False,,105,
+s601:table:q837,pg,pg,p pl v,False,,2,
+s601:table:q837,pg,pg,c p pl v,False,,4,
+s601:table:q837,pg,pg,c p ph pl v,False,,1,
+s601:table:q837,pg_map,pg_map,p pl,False,105.0,105,True
+s601:table:q837,pg_map,pg_map,p pl v,False,2.0,2,True
+s601:table:q837,pg_map,pg_map,c p pl v,False,4.0,4,True
+s601:table:q837,pg_map,pg_map,c p ph pl v,False,1.0,1,True
+s601:table:q837,residual_hgb,residual_hgb,p pl,False,585.4209120581114,585,True
+s601:table:q837,residual_hgb,residual_hgb,p pl v,False,57.92224849479965,58,True
+s601:table:q837,residual_hgb,residual_hgb,c p pl v,False,126.05636760333002,126,True
+s601:table:q837,residual_hgb,residual_hgb,c p ph pl v,False,40.60550811356849,41,True
+s601:table:q837,direct_hgb,direct_hgb,p pl,False,586.4243284957796,586,True
+s601:table:q837,direct_hgb,direct_hgb,c p pl,False,834.583157500565,835,True
+s601:table:q837,direct_hgb,direct_hgb,c p pl v,False,172.78619585005262,173,True
+s601:table:q837,direct_hgb,direct_hgb,c p ph pl v,False,52.76735149196003,53,True
+s601:table:q837,residual_rf,residual_rf,p pl,False,471.65434356819105,472,True
+s601:table:q837,residual_rf,residual_rf,p pl v,False,17.089010892328,17,True
+s601:table:q837,residual_rf,residual_rf,c p pl v,False,35.96534389359748,36,True
+s601:table:q837,residual_rf,residual_rf,c p ph pl v,False,11.348220109360712,11,True
+s601:table:q837,direct_rf,direct_rf,p pl,False,684.6403775919603,685,True
+s601:table:q837,direct_rf,direct_rf,c p pl,False,753.9503352450128,754,True
+s601:table:q837,direct_rf,direct_rf,c p pl v,False,139.51476934706244,140,True
+s601:table:q837,direct_rf,direct_rf,c p ph pl v,False,26.59646762257805,27,True
+s601:table:q5884,pg,pg,p u,False,,5646,
+s601:table:q5884,pg,pg,b p u,False,,205537,
+s601:table:q5884,pg,pg,b p ph u,False,,17104100,
+s601:table:q5884,pg,pg,b c p ph u,False,,63744614881,
+s601:table:q5884,pg_map,pg_map,p u,False,5646.0,5646,True
+s601:table:q5884,pg_map,pg_map,b p u,False,205537.0,205537,True
+s601:table:q5884,pg_map,pg_map,b p ph u,False,17104079.0,17104079,True
+s601:table:q5884,pg_map,pg_map,b c p ph u,False,63744614624.0,63744614624,True
+s601:table:q5884,residual_hgb,residual_hgb,b p,False,,213115,
+s601:table:q5884,residual_hgb,residual_hgb,ph u,False,11037.255441287693,11037,True
+s601:table:q5884,residual_hgb,residual_hgb,c ph u,False,468873.6420889902,468874,True
+s601:table:q5884,residual_hgb,residual_hgb,b c p ph u,False,1883578187.9716668,1883578188,True
+s601:table:q5884,direct_hgb,direct_hgb,ph u,False,9866.514533061603,9867,True
+s601:table:q5884,direct_hgb,direct_hgb,b ph u,False,36493.32343592994,36493,True
+s601:table:q5884,direct_hgb,direct_hgb,b c ph u,False,173316.19822558964,173316,True
+s601:table:q5884,direct_hgb,direct_hgb,b c p ph u,False,198109.43785902078,198109,True
+s601:table:q5884,residual_rf,residual_rf,ph u,False,8900.40560315057,8900,True
+s601:table:q5884,residual_rf,residual_rf,b ph u,False,26455.94987613872,26456,True
+s601:table:q5884,residual_rf,residual_rf,b p ph u,False,220415.76390651503,220416,True
+s601:table:q5884,residual_rf,residual_rf,b c p ph u,False,596226100.0867015,596226100,True
+s601:table:q5884,direct_rf,direct_rf,ph u,False,7980.48887048547,7980,True
+s601:table:q5884,direct_rf,direct_rf,c ph u,False,257333.71718409058,257334,True
+s601:table:q5884,direct_rf,direct_rf,c p ph u,False,157939.05200480786,157939,True
+s601:table:q5884,direct_rf,direct_rf,b c p ph u,False,151644.13810271551,151644,True
+s601:table:q5303,pg,pg,p u,False,,38014,
+s601:table:q5303,pg,pg,b p u,False,,1383914,
+s601:table:q5303,pg,pg,b p ph u,False,,803099894,
+s601:table:q5303,pg,pg,b c p ph u,False,,2314570097992,
+s601:table:q5303,pg_map,pg_map,p u,False,38014.0,38014,True
+s601:table:q5303,pg_map,pg_map,b p u,False,1383914.0,1383914,True
+s601:table:q5303,pg_map,pg_map,b p ph u,False,803099987.0,803099987,True
+s601:table:q5303,pg_map,pg_map,b c p ph u,False,2314570097141.0,2314570097141,True
+s601:table:q5303,residual_hgb,residual_hgb,p ph,False,,24674235,
+s601:table:q5303,residual_hgb,residual_hgb,b u,False,18197.133234085904,18197,True
+s601:table:q5303,residual_hgb,residual_hgb,b c u,False,42518.53890869902,42519,True
+s601:table:q5303,residual_hgb,residual_hgb,b c p ph u,False,100301463083.87502,100301463084,True
+s601:table:q5303,direct_hgb,direct_hgb,c u,False,23055.382822517746,23055,True
+s601:table:q5303,direct_hgb,direct_hgb,c ph u,False,364881.89889523934,364882,True
+s601:table:q5303,direct_hgb,direct_hgb,b c ph u,False,318082.0031685729,318082,True
+s601:table:q5303,direct_hgb,direct_hgb,b c p ph u,False,436735.62987576274,436736,True
+s601:table:q5303,residual_rf,residual_rf,b p,False,,1547906,
+s601:table:q5303,residual_rf,residual_rf,c u,False,38832.21835790223,38832,True
+s601:table:q5303,residual_rf,residual_rf,c ph u,False,1173478.5393866755,1173479,True
+s601:table:q5303,residual_rf,residual_rf,b c p ph u,False,50173215474.5843,50173215475,True
+s601:table:q5303,direct_rf,direct_rf,c u,False,45443.376801388025,45443,True
+s601:table:q5303,direct_rf,direct_rf,c ph u,False,311776.52717412595,311777,True
+s601:table:q5303,direct_rf,direct_rf,c p ph u,False,254746.52524485035,254747,True
+s601:table:q5303,direct_rf,direct_rf,b c p ph u,False,244701.35254603068,244701,True
+s601:table:q5460,pg,pg,b p,False,,1347,
+s601:table:q5460,pg,pg,b p ph,False,,774153,
+s601:table:q5460,pg,pg,c u,False,,22731,
+s601:table:q5460,pg,pg,b c p ph u,False,,381330080,
+s601:table:q5460,pg_map,pg_map,b p,False,,1347,
+s601:table:q5460,pg_map,pg_map,b p ph,False,,774153,
+s601:table:q5460,pg_map,pg_map,c u,False,22731.0,22731,True
+s601:table:q5460,pg_map,pg_map,b c p ph u,False,381386971.0,381386971,True
+s601:table:q5460,residual_hgb,residual_hgb,p u,False,180.55537313350507,181,True
+s601:table:q5460,residual_hgb,residual_hgb,b p u,False,585.6072731588451,586,True
+s601:table:q5460,residual_hgb,residual_hgb,b p ph u,False,32279.06901971148,32279,True
+s601:table:q5460,residual_hgb,residual_hgb,b c p ph u,False,15193055.110878479,15193055,True
+s601:table:q5460,direct_hgb,direct_hgb,b p,False,,1347,
+s601:table:q5460,direct_hgb,direct_hgb,b p u,False,2013.2711687002281,2013,True
+s601:table:q5460,direct_hgb,direct_hgb,b p ph u,False,32881.98273445746,32882,True
+s601:table:q5460,direct_hgb,direct_hgb,b c p ph u,False,49825.91080438932,49826,True
+s601:table:q5460,residual_rf,residual_rf,p u,False,79.6332370893889,80,True
+s601:table:q5460,residual_rf,residual_rf,b p u,False,482.71680588400784,483,True
+s601:table:q5460,residual_rf,residual_rf,b p ph u,False,42134.82482800718,42135,True
+s601:table:q5460,residual_rf,residual_rf,b c p ph u,False,2275704.5169920577,2275705,True
+s601:table:q5460,direct_rf,direct_rf,p u,False,702.3273219915841,702,True
+s601:table:q5460,direct_rf,direct_rf,b p u,False,1507.987642622753,1508,True
+s601:table:q5460,direct_rf,direct_rf,b p ph u,False,36750.68027397604,36751,True
+s601:table:q5460,direct_rf,direct_rf,b c p ph u,False,63060.475793305704,63060,True
+s601:table:q1704,pg,pg,ph pl,False,,2594,
+s601:table:q1704,pg,pg,p ph pl,False,,1783,
+s601:table:q1704,pg,pg,c p ph pl,False,,3336,
+s601:table:q1704,pg,pg,c p ph pl u,False,,3085,
+s601:table:q1704,pg_map,pg_map,ph pl,False,2594.0,2594,True
+s601:table:q1704,pg_map,pg_map,p ph pl,False,1783.0,1783,True
+s601:table:q1704,pg_map,pg_map,c p ph pl,False,3336.0,3336,True
+s601:table:q1704,pg_map,pg_map,c p ph pl u,False,3085.0,3085,True
+s601:table:q1704,residual_hgb,residual_hgb,ph pl,False,3438.4510893259126,3438,True
+s601:table:q1704,residual_hgb,residual_hgb,p ph pl,False,3167.657730768949,3168,True
+s601:table:q1704,residual_hgb,residual_hgb,c p ph pl,False,12939.176546841973,12939,True
+s601:table:q1704,residual_hgb,residual_hgb,c p ph pl u,False,995.6841022938348,996,True
+s601:table:q1704,direct_hgb,direct_hgb,ph pl,False,3194.454624850956,3194,True
+s601:table:q1704,direct_hgb,direct_hgb,c ph pl,False,11377.115980600995,11377,True
+s601:table:q1704,direct_hgb,direct_hgb,c ph pl u,False,1810.4923020372132,1810,True
+s601:table:q1704,direct_hgb,direct_hgb,c p ph pl u,False,3633.3725767603632,3633,True
+s601:table:q1704,residual_rf,residual_rf,ph pl,False,2748.775130492867,2749,True
+s601:table:q1704,residual_rf,residual_rf,c ph pl,False,10045.534127194067,10046,True
+s601:table:q1704,residual_rf,residual_rf,c ph pl u,False,1471.6521670482775,1472,True
+s601:table:q1704,residual_rf,residual_rf,c p ph pl u,False,1336.7918804769597,1337,True
+s601:table:q1704,direct_rf,direct_rf,ph pl,False,2373.3988606900334,2373,True
+s601:table:q1704,direct_rf,direct_rf,p ph pl,False,2547.6169304044192,2548,True
+s601:table:q1704,direct_rf,direct_rf,c p ph pl,False,11784.952116592147,11785,True
+s601:table:q1704,direct_rf,direct_rf,c p ph pl u,False,3439.389324713977,3439,True
+s601:table:q3820,pg,pg,b ph,False,,14080124,
+s601:table:q3820,pg,pg,u v,False,,33925,
+s601:table:q3820,pg,pg,c u v,False,,863354,
+s601:table:q3820,pg,pg,b c ph u v,False,,82398842030,
+s601:table:q3820,pg_map,pg_map,u v,False,,33925,
+s601:table:q3820,pg_map,pg_map,b u v,False,,715953,
+s601:table:q3820,pg_map,pg_map,b ph u v,False,11845604.0,11845604,True
+s601:table:q3820,pg_map,pg_map,b c ph u v,False,1787005369.0,1787005369,True
+s601:table:q3820,residual_hgb,residual_hgb,b u,False,54063.38329410236,54063,True
+s601:table:q3820,residual_hgb,residual_hgb,b ph u,False,378237.30849911453,378237,True
+s601:table:q3820,residual_hgb,residual_hgb,b ph u v,False,282004.4226414536,282004,True
+s601:table:q3820,residual_hgb,residual_hgb,b c ph u v,False,34244579.960212834,34244580,True
+s601:table:q3820,direct_hgb,direct_hgb,b u,False,47857.94534039871,47858,True
+s601:table:q3820,direct_hgb,direct_hgb,b ph u,False,341125.06479995407,341125,True
+s601:table:q3820,direct_hgb,direct_hgb,c v,False,446184.74897444656,446185,True
+s601:table:q3820,direct_hgb,direct_hgb,b c ph u v,False,312557.858757295,312558,True
+s601:table:q3820,residual_rf,residual_rf,b u,False,36192.9670750403,36193,True
+s601:table:q3820,residual_rf,residual_rf,b ph u,False,161845.33180750097,161845,True
+s601:table:q3820,residual_rf,residual_rf,b ph u v,False,128902.46104799255,128902,True
+s601:table:q3820,residual_rf,residual_rf,b c ph u v,False,11838423.422992164,11838423,True
+s601:table:q3820,direct_rf,direct_rf,b u,False,47055.2250019549,47055,True
+s601:table:q3820,direct_rf,direct_rf,b ph u,False,432095.8998900999,432096,True
+s601:table:q3820,direct_rf,direct_rf,c v,False,450704.384587038,450704,True
+s601:table:q3820,direct_rf,direct_rf,b c ph u v,False,306283.62611274753,306284,True
+s601:table:q619,pg,pg,ph pl,False,,373,
+s601:table:q619,pg,pg,p ph pl,False,,120,
+s601:table:q619,pg,pg,c p ph pl,False,,32,
+s601:table:q619,pg,pg,c p ph pl v,False,,91,
+s601:table:q619,pg_map,pg_map,ph pl,False,,373,
+s601:table:q619,pg_map,pg_map,p ph pl,False,120.0,120,True
+s601:table:q619,pg_map,pg_map,c p ph pl,False,32.0,32,True
+s601:table:q619,pg_map,pg_map,c p ph pl v,False,91.0,91,True
+s601:table:q619,residual_hgb,residual_hgb,ph pl,False,,373,
+s601:table:q619,residual_hgb,residual_hgb,p ph pl,False,141.95170789406097,142,True
+s601:table:q619,residual_hgb,residual_hgb,c p ph pl,False,172.0496612109854,172,True
+s601:table:q619,residual_hgb,residual_hgb,c p ph pl v,False,287.1665049169701,287,True
+s601:table:q619,direct_hgb,direct_hgb,ph pl,False,,373,
+s601:table:q619,direct_hgb,direct_hgb,c ph pl,False,,238,
+s601:table:q619,direct_hgb,direct_hgb,c p ph pl,False,441.2096395231646,441,True
+s601:table:q619,direct_hgb,direct_hgb,c p ph pl v,False,1116.040380877782,1116,True
+s601:table:q619,residual_rf,residual_rf,ph pl,False,,373,
+s601:table:q619,residual_rf,residual_rf,p ph pl,False,232.59203152214855,233,True
+s601:table:q619,residual_rf,residual_rf,c p ph pl,False,81.96418388966258,82,True
+s601:table:q619,residual_rf,residual_rf,c p ph pl v,False,220.0615081554102,220,True
+s601:table:q619,direct_rf,direct_rf,ph pl,False,,373,
+s601:table:q619,direct_rf,direct_rf,c ph pl,False,,238,
+s601:table:q619,direct_rf,direct_rf,c p ph pl,False,570.0525142035787,570,True
+s601:table:q619,direct_rf,direct_rf,c p ph pl v,False,760.184400241133,760,True
+s601:table:q4850,pg,pg,b v,False,,4326,
+s601:table:q4850,pg,pg,b u v,False,,456,
+s601:table:q4850,pg,pg,b p u v,False,,27016,
+s601:table:q4850,pg,pg,b c p u v,False,,77166467,
+s601:table:q4850,pg_map,pg_map,u v,False,,205,
+s601:table:q4850,pg_map,pg_map,p u v,False,,742,
+s601:table:q4850,pg_map,pg_map,c p u v,False,11904.0,11904,True
+s601:table:q4850,pg_map,pg_map,b c p u v,False,1066078.0,1066078,True
+s601:table:q4850,residual_hgb,residual_hgb,u v,False,,205,
+s601:table:q4850,residual_hgb,residual_hgb,c u v,False,,48020,
+s601:table:q4850,residual_hgb,residual_hgb,c p u v,False,8293.428739728519,8293,True
+s601:table:q4850,residual_hgb,residual_hgb,b c p u v,False,18573.551174289845,18574,True
+s601:table:q4850,direct_hgb,direct_hgb,u v,False,,205,
+s601:table:q4850,direct_hgb,direct_hgb,c u v,False,,48020,
+s601:table:q4850,direct_hgb,direct_hgb,c p u v,False,16196.071965288163,16196,True
+s601:table:q4850,direct_hgb,direct_hgb,b c p u v,False,243289.8495906557,243290,True
+s601:table:q4850,residual_rf,residual_rf,u v,False,,205,
+s601:table:q4850,residual_rf,residual_rf,c u v,False,,48020,
+s601:table:q4850,residual_rf,residual_rf,c p u v,False,8668.163592785144,8668,True
+s601:table:q4850,residual_rf,residual_rf,b c p u v,False,33925.49946349386,33925,True
+s601:table:q4850,direct_rf,direct_rf,u v,False,,205,
+s601:table:q4850,direct_rf,direct_rf,c u v,False,,48020,
+s601:table:q4850,direct_rf,direct_rf,c p u v,False,5257.929064661403,5258,True
+s601:table:q4850,direct_rf,direct_rf,b c p u v,False,97251.06357721743,97251,True
+s601:table:q4568,pg,pg,b v,False,,730063,
+s601:table:q4568,pg,pg,p u,False,,17831,
+s601:table:q4568,pg,pg,c p u,False,,8325411,
+s601:table:q4568,pg,pg,b c p u v,False,,46276613537,
+s601:table:q4568,pg_map,pg_map,p u,False,,17831,
+s601:table:q4568,pg_map,pg_map,p u v,False,,438998,
+s601:table:q4568,pg_map,pg_map,c p u v,False,7138889.0,7138889,True
+s601:table:q4568,pg_map,pg_map,b c p u v,False,639325219.0,639325219,True
+s601:table:q4568,residual_hgb,residual_hgb,b v,False,578364.8034577519,578365,True
+s601:table:q4568,residual_hgb,residual_hgb,p u,False,,17831,
+s601:table:q4568,residual_hgb,residual_hgb,c p u,False,2846566.367072143,2846566,True
+s601:table:q4568,residual_hgb,residual_hgb,b c p u v,False,272665908.61651695,272665909,True
+s601:table:q4568,direct_hgb,direct_hgb,p u,False,,17831,
+s601:table:q4568,direct_hgb,direct_hgb,c p u,False,412061.1735190044,412061,True
+s601:table:q4568,direct_hgb,direct_hgb,b v,False,661956.3631918209,661956,True
+s601:table:q4568,direct_hgb,direct_hgb,b c p u v,False,771144.2508322325,771144,True
+s601:table:q4568,residual_rf,residual_rf,b v,False,465559.1623266797,465559,True
+s601:table:q4568,residual_rf,residual_rf,p u,False,,17831,
+s601:table:q4568,residual_rf,residual_rf,c p u,False,1325173.5352424309,1325174,True
+s601:table:q4568,residual_rf,residual_rf,b c p u v,False,90270905.76376589,90270906,True
+s601:table:q4568,direct_rf,direct_rf,p u,False,,17831,
+s601:table:q4568,direct_rf,direct_rf,c p u,False,187685.4488025508,187685,True
+s601:table:q4568,direct_rf,direct_rf,b v,False,350661.44472495426,350661,True
+s601:table:q4568,direct_rf,direct_rf,b c p u v,False,218470.73667398762,218471,True
+s601:table:q525,pg,pg,p pl,False,,43,
+s601:table:q525,pg,pg,p ph pl,False,,5,
+s601:table:q525,pg,pg,c p ph pl,False,,7,
+s601:table:q525,pg,pg,c p ph pl v,False,,25,
+s601:table:q525,pg_map,pg_map,p pl,False,43.0,43,True
+s601:table:q525,pg_map,pg_map,p ph pl,False,5.0,5,True
+s601:table:q525,pg_map,pg_map,c p ph pl,False,7.0,7,True
+s601:table:q525,pg_map,pg_map,c p ph pl v,False,25.0,25,True
+s601:table:q525,residual_hgb,residual_hgb,p pl,False,162.54990517835134,163,True
+s601:table:q525,residual_hgb,residual_hgb,p ph pl,False,55.553066143583806,56,True
+s601:table:q525,residual_hgb,residual_hgb,c p ph pl,False,103.18690380514084,103,True
+s601:table:q525,residual_hgb,residual_hgb,c p ph pl v,False,326.89383109760655,327,True
+s601:table:q525,direct_hgb,direct_hgb,p pl,False,172.31791078637755,172,True
+s601:table:q525,direct_hgb,direct_hgb,p pl v,False,305.78062033126224,306,True
+s601:table:q525,direct_hgb,direct_hgb,p ph pl v,False,242.00107387764012,242,True
+s601:table:q525,direct_hgb,direct_hgb,c p ph pl v,False,248.22283727932503,248,True
+s601:table:q525,residual_rf,residual_rf,p pl,False,275.8269203379486,276,True
+s601:table:q525,residual_rf,residual_rf,p ph pl,False,54.281491581470426,54,True
+s601:table:q525,residual_rf,residual_rf,c p ph pl,False,84.77205166619324,85,True
+s601:table:q525,residual_rf,residual_rf,c p ph pl v,False,288.97532569608535,289,True
+s601:table:q525,direct_rf,direct_rf,p pl,False,535.7416166377495,536,True
+s601:table:q525,direct_rf,direct_rf,c p pl,False,780.1694605562959,780,True
+s601:table:q525,direct_rf,direct_rf,c p ph pl,False,502.02740076179515,502,True
+s601:table:q525,direct_rf,direct_rf,c p ph pl v,False,501.07066459529796,501,True
+s601:table:q8616,pg,pg,p v,False,,6129,
+s601:table:q8616,pg,pg,b p v,False,,13608,
+s601:table:q8616,pg,pg,b p u v,False,,409,
+s601:table:q8616,pg,pg,b p t u v,False,,2,
+s601:table:q8616,pg_map,pg_map,p v,False,,6129,
+s601:table:q8616,pg_map,pg_map,b p v,False,,13608,
+s601:table:q8616,pg_map,pg_map,b p u v,False,7611.0,7611,True
+s601:table:q8616,pg_map,pg_map,b p t u v,False,49.0,49,True
+s601:table:q8616,residual_hgb,residual_hgb,p v,False,,6129,
+s601:table:q8616,residual_hgb,residual_hgb,b p v,False,,13608,
+s601:table:q8616,residual_hgb,residual_hgb,b p u v,False,9208.003973430741,9208,True
+s601:table:q8616,residual_hgb,residual_hgb,b p t u v,False,1807.3561647699091,1807,True
+s601:table:q8616,direct_hgb,direct_hgb,p v,False,,6129,
+s601:table:q8616,direct_hgb,direct_hgb,b p v,False,,13608,
+s601:table:q8616,direct_hgb,direct_hgb,b p u v,False,17697.848333600636,17698,True
+s601:table:q8616,direct_hgb,direct_hgb,b p t u v,False,1434.8474296575228,1435,True
+s601:table:q8616,residual_rf,residual_rf,p v,False,,6129,
+s601:table:q8616,residual_rf,residual_rf,b p v,False,,13608,
+s601:table:q8616,residual_rf,residual_rf,b p u v,False,7011.160694684976,7011,True
+s601:table:q8616,residual_rf,residual_rf,b p t u v,False,325.585603107397,326,True
+s601:table:q8616,direct_rf,direct_rf,p v,False,,6129,
+s601:table:q8616,direct_rf,direct_rf,b p v,False,,13608,
+s601:table:q8616,direct_rf,direct_rf,b p u v,False,5082.275038603754,5082,True
+s601:table:q8616,direct_rf,direct_rf,b p t u v,False,1431.1494358893124,1431,True
+s601:table:q5666,pg,pg,p u,False,,41590,
+s601:table:q5666,pg,pg,b p u,False,,1514089,
+s601:table:q5666,pg,pg,b p ph u,False,,263534360,
+s601:table:q5666,pg,pg,b c p ph u,False,,993932081492,
+s601:table:q5666,pg_map,pg_map,p u,False,41590.0,41590,True
+s601:table:q5666,pg_map,pg_map,b p u,False,1514089.0,1514089,True
+s601:table:q5666,pg_map,pg_map,b p ph u,False,263534437.0,263534437,True
+s601:table:q5666,pg_map,pg_map,b c p ph u,False,993932052150.0,993932052150,True
+s601:table:q5666,residual_hgb,residual_hgb,p u,False,19465.734825808155,19466,True
+s601:table:q5666,residual_hgb,residual_hgb,p ph u,False,34847.94586221026,34848,True
+s601:table:q5666,residual_hgb,residual_hgb,b p ph u,False,1623269.3688142137,1623269,True
+s601:table:q5666,residual_hgb,residual_hgb,b c p ph u,False,4950176751.583656,4950176752,True
+s601:table:q5666,direct_hgb,direct_hgb,ph u,False,16244.4989012286,16244,True
+s601:table:q5666,direct_hgb,direct_hgb,b ph u,False,39925.59336089061,39926,True
+s601:table:q5666,direct_hgb,direct_hgb,b c ph u,False,104013.87017433833,104014,True
+s601:table:q5666,direct_hgb,direct_hgb,b c p ph u,False,134291.1667515043,134291,True
+s601:table:q5666,residual_rf,residual_rf,p u,False,18274.639338573794,18275,True
+s601:table:q5666,residual_rf,residual_rf,p ph u,False,24915.320060451286,24915,True
+s601:table:q5666,residual_rf,residual_rf,b p ph u,False,759596.2982543198,759596,True
+s601:table:q5666,residual_rf,residual_rf,b c p ph u,False,2411032160.0823383,2411032160,True
+s601:table:q5666,direct_rf,direct_rf,ph u,False,23964.831393615594,23965,True
+s601:table:q5666,direct_rf,direct_rf,b ph u,False,56412.28830523347,56412,True
+s601:table:q5666,direct_rf,direct_rf,b c ph u,False,96664.44848933312,96664,True
+s601:table:q5666,direct_rf,direct_rf,b c p ph u,False,91448.71543999412,91449,True
+s601:table:q5628,pg,pg,b u,False,,3103,
+s601:table:q5628,pg,pg,b p u,False,,126766,
+s601:table:q5628,pg,pg,b p ph u,False,,73563405,
+s601:table:q5628,pg,pg,b c p ph u,False,,214106187678,
+s601:table:q5628,pg_map,pg_map,b u,False,3103.0,3103,True
+s601:table:q5628,pg_map,pg_map,b p u,False,126766.0,126766,True
+s601:table:q5628,pg_map,pg_map,b p ph u,False,73563400.0,73563400,True
+s601:table:q5628,pg_map,pg_map,b c p ph u,False,214106186079.0,214106186079,True
+s601:table:q5628,residual_hgb,residual_hgb,ph u,False,2223.235529633579,2223,True
+s601:table:q5628,residual_hgb,residual_hgb,p ph u,False,23266.400886613425,23266,True
+s601:table:q5628,residual_hgb,residual_hgb,b p ph u,False,693840.0293560451,693840,True
+s601:table:q5628,residual_hgb,residual_hgb,b c p ph u,False,1637483883.1054647,1637483883,True
+s601:table:q5628,direct_hgb,direct_hgb,ph u,False,905.0727601733348,905,True
+s601:table:q5628,direct_hgb,direct_hgb,c ph u,False,18384.57147173217,18385,True
+s601:table:q5628,direct_hgb,direct_hgb,b c ph u,False,27758.42208687066,27758,True
+s601:table:q5628,direct_hgb,direct_hgb,b c p ph u,False,68225.4988884376,68225,True
+s601:table:q5628,residual_rf,residual_rf,ph u,False,1727.346308372569,1727,True
+s601:table:q5628,residual_rf,residual_rf,p ph u,False,36292.86327168064,36293,True
+s601:table:q5628,residual_rf,residual_rf,b p ph u,False,822063.8161614218,822064,True
+s601:table:q5628,residual_rf,residual_rf,b c p ph u,False,1725957497.831606,1725957498,True
+s601:table:q5628,direct_rf,direct_rf,ph u,False,653.8069190928948,654,True
+s601:table:q5628,direct_rf,direct_rf,c ph u,False,20959.855333931926,20960,True
+s601:table:q5628,direct_rf,direct_rf,b c ph u,False,26785.265794936793,26785,True
+s601:table:q5628,direct_rf,direct_rf,b c p ph u,False,31921.9732333491,31922,True
+s601:table:q408,pg,pg,p pl,False,,325,
+s601:table:q408,pg,pg,c p pl,False,,475,
+s601:table:q408,pg,pg,c p pl v,False,,1354,
+s601:table:q408,pg,pg,c p ph pl v,False,,4463,
+s601:table:q408,pg_map,pg_map,p pl,False,325.0,325,True
+s601:table:q408,pg_map,pg_map,c p pl,False,475.0,475,True
+s601:table:q408,pg_map,pg_map,c p pl v,False,1354.0,1354,True
+s601:table:q408,pg_map,pg_map,c p ph pl v,False,4463.0,4463,True
+s601:table:q408,residual_hgb,residual_hgb,p pl,False,2131.3865517435906,2131,True
+s601:table:q408,residual_hgb,residual_hgb,c p pl,False,3651.1307133667924,3651,True
+s601:table:q408,residual_hgb,residual_hgb,c p pl v,False,8079.884100052546,8080,True
+s601:table:q408,residual_hgb,residual_hgb,c p ph pl v,False,55819.18251151733,55819,True
+s601:table:q408,direct_hgb,direct_hgb,p pl,False,2065.9220601475567,2066,True
+s601:table:q408,direct_hgb,direct_hgb,c p pl,False,3911.657739897329,3912,True
+s601:table:q408,direct_hgb,direct_hgb,c p pl v,False,5073.629382026533,5074,True
+s601:table:q408,direct_hgb,direct_hgb,c p ph pl v,False,25405.595402936935,25406,True
+s601:table:q408,residual_rf,residual_rf,p pl,False,3223.364950996541,3223,True
+s601:table:q408,residual_rf,residual_rf,c p pl,False,5207.862645720274,5208,True
+s601:table:q408,residual_rf,residual_rf,c p pl v,False,12725.91373882814,12726,True
+s601:table:q408,residual_rf,residual_rf,c p ph pl v,False,46079.4114098344,46079,True
+s601:table:q408,direct_rf,direct_rf,p pl,False,2898.463598746831,2898,True
+s601:table:q408,direct_rf,direct_rf,c p pl,False,4849.884781075449,4850,True
+s601:table:q408,direct_rf,direct_rf,c p pl v,False,7257.50820906029,7258,True
+s601:table:q408,direct_rf,direct_rf,c p ph pl v,False,20366.342387150336,20366,True
+s601:table:q2507,pg,pg,p u,False,,2581,
+s601:table:q2507,pg,pg,p ph u,False,,80778,
+s601:table:q2507,pg,pg,p ph u v,False,,1988783,
+s601:table:q2507,pg,pg,c p ph u v,False,,1072602124,
+s601:table:q2507,pg_map,pg_map,p u,False,,2581,
+s601:table:q2507,pg_map,pg_map,p ph u,False,,80778,
+s601:table:q2507,pg_map,pg_map,p ph u v,False,,1988783,
+s601:table:q2507,pg_map,pg_map,c p ph u v,False,14818318.0,14818318,True
+s601:table:q2507,residual_hgb,residual_hgb,p ph,False,879955.2630798983,879955,True
+s601:table:q2507,residual_hgb,residual_hgb,c u,False,3659.298925093065,3659,True
+s601:table:q2507,residual_hgb,residual_hgb,c p ph u,False,2369367.6550330934,2369368,True
+s601:table:q2507,residual_hgb,residual_hgb,c p ph u v,False,2166240.145046668,2166240,True
+s601:table:q2507,direct_hgb,direct_hgb,c u,False,3028.7607595787654,3029,True
+s601:table:q2507,direct_hgb,direct_hgb,c p u,False,128230.77363459849,128231,True
+s601:table:q2507,direct_hgb,direct_hgb,c p ph u,False,49244.207616938314,49244,True
+s601:table:q2507,direct_hgb,direct_hgb,c p ph u v,False,53257.93125665479,53258,True
+s601:table:q2507,residual_rf,residual_rf,c u,False,5233.02328848395,5233,True
+s601:table:q2507,residual_rf,residual_rf,c p u,False,274822.3448267875,274822,True
+s601:table:q2507,residual_rf,residual_rf,c p ph u,False,359693.05840021087,359693,True
+s601:table:q2507,residual_rf,residual_rf,c p ph u v,False,308063.9649719264,308064,True
+s601:table:q2507,direct_rf,direct_rf,c u,False,6641.470474170345,6641,True
+s601:table:q2507,direct_rf,direct_rf,c p u,False,61995.41237858267,61995,True
+s601:table:q2507,direct_rf,direct_rf,c p ph u,False,18906.515730189647,18907,True
+s601:table:q2507,direct_rf,direct_rf,c p ph u v,False,19994.974836233814,19995,True
+s601:table:q3130,pg,pg,u v,False,,199,
+s601:table:q3130,pg,pg,ph u v,False,,61815,
+s601:table:q3130,pg,pg,p ph u v,False,,3375472,
+s601:table:q3130,pg,pg,c p ph u v,False,,12901186375,
+s601:table:q3130,pg_map,pg_map,u v,False,,199,
+s601:table:q3130,pg_map,pg_map,ph u v,False,,61815,
+s601:table:q3130,pg_map,pg_map,p ph u v,False,,3375472,
+s601:table:q3130,pg_map,pg_map,c p ph u v,False,178233740.0,178233740,True
+s601:table:q3130,residual_hgb,residual_hgb,c u,False,67476.53202559818,67477,True
+s601:table:q3130,residual_hgb,residual_hgb,p v,False,,6330,
+s601:table:q3130,residual_hgb,residual_hgb,p ph v,False,3080596.669713534,3080597,True
+s601:table:q3130,residual_hgb,residual_hgb,c p ph u v,False,26673628.88937126,26673629,True
+s601:table:q3130,direct_hgb,direct_hgb,u v,False,,199,
+s601:table:q3130,direct_hgb,direct_hgb,c u v,False,,60694,
+s601:table:q3130,direct_hgb,direct_hgb,c p u v,False,,191989,
+s601:table:q3130,direct_hgb,direct_hgb,c p ph u v,False,815072.2649345307,815072,True
+s601:table:q3130,residual_rf,residual_rf,c u,False,68911.66795606865,68912,True
+s601:table:q3130,residual_rf,residual_rf,p v,False,,6330,
+s601:table:q3130,residual_rf,residual_rf,p ph v,False,538758.912429002,538759,True
+s601:table:q3130,residual_rf,residual_rf,c p ph u v,False,7935032.29540762,7935032,True
+s601:table:q3130,direct_rf,direct_rf,u v,False,,199,
+s601:table:q3130,direct_rf,direct_rf,c u v,False,,60694,
+s601:table:q3130,direct_rf,direct_rf,c p u v,False,,171607,
+s601:table:q3130,direct_rf,direct_rf,c p ph u v,False,436491.33442216803,436491,True
+s601:table:q2756,pg,pg,u v,False,,204,
+s601:table:q2756,pg,pg,p u v,False,,977,
+s601:table:q2756,pg,pg,p ph u v,False,,561844,
+s601:table:q2756,pg,pg,c p ph u v,False,,2171583947,
+s601:table:q2756,pg_map,pg_map,u v,False,,204,
+s601:table:q2756,pg_map,pg_map,p u v,False,,977,
+s601:table:q2756,pg_map,pg_map,p ph u v,False,,561844,
+s601:table:q2756,pg_map,pg_map,c p ph u v,False,30001080.0,30001080,True
+s601:table:q2756,residual_hgb,residual_hgb,ph v,False,232190.9271264169,232191,True
+s601:table:q2756,residual_hgb,residual_hgb,p u,False,,6546,
+s601:table:q2756,residual_hgb,residual_hgb,c p u,False,268856.80474488944,268857,True
+s601:table:q2756,residual_hgb,residual_hgb,c p ph u v,False,2589050.1669007023,2589050,True
+s601:table:q2756,direct_hgb,direct_hgb,c v,False,,65625,
+s601:table:q2756,direct_hgb,direct_hgb,p u,False,,6546,
+s601:table:q2756,direct_hgb,direct_hgb,p ph u,False,,358229,
+s601:table:q2756,direct_hgb,direct_hgb,c p ph u v,False,815072.2649345307,815072,True
+s601:table:q2756,residual_rf,residual_rf,ph v,False,96020.54266173833,96021,True
+s601:table:q2756,residual_rf,residual_rf,p u,False,,6546,
+s601:table:q2756,residual_rf,residual_rf,c p u,False,243268.40116342952,243268,True
+s601:table:q2756,residual_rf,residual_rf,c p ph u v,False,833161.0201641053,833161,True
+s601:table:q2756,direct_rf,direct_rf,c u,False,85575.51846819032,85576,True
+s601:table:q2756,direct_rf,direct_rf,p v,False,,1019,
+s601:table:q2756,direct_rf,direct_rf,p ph v,False,299593.0754624095,299593,True
+s601:table:q2756,direct_rf,direct_rf,c p ph u v,False,266732.41972402827,266732,True
+s601:table:q7944,pg,pg,p pl,False,,2329,
+s601:table:q7944,pg,pg,p pl u,False,,2087,
+s601:table:q7944,pg,pg,c p pl u,False,,7294,
+s601:table:q7944,pg,pg,b c p pl u,False,,14443,
+s601:table:q7944,pg_map,pg_map,p pl,False,2329.0,2329,True
+s601:table:q7944,pg_map,pg_map,p pl u,False,2087.0,2087,True
+s601:table:q7944,pg_map,pg_map,c p pl u,False,3052.0,3052,True
+s601:table:q7944,pg_map,pg_map,b c p pl u,False,112732.0,112732,True
+s601:table:q7944,residual_hgb,residual_hgb,p pl,False,9909.887626340716,9910,True
+s601:table:q7944,residual_hgb,residual_hgb,p pl u,False,4242.889391973953,4243,True
+s601:table:q7944,residual_hgb,residual_hgb,c p pl u,False,6806.416184319952,6806,True
+s601:table:q7944,residual_hgb,residual_hgb,b c p pl u,False,304371.050701855,304371,True
+s601:table:q7944,direct_hgb,direct_hgb,p pl,False,9959.224433287722,9959,True
+s601:table:q7944,direct_hgb,direct_hgb,p pl u,False,4412.26768058644,4412,True
+s601:table:q7944,direct_hgb,direct_hgb,c p pl u,False,9618.072649492367,9618,True
+s601:table:q7944,direct_hgb,direct_hgb,b c p pl u,False,68153.30356953494,68153,True
+s601:table:q7944,residual_rf,residual_rf,p pl,False,9274.674922454484,9275,True
+s601:table:q7944,residual_rf,residual_rf,p pl u,False,4267.092723302895,4267,True
+s601:table:q7944,residual_rf,residual_rf,c p pl u,False,6454.718849686104,6455,True
+s601:table:q7944,residual_rf,residual_rf,b c p pl u,False,114124.91512922676,114125,True
+s601:table:q7944,direct_rf,direct_rf,p pl,False,8569.490672864715,8569,True
+s601:table:q7944,direct_rf,direct_rf,p pl u,False,5408.69670805711,5409,True
+s601:table:q7944,direct_rf,direct_rf,c p pl u,False,6425.613082323372,6426,True
+s601:table:q7944,direct_rf,direct_rf,b c p pl u,False,31416.67217738746,31417,True
+s601:table:q4068,pg,pg,b ph,False,,14239350,
+s601:table:q4068,pg,pg,u v,False,,34309,
+s601:table:q4068,pg,pg,c u v,False,,864441,
+s601:table:q4068,pg,pg,b c ph u v,False,,83435551286,
+s601:table:q4068,pg_map,pg_map,u v,False,,34309,
+s601:table:q4068,pg_map,pg_map,b u v,False,,724392,
+s601:table:q4068,pg_map,pg_map,b ph u v,False,12115151.0,12115151,True
+s601:table:q4068,pg_map,pg_map,b c ph u v,False,1809488787.0,1809488787,True
+s601:table:q4068,residual_hgb,residual_hgb,ph u,False,,259183,
+s601:table:q4068,residual_hgb,residual_hgb,b ph u,False,277053.30904543836,277053,True
+s601:table:q4068,residual_hgb,residual_hgb,c v,False,819340.07985843,819340,True
+s601:table:q4068,residual_hgb,residual_hgb,b c ph u v,False,18402792.373419713,18402792,True
+s601:table:q4068,direct_hgb,direct_hgb,b u,False,83397.01959405918,83397,True
+s601:table:q4068,direct_hgb,direct_hgb,b ph u,False,539300.0456315385,539300,True
+s601:table:q4068,direct_hgb,direct_hgb,c v,False,369085.8535562649,369086,True
+s601:table:q4068,direct_hgb,direct_hgb,b c ph u v,False,484035.2066317256,484035,True
+s601:table:q4068,residual_rf,residual_rf,b u,False,66215.31756900942,66215,True
+s601:table:q4068,residual_rf,residual_rf,b ph u,False,589019.5161209956,589020,True
+s601:table:q4068,residual_rf,residual_rf,b ph u v,False,474088.054143005,474088,True
+s601:table:q4068,residual_rf,residual_rf,b c ph u v,False,33954561.98926107,33954562,True
+s601:table:q4068,direct_rf,direct_rf,b u,False,53567.16553639009,53567,True
+s601:table:q4068,direct_rf,direct_rf,b ph u,False,423824.2600689176,423824,True
+s601:table:q4068,direct_rf,direct_rf,c v,False,411650.0220764611,411650,True
+s601:table:q4068,direct_rf,direct_rf,b c ph u v,False,405024.8237437732,405025,True
+s601:table:q4596,pg,pg,b v,False,,4147,
+s601:table:q4596,pg,pg,b u v,False,,429,
+s601:table:q4596,pg,pg,b p u v,False,,34282,
+s601:table:q4596,pg,pg,b c p u v,False,,99225865,
+s601:table:q4596,pg_map,pg_map,u v,False,,194,
+s601:table:q4596,pg_map,pg_map,p u v,False,,950,
+s601:table:q4596,pg_map,pg_map,c p u v,False,15435.0,15435,True
+s601:table:q4596,pg_map,pg_map,b c p u v,False,1370835.0,1370835,True
+s601:table:q4596,residual_hgb,residual_hgb,u v,False,,194,
+s601:table:q4596,residual_hgb,residual_hgb,c u v,False,,46162,
+s601:table:q4596,residual_hgb,residual_hgb,c p u v,False,20990.515895062967,20991,True
+s601:table:q4596,residual_hgb,residual_hgb,b c p u v,False,111044.69954265804,111045,True
+s601:table:q4596,direct_hgb,direct_hgb,u v,False,,194,
+s601:table:q4596,direct_hgb,direct_hgb,c u v,False,,46162,
+s601:table:q4596,direct_hgb,direct_hgb,c p u v,False,60728.92338855497,60729,True
+s601:table:q4596,direct_hgb,direct_hgb,b c p u v,False,36958.906024381744,36959,True
+s601:table:q4596,residual_rf,residual_rf,u v,False,,194,
+s601:table:q4596,residual_rf,residual_rf,c u v,False,,46162,
+s601:table:q4596,residual_rf,residual_rf,c p u v,False,17833.703623254623,17834,True
+s601:table:q4596,residual_rf,residual_rf,b c p u v,False,25284.470428784018,25284,True
+s601:table:q4596,direct_rf,direct_rf,u v,False,,194,
+s601:table:q4596,direct_rf,direct_rf,c u v,False,,46162,
+s601:table:q4596,direct_rf,direct_rf,c p u v,False,11654.743022706236,11655,True
+s601:table:q4596,direct_rf,direct_rf,b c p u v,False,14965.665716148667,14966,True
+s601:table:q4663,pg,pg,c u,False,,580,
+s601:table:q4663,pg,pg,c p u,False,,96366,
+s601:table:q4663,pg,pg,b v,False,,4198,
+s601:table:q4663,pg,pg,b c p u v,False,,3079978,
+s601:table:q4663,pg_map,pg_map,c v,False,,220,
+s601:table:q4663,pg_map,pg_map,c u v,False,,208,
+s601:table:q4663,pg_map,pg_map,c p u v,False,478.0,478,True
+s601:table:q4663,pg_map,pg_map,b c p u v,False,42550.0,42550,True
+s601:table:q4663,residual_hgb,residual_hgb,c u,False,306.6891580814085,307,True
+s601:table:q4663,residual_hgb,residual_hgb,c p u,False,8659.906623618139,8660,True
+s601:table:q4663,residual_hgb,residual_hgb,b v,False,9547.542297167623,9548,True
+s601:table:q4663,residual_hgb,residual_hgb,b c p u v,False,18794.43135723327,18794,True
+s601:table:q4663,direct_hgb,direct_hgb,c u,False,632.4367946781399,632,True
+s601:table:q4663,direct_hgb,direct_hgb,c p u,False,18484.269021545377,18484,True
+s601:table:q4663,direct_hgb,direct_hgb,b v,False,15195.470062761395,15195,True
+s601:table:q4663,direct_hgb,direct_hgb,b c p u v,False,25748.01330005417,25748,True
+s601:table:q4663,residual_rf,residual_rf,c u,False,287.8121247169336,288,True
+s601:table:q4663,residual_rf,residual_rf,c p u,False,11735.099759359602,11735,True
+s601:table:q4663,residual_rf,residual_rf,b v,False,5988.716835907297,5989,True
+s601:table:q4663,residual_rf,residual_rf,b c p u v,False,13289.387297923722,13289,True
+s601:table:q4663,direct_rf,direct_rf,c v,False,,220,
+s601:table:q4663,direct_rf,direct_rf,c u v,False,,208,
+s601:table:q4663,direct_rf,direct_rf,c p u v,False,1441.1093966705002,1441,True
+s601:table:q4663,direct_rf,direct_rf,b c p u v,False,7323.768463161839,7324,True
+s601:table:q8352,pg,pg,p t,False,,591,
+s601:table:q8352,pg,pg,p t u,False,,551,
+s601:table:q8352,pg,pg,b p t u,False,,1047,
+s601:table:q8352,pg,pg,b p ph t u,False,,7299,
+s601:table:q8352,pg_map,pg_map,p t,False,591.0,591,True
+s601:table:q8352,pg_map,pg_map,p t u,False,551.0,551,True
+s601:table:q8352,pg_map,pg_map,b p t u,False,19560.0,19560,True
+s601:table:q8352,pg_map,pg_map,b p ph t u,False,3509268.0,3509268,True
+s601:table:q8352,residual_hgb,residual_hgb,p t,False,731.295134384613,731,True
+s601:table:q8352,residual_hgb,residual_hgb,p t u,False,136.6381795017325,137,True
+s601:table:q8352,residual_hgb,residual_hgb,p ph t u,False,62654.15206390732,62654,True
+s601:table:q8352,residual_hgb,residual_hgb,b p ph t u,False,28746.680221280887,28747,True
+s601:table:q8352,direct_hgb,direct_hgb,p t,False,572.3653796690929,572,True
+s601:table:q8352,direct_hgb,direct_hgb,p t u,False,134.9479868540986,135,True
+s601:table:q8352,direct_hgb,direct_hgb,b p t u,False,2584.183962738415,2584,True
+s601:table:q8352,direct_hgb,direct_hgb,b p ph t u,False,127476.98558690562,127477,True
+s601:table:q8352,residual_rf,residual_rf,p t,False,656.7155863291179,657,True
+s601:table:q8352,residual_rf,residual_rf,p t u,False,221.23415391677375,221,True
+s601:table:q8352,residual_rf,residual_rf,b p t u,False,9017.175554482654,9017,True
+s601:table:q8352,residual_rf,residual_rf,b p ph t u,False,38773.3780149202,38773,True
+s601:table:q8352,direct_rf,direct_rf,p t,False,761.197489797953,761,True
+s601:table:q8352,direct_rf,direct_rf,p t u,False,398.9610275450837,399,True
+s601:table:q8352,direct_rf,direct_rf,b p t u,False,6098.8653184175655,6099,True
+s601:table:q8352,direct_rf,direct_rf,b p ph t u,False,206193.9703469099,206194,True
+s601:table:q6271,pg,pg,p u,False,,17743,
+s601:table:q6271,pg,pg,b p u,False,,640951,
+s601:table:q6271,pg,pg,b p ph u,False,,371951216,
+s601:table:q6271,pg,pg,b c p ph u,False,,1402831299148,
+s601:table:q6271,pg_map,pg_map,p u,False,17743.0,17743,True
+s601:table:q6271,pg_map,pg_map,b p u,False,640951.0,640951,True
+s601:table:q6271,pg_map,pg_map,b p ph u,False,371950968.0,371950968,True
+s601:table:q6271,pg_map,pg_map,b c p ph u,False,1402831245982.0,1402831245982,True
+s601:table:q6271,residual_hgb,residual_hgb,b p,False,,713335,
+s601:table:q6271,residual_hgb,residual_hgb,c u,False,31456.485632285163,31456,True
+s601:table:q6271,residual_hgb,residual_hgb,c ph u,False,799063.1006196341,799063,True
+s601:table:q6271,residual_hgb,residual_hgb,b c p ph u,False,73958398188.58109,73958398189,True
+s601:table:q6271,direct_hgb,direct_hgb,c u,False,34328.85885281098,34329,True
+s601:table:q6271,direct_hgb,direct_hgb,c ph u,False,218284.9884905414,218285,True
+s601:table:q6271,direct_hgb,direct_hgb,b c ph u,False,222400.81960477223,222401,True
+s601:table:q6271,direct_hgb,direct_hgb,b c p ph u,False,471439.79497402045,471440,True
+s601:table:q6271,residual_rf,residual_rf,b p,False,,713335,
+s601:table:q6271,residual_rf,residual_rf,c u,False,56268.45533562665,56268,True
+s601:table:q6271,residual_rf,residual_rf,c ph u,False,1025378.1079511215,1025378,True
+s601:table:q6271,residual_rf,residual_rf,b c p ph u,False,29808917548.999622,29808917549,True
+s601:table:q6271,direct_rf,direct_rf,c u,False,48234.53954986002,48235,True
+s601:table:q6271,direct_rf,direct_rf,c ph u,False,221618.40297026842,221618,True
+s601:table:q6271,direct_rf,direct_rf,c p ph u,False,209782.2116364613,209782,True
+s601:table:q6271,direct_rf,direct_rf,b c p ph u,False,207714.3176524751,207714,True
+s601:table:q8534,pg,pg,p t,False,,587,
+s601:table:q8534,pg,pg,p t u,False,,573,
+s601:table:q8534,pg,pg,b p t u,False,,1132,
+s601:table:q8534,pg,pg,b p ph t u,False,,7889,
+s601:table:q8534,pg_map,pg_map,p t,False,587.0,587,True
+s601:table:q8534,pg_map,pg_map,p t u,False,573.0,573,True
+s601:table:q8534,pg_map,pg_map,b p t u,False,21122.0,21122,True
+s601:table:q8534,pg_map,pg_map,b p ph t u,False,3789489.0,3789489,True
+s601:table:q8534,residual_hgb,residual_hgb,p t,False,348.3911970560679,348,True
+s601:table:q8534,residual_hgb,residual_hgb,p t u,False,118.6455689246887,119,True
+s601:table:q8534,residual_hgb,residual_hgb,b p t u,False,17109.604753128213,17110,True
+s601:table:q8534,residual_hgb,residual_hgb,b p ph t u,False,200821.07598740363,200821,True
+s601:table:q8534,direct_hgb,direct_hgb,p t,False,314.93171011180436,315,True
+s601:table:q8534,direct_hgb,direct_hgb,p t u,False,89.77589410585787,90,True
+s601:table:q8534,direct_hgb,direct_hgb,b p t u,False,3160.642044899135,3161,True
+s601:table:q8534,direct_hgb,direct_hgb,b p ph t u,False,166462.10006120882,166462,True
+s601:table:q8534,residual_rf,residual_rf,p t,False,292.4339899941308,292,True
+s601:table:q8534,residual_rf,residual_rf,p ph t,False,,169451,
+s601:table:q8534,residual_rf,residual_rf,b u,False,41972.887166439716,41973,True
+s601:table:q8534,residual_rf,residual_rf,b p ph t u,False,97335.90021441178,97336,True
+s601:table:q8534,direct_rf,direct_rf,p t,False,437.99969828442636,438,True
+s601:table:q8534,direct_rf,direct_rf,p t u,False,370.70490577937363,371,True
+s601:table:q8534,direct_rf,direct_rf,b p t u,False,5826.087600004177,5826,True
+s601:table:q8534,direct_rf,direct_rf,b p ph t u,False,295288.3260490494,295288,True
+s601:table:q8475,pg,pg,p t,False,,80,
+s601:table:q8475,pg,pg,p t u,False,,72,
+s601:table:q8475,pg,pg,b p t u,False,,143,
+s601:table:q8475,pg,pg,b p ph t u,False,,994,
+s601:table:q8475,pg_map,pg_map,p t,False,80.0,80,True
+s601:table:q8475,pg_map,pg_map,p t u,False,72.0,72,True
+s601:table:q8475,pg_map,pg_map,p ph t u,False,39111.0,39111,True
+s601:table:q8475,pg_map,pg_map,b p ph t u,False,474660.0,474660,True
+s601:table:q8475,residual_hgb,residual_hgb,p t,False,115.23186979949628,115,True
+s601:table:q8475,residual_hgb,residual_hgb,p t u,False,237.39713878567994,237,True
+s601:table:q8475,residual_hgb,residual_hgb,b p t u,False,592.3968616826172,592,True
+s601:table:q8475,residual_hgb,residual_hgb,b p ph t u,False,174402.31406057623,174402,True
+s601:table:q8475,direct_hgb,direct_hgb,p t,False,308.40162506147533,308,True
+s601:table:q8475,direct_hgb,direct_hgb,p t u,False,336.12974879359416,336,True
+s601:table:q8475,direct_hgb,direct_hgb,b p t u,False,244.98074671609967,245,True
+s601:table:q8475,direct_hgb,direct_hgb,b p ph t u,False,59598.88590226579,59599,True
+s601:table:q8475,residual_rf,residual_rf,p t,False,149.10240536737382,149,True
+s601:table:q8475,residual_rf,residual_rf,p t u,False,325.8275267719754,326,True
+s601:table:q8475,residual_rf,residual_rf,b p t u,False,1768.1520766794722,1768,True
+s601:table:q8475,residual_rf,residual_rf,b p ph t u,False,204695.07392372607,204695,True
+s601:table:q8475,direct_rf,direct_rf,p t,False,515.854389938566,516,True
+s601:table:q8475,direct_rf,direct_rf,p t u,False,925.8249428305148,926,True
+s601:table:q8475,direct_rf,direct_rf,b p t u,False,1485.5032972178542,1486,True
+s601:table:q8475,direct_rf,direct_rf,b p ph t u,False,163595.30403708096,163595,True
+s601:table:q1030,pg,pg,ph v,False,,175,
+s601:table:q1030,pg,pg,ph pl v,False,,38,
+s601:table:q1030,pg,pg,p ph pl v,False,,6,
+s601:table:q1030,pg,pg,c p ph pl v,False,,10,
+s601:table:q1030,pg_map,pg_map,ph v,False,,175,
+s601:table:q1030,pg_map,pg_map,ph pl v,False,,38,
+s601:table:q1030,pg_map,pg_map,p ph pl v,False,6.0,6,True
+s601:table:q1030,pg_map,pg_map,c p ph pl v,False,10.0,10,True
+s601:table:q1030,residual_hgb,residual_hgb,pl v,False,,8,
+s601:table:q1030,residual_hgb,residual_hgb,p pl v,False,10.822606312627272,11,True
+s601:table:q1030,residual_hgb,residual_hgb,c p pl v,False,16.01526523179395,16,True
+s601:table:q1030,residual_hgb,residual_hgb,c p ph pl v,False,86.90184416324655,87,True
+s601:table:q1030,direct_hgb,direct_hgb,ph v,False,,175,
+s601:table:q1030,direct_hgb,direct_hgb,ph pl v,False,,38,
+s601:table:q1030,direct_hgb,direct_hgb,c ph pl v,False,,171,
+s601:table:q1030,direct_hgb,direct_hgb,c p ph pl v,False,268.72136290303024,269,True
+s601:table:q1030,residual_rf,residual_rf,pl v,False,,8,
+s601:table:q1030,residual_rf,residual_rf,p pl v,False,8.88572976053167,9,True
+s601:table:q1030,residual_rf,residual_rf,c p pl v,False,13.2652679098043,13,True
+s601:table:q1030,residual_rf,residual_rf,c p ph pl v,False,48.42347332961442,48,True
+s601:table:q1030,direct_rf,direct_rf,ph v,False,,175,
+s601:table:q1030,direct_rf,direct_rf,ph pl v,False,,38,
+s601:table:q1030,direct_rf,direct_rf,c ph pl v,False,,171,
+s601:table:q1030,direct_rf,direct_rf,c p ph pl v,False,298.3507941284971,298,True
+s601:table:q7046,pg,pg,p pl,False,,2413,
+s601:table:q7046,pg,pg,p pl u,False,,2322,
+s601:table:q7046,pg,pg,c p pl u,False,,10517,
+s601:table:q7046,pg,pg,b c p pl u,False,,20326,
+s601:table:q7046,pg_map,pg_map,p pl,False,2413.0,2413,True
+s601:table:q7046,pg_map,pg_map,p pl u,False,2322.0,2322,True
+s601:table:q7046,pg_map,pg_map,c p pl u,False,4400.0,4400,True
+s601:table:q7046,pg_map,pg_map,b c p pl u,False,158638.0,158638,True
+s601:table:q7046,residual_hgb,residual_hgb,p pl,False,1512.9489420151986,1513,True
+s601:table:q7046,residual_hgb,residual_hgb,p pl u,False,488.1553324917214,488,True
+s601:table:q7046,residual_hgb,residual_hgb,c p pl u,False,805.46471094814,805,True
+s601:table:q7046,residual_hgb,residual_hgb,b c p pl u,False,96925.01338414893,96925,True
+s601:table:q7046,direct_hgb,direct_hgb,p pl,False,1679.6271404604088,1680,True
+s601:table:q7046,direct_hgb,direct_hgb,c p pl,False,1421.0814697340682,1421,True
+s601:table:q7046,direct_hgb,direct_hgb,c p pl u,False,1845.5750295565742,1846,True
+s601:table:q7046,direct_hgb,direct_hgb,b c p pl u,False,47455.38271168259,47455,True
+s601:table:q7046,residual_rf,residual_rf,p pl,False,4578.717327827649,4579,True
+s601:table:q7046,residual_rf,residual_rf,p pl u,False,1174.7783201314453,1175,True
+s601:table:q7046,residual_rf,residual_rf,c p pl u,False,2182.5490620997452,2183,True
+s601:table:q7046,residual_rf,residual_rf,b c p pl u,False,67449.43839520223,67449,True
+s601:table:q7046,direct_rf,direct_rf,p pl,False,3891.3588568039922,3891,True
+s601:table:q7046,direct_rf,direct_rf,p pl u,False,1944.5175826998766,1945,True
+s601:table:q7046,direct_rf,direct_rf,c p pl u,False,2420.9966025903313,2421,True
+s601:table:q7046,direct_rf,direct_rf,b c p pl u,False,22322.06520923187,22322,True
+s601:table:q8604,pg,pg,p t,False,,265,
+s601:table:q8604,pg,pg,p t u,False,,258,
+s601:table:q8604,pg,pg,b p t u,False,,511,
+s601:table:q8604,pg,pg,b p ph t u,False,,3368,
+s601:table:q8604,pg_map,pg_map,p t,False,265.0,265,True
+s601:table:q8604,pg_map,pg_map,p t u,False,258.0,258,True
+s601:table:q8604,pg_map,pg_map,p ph t u,False,133343.0,133343,True
+s601:table:q8604,pg_map,pg_map,b p ph t u,False,1618273.0,1618273,True
+s601:table:q8604,residual_hgb,residual_hgb,p t,False,271.6021650453891,272,True
+s601:table:q8604,residual_hgb,residual_hgb,p t u,False,346.6447273094726,347,True
+s601:table:q8604,residual_hgb,residual_hgb,b p t u,False,2519.898838288378,2520,True
+s601:table:q8604,residual_hgb,residual_hgb,b p ph t u,False,17476.005166355488,17476,True
+s601:table:q8604,direct_hgb,direct_hgb,p t,False,347.48246412223017,347,True
+s601:table:q8604,direct_hgb,direct_hgb,p t u,False,253.69750916165515,254,True
+s601:table:q8604,direct_hgb,direct_hgb,b p t u,False,1374.4518834336668,1374,True
+s601:table:q8604,direct_hgb,direct_hgb,b p ph t u,False,101685.75908377122,101686,True
+s601:table:q8604,residual_rf,residual_rf,p t,False,262.48492935261345,262,True
+s601:table:q8604,residual_rf,residual_rf,p t u,False,156.27720120912267,156,True
+s601:table:q8604,residual_rf,residual_rf,b p t u,False,3474.732012845359,3475,True
+s601:table:q8604,residual_rf,residual_rf,b p ph t u,False,14179.31391195847,14179,True
+s601:table:q8604,direct_rf,direct_rf,p t,False,453.90037719006557,454,True
+s601:table:q8604,direct_rf,direct_rf,p t u,False,457.79563284705677,458,True
+s601:table:q8604,direct_rf,direct_rf,b p t u,False,1754.5106635599568,1755,True
+s601:table:q8604,direct_rf,direct_rf,b p ph t u,False,135142.4196472421,135142,True
+s601:value:q402,pg,pg,p u,False,,1,
+s601:value:q402,pg,pg,p u v,False,,1,
+s601:value:q402,pg,pg,b p u v,False,,1,
+s601:value:q402,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q402,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q402,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q402,residual_hgb,residual_hgb,p u,False,31.861624915069836,32,True
+s601:value:q402,residual_hgb,residual_hgb,p u v,False,29.51000600239207,30,True
+s601:value:q402,residual_hgb,residual_hgb,b p u v,False,858.4178919073379,858,True
+s601:value:q402,direct_hgb,direct_hgb,p u,False,25.282627517452138,25,True
+s601:value:q402,direct_hgb,direct_hgb,p u v,False,36.97069601620623,37,True
+s601:value:q402,direct_hgb,direct_hgb,b p u v,False,439.2558285469725,439,True
+s601:value:q402,residual_rf,residual_rf,p v,False,1079.6924979196851,1080,True
+s601:value:q402,residual_rf,residual_rf,b u,False,1935.3403630865978,1935,True
+s601:value:q402,residual_rf,residual_rf,b p u v,False,940.0177385456882,940,True
+s601:value:q402,direct_rf,direct_rf,p u,False,37.17546973150918,37,True
+s601:value:q402,direct_rf,direct_rf,p u v,False,45.71428838264302,46,True
+s601:value:q402,direct_rf,direct_rf,b p u v,False,839.0231823682616,839,True
+s601:value:q1425,pg,pg,b p,False,,3,
+s601:value:q1425,pg,pg,b p u,False,,1,
+s601:value:q1425,pg,pg,b p u v,False,,1,
+s601:value:q1425,pg_map,pg_map,b p,False,,3,
+s601:value:q1425,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1425,pg_map,pg_map,b p u v,False,2.0,2,True
+s601:value:q1425,residual_hgb,residual_hgb,b p,False,,3,
+s601:value:q1425,residual_hgb,residual_hgb,b p v,False,,699,
+s601:value:q1425,residual_hgb,residual_hgb,b p u v,False,1459.2008315176154,1459,True
+s601:value:q1425,direct_hgb,direct_hgb,b p,False,,3,
+s601:value:q1425,direct_hgb,direct_hgb,b p v,False,,820,
+s601:value:q1425,direct_hgb,direct_hgb,b p u v,False,3250.7001055574287,3251,True
+s601:value:q1425,residual_rf,residual_rf,b p,False,,3,
+s601:value:q1425,residual_rf,residual_rf,b p v,False,,572,
+s601:value:q1425,residual_rf,residual_rf,b p u v,False,1470.500243108846,1471,True
+s601:value:q1425,direct_rf,direct_rf,b p,False,,3,
+s601:value:q1425,direct_rf,direct_rf,b p v,False,,575,
+s601:value:q1425,direct_rf,direct_rf,b p u v,False,1100.1462164798502,1100,True
+s601:value:q1235,pg,pg,p u,False,,1,
+s601:value:q1235,pg,pg,p u v,False,,1,
+s601:value:q1235,pg,pg,b p u v,False,,1,
+s601:value:q1235,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q1235,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q1235,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1235,residual_hgb,residual_hgb,p u,False,96.91795437872526,97,True
+s601:value:q1235,residual_hgb,residual_hgb,p u v,False,3.2580365081278813,3,True
+s601:value:q1235,residual_hgb,residual_hgb,b p u v,False,2192.483377058359,2192,True
+s601:value:q1235,direct_hgb,direct_hgb,p u,False,119.77071785119912,120,True
+s601:value:q1235,direct_hgb,direct_hgb,p u v,False,4.083560329373051,4,True
+s601:value:q1235,direct_hgb,direct_hgb,b p u v,False,1949.2389013890745,1949,True
+s601:value:q1235,residual_rf,residual_rf,p u,False,81.2106764791123,81,True
+s601:value:q1235,residual_rf,residual_rf,p u v,False,11.157497974836561,11,True
+s601:value:q1235,residual_rf,residual_rf,b p u v,False,3146.9831123686154,3147,True
+s601:value:q1235,direct_rf,direct_rf,p u,False,99.13228266616245,99,True
+s601:value:q1235,direct_rf,direct_rf,p u v,False,11.936392059268806,12,True
+s601:value:q1235,direct_rf,direct_rf,b p u v,False,4227.159020335547,4227,True
+s601:value:q1537,pg,pg,b u,False,,1,
+s601:value:q1537,pg,pg,b p u,False,,1,
+s601:value:q1537,pg,pg,b p u v,False,,2,
+s601:value:q1537,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q1537,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1537,pg_map,pg_map,b p u v,False,3.0,3,True
+s601:value:q1537,residual_hgb,residual_hgb,p u,False,79.3553539378332,79,True
+s601:value:q1537,residual_hgb,residual_hgb,p u v,False,877.9369404520309,878,True
+s601:value:q1537,residual_hgb,residual_hgb,b p u v,False,38902.16810990744,38902,True
+s601:value:q1537,direct_hgb,direct_hgb,p u,False,104.90618703624602,105,True
+s601:value:q1537,direct_hgb,direct_hgb,p u v,False,734.6874552555246,735,True
+s601:value:q1537,direct_hgb,direct_hgb,b p u v,False,73377.718731291,73378,True
+s601:value:q1537,residual_rf,residual_rf,p u,False,78.89384711265936,79,True
+s601:value:q1537,residual_rf,residual_rf,p u v,False,302.2351727725024,302,True
+s601:value:q1537,residual_rf,residual_rf,b p u v,False,20062.932140296794,20063,True
+s601:value:q1537,direct_rf,direct_rf,p u,False,85.51353888348417,86,True
+s601:value:q1537,direct_rf,direct_rf,p u v,False,183.45923928197638,183,True
+s601:value:q1537,direct_rf,direct_rf,b p u v,False,19946.655666019684,19947,True
+s601:value:q1098,pg,pg,p u,False,,1,
+s601:value:q1098,pg,pg,p u v,False,,1,
+s601:value:q1098,pg,pg,b p u v,False,,1,
+s601:value:q1098,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q1098,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q1098,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1098,residual_hgb,residual_hgb,p u,False,79.09582921743078,79,True
+s601:value:q1098,residual_hgb,residual_hgb,p u v,False,6.399017770461133,6,True
+s601:value:q1098,residual_hgb,residual_hgb,b p u v,False,1328.13172210484,1328,True
+s601:value:q1098,direct_hgb,direct_hgb,p u,False,61.63829152191049,62,True
+s601:value:q1098,direct_hgb,direct_hgb,p u v,False,4.029908726608398,4,True
+s601:value:q1098,direct_hgb,direct_hgb,b p u v,False,1083.6674658826253,1084,True
+s601:value:q1098,residual_rf,residual_rf,p u,False,27.120437993849727,27,True
+s601:value:q1098,residual_rf,residual_rf,p u v,False,15.740851543217032,16,True
+s601:value:q1098,residual_rf,residual_rf,b p u v,False,1332.4939384435056,1332,True
+s601:value:q1098,direct_rf,direct_rf,p u,False,34.751302818075516,35,True
+s601:value:q1098,direct_rf,direct_rf,p u v,False,16.91088673655729,17,True
+s601:value:q1098,direct_rf,direct_rf,b p u v,False,1280.1674859371901,1280,True
+s601:value:q604,pg,pg,b u,False,,3,
+s601:value:q604,pg,pg,b p u,False,,11,
+s601:value:q604,pg,pg,b p u v,False,,3,
+s601:value:q604,pg_map,pg_map,b u,False,3.0,3,True
+s601:value:q604,pg_map,pg_map,b p u,False,11.0,11,True
+s601:value:q604,pg_map,pg_map,b p u v,False,3.0,3,True
+s601:value:q604,residual_hgb,residual_hgb,p u,False,169.9205431706283,170,True
+s601:value:q604,residual_hgb,residual_hgb,p u v,False,37.670937494875346,38,True
+s601:value:q604,residual_hgb,residual_hgb,b p u v,False,2225.817412244234,2226,True
+s601:value:q604,direct_hgb,direct_hgb,p u,False,141.11654604480862,141,True
+s601:value:q604,direct_hgb,direct_hgb,p u v,False,35.36520338918444,35,True
+s601:value:q604,direct_hgb,direct_hgb,b p u v,False,5334.168154656863,5334,True
+s601:value:q604,residual_rf,residual_rf,p u,False,25.68742863490764,26,True
+s601:value:q604,residual_rf,residual_rf,p u v,False,25.676114708771244,26,True
+s601:value:q604,residual_rf,residual_rf,b p u v,False,2925.3353712781527,2925,True
+s601:value:q604,direct_rf,direct_rf,p u,False,60.069151744260225,60,True
+s601:value:q604,direct_rf,direct_rf,p u v,False,57.926468221215494,58,True
+s601:value:q604,direct_rf,direct_rf,b p u v,False,3004.3658232372486,3004,True
+s601:value:q434,pg,pg,b u,False,,1,
+s601:value:q434,pg,pg,b p u,False,,4,
+s601:value:q434,pg,pg,b p u v,False,,2,
+s601:value:q434,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q434,pg_map,pg_map,b p u,False,4.0,4,True
+s601:value:q434,pg_map,pg_map,b p u v,False,2.0,2,True
+s601:value:q434,residual_hgb,residual_hgb,p u,False,33.52001702912751,34,True
+s601:value:q434,residual_hgb,residual_hgb,p u v,False,40.23575428147422,40,True
+s601:value:q434,residual_hgb,residual_hgb,b p u v,False,2632.0325037744537,2632,True
+s601:value:q434,direct_hgb,direct_hgb,p u,False,24.824123355074775,25,True
+s601:value:q434,direct_hgb,direct_hgb,p u v,False,41.30766191320082,41,True
+s601:value:q434,direct_hgb,direct_hgb,b p u v,False,3857.750292910953,3858,True
+s601:value:q434,residual_rf,residual_rf,p u,False,64.33902539775809,64,True
+s601:value:q434,residual_rf,residual_rf,p u v,False,35.69828042595554,36,True
+s601:value:q434,residual_rf,residual_rf,b p u v,False,4125.419719777344,4125,True
+s601:value:q434,direct_rf,direct_rf,p u,False,42.166204446105155,42,True
+s601:value:q434,direct_rf,direct_rf,p u v,False,44.270326969616924,44,True
+s601:value:q434,direct_rf,direct_rf,b p u v,False,3834.6565462119056,3835,True
+s601:value:q1123,pg,pg,b u,False,,15,
+s601:value:q1123,pg,pg,b p u,False,,4,
+s601:value:q1123,pg,pg,b p u v,False,,1,
+s601:value:q1123,pg_map,pg_map,b u,False,15.0,15,True
+s601:value:q1123,pg_map,pg_map,b p u,False,4.0,4,True
+s601:value:q1123,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1123,residual_hgb,residual_hgb,p u,False,4.725446280011888,5,True
+s601:value:q1123,residual_hgb,residual_hgb,p u v,False,1.0,1,True
+s601:value:q1123,residual_hgb,residual_hgb,b p u v,False,17.386904823148956,17,True
+s601:value:q1123,direct_hgb,direct_hgb,p u,False,2.1843047970474596,2,True
+s601:value:q1123,direct_hgb,direct_hgb,p u v,False,1.0,1,True
+s601:value:q1123,direct_hgb,direct_hgb,b p u v,False,30.625032072843734,31,True
+s601:value:q1123,residual_rf,residual_rf,p u,False,3.150631710480619,3,True
+s601:value:q1123,residual_rf,residual_rf,p u v,False,2.2285946135488106,2,True
+s601:value:q1123,residual_rf,residual_rf,b p u v,False,115.9556305009386,116,True
+s601:value:q1123,direct_rf,direct_rf,p u,False,3.1638998471309185,3,True
+s601:value:q1123,direct_rf,direct_rf,p u v,False,2.7536265106923077,3,True
+s601:value:q1123,direct_rf,direct_rf,b p u v,False,197.32818639588993,197,True
+s601:value:q1778,pg,pg,b u,False,,1,
+s601:value:q1778,pg,pg,b p u,False,,1,
+s601:value:q1778,pg,pg,b p u v,False,,1,
+s601:value:q1778,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q1778,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1778,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1778,residual_hgb,residual_hgb,p u,False,4.661586432146572,5,True
+s601:value:q1778,residual_hgb,residual_hgb,p u v,False,3.2926139073536946,3,True
+s601:value:q1778,residual_hgb,residual_hgb,b p u v,False,197.18242584534008,197,True
+s601:value:q1778,direct_hgb,direct_hgb,p u,False,4.471217483089828,4,True
+s601:value:q1778,direct_hgb,direct_hgb,p u v,False,2.8717510073113792,3,True
+s601:value:q1778,direct_hgb,direct_hgb,b p u v,False,56.13252299375511,56,True
+s601:value:q1778,residual_rf,residual_rf,p u,False,4.079394263266856,4,True
+s601:value:q1778,residual_rf,residual_rf,p u v,False,3.0433401878964186,3,True
+s601:value:q1778,residual_rf,residual_rf,b p u v,False,264.5030035096249,265,True
+s601:value:q1778,direct_rf,direct_rf,p u,False,3.653867463588855,4,True
+s601:value:q1778,direct_rf,direct_rf,p u v,False,6.7868817205070835,7,True
+s601:value:q1778,direct_rf,direct_rf,b p u v,False,277.60262263832414,278,True
+s601:value:q1606,pg,pg,b u,False,,2,
+s601:value:q1606,pg,pg,b p u,False,,1,
+s601:value:q1606,pg,pg,b p u v,False,,1,
+s601:value:q1606,pg_map,pg_map,b u,False,2.0,2,True
+s601:value:q1606,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1606,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1606,residual_hgb,residual_hgb,p u,False,42.217943050750335,42,True
+s601:value:q1606,residual_hgb,residual_hgb,p u v,False,16.360294384349988,16,True
+s601:value:q1606,residual_hgb,residual_hgb,b p u v,False,1411.3548613743128,1411,True
+s601:value:q1606,direct_hgb,direct_hgb,p u,False,23.579007167064646,24,True
+s601:value:q1606,direct_hgb,direct_hgb,p u v,False,18.589347711949763,19,True
+s601:value:q1606,direct_hgb,direct_hgb,b p u v,False,1201.311443079056,1201,True
+s601:value:q1606,residual_rf,residual_rf,p u,False,58.15705257351505,58,True
+s601:value:q1606,residual_rf,residual_rf,p u v,False,25.5968112878194,26,True
+s601:value:q1606,residual_rf,residual_rf,b p u v,False,1194.838328066688,1195,True
+s601:value:q1606,direct_rf,direct_rf,p u,False,39.93832606658266,40,True
+s601:value:q1606,direct_rf,direct_rf,p u v,False,21.629711474783562,22,True
+s601:value:q1606,direct_rf,direct_rf,b p u v,False,993.4054507651545,993,True
+s601:value:q1275,pg,pg,p v,False,,1,
+s601:value:q1275,pg,pg,b p v,False,,3,
+s601:value:q1275,pg,pg,b p u v,False,,1,
+s601:value:q1275,pg_map,pg_map,p v,False,1.0,1,True
+s601:value:q1275,pg_map,pg_map,b p v,False,,3,
+s601:value:q1275,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1275,residual_hgb,residual_hgb,p v,False,31.4935118934339,31,True
+s601:value:q1275,residual_hgb,residual_hgb,p u v,False,2.753274198338191,3,True
+s601:value:q1275,residual_hgb,residual_hgb,b p u v,False,474.92567058587383,475,True
+s601:value:q1275,direct_hgb,direct_hgb,p v,False,60.98504407997343,61,True
+s601:value:q1275,direct_hgb,direct_hgb,p u v,False,3.674909966661932,4,True
+s601:value:q1275,direct_hgb,direct_hgb,b p u v,False,964.9147412815412,965,True
+s601:value:q1275,residual_rf,residual_rf,b p,False,,3,
+s601:value:q1275,residual_rf,residual_rf,b p v,False,,219,
+s601:value:q1275,residual_rf,residual_rf,b p u v,False,537.4973145700096,537,True
+s601:value:q1275,direct_rf,direct_rf,b p,False,,3,
+s601:value:q1275,direct_rf,direct_rf,b p v,False,,305,
+s601:value:q1275,direct_rf,direct_rf,b p u v,False,749.7920101615205,750,True
+s601:value:q1173,pg,pg,b u,False,,3,
+s601:value:q1173,pg,pg,b p u,False,,1,
+s601:value:q1173,pg,pg,b p u v,False,,1,
+s601:value:q1173,pg_map,pg_map,b u,False,3.0,3,True
+s601:value:q1173,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1173,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1173,residual_hgb,residual_hgb,p u,False,2.2423721056484904,2,True
+s601:value:q1173,residual_hgb,residual_hgb,p u v,False,1.7486535797615195,2,True
+s601:value:q1173,residual_hgb,residual_hgb,b p u v,False,216.86628593504702,217,True
+s601:value:q1173,direct_hgb,direct_hgb,p u,False,2.394222001294268,2,True
+s601:value:q1173,direct_hgb,direct_hgb,p u v,False,2.230814231029814,2,True
+s601:value:q1173,direct_hgb,direct_hgb,b p u v,False,325.730424309885,326,True
+s601:value:q1173,residual_rf,residual_rf,p u,False,3.418368169802854,3,True
+s601:value:q1173,residual_rf,residual_rf,p u v,False,8.645966475556003,9,True
+s601:value:q1173,residual_rf,residual_rf,b p u v,False,653.5827844192808,654,True
+s601:value:q1173,direct_rf,direct_rf,p u,False,3.8651555063229783,4,True
+s601:value:q1173,direct_rf,direct_rf,p u v,False,7.9565587390294565,8,True
+s601:value:q1173,direct_rf,direct_rf,b p u v,False,578.7297772573951,579,True
+s601:value:q802,pg,pg,b u,False,,1,
+s601:value:q802,pg,pg,b p u,False,,3,
+s601:value:q802,pg,pg,b p u v,False,,1,
+s601:value:q802,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q802,pg_map,pg_map,b p u,False,3.0,3,True
+s601:value:q802,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q802,residual_hgb,residual_hgb,p u,False,395.26692257332894,395,True
+s601:value:q802,residual_hgb,residual_hgb,p u v,False,68.19291425786676,68,True
+s601:value:q802,residual_hgb,residual_hgb,b p u v,False,6328.94385582418,6329,True
+s601:value:q802,direct_hgb,direct_hgb,p u,False,158.20357583304988,158,True
+s601:value:q802,direct_hgb,direct_hgb,p u v,False,58.19895531238033,58,True
+s601:value:q802,direct_hgb,direct_hgb,b p u v,False,5065.61197511584,5066,True
+s601:value:q802,residual_rf,residual_rf,p u,False,92.02081107393244,92,True
+s601:value:q802,residual_rf,residual_rf,p u v,False,46.66468429588037,47,True
+s601:value:q802,residual_rf,residual_rf,b p u v,False,4530.140068706278,4530,True
+s601:value:q802,direct_rf,direct_rf,p u,False,80.33227002050354,80,True
+s601:value:q802,direct_rf,direct_rf,p u v,False,37.934702318958266,38,True
+s601:value:q802,direct_rf,direct_rf,b p u v,False,5055.773691938912,5056,True
+s601:value:q105,pg,pg,b u,False,,1,
+s601:value:q105,pg,pg,b p u,False,,1,
+s601:value:q105,pg,pg,b p u v,False,,1,
+s601:value:q105,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q105,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q105,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q105,residual_hgb,residual_hgb,p v,False,2841.2938016591393,2841,True
+s601:value:q105,residual_hgb,residual_hgb,b u,False,90.94863352343232,91,True
+s601:value:q105,residual_hgb,residual_hgb,b p u v,False,730.2020182374314,730,True
+s601:value:q105,direct_hgb,direct_hgb,p v,False,1761.2519102608555,1761,True
+s601:value:q105,direct_hgb,direct_hgb,b u,False,149.52042708099546,150,True
+s601:value:q105,direct_hgb,direct_hgb,b p u v,False,1029.5786568918113,1030,True
+s601:value:q105,residual_rf,residual_rf,p v,False,2735.1831722001175,2735,True
+s601:value:q105,residual_rf,residual_rf,b u,False,107.5794957061078,108,True
+s601:value:q105,residual_rf,residual_rf,b p u v,False,1195.7758689835648,1196,True
+s601:value:q105,direct_rf,direct_rf,p u,False,47.559126700283535,48,True
+s601:value:q105,direct_rf,direct_rf,p u v,False,20.766065760283993,21,True
+s601:value:q105,direct_rf,direct_rf,b p u v,False,1156.5087225072627,1157,True
+s601:value:q1342,pg,pg,b u,False,,1,
+s601:value:q1342,pg,pg,b p u,False,,4,
+s601:value:q1342,pg,pg,b p u v,False,,1,
+s601:value:q1342,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q1342,pg_map,pg_map,b p u,False,4.0,4,True
+s601:value:q1342,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1342,residual_hgb,residual_hgb,p u,False,17.40773989849584,17,True
+s601:value:q1342,residual_hgb,residual_hgb,p u v,False,17.12115544055145,17,True
+s601:value:q1342,residual_hgb,residual_hgb,b p u v,False,983.6940806698778,984,True
+s601:value:q1342,direct_hgb,direct_hgb,p u,False,14.618005263896977,15,True
+s601:value:q1342,direct_hgb,direct_hgb,p u v,False,22.486872878951196,22,True
+s601:value:q1342,direct_hgb,direct_hgb,b p u v,False,878.5069420151292,879,True
+s601:value:q1342,residual_rf,residual_rf,p u,False,8.093060708923637,8,True
+s601:value:q1342,residual_rf,residual_rf,p u v,False,28.60982912656199,29,True
+s601:value:q1342,residual_rf,residual_rf,b p u v,False,1690.6223018951607,1691,True
+s601:value:q1342,direct_rf,direct_rf,p u,False,10.66053970607248,11,True
+s601:value:q1342,direct_rf,direct_rf,p u v,False,37.06122595985442,37,True
+s601:value:q1342,direct_rf,direct_rf,b p u v,False,1548.4576898776427,1548,True
+s601:value:q1777,pg,pg,b u,False,,11,
+s601:value:q1777,pg,pg,b p u,False,,5,
+s601:value:q1777,pg,pg,b p u v,False,,5,
+s601:value:q1777,pg_map,pg_map,b u,False,11.0,11,True
+s601:value:q1777,pg_map,pg_map,b p u,False,5.0,5,True
+s601:value:q1777,pg_map,pg_map,b p u v,False,6.0,6,True
+s601:value:q1777,residual_hgb,residual_hgb,p u,False,32.48277396145186,32,True
+s601:value:q1777,residual_hgb,residual_hgb,p u v,False,97.722825505393,98,True
+s601:value:q1777,residual_hgb,residual_hgb,b p u v,False,5106.791892131396,5107,True
+s601:value:q1777,direct_hgb,direct_hgb,p u,False,29.999020508784255,30,True
+s601:value:q1777,direct_hgb,direct_hgb,p u v,False,91.94465276681605,92,True
+s601:value:q1777,direct_hgb,direct_hgb,b p u v,False,10574.534162254045,10575,True
+s601:value:q1777,residual_rf,residual_rf,p u,False,72.37828679218244,72,True
+s601:value:q1777,residual_rf,residual_rf,p u v,False,110.8903267805303,111,True
+s601:value:q1777,residual_rf,residual_rf,b p u v,False,4154.8421708220285,4155,True
+s601:value:q1777,direct_rf,direct_rf,p u,False,47.104336147687356,47,True
+s601:value:q1777,direct_rf,direct_rf,p u v,False,85.15899504411355,85,True
+s601:value:q1777,direct_rf,direct_rf,b p u v,False,4192.180755061561,4192,True
+s601:value:q1220,pg,pg,b u,False,,1,
+s601:value:q1220,pg,pg,b p u,False,,1,
+s601:value:q1220,pg,pg,b p u v,False,,1,
+s601:value:q1220,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q1220,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1220,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1220,residual_hgb,residual_hgb,b p,False,,10,
+s601:value:q1220,residual_hgb,residual_hgb,b p v,False,,95,
+s601:value:q1220,residual_hgb,residual_hgb,b p u v,False,440.822511396816,441,True
+s601:value:q1220,direct_hgb,direct_hgb,b p,False,,10,
+s601:value:q1220,direct_hgb,direct_hgb,b p v,False,,64,
+s601:value:q1220,direct_hgb,direct_hgb,b p u v,False,347.6181208172877,348,True
+s601:value:q1220,residual_rf,residual_rf,b p,False,,10,
+s601:value:q1220,residual_rf,residual_rf,b p v,False,,59,
+s601:value:q1220,residual_rf,residual_rf,b p u v,False,654.4928343447077,654,True
+s601:value:q1220,direct_rf,direct_rf,b p,False,,10,
+s601:value:q1220,direct_rf,direct_rf,b p v,False,,76,
+s601:value:q1220,direct_rf,direct_rf,b p u v,False,682.2998483622218,682,True
+s601:value:q1737,pg,pg,p u,False,,1,
+s601:value:q1737,pg,pg,p u v,False,,1,
+s601:value:q1737,pg,pg,b p u v,False,,1,
+s601:value:q1737,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q1737,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1737,pg_map,pg_map,b p u v,False,2.0,2,True
+s601:value:q1737,residual_hgb,residual_hgb,p v,False,717.0891613491871,717,True
+s601:value:q1737,residual_hgb,residual_hgb,b u,False,1930.6798568686936,1931,True
+s601:value:q1737,residual_hgb,residual_hgb,b p u v,False,4441.483006337191,4441,True
+s601:value:q1737,direct_hgb,direct_hgb,p v,False,922.3793151919352,922,True
+s601:value:q1737,direct_hgb,direct_hgb,b u,False,1665.705064768776,1666,True
+s601:value:q1737,direct_hgb,direct_hgb,b p u v,False,15859.797687749886,15860,True
+s601:value:q1737,residual_rf,residual_rf,p v,False,361.957216820113,362,True
+s601:value:q1737,residual_rf,residual_rf,b u,False,1764.683995082662,1765,True
+s601:value:q1737,residual_rf,residual_rf,b p u v,False,3708.987211021687,3709,True
+s601:value:q1737,direct_rf,direct_rf,p v,False,390.84491042314045,391,True
+s601:value:q1737,direct_rf,direct_rf,b u,False,1188.2930064342643,1188,True
+s601:value:q1737,direct_rf,direct_rf,b p u v,False,4520.786963642167,4521,True
+s601:value:q274,pg,pg,b u,False,,1,
+s601:value:q274,pg,pg,b p u,False,,1,
+s601:value:q274,pg,pg,b p u v,False,,1,
+s601:value:q274,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q274,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q274,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q274,residual_hgb,residual_hgb,p v,False,117.47223426202386,117,True
+s601:value:q274,residual_hgb,residual_hgb,b u,False,142.76991028693593,143,True
+s601:value:q274,residual_hgb,residual_hgb,b p u v,False,812.024514229249,812,True
+s601:value:q274,direct_hgb,direct_hgb,p v,False,97.4902646234779,97,True
+s601:value:q274,direct_hgb,direct_hgb,b u,False,175.89977321353157,176,True
+s601:value:q274,direct_hgb,direct_hgb,b p u v,False,951.3020266568667,951,True
+s601:value:q274,residual_rf,residual_rf,p v,False,95.36077530394742,95,True
+s601:value:q274,residual_rf,residual_rf,b u,False,141.72349409737984,142,True
+s601:value:q274,residual_rf,residual_rf,b p u v,False,1765.1127138040347,1765,True
+s601:value:q274,direct_rf,direct_rf,p v,False,139.53986021668317,140,True
+s601:value:q274,direct_rf,direct_rf,b u,False,192.53132766593626,193,True
+s601:value:q274,direct_rf,direct_rf,b p u v,False,1484.1123267444807,1484,True
+s601:value:q1175,pg,pg,p u,False,,1,
+s601:value:q1175,pg,pg,p u v,False,,1,
+s601:value:q1175,pg,pg,b p u v,False,,1,
+s601:value:q1175,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q1175,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q1175,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1175,residual_hgb,residual_hgb,p u,False,49.17372293575654,49,True
+s601:value:q1175,residual_hgb,residual_hgb,p u v,False,13.384064115155912,13,True
+s601:value:q1175,residual_hgb,residual_hgb,b p u v,False,632.933420929138,633,True
+s601:value:q1175,direct_hgb,direct_hgb,p u,False,95.61227207663202,96,True
+s601:value:q1175,direct_hgb,direct_hgb,p u v,False,26.823460383409515,27,True
+s601:value:q1175,direct_hgb,direct_hgb,b p u v,False,459.4071290861624,459,True
+s601:value:q1175,residual_rf,residual_rf,p u,False,77.79363333059634,78,True
+s601:value:q1175,residual_rf,residual_rf,p u v,False,52.14786967008201,52,True
+s601:value:q1175,residual_rf,residual_rf,b p u v,False,1040.3320113793638,1040,True
+s601:value:q1175,direct_rf,direct_rf,p u,False,75.31128338742445,75,True
+s601:value:q1175,direct_rf,direct_rf,p u v,False,43.03216282867208,43,True
+s601:value:q1175,direct_rf,direct_rf,b p u v,False,1179.7365780296725,1180,True
+s601:value:q1563,pg,pg,p u,False,,1,
+s601:value:q1563,pg,pg,p u v,False,,1,
+s601:value:q1563,pg,pg,b p u v,False,,1,
+s601:value:q1563,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q1563,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q1563,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1563,residual_hgb,residual_hgb,p u,False,2.4030194291900697,2,True
+s601:value:q1563,residual_hgb,residual_hgb,p u v,False,3.7075908507093365,4,True
+s601:value:q1563,residual_hgb,residual_hgb,b p u v,False,245.38495047054252,245,True
+s601:value:q1563,direct_hgb,direct_hgb,p u,False,1.0734059733817147,1,True
+s601:value:q1563,direct_hgb,direct_hgb,p u v,False,4.823937222461368,5,True
+s601:value:q1563,direct_hgb,direct_hgb,b p u v,False,216.1964398277946,216,True
+s601:value:q1563,residual_rf,residual_rf,p u,False,3.2373490563056415,3,True
+s601:value:q1563,residual_rf,residual_rf,p u v,False,2.7967752230298477,3,True
+s601:value:q1563,residual_rf,residual_rf,b p u v,False,510.24943018038584,510,True
+s601:value:q1563,direct_rf,direct_rf,p u,False,4.353410804136602,4,True
+s601:value:q1563,direct_rf,direct_rf,p u v,False,6.34914679611316,6,True
+s601:value:q1563,direct_rf,direct_rf,b p u v,False,459.480934155258,459,True
+s601:value:q1382,pg,pg,b u,False,,24,
+s601:value:q1382,pg,pg,b p u,False,,4,
+s601:value:q1382,pg,pg,b p u v,False,,1,
+s601:value:q1382,pg_map,pg_map,b u,False,24.0,24,True
+s601:value:q1382,pg_map,pg_map,b p u,False,4.0,4,True
+s601:value:q1382,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1382,residual_hgb,residual_hgb,p u,False,17.19545448450968,17,True
+s601:value:q1382,residual_hgb,residual_hgb,p u v,False,56.50912707062265,57,True
+s601:value:q1382,residual_hgb,residual_hgb,b p u v,False,2401.2107977452,2401,True
+s601:value:q1382,direct_hgb,direct_hgb,p u,False,35.025602899099425,35,True
+s601:value:q1382,direct_hgb,direct_hgb,p u v,False,84.02865137863635,84,True
+s601:value:q1382,direct_hgb,direct_hgb,b p u v,False,3132.1833878303805,3132,True
+s601:value:q1382,residual_rf,residual_rf,p u,False,17.211358259240487,17,True
+s601:value:q1382,residual_rf,residual_rf,p u v,False,15.630271367225447,16,True
+s601:value:q1382,residual_rf,residual_rf,b p u v,False,847.3438413989568,847,True
+s601:value:q1382,direct_rf,direct_rf,p u,False,34.842444196399626,35,True
+s601:value:q1382,direct_rf,direct_rf,p u v,False,39.923556900591855,40,True
+s601:value:q1382,direct_rf,direct_rf,b p u v,False,1281.7924645329372,1282,True
+s601:value:q804,pg,pg,b u,False,,1,
+s601:value:q804,pg,pg,b p u,False,,1,
+s601:value:q804,pg,pg,b p u v,False,,1,
+s601:value:q804,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q804,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q804,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q804,residual_hgb,residual_hgb,p v,False,169.55276039170076,170,True
+s601:value:q804,residual_hgb,residual_hgb,b u,False,94.33753365657401,94,True
+s601:value:q804,residual_hgb,residual_hgb,b p u v,False,3802.4660431349125,3802,True
+s601:value:q804,direct_hgb,direct_hgb,p v,False,99.65826481202893,100,True
+s601:value:q804,direct_hgb,direct_hgb,b u,False,114.52092817418122,115,True
+s601:value:q804,direct_hgb,direct_hgb,b p u v,False,2627.1153527104684,2627,True
+s601:value:q804,residual_rf,residual_rf,p v,False,76.61626660968867,77,True
+s601:value:q804,residual_rf,residual_rf,b u,False,97.33517505285383,97,True
+s601:value:q804,residual_rf,residual_rf,b p u v,False,1904.3077608529422,1904,True
+s601:value:q804,direct_rf,direct_rf,p v,False,96.74007202365763,97,True
+s601:value:q804,direct_rf,direct_rf,b u,False,80.26233451969271,80,True
+s601:value:q804,direct_rf,direct_rf,b p u v,False,2165.723343676467,2166,True
+s601:value:q904,pg,pg,b u,False,,1,
+s601:value:q904,pg,pg,b p u,False,,1,
+s601:value:q904,pg,pg,b p u v,False,,1,
+s601:value:q904,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q904,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q904,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q904,residual_hgb,residual_hgb,p u,False,9.409912217245363,9,True
+s601:value:q904,residual_hgb,residual_hgb,p u v,False,5.053336501620838,5,True
+s601:value:q904,residual_hgb,residual_hgb,b p u v,False,771.0059095851522,771,True
+s601:value:q904,direct_hgb,direct_hgb,p u,False,10.496766354146459,10,True
+s601:value:q904,direct_hgb,direct_hgb,p u v,False,7.4767342968696715,7,True
+s601:value:q904,direct_hgb,direct_hgb,b p u v,False,442.85349372030527,443,True
+s601:value:q904,residual_rf,residual_rf,p u,False,5.6833782347170265,6,True
+s601:value:q904,residual_rf,residual_rf,p u v,False,4.0079028152339236,4,True
+s601:value:q904,residual_rf,residual_rf,b p u v,False,585.6727052600708,586,True
+s601:value:q904,direct_rf,direct_rf,p u,False,6.405563074681751,6,True
+s601:value:q904,direct_rf,direct_rf,p u v,False,9.136070030337763,9,True
+s601:value:q904,direct_rf,direct_rf,b p u v,False,590.1188950061396,590,True
+s601:value:q1751,pg,pg,b u,False,,1,
+s601:value:q1751,pg,pg,b p u,False,,1,
+s601:value:q1751,pg,pg,b p u v,False,,1,
+s601:value:q1751,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q1751,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1751,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q1751,residual_hgb,residual_hgb,p u,False,1.5934884797207793,2,True
+s601:value:q1751,residual_hgb,residual_hgb,p u v,False,2.031144696583092,2,True
+s601:value:q1751,residual_hgb,residual_hgb,b p u v,False,595.1226100919421,595,True
+s601:value:q1751,direct_hgb,direct_hgb,p u,False,2.044089567577336,2,True
+s601:value:q1751,direct_hgb,direct_hgb,p u v,False,1.8526908965058113,2,True
+s601:value:q1751,direct_hgb,direct_hgb,b p u v,False,231.9301448701067,232,True
+s601:value:q1751,residual_rf,residual_rf,p u,False,3.4023582845948765,3,True
+s601:value:q1751,residual_rf,residual_rf,p u v,False,3.7600086208930588,4,True
+s601:value:q1751,residual_rf,residual_rf,b p u v,False,476.07980042254604,476,True
+s601:value:q1751,direct_rf,direct_rf,p u,False,3.487852873176411,3,True
+s601:value:q1751,direct_rf,direct_rf,p u v,False,5.034610612260409,5,True
+s601:value:q1751,direct_rf,direct_rf,b p u v,False,478.08368747319605,478,True
+s601:value:q708,pg,pg,b u,False,,1,
+s601:value:q708,pg,pg,b p u,False,,1,
+s601:value:q708,pg,pg,b p u v,False,,1,
+s601:value:q708,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q708,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q708,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q708,residual_hgb,residual_hgb,p u,False,18.9508420094199,19,True
+s601:value:q708,residual_hgb,residual_hgb,p u v,False,6.347169865176318,6,True
+s601:value:q708,residual_hgb,residual_hgb,b p u v,False,184.1412095078542,184,True
+s601:value:q708,direct_hgb,direct_hgb,p u,False,46.843626784192864,47,True
+s601:value:q708,direct_hgb,direct_hgb,p u v,False,7.892936624444156,8,True
+s601:value:q708,direct_hgb,direct_hgb,b p u v,False,148.91509074007817,149,True
+s601:value:q708,residual_rf,residual_rf,p u,False,16.263602945502075,16,True
+s601:value:q708,residual_rf,residual_rf,p u v,False,10.23192914407111,10,True
+s601:value:q708,residual_rf,residual_rf,b p u v,False,660.3144356310706,660,True
+s601:value:q708,direct_rf,direct_rf,p u,False,30.689468222871938,31,True
+s601:value:q708,direct_rf,direct_rf,p u v,False,11.865845259759375,12,True
+s601:value:q708,direct_rf,direct_rf,b p u v,False,743.5357170605763,744,True
+s601:value:q1032,pg,pg,b u,False,,1,
+s601:value:q1032,pg,pg,b p u,False,,1,
+s601:value:q1032,pg,pg,b p u v,False,,1,
+s601:value:q1032,pg_map,pg_map,b u,False,1.0,1,True
+s601:value:q1032,pg_map,pg_map,b p u,False,1.0,1,True
+s601:value:q1032,pg_map,pg_map,b p u v,False,2.0,2,True
+s601:value:q1032,residual_hgb,residual_hgb,p u,False,12.866819857603048,13,True
+s601:value:q1032,residual_hgb,residual_hgb,p u v,False,57.51556519544207,58,True
+s601:value:q1032,residual_hgb,residual_hgb,b p u v,False,6493.714506231008,6494,True
+s601:value:q1032,direct_hgb,direct_hgb,p u,False,13.282658255988071,13,True
+s601:value:q1032,direct_hgb,direct_hgb,p u v,False,60.66511362554556,61,True
+s601:value:q1032,direct_hgb,direct_hgb,b p u v,False,12722.032413823004,12722,True
+s601:value:q1032,residual_rf,residual_rf,p u,False,5.461546915149831,5,True
+s601:value:q1032,residual_rf,residual_rf,p u v,False,27.80318061919045,28,True
+s601:value:q1032,residual_rf,residual_rf,b p u v,False,2738.1456747725338,2738,True
+s601:value:q1032,direct_rf,direct_rf,p u,False,9.269205623174098,9,True
+s601:value:q1032,direct_rf,direct_rf,p u v,False,54.041405599529924,54,True
+s601:value:q1032,direct_rf,direct_rf,b p u v,False,3674.4315982986914,3674,True
+s601:value:q344,pg,pg,p u,False,,1,
+s601:value:q344,pg,pg,p u v,False,,1,
+s601:value:q344,pg,pg,b p u v,False,,1,
+s601:value:q344,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q344,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q344,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q344,residual_hgb,residual_hgb,p u,False,9.294253326470015,9,True
+s601:value:q344,residual_hgb,residual_hgb,p u v,False,6.356994568205222,6,True
+s601:value:q344,residual_hgb,residual_hgb,b p u v,False,900.096389232654,900,True
+s601:value:q344,direct_hgb,direct_hgb,p u,False,14.61375374626717,15,True
+s601:value:q344,direct_hgb,direct_hgb,p u v,False,5.702798580570742,6,True
+s601:value:q344,direct_hgb,direct_hgb,b p u v,False,708.5714270867102,709,True
+s601:value:q344,residual_rf,residual_rf,p u,False,6.323313368819697,6,True
+s601:value:q344,residual_rf,residual_rf,p u v,False,5.568794576489838,6,True
+s601:value:q344,residual_rf,residual_rf,b p u v,False,1111.0372939396023,1111,True
+s601:value:q344,direct_rf,direct_rf,p u,False,8.15798503203012,8,True
+s601:value:q344,direct_rf,direct_rf,p u v,False,10.664241906593194,11,True
+s601:value:q344,direct_rf,direct_rf,b p u v,False,1275.6002902137268,1276,True
+s601:value:q984,pg,pg,b u,False,,11,
+s601:value:q984,pg,pg,b p u,False,,88,
+s601:value:q984,pg,pg,b p u v,False,,132,
+s601:value:q984,pg_map,pg_map,b u,False,11.0,11,True
+s601:value:q984,pg_map,pg_map,b p u,False,88.0,88,True
+s601:value:q984,pg_map,pg_map,b p u v,False,132.0,132,True
+s601:value:q984,residual_hgb,residual_hgb,p u,False,551.909988005036,552,True
+s601:value:q984,residual_hgb,residual_hgb,p u v,False,241.46430435258247,241,True
+s601:value:q984,residual_hgb,residual_hgb,b p u v,False,25867.601242135825,25868,True
+s601:value:q984,direct_hgb,direct_hgb,p u,False,1318.0110512918352,1318,True
+s601:value:q984,direct_hgb,direct_hgb,p u v,False,196.73785046888523,197,True
+s601:value:q984,direct_hgb,direct_hgb,b p u v,False,4850.574771237183,4851,True
+s601:value:q984,residual_rf,residual_rf,p u,False,484.8671016820268,485,True
+s601:value:q984,residual_rf,residual_rf,p u v,False,407.60335309115015,408,True
+s601:value:q984,residual_rf,residual_rf,b p u v,False,54119.52838607741,54120,True
+s601:value:q984,direct_rf,direct_rf,p u,False,650.0031845303297,650,True
+s601:value:q984,direct_rf,direct_rf,p u v,False,495.1046860388594,495,True
+s601:value:q984,direct_rf,direct_rf,b p u v,False,3836.371444978158,3836,True
+s601:value:q308,pg,pg,p u,False,,1,
+s601:value:q308,pg,pg,p u v,False,,1,
+s601:value:q308,pg,pg,b p u v,False,,1,
+s601:value:q308,pg_map,pg_map,p u,False,1.0,1,True
+s601:value:q308,pg_map,pg_map,p u v,False,1.0,1,True
+s601:value:q308,pg_map,pg_map,b p u v,False,1.0,1,True
+s601:value:q308,residual_hgb,residual_hgb,p u,False,302.91303629341814,303,True
+s601:value:q308,residual_hgb,residual_hgb,p u v,False,128.86010538578088,129,True
+s601:value:q308,residual_hgb,residual_hgb,b p u v,False,3513.582215561511,3514,True
+s601:value:q308,direct_hgb,direct_hgb,p u,False,181.8961670946084,182,True
+s601:value:q308,direct_hgb,direct_hgb,p u v,False,109.71320933584316,110,True
+s601:value:q308,direct_hgb,direct_hgb,b p u v,False,4647.886123832243,4648,True
+s601:value:q308,residual_rf,residual_rf,p u,False,92.25918792180003,92,True
+s601:value:q308,residual_rf,residual_rf,p u v,False,50.70767193623974,51,True
+s601:value:q308,residual_rf,residual_rf,b p u v,False,3150.44947067036,3150,True
+s601:value:q308,direct_rf,direct_rf,p u,False,80.98387635884397,81,True
+s601:value:q308,direct_rf,direct_rf,p u v,False,47.040940155435145,47,True
+s601:value:q308,direct_rf,direct_rf,b p u v,False,4022.6089794143186,4023,True

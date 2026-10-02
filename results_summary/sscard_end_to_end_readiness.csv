@@ -1,0 +1,15 @@
+component,local_status,evidence,blocks_dbms_e2e
+JOB-like SQL,yes,79/79 SQL files,no
+string-column files,yes,11/11 present; missing none,no
+LIKE predicate file,no,"416-slot planner order; SQL text has 119 LIKE tokens, so static parsing is insufficient",yes
+SSCard card file,yes,416/416 estimate rows,no
+PostgreSQL card file,yes,416/416 estimate rows,no
+Vanilla PostgreSQL,yes,127.0.0.1:5432,no
+IMDB database,yes,present on patched 5434,no
+Modified PostgreSQL hook,yes,custom CE GUCs ok,no
+Upstream PG patch,manual,PostgreSQL-13.1 source patch/Docker path inspected,no
+Patched PG source,yes,patch applied; full solution built; installed; data dir initialized,no
+Windows build chain,yes,VS BuildTools/MSYS2/Strawberry Perl built patched PG13; server log patched_pg13_server.log,no
+README data-dir install,yes,cards available to patched data dir,no
+Build command,yes,sscard\src\run.sh,no
+Card command,no,sscard\src\cal_sel.py,yes

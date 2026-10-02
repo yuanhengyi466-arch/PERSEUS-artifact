@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Connected-subplan coverage audit for PostgreSQL multi-subplan injection",
+  "probe_csv": "paper\\workload_drift_residual_field\\results\\duckdb_execution_probe.csv",
+  "csv": "paper\\workload_drift_residual_field\\results\\postgres_subplan_coverage.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\postgres_subplan_coverage.tex",
+  "query_groups": 12600,
+  "uncapped_connected_subplans": 90384,
+  "k32_connected_subplans": 90384,
+  "max_subplans_per_query": 30,
+  "criterion": "max_subplans=32 covers the same connected-subplan set as uncapped enumeration"
+}

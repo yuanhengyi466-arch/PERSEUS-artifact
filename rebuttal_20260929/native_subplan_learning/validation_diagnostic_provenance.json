@@ -1,0 +1,6 @@
+{
+  "analysis_sha256": "f2f3632c3a9504dcf716964e41475981509e23996d1eb4d82f71f3540e0130e0",
+  "validation_requests_sha256": "ac8c3ef638fdd3f255b5512f95bccbe6e01d4aaa6de4e11db4078f3e940c991e",
+  "selected_rules_sha256": "d2c38a3a97b38297092989ae57451221749d0d69702f85f601c77072b6e9f65c",
+  "scope": "Post-selection validation-only explanation. Does not use test outcomes or alter any policy."
+}

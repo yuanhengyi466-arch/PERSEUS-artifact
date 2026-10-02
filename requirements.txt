@@ -1,0 +1,12 @@
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.1
+joblib==1.4.2
+psutil==5.9.0
+psycopg[binary]==3.3.4
+torch==2.8.0
+threadpoolctl
+duckdb
+matplotlib
+pandas
+tqdm

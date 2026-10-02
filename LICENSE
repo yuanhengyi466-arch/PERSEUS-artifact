@@ -1,0 +1,5 @@
+This package is prepared for academic artifact sharing.
+
+PERSEUS-specific scripts and paper source are released for research and review use by the manuscript authors.
+
+Third-party files retain their original licenses. In particular, `third_party/MSCN-modified/` includes its upstream license file and should be cited/used according to that license. Elsevier/CAS template files in `paper/` retain the template provider's license and usage terms.

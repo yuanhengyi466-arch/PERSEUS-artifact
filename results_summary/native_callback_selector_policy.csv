@@ -1,0 +1,7 @@
+drift,split,groups,deployed,coverage,plan_changed,plan_changed_rate,subset_n,subset_median_ratio,subset_p90_ratio,subset_p95_ratio,subset_win_rate,subset_loss_rate,policy_median_ratio,policy_p90_ratio,policy_p95_ratio,policy_win_rate,policy_loss_rate,rule
+column,validation,427,28,0.06557377049180328,2,0.07142857142857142,28,0.625,0.9586266840504128,1.0390415807993718,0.9285714285714286,0.07142857142857142,1.0,1.0,1.0,0.06088992974238876,0.00468384074941452,column native-final if max_estimated_cardinality <= 200; otherwise default
+column,test,1028,63,0.061284046692607,3,0.047619047619047616,63,0.7908745247148288,1.044661246612466,1.2238364934745136,0.7619047619047619,0.19047619047619047,1.0,1.0,1.0,0.04669260700389105,0.011673151750972763,column native-final if max_estimated_cardinality <= 200; otherwise default
+table,validation,478,0,0.0,0,,0,,,,,,1.0,1.0,1.0,0.0,0.0,column native-final if max_estimated_cardinality <= 200; otherwise default
+table,test,1058,0,0.0,0,,0,,,,,,1.0,1.0,1.0,0.0,0.0,column native-final if max_estimated_cardinality <= 200; otherwise default
+value,validation,432,0,0.0,0,,0,,,,,,1.0,1.0,1.0,0.0,0.0,column native-final if max_estimated_cardinality <= 200; otherwise default
+value,test,1104,0,0.0,0,,0,,,,,,1.0,1.0,1.0,0.0,0.0,column native-final if max_estimated_cardinality <= 200; otherwise default

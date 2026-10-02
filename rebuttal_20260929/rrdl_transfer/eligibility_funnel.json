@@ -1,0 +1,36 @@
+[
+  {
+    "drift": "column",
+    "official_rows": 8375,
+    "unique_sql": 8374,
+    "previous_connected_subquery": 1319,
+    "test": 20,
+    "validation": 10,
+    "previous_native_parent": 810,
+    "unselected_after_cap": 6209,
+    "new_selected_subquery_overlap": 6,
+    "structurally_novel_before_new_overlap": 6245
+  },
+  {
+    "drift": "table",
+    "official_rows": 8801,
+    "unique_sql": 8792,
+    "test": 40,
+    "validation": 20,
+    "previous_connected_subquery": 2432,
+    "previous_native_parent": 810,
+    "new_selected_subquery_overlap": 108,
+    "unselected_after_cap": 5382,
+    "structurally_novel_before_new_overlap": 5550
+  },
+  {
+    "drift": "value",
+    "official_rows": 2000,
+    "unique_sql": 2000,
+    "previous_native_parent": 920,
+    "test": 60,
+    "validation": 30,
+    "unselected_after_cap": 990,
+    "structurally_novel_before_new_overlap": 1080
+  }
+]

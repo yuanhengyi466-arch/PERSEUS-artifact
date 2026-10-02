@@ -1,0 +1,33 @@
+[
+  {
+    "drift": "column",
+    "official_rows": 8375,
+    "unique_parents": 8374,
+    "validation": 60,
+    "test": 60,
+    "prior_native": 670,
+    "development_overlap": 260,
+    "selected_overlap": 281,
+    "unselected_after_cap": 7043
+  },
+  {
+    "drift": "table",
+    "official_rows": 8801,
+    "unique_parents": 8792,
+    "development_overlap": 893,
+    "validation": 60,
+    "test": 60,
+    "selected_overlap": 1199,
+    "prior_native": 674,
+    "unselected_after_cap": 5906
+  },
+  {
+    "drift": "value",
+    "official_rows": 2000,
+    "unique_parents": 2000,
+    "validation": 60,
+    "prior_native": 680,
+    "test": 60,
+    "unselected_after_cap": 1200
+  }
+]

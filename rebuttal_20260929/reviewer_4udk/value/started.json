@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-09-28T16:49:36.508870+00:00",
+  "drift": "value",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch": "2.8.0+cu126",
+  "device": "cuda",
+  "command": [
+    "rebuttal_20260929/reviewer_4udk/run_estimator_controls.py",
+    "--drift",
+    "value"
+  ],
+  "protocol_hash": "32242eefe5413f3d890fef035bb900799ee4d597f3b35a364094b1c38e9d71aa",
+  "runner_hash": "3f111bd164e904f5fa6a98c564049c1852aa09958806db8f5f064f1f759bcfbc",
+  "dependencies": {
+    "run_workload_drift_mscn_windows.py": "63dee855a986e1d0241d197e369ea8ea89bf06b40fe5a7158413c2f230f88195",
+    "run_workload_drift_tail_residual_transport.py": "688faa7d1fd9c40fdd2d01bfda2c668fd701f313958b890b3e6c16ce4e972d7f",
+    "run_workload_drift_optimizer_risk_proxy.py": "85cc8dc83126b674c1c254530f42dcf87ab2d502fc91d7c47747f0b55a14e7ca"
+  },
+  "input_hashes": {
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_1_1.csv": "92a1738a5bf8742bbd41d828858f11feefd54e70c9224b0af913d8096a2cc6bc",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2.csv": "1167b155967a3812b400c75a5e705140da11f57fe9a33dd9e87652c5657be5db",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\model.pt": "f3f6c5a219873dfd6dc9207cf745680194256dc4a22b3ba1788b31f3c8493d87",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\predict_predictions.txt": "00f652b570f9570dc88c31261d92421074b92e72f8055e5e33945fe878280dfb",
+    "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_1_1_bitmap.csv": "a3421bc101c6e2b22d80ecafc73fb2398d90d25bc378f412c581489f2e150194",
+    "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2_bitmap.csv": "4d4f7af5906fcc53460ef31ad8404acd77f12922c82b2fc0b79273c34da20a7e",
+    "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\metrics.json": "3a58c558ef5e33bc071027aca197af25738a17ddf141d684b1746e1e96693797"
+  },
+  "source_unique_sql": 2000,
+  "within_drift_source_target_sql_overlap": 0
+}

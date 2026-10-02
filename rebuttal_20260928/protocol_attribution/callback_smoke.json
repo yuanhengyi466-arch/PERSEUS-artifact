@@ -1,0 +1,9 @@
+{
+  "cases": 3,
+  "checks": 9,
+  "root_matches": 9,
+  "plan_changes": {},
+  "seconds": 0.057618599967099726,
+  "map_sha256": "b7d03fbcfc33ce05be72848752bcf5ccd456a4138749bd73f3a1d3f63c7e83ae",
+  "outside_timed_experiment": true
+}

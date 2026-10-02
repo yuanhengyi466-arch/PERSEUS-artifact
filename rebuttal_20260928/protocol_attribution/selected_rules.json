@@ -1,0 +1,166 @@
+{
+  "config": {
+    "version": 1,
+    "outer_seeds": [
+      401,
+      402,
+      403
+    ],
+    "inner_seeds": [
+      1,
+      2,
+      3
+    ],
+    "split_proportions": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "native_per_drift_role": 60,
+    "timing_repeats": 3,
+    "statement_timeout_ms": 5000,
+    "models": [
+      "hgb",
+      "rf"
+    ],
+    "injection": "native connected-subplan root-ratio",
+    "runtime_class": {
+      "min_support": 20,
+      "median_cap": 0.98,
+      "p95_cap": 1.1,
+      "loss_cap": 0.25,
+      "whole_p95_cap": 1.01
+    },
+    "bootstrap_resamples": 2000
+  },
+  "policies": {
+    "401/hgb/runtime": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table",
+        "value"
+      ]
+    },
+    "401/hgb/full": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table"
+      ]
+    },
+    "401/rf/runtime": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table",
+        "value"
+      ]
+    },
+    "401/rf/full": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table"
+      ]
+    },
+    "402/hgb/runtime": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table",
+        "value"
+      ]
+    },
+    "402/hgb/full": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table"
+      ]
+    },
+    "402/rf/runtime": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table",
+        "value"
+      ]
+    },
+    "402/rf/full": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table"
+      ]
+    },
+    "403/hgb/runtime": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table",
+        "value"
+      ]
+    },
+    "403/hgb/full": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table"
+      ]
+    },
+    "403/rf/runtime": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table",
+        "value"
+      ]
+    },
+    "403/rf/full": {
+      "rule": null,
+      "accepted_validation_sql": 0,
+      "reason": "no rule satisfies fixed runtime criteria",
+      "eligible_rule_count": 0,
+      "allowed_drifts": [
+        "column",
+        "table"
+      ]
+    }
+  },
+  "validation_sha256": "6560de3bedd67c63124e0821ce99a976f47aa04ee8cc099212554fb9a26a0df5",
+  "selected_at": "2026-09-28T10:22:04.077711+00:00"
+}

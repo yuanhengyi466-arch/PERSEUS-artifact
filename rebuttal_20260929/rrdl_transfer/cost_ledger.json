@@ -1,0 +1,150 @@
+{
+  "source_historical_ledger": {
+    "development_unique_labels": 1340,
+    "development_roles": {
+      "fit": 866,
+      "tune": 237,
+      "gate": 237
+    },
+    "shared_historical_development_count_attempts": 1354,
+    "shared_historical_count_ms": 124328.76759849023,
+    "new_count_and_request_costs": {
+      "validation": {
+        "reference_attempts": 90,
+        "reference_successes": 83,
+        "reference_ms": 49681.773398653604,
+        "timed_requests": 1620,
+        "timed_ms": 910740.1573983952,
+        "warmup_requests": 540,
+        "warmup_ms": 304210.57399897836
+      },
+      "test": {
+        "reference_attempts": 90,
+        "reference_successes": 81,
+        "reference_ms": 51741.53099942487,
+        "timed_requests": 3780,
+        "timed_ms": 2138943.7646025326,
+        "warmup_requests": 1260,
+        "warmup_ms": 712926.5196016058
+      }
+    },
+    "new_model_fits": 16,
+    "fit_tune_seconds": 13.135658499901183,
+    "map_explain_ms": 1217.3424999928102,
+    "map_four_model_inference_ms": 3457.320300047286,
+    "cached_map_deployment": true,
+    "online_model_inference_in_request": false,
+    "predeployment_successful_unique_labels": 1423,
+    "predeployment_count_attempts_including_reused_acquisition": 1444,
+    "listed_predeployment_ms": 1404459.7327950178
+  },
+  "source_model_refitted": false,
+  "source_validation_pg_residual_hgb_timed_ms": 297553.25519968756,
+  "source_validation_pg_residual_hgb_warmup_ms": 99161.08709946275,
+  "source_residual_hgb_fit_tune_seconds": 2.7537789000198245,
+  "new_costs": {
+    "validation": {
+      "pg4": {
+        "reference_attempts": 60,
+        "reference_successes": 56,
+        "reference_ms": 23013.911499641836,
+        "timed_requests": 540,
+        "timed_ms": 199655.6819997495,
+        "warmup_requests": 180,
+        "warmup_ms": 66395.55990044028,
+        "selection_pg_repair_timed_ms": 130962.31989981607,
+        "selection_pg_repair_warmup_ms": 43593.07310031727,
+        "configuration_switch_ms": 68.07249982375652,
+        "decision_ms": 0.7496997714042664,
+        "activation_ms": 131.77459931466728
+      },
+      "pg11": {
+        "reference_attempts": 60,
+        "reference_successes": 56,
+        "reference_ms": 22592.53909997642,
+        "timed_requests": 540,
+        "timed_ms": 197328.79079971462,
+        "warmup_requests": 180,
+        "warmup_ms": 65745.53650058806,
+        "selection_pg_repair_timed_ms": 129956.05549984612,
+        "selection_pg_repair_warmup_ms": 43324.856200488284,
+        "configuration_switch_ms": 65.27649948839098,
+        "decision_ms": 0.6514005362987518,
+        "activation_ms": 127.01709882821888
+      }
+    },
+    "test": {
+      "pg4": {
+        "reference_attempts": 120,
+        "reference_successes": 113,
+        "reference_ms": 59110.39379937574,
+        "timed_requests": 2520,
+        "timed_ms": 1240275.3703010967,
+        "warmup_requests": 840,
+        "warmup_ms": 416889.67180019245,
+        "selection_pg_repair_timed_ms": 358393.69850070216,
+        "selection_pg_repair_warmup_ms": 120572.5558004342,
+        "configuration_switch_ms": 142.52489898353815,
+        "decision_ms": 7.892300607636571,
+        "activation_ms": 566.9177970848978
+      },
+      "pg11": {
+        "reference_attempts": 120,
+        "reference_successes": 113,
+        "reference_ms": 58658.87239901349,
+        "timed_requests": 2520,
+        "timed_ms": 1221904.6962964348,
+        "warmup_requests": 840,
+        "warmup_ms": 411520.26649855543,
+        "selection_pg_repair_timed_ms": 351813.638097723,
+        "selection_pg_repair_warmup_ms": 118582.89660105947,
+        "configuration_switch_ms": 144.13890044670552,
+        "decision_ms": 7.809397764503956,
+        "activation_ms": 574.5660009561107
+      }
+    }
+  },
+  "new_unique_successful_reference_parents": {
+    "validation": 56,
+    "test": 113
+  },
+  "map_costs": [
+    {
+      "role": "validation",
+      "config": "pg4",
+      "parents": 60,
+      "explain_ms": 395.7809996791184,
+      "inference_ms": 179.52929926104844
+    },
+    {
+      "role": "validation",
+      "config": "pg11",
+      "parents": 60,
+      "explain_ms": 354.7591003589332,
+      "inference_ms": 184.99539978802204
+    },
+    {
+      "role": "test",
+      "config": "pg4",
+      "parents": 120,
+      "explain_ms": 732.482400489971,
+      "inference_ms": 379.91580029483885
+    },
+    {
+      "role": "test",
+      "config": "pg11",
+      "parents": 120,
+      "explain_ms": 672.0164997968823,
+      "inference_ms": 359.2637003166601
+    }
+  ],
+  "phase_elapsed_s": {
+    "freeze": 0.042000770568847656,
+    "maps": 4.519880533218384,
+    "validation": 575.5944716930389,
+    "select": 0.04799246788024902,
+    "test": 3411.933394908905
+  },
+  "accounting": "Historical acquisition shared; no new fitting. Config copies share labels. Test COUNT and all test timing are evaluation only. Source-only rule needs no target validation. Target comparator uses reference + PG/repair validation costs; pg_map and other comparisons are audit costs. Phase wall time includes listed components and must not be added to them.",
+  "request_boundary": "Already configured session, cached map, policy lookup + activation + planning + SQL return; map construction/inference and config switching separately measured."
+}

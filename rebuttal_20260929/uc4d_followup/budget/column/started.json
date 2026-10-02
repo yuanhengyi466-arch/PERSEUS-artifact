@@ -1,0 +1,19 @@
+{
+  "unix": 1790656859.3023288,
+  "command": [
+    "rebuttal_20260929/uc4d_followup/run_budget.py",
+    "all"
+  ],
+  "inputs": {
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\metrics.json": "d4d113f82cb21fdba85aa8c3142b1f081671680e6dacbdcef420d9d896079dea",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns.csv": "26f6f35ad773273e3960d072e2c7c2a6988176735016c92cfb5f03f388d22388",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_4_columns.csv": "6d097d07ccb905218e364a64b5b7ed565e27284b2dc7c0055b6f28e8633318f4",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\predict_predictions.txt": "d01cb9ea39ef78b6372f808de9a729763f36ed3f5a7235fe16bdf4b4478451ce"
+  },
+  "protocol_sha256": "f48de673741255a7062fa6f34fab86d0d666caca7e7f5aad2727657efd2bfbed",
+  "script_sha256": "ff2f0c1f54d9a0d6e096ed85cfbd058b0a623a911c893e05b09b03ff9e846f33",
+  "helper_sha256": "3f111bd164e904f5fa6a98c564049c1852aa09958806db8f5f064f1f759bcfbc",
+  "identity_sha256": "a3bcddb767a94cba9953488d9515a1a89e9afcd948048e70efef56626ec96a51",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "sklearn": "1.5.1"
+}

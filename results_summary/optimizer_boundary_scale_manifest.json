@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "scope": "Optimizer-boundary scale and coverage audit",
+  "finished_at": "2026-06-12T11:11:03",
+  "duckdb_csv": "paper\\workload_drift_residual_field\\results\\duckdb_execution_probe.csv",
+  "pg_exact_manifest": "paper\\workload_drift_residual_field\\results\\postgres_multisubplan_k32_exact_full\\postgres_multisubplan_injection_manifest.json",
+  "pg_deploy_manifest": "paper\\workload_drift_residual_field\\results_pg_deploy_k1450\\postgres_multisubplan_injection_manifest.json",
+  "coverage_manifest": "paper\\workload_drift_residual_field\\results\\postgres_subplan_coverage_manifest.json",
+  "raw_tail_query_groups": 13050,
+  "raw_tail_method_rows": 52200,
+  "raw_tail_by_drift": {
+    "column": 4350,
+    "table": 4350,
+    "value": 4350
+  },
+  "eligible_query_groups": 12600,
+  "eligible_by_drift": {
+    "column": 3900,
+    "table": 4350,
+    "value": 4350
+  },
+  "eligible_fraction_of_raw_tail": 0.9655172413793104,
+  "uncapped_connected_subplans": 90384,
+  "max_subplans_per_query": 30,
+  "pg_exact_completed_cases": 4527,
+  "pg_exact_completed_method_executions": 18108,
+  "pg_deploy_completed_cases": 12599,
+  "pg_deploy_completed_method_executions": 37797,
+  "rows": [
+    {
+      "scope": "Raw tail",
+      "query_groups": 13050,
+      "method_runs": 52200,
+      "subplans": "--"
+    },
+    {
+      "scope": "Eligible",
+      "query_groups": 12600,
+      "method_runs": "--",
+      "subplans": 90384
+    },
+    {
+      "scope": "PG exact",
+      "query_groups": 4527,
+      "method_runs": 18108,
+      "subplans": 30513
+    },
+    {
+      "scope": "PG deploy",
+      "query_groups": 12599,
+      "method_runs": 37797,
+      "subplans": 90384
+    }
+  ],
+  "csv": "paper\\workload_drift_residual_field\\results\\optimizer_boundary_scale.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\optimizer_boundary_scale.tex"
+}

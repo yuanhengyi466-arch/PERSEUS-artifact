@@ -1,0 +1,22 @@
+{
+  "unix": 1790670546.1085637,
+  "script_sha256": "5538d8eab91416a6ef772289d47f36d6aa8217661652490b6c169d9ba5fb6911",
+  "model_selections": 144,
+  "configuration_fits": 576,
+  "outputs": {
+    "budget_candidate.pdf": "d12721cb7203324bc82eba29e8cad96714be8abfebeb47e0210a39ec62da6c04",
+    "budget_candidate.png": "e38a208697b298bcadc6f2eba22d3212b9680bd0e90b6a6b5329f6637c984dcf",
+    "budget_costs.csv": "66efb628f3dbbd907a2860a974ea41b3f29f7c6ecfdb641b07125ab32e5e63fe",
+    "budget_cross_drift_unions.csv": "51d772ded998904a98d116f8d8924f88bcbbe394f814817a5ef90814c25724e1",
+    "budget_cross_trial_unions.csv": "b0cf68964a66c607e0db171a99f57fda9417b89481e12a4c9a047008cbb52b09",
+    "budget_gated.pdf": "7cdb97b13583787f9dd9177973a264a5b82b3da09134c8a6271911a81df4a5d0",
+    "budget_gated.png": "9ec0faef02721ae1e4954345c82de13c5c2e6c045d47cae2fa31db6eb4280dae",
+    "budget_gate_passes.csv": "063a98f7e145e2695e5725b6773dad986eca98fc4d8eeb5bdd68883dc42e1945",
+    "budget_paired.csv": "482d2029cc8eaec8c6ad0e57c9ab9e647bcf574c3c9fd518496e46e20bf261bc",
+    "budget_per_split.csv": "31a4e954b8e63e35617131a41ab93d32584f8eb9b9307c59e5160e327a7e1d7c",
+    "budget_summary.csv": "0476c23d237c6654021aac96d74ee82c212b39d2e60e1d9ac6ff8e347b73c620"
+  },
+  "paired_bootstrap": "2000 SQL-cluster draws; conditional on fitted models and gates",
+  "nested_budgets_and_fixed_test_verified": true,
+  "cross_drift_role_overlap": 0
+}

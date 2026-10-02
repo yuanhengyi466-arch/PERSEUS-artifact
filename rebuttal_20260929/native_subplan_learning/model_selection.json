@@ -1,0 +1,40 @@
+{
+  "models": {
+    "hgb": {
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20
+    },
+    "rf": {
+      "max_depth": null,
+      "min_samples_leaf": 5
+    }
+  },
+  "clip_trials": [
+    {
+      "cap": 2,
+      "tune_score": 8.214608547217924,
+      "unique_tune_labels": 237
+    },
+    {
+      "cap": 4,
+      "tune_score": 7.521461366657979,
+      "unique_tune_labels": 237
+    },
+    {
+      "cap": 10,
+      "tune_score": 6.6304259641541625,
+      "unique_tune_labels": 237
+    }
+  ],
+  "selected_ratio_cap": 10,
+  "residual_clip": [
+    -7.26099303161241,
+    9.46930597137436
+  ],
+  "fit_scalar_shift": 0.6485377896599154,
+  "supervision_counts": {
+    "fit": 867,
+    "tune": 237,
+    "gate": 237
+  }
+}

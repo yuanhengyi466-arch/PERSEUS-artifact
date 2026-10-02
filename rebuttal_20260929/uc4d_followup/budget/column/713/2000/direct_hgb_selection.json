@@ -1,0 +1,91 @@
+{
+  "family": "direct_hgb",
+  "selected_config_id": 1,
+  "candidates": [
+    {
+      "family": "direct_hgb",
+      "config_id": 0,
+      "config": {
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 31,
+        "l2_regularization": 0.01
+      },
+      "tuning": {
+        "n": 400,
+        "median": 2.3863149900295983,
+        "p90": 24.82465735354412,
+        "p95": 103.15587712952542,
+        "p99": 559.0193133587505,
+        "max": 5981.05114961407,
+        "mean": 40.68037256644029
+      },
+      "fit_and_tune_seconds": 0.3356449999846518
+    },
+    {
+      "family": "direct_hgb",
+      "config_id": 1,
+      "config": {
+        "max_iter": 300,
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 31,
+        "l2_regularization": 0.01
+      },
+      "tuning": {
+        "n": 400,
+        "median": 2.605181843389062,
+        "p90": 30.50624885252346,
+        "p95": 93.47555281825531,
+        "p99": 386.94740388823834,
+        "max": 4965.962787886061,
+        "mean": 34.67662288760696
+      },
+      "fit_and_tune_seconds": 0.6228601000038907
+    },
+    {
+      "family": "direct_hgb",
+      "config_id": 2,
+      "config": {
+        "max_iter": 150,
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31,
+        "l2_regularization": 0.01
+      },
+      "tuning": {
+        "n": 400,
+        "median": 2.8393352006406887,
+        "p90": 31.08340837379929,
+        "p95": 86.67892543263025,
+        "p99": 421.41972871054656,
+        "max": 2500.4842884733175,
+        "mean": 28.493337061885512
+      },
+      "fit_and_tune_seconds": 0.31447550002485514
+    },
+    {
+      "family": "direct_hgb",
+      "config_id": 3,
+      "config": {
+        "max_iter": 300,
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31,
+        "l2_regularization": 0.01
+      },
+      "tuning": {
+        "n": 400,
+        "median": 2.671975886333203,
+        "p90": 30.58090807239082,
+        "p95": 82.25073899209814,
+        "p99": 547.818483223043,
+        "max": 2036.7076921747366,
+        "mean": 26.96781661460595
+      },
+      "fit_and_tune_seconds": 0.5901577000040561
+    }
+  ],
+  "clip": [
+    0.0,
+    25.89345364761365
+  ],
+  "selected_before_gate_and_test": true
+}

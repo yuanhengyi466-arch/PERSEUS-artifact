@@ -1,0 +1,31 @@
+{
+  "source110": {
+    "rule": null,
+    "reason": "no qualifying validation region",
+    "cap": 1.1,
+    "passing_rules": 0
+  },
+  "source125": {
+    "policy": "full__residual_hgb",
+    "index": 242,
+    "rule": {
+      "drifts": [
+        "table",
+        "value"
+      ],
+      "min_tables": 2,
+      "min_pg_rows": 0,
+      "direction": "up"
+    },
+    "support": 38,
+    "failures": 0,
+    "median_ratio": 0.6050080404911622,
+    "p95_ratio": 1.1721133035905114,
+    "loss_fraction": 0.15789473684210525,
+    "whole_p95_latency_ratio": 1.0,
+    "saved_ms": 1159.5580001594499,
+    "passed": false,
+    "cap": 1.25,
+    "passing_rules": 4
+  }
+}

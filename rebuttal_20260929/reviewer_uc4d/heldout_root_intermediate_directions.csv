@@ -1,0 +1,18 @@
+drift,subplan_tables,labeled_intermediates_with_labeled_root,opposite_direction_records,opposite_fraction,observed_parent_count,parents_with_any_observed_opposite,scope
+all,all,1053,157,0.14909781576448244,155,58,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+all,2,493,89,0.18052738336713997,155,54,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+all,3,389,50,0.12853470437017994,131,32,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+all,4,161,18,0.11180124223602485,55,16,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+all,5,10,0,0.0,2,0,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+column,all,226,35,0.15486725663716813,45,19,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+column,2,116,23,0.19827586206896552,45,18,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+column,3,73,11,0.1506849315068493,21,8,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+column,4,27,1,0.037037037037037035,5,1,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+column,5,10,0,0.0,2,0,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+table,all,527,120,0.22770398481973433,50,37,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+table,2,197,64,0.3248730964467005,50,34,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+table,3,196,39,0.1989795918367347,50,24,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+table,4,134,17,0.12686567164179105,50,15,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+value,all,300,2,0.006666666666666667,60,2,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+value,2,180,2,0.011111111111111112,60,2,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.
+value,3,120,0,0.0,60,0,Only observed root/intermediate COUNT pairs; no imputation for timeout labels.

@@ -1,0 +1,74 @@
+{
+  "completed": true,
+  "timed_requests": 8550,
+  "statuses": {
+    "validation": {
+      "ok": 2316,
+      "label_mismatch": 648,
+      "timeout": 276
+    },
+    "test": {
+      "label_mismatch": 1095,
+      "timeout": 496,
+      "ok": 3719
+    }
+  },
+  "warmup_statuses": {
+    "validation": {
+      "ok": 772,
+      "label_mismatch": 216,
+      "timeout": 92
+    },
+    "test": {
+      "ok": 1240,
+      "label_mismatch": 365,
+      "timeout": 165
+    }
+  },
+  "native_parents": 357,
+  "test_parents": 177,
+  "mapped_root_checks": 1785,
+  "mapped_join_checks": 4970,
+  "all_mapped_checks_pass": true,
+  "all_role_subquery_intersections": {
+    "fit/tune": 0,
+    "fit/gate": 0,
+    "fit/validation": 0,
+    "fit/test": 0,
+    "tune/gate": 0,
+    "tune/validation": 0,
+    "tune/test": 0,
+    "gate/validation": 0,
+    "gate/test": 0,
+    "validation/test": 0
+  },
+  "test_count_statuses": {
+    "ok": 1367,
+    "timeout": 119
+  },
+  "all_equality_normalized_role_intersections": {
+    "fit/tune": 0,
+    "fit/gate": 0,
+    "fit/validation": 0,
+    "fit/test": 0,
+    "tune/gate": 0,
+    "tune/validation": 0,
+    "tune/test": 0,
+    "gate/validation": 0,
+    "gate/test": 0,
+    "validation/test": 0
+  },
+  "initial_selected_native_parents": 360,
+  "pretest_structure_only_excluded_parents": 3,
+  "selected_before_test": true,
+  "test_subplan_truth_acquired_after_test": true,
+  "original_submission_unchanged": true,
+  "all_preparation_inputs_unchanged": true,
+  "cross_method_count_conflict_parents": 0,
+  "archived_label_mismatch_parents": {
+    "validation": 36,
+    "test": 38
+  },
+  "analysis_sha256": "85acca0a0730289d8f7f0f0cc7845f3ce60de334fcfa74c0f4b33dfe25d27f7f",
+  "conditional_bootstrap_draws": 2000
+}

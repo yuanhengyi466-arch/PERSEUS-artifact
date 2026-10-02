@@ -1,0 +1,9 @@
+{
+  "unix": 1790672850.903972,
+  "outputs": {
+    "target_rule_search.json": "fc08c54047a7db148ad1daea11500f4c8971c7f45f08ace76e9b264a467c4403",
+    "selected_rules.json": "343baeaa02e5e91d8b7e8f84719296324d4b32c1a9def294cda671d674b0707c"
+  },
+  "test_was_absent": true,
+  "validation_sha256": "b42e2655f6c7a5b91ad35bb996c33db5cdb28f374abb3ccb3f11d00e43fdb8f2"
+}

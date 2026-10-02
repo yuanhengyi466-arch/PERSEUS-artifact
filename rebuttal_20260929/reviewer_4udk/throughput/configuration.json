@@ -1,0 +1,23 @@
+{
+  "concurrencies": [
+    1,
+    4
+  ],
+  "repetitions": [
+    0,
+    1,
+    2
+  ],
+  "policies": [
+    "pg",
+    "full:hgb"
+  ],
+  "cases": 540,
+  "distinct_sql": 494,
+  "protocol_sha256": "b39d97c272cd1c289824cfbf3f87bbbdfbbab8cdd0465da0fc75f25b994abfc6",
+  "runner_sha256": "1c360dc09e6011ca98da1e8740f22cbb57dc86bb8c9506e7b0e5bd182c1cefc9",
+  "native_runner_sha256": "ac52138f32b0dad0a1b7c0784192ad26c3f856b1ca84a4df0af99ad03995a748",
+  "native_selection_sha256": "c5e824f0e07f13985a479d18d3bc011a90ee724129e9079b7b715142d97a8fcf",
+  "cases_sha256": "7c5474e6a5e0b7a5e0e21b4571de4ac2d14e4e89b7716d86a69dde0da2b92ea0",
+  "all_fallback": true
+}

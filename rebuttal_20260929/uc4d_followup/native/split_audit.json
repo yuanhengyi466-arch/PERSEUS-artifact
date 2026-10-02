@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "rebuttal_20260929\\native_subplan_learning\\cases.json": "1ce7fe2c95d75861773570eb9a4a003f9f7b244353067b0badca174b1d26ec91",
+    "rebuttal_20260929\\native_subplan_learning\\development_samples.json": "18f6d0b145280134897d145d36a3bb6d85e52b3b993d0b33438a30d447e0e502",
+    "rebuttal_20260929\\native_subplan_learning\\test_eligibility_amendment.json": "41860b26cc18e2d99b15bdd815ca6e0f2f8b03b6fc68fbfab4937f906cab98f3",
+    "rebuttal_20260929\\native_subplan_learning\\run_learning.py": "67a1efc1eb8f0ce22cfeec440c399dfab1c48609480a82f6259738b90d3ed12f",
+    "rebuttal_20260929\\native_subplan_learning\\semantic_audit.py": "a3bcddb767a94cba9953488d9515a1a89e9afcd948048e70efef56626ec96a51",
+    "rebuttal_20260929\\native_subplan_learning\\model_selection.json": "8cad1257380598ec171e9cf6e2043da5a41bd1ec6768d07f937fac16cfc840d2"
+  },
+  "overlap_counts": {
+    "fit/tune": 0,
+    "fit/gate": 0,
+    "fit/validation": 0,
+    "fit/test": 0,
+    "tune/gate": 0,
+    "tune/validation": 0,
+    "tune/test": 0,
+    "gate/validation": 0,
+    "gate/test": 0,
+    "validation/test": 0
+  },
+  "role_unique_subqueries": {
+    "fit": 866,
+    "tune": 237,
+    "gate": 237,
+    "validation": 725,
+    "test": 758
+  },
+  "development_labels": {
+    "fit": 866,
+    "tune": 237,
+    "gate": 237
+  },
+  "cohort": "hashed attribution subset of previously evaluated, isolated native roles"
+}

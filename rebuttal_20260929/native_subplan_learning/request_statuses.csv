@@ -1,0 +1,17 @@
+role,method,requests,ok,timeout,error,label_mismatch
+validation,clip_ratio,540,384,48,0,108
+validation,pg,540,387,45,0,108
+validation,pg_map,540,387,45,0,108
+validation,root_ratio,540,384,48,0,108
+validation,sub_hgb,540,387,45,0,108
+validation,sub_rf,540,387,45,0,108
+test,clip_ratio,531,372,45,0,114
+test,full_hgb,531,372,51,0,108
+test,full_rf,531,372,51,0,108
+test,pg,531,372,51,0,108
+test,pg_map,531,372,51,0,108
+test,root_ratio,531,371,49,0,111
+test,runtime_hgb,531,372,51,0,108
+test,runtime_rf,531,372,51,0,108
+test,sub_hgb,531,372,48,0,111
+test,sub_rf,531,372,48,0,111

@@ -1,0 +1,18 @@
+{
+  "runtime_hgb": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "full_hgb": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "runtime_rf": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  },
+  "full_rf": {
+    "rule": null,
+    "reason": "no qualifying validation region"
+  }
+}

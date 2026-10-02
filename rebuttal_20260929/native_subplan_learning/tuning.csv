@@ -1,0 +1,9 @@
+model,config,parameters,fit_seconds,tune_score
+hgb,0,"{'max_leaf_nodes': 15, 'min_samples_leaf': 5}",0.6733911000192165,4.0221489586161105
+hgb,1,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}",0.4957666000118479,3.3277361811456934
+hgb,2,"{'max_leaf_nodes': 31, 'min_samples_leaf': 5}",1.1407195000210777,3.9490614085284927
+hgb,3,"{'max_leaf_nodes': 31, 'min_samples_leaf': 20}",0.6253216000040993,3.5155809743952835
+rf,0,"{'max_depth': 14, 'min_samples_leaf': 2}",1.2087112000444904,4.076029560290326
+rf,1,"{'max_depth': 14, 'min_samples_leaf': 5}",0.8703771999571472,3.495094647920836
+rf,2,"{'max_depth': None, 'min_samples_leaf': 2}",1.1664606999838725,4.009308277742167
+rf,3,"{'max_depth': None, 'min_samples_leaf': 5}",0.8738615999463946,3.480491470973971

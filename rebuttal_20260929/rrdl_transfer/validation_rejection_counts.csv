@@ -1,0 +1,5 @@
+config,cap,all_grid_rules,rules_with_support,passing_rules,fails_correctness,fails_median,fails_subset_p95,fails_loss_fraction,fails_whole_p95,fails_saving
+pg4,1.1,336,44,0,26,20,44,26,0,0
+pg4,1.25,336,44,0,26,20,44,26,0,0
+pg11,1.1,336,44,0,26,20,44,44,0,0
+pg11,1.25,336,44,0,26,20,44,44,0,0

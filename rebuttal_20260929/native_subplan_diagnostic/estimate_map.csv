@@ -1,0 +1,4170 @@
+query_id,aliases,method,estimate
+a401:column:q2170,c u,pg_map,169862.0
+a401:column:q2170,c u,hgb_ratio,357627.73584077583
+a401:column:q2170,c u,oracle_join,169839
+a401:column:q2170,p u,pg_map,852.0
+a401:column:q2170,p u,hgb_ratio,1793.802209654549
+a401:column:q2170,p u,oracle_join,855
+a401:column:q2170,c p u,pg_map,510264.0
+a401:column:q2170,c p u,hgb_ratio,4707.678099515929
+a401:column:q2170,c p u,oracle_join,33974
+a401:column:q2599,c u,pg_map,158192.0
+a401:column:q2599,c u,hgb_ratio,51386.088335283755
+a401:column:q2599,c u,oracle_join,38290
+a401:column:q2599,u v,pg_map,32399.0
+a401:column:q2599,u v,hgb_ratio,10524.28615843316
+a401:column:q2599,u v,oracle_join,13854
+a401:column:q2599,c u v,pg_map,9742355.0
+a401:column:q2599,c u v,hgb_ratio,323925.76248095126
+a401:column:q2599,c u v,oracle_join,60712
+a401:column:q6989,b u,pg_map,73318.0
+a401:column:q6989,b u,hgb_ratio,104719.90334547758
+a401:column:q6989,b u,oracle_join,65729
+a401:column:q6989,ph u,pg_map,56423.0
+a401:column:q6989,ph u,hgb_ratio,80588.82002321233
+a401:column:q6989,ph u,oracle_join,45848
+a401:column:q6989,u v,pg_map,19.0
+a401:column:q6989,u v,hgb_ratio,27.137649193432363
+a401:column:q6989,u v,oracle_join,15
+a401:column:q6989,b ph u,pg_map,2874802.0
+a401:column:q6989,b ph u,hgb_ratio,4106072.0092935655
+a401:column:q6989,b ph u,oracle_join,2311971
+a401:column:q6989,b u v,pg_map,38.0
+a401:column:q6989,b u v,hgb_ratio,54.275298386864726
+a401:column:q6989,b u v,oracle_join,410
+a401:column:q6989,ph u v,pg_map,29.0
+a401:column:q6989,ph u v,hgb_ratio,41.4206224531336
+a401:column:q6989,ph u v,oracle_join,1208
+a401:column:q6989,b ph u v,pg_map,2653.0
+a401:column:q6989,b ph u v,hgb_ratio,26676.309157144013
+a401:column:q6989,b ph u v,oracle_join,169764
+a401:column:q6326,p t,pg_map,590.0
+a401:column:q6326,p t,hgb_ratio,9.686351940549583
+a401:column:q6326,p t,oracle_join,596
+a401:column:q6326,p u,pg_map,85245.0
+a401:column:q6326,p u,hgb_ratio,1399.5136799527952
+a401:column:q6326,p u,oracle_join,38410
+a401:column:q6326,p v,pg_map,323946.0
+a401:column:q6326,p v,hgb_ratio,5318.398247005552
+a401:column:q6326,p v,oracle_join,323983
+a401:column:q6326,p t u,pg_map,553.0
+a401:column:q6326,p t u,hgb_ratio,9.078902751057491
+a401:column:q6326,p t u,oracle_join,7
+a401:column:q6326,p t v,pg_map,2100.0
+a401:column:q6326,p t v,hgb_ratio,34.47684589009174
+a401:column:q6326,p t v,oracle_join,618
+a401:column:q6326,p u v,pg_map,303449.0
+a401:column:q6326,p u v,hgb_ratio,4981.887813572594
+a401:column:q6326,p u v,oracle_join,98121
+a401:column:q6326,p t u v,pg_map,1967.0
+a401:column:q6326,p t u v,hgb_ratio,920.318357171844
+a401:column:q6326,p t u v,oracle_join,10
+a401:column:q5760,b u,pg_map,76647.0
+a401:column:q5760,b u,hgb_ratio,218558.36889308665
+a401:column:q5760,b u,oracle_join,61142
+a401:column:q5760,c u,pg_map,127039.0
+a401:column:q5760,c u,hgb_ratio,362250.794236028
+a401:column:q5760,c u,oracle_join,54333
+a401:column:q5760,u v,pg_map,201.0
+a401:column:q5760,u v,hgb_ratio,573.1500534595016
+a401:column:q5760,u v,oracle_join,515
+a401:column:q5760,b c u,pg_map,11377054.0
+a401:column:q5760,b c u,hgb_ratio,32441587.60354048
+a401:column:q5760,b c u,oracle_join,366774
+a401:column:q5760,b u v,pg_map,399.0
+a401:column:q5760,b u v,hgb_ratio,1137.7456285091598
+a401:column:q5760,b u v,oracle_join,5170
+a401:column:q5760,c u v,pg_map,661.0
+a401:column:q5760,c u v,hgb_ratio,1884.8367429688087
+a401:column:q5760,c u v,oracle_join,10046
+a401:column:q5760,b c u v,pg_map,4283428.0
+a401:column:q5760,b c u v,hgb_ratio,37314.63482373651
+a401:column:q5760,b c u v,oracle_join,155111
+a401:column:q6151,b u,pg_map,76602.0
+a401:column:q6151,b u,hgb_ratio,6049.432988227232
+a401:column:q6151,b u,oracle_join,56580
+a401:column:q6151,c u,pg_map,1.0
+a401:column:q6151,c u,hgb_ratio,1.0
+a401:column:q6151,c u,oracle_join,1
+a401:column:q6151,ph u,pg_map,258273.0
+a401:column:q6151,ph u,hgb_ratio,20396.4022632361
+a401:column:q6151,ph u,oracle_join,117780
+a401:column:q6151,b c u,pg_map,85.0
+a401:column:q6151,b c u,hgb_ratio,6.71264201978166
+a401:column:q6151,b c u,oracle_join,8
+a401:column:q6151,b ph u,pg_map,13159182.0
+a401:column:q6151,b ph u,hgb_ratio,1039210.3298724055
+a401:column:q6151,b ph u,oracle_join,523585
+a401:column:q6151,c ph u,pg_map,1329.0
+a401:column:q6151,c ph u,hgb_ratio,104.95413228576265
+a401:column:q6151,c ph u,oracle_join,12
+a401:column:q6151,b c ph u,pg_map,119019.0
+a401:column:q6151,b c ph u,hgb_ratio,721.9643922922816
+a401:column:q6151,b c ph u,oracle_join,96
+a401:column:q6600,p ph,pg_map,140162.0
+a401:column:q6600,p ph,hgb_ratio,126934.84723462585
+a401:column:q6600,p ph,oracle_join,215438
+a401:column:q6600,p u,pg_map,40593.0
+a401:column:q6600,p u,hgb_ratio,36762.21981560742
+a401:column:q6600,p u,oracle_join,31360
+a401:column:q6600,p v,pg_map,151662.0
+a401:column:q6600,p v,hgb_ratio,137349.586915839
+a401:column:q6600,p v,oracle_join,140446
+a401:column:q6600,p ph u,pg_map,133811.0
+a401:column:q6600,p ph u,hgb_ratio,121183.1940419837
+a401:column:q6600,p ph u,oracle_join,155528
+a401:column:q6600,p ph v,pg_map,499936.0
+a401:column:q6600,p ph v,hgb_ratio,452756.808457998
+a401:column:q6600,p ph v,oracle_join,842264
+a401:column:q6600,p u v,pg_map,144789.0
+a401:column:q6600,p u v,hgb_ratio,131125.19510462353
+a401:column:q6600,p u v,oracle_join,81008
+a401:column:q6600,p ph u v,pg_map,477284.0
+a401:column:q6600,p ph u v,hgb_ratio,39374.05540174818
+a401:column:q6600,p ph u v,oracle_join,474667
+a401:column:q2380,c ph,pg_map,202.0
+a401:column:q2380,c ph,hgb_ratio,4.563146418863902
+a401:column:q2380,c ph,oracle_join,31
+a401:column:q2380,c u,pg_map,1.0
+a401:column:q2380,c u,hgb_ratio,1.0
+a401:column:q2380,c u,oracle_join,1
+a401:column:q2380,c ph u,pg_map,198.0
+a401:column:q2380,c ph u,hgb_ratio,25.933129152751285
+a401:column:q2380,c ph u,oracle_join,31
+a401:column:q2464,c ph,pg_map,75253467.0
+a401:column:q2464,c ph,hgb_ratio,43035320.16833959
+a401:column:q2464,c u,pg_map,157053.0
+a401:column:q2464,c u,hgb_ratio,89814.14953809687
+a401:column:q2464,c u,oracle_join,36055
+a401:column:q2464,c ph u,pg_map,68649666.0
+a401:column:q2464,c ph u,hgb_ratio,1607650.0015580358
+a401:column:q2464,c ph u,oracle_join,156209
+a401:column:q5312,b u,pg_map,78344.0
+a401:column:q5312,b u,hgb_ratio,994558.4559558283
+a401:column:q5312,b u,oracle_join,62294
+a401:column:q5312,p u,pg_map,40423.0
+a401:column:q5312,p u,hgb_ratio,513160.37558846176
+a401:column:q5312,p u,oracle_join,35542
+a401:column:q5312,u v,pg_map,157.0
+a401:column:q5312,u v,hgb_ratio,1993.0776777425847
+a401:column:q5312,u v,oracle_join,433
+a401:column:q5312,b p u,pg_map,1471590.0
+a401:column:q5312,b p u,hgb_ratio,18681485.221587326
+a401:column:q5312,b p u,oracle_join,213161
+a401:column:q5312,b u v,pg_map,311.0
+a401:column:q5312,b u v,hgb_ratio,3948.0710686493235
+a401:column:q5312,b u v,oracle_join,4582
+a401:column:q5312,p u v,pg_map,161.0
+a401:column:q5312,p u v,hgb_ratio,2043.8567268570453
+a401:column:q5312,p u v,oracle_join,5494
+a401:column:q5312,b p u v,pg_map,1098.0
+a401:column:q5312,b p u v,hgb_ratio,78047.39848892618
+a401:column:q5312,b p u v,oracle_join,88318
+a401:column:q4278,p v,pg_map,70562.0
+a401:column:q4278,p v,hgb_ratio,2192.283761246243
+a401:column:q4278,p v,oracle_join,137516
+a401:column:q4278,u v,pg_map,33880.0
+a401:column:q4278,u v,hgb_ratio,1052.6143509399212
+a401:column:q4278,u v,oracle_join,20319
+a401:column:q4278,p u v,pg_map,7297.0
+a401:column:q4278,p u v,hgb_ratio,19633.028572361396
+a401:column:q4278,p u v,oracle_join,15899
+a401:column:q3011,c u,pg_map,170696.0
+a401:column:q3011,c u,hgb_ratio,438300.4961027646
+a401:column:q3011,c u,oracle_join,171391
+a401:column:q3011,c v,pg_map,29461.0
+a401:column:q3011,c v,hgb_ratio,75647.76512445253
+a401:column:q3011,c v,oracle_join,13940
+a401:column:q3011,c u v,pg_map,28851.0
+a401:column:q3011,c u v,hgb_ratio,3160.8702646957354
+a401:column:q3011,c u v,oracle_join,13668
+a401:column:q2139,c u,pg_map,171504.0
+a401:column:q2139,c u,hgb_ratio,205214.15971223245
+a401:column:q2139,c u,oracle_join,171470
+a401:column:q2139,p u,pg_map,13243.0
+a401:column:q2139,p u,hgb_ratio,15845.992612820075
+a401:column:q2139,p u,oracle_join,13660
+a401:column:q2139,c p u,pg_map,8012391.0
+a401:column:q2139,c p u,hgb_ratio,32746.151161749374
+a401:column:q2139,c p u,oracle_join,361043
+a401:column:q6212,b u,pg_map,39643.0
+a401:column:q6212,b u,hgb_ratio,25626.85425034517
+a401:column:q6212,b u,oracle_join,11430
+a401:column:q6212,c u,pg_map,12233.0
+a401:column:q6212,c u,hgb_ratio,7907.910805046856
+a401:column:q6212,c u,oracle_join,259
+a401:column:q6212,ph u,pg_map,41869.0
+a401:column:q6212,ph u,hgb_ratio,27065.83156188235
+a401:column:q6212,ph u,oracle_join,7772
+a401:column:q6212,b c u,pg_map,1095508.0
+a401:column:q6212,b c u,hgb_ratio,708181.1125819726
+a401:column:q6212,b c u,oracle_join,492
+a401:column:q6212,b ph u,pg_map,2133256.0
+a401:column:q6212,b ph u,hgb_ratio,1379023.802201507
+a401:column:q6212,b ph u,oracle_join,9218
+a401:column:q6212,c ph u,pg_map,5395249.0
+a401:column:q6212,c ph u,hgb_ratio,3487709.2996826814
+a401:column:q6212,c ph u,oracle_join,339
+a401:column:q6212,b c ph u,pg_map,483173078.0
+a401:column:q6212,b c ph u,hgb_ratio,13906.23536648148
+a401:column:q6212,b c ph u,oracle_join,947
+a401:column:q3853,p ph,pg_map,7686216.0
+a401:column:q3853,p ph,hgb_ratio,922490.2359525907
+a401:column:q3853,p ph,oracle_join,1459393
+a401:column:q3853,ph u,pg_map,265417.0
+a401:column:q3853,ph u,hgb_ratio,31855.023454431772
+a401:column:q3853,ph u,oracle_join,118006
+a401:column:q3853,p ph u,pg_map,6728700.0
+a401:column:q3853,p ph u,hgb_ratio,945357.05327666
+a401:column:q3853,p ph u,oracle_join,120515
+a401:column:q3889,p ph,pg_map,5205046.0
+a401:column:q3889,p ph,hgb_ratio,125550.52356601063
+a401:column:q3889,p ph,oracle_join,709773
+a401:column:q3889,ph u,pg_map,58983.0
+a401:column:q3889,ph u,hgb_ratio,1422.7245122317852
+a401:column:q3889,ph u,oracle_join,63944
+a401:column:q3889,p ph u,pg_map,4827160.0
+a401:column:q3889,p ph u,hgb_ratio,600971.975046581
+a401:column:q3889,p ph u,oracle_join,709773
+a401:column:q5493,c ph,pg_map,194241440.0
+a401:column:q5493,c ph,hgb_ratio,24018795.971489497
+a401:column:q5493,ph v,pg_map,11660805.0
+a401:column:q5493,ph v,hgb_ratio,1441909.08056656
+a401:column:q5493,ph v,oracle_join,13928358
+a401:column:q5493,u v,pg_map,32490.0
+a401:column:q5493,u v,hgb_ratio,4017.5293238852314
+a401:column:q5493,u v,oracle_join,11391
+a401:column:q5493,c ph v,pg_map,7607423685.0
+a401:column:q5493,c ph v,hgb_ratio,940690912.0869975
+a401:column:q5493,ph u v,pg_map,222472.0
+a401:column:q5493,ph u v,hgb_ratio,27509.62707735904
+a401:column:q5493,ph u v,oracle_join,87196
+a401:column:q5493,c ph u v,pg_map,753405092.0
+a401:column:q5493,c ph u v,hgb_ratio,1723084.9403440943
+a401:column:q5493,c ph u v,oracle_join,921398
+a401:column:q5813,c ph,pg_map,241362.0
+a401:column:q5813,c ph,hgb_ratio,46402.79765371622
+a401:column:q5813,c ph,oracle_join,170145
+a401:column:q5813,c pl,pg_map,50490.0
+a401:column:q5813,c pl,hgb_ratio,9706.901888185099
+a401:column:q5813,c pl,oracle_join,35295
+a401:column:q5813,ph v,pg_map,593.0
+a401:column:q5813,ph v,hgb_ratio,114.00659179429123
+a401:column:q5813,ph v,oracle_join,341
+a401:column:q5813,c ph pl,pg_map,69914.0
+a401:column:q5813,c ph pl,hgb_ratio,13441.24259478259
+a401:column:q5813,c ph pl,oracle_join,34624
+a401:column:q5813,c ph v,pg_map,2488.0
+a401:column:q5813,c ph v,hgb_ratio,478.3278252684596
+a401:column:q5813,c ph v,oracle_join,875
+a401:column:q5813,c ph pl v,pg_map,719.0
+a401:column:q5813,c ph pl v,hgb_ratio,315.10422251406965
+a401:column:q5813,c ph pl v,oracle_join,169
+a401:column:q4149,p ph,pg_map,582.0
+a401:column:q4149,p ph,hgb_ratio,28.820666641778903
+a401:column:q4149,p ph,oracle_join,4166
+a401:column:q4149,p u,pg_map,44.0
+a401:column:q4149,p u,hgb_ratio,2.178882014155106
+a401:column:q4149,p u,oracle_join,84
+a401:column:q4149,p ph u,pg_map,5.0
+a401:column:q4149,p ph u,hgb_ratio,5.447205035387765
+a401:column:q4149,p ph u,oracle_join,10
+a401:column:q2709,c u,pg_map,84844.0
+a401:column:q2709,c u,hgb_ratio,116570.63850344945
+a401:column:q2709,c u,oracle_join,4868
+a401:column:q2709,u v,pg_map,17106.0
+a401:column:q2709,u v,hgb_ratio,23502.6323869691
+a401:column:q2709,u v,oracle_join,4252
+a401:column:q2709,c u v,pg_map,5266073.0
+a401:column:q2709,c u v,hgb_ratio,31258.528553486143
+a401:column:q2709,c u v,oracle_join,1313
+a401:column:q4007,p ph,pg_map,24453973.0
+a401:column:q4007,p ph,hgb_ratio,317333.88867026934
+a401:column:q4007,ph u,pg_map,246944.0
+a401:column:q4007,ph u,hgb_ratio,3204.538575543164
+a401:column:q4007,ph u,oracle_join,130048
+a401:column:q4007,p ph u,pg_map,22243320.0
+a401:column:q4007,p ph u,hgb_ratio,467870.05474888696
+a401:column:q4007,p ph u,oracle_join,344982
+a401:column:q8315,b u,pg_map,78562.0
+a401:column:q8315,b u,hgb_ratio,880847.6882617981
+a401:column:q8315,b u,oracle_join,62869
+a401:column:q8315,c p,pg_map,11687.0
+a401:column:q8315,c p,hgb_ratio,131036.21258007223
+a401:column:q8315,c p,oracle_join,31544
+a401:column:q8315,p ph,pg_map,20329.0
+a401:column:q8315,p ph,hgb_ratio,227931.4764730289
+a401:column:q8315,p ph,oracle_join,75309
+a401:column:q8315,p u,pg_map,5980.0
+a401:column:q8315,p u,hgb_ratio,67048.56261049303
+a401:column:q8315,p u,oracle_join,9913
+a401:column:q8315,p v,pg_map,102.0
+a401:column:q8315,p v,hgb_ratio,1143.6376900117539
+a401:column:q8315,p v,oracle_join,506
+a401:column:q8315,b p u,pg_map,217690.0
+a401:column:q8315,b p u,hgb_ratio,2440769.4974378305
+a401:column:q8315,b p u,oracle_join,67389
+a401:column:q8315,c p ph,pg_map,38525.0
+a401:column:q8315,c p ph,hgb_ratio,431947.4706637531
+a401:column:q8315,c p ph,oracle_join,202142
+a401:column:q8315,c p u,pg_map,11332.0
+a401:column:q8315,c p u,hgb_ratio,127055.9049334627
+a401:column:q8315,c p u,oracle_join,23427
+a401:column:q8315,c p v,pg_map,193.0
+a401:column:q8315,c p v,hgb_ratio,2163.941903649691
+a401:column:q8315,c p v,oracle_join,1774
+a401:column:q8315,p ph u,pg_map,19711.0
+a401:column:q8315,p ph u,hgb_ratio,221002.37752766354
+a401:column:q8315,p ph u,oracle_join,55962
+a401:column:q8315,p ph v,pg_map,336.0
+a401:column:q8315,p ph v,hgb_ratio,3767.277096509307
+a401:column:q8315,p ph v,oracle_join,4353
+a401:column:q8315,p u v,pg_map,99.0
+a401:column:q8315,p u v,hgb_ratio,1110.0012873643493
+a401:column:q8315,p u v,oracle_join,314
+a401:column:q8315,b c p u,pg_map,412547.0
+a401:column:q8315,b c p u,hgb_ratio,4625532.334326265
+a401:column:q8315,b c p u,oracle_join,165244
+a401:column:q8315,b p ph u,pg_map,717587.0
+a401:column:q8315,b p ph u,hgb_ratio,8045681.755514357
+a401:column:q8315,b p ph u,oracle_join,389459
+a401:column:q8315,b p u v,pg_map,3600.0
+a401:column:q8315,b p u v,hgb_ratio,40363.68317688543
+a401:column:q8315,b p u v,oracle_join,3244
+a401:column:q8315,c p ph u,pg_map,37355.0
+a401:column:q8315,c p ph u,hgb_ratio,418829.2736312654
+a401:column:q8315,c p ph u,oracle_join,149573
+a401:column:q8315,c p ph v,pg_map,637.0
+a401:column:q8315,c p ph v,hgb_ratio,7142.129495465561
+a401:column:q8315,c p ph v,oracle_join,16738
+a401:column:q8315,c p u v,pg_map,187.0
+a401:column:q8315,c p u v,hgb_ratio,2096.669098354882
+a401:column:q8315,c p u v,oracle_join,1111
+a401:column:q8315,p ph u v,pg_map,326.0
+a401:column:q8315,p ph u v,hgb_ratio,3655.1557543512918
+a401:column:q8315,p ph u v,oracle_join,2704
+a401:column:q8315,b c p ph u,pg_map,1359909.0
+a401:column:q8315,b c p ph u,hgb_ratio,15247482.229276415
+a401:column:q8315,b c p ph u,oracle_join,1090932
+a401:column:q8315,b c p u v,pg_map,6822.0
+a401:column:q8315,b c p u v,hgb_ratio,76489.17962019789
+a401:column:q8315,b c p u v,oracle_join,11066
+a401:column:q8315,b p ph u v,pg_map,11867.0
+a401:column:q8315,b p ph u v,hgb_ratio,133054.39673891652
+a401:column:q8315,b p ph u v,oracle_join,28549
+a401:column:q8315,c p ph u v,pg_map,618.0
+a401:column:q8315,c p ph u v,hgb_ratio,6929.098945365333
+a401:column:q8315,c p ph u v,oracle_join,10735
+a401:column:q8315,b c p ph u v,pg_map,22486.0
+a401:column:q8315,b c p ph u v,hgb_ratio,114980.43638304448
+a401:column:q8315,b c p ph u v,oracle_join,108082
+a401:column:q5739,b u,pg_map,79101.0
+a401:column:q5739,b u,hgb_ratio,934600.1058267532
+a401:column:q5739,b u,oracle_join,69068
+a401:column:q5739,c u,pg_map,167066.0
+a401:column:q5739,c u,hgb_ratio,1973930.813517558
+a401:column:q5739,c u,oracle_join,76532
+a401:column:q5739,u v,pg_map,208.0
+a401:column:q5739,u v,hgb_ratio,2457.577300058971
+a401:column:q5739,u v,oracle_join,807
+a401:column:q5739,b c u,pg_map,14961644.0
+a401:column:q5739,b c u,hgb_ratio,176775945.50943992
+a401:column:q5739,b c u,oracle_join,719364
+a401:column:q5739,b u v,pg_map,411.0
+a401:column:q5739,b u v,hgb_ratio,4856.078222712678
+a401:column:q5739,b u v,oracle_join,10608
+a401:column:q5739,c u v,pg_map,869.0
+a401:column:q5739,c u v,hgb_ratio,10267.474393034836
+a401:column:q5739,c u v,oracle_join,30125
+a401:column:q5739,b c u v,pg_map,5632973.0
+a401:column:q5739,b c u v,hgb_ratio,108913.20938434421
+a401:column:q5739,b c u v,oracle_join,584560
+a401:column:q6359,p pl,pg_map,1455.0
+a401:column:q6359,p pl,hgb_ratio,1625.7556646420894
+a401:column:q6359,p pl,oracle_join,7864
+a401:column:q6359,p u,pg_map,12949.0
+a401:column:q6359,p u,hgb_ratio,14468.666736392039
+a401:column:q6359,p u,oracle_join,12864
+a401:column:q6359,p v,pg_map,46865.0
+a401:column:q6359,p v,hgb_ratio,52364.975411306885
+a401:column:q6359,p v,oracle_join,105129
+a401:column:q6359,p pl u,pg_map,1434.0
+a401:column:q6359,p pl u,hgb_ratio,1602.2911498946778
+a401:column:q6359,p pl u,oracle_join,7668
+a401:column:q6359,p pl v,pg_map,5190.0
+a401:column:q6359,p pl v,hgb_ratio,5799.087216146009
+a401:column:q6359,p pl v,oracle_join,278415
+a401:column:q6359,p u v,pg_map,46187.0
+a401:column:q6359,p u v,hgb_ratio,51607.40679231902
+a401:column:q6359,p u v,oracle_join,102853
+a401:column:q6359,p pl u v,pg_map,5115.0
+a401:column:q6359,p pl u v,hgb_ratio,30274.810813386535
+a401:column:q6359,p pl u v,oracle_join,272281
+a401:column:q2711,c u,pg_map,169809.0
+a401:column:q2711,c u,hgb_ratio,284091.9158251038
+a401:column:q2711,c u,oracle_join,170161
+a401:column:q2711,u v,pg_map,208.0
+a401:column:q2711,u v,hgb_ratio,347.9857869230818
+a401:column:q2711,u v,oracle_join,1097
+a401:column:q2711,c u v,pg_map,63354.0
+a401:column:q2711,c u v,hgb_ratio,50698.85234094746
+a401:column:q2711,c u v,oracle_join,507376
+a401:column:q3953,p ph,pg_map,27737115.0
+a401:column:q3953,p ph,hgb_ratio,1096988.468288136
+a401:column:q3953,p ph,oracle_join,47615985
+a401:column:q3953,ph u,pg_map,273338.0
+a401:column:q3953,ph u,hgb_ratio,10810.375698588065
+a401:column:q3953,ph u,oracle_join,140352
+a401:column:q3953,p ph u,pg_map,25006399.0
+a401:column:q3953,p ph u,hgb_ratio,329060.68888303847
+a401:column:q3953,p ph u,oracle_join,230431
+a401:column:q4620,c ph,pg_map,627361.0
+a401:column:q4620,c ph,hgb_ratio,790749.2849670184
+a401:column:q4620,c ph,oracle_join,525730
+a401:column:q4620,ph v,pg_map,32898.0
+a401:column:q4620,ph v,hgb_ratio,41465.87049058671
+a401:column:q4620,ph v,oracle_join,46020
+a401:column:q4620,c ph v,pg_map,68073.0
+a401:column:q4620,c ph v,hgb_ratio,10464.151523279557
+a401:column:q4620,c ph v,oracle_join,78771
+a401:column:q4250,p v,pg_map,327404.0
+a401:column:q4250,p v,hgb_ratio,51740.101165343774
+a401:column:q4250,p v,oracle_join,316660
+a401:column:q4250,u v,pg_map,31498.0
+a401:column:q4250,u v,hgb_ratio,4977.671948131355
+a401:column:q4250,u v,oracle_join,23320
+a401:column:q4250,p u v,pg_map,31435.0
+a401:column:q4250,p u v,hgb_ratio,125322.19144006207
+a401:column:q4250,p u v,oracle_join,21360
+a401:column:q3936,p ph,pg_map,24531478.0
+a401:column:q3936,p ph,hgb_ratio,442099.9876022134
+a401:column:q3936,p ph,oracle_join,2967758
+a401:column:q3936,ph u,pg_map,273213.0
+a401:column:q3936,ph u,hgb_ratio,4923.7744221022285
+a401:column:q3936,ph u,oracle_join,142496
+a401:column:q3936,p ph u,pg_map,22106201.0
+a401:column:q3936,p ph u,hgb_ratio,242907.08788910828
+a401:column:q3936,p ph u,oracle_join,870000
+a401:column:q4205,p v,pg_map,147129.0
+a401:column:q4205,p v,hgb_ratio,63654.45293241361
+a401:column:q4205,p v,oracle_join,125045
+a401:column:q4205,u v,pg_map,34508.0
+a401:column:q4205,u v,hgb_ratio,14929.673020218508
+a401:column:q4205,u v,oracle_join,29310
+a401:column:q4205,p u v,pg_map,15476.0
+a401:column:q4205,p u v,hgb_ratio,118249.7768695115
+a401:column:q4205,p u v,oracle_join,19858
+a401:column:q4044,p ph,pg_map,302554.0
+a401:column:q4044,p ph,hgb_ratio,19968.39421998571
+a401:column:q4044,p ph,oracle_join,302006
+a401:column:q4044,p u,pg_map,2.0
+a401:column:q4044,p u,hgb_ratio,1.0
+a401:column:q4044,p u,oracle_join,1
+a401:column:q4044,p ph u,pg_map,7.0
+a401:column:q4044,p ph u,hgb_ratio,29.96374523514319
+a401:column:q4044,p ph u,oracle_join,11
+a401:column:q5066,c u,pg_map,168268.0
+a401:column:q5066,c u,hgb_ratio,865487.0804524797
+a401:column:q5066,c u,oracle_join,61707
+a401:column:q5066,p u,pg_map,88814.0
+a401:column:q5066,p u,hgb_ratio,456815.1375383705
+a401:column:q5066,p u,oracle_join,50142
+a401:column:q5066,u v,pg_map,194.0
+a401:column:q5066,u v,hgb_ratio,997.8397176396049
+a401:column:q5066,u v,oracle_join,537
+a401:column:q5066,c p u,pg_map,53736516.0
+a401:column:q5066,c p u,hgb_ratio,276393968.826681
+a401:column:q5066,c p u,oracle_join,865621
+a401:column:q5066,c u v,pg_map,825.0
+a401:column:q5066,c u v,hgb_ratio,4243.390551817908
+a401:column:q5066,c u v,oracle_join,14413
+a401:column:q5066,p u v,pg_map,435.0
+a401:column:q5066,p u v,hgb_ratio,2237.4241091403514
+a401:column:q5066,p u v,oracle_join,8150
+a401:column:q5066,c p u v,pg_map,19062368.0
+a401:column:q5066,c p u v,hgb_ratio,99002.15920168617
+a401:column:q5066,c p u v,oracle_join,611887
+a401:column:q7012,b u,pg_map,60185.0
+a401:column:q7012,b u,hgb_ratio,88789.4268401045
+a401:column:q7012,b u,oracle_join,26359
+a401:column:q7012,ph u,pg_map,216273.0
+a401:column:q7012,ph u,hgb_ratio,319062.1535430742
+a401:column:q7012,ph u,oracle_join,65228
+a401:column:q7012,u v,pg_map,26597.0
+a401:column:q7012,u v,hgb_ratio,39237.8896014997
+a401:column:q7012,u v,oracle_join,5321
+a401:column:q7012,b ph u,pg_map,10797798.0
+a401:column:q7012,b ph u,hgb_ratio,15929721.617599513
+a401:column:q7012,b ph u,oracle_join,132764
+a401:column:q7012,b u v,pg_map,51608.0
+a401:column:q7012,b u v,hgb_ratio,76135.99302756689
+a401:column:q7012,b u v,oracle_join,4871
+a401:column:q7012,ph u v,pg_map,185450.0
+a401:column:q7012,ph u v,hgb_ratio,273589.75172380795
+a401:column:q7012,ph u v,oracle_join,11596
+a401:column:q7012,b ph u v,pg_map,16435638.0
+a401:column:q7012,b ph u v,hgb_ratio,1751689.919415148
+a401:column:q7012,b ph u v,oracle_join,33680
+a401:column:q3831,p ph,pg_map,800303.0
+a401:column:q3831,p ph,hgb_ratio,54171.50510499923
+a401:column:q3831,p ph,oracle_join,401528
+a401:column:q3831,ph u,pg_map,63337.0
+a401:column:q3831,ph u,hgb_ratio,4287.201995788266
+a401:column:q3831,ph u,oracle_join,36859
+a401:column:q3831,p ph u,pg_map,741078.0
+a401:column:q3831,p ph u,hgb_ratio,795599.0147507488
+a401:column:q3831,p ph u,oracle_join,166623
+a401:column:q5667,b u,pg_map,78755.0
+a401:column:q5667,b u,hgb_ratio,447852.1115313829
+a401:column:q5667,b u,oracle_join,70406
+a401:column:q5667,c u,pg_map,131838.0
+a401:column:q5667,c u,hgb_ratio,749716.5472677856
+a401:column:q5667,c u,oracle_join,75640
+a401:column:q5667,u v,pg_map,207.0
+a401:column:q5667,u v,hgb_ratio,1177.136525769745
+a401:column:q5667,u v,oracle_join,855
+a401:column:q5667,b c u,pg_map,11689967.0
+a401:column:q5667,b c u,hgb_ratio,66476749.47218825
+a401:column:q5667,b c u,oracle_join,800796
+a401:column:q5667,b u v,pg_map,407.0
+a401:column:q5667,b u v,hgb_ratio,2314.4665023588705
+a401:column:q5667,b u v,oracle_join,11880
+a401:column:q5667,c u v,pg_map,681.0
+a401:column:q5667,c u v,hgb_ratio,3872.6085702859727
+a401:column:q5667,c u v,oracle_join,32069
+a401:column:q5667,b c u v,pg_map,4368040.0
+a401:column:q5667,b c u v,hgb_ratio,161734.0093208566
+a401:column:q5667,b c u v,oracle_join,662403
+a401:column:q4798,c p,pg_map,8703.0
+a401:column:q4798,c p,hgb_ratio,186.15900916624256
+a401:column:q4798,c p,oracle_join,21484
+a401:column:q4798,c pl,pg_map,38963.0
+a401:column:q4798,c pl,hgb_ratio,833.4268038773192
+a401:column:q4798,c pl,oracle_join,24726
+a401:column:q4798,pl v,pg_map,53.0
+a401:column:q4798,pl v,hgb_ratio,1.1336812002540337
+a401:column:q4798,pl v,oracle_join,37
+a401:column:q4798,c p pl,pg_map,1050.0
+a401:column:q4798,c p pl,hgb_ratio,22.459721891825197
+a401:column:q4798,c p pl,oracle_join,9802
+a401:column:q4798,c pl v,pg_map,187.0
+a401:column:q4798,c pl v,hgb_ratio,3.9999695178774397
+a401:column:q4798,c pl v,oracle_join,80
+a401:column:q4798,c p pl v,pg_map,2.0
+a401:column:q4798,c p pl v,hgb_ratio,8.834157277451244
+a401:column:q4798,c p pl v,oracle_join,42
+a401:column:q4191,p v,pg_map,1484.0
+a401:column:q4191,p v,hgb_ratio,1606.337188809
+a401:column:q4191,p v,oracle_join,1255
+a401:column:q4191,u v,pg_map,160.0
+a401:column:q4191,u v,hgb_ratio,173.1899934025876
+a401:column:q4191,u v,oracle_join,810
+a401:column:q4191,p u v,pg_map,156.0
+a401:column:q4191,p u v,hgb_ratio,13754.532788541754
+a401:column:q4191,p u v,oracle_join,783
+a401:column:q2534,c ph,pg_map,193022802.0
+a401:column:q2534,c ph,hgb_ratio,13513906.916204937
+a401:column:q2534,c u,pg_map,126112.0
+a401:column:q2534,c u,hgb_ratio,8829.349752245525
+a401:column:q2534,c u,oracle_join,43688
+a401:column:q2534,c ph u,pg_map,184411135.0
+a401:column:q2534,c ph u,hgb_ratio,657364.1043061439
+a401:column:q2534,c ph u,oracle_join,815736
+a401:column:q4318,p u,pg_map,11824.0
+a401:column:q4318,p u,hgb_ratio,2087.1302115389085
+a401:column:q4318,p u,oracle_join,11311
+a401:column:q4318,p v,pg_map,180.0
+a401:column:q4318,p v,hgb_ratio,31.77295653560585
+a401:column:q4318,p v,oracle_join,53
+a401:column:q4318,p u v,pg_map,19.0
+a401:column:q4318,p u v,hgb_ratio,27.536562330858402
+a401:column:q4318,p u v,oracle_join,15
+a401:column:q4949,c p,pg_map,89514.0
+a401:column:q4949,c p,hgb_ratio,16201.194198998512
+a401:column:q4949,c p,oracle_join,83470
+a401:column:q4949,p pl,pg_map,5651.0
+a401:column:q4949,p pl,hgb_ratio,1022.7779835393412
+a401:column:q4949,p pl,oracle_join,5
+a401:column:q4949,p u,pg_map,45102.0
+a401:column:q4949,p u,hgb_ratio,8163.03886278382
+a401:column:q4949,p u,oracle_join,34297
+a401:column:q4949,c p pl,pg_map,10709.0
+a401:column:q4949,c p pl,hgb_ratio,1938.2285304765182
+a401:column:q4949,c p pl,oracle_join,14
+a401:column:q4949,c p u,pg_map,85473.0
+a401:column:q4949,c p u,hgb_ratio,15469.811110787137
+a401:column:q4949,c p u,oracle_join,57351
+a401:column:q4949,p pl u,pg_map,5396.0
+a401:column:q4949,p pl u,hgb_ratio,976.6253758942285
+a401:column:q4949,p pl u,oracle_join,4
+a401:column:q4949,c p pl u,pg_map,10226.0
+a401:column:q4949,c p pl u,hgb_ratio,5387.004760584844
+a401:column:q4949,c p pl u,oracle_join,13
+a401:column:q8298,b u,pg_map,79851.0
+a401:column:q8298,b u,hgb_ratio,10703672.281769361
+a401:column:q8298,b u,oracle_join,79851
+a401:column:q8298,c p,pg_map,226.0
+a401:column:q8298,c p,hgb_ratio,30294.29732476582
+a401:column:q8298,c p,oracle_join,859
+a401:column:q8298,p ph,pg_map,2911.0
+a401:column:q8298,p ph,hgb_ratio,390206.63501058985
+a401:column:q8298,p ph,oracle_join,13069
+a401:column:q8298,p u,pg_map,6052.0
+a401:column:q8298,p u,hgb_ratio,811243.7495994811
+a401:column:q8298,p u,oracle_join,12806
+a401:column:q8298,p v,pg_map,21889.0
+a401:column:q8298,p v,hgb_ratio,2934123.336910615
+a401:column:q8298,p v,oracle_join,97462
+a401:column:q8298,b p u,pg_map,220329.0
+a401:column:q8298,b p u,hgb_ratio,29534124.93481561
+a401:column:q8298,b p u,oracle_join,211851
+a401:column:q8298,c p ph,pg_map,107.0
+a401:column:q8298,c p ph,hgb_ratio,14342.875282079392
+a401:column:q8298,c p ph,oracle_join,859
+a401:column:q8298,c p u,pg_map,223.0
+a401:column:q8298,c p u,hgb_ratio,29892.16063461406
+a401:column:q8298,c p u,oracle_join,839
+a401:column:q8298,c p v,pg_map,806.0
+a401:column:q8298,c p v,hgb_ratio,108040.72408743916
+a401:column:q8298,c p v,oracle_join,10448
+a401:column:q8298,p ph u,pg_map,2869.0
+a401:column:q8298,p ph u,hgb_ratio,384576.7213484652
+a401:column:q8298,p ph u,oracle_join,12806
+a401:column:q8298,p ph v,pg_map,10376.0
+a401:column:q8298,p ph v,hgb_ratio,1390856.7656715494
+a401:column:q8298,p ph v,oracle_join,97462
+a401:column:q8298,p u v,pg_map,21572.0
+a401:column:q8298,p u v,hgb_ratio,2891630.8933179127
+a401:column:q8298,p u v,oracle_join,95245
+a401:column:q8298,b c p u,pg_map,8102.0
+a401:column:q8298,b c p u,hgb_ratio,1086037.1545365162
+a401:column:q8298,b c p u,oracle_join,17919
+a401:column:q8298,b p ph u,pg_map,104439.0
+a401:column:q8298,b p ph u,hgb_ratio,13999584.594253175
+a401:column:q8298,b p ph u,oracle_join,211851
+a401:column:q8298,b p u v,pg_map,785357.0
+a401:column:q8298,b p u v,hgb_ratio,105273621.52250491
+a401:column:q8298,b p u v,oracle_join,2506012
+a401:column:q8298,c p ph u,pg_map,105.0
+a401:column:q8298,c p ph u,hgb_ratio,14074.784155311554
+a401:column:q8298,c p ph u,oracle_join,839
+a401:column:q8298,c p ph v,pg_map,381.0
+a401:column:q8298,c p ph v,hgb_ratio,51071.35964927335
+a401:column:q8298,c p ph v,oracle_join,10448
+a401:column:q8298,c p u v,pg_map,795.0
+a401:column:q8298,c p u v,hgb_ratio,106566.22289021604
+a401:column:q8298,c p u v,oracle_join,10247
+a401:column:q8298,p ph u v,pg_map,10226.0
+a401:column:q8298,p ph u v,hgb_ratio,1370749.9311639613
+a401:column:q8298,p ph u v,oracle_join,95245
+a401:column:q8298,b c p ph u,pg_map,3841.0
+a401:column:q8298,b c p ph u,hgb_ratio,514869.00895763503
+a401:column:q8298,b c p ph u,oracle_join,17919
+a401:column:q8298,b c p u v,pg_map,28879.0
+a401:column:q8298,b c p u v,hgb_ratio,3871101.8249642127
+a401:column:q8298,b c p u v,oracle_join,324095
+a401:column:q8298,b p ph u v,pg_map,372270.0
+a401:column:q8298,b p ph u v,hgb_ratio,49901141.880931735
+a401:column:q8298,b p ph u v,oracle_join,2506012
+a401:column:q8298,c p ph u v,pg_map,374.0
+a401:column:q8298,c p ph u v,hgb_ratio,50133.04070558592
+a401:column:q8298,c p ph u v,oracle_join,10247
+a401:column:q8298,b c p ph u v,pg_map,13669.0
+a401:column:q8298,b c p ph u v,hgb_ratio,2072210.3643520125
+a401:column:q8298,b c p ph u v,oracle_join,324095
+a401:column:q4285,p v,pg_map,1990.0
+a401:column:q4285,p v,hgb_ratio,3131.3188044616204
+a401:column:q4285,p v,oracle_join,1744
+a401:column:q4285,u v,pg_map,208.0
+a401:column:q4285,u v,hgb_ratio,327.29362378292313
+a401:column:q4285,u v,oracle_join,752
+a401:column:q4285,p u v,pg_map,208.0
+a401:column:q4285,p u v,hgb_ratio,11825.055686195517
+a401:column:q4285,p u v,oracle_join,752
+a401:column:q4282,p v,pg_map,834.0
+a401:column:q4282,p v,hgb_ratio,1801.6294479545359
+a401:column:q4282,p v,oracle_join,461
+a401:column:q4282,u v,pg_map,209.0
+a401:column:q4282,u v,hgb_ratio,451.48747556654433
+a401:column:q4282,u v,oracle_join,1096
+a401:column:q4282,p u v,pg_map,88.0
+a401:column:q4282,p u v,hgb_ratio,7552.154136749469
+a401:column:q4282,p u v,oracle_join,291
+a401:column:q3820,p ph,pg_map,237226.0
+a401:column:q3820,p ph,hgb_ratio,54968.713888474274
+a401:column:q3820,p ph,oracle_join,61804
+a401:column:q3820,ph u,pg_map,265045.0
+a401:column:q3820,ph u,hgb_ratio,61414.78072627227
+a401:column:q3820,ph u,oracle_join,106447
+a401:column:q3820,p ph u,pg_map,207488.0
+a401:column:q3820,p ph u,hgb_ratio,52521.11318364448
+a401:column:q3820,p ph u,oracle_join,5849
+a401:column:q5455,c ph,pg_map,44623007.0
+a401:column:q5455,c ph,hgb_ratio,249376734.06805614
+a401:column:q5455,ph v,pg_map,271546.0
+a401:column:q5455,ph v,hgb_ratio,1517541.2681006542
+a401:column:q5455,ph v,oracle_join,6028089
+a401:column:q5455,u v,pg_map,1763.0
+a401:column:q5455,u v,hgb_ratio,9852.567357506476
+a401:column:q5455,u v,oracle_join,4258
+a401:column:q5455,c ph v,pg_map,177154800.0
+a401:column:q5455,c ph v,hgb_ratio,990033805.8454839
+a401:column:q5455,ph u v,pg_map,2773.0
+a401:column:q5455,ph u v,hgb_ratio,15496.976337132988
+a401:column:q5455,ph u v,oracle_join,633
+a401:column:q5455,c ph u v,pg_map,9391857.0
+a401:column:q5455,c ph u v,hgb_ratio,1503732.025933667
+a401:column:q5455,c ph u v,oracle_join,1999
+a401:column:q5479,c ph,pg_map,249671339.0
+a401:column:q5479,c ph,hgb_ratio,25567214.980294827
+a401:column:q5479,ph v,pg_map,11566535.0
+a401:column:q5479,ph v,hgb_ratio,1184453.4823522712
+a401:column:q5479,ph v,oracle_join,13833268
+a401:column:q5479,u v,pg_map,31963.0
+a401:column:q5479,u v,hgb_ratio,3273.1225605962068
+a401:column:q5479,u v,oracle_join,9768
+a401:column:q5479,c ph v,pg_map,9778323605.0
+a401:column:q5479,c ph v,hgb_ratio,1001334405.2916162
+a401:column:q5479,ph u v,pg_map,217091.0
+a401:column:q5479,ph u v,hgb_ratio,22230.87475526049
+a401:column:q5479,ph u v,oracle_join,60794
+a401:column:q5479,c ph u v,pg_map,952682964.0
+a401:column:q5479,c ph u v,hgb_ratio,3779132.5828433745
+a401:column:q5479,c ph u v,oracle_join,635403
+a401:column:q3873,p ph,pg_map,24657986.0
+a401:column:q3873,p ph,hgb_ratio,1952449.5068553803
+a401:column:q3873,p ph,oracle_join,2953605
+a401:column:q3873,ph u,pg_map,255823.0
+a401:column:q3873,ph u,hgb_ratio,20256.378205108234
+a401:column:q3873,ph u,oracle_join,102954
+a401:column:q3873,p ph u,pg_map,20805885.0
+a401:column:q3873,p ph u,hgb_ratio,636204.1881031368
+a401:column:q3873,p ph u,oracle_join,324023
+a401:column:q4243,p v,pg_map,9142.0
+a401:column:q4243,p v,hgb_ratio,3476.399907273837
+a401:column:q4243,p v,oracle_join,65080
+a401:column:q4243,u v,pg_map,33884.0
+a401:column:q4243,u v,hgb_ratio,12884.963296660108
+a401:column:q4243,u v,oracle_join,23083
+a401:column:q4243,p u v,pg_map,944.0
+a401:column:q4243,p u v,hgb_ratio,73912.85565267151
+a401:column:q4243,p u v,oracle_join,11162
+a401:column:q6334,p t,pg_map,591.0
+a401:column:q6334,p t,hgb_ratio,17.937321363765122
+a401:column:q6334,p t,oracle_join,596
+a401:column:q6334,p u,pg_map,88754.0
+a401:column:q6334,p u,hgb_ratio,2693.7546875120297
+a401:column:q6334,p u,oracle_join,70182
+a401:column:q6334,p v,pg_map,325585.0
+a401:column:q6334,p v,hgb_ratio,9881.764426770673
+a401:column:q6334,p v,oracle_join,322798
+a401:column:q6334,p t u,pg_map,575.0
+a401:column:q6334,p t u,hgb_ratio,17.45170860264796
+a401:column:q6334,p t u,oracle_join,130
+a401:column:q6334,p t v,pg_map,2108.0
+a401:column:q6334,p t v,hgb_ratio,63.97948127718592
+a401:column:q6334,p t v,oracle_join,618
+a401:column:q6334,p u v,pg_map,316572.0
+a401:column:q6334,p u v,hgb_ratio,9608.212688273861
+a401:column:q6334,p u v,oracle_join,212949
+a401:column:q6334,p t u v,pg_map,2050.0
+a401:column:q6334,p t u v,hgb_ratio,2067.3445764684625
+a401:column:q6334,p t u v,oracle_join,157
+a401:column:q2267,c u,pg_map,132120.0
+a401:column:q2267,c u,hgb_ratio,202712.9653673328
+a401:column:q2267,c u,oracle_join,87071
+a401:column:q2267,p u,pg_map,361.0
+a401:column:q2267,p u,hgb_ratio,553.885713726969
+a401:column:q2267,p u,oracle_join,894
+a401:column:q2267,c p u,pg_map,168585.0
+a401:column:q2267,c p u,hgb_ratio,3869.528448807246
+a401:column:q2267,c p u,oracle_join,25291
+a401:column:q2542,c ph,pg_map,185607675.0
+a401:column:q2542,c ph,hgb_ratio,72948279.41913462
+a401:column:q2542,c u,pg_map,128697.0
+a401:column:q2542,c u,hgb_ratio,50581.015663303624
+a401:column:q2542,c u,oracle_join,44554
+a401:column:q2542,c ph u,pg_map,177584977.0
+a401:column:q2542,c ph u,hgb_ratio,2954700.5413999944
+a401:column:q2542,c ph u,oracle_join,710602
+a401:column:q4203,p v,pg_map,1990.0
+a401:column:q4203,p v,hgb_ratio,4071.604116047661
+a401:column:q4203,p v,oracle_join,1744
+a401:column:q4203,u v,pg_map,201.0
+a401:column:q4203,u v,hgb_ratio,411.252476043005
+a401:column:q4203,u v,oracle_join,493
+a401:column:q4203,p u v,pg_map,201.0
+a401:column:q4203,p u v,hgb_ratio,14041.919119816634
+a401:column:q4203,p u v,oracle_join,493
+a401:column:q6169,b u,pg_map,71352.0
+a401:column:q6169,b u,hgb_ratio,26750.198933298376
+a401:column:q6169,b u,oracle_join,42593
+a401:column:q6169,c u,pg_map,153250.0
+a401:column:q6169,c u,hgb_ratio,57454.14265231495
+a401:column:q6169,c u,oracle_join,31653
+a401:column:q6169,ph u,pg_map,12441.0
+a401:column:q6169,ph u,hgb_ratio,4664.189159787604
+a401:column:q6169,ph u,oracle_join,962
+a401:column:q6169,b c u,pg_map,13724382.0
+a401:column:q6169,b c u,hgb_ratio,5145335.081519501
+a401:column:q6169,b c u,oracle_join,109721
+a401:column:q6169,b ph u,pg_map,633886.0
+a401:column:q6169,b ph u,hgb_ratio,237646.8298160216
+a401:column:q6169,b ph u,oracle_join,3738
+a401:column:q6169,c ph u,pg_map,11158873.0
+a401:column:q6169,c ph u,hgb_ratio,4183513.7434327286
+a401:column:q6169,c ph u,oracle_join,4647
+a401:column:q6169,b c ph u,pg_map,999336100.0
+a401:column:q6169,b c ph u,hgb_ratio,92678.68703757369
+a401:column:q6169,b c ph u,oracle_join,26687
+a401:column:q3963,p ph,pg_map,12041327.0
+a401:column:q3963,p ph,hgb_ratio,295789.35428500973
+a401:column:q3963,p ph,oracle_join,22411775
+a401:column:q3963,ph u,pg_map,56820.0
+a401:column:q3963,ph u,hgb_ratio,1395.7557261317006
+a401:column:q3963,ph u,oracle_join,10720
+a401:column:q3963,p ph u,pg_map,10002921.0
+a401:column:q3963,p ph u,hgb_ratio,112528.22413737394
+a401:column:q3963,p ph u,oracle_join,35907
+a401:column:q5562,c ph,pg_map,255174001.0
+a401:column:q5562,c ph,hgb_ratio,199553257.29228917
+a401:column:q5562,ph v,pg_map,11750321.0
+a401:column:q5562,ph v,hgb_ratio,9189082.040454382
+a401:column:q5562,ph v,oracle_join,14029691
+a401:column:q5562,u v,pg_map,31406.0
+a401:column:q5562,u v,hgb_ratio,24560.37673885763
+a401:column:q5562,u v,oracle_join,8148
+a401:column:q5562,c ph v,pg_map,9889528638.0
+a401:column:q5562,c ph v,hgb_ratio,7733889992.963179
+a401:column:q5562,ph u v,pg_map,218985.0
+a401:column:q5562,ph u v,hgb_ratio,171252.43902944462
+a401:column:q5562,ph u v,oracle_join,38883
+a401:column:q5562,c ph u v,pg_map,956719195.0
+a401:column:q5562,c ph u v,hgb_ratio,27750163.292591434
+a401:column:q5562,c ph u v,oracle_join,310344
+a401:column:q3843,p ph,pg_map,3289905.0
+a401:column:q3843,p ph,hgb_ratio,204856.08445307333
+a401:column:q3843,p ph,oracle_join,466907
+a401:column:q3843,ph u,pg_map,34224.0
+a401:column:q3843,ph u,hgb_ratio,2131.0629438606834
+a401:column:q3843,ph u,oracle_join,31470
+a401:column:q3843,p ph u,pg_map,2789117.0
+a401:column:q3843,p ph u,hgb_ratio,321617.39924643404
+a401:column:q3843,p ph u,oracle_join,266086
+a401:column:q2288,c ph,pg_map,8261249.0
+a401:column:q2288,c ph,hgb_ratio,5773086.427870749
+a401:column:q2288,c u,pg_map,124433.0
+a401:column:q2288,c u,hgb_ratio,86955.67262035569
+a401:column:q2288,c u,oracle_join,37955
+a401:column:q2288,c ph u,pg_map,7642319.0
+a401:column:q2288,c ph u,hgb_ratio,56794.10948222375
+a401:column:q2288,c ph u,oracle_join,7607
+a401:column:q2166,c u,pg_map,171504.0
+a401:column:q2166,c u,hgb_ratio,246473.88828079525
+a401:column:q2166,c u,oracle_join,171470
+a401:column:q2166,p u,pg_map,5364.0
+a401:column:q2166,p u,hgb_ratio,7708.776102820842
+a401:column:q2166,p u,oracle_join,11596
+a401:column:q2166,c p u,pg_map,3245623.0
+a401:column:q2166,c p u,hgb_ratio,71725.82149807707
+a401:column:q2166,c p u,oracle_join,676952
+a401:column:q6160,b u,pg_map,2.0
+a401:column:q6160,b u,hgb_ratio,1.0
+a401:column:q6160,b u,oracle_join,5
+a401:column:q6160,c u,pg_map,3.0
+a401:column:q6160,c u,hgb_ratio,1.0
+a401:column:q6160,c u,oracle_join,10
+a401:column:q6160,ph u,pg_map,7.0
+a401:column:q6160,ph u,hgb_ratio,1.0
+a401:column:q6160,ph u,oracle_join,14
+a401:column:q6160,b c u,pg_map,291.0
+a401:column:q6160,b c u,hgb_ratio,3.464792545533886
+a401:column:q6160,b c u,oracle_join,50
+a401:column:q6160,b ph u,pg_map,349.0
+a401:column:q6160,b ph u,hgb_ratio,4.155369753922083
+a401:column:q6160,b ph u,oracle_join,70
+a401:column:q6160,c ph u,pg_map,4699.0
+a401:column:q6160,c ph u,hgb_ratio,55.948660383036874
+a401:column:q6160,c ph u,oracle_join,140
+a401:column:q6160,b c ph u,pg_map,420854.0
+a401:column:q6160,b c ph u,hgb_ratio,367.8871480134227
+a401:column:q6160,b c ph u,oracle_join,700
+a401:column:q5063,c u,pg_map,171504.0
+a401:column:q5063,c u,hgb_ratio,18110.514060726928
+a401:column:q5063,c u,oracle_join,171470
+a401:column:q5063,p u,pg_map,423.0
+a401:column:q5063,p u,hgb_ratio,44.668039507460406
+a401:column:q5063,p u,oracle_join,453
+a401:column:q5063,u v,pg_map,205.0
+a401:column:q5063,u v,hgb_ratio,21.647631439785776
+a401:column:q5063,u v,oracle_join,1085
+a401:column:q5063,c p u,pg_map,255810.0
+a401:column:q5063,c p u,hgb_ratio,27013.07609078829
+a401:column:q5063,c p u,oracle_join,8303
+a401:column:q5063,c u v,pg_map,871.0
+a401:column:q5063,c u v,hgb_ratio,91.97603406855323
+a401:column:q5063,c u v,oracle_join,505064
+a401:column:q5063,p u v,pg_map,2.0
+a401:column:q5063,p u v,hgb_ratio,1.0
+a401:column:q5063,p u v,oracle_join,191
+a401:column:q5063,c p u v,pg_map,94085.0
+a401:column:q5063,c p u v,hgb_ratio,31.46826423929835
+a401:column:q5063,c p u v,oracle_join,18387
+a401:table:q1720,c pl,pg_map,43630.0
+a401:table:q1720,c pl,hgb_ratio,4723.7533788477485
+a401:table:q1720,c pl,oracle_join,28717
+a401:table:q1720,c u,pg_map,168919.0
+a401:table:q1720,c u,hgb_ratio,18288.601810717002
+a401:table:q1720,c u,oracle_join,59492
+a401:table:q1720,p pl,pg_map,4491.0
+a401:table:q1720,p pl,hgb_ratio,486.2337021408489
+a401:table:q1720,p pl,oracle_join,9649
+a401:table:q1720,ph pl,pg_map,6258.0
+a401:table:q1720,ph pl,hgb_ratio,677.5440899571214
+a401:table:q1720,ph pl,oracle_join,9405
+a401:table:q1720,c p pl,pg_map,8511.0
+a401:table:q1720,c p pl,hgb_ratio,921.4729545581752
+a401:table:q1720,c p pl,oracle_join,28703
+a401:table:q1720,c ph pl,pg_map,28342.0
+a401:table:q1720,c ph pl,hgb_ratio,3068.544998012901
+a401:table:q1720,c ph pl,oracle_join,27911
+a401:table:q1720,c pl u,pg_map,42282.0
+a401:table:q1720,c pl u,hgb_ratio,4577.807480275968
+a401:table:q1720,c pl u,oracle_join,6058
+a401:table:q1720,p ph pl,pg_map,2036.0
+a401:table:q1720,p ph pl,hgb_ratio,220.43460644817822
+a401:table:q1720,p ph pl,oracle_join,9405
+a401:table:q1720,c p ph pl,pg_map,3859.0
+a401:table:q1720,c p ph pl,hgb_ratio,417.8080286264832
+a401:table:q1720,c p ph pl,oracle_join,27911
+a401:table:q1720,c p pl u,pg_map,8248.0
+a401:table:q1720,c p pl u,hgb_ratio,892.9983467507731
+a401:table:q1720,c p pl u,oracle_join,6057
+a401:table:q1720,c ph pl u,pg_map,27466.0
+a401:table:q1720,c ph pl u,hgb_ratio,2973.701817635394
+a401:table:q1720,c ph pl u,oracle_join,5922
+a401:table:q1720,c p ph pl u,pg_map,3740.0
+a401:table:q1720,c p ph pl u,hgb_ratio,16943.58259858256
+a401:table:q1720,c p ph pl u,oracle_join,5922
+a401:table:q2305,c pl,pg_map,48359.0
+a401:table:q2305,c pl,hgb_ratio,3132.869534928019
+a401:table:q2305,c pl,oracle_join,32036
+a401:table:q2305,c u,pg_map,167362.0
+a401:table:q2305,c u,hgb_ratio,10842.310864670964
+a401:table:q2305,c u,oracle_join,74340
+a401:table:q2305,p pl,pg_map,705.0
+a401:table:q2305,p pl,hgb_ratio,45.67242958134481
+a401:table:q2305,p pl,oracle_join,7815
+a401:table:q2305,ph pl,pg_map,50423.0
+a401:table:q2305,ph pl,hgb_ratio,3266.582860681063
+a401:table:q2305,ph pl,oracle_join,68619
+a401:table:q2305,c p pl,pg_map,1337.0
+a401:table:q2305,c p pl,hgb_ratio,86.61565723440853
+a401:table:q2305,c p pl,oracle_join,23622
+a401:table:q2305,c ph pl,pg_map,228381.0
+a401:table:q2305,c ph pl,hgb_ratio,14795.340624421431
+a401:table:q2305,c ph pl,oracle_join,223807
+a401:table:q2305,c pl u,pg_map,46433.0
+a401:table:q2305,c pl u,hgb_ratio,3008.096344327069
+a401:table:q2305,c pl u,oracle_join,10341
+a401:table:q2305,p ph pl,pg_map,2325.0
+a401:table:q2305,p ph pl,hgb_ratio,150.6218422363499
+a401:table:q2305,p ph pl,oracle_join,50862
+a401:table:q2305,c p ph pl,pg_map,4407.0
+a401:table:q2305,c p ph pl,hgb_ratio,285.50127257444905
+a401:table:q2305,c p ph pl,oracle_join,165461
+a401:table:q2305,c p pl u,pg_map,1284.0
+a401:table:q2305,c p pl u,hgb_ratio,83.18212706730033
+a401:table:q2305,c p pl u,oracle_join,7300
+a401:table:q2305,c ph pl u,pg_map,219284.0
+a401:table:q2305,c ph pl u,hgb_ratio,14206.004323851936
+a401:table:q2305,c ph pl u,oracle_join,74653
+a401:table:q2305,c p ph pl u,pg_map,4231.0
+a401:table:q2305,c p ph pl u,hgb_ratio,61840.08095161252
+a401:table:q2305,c p ph pl u,oracle_join,52523
+a401:table:q1477,c pl,pg_map,49602.0
+a401:table:q1477,c pl,hgb_ratio,3082.8944080133447
+a401:table:q1477,c pl,oracle_join,31805
+a401:table:q1477,c u,pg_map,169177.0
+a401:table:q1477,c u,hgb_ratio,10514.794307981001
+a401:table:q1477,c u,oracle_join,169379
+a401:table:q1477,p pl,pg_map,10954.0
+a401:table:q1477,p pl,hgb_ratio,680.8198327764642
+a401:table:q1477,p pl,oracle_join,10735
+a401:table:q1477,ph pl,pg_map,7519.0
+a401:table:q1477,ph pl,hgb_ratio,467.3255726352231
+a401:table:q1477,ph pl,oracle_join,11097
+a401:table:q1477,c p pl,pg_map,20477.0
+a401:table:q1477,c p pl,hgb_ratio,1272.699261983171
+a401:table:q1477,c p pl,oracle_join,31222
+a401:table:q1477,c ph pl,pg_map,33591.0
+a401:table:q1477,c ph pl,hgb_ratio,2087.7687605253063
+a401:table:q1477,c ph pl,oracle_join,31791
+a401:table:q1477,c pl u,pg_map,48805.0
+a401:table:q1477,c pl u,hgb_ratio,3033.3587674507335
+a401:table:q1477,c pl u,oracle_join,30986
+a401:table:q1477,p ph pl,pg_map,5178.0
+a401:table:q1477,p ph pl,hgb_ratio,321.826282099373
+a401:table:q1477,p ph pl,oracle_join,10730
+a401:table:q1477,c p ph pl,pg_map,9679.0
+a401:table:q1477,c p ph pl,hgb_ratio,601.5752384008944
+a401:table:q1477,c p ph pl,oracle_join,31208
+a401:table:q1477,c p pl u,pg_map,20148.0
+a401:table:q1477,c p pl u,hgb_ratio,1252.251049003122
+a401:table:q1477,c p pl u,oracle_join,30448
+a401:table:q1477,c ph pl u,pg_map,33051.0
+a401:table:q1477,c ph pl u,hgb_ratio,2054.206344083889
+a401:table:q1477,c ph pl u,oracle_join,30972
+a401:table:q1477,c p ph pl u,pg_map,9523.0
+a401:table:q1477,c p ph pl u,hgb_ratio,53726.964849913784
+a401:table:q1477,c p ph pl u,oracle_join,30434
+a401:table:q1278,c pl,pg_map,46131.0
+a401:table:q1278,c pl,hgb_ratio,1196.9601386287598
+a401:table:q1278,c pl,oracle_join,30393
+a401:table:q1278,c u,pg_map,171504.0
+a401:table:q1278,c u,hgb_ratio,4450.010873715871
+a401:table:q1278,c u,oracle_join,171470
+a401:table:q1278,p pl,pg_map,4740.0
+a401:table:q1278,p pl,hgb_ratio,122.98868563656373
+a401:table:q1278,p pl,oracle_join,10180
+a401:table:q1278,ph pl,pg_map,14302.0
+a401:table:q1278,ph pl,hgb_ratio,371.0937092772436
+a401:table:q1278,ph pl,oracle_join,10182
+a401:table:q1278,c p pl,pg_map,8982.0
+a401:table:q1278,c p pl,hgb_ratio,233.05577518726065
+a401:table:q1278,c p pl,oracle_join,30379
+a401:table:q1278,c ph pl,pg_map,64779.0
+a401:table:q1278,c ph pl,hgb_ratio,1680.819423386279
+a401:table:q1278,c ph pl,oracle_join,30390
+a401:table:q1278,c pl u,pg_map,45390.0
+a401:table:q1278,c pl u,hgb_ratio,1177.7334263805121
+a401:table:q1278,c pl u,oracle_join,29591
+a401:table:q1278,p ph pl,pg_map,4646.0
+a401:table:q1278,p ph pl,hgb_ratio,120.54966950790615
+a401:table:q1278,p ph pl,oracle_join,10177
+a401:table:q1278,c p ph pl,pg_map,8804.0
+a401:table:q1278,c p ph pl,hgb_ratio,228.43721273086646
+a401:table:q1278,c p ph pl,oracle_join,30376
+a401:table:q1278,c p pl u,pg_map,8838.0
+a401:table:q1278,c p pl u,hgb_ratio,229.31941005399796
+a401:table:q1278,c p pl u,oracle_join,29577
+a401:table:q1278,c ph pl u,pg_map,63738.0
+a401:table:q1278,c ph pl u,hgb_ratio,1653.8086171104007
+a401:table:q1278,c ph pl u,oracle_join,29588
+a401:table:q1278,c p ph pl u,pg_map,8663.0
+a401:table:q1278,c p ph pl u,hgb_ratio,14482.462620287313
+a401:table:q1278,c p ph pl u,oracle_join,29574
+a401:table:q1362,c pl,pg_map,38804.0
+a401:table:q1362,c pl,hgb_ratio,2032.328903912597
+a401:table:q1362,c pl,oracle_join,20522
+a401:table:q1362,c u,pg_map,132350.0
+a401:table:q1362,c u,hgb_ratio,6931.726894980729
+a401:table:q1362,c u,oracle_join,132712
+a401:table:q1362,p pl,pg_map,5142.0
+a401:table:q1362,p pl,hgb_ratio,269.3081956478346
+a401:table:q1362,p pl,oracle_join,9118
+a401:table:q1362,ph pl,pg_map,7156.0
+a401:table:q1362,ph pl,hgb_ratio,374.7898576538126
+a401:table:q1362,ph pl,oracle_join,10543
+a401:table:q1362,c p pl,pg_map,7521.0
+a401:table:q1362,c p pl,hgb_ratio,393.90644485946405
+a401:table:q1362,c p pl,oracle_join,17150
+a401:table:q1362,c ph pl,pg_map,25013.0
+a401:table:q1362,c ph pl,hgb_ratio,1310.036152808107
+a401:table:q1362,c ph pl,oracle_join,19663
+a401:table:q1362,c pl u,pg_map,38181.0
+a401:table:q1362,c pl u,hgb_ratio,1999.6997701341838
+a401:table:q1362,c pl u,oracle_join,20058
+a401:table:q1362,p ph pl,pg_map,2314.0
+a401:table:q1362,p ph pl,hgb_ratio,121.19392546267781
+a401:table:q1362,p ph pl,oracle_join,8878
+a401:table:q1362,c p ph pl,pg_map,3384.0
+a401:table:q1362,c p ph pl,hgb_ratio,177.23433179157377
+a401:table:q1362,c p ph pl,oracle_join,16783
+a401:table:q1362,c p pl u,pg_map,7400.0
+a401:table:q1362,c p pl u,hgb_ratio,387.5691652652618
+a401:table:q1362,c p pl u,oracle_join,16784
+a401:table:q1362,c ph pl u,pg_map,24611.0
+a401:table:q1362,c ph pl u,hgb_ratio,1288.9817197761295
+a401:table:q1362,c ph pl u,oracle_join,19248
+a401:table:q1362,c p ph pl u,pg_map,3330.0
+a401:table:q1362,c p ph pl u,hgb_ratio,25710.919430005288
+a401:table:q1362,c p ph pl u,oracle_join,16429
+a401:table:q2119,c pl,pg_map,38804.0
+a401:table:q2119,c pl,hgb_ratio,4246.085108094983
+a401:table:q2119,c pl,oracle_join,20522
+a401:table:q2119,c u,pg_map,127949.0
+a401:table:q2119,c u,hgb_ratio,14000.678886085068
+a401:table:q2119,c u,oracle_join,83090
+a401:table:q2119,p pl,pg_map,143.0
+a401:table:q2119,p pl,hgb_ratio,15.647618040861317
+a401:table:q2119,p pl,oracle_join,1794
+a401:table:q2119,ph pl,pg_map,7539.0
+a401:table:q2119,ph pl,hgb_ratio,824.946800070304
+a401:table:q2119,ph pl,oracle_join,11097
+a401:table:q2119,c p pl,pg_map,209.0
+a401:table:q2119,c p pl,hgb_ratio,22.869595598181924
+a401:table:q2119,c p pl,oracle_join,3455
+a401:table:q2119,c ph pl,pg_map,26352.0
+a401:table:q2119,c ph pl,hgb_ratio,2883.538675613828
+a401:table:q2119,c ph pl,oracle_join,20511
+a401:table:q2119,c pl u,pg_map,36911.0
+a401:table:q2119,c pl u,hgb_ratio,4038.945660882742
+a401:table:q2119,c pl u,oracle_join,10752
+a401:table:q2119,p ph pl,pg_map,68.0
+a401:table:q2119,p ph pl,hgb_ratio,7.4408253620878995
+a401:table:q2119,p ph pl,oracle_join,1794
+a401:table:q2119,c p ph pl,pg_map,99.0
+a401:table:q2119,c p ph pl,hgb_ratio,10.832966335980911
+a401:table:q2119,c p ph pl,oracle_join,3455
+a401:table:q2119,c p pl u,pg_map,199.0
+a401:table:q2119,c p pl u,hgb_ratio,21.77535657434547
+a401:table:q2119,c p pl u,oracle_join,1900
+a401:table:q2119,c ph pl u,pg_map,25066.0
+a401:table:q2119,c ph pl u,hgb_ratio,2742.81953714846
+a401:table:q2119,c ph pl u,oracle_join,10746
+a401:table:q2119,c p ph pl u,pg_map,94.0
+a401:table:q2119,c p ph pl u,hgb_ratio,3151.8460842585273
+a401:table:q2119,c p ph pl u,oracle_join,1900
+a401:table:q2138,c pl,pg_map,7153.0
+a401:table:q2138,c pl,hgb_ratio,623.5018901589017
+a401:table:q2138,c pl,oracle_join,5879
+a401:table:q2138,c u,pg_map,23335.0
+a401:table:q2138,c u,hgb_ratio,2034.0300023567695
+a401:table:q2138,c u,oracle_join,3063
+a401:table:q2138,p pl,pg_map,705.0
+a401:table:q2138,p pl,hgb_ratio,61.45237418733758
+a401:table:q2138,p pl,oracle_join,5417
+a401:table:q2138,ph pl,pg_map,51918.0
+a401:table:q2138,ph pl,hgb_ratio,4525.509734834316
+a401:table:q2138,ph pl,oracle_join,68645
+a401:table:q2138,c p pl,pg_map,190.0
+a401:table:q2138,c p pl,hgb_ratio,16.561632759708
+a401:table:q2138,c p pl,oracle_join,2754
+a401:table:q2138,c ph pl,pg_map,33449.0
+a401:table:q2138,c ph pl,hgb_ratio,2915.631864102489
+a401:table:q2138,c ph pl,oracle_join,41961
+a401:table:q2138,c pl u,pg_map,6732.0
+a401:table:q2138,c pl u,hgb_ratio,586.8047986229171
+a401:table:q2138,c pl u,oracle_join,503
+a401:table:q2138,p ph pl,pg_map,2301.0
+a401:table:q2138,p ph pl,hgb_ratio,200.5700893688848
+a401:table:q2138,p ph pl,oracle_join,34506
+a401:table:q2138,c p ph pl,pg_map,621.0
+a401:table:q2138,c p ph pl,hgb_ratio,54.13038917778247
+a401:table:q2138,c p ph pl,oracle_join,20012
+a401:table:q2138,c p pl u,pg_map,179.0
+a401:table:q2138,c p pl u,hgb_ratio,15.602801389409116
+a401:table:q2138,c p pl u,oracle_join,242
+a401:table:q2138,c ph pl u,pg_map,31480.0
+a401:table:q2138,c ph pl u,hgb_ratio,2744.0010488189887
+a401:table:q2138,c ph pl u,oracle_join,3645
+a401:table:q2138,c p ph pl u,pg_map,584.0
+a401:table:q2138,c p ph pl u,hgb_ratio,4212.320542699416
+a401:table:q2138,c p ph pl u,oracle_join,1679
+a401:table:q1993,c pl,pg_map,45554.0
+a401:table:q1993,c pl,hgb_ratio,17506.50112959286
+a401:table:q1993,c pl,oracle_join,29515
+a401:table:q1993,c u,pg_map,169343.0
+a401:table:q1993,c u,hgb_ratio,65078.88266208552
+a401:table:q1993,c u,oracle_join,169989
+a401:table:q1993,p pl,pg_map,2194.0
+a401:table:q1993,p pl,hgb_ratio,843.1589647084062
+a401:table:q1993,p pl,oracle_join,8787
+a401:table:q1993,ph pl,pg_map,47626.0
+a401:table:q1993,ph pl,hgb_ratio,18302.77522935394
+a401:table:q1993,ph pl,oracle_join,62544
+a401:table:q1993,c p pl,pg_map,4105.0
+a401:table:q1993,c p pl,hgb_ratio,1577.5604148258922
+a401:table:q1993,c p pl,oracle_join,24177
+a401:table:q1993,c ph pl,pg_map,212993.0
+a401:table:q1993,c ph pl,hgb_ratio,81853.67245676278
+a401:table:q1993,c ph pl,oracle_join,201694
+a401:table:q1993,c pl u,pg_map,44822.0
+a401:table:q1993,c pl u,hgb_ratio,17225.191939908924
+a401:table:q1993,c pl u,oracle_join,28771
+a401:table:q1993,p ph pl,pg_map,7160.0
+a401:table:q1993,p ph pl,hgb_ratio,2751.6035493674513
+a401:table:q1993,p ph pl,oracle_join,54403
+a401:table:q1993,c p ph pl,pg_map,13397.0
+a401:table:q1993,c p ph pl,hgb_ratio,5148.496194256389
+a401:table:q1993,c p ph pl,oracle_join,163384
+a401:table:q1993,c p pl u,pg_map,4039.0
+a401:table:q1993,c p pl u,hgb_ratio,1552.196471493734
+a401:table:q1993,c p pl u,oracle_join,23615
+a401:table:q1993,c ph pl u,pg_map,209571.0
+a401:table:q1993,c ph pl u,hgb_ratio,80538.59042520756
+a401:table:q1993,c ph pl u,oracle_join,196267
+a401:table:q1993,c p ph pl u,pg_map,13182.0
+a401:table:q1993,c p ph pl u,hgb_ratio,851104.0278061188
+a401:table:q1993,c p ph pl u,oracle_join,158997
+a401:table:q1459,c pl,pg_map,50284.0
+a401:table:q1459,c pl,hgb_ratio,2540.296696791716
+a401:table:q1459,c pl,oracle_join,33326
+a401:table:q1459,c u,pg_map,171504.0
+a401:table:q1459,c u,hgb_ratio,8664.208191205282
+a401:table:q1459,c u,oracle_join,171470
+a401:table:q1459,p pl,pg_map,346.0
+a401:table:q1459,p pl,hgb_ratio,17.479569188806252
+a401:table:q1459,p pl,oracle_join,7738
+a401:table:q1459,ph pl,pg_map,15726.0
+a401:table:q1459,ph pl,hgb_ratio,794.4615753270726
+a401:table:q1459,ph pl,oracle_join,11102
+a401:table:q1459,c p pl,pg_map,656.0
+a401:table:q1459,c p pl,hgb_ratio,33.14045487819914
+a401:table:q1459,c p pl,oracle_join,22458
+a401:table:q1459,c ph pl,pg_map,71226.0
+a401:table:q1459,c ph pl,hgb_ratio,3598.2653035893472
+a401:table:q1459,c ph pl,oracle_join,33326
+a401:table:q1459,c pl u,pg_map,49476.0
+a401:table:q1459,c pl u,hgb_ratio,2499.4773560271046
+a401:table:q1459,c pl u,oracle_join,32411
+a401:table:q1459,p ph pl,pg_map,342.0
+a401:table:q1459,p ph pl,hgb_ratio,17.27749324442699
+a401:table:q1459,p ph pl,oracle_join,7738
+a401:table:q1459,c p ph pl,pg_map,649.0
+a401:table:q1459,c p ph pl,hgb_ratio,32.78682197553543
+a401:table:q1459,c p ph pl,oracle_join,22458
+a401:table:q1459,c p pl u,pg_map,645.0
+a401:table:q1459,c p pl u,hgb_ratio,32.584746031156165
+a401:table:q1459,c p pl u,oracle_join,21833
+a401:table:q1459,c ph pl u,pg_map,70082.0
+a401:table:q1459,c ph pl u,hgb_ratio,3540.4715834968783
+a401:table:q1459,c ph pl u,oracle_join,32411
+a401:table:q1459,c p ph pl u,pg_map,639.0
+a401:table:q1459,c p ph pl u,hgb_ratio,16662.525626694798
+a401:table:q1459,c p ph pl u,oracle_join,21833
+a401:table:q2072,c pl,pg_map,38415.0
+a401:table:q2072,c pl,hgb_ratio,2507.579421819666
+a401:table:q2072,c pl,oracle_join,20144
+a401:table:q2072,c u,pg_map,122744.0
+a401:table:q2072,c u,hgb_ratio,8012.243356809399
+a401:table:q2072,c u,oracle_join,34769
+a401:table:q2072,p pl,pg_map,338.0
+a401:table:q2072,p pl,hgb_ratio,22.063304557465756
+a401:table:q2072,p pl,oracle_join,6208
+a401:table:q2072,ph pl,pg_map,15721.0
+a401:table:q2072,ph pl,hgb_ratio,1026.204766118104
+a401:table:q2072,ph pl,oracle_join,11101
+a401:table:q2072,c p pl,pg_map,490.0
+a401:table:q2072,c p pl,hgb_ratio,31.98526400342669
+a401:table:q2072,c p pl,oracle_join,11411
+a401:table:q2072,c ph pl,pg_map,54414.0
+a401:table:q2072,c ph pl,hgb_ratio,3551.9309295560406
+a401:table:q2072,c ph pl,oracle_join,20144
+a401:table:q2072,c pl u,pg_map,35400.0
+a401:table:q2072,c pl u,hgb_ratio,2310.7721341251117
+a401:table:q2072,c pl u,oracle_join,3191
+a401:table:q2072,p ph pl,pg_map,334.0
+a401:table:q2072,p ph pl,hgb_ratio,21.802200361519418
+a401:table:q2072,p ph pl,oracle_join,6208
+a401:table:q2072,c p ph pl,pg_map,484.0
+a401:table:q2072,c p ph pl,hgb_ratio,31.59360770950718
+a401:table:q2072,c p ph pl,oracle_join,11411
+a401:table:q2072,c p pl u,pg_map,452.0
+a401:table:q2072,c p pl u,hgb_ratio,29.504774141936455
+a401:table:q2072,c p pl u,oracle_join,1667
+a401:table:q2072,c ph pl u,pg_map,50143.0
+a401:table:q2072,c ph pl u,hgb_ratio,3273.1369243343356
+a401:table:q2072,c ph pl u,oracle_join,3191
+a401:table:q2072,c p ph pl u,pg_map,446.0
+a401:table:q2072,c p ph pl u,hgb_ratio,1533.6607709398165
+a401:table:q2072,c p ph pl u,oracle_join,1667
+a401:table:q1249,c pl,pg_map,38804.0
+a401:table:q1249,c pl,hgb_ratio,1185.3128665846698
+a401:table:q1249,c pl,oracle_join,20522
+a401:table:q1249,c u,pg_map,121555.0
+a401:table:q1249,c u,hgb_ratio,3713.0374574193265
+a401:table:q1249,c u,oracle_join,31757
+a401:table:q1249,p pl,pg_map,10949.0
+a401:table:q1249,p pl,hgb_ratio,334.44981383969565
+a401:table:q1249,p pl,oracle_join,10456
+a401:table:q1249,ph pl,pg_map,6988.0
+a401:table:q1249,ph pl,hgb_ratio,213.45650736247998
+a401:table:q1249,ph pl,oracle_join,10973
+a401:table:q1249,c p pl,pg_map,16012.0
+a401:table:q1249,c p pl,hgb_ratio,489.10497937722226
+a401:table:q1249,c p pl,oracle_join,19606
+a401:table:q1249,c ph pl,pg_map,24423.0
+a401:table:q1249,c ph pl,hgb_ratio,746.0286604627717
+a401:table:q1249,c ph pl,oracle_join,20199
+a401:table:q1249,c pl u,pg_map,35066.0
+a401:table:q1249,c pl u,hgb_ratio,1071.1313519136695
+a401:table:q1249,c pl u,oracle_join,2884
+a401:table:q1249,p ph pl,pg_map,4810.0
+a401:table:q1249,p ph pl,hgb_ratio,146.9269891833899
+a401:table:q1249,p ph pl,oracle_join,10327
+a401:table:q1249,c p ph pl,pg_map,7034.0
+a401:table:q1249,c p ph pl,hgb_ratio,214.86163033595938
+a401:table:q1249,c p ph pl,oracle_join,19283
+a401:table:q1249,c p pl u,pg_map,14470.0
+a401:table:q1249,c p pl u,hgb_ratio,442.00281361406485
+a401:table:q1249,c p pl u,oracle_join,2754
+a401:table:q1249,c ph pl u,pg_map,22071.0
+a401:table:q1249,c ph pl u,hgb_ratio,674.1841119057377
+a401:table:q1249,c ph pl u,oracle_join,2818
+a401:table:q1249,c p ph pl u,pg_map,6356.0
+a401:table:q1249,c p ph pl u,hgb_ratio,1367.7955762274082
+a401:table:q1249,c p ph pl u,oracle_join,2688
+a401:table:q1345,c pl,pg_map,6790.0
+a401:table:q1345,c pl,hgb_ratio,136.1766666428582
+a401:table:q1345,c pl,oracle_join,5716
+a401:table:q1345,c u,pg_map,453.0
+a401:table:q1345,c u,hgb_ratio,9.085129600768006
+a401:table:q1345,c u,oracle_join,109
+a401:table:q1345,p pl,pg_map,572.0
+a401:table:q1345,p pl,hgb_ratio,11.471730974921192
+a401:table:q1345,p pl,oracle_join,2877
+a401:table:q1345,ph pl,pg_map,44111.0
+a401:table:q1345,ph pl,hgb_ratio,884.6670018090012
+a401:table:q1345,ph pl,oracle_join,57051
+a401:table:q1345,c p pl,pg_map,156.0
+a401:table:q1345,c p pl,hgb_ratio,3.128653902251234
+a401:table:q1345,c p pl,oracle_join,1392
+a401:table:q1345,c ph pl,pg_map,28704.0
+a401:table:q1345,c ph pl,hgb_ratio,575.6723180142271
+a401:table:q1345,c ph pl,oracle_join,35313
+a401:table:q1345,c pl u,pg_map,123.0
+a401:table:q1345,c pl u,hgb_ratio,2.466823269082704
+a401:table:q1345,c pl u,oracle_join,17
+a401:table:q1345,p ph pl,pg_map,1686.0
+a401:table:q1345,p ph pl,hgb_ratio,33.813528712792184
+a401:table:q1345,p ph pl,oracle_join,16620
+a401:table:q1345,c p ph pl,pg_map,459.0
+a401:table:q1345,c p ph pl,hgb_ratio,9.205462443162284
+a401:table:q1345,c p ph pl,oracle_join,9746
+a401:table:q1345,c p pl u,pg_map,3.0
+a401:table:q1345,c p pl u,hgb_ratio,1.0
+a401:table:q1345,c p pl u,oracle_join,5
+a401:table:q1345,c ph pl u,pg_map,520.0
+a401:table:q1345,c ph pl u,hgb_ratio,10.428846340837447
+a401:table:q1345,c ph pl u,oracle_join,104
+a401:table:q1345,c p ph pl u,pg_map,8.0
+a401:table:q1345,c p ph pl u,hgb_ratio,7.139748648727175
+a401:table:q1345,c p ph pl u,oracle_join,16
+a401:table:q1016,c p,pg_map,28215.0
+a401:table:q1016,c p,hgb_ratio,1172.405807528367
+a401:table:q1016,c p,oracle_join,56833
+a401:table:q1016,p ph,pg_map,8886.0
+a401:table:q1016,p ph,hgb_ratio,369.2361511854357
+a401:table:q1016,p ph,oracle_join,40637
+a401:table:q1016,p pl,pg_map,2137.0
+a401:table:q1016,p pl,hgb_ratio,88.79784549665497
+a401:table:q1016,p pl,oracle_join,9351
+a401:table:q1016,p v,pg_map,33.0
+a401:table:q1016,p v,hgb_ratio,1.3712348626062771
+a401:table:q1016,p v,oracle_join,45
+a401:table:q1016,c p ph,pg_map,12995.0
+a401:table:q1016,c p ph,hgb_ratio,539.9756678657143
+a401:table:q1016,c p ph,oracle_join,55976
+a401:table:q1016,c p pl,pg_map,3125.0
+a401:table:q1016,c p pl,hgb_ratio,129.85178623165504
+a401:table:q1016,c p pl,oracle_join,17694
+a401:table:q1016,c p v,pg_map,49.0
+a401:table:q1016,c p v,hgb_ratio,2.036076008112351
+a401:table:q1016,c p v,oracle_join,74
+a401:table:q1016,p ph pl,pg_map,984.0
+a401:table:q1016,p ph pl,hgb_ratio,40.887730448623536
+a401:table:q1016,p ph pl,oracle_join,9164
+a401:table:q1016,p ph v,pg_map,15.0
+a401:table:q1016,p ph v,hgb_ratio,1.0
+a401:table:q1016,p ph v,oracle_join,40
+a401:table:q1016,p pl v,pg_map,4.0
+a401:table:q1016,p pl v,hgb_ratio,1.0
+a401:table:q1016,p pl v,oracle_join,11
+a401:table:q1016,c p ph pl,pg_map,1439.0
+a401:table:q1016,c p ph pl,hgb_ratio,59.79415052395251
+a401:table:q1016,c p ph pl,oracle_join,17425
+a401:table:q1016,c p ph v,pg_map,22.0
+a401:table:q1016,c p ph v,hgb_ratio,1.0
+a401:table:q1016,c p ph v,oracle_join,66
+a401:table:q1016,c p pl v,pg_map,5.0
+a401:table:q1016,c p pl v,hgb_ratio,1.0
+a401:table:q1016,c p pl v,oracle_join,21
+a401:table:q1016,p ph pl v,pg_map,2.0
+a401:table:q1016,p ph pl v,hgb_ratio,1.0
+a401:table:q1016,p ph pl v,oracle_join,8
+a401:table:q1016,c p ph pl v,pg_map,2.0
+a401:table:q1016,c p ph pl v,hgb_ratio,15.08358348866905
+a401:table:q1016,c p ph pl v,oracle_join,15
+a401:table:q1509,c pl,pg_map,38804.0
+a401:table:q1509,c pl,hgb_ratio,3146.106448747385
+a401:table:q1509,c pl,oracle_join,20522
+a401:table:q1509,c u,pg_map,129442.0
+a401:table:q1509,c u,hgb_ratio,10494.750823079037
+a401:table:q1509,c u,oracle_join,103539
+a401:table:q1509,p pl,pg_map,2419.0
+a401:table:q1509,p pl,hgb_ratio,196.1249226760108
+a401:table:q1509,p pl,oracle_join,468
+a401:table:q1509,ph pl,pg_map,7539.0
+a401:table:q1509,ph pl,hgb_ratio,611.2384423540494
+a401:table:q1509,ph pl,oracle_join,11097
+a401:table:q1509,c p pl,pg_map,3537.0
+a401:table:q1509,c p pl,hgb_ratio,286.7688513869575
+a401:table:q1509,c p pl,oracle_join,994
+a401:table:q1509,c ph pl,pg_map,26352.0
+a401:table:q1509,c ph pl,hgb_ratio,2136.5373965929048
+a401:table:q1509,c ph pl,oracle_join,20511
+a401:table:q1509,c pl u,pg_map,37342.0
+a401:table:q1509,c pl u,hgb_ratio,3027.57208043307
+a401:table:q1509,c pl u,oracle_join,15070
+a401:table:q1509,p ph pl,pg_map,1147.0
+a401:table:q1509,p ph pl,hgb_ratio,92.99515763099811
+a401:table:q1509,p ph pl,oracle_join,468
+a401:table:q1509,c p ph pl,pg_map,1677.0
+a401:table:q1509,c p ph pl,hgb_ratio,135.96589306642008
+a401:table:q1509,c p ph pl,oracle_join,994
+a401:table:q1509,c p pl u,pg_map,3404.0
+a401:table:q1509,c p pl u,hgb_ratio,275.985629098446
+a401:table:q1509,c p pl u,oracle_join,675
+a401:table:q1509,c ph pl u,pg_map,25359.0
+a401:table:q1509,c ph pl u,hgb_ratio,2056.028075295973
+a401:table:q1509,c ph pl u,oracle_join,15060
+a401:table:q1509,c p ph pl u,pg_map,1614.0
+a401:table:q1509,c p ph pl u,hgb_ratio,1833.5531733435241
+a401:table:q1509,c p ph pl u,oracle_join,675
+a401:table:q2215,c pl,pg_map,35232.0
+a401:table:q2215,c pl,hgb_ratio,458.170901896583
+a401:table:q2215,c pl,oracle_join,18616
+a401:table:q2215,c u,pg_map,127076.0
+a401:table:q2215,c u,hgb_ratio,1652.5467055350302
+a401:table:q2215,c u,oracle_join,42602
+a401:table:q2215,p pl,pg_map,310.0
+a401:table:q2215,p pl,hgb_ratio,4.0313629537903255
+a401:table:q2215,p pl,oracle_join,6928
+a401:table:q2215,ph pl,pg_map,6235.0
+a401:table:q2215,ph pl,hgb_ratio,81.08241295768606
+a401:table:q2215,ph pl,oracle_join,9644
+a401:table:q2215,c p pl,pg_map,454.0
+a401:table:q2215,c p pl,hgb_ratio,5.903996067809056
+a401:table:q2215,c p pl,oracle_join,12115
+a401:table:q2215,c ph pl,pg_map,21791.0
+a401:table:q2215,c ph pl,hgb_ratio,283.3788068582096
+a401:table:q2215,c ph pl,oracle_join,18018
+a401:table:q2215,c pl u,pg_map,33284.0
+a401:table:q2215,c pl u,hgb_ratio,432.83833727082964
+a401:table:q2215,c pl u,oracle_join,3769
+a401:table:q2215,p ph pl,pg_map,134.0
+a401:table:q2215,p ph pl,hgb_ratio,1.742589147767431
+a401:table:q2215,p ph pl,oracle_join,6875
+a401:table:q2215,c p ph pl,pg_map,196.0
+a401:table:q2215,c p ph pl,hgb_ratio,2.548861738525496
+a401:table:q2215,c p ph pl,oracle_join,11992
+a401:table:q2215,c p pl u,pg_map,429.0
+a401:table:q2215,c p pl u,hgb_ratio,5.578886152180805
+a401:table:q2215,c p pl u,oracle_join,2307
+a401:table:q2215,c ph pl u,pg_map,20586.0
+a401:table:q2215,c ph pl u,hgb_ratio,267.70850892492786
+a401:table:q2215,c ph pl u,oracle_join,3561
+a401:table:q2215,c p ph pl u,pg_map,185.0
+a401:table:q2215,c p ph pl u,hgb_ratio,483.1783566067082
+a401:table:q2215,c p ph pl u,oracle_join,2259
+a401:table:q1787,c pl,pg_map,50284.0
+a401:table:q1787,c pl,hgb_ratio,754.692355926068
+a401:table:q1787,c pl,oracle_join,33326
+a401:table:q1787,c u,pg_map,171504.0
+a401:table:q1787,c u,hgb_ratio,2574.0346394627386
+a401:table:q1787,c u,oracle_join,171470
+a401:table:q1787,p pl,pg_map,5769.0
+a401:table:q1787,p pl,hgb_ratio,86.58460347898907
+a401:table:q1787,p pl,oracle_join,5
+a401:table:q1787,ph pl,pg_map,52430.0
+a401:table:q1787,ph pl,hgb_ratio,786.9008078355688
+a401:table:q1787,ph pl,oracle_join,71242
+a401:table:q1787,c p pl,pg_map,10934.0
+a401:table:q1787,c p pl,hgb_ratio,164.1040135966834
+a401:table:q1787,c p pl,oracle_join,14
+a401:table:q1787,c ph pl,pg_map,237471.0
+a401:table:q1787,c ph pl,hgb_ratio,3564.106842218584
+a401:table:q1787,c ph pl,oracle_join,232285
+a401:table:q1787,c pl u,pg_map,49476.0
+a401:table:q1787,c pl u,hgb_ratio,742.5654085155942
+a401:table:q1787,c pl u,oracle_join,32411
+a401:table:q1787,p ph pl,pg_map,19018.0
+a401:table:q1787,p ph pl,hgb_ratio,285.4335220945422
+a401:table:q1787,p ph pl,oracle_join,10
+a401:table:q1787,c p ph pl,pg_map,36041.0
+a401:table:q1787,c p ph pl,hgb_ratio,540.9248906199073
+a401:table:q1787,c p ph pl,oracle_join,26
+a401:table:q1787,c p pl u,pg_map,10758.0
+a401:table:q1787,c p pl u,hgb_ratio,161.46250029935246
+a401:table:q1787,c p pl u,oracle_join,14
+a401:table:q1787,c ph pl u,pg_map,233656.0
+a401:table:q1787,c ph pl u,hgb_ratio,3506.8490397792802
+a401:table:q1787,c ph pl u,oracle_join,225396
+a401:table:q1787,c p ph pl u,pg_map,35464.0
+a401:table:q1787,c p ph pl u,hgb_ratio,4026.266609063533
+a401:table:q1787,c p ph pl u,oracle_join,26
+a401:table:q1202,c pl,pg_map,50284.0
+a401:table:q1202,c pl,hgb_ratio,3472.2818469607164
+a401:table:q1202,c pl,oracle_join,33326
+a401:table:q1202,c u,pg_map,170229.0
+a401:table:q1202,c u,hgb_ratio,11754.89353524532
+a401:table:q1202,c u,oracle_join,73901
+a401:table:q1202,p pl,pg_map,5080.0
+a401:table:q1202,p pl,hgb_ratio,350.79134083526446
+a401:table:q1202,p pl,oracle_join,10894
+a401:table:q1202,ph pl,pg_map,50595.0
+a401:table:q1202,ph pl,hgb_ratio,3493.7574585748434
+a401:table:q1202,ph pl,oracle_join,62809
+a401:table:q1202,c p pl,pg_map,9627.0
+a401:table:q1202,c p pl,hgb_ratio,664.7772122482462
+a401:table:q1202,c p pl,oracle_join,30330
+a401:table:q1202,c ph pl,pg_map,229159.0
+a401:table:q1202,c ph pl,hgb_ratio,15824.21119576149
+a401:table:q1202,c ph pl,oracle_join,205318
+a401:table:q1202,c pl u,pg_map,49108.0
+a401:table:q1202,c pl u,hgb_ratio,3391.0750326256234
+a401:table:q1202,c pl u,oracle_join,9786
+a401:table:q1202,p ph pl,pg_map,16160.0
+a401:table:q1202,p ph pl,hgb_ratio,1115.9031629720223
+a401:table:q1202,p ph pl,oracle_join,61223
+a401:table:q1202,c p ph pl,pg_map,30625.0
+a401:table:q1202,c p ph pl,hgb_ratio,2114.760789976373
+a401:table:q1202,c p ph pl,oracle_join,180873
+a401:table:q1202,c p pl u,pg_map,9402.0
+a401:table:q1202,c p pl u,hgb_ratio,649.2401941994402
+a401:table:q1202,c p pl u,oracle_join,8635
+a401:table:q1202,c ph pl u,pg_map,223800.0
+a401:table:q1202,c ph pl u,hgb_ratio,15454.153952545706
+a401:table:q1202,c ph pl u,oracle_join,62869
+a401:table:q1202,c p ph pl u,pg_map,29907.0
+a401:table:q1202,c p ph pl u,hgb_ratio,66522.74405045938
+a401:table:q1202,c p ph pl u,oracle_join,53119
+a401:table:q1406,c pl,pg_map,35552.0
+a401:table:q1406,c pl,hgb_ratio,5863.624098045821
+a401:table:q1406,c pl,oracle_join,18836
+a401:table:q1406,c u,pg_map,132163.0
+a401:table:q1406,c u,hgb_ratio,21797.765292248812
+a401:table:q1406,c u,oracle_join,132547
+a401:table:q1406,p pl,pg_map,4749.0
+a401:table:q1406,p pl,hgb_ratio,783.2569431148628
+a401:table:q1406,p pl,oracle_join,10181
+a401:table:q1406,ph pl,pg_map,10852.0
+a401:table:q1406,ph pl,hgb_ratio,1789.8303530601158
+a401:table:q1406,ph pl,oracle_join,12844
+a401:table:q1406,c p pl,pg_map,6935.0
+a401:table:q1406,c p pl,hgb_ratio,1143.79593609214
+a401:table:q1406,c p pl,oracle_join,18825
+a401:table:q1406,c ph pl,pg_map,37878.0
+a401:table:q1406,c ph pl,hgb_ratio,6247.253419942045
+a401:table:q1406,c ph pl,oracle_join,31511
+a401:table:q1406,c pl u,pg_map,34981.0
+a401:table:q1406,c pl u,hgb_ratio,5769.448542240685
+a401:table:q1406,c pl u,oracle_join,18425
+a401:table:q1406,p ph pl,pg_map,3531.0
+a401:table:q1406,p ph pl,hgb_ratio,582.3710815200211
+a401:table:q1406,p ph pl,oracle_join,12841
+a401:table:q1406,c p ph pl,pg_map,5157.0
+a401:table:q1406,c p ph pl,hgb_ratio,850.5487588215092
+a401:table:q1406,c p ph pl,oracle_join,31503
+a401:table:q1406,c p pl u,pg_map,6824.0
+a401:table:q1406,c p pl u,hgb_ratio,1125.4886038778318
+a401:table:q1406,c p pl u,oracle_join,18414
+a401:table:q1406,c ph pl u,pg_map,37269.0
+a401:table:q1406,c ph pl u,hgb_ratio,6146.810489144624
+a401:table:q1406,c ph pl u,oracle_join,30955
+a401:table:q1406,c p ph pl u,pg_map,5074.0
+a401:table:q1406,c p ph pl u,hgb_ratio,130930.74137831543
+a401:table:q1406,c p ph pl u,oracle_join,30947
+a401:table:q1899,c pl,pg_map,35602.0
+a401:table:q1899,c pl,hgb_ratio,2616.4775560674498
+a401:table:q1899,c pl,oracle_join,18836
+a401:table:q1899,c u,pg_map,129101.0
+a401:table:q1899,c u,hgb_ratio,9487.946434634678
+a401:table:q1899,c u,oracle_join,102306
+a401:table:q1899,p pl,pg_map,623.0
+a401:table:q1899,p pl,hgb_ratio,45.78578499606823
+a401:table:q1899,p pl,oracle_join,4312
+a401:table:q1899,ph pl,pg_map,14290.0
+a401:table:q1899,ph pl,hgb_ratio,1050.206850070329
+a401:table:q1899,ph pl,oracle_join,10061
+a401:table:q1899,c p pl,pg_map,911.0
+a401:table:q1899,c p pl,hgb_ratio,66.95160534738066
+a401:table:q1899,c p pl,oracle_join,7987
+a401:table:q1899,c ph pl,pg_map,49946.0
+a401:table:q1899,c ph pl,hgb_ratio,3670.6529974536497
+a401:table:q1899,c ph pl,oracle_join,18727
+a401:table:q1899,c pl u,pg_map,34170.0
+a401:table:q1899,c pl u,hgb_ratio,2511.2363937650907
+a401:table:q1899,c pl u,oracle_join,12774
+a401:table:q1899,p ph pl,pg_map,610.0
+a401:table:q1899,p ph pl,hgb_ratio,44.83038338298815
+a401:table:q1899,p ph pl,oracle_join,4303
+a401:table:q1899,c p ph pl,pg_map,892.0
+a401:table:q1899,c p ph pl,hgb_ratio,65.55524914364825
+a401:table:q1899,c p ph pl,oracle_join,7975
+a401:table:q1899,c p pl u,pg_map,874.0
+a401:table:q1899,c p pl u,hgb_ratio,64.23238537169122
+a401:table:q1899,c p pl u,oracle_join,5607
+a401:table:q1899,c ph pl u,pg_map,47937.0
+a401:table:q1899,c ph pl u,hgb_ratio,3523.0067020168904
+a401:table:q1899,c ph pl u,oracle_join,12717
+a401:table:q1899,c p ph pl u,pg_map,856.0
+a401:table:q1899,c p ph pl u,hgb_ratio,11575.572451646418
+a401:table:q1899,c p ph pl u,oracle_join,5605
+a401:table:q195,c p,pg_map,109.0
+a401:table:q195,c p,hgb_ratio,2.3679134808287836
+a401:table:q195,c p,oracle_join,336
+a401:table:q195,p ph,pg_map,1315.0
+a401:table:q195,p ph,hgb_ratio,28.567029608163768
+a401:table:q195,p ph,oracle_join,4956
+a401:table:q195,p pl,pg_map,48.0
+a401:table:q195,p pl,hgb_ratio,1.0427508906401983
+a401:table:q195,p pl,oracle_join,352
+a401:table:q195,p v,pg_map,9.0
+a401:table:q195,p v,hgb_ratio,1.0
+a401:table:q195,p v,oracle_join,25
+a401:table:q195,c p ph,pg_map,359.0
+a401:table:q195,c p ph,hgb_ratio,7.79890770291315
+a401:table:q195,c p ph,oracle_join,2040
+a401:table:q195,c p pl,pg_map,13.0
+a401:table:q195,c p pl,hgb_ratio,1.0
+a401:table:q195,c p pl,oracle_join,140
+a401:table:q195,c p v,pg_map,2.0
+a401:table:q195,c p v,hgb_ratio,1.0
+a401:table:q195,c p v,oracle_join,8
+a401:table:q195,p ph pl,pg_map,159.0
+a401:table:q195,p ph pl,hgb_ratio,3.454112325245657
+a401:table:q195,p ph pl,oracle_join,2409
+a401:table:q195,p ph v,pg_map,28.0
+a401:table:q195,p ph v,hgb_ratio,1.0
+a401:table:q195,p ph v,oracle_join,213
+a401:table:q195,p pl v,pg_map,1.0
+a401:table:q195,p pl v,hgb_ratio,1.0
+a401:table:q195,p pl v,oracle_join,6
+a401:table:q195,c p ph pl,pg_map,43.0
+a401:table:q195,c p ph pl,hgb_ratio,1.0
+a401:table:q195,c p ph pl,oracle_join,927
+a401:table:q195,c p ph v,pg_map,8.0
+a401:table:q195,c p ph v,hgb_ratio,1.0
+a401:table:q195,c p ph v,oracle_join,70
+a401:table:q195,c p pl v,pg_map,1.0
+a401:table:q195,c p pl v,hgb_ratio,1.0
+a401:table:q195,c p pl v,oracle_join,3
+a401:table:q195,p ph pl v,pg_map,3.0
+a401:table:q195,p ph pl v,hgb_ratio,1.0
+a401:table:q195,p ph pl v,oracle_join,61
+a401:table:q195,c p ph pl v,pg_map,1.0
+a401:table:q195,c p ph pl v,hgb_ratio,8.73303870911166
+a401:table:q195,c p ph pl v,oracle_join,21
+a401:table:q2424,c pl,pg_map,50284.0
+a401:table:q2424,c pl,hgb_ratio,1978.3296810574507
+a401:table:q2424,c pl,oracle_join,33326
+a401:table:q2424,c u,pg_map,164006.0
+a401:table:q2424,c u,hgb_ratio,6452.508505121077
+a401:table:q2424,c u,oracle_join,68833
+a401:table:q2424,p pl,pg_map,4731.0
+a401:table:q2424,p pl,hgb_ratio,186.132322827993
+a401:table:q2424,p pl,oracle_join,9308
+a401:table:q2424,ph pl,pg_map,2133.0
+a401:table:q2424,ph pl,hgb_ratio,83.91888492752253
+a401:table:q2424,ph pl,oracle_join,5976
+a401:table:q2424,c p pl,pg_map,8966.0
+a401:table:q2424,c p pl,hgb_ratio,352.7504558181748
+a401:table:q2424,c p pl,oracle_join,25914
+a401:table:q2424,c ph pl,pg_map,9661.0
+a401:table:q2424,c ph pl,hgb_ratio,380.09392746591425
+a401:table:q2424,c ph pl,oracle_join,18479
+a401:table:q2424,c pl u,pg_map,47313.0
+a401:table:q2424,c pl u,hgb_ratio,1861.441257653949
+a401:table:q2424,c pl u,oracle_join,9713
+a401:table:q2424,p ph pl,pg_map,635.0
+a401:table:q2424,p ph pl,hgb_ratio,24.982884167359025
+a401:table:q2424,p ph pl,oracle_join,5046
+a401:table:q2424,c p ph pl,pg_map,1202.0
+a401:table:q2424,c p ph pl,hgb_ratio,47.29043585695362
+a401:table:q2424,c p ph pl,oracle_join,14614
+a401:table:q2424,c p pl u,pg_map,8436.0
+a401:table:q2424,c p pl u,hgb_ratio,331.89859974148146
+a401:table:q2424,c p pl u,oracle_join,7669
+a401:table:q2424,c ph pl u,pg_map,9090.0
+a401:table:q2424,c ph pl u,hgb_ratio,357.6290032776276
+a401:table:q2424,c ph pl u,oracle_join,5278
+a401:table:q2424,c p ph pl u,pg_map,1131.0
+a401:table:q2424,c p ph pl u,hgb_ratio,4276.125534459713
+a401:table:q2424,c p ph pl u,oracle_join,4207
+a401:table:q2175,c pl,pg_map,50284.0
+a401:table:q2175,c pl,hgb_ratio,360.23361815437545
+a401:table:q2175,c pl,oracle_join,33326
+a401:table:q2175,c u,pg_map,164814.0
+a401:table:q2175,c u,hgb_ratio,1180.7243565049566
+a401:table:q2175,c u,oracle_join,47905
+a401:table:q2175,p pl,pg_map,2291.0
+a401:table:q2175,p pl,hgb_ratio,16.412680359392137
+a401:table:q2175,p pl,oracle_join,6872
+a401:table:q2175,ph pl,pg_map,15726.0
+a401:table:q2175,ph pl,hgb_ratio,112.66076443989556
+a401:table:q2175,ph pl,oracle_join,11102
+a401:table:q2175,c p pl,pg_map,4342.0
+a401:table:q2175,c p pl,hgb_ratio,31.106005290476062
+a401:table:q2175,c p pl,oracle_join,19791
+a401:table:q2175,c ph pl,pg_map,71226.0
+a401:table:q2175,c ph pl,hgb_ratio,510.2617072361695
+a401:table:q2175,c ph pl,oracle_join,33326
+a401:table:q2175,c pl u,pg_map,47546.0
+a401:table:q2175,c pl u,hgb_ratio,340.61863830975926
+a401:table:q2175,c pl u,oracle_join,5588
+a401:table:q2175,p ph pl,pg_map,2265.0
+a401:table:q2175,p ph pl,hgb_ratio,16.226416854658748
+a401:table:q2175,p ph pl,oracle_join,6872
+a401:table:q2175,c p ph pl,pg_map,4293.0
+a401:table:q2175,c p ph pl,hgb_ratio,30.754970223863136
+a401:table:q2175,c p ph pl,oracle_join,19791
+a401:table:q2175,c p pl u,pg_map,4106.0
+a401:table:q2175,c p pl u,hgb_ratio,29.415305785972986
+a401:table:q2175,c p pl u,oracle_join,3885
+a401:table:q2175,c ph pl u,pg_map,67348.0
+a401:table:q2175,c ph pl u,hgb_ratio,482.4797891070893
+a401:table:q2175,c ph pl u,oracle_join,5588
+a401:table:q2175,c p ph pl u,pg_map,4059.0
+a401:table:q2175,c p ph pl u,hgb_ratio,453.6805856829268
+a401:table:q2175,c p ph pl u,oracle_join,3885
+a401:table:q1666,c pl,pg_map,50284.0
+a401:table:q1666,c pl,hgb_ratio,4597.18941928877
+a401:table:q1666,c pl,oracle_join,33326
+a401:table:q1666,c u,pg_map,164172.0
+a401:table:q1666,c u,hgb_ratio,15009.342561122347
+a401:table:q1666,c u,oracle_join,46014
+a401:table:q1666,p pl,pg_map,2300.0
+a401:table:q1666,p pl,hgb_ratio,210.27634365532123
+a401:table:q1666,p pl,oracle_join,7288
+a401:table:q1666,ph pl,pg_map,15144.0
+a401:table:q1666,ph pl,hgb_ratio,1384.532586224428
+a401:table:q1666,ph pl,oracle_join,9241
+a401:table:q1666,c p pl,pg_map,4358.0
+a401:table:q1666,c p pl,hgb_ratio,398.427958978213
+a401:table:q1666,c p pl,oracle_join,18315
+a401:table:q1666,c ph pl,pg_map,68592.0
+a401:table:q1666,c ph pl,hgb_ratio,6270.989114785128
+a401:table:q1666,c ph pl,oracle_join,27875
+a401:table:q1666,c pl u,pg_map,47361.0
+a401:table:q1666,c pl u,hgb_ratio,4329.95561385203
+a401:table:q1666,c pl u,oracle_join,5085
+a401:table:q1666,p ph pl,pg_map,2189.0
+a401:table:q1666,p ph pl,hgb_ratio,200.12822446152094
+a401:table:q1666,p ph pl,oracle_join,6746
+a401:table:q1666,c p ph pl,pg_map,4149.0
+a401:table:q1666,c p ph pl,hgb_ratio,379.3202390547512
+a401:table:q1666,c p ph pl,oracle_join,17323
+a401:table:q1666,c p pl u,pg_map,4105.0
+a401:table:q1666,c p pl u,hgb_ratio,375.29756117612766
+a401:table:q1666,c p pl u,oracle_join,3100
+a401:table:q1666,c ph pl u,pg_map,64605.0
+a401:table:q1666,c ph pl u,hgb_ratio,5906.47964428349
+a401:table:q1666,c ph pl u,oracle_join,4356
+a401:table:q1666,c p ph pl u,pg_map,3908.0
+a401:table:q1666,c p ph pl u,hgb_ratio,8698.58379003719
+a401:table:q1666,c p ph pl u,oracle_join,2997
+a401:table:q1217,c pl,pg_map,38431.0
+a401:table:q1217,c pl,hgb_ratio,569.733253060633
+a401:table:q1217,c pl,oracle_join,20315
+a401:table:q1217,c u,pg_map,129890.0
+a401:table:q1217,c u,hgb_ratio,1925.5978829602568
+a401:table:q1217,c u,oracle_join,65938
+a401:table:q1217,p pl,pg_map,2263.0
+a401:table:q1217,p pl,hgb_ratio,33.548602734152446
+a401:table:q1217,p pl,oracle_join,6720
+a401:table:q1217,ph pl,pg_map,11828.0
+a401:table:q1217,ph pl,hgb_ratio,175.34815428173007
+a401:table:q1217,ph pl,oracle_join,13872
+a401:table:q1217,c p pl,pg_map,3278.0
+a401:table:q1217,c p pl,hgb_ratio,48.59581076559952
+a401:table:q1217,c p pl,oracle_join,13535
+a401:table:q1217,c ph pl,pg_map,40945.0
+a401:table:q1217,c ph pl,hgb_ratio,607.0028895050251
+a401:table:q1217,c ph pl,oracle_join,33427
+a401:table:q1217,c pl u,pg_map,37471.0
+a401:table:q1217,c pl u,hgb_ratio,555.501410981629
+a401:table:q1217,c pl u,oracle_join,7625
+a401:table:q1217,p ph pl,pg_map,1683.0
+a401:table:q1217,p ph pl,hgb_ratio,24.95019814475412
+a401:table:q1217,p ph pl,oracle_join,8644
+a401:table:q1217,c p ph pl,pg_map,2438.0
+a401:table:q1217,c p ph pl,hgb_ratio,36.14294894647091
+a401:table:q1217,c p ph pl,oracle_join,24476
+a401:table:q1217,c p pl u,pg_map,3196.0
+a401:table:q1217,c p pl u,hgb_ratio,47.38017425468458
+a401:table:q1217,c p pl u,oracle_join,5438
+a401:table:q1217,c ph pl u,pg_map,39922.0
+a401:table:q1217,c ph pl u,hgb_ratio,591.8370827895864
+a401:table:q1217,c ph pl u,oracle_join,13425
+a401:table:q1217,c p ph pl u,pg_map,2377.0
+a401:table:q1217,c p ph pl u,hgb_ratio,2717.7036685053295
+a401:table:q1217,c p ph pl u,oracle_join,10185
+a401:table:q1997,c pl,pg_map,38432.0
+a401:table:q1997,c pl,hgb_ratio,4844.465888457528
+a401:table:q1997,c pl,oracle_join,20377
+a401:table:q1997,c u,pg_map,128404.0
+a401:table:q1997,c u,hgb_ratio,16185.69936359025
+a401:table:q1997,c u,oracle_join,53575
+a401:table:q1997,p pl,pg_map,222.0
+a401:table:q1997,p pl,hgb_ratio,27.983748627122488
+a401:table:q1997,p pl,oracle_join,138
+a401:table:q1997,ph pl,pg_map,52430.0
+a401:table:q1997,ph pl,hgb_ratio,6608.954687027171
+a401:table:q1997,ph pl,oracle_join,71242
+a401:table:q1997,c p pl,pg_map,322.0
+a401:table:q1997,c p pl,hgb_ratio,40.58904080150199
+a401:table:q1997,c p pl,oracle_join,293
+a401:table:q1997,c ph pl,pg_map,181502.0
+a401:table:q1997,c ph pl,hgb_ratio,22878.857402342277
+a401:table:q1997,c ph pl,oracle_join,139329
+a401:table:q1997,c pl u,pg_map,37042.0
+a401:table:q1997,c pl u,hgb_ratio,4669.252327233654
+a401:table:q1997,c pl u,oracle_join,5960
+a401:table:q1997,p ph pl,pg_map,733.0
+a401:table:q1997,p ph pl,hgb_ratio,92.39679163820172
+a401:table:q1997,p ph pl,oracle_join,966
+a401:table:q1997,c p ph pl,pg_map,1062.0
+a401:table:q1997,c p ph pl,hgb_ratio,133.86820289191027
+a401:table:q1997,c p ph pl,oracle_join,1955
+a401:table:q1997,c p pl u,pg_map,310.0
+a401:table:q1997,c p pl u,hgb_ratio,39.07640574057645
+a401:table:q1997,c p pl u,oracle_join,116
+a401:table:q1997,c ph pl u,pg_map,174937.0
+a401:table:q1997,c ph pl u,hgb_ratio,22051.319971094264
+a401:table:q1997,c ph pl u,oracle_join,41557
+a401:table:q1997,c p ph pl u,pg_map,1023.0
+a401:table:q1997,c p ph pl u,hgb_ratio,2121.3446200263256
+a401:table:q1997,c p ph pl u,oracle_join,716
+a401:table:q2411,c pl,pg_map,38804.0
+a401:table:q2411,c pl,hgb_ratio,2638.3716942109036
+a401:table:q2411,c pl,oracle_join,20522
+a401:table:q2411,c u,pg_map,128720.0
+a401:table:q2411,c u,hgb_ratio,8751.963830502718
+a401:table:q2411,c u,oracle_join,61970
+a401:table:q2411,p pl,pg_map,21.0
+a401:table:q2411,p pl,hgb_ratio,1.4278374801161986
+a401:table:q2411,p pl,oracle_join,150
+a401:table:q2411,ph pl,pg_map,50916.0
+a401:table:q2411,ph pl,hgb_ratio,3461.8939589331603
+a401:table:q2411,ph pl,oracle_join,68048
+a401:table:q2411,c p pl,pg_map,30.0
+a401:table:q2411,c p pl,hgb_ratio,2.0397678287374266
+a401:table:q2411,c p pl,oracle_join,199
+a401:table:q2411,c ph pl,pg_map,177963.0
+a401:table:q2411,c ph pl,hgb_ratio,12100.106736853288
+a401:table:q2411,c ph pl,oracle_join,135956
+a401:table:q2411,c pl u,pg_map,37133.0
+a401:table:q2411,c pl u,hgb_ratio,2524.756626150229
+a401:table:q2411,c pl u,oracle_join,7273
+a401:table:q2411,p ph pl,pg_map,66.0
+a401:table:q2411,p ph pl,hgb_ratio,4.4874892232223385
+a401:table:q2411,p ph pl,oracle_join,993
+a401:table:q2411,c p ph pl,pg_map,97.0
+a401:table:q2411,c p ph pl,hgb_ratio,6.595249312917679
+a401:table:q2411,c p ph pl,oracle_join,1442
+a401:table:q2411,c p pl u,pg_map,29.0
+a401:table:q2411,c p pl u,hgb_ratio,1.9717755677795124
+a401:table:q2411,c p pl u,oracle_join,67
+a401:table:q2411,c ph pl u,pg_map,170301.0
+a401:table:q2411,c ph pl u,hgb_ratio,11579.15003339375
+a401:table:q2411,c ph pl u,oracle_join,49965
+a401:table:q2411,c p ph pl u,pg_map,92.0
+a401:table:q2411,c p ph pl u,hgb_ratio,1843.0662177861807
+a401:table:q2411,c p ph pl u,oracle_join,481
+a401:table:q1416,c pl,pg_map,46135.0
+a401:table:q1416,c pl,hgb_ratio,2925.9079827749765
+a401:table:q1416,c pl,oracle_join,30393
+a401:table:q1416,c u,pg_map,167154.0
+a401:table:q1416,c u,hgb_ratio,10601.001906421772
+a401:table:q1416,c u,oracle_join,66802
+a401:table:q1416,p pl,pg_map,2214.0
+a401:table:q1416,p pl,hgb_ratio,140.41314129974637
+a401:table:q1416,p pl,oracle_join,10181
+a401:table:q1416,ph pl,pg_map,46194.0
+a401:table:q1416,ph pl,hgb_ratio,2929.6497963868487
+a401:table:q1416,ph pl,oracle_join,56601
+a401:table:q1416,c p pl,pg_map,4195.0
+a401:table:q1416,c p pl,hgb_ratio,266.0492898610822
+a401:table:q1416,c p pl,oracle_join,30379
+a401:table:q1416,c ph pl,pg_map,209225.0
+a401:table:q1416,c ph pl,hgb_ratio,13269.168693965417
+a401:table:q1416,c ph pl,oracle_join,185079
+a401:table:q1416,c pl u,pg_map,44242.0
+a401:table:q1416,c pl u,hgb_ratio,2805.852844346603
+a401:table:q1416,c pl u,oracle_join,7983
+a401:table:q1416,p ph pl,pg_map,7008.0
+a401:table:q1416,p ph pl,hgb_ratio,444.45135240678525
+a401:table:q1416,p ph pl,oracle_join,56593
+a401:table:q1416,c p ph pl,pg_map,13280.0
+a401:table:q1416,c p ph pl,hgb_ratio,842.2251655197072
+a401:table:q1416,c p ph pl,oracle_join,185055
+a401:table:q1416,c p pl u,pg_map,4023.0
+a401:table:q1416,c p pl u,hgb_ratio,255.14095187392937
+a401:table:q1416,c p pl u,oracle_join,7979
+a401:table:q1416,c ph pl u,pg_map,200641.0
+a401:table:q1416,c ph pl u,hgb_ratio,12724.76652372286
+a401:table:q1416,c ph pl u,oracle_join,52469
+a401:table:q1416,c p ph pl u,pg_map,12734.0
+a401:table:q1416,c p ph pl u,hgb_ratio,86278.1674774218
+a401:table:q1416,c p ph pl u,oracle_join,52462
+a401:table:q1310,c pl,pg_map,49687.0
+a401:table:q1310,c pl,hgb_ratio,7204.022296510423
+a401:table:q1310,c pl,oracle_join,33277
+a401:table:q1310,c u,pg_map,167859.0
+a401:table:q1310,c u,hgb_ratio,24337.55265300668
+a401:table:q1310,c u,oracle_join,161610
+a401:table:q1310,p pl,pg_map,11102.0
+a401:table:q1310,p pl,hgb_ratio,1609.6575670871398
+a401:table:q1310,p pl,oracle_join,11102
+a401:table:q1310,ph pl,pg_map,11828.0
+a401:table:q1310,ph pl,hgb_ratio,1714.9189068191938
+a401:table:q1310,ph pl,oracle_join,13872
+a401:table:q1310,c p pl,pg_map,20790.0
+a401:table:q1310,c p pl,hgb_ratio,3014.30200141791
+a401:table:q1310,c p pl,oracle_join,33277
+a401:table:q1310,c ph pl,pg_map,52938.0
+a401:table:q1310,c ph pl,hgb_ratio,7675.378516164566
+a401:table:q1310,c ph pl,oracle_join,51933
+a401:table:q1310,c pl u,pg_map,48424.0
+a401:table:q1310,c pl u,hgb_ratio,7020.902362513751
+a401:table:q1310,c pl u,oracle_join,28814
+a401:table:q1310,p ph pl,pg_map,8256.0
+a401:table:q1310,p ph pl,hgb_ratio,1197.0215162917875
+a401:table:q1310,p ph pl,oracle_join,13872
+a401:table:q1310,c p ph pl,pg_map,15461.0
+a401:table:q1310,c p ph pl,hgb_ratio,2241.6605696932324
+a401:table:q1310,c p ph pl,oracle_join,51933
+a401:table:q1310,c p pl u,pg_map,20262.0
+a401:table:q1310,c p pl u,hgb_ratio,2937.748299794598
+a401:table:q1310,c p pl u,oracle_join,28814
+a401:table:q1310,c ph pl u,pg_map,51593.0
+a401:table:q1310,c ph pl u,hgb_ratio,7480.369560324879
+a401:table:q1310,c ph pl u,oracle_join,46204
+a401:table:q1310,c p ph pl u,pg_map,15068.0
+a401:table:q1310,c p ph pl u,hgb_ratio,174066.58885128825
+a401:table:q1310,c p ph pl u,oracle_join,46204
+a401:table:q2288,c pl,pg_map,46135.0
+a401:table:q2288,c pl,hgb_ratio,2518.9620778835697
+a401:table:q2288,c pl,oracle_join,30393
+a401:table:q2288,c u,pg_map,169680.0
+a401:table:q2288,c u,hgb_ratio,9264.495185331833
+a401:table:q2288,c u,oracle_join,71480
+a401:table:q2288,p pl,pg_map,2177.0
+a401:table:q2288,p pl,hgb_ratio,118.86377898672443
+a401:table:q2288,p pl,oracle_join,7864
+a401:table:q2288,ph pl,pg_map,44736.0
+a401:table:q2288,ph pl,hgb_ratio,2442.5769484382654
+a401:table:q2288,ph pl,oracle_join,52382
+a401:table:q2288,c p pl,pg_map,4125.0
+a401:table:q2288,c p pl,hgb_ratio,225.22420226010027
+a401:table:q2288,c p pl,oracle_join,21740
+a401:table:q2288,c ph pl,pg_map,202623.0
+a401:table:q2288,c ph pl,hgb_ratio,11063.17661443595
+a401:table:q2288,c ph pl,oracle_join,172839
+a401:table:q2288,c pl u,pg_map,44911.0
+a401:table:q2288,c pl u,hgb_ratio,2452.1319145947546
+a401:table:q2288,c pl u,oracle_join,8343
+a401:table:q2288,p ph pl,pg_map,6673.0
+a401:table:q2288,p ph pl,hgb_ratio,364.3445094985816
+a401:table:q2288,p ph pl,oracle_join,42350
+a401:table:q2288,c p ph pl,pg_map,12645.0
+a401:table:q2288,c p ph pl,hgb_ratio,690.4145545645982
+a401:table:q2288,c p ph pl,oracle_join,133611
+a401:table:q2288,c p pl u,pg_map,4016.0
+a401:table:q2288,c p pl u,hgb_ratio,219.27282333977277
+a401:table:q2288,c p pl u,oracle_join,6505
+a401:table:q2288,c ph pl u,pg_map,197247.0
+a401:table:q2288,c ph pl u,hgb_ratio,10769.648054108606
+a401:table:q2288,c ph pl u,oracle_join,49646
+a401:table:q2288,c p ph pl u,pg_map,12309.0
+a401:table:q2288,c p ph pl u,hgb_ratio,41854.35535265843
+a401:table:q2288,c p ph pl u,oracle_join,40947
+a401:table:q2107,c pl,pg_map,49650.0
+a401:table:q2107,c pl,hgb_ratio,113354.22168226985
+a401:table:q2107,c pl,oracle_join,32956
+a401:table:q2107,c u,pg_map,171504.0
+a401:table:q2107,c u,hgb_ratio,391554.9332406044
+a401:table:q2107,c u,oracle_join,171470
+a401:table:q2107,p pl,pg_map,160.0
+a401:table:q2107,p pl,hgb_ratio,365.29054318556246
+a401:table:q2107,p pl,oracle_join,8536
+a401:table:q2107,ph pl,pg_map,50456.0
+a401:table:q2107,ph pl,hgb_ratio,115194.37279356713
+a401:table:q2107,ph pl,oracle_join,67116
+a401:table:q2107,c p pl,pg_map,303.0
+a401:table:q2107,c p pl,hgb_ratio,691.768966157659
+a401:table:q2107,c p pl,oracle_join,26552
+a401:table:q2107,c ph pl,pg_map,228527.0
+a401:table:q2107,c ph pl,hgb_ratio,521742.199766044
+a401:table:q2107,c ph pl,oracle_join,219740
+a401:table:q2107,c pl u,pg_map,48852.0
+a401:table:q2107,c pl u,hgb_ratio,111532.33509813187
+a401:table:q2107,c pl u,oracle_join,32060
+a401:table:q2107,p ph pl,pg_map,514.0
+a401:table:q2107,p ph pl,hgb_ratio,1173.4958699836195
+a401:table:q2107,p ph pl,oracle_join,53726
+a401:table:q2107,c p ph pl,pg_map,974.0
+a401:table:q2107,c p ph pl,hgb_ratio,2223.7061816421115
+a401:table:q2107,c p ph pl,oracle_join,180456
+a401:table:q2107,c p pl u,pg_map,298.0
+a401:table:q2107,c p pl u,hgb_ratio,680.3536366831102
+a401:table:q2107,c p pl u,oracle_join,25768
+a401:table:q2107,c ph pl u,pg_map,224855.0
+a401:table:q2107,c ph pl u,hgb_ratio,513358.7817999353
+a401:table:q2107,c ph pl u,oracle_join,213722
+a401:table:q2107,c p ph pl u,pg_map,957.0
+a401:table:q2107,c p ph pl u,hgb_ratio,5952108.036510613
+a401:table:q2107,c p ph pl u,oracle_join,175095
+a401:table:q2050,c pl,pg_map,49008.0
+a401:table:q2050,c pl,hgb_ratio,5147.427676756312
+a401:table:q2050,c pl,oracle_join,32718
+a401:table:q2050,c u,pg_map,170476.0
+a401:table:q2050,c u,hgb_ratio,17905.50278776341
+a401:table:q2050,c u,oracle_join,99873
+a401:table:q2050,p pl,pg_map,10775.0
+a401:table:q2050,p pl,hgb_ratio,1131.7240698875544
+a401:table:q2050,p pl,oracle_join,10688
+a401:table:q2050,ph pl,pg_map,51273.0
+a401:table:q2050,ph pl,hgb_ratio,5385.326054324323
+a401:table:q2050,ph pl,oracle_join,69761
+a401:table:q2050,c p pl,pg_map,20351.0
+a401:table:q2050,c p pl,hgb_ratio,2137.5142966386657
+a401:table:q2050,c p pl,oracle_join,29845
+a401:table:q2050,c ph pl,pg_map,231446.0
+a401:table:q2050,c ph pl,hgb_ratio,24309.327988788395
+a401:table:q2050,c ph pl,oracle_join,228075
+a401:table:q2050,c pl u,pg_map,48094.0
+a401:table:q2050,c pl u,hgb_ratio,5051.42806655889
+a401:table:q2050,c pl u,oracle_join,15597
+a401:table:q2050,p ph pl,pg_map,35518.0
+a401:table:q2050,p ph pl,hgb_ratio,3730.5406509759778
+a401:table:q2050,p ph pl,oracle_join,68307
+a401:table:q2050,c p ph pl,pg_map,67084.0
+a401:table:q2050,c p ph pl,hgb_ratio,7045.993271864196
+a401:table:q2050,c p ph pl,oracle_join,203401
+a401:table:q2050,c p pl u,pg_map,19971.0
+a401:table:q2050,c p pl u,hgb_ratio,2097.601986053304
+a401:table:q2050,c p pl u,oracle_join,14135
+a401:table:q2050,c ph pl u,pg_map,227129.0
+a401:table:q2050,c ph pl u,hgb_ratio,23855.90313405943
+a401:table:q2050,c ph pl u,oracle_join,109405
+a401:table:q2050,c p ph pl u,pg_map,65833.0
+a401:table:q2050,c p ph pl u,hgb_ratio,179353.31988306154
+a401:table:q2050,c p ph pl u,oracle_join,96457
+a401:table:q1169,c pl,pg_map,38804.0
+a401:table:q1169,c pl,hgb_ratio,2026.0022438646592
+a401:table:q1169,c pl,oracle_join,20522
+a401:table:q1169,c u,pg_map,129852.0
+a401:table:q1169,c u,hgb_ratio,6779.7248574970035
+a401:table:q1169,c u,oracle_join,56141
+a401:table:q1169,p pl,pg_map,5176.0
+a401:table:q1169,p pl,hgb_ratio,270.24501634479634
+a401:table:q1169,p pl,oracle_join,11097
+a401:table:q1169,ph pl,pg_map,49305.0
+a401:table:q1169,ph pl,hgb_ratio,2574.2717408964804
+a401:table:q1169,ph pl,oracle_join,58411
+a401:table:q1169,c p pl,pg_map,7569.0
+a401:table:q1169,c p pl,hgb_ratio,395.18634635119076
+a401:table:q1169,c p pl,oracle_join,20511
+a401:table:q1169,c ph pl,pg_map,172333.0
+a401:table:q1169,c ph pl,hgb_ratio,8997.707573753436
+a401:table:q1169,c ph pl,oracle_join,119472
+a401:table:q1169,c pl u,pg_map,37460.0
+a401:table:q1169,c pl u,hgb_ratio,1955.8304312743567
+a401:table:q1169,c pl u,oracle_join,6828
+a401:table:q1169,p ph pl,pg_map,16044.0
+a401:table:q1169,p ph pl,hgb_ratio,837.6760127967373
+a401:table:q1169,p ph pl,oracle_join,58403
+a401:table:q1169,c p ph pl,pg_map,23464.0
+a401:table:q1169,c p ph pl,hgb_ratio,1225.0828948056997
+a401:table:q1169,c p ph pl,oracle_join,119453
+a401:table:q1169,c p pl u,pg_map,7307.0
+a401:table:q1169,c p pl u,hgb_ratio,381.5070197896883
+a401:table:q1169,c p pl u,oracle_join,6828
+a401:table:q1169,c ph pl u,pg_map,166364.0
+a401:table:q1169,c ph pl u,hgb_ratio,8686.059099533557
+a401:table:q1169,c ph pl u,oracle_join,42179
+a401:table:q1169,c p ph pl u,pg_map,22650.0
+a401:table:q1169,c p ph pl u,hgb_ratio,35658.4017751012
+a401:table:q1169,c p ph pl u,oracle_join,42179
+a401:table:q1197,c pl,pg_map,34861.0
+a401:table:q1197,c pl,hgb_ratio,2034.9467083233762
+a401:table:q1197,c pl,oracle_join,18676
+a401:table:q1197,c u,pg_map,127610.0
+a401:table:q1197,c u,hgb_ratio,7448.998865469896
+a401:table:q1197,c u,oracle_join,57073
+a401:table:q1197,p pl,pg_map,648.0
+a401:table:q1197,p pl,hgb_ratio,37.82580726294564
+a401:table:q1197,p pl,oracle_join,4616
+a401:table:q1197,ph pl,pg_map,1159.0
+a401:table:q1197,ph pl,hgb_ratio,67.6544916940648
+a401:table:q1197,ph pl,oracle_join,1337
+a401:table:q1197,c p pl,pg_map,928.0
+a401:table:q1197,c p pl,hgb_ratio,54.17029188273696
+a401:table:q1197,c p pl,oracle_join,9271
+a401:table:q1197,c ph pl,pg_map,3968.0
+a401:table:q1197,c ph pl,hgb_ratio,231.6246963261856
+a401:table:q1197,c ph pl,oracle_join,1965
+a401:table:q1197,c pl u,pg_map,33776.0
+a401:table:q1197,c pl u,hgb_ratio,1971.6118304216848
+a401:table:q1197,c pl u,oracle_join,5964
+a401:table:q1197,p ph pl,pg_map,51.0
+a401:table:q1197,p ph pl,hgb_ratio,2.977031127176277
+a401:table:q1197,p ph pl,oracle_join,537
+a401:table:q1197,c p ph pl,pg_map,74.0
+a401:table:q1197,c p ph pl,hgb_ratio,4.3196137923734215
+a401:table:q1197,c p ph pl,oracle_join,1046
+a401:table:q1197,c p pl u,pg_map,899.0
+a401:table:q1197,c p pl u,hgb_ratio,52.47747026140143
+a401:table:q1197,c p pl u,oracle_join,2929
+a401:table:q1197,c ph pl u,pg_map,3845.0
+a401:table:q1197,c ph pl u,hgb_ratio,224.4447977253487
+a401:table:q1197,c ph pl u,oracle_join,722
+a401:table:q1197,c p ph pl u,pg_map,72.0
+a401:table:q1197,c p ph pl u,hgb_ratio,670.0071230927315
+a401:table:q1197,c p ph pl u,oracle_join,397
+a401:table:q1505,c pl,pg_map,46135.0
+a401:table:q1505,c pl,hgb_ratio,2723.0176617828697
+a401:table:q1505,c pl,oracle_join,30393
+a401:table:q1505,c u,pg_map,159996.0
+a401:table:q1505,c u,hgb_ratio,9443.414626955933
+a401:table:q1505,c u,oracle_join,119674
+a401:table:q1505,p pl,pg_map,630.0
+a401:table:q1505,p pl,hgb_ratio,37.18437470300656
+a401:table:q1505,p pl,oracle_join,346
+a401:table:q1505,ph pl,pg_map,48105.0
+a401:table:q1505,ph pl,hgb_ratio,2839.2926112510013
+a401:table:q1505,ph pl,oracle_join,65334
+a401:table:q1505,c p pl,pg_map,1194.0
+a401:table:q1505,c p pl,hgb_ratio,70.47324348474578
+a401:table:q1505,c p pl,oracle_join,1228
+a401:table:q1505,c ph pl,pg_map,217878.0
+a401:table:q1505,c ph pl,hgb_ratio,12859.773319907403
+a401:table:q1505,c ph pl,oracle_join,211971
+a401:table:q1505,c pl u,pg_map,42348.0
+a401:table:q1505,c pl u,hgb_ratio,2499.498253845908
+a401:table:q1505,c pl u,oracle_join,17548
+a401:table:q1505,p ph pl,pg_map,2076.0
+a401:table:q1505,p ph pl,hgb_ratio,122.53136806895496
+a401:table:q1505,p ph pl,oracle_join,1996
+a401:table:q1505,c p ph pl,pg_map,3935.0
+a401:table:q1505,c p ph pl,hgb_ratio,232.2547848513188
+a401:table:q1505,c p ph pl,oracle_join,7511
+a401:table:q1505,c p pl u,pg_map,1096.0
+a401:table:q1505,c p pl u,hgb_ratio,64.68900741983364
+a401:table:q1505,c p pl u,oracle_join,867
+a401:table:q1505,c ph pl u,pg_map,199992.0
+a401:table:q1505,c ph pl u,hgb_ratio,11804.09121524395
+a401:table:q1505,c ph pl u,oracle_join,122534
+a401:table:q1505,c p ph pl u,pg_map,3613.0
+a401:table:q1505,c p ph pl u,hgb_ratio,11481.472497582627
+a401:table:q1505,c p ph pl u,oracle_join,5285
+a401:table:q1894,c pl,pg_map,46135.0
+a401:table:q1894,c pl,hgb_ratio,2101.6366986540493
+a401:table:q1894,c pl,oracle_join,30393
+a401:table:q1894,c u,pg_map,167570.0
+a401:table:q1894,c u,hgb_ratio,7633.494344715704
+a401:table:q1894,c u,oracle_join,61654
+a401:table:q1894,p pl,pg_map,593.0
+a401:table:q1894,p pl,hgb_ratio,27.01355938662298
+a401:table:q1894,p pl,oracle_join,3749
+a401:table:q1894,ph pl,pg_map,47980.0
+a401:table:q1894,ph pl,hgb_ratio,2185.6839449749923
+a401:table:q1894,ph pl,oracle_join,65319
+a401:table:q1894,c p pl,pg_map,1123.0
+a401:table:q1894,c p pl,hgb_ratio,51.1572128013113
+a401:table:q1894,c p pl,oracle_join,9531
+a401:table:q1894,c ph pl,pg_map,217313.0
+a401:table:q1894,c ph pl,hgb_ratio,9899.49010284182
+a401:table:q1894,c ph pl,oracle_join,211940
+a401:table:q1894,c pl u,pg_map,44352.0
+a401:table:q1894,c pl u,hgb_ratio,2020.4138042419938
+a401:table:q1894,c pl u,oracle_join,7382
+a401:table:q1894,p ph pl,pg_map,1948.0
+a401:table:q1894,p ph pl,hgb_ratio,88.73931481474125
+a401:table:q1894,p ph pl,oracle_join,23239
+a401:table:q1894,c p ph pl,pg_map,3693.0
+a401:table:q1894,c p ph pl,hgb_ratio,168.2311548310264
+a401:table:q1894,c p ph pl,oracle_join,64402
+a401:table:q1894,c p pl u,pg_map,1080.0
+a401:table:q1894,c p pl u,hgb_ratio,49.19838809030829
+a401:table:q1894,c p pl u,oracle_join,2524
+a401:table:q1894,c ph pl u,pg_map,208917.0
+a401:table:q1894,c ph pl u,hgb_ratio,9517.01818950272
+a401:table:q1894,c ph pl u,oracle_join,52833
+a401:table:q1894,c p ph pl u,pg_map,3549.0
+a401:table:q1894,c p ph pl u,hgb_ratio,26835.944094804356
+a401:table:q1894,c p ph pl u,oracle_join,17710
+a401:table:q1325,c pl,pg_map,38091.0
+a401:table:q1325,c pl,hgb_ratio,3853.6334991530152
+a401:table:q1325,c pl,oracle_join,20162
+a401:table:q1325,c u,pg_map,130686.0
+a401:table:q1325,c u,hgb_ratio,13221.389500677613
+a401:table:q1325,c u,oracle_join,62519
+a401:table:q1325,p pl,pg_map,690.0
+a401:table:q1325,p pl,hgb_ratio,69.80670274908982
+a401:table:q1325,p pl,oracle_join,4702
+a401:table:q1325,ph pl,pg_map,51467.0
+a401:table:q1325,ph pl,hgb_ratio,5206.871841141168
+a401:table:q1325,ph pl,oracle_join,69885
+a401:table:q1325,c p pl,pg_map,1009.0
+a401:table:q1325,c p pl,hgb_ratio,102.07965662874149
+a401:table:q1325,c p pl,oracle_join,9510
+a401:table:q1325,c ph pl,pg_map,179889.0
+a401:table:q1325,c ph pl,hgb_ratio,18199.21442149423
+a401:table:q1325,c ph pl,oracle_join,138032
+a401:table:q1325,c pl u,pg_map,37008.0
+a401:table:q1325,c pl u,hgb_ratio,3744.06732657727
+a401:table:q1325,c pl u,oracle_join,6918
+a401:table:q1325,p ph pl,pg_map,2275.0
+a401:table:q1325,p ph pl,hgb_ratio,230.15978080315847
+a401:table:q1325,p ph pl,oracle_join,29724
+a401:table:q1325,c p ph pl,pg_map,3327.0
+a401:table:q1325,c p ph pl,hgb_ratio,336.5897102119157
+a401:table:q1325,c p ph pl,oracle_join,66577
+a401:table:q1325,c p pl u,pg_map,980.0
+a401:table:q1325,c p pl u,hgb_ratio,99.14575173059134
+a401:table:q1325,c p pl u,oracle_join,3237
+a401:table:q1325,c ph pl u,pg_map,174773.0
+a401:table:q1325,c ph pl u,hgb_ratio,17681.633129806774
+a401:table:q1325,c ph pl u,oracle_join,48226
+a401:table:q1325,c p ph pl u,pg_map,3231.0
+a401:table:q1325,c p ph pl u,hgb_ratio,37008.478723534856
+a401:table:q1325,c p ph pl u,oracle_join,22274
+a401:table:q2325,c pl,pg_map,49639.0
+a401:table:q2325,c pl,hgb_ratio,3447.6554770258244
+a401:table:q2325,c pl,oracle_join,32485
+a401:table:q2325,c u,pg_map,168017.0
+a401:table:q2325,c u,hgb_ratio,11669.548747626824
+a401:table:q2325,c u,oracle_join,78985
+a401:table:q2325,p pl,pg_map,624.0
+a401:table:q2325,p pl,hgb_ratio,43.339652645381946
+a401:table:q2325,p pl,oracle_join,3512
+a401:table:q2325,ph pl,pg_map,7102.0
+a401:table:q2325,ph pl,hgb_ratio,493.266367127408
+a401:table:q2325,ph pl,oracle_join,8863
+a401:table:q2325,c p pl,pg_map,1167.0
+a401:table:q2325,c p pl,hgb_ratio,81.05348499544989
+a401:table:q2325,c p pl,oracle_join,9596
+a401:table:q2325,c ph pl,pg_map,31756.0
+a401:table:q2325,c ph pl,hgb_ratio,2205.5993740492772
+a401:table:q2325,c ph pl,oracle_join,26682
+a401:table:q2325,c pl u,pg_map,48470.0
+a401:table:q2325,c pl u,hgb_ratio,3366.4630828872805
+a401:table:q2325,c pl u,oracle_join,10495
+a401:table:q2325,p ph pl,pg_map,279.0
+a401:table:q2325,p ph pl,hgb_ratio,19.37782546163712
+a401:table:q2325,p ph pl,oracle_join,3139
+a401:table:q2325,c p ph pl,pg_map,521.0
+a401:table:q2325,c p ph pl,hgb_ratio,36.18583177603204
+a401:table:q2325,c p ph pl,oracle_join,8979
+a401:table:q2325,c p pl u,pg_map,1140.0
+a401:table:q2325,c p pl u,hgb_ratio,79.17821156367856
+a401:table:q2325,c p pl u,oracle_join,3409
+a401:table:q2325,c ph pl u,pg_map,31008.0
+a401:table:q2325,c ph pl u,hgb_ratio,2153.647354532057
+a401:table:q2325,c ph pl u,oracle_join,9145
+a401:table:q2325,c p ph pl u,pg_map,509.0
+a401:table:q2325,c p ph pl u,hgb_ratio,8135.213965310236
+a401:table:q2325,c p ph pl u,oracle_join,3217
+a401:table:q1805,c pl,pg_map,45244.0
+a401:table:q1805,c pl,hgb_ratio,2150.2199433012997
+a401:table:q1805,c pl,oracle_join,29796
+a401:table:q1805,c u,pg_map,169875.0
+a401:table:q1805,c u,hgb_ratio,8073.305032011058
+a401:table:q1805,c u,oracle_join,171231
+a401:table:q1805,p pl,pg_map,565.0
+a401:table:q1805,p pl,hgb_ratio,26.851610555327433
+a401:table:q1805,p pl,oracle_join,3059
+a401:table:q1805,ph pl,pg_map,47628.0
+a401:table:q1805,ph pl,hgb_ratio,2263.519482352451
+a401:table:q1805,ph pl,oracle_join,64683
+a401:table:q1805,c p pl,pg_map,1061.0
+a401:table:q1805,c p pl,hgb_ratio,50.42399787469453
+a401:table:q1805,c p pl,oracle_join,7930
+a401:table:q1805,c ph pl,pg_map,213668.0
+a401:table:q1805,c ph pl,hgb_ratio,10154.566237408322
+a401:table:q1805,c ph pl,oracle_join,207783
+a401:table:q1805,c pl u,pg_map,44517.0
+a401:table:q1805,c pl u,hgb_ratio,2115.6692868876307
+a401:table:q1805,c pl u,oracle_join,29012
+a401:table:q1805,p ph pl,pg_map,1863.0
+a401:table:q1805,p ph pl,hgb_ratio,88.53902737092922
+a401:table:q1805,p ph pl,oracle_join,18679
+a401:table:q1805,c p ph pl,pg_map,3497.0
+a401:table:q1805,c p ph pl,hgb_ratio,166.19483559642484
+a401:table:q1805,c p ph pl,oracle_join,53459
+a401:table:q1805,c p pl u,pg_map,1044.0
+a401:table:q1805,c p pl u,hgb_ratio,49.616073309312995
+a401:table:q1805,c p pl u,oracle_join,7789
+a401:table:q1805,c ph pl u,pg_map,210235.0
+a401:table:q1805,c ph pl u,hgb_ratio,9991.413000175688
+a401:table:q1805,c ph pl u,oracle_join,201775
+a401:table:q1805,c p ph pl u,pg_map,3441.0
+a401:table:q1805,c p ph pl u,hgb_ratio,51434.42635614022
+a401:table:q1805,c p ph pl u,oracle_join,52377
+a401:table:q1892,c pl,pg_map,49824.0
+a401:table:q1892,c pl,hgb_ratio,3074.4406034520175
+a401:table:q1892,c pl,oracle_join,33296
+a401:table:q1892,c u,pg_map,162987.0
+a401:table:q1892,c u,hgb_ratio,10057.278633486552
+a401:table:q1892,c u,oracle_join,48743
+a401:table:q1892,p pl,pg_map,306.0
+a401:table:q1892,p pl,hgb_ratio,18.882041278426406
+a401:table:q1892,p pl,oracle_join,3849
+a401:table:q1892,ph pl,pg_map,15414.0
+a401:table:q1892,ph pl,hgb_ratio,951.136549887793
+a401:table:q1892,ph pl,oracle_join,11074
+a401:table:q1892,c p pl,pg_map,575.0
+a401:table:q1892,c p pl,hgb_ratio,35.48095991861171
+a401:table:q1892,c p pl,oracle_join,10720
+a401:table:q1892,c ph pl,pg_map,69173.0
+a401:table:q1892,c ph pl,hgb_ratio,4268.3903312176135
+a401:table:q1892,c ph pl,oracle_join,33201
+a401:table:q1892,c pl u,pg_map,47019.0
+a401:table:q1892,c pl u,hgb_ratio,2901.355225066442
+a401:table:q1892,c pl u,oracle_join,5807
+a401:table:q1892,p ph pl,pg_map,297.0
+a401:table:q1892,p ph pl,hgb_ratio,18.326687123178573
+a401:table:q1892,p ph pl,oracle_join,3841
+a401:table:q1892,c p ph pl,pg_map,557.0
+a401:table:q1892,c p ph pl,hgb_ratio,34.37025160811604
+a401:table:q1892,c p ph pl,oracle_join,10676
+a401:table:q1892,c p pl u,pg_map,543.0
+a401:table:q1892,c p pl u,hgb_ratio,33.50636736661941
+a401:table:q1892,c p pl u,oracle_join,2095
+a401:table:q1892,c ph pl u,pg_map,65278.0
+a401:table:q1892,c ph pl u,hgb_ratio,4028.0453940298007
+a401:table:q1892,c ph pl u,oracle_join,5795
+a401:table:q1892,c p ph pl u,pg_map,526.0
+a401:table:q1892,c p ph pl u,hgb_ratio,2464.7851530243934
+a401:table:q1892,c p ph pl u,oracle_join,2091
+a401:table:q1714,c pl,pg_map,44174.0
+a401:table:q1714,c pl,hgb_ratio,2979.7315579002793
+a401:table:q1714,c pl,oracle_join,29242
+a401:table:q1714,c u,pg_map,165431.0
+a401:table:q1714,c u,hgb_ratio,11159.052188051819
+a401:table:q1714,c u,oracle_join,43939
+a401:table:q1714,p pl,pg_map,629.0
+a401:table:q1714,p pl,hgb_ratio,42.42883030559324
+a401:table:q1714,p pl,oracle_join,5259
+a401:table:q1714,ph pl,pg_map,45208.0
+a401:table:q1714,ph pl,hgb_ratio,3049.479428386739
+a401:table:q1714,ph pl,oracle_join,58579
+a401:table:q1714,c p pl,pg_map,1193.0
+a401:table:q1714,c p pl,hgb_ratio,80.47312329820784
+a401:table:q1714,c p pl,oracle_join,13432
+a401:table:q1714,c ph pl,pg_map,204761.0
+a401:table:q1714,c ph pl,hgb_ratio,13812.034534504892
+a401:table:q1714,c ph pl,oracle_join,191528
+a401:table:q1714,c pl u,pg_map,41925.0
+a401:table:q1714,c pl u,hgb_ratio,2828.0265668712186
+a401:table:q1714,c pl u,oracle_join,4023
+a401:table:q1714,p ph pl,pg_map,2036.0
+a401:table:q1714,p ph pl,hgb_ratio,137.33719952653072
+a401:table:q1714,p ph pl,oracle_join,32008
+a401:table:q1714,c p ph pl,pg_map,3859.0
+a401:table:q1714,c p ph pl,hgb_ratio,260.30660755053145
+a401:table:q1714,c p ph pl,oracle_join,88580
+a401:table:q1714,c p pl u,pg_map,1132.0
+a401:table:q1714,c p pl u,hgb_ratio,76.35840366602788
+a401:table:q1714,c p pl u,oracle_join,1877
+a401:table:q1714,c ph pl u,pg_map,194337.0
+a401:table:q1714,c ph pl u,hgb_ratio,13108.889658343518
+a401:table:q1714,c ph pl u,oracle_join,27502
+a401:table:q1714,c p ph pl u,pg_map,3663.0
+a401:table:q1714,c p ph pl u,hgb_ratio,14504.116885753518
+a401:table:q1714,c p ph pl u,oracle_join,12018
+a401:table:q2021,c pl,pg_map,49805.0
+a401:table:q2021,c pl,hgb_ratio,1081.4456973949925
+a401:table:q2021,c pl,oracle_join,32854
+a401:table:q2021,c u,pg_map,165309.0
+a401:table:q2021,c u,hgb_ratio,3589.453002523217
+a401:table:q2021,c u,oracle_join,48994
+a401:table:q2021,p pl,pg_map,2310.0
+a401:table:q2021,p pl,hgb_ratio,50.158409014806395
+a401:table:q2021,p pl,oracle_join,6687
+a401:table:q2021,ph pl,pg_map,52430.0
+a401:table:q2021,ph pl,hgb_ratio,1138.4438894572725
+a401:table:q2021,ph pl,oracle_join,71242
+a401:table:q2021,c p pl,pg_map,4336.0
+a401:table:q2021,c p pl,hgb_ratio,94.15015648839851
+a401:table:q2021,c p pl,oracle_join,17888
+a401:table:q2021,c ph pl,pg_map,235210.0
+a401:table:q2021,c ph pl,hgb_ratio,5107.255144750049
+a401:table:q2021,c ph pl,oracle_join,229010
+a401:table:q2021,c pl u,pg_map,47689.0
+a401:table:q2021,c pl u,hgb_ratio,1035.4997261935507
+a401:table:q2021,c pl u,oracle_join,5266
+a401:table:q2021,p ph pl,pg_map,7614.0
+a401:table:q2021,p ph pl,hgb_ratio,165.32732737607614
+a401:table:q2021,p ph pl,oracle_join,40001
+a401:table:q2021,c p ph pl,pg_map,14292.0
+a401:table:q2021,c p ph pl,hgb_ratio,310.33072798251646
+a401:table:q2021,c p ph pl,oracle_join,118897
+a401:table:q2021,c p pl u,pg_map,4152.0
+a401:table:q2021,c p pl u,hgb_ratio,90.15485464479488
+a401:table:q2021,c p pl u,oracle_join,3539
+a401:table:q2021,c ph pl u,pg_map,225215.0
+a401:table:q2021,c ph pl u,hgb_ratio,4890.227742973862
+a401:table:q2021,c ph pl u,oracle_join,37247
+a401:table:q2021,c p ph pl u,pg_map,13686.0
+a401:table:q2021,c p ph pl u,hgb_ratio,8250.211452653584
+a401:table:q2021,c p ph pl u,oracle_join,23220
+a401:table:q2403,c pl,pg_map,50284.0
+a401:table:q2403,c pl,hgb_ratio,1904.1527953040936
+a401:table:q2403,c pl,oracle_join,33326
+a401:table:q2403,c u,pg_map,168268.0
+a401:table:q2403,c u,hgb_ratio,6371.966879329991
+a401:table:q2403,c u,oracle_join,61707
+a401:table:q2403,p pl,pg_map,5175.0
+a401:table:q2403,p pl,hgb_ratio,195.96672332548494
+a401:table:q2403,p pl,oracle_join,11096
+a401:table:q2403,ph pl,pg_map,52430.0
+a401:table:q2403,ph pl,hgb_ratio,1985.4174500396475
+a401:table:q2403,ph pl,oracle_join,71242
+a401:table:q2403,c p pl,pg_map,9808.0
+a401:table:q2403,c p pl,hgb_ratio,371.40900915485145
+a401:table:q2403,c p pl,oracle_join,33275
+a401:table:q2403,c ph pl,pg_map,237471.0
+a401:table:q2403,c ph pl,hgb_ratio,8992.54372073937
+a401:table:q2403,c ph pl,oracle_join,232285
+a401:table:q2403,c pl u,pg_map,48542.0
+a401:table:q2403,c pl u,hgb_ratio,1838.1867987759788
+a401:table:q2403,c pl u,oracle_join,8136
+a401:table:q2403,p ph pl,pg_map,17060.0
+a401:table:q2403,p ph pl,hgb_ratio,646.0274975715504
+a401:table:q2403,p ph pl,oracle_join,71220
+a401:table:q2403,c p ph pl,pg_map,32331.0
+a401:table:q2403,c p ph pl,hgb_ratio,1224.309204219566
+a401:table:q2403,c p ph pl,oracle_join,231815
+a401:table:q2403,c p pl u,pg_map,9468.0
+a401:table:q2403,c p pl u,hgb_ratio,358.53390076245245
+a401:table:q2403,c p pl u,oracle_join,8135
+a401:table:q2403,c ph pl u,pg_map,229246.0
+a401:table:q2403,c ph pl u,hgb_ratio,8681.079701540893
+a401:table:q2403,c ph pl u,oracle_join,58000
+a401:table:q2403,c p ph pl u,pg_map,31211.0
+a401:table:q2403,c p ph pl u,hgb_ratio,36294.36253868491
+a401:table:q2403,c p ph pl u,oracle_join,57999
+a401:table:q1749,c pl,pg_map,47444.0
+a401:table:q1749,c pl,hgb_ratio,3182.5533646584113
+a401:table:q1749,c pl,oracle_join,31692
+a401:table:q1749,c u,pg_map,169697.0
+a401:table:q1749,c u,hgb_ratio,11383.309972229123
+a401:table:q1749,c u,oracle_join,66230
+a401:table:q1749,p pl,pg_map,173.0
+a401:table:q1749,p pl,hgb_ratio,11.6048758976036
+a401:table:q1749,p pl,oracle_join,254
+a401:table:q1749,ph pl,pg_map,49469.0
+a401:table:q1749,ph pl,hgb_ratio,3318.390784847124
+a401:table:q1749,ph pl,oracle_join,67380
+a401:table:q1749,c p pl,pg_map,329.0
+a401:table:q1749,c p pl,hgb_ratio,22.06938826769702
+a401:table:q1749,c p pl,oracle_join,609
+a401:table:q1749,c ph pl,pg_map,224060.0
+a401:table:q1749,c ph pl,hgb_ratio,15029.991292584176
+a401:table:q1749,c ph pl,oracle_join,221305
+a401:table:q1749,c pl u,pg_map,46190.0
+a401:table:q1749,c pl u,hgb_ratio,3098.4347844526606
+a401:table:q1749,c pl u,oracle_join,8110
+a401:table:q1749,p ph pl,pg_map,572.0
+a401:table:q1749,p ph pl,hgb_ratio,38.36987869034254
+a401:table:q1749,p ph pl,oracle_join,1369
+a401:table:q1749,c p ph pl,pg_map,1083.0
+a401:table:q1749,c p ph pl,hgb_ratio,72.64786472314854
+a401:table:q1749,c p ph pl,oracle_join,3652
+a401:table:q1749,c p pl u,pg_map,320.0
+a401:table:q1749,c p pl u,hgb_ratio,21.46566640019163
+a401:table:q1749,c p pl u,oracle_join,202
+a401:table:q1749,c ph pl u,pg_map,218137.0
+a401:table:q1749,c ph pl u,hgb_ratio,14632.67522355813
+a401:table:q1749,c ph pl u,oracle_join,57992
+a401:table:q1749,c p ph pl u,pg_map,1056.0
+a401:table:q1749,c p ph pl u,hgb_ratio,3175.979504323353
+a401:table:q1749,c p ph pl u,oracle_join,1197
+a401:table:q2111,c pl,pg_map,43191.0
+a401:table:q2111,c pl,hgb_ratio,11952.897324574671
+a401:table:q2111,c pl,oracle_join,28794
+a401:table:q2111,c u,pg_map,171504.0
+a401:table:q2111,c u,hgb_ratio,47462.890480744936
+a401:table:q2111,c u,oracle_join,171470
+a401:table:q2111,p pl,pg_map,9431.0
+a401:table:q2111,p pl,hgb_ratio,2609.9829748805014
+a401:table:q2111,p pl,oracle_join,9498
+a401:table:q2111,ph pl,pg_map,45035.0
+a401:table:q2111,ph pl,hgb_ratio,12463.215276613655
+a401:table:q2111,ph pl,oracle_join,61337
+a401:table:q2111,c p pl,pg_map,17873.0
+a401:table:q2111,c p pl,hgb_ratio,4946.265052490638
+a401:table:q2111,c p pl,oracle_join,28663
+a401:table:q2111,c ph pl,pg_map,203975.0
+a401:table:q2111,c ph pl,hgb_ratio,56449.08040517975
+a401:table:q2111,c ph pl,oracle_join,200769
+a401:table:q2111,c pl u,pg_map,42497.0
+a401:table:q2111,c pl u,hgb_ratio,11760.836229826811
+a401:table:q2111,c pl u,oracle_join,28017
+a401:table:q2111,p ph pl,pg_map,31088.0
+a401:table:q2111,p ph pl,hgb_ratio,8603.45146040558
+a401:table:q2111,p ph pl,oracle_join,61138
+a401:table:q2111,c p ph pl,pg_map,58915.0
+a401:table:q2111,c p ph pl,hgb_ratio,16304.437171570855
+a401:table:q2111,c p ph pl,oracle_join,199847
+a401:table:q2111,c p pl u,pg_map,17586.0
+a401:table:q2111,c p pl u,hgb_ratio,4866.839210714505
+a401:table:q2111,c p pl u,oracle_join,27886
+a401:table:q2111,c ph pl u,pg_map,200698.0
+a401:table:q2111,c ph pl u,hgb_ratio,55542.1867344467
+a401:table:q2111,c ph pl u,oracle_join,194943
+a401:table:q2111,c p ph pl u,pg_map,57969.0
+a401:table:q2111,c p ph pl u,hgb_ratio,798381.3661612563
+a401:table:q2111,c p ph pl u,oracle_join,194021
+a401:table:q2110,c pl,pg_map,38804.0
+a401:table:q2110,c pl,hgb_ratio,2278.222164589971
+a401:table:q2110,c pl,oracle_join,20522
+a401:table:q2110,c u,pg_map,124696.0
+a401:table:q2110,c u,hgb_ratio,7321.028528907097
+a401:table:q2110,c u,oracle_join,53323
+a401:table:q2110,p pl,pg_map,5176.0
+a401:table:q2110,p pl,hgb_ratio,303.8882054406167
+a401:table:q2110,p pl,oracle_join,11097
+a401:table:q2110,ph pl,pg_map,7519.0
+a401:table:q2110,ph pl,hgb_ratio,441.4481098740334
+a401:table:q2110,ph pl,oracle_join,11097
+a401:table:q2110,c p pl,pg_map,7569.0
+a401:table:q2110,c p pl,hgb_ratio,444.3836605448276
+a401:table:q2110,c p pl,oracle_join,20511
+a401:table:q2110,c ph pl,pg_map,26279.0
+a401:table:q2110,c ph pl,hgb_ratio,1542.866721556021
+a401:table:q2110,c ph pl,oracle_join,20511
+a401:table:q2110,c pl u,pg_map,35973.0
+a401:table:q2110,c pl u,hgb_ratio,2112.0112856096025
+a401:table:q2110,c pl u,oracle_join,6132
+a401:table:q2110,p ph pl,pg_map,2447.0
+a401:table:q2110,p ph pl,hgb_ratio,143.66584982866866
+a401:table:q2110,p ph pl,oracle_join,11097
+a401:table:q2110,c p ph pl,pg_map,3578.0
+a401:table:q2110,c p ph pl,hgb_ratio,210.06800600203368
+a401:table:q2110,c p ph pl,oracle_join,20511
+a401:table:q2110,c p pl u,pg_map,7017.0
+a401:table:q2110,c p pl u,hgb_ratio,411.9751811392595
+a401:table:q2110,c p pl u,oracle_join,6132
+a401:table:q2110,c ph pl u,pg_map,24361.0
+a401:table:q2110,c ph pl u,hgb_ratio,1430.2589978243552
+a401:table:q2110,c ph pl u,oracle_join,6132
+a401:table:q2110,c p ph pl u,pg_map,3317.0
+a401:table:q2110,c p ph pl u,hgb_ratio,8086.44401080998
+a401:table:q2110,c p ph pl u,oracle_join,6132
+a401:table:q1602,c pl,pg_map,198.0
+a401:table:q1602,c pl,hgb_ratio,7.678633310883716
+a401:table:q1602,c pl,oracle_join,257
+a401:table:q1602,c u,pg_map,501.0
+a401:table:q1602,c u,hgb_ratio,19.429269135114854
+a401:table:q1602,c u,oracle_join,47
+a401:table:q1602,p pl,pg_map,908.0
+a401:table:q1602,p pl,hgb_ratio,35.21312649637583
+a401:table:q1602,p pl,oracle_join,713
+a401:table:q1602,ph pl,pg_map,4326.0
+a401:table:q1602,ph pl,hgb_ratio,167.7665035499139
+a401:table:q1602,ph pl,oracle_join,5908
+a401:table:q1602,c p pl,pg_map,82.0
+a401:table:q1602,c p pl,hgb_ratio,3.1800400580427506
+a401:table:q1602,c p pl,oracle_join,154
+a401:table:q1602,c ph pl,pg_map,936.0
+a401:table:q1602,c ph pl,hgb_ratio,36.298993833268476
+a401:table:q1602,c ph pl,oracle_join,1879
+a401:table:q1602,c pl u,pg_map,12.0
+a401:table:q1602,c pl u,hgb_ratio,1.0
+a401:table:q1602,c pl u,oracle_join,2
+a401:table:q1602,p ph pl,pg_map,2993.0
+a401:table:q1602,p ph pl,hgb_ratio,116.0714621185604
+a401:table:q1602,p ph pl,oracle_join,4344
+a401:table:q1602,c p ph pl,pg_map,271.0
+a401:table:q1602,c p ph pl,hgb_ratio,10.509644582068116
+a401:table:q1602,c p ph pl,oracle_join,1022
+a401:table:q1602,c p pl u,pg_map,5.0
+a401:table:q1602,c p pl u,hgb_ratio,1.0
+a401:table:q1602,c p pl u,oracle_join,2
+a401:table:q1602,c ph pl u,pg_map,56.0
+a401:table:q1602,c ph pl u,hgb_ratio,2.171734673785293
+a401:table:q1602,c ph pl u,oracle_join,12
+a401:table:q1602,c p ph pl u,pg_map,16.0
+a401:table:q1602,c p ph pl u,hgb_ratio,8.260347955647633
+a401:table:q1602,c p ph pl u,oracle_join,12
+a401:table:q2291,c pl,pg_map,45333.0
+a401:table:q2291,c pl,hgb_ratio,3785.905248609671
+a401:table:q2291,c pl,oracle_join,29858
+a401:table:q2291,c u,pg_map,170879.0
+a401:table:q2291,c u,hgb_ratio,14270.657202858227
+a401:table:q2291,c u,oracle_join,86388
+a401:table:q2291,p pl,pg_map,43.0
+a401:table:q2291,p pl,hgb_ratio,3.591068883378904
+a401:table:q2291,p pl,oracle_join,139
+a401:table:q2291,ph pl,pg_map,45309.0
+a401:table:q2291,ph pl,hgb_ratio,3783.9009310933666
+a401:table:q2291,ph pl,oracle_join,64088
+a401:table:q2291,c p pl,pg_map,82.0
+a401:table:q2291,c p pl,hgb_ratio,6.848084847373724
+a401:table:q2291,c p pl,oracle_join,439
+a401:table:q2291,c ph pl,pg_map,205217.0
+a401:table:q2291,c ph pl,hgb_ratio,17138.334489310895
+a401:table:q2291,c ph pl,oracle_join,207651
+a401:table:q2291,c pl u,pg_map,44442.0
+a401:table:q2291,c pl u,hgb_ratio,3711.4949608168663
+a401:table:q2291,c pl u,oracle_join,11235
+a401:table:q2291,p ph pl,pg_map,137.0
+a401:table:q2291,p ph pl,hgb_ratio,11.441312488904881
+a401:table:q2291,p ph pl,oracle_join,935
+a401:table:q2291,c p ph pl,pg_map,259.0
+a401:table:q2291,c p ph pl,hgb_ratio,21.629926530119445
+a401:table:q2291,c p ph pl,oracle_join,2959
+a401:table:q2291,c p pl u,pg_map,80.0
+a401:table:q2291,c p pl u,hgb_ratio,6.6810583876816825
+a401:table:q2291,c p pl u,oracle_join,166
+a401:table:q2291,c ph pl u,pg_map,201184.0
+a401:table:q2291,c ph pl u,hgb_ratio,16801.525633341895
+a401:table:q2291,c ph pl u,oracle_join,79918
+a401:table:q2291,c p ph pl u,pg_map,254.0
+a401:table:q2291,c p ph pl u,hgb_ratio,2843.0408836480938
+a401:table:q2291,c p ph pl u,oracle_join,1088
+a401:table:q1640,c pl,pg_map,38804.0
+a401:table:q1640,c pl,hgb_ratio,627.712509042739
+a401:table:q1640,c pl,oracle_join,20522
+a401:table:q1640,c u,pg_map,128093.0
+a401:table:q1640,c u,hgb_ratio,2072.0951041338926
+a401:table:q1640,c u,oracle_join,55987
+a401:table:q1640,p pl,pg_map,10784.0
+a401:table:q1640,p pl,hgb_ratio,174.44726568180852
+a401:table:q1640,p pl,oracle_join,7329
+a401:table:q1640,ph pl,pg_map,51349.0
+a401:table:q1640,ph pl,hgb_ratio,830.6465732098651
+a401:table:q1640,ph pl,oracle_join,70980
+a401:table:q1640,c p pl,pg_map,15772.0
+a401:table:q1640,c p pl,hgb_ratio,255.13559665555303
+a401:table:q1640,c p pl,oracle_join,14116
+a401:table:q1640,c ph pl,pg_map,179475.0
+a401:table:q1640,c ph pl,hgb_ratio,2903.2755015061744
+a401:table:q1640,c ph pl,oracle_join,139856
+a401:table:q1640,c pl u,pg_map,36953.0
+a401:table:q1640,c pl u,hgb_ratio,597.7698264781037
+a401:table:q1640,c pl u,oracle_join,6818
+a401:table:q1640,p ph pl,pg_map,34816.0
+a401:table:q1640,p ph pl,hgb_ratio,563.2006678391919
+a401:table:q1640,p ph pl,oracle_join,44094
+a401:table:q1640,c p ph pl,pg_map,50917.0
+a401:table:q1640,c p ph pl,hgb_ratio,823.6583296291399
+a401:table:q1640,c p ph pl,oracle_join,93226
+a401:table:q1640,c p pl u,pg_map,15019.0
+a401:table:q1640,c p pl u,hgb_ratio,242.9546998585944
+a401:table:q1640,c p pl u,oracle_join,4936
+a401:table:q1640,c ph pl u,pg_map,170912.0
+a401:table:q1640,c ph pl u,hgb_ratio,2764.756219603974
+a401:table:q1640,c ph pl u,oracle_join,47567
+a401:table:q1640,c p ph pl u,pg_map,48489.0
+a401:table:q1640,c p ph pl u,hgb_ratio,12497.826584536331
+a401:table:q1640,c p ph pl u,oracle_join,32912
+a401:table:q1760,c pl,pg_map,46135.0
+a401:table:q1760,c pl,hgb_ratio,2518.1450751231605
+a401:table:q1760,c pl,oracle_join,30393
+a401:table:q1760,c u,pg_map,169735.0
+a401:table:q1760,c u,hgb_ratio,9264.492344771425
+a401:table:q1760,c u,oracle_join,67433
+a401:table:q1760,p pl,pg_map,10121.0
+a401:table:q1760,p pl,hgb_ratio,552.4254103245152
+a401:table:q1760,p pl,oracle_join,9919
+a401:table:q1760,ph pl,pg_map,14025.0
+a401:table:q1760,ph pl,hgb_ratio,765.5139195535347
+a401:table:q1760,ph pl,oracle_join,8764
+a401:table:q1760,c p pl,pg_map,19181.0
+a401:table:q1760,c p pl,hgb_ratio,1046.939215041451
+a401:table:q1760,c p pl,oracle_join,27227
+a401:table:q1760,c ph pl,pg_map,63524.0
+a401:table:q1760,c ph pl,hgb_ratio,3467.2731711742417
+a401:table:q1760,c ph pl,oracle_join,26048
+a401:table:q1760,c pl u,pg_map,44925.0
+a401:table:q1760,c pl u,hgb_ratio,2452.100736965601
+a401:table:q1760,c pl u,oracle_join,7720
+a401:table:q1760,p ph pl,pg_map,9727.0
+a401:table:q1760,p ph pl,hgb_ratio,530.92006385007
+a401:table:q1760,p ph pl,oracle_join,8622
+a401:table:q1760,c p ph pl,pg_map,18434.0
+a401:table:q1760,c p ph pl,hgb_ratio,1006.1663880962467
+a401:table:q1760,c p ph pl,oracle_join,23775
+a401:table:q1760,c p pl u,pg_map,18678.0
+a401:table:q1760,c p pl u,hgb_ratio,1019.4844199230604
+a401:table:q1760,c p pl u,oracle_join,6796
+a401:table:q1760,c ph pl u,pg_map,61859.0
+a401:table:q1760,c ph pl u,hgb_ratio,3376.3939785855337
+a401:table:q1760,c ph pl u,oracle_join,6946
+a401:table:q1760,c p ph pl u,pg_map,17951.0
+a401:table:q1760,c p ph pl u,hgb_ratio,10942.236862364049
+a401:table:q1760,c p ph pl u,oracle_join,6227
+a401:table:q2304,c pl,pg_map,38247.0
+a401:table:q2304,c pl,hgb_ratio,138628.25313384092
+a401:table:q2304,c pl,oracle_join,20001
+a401:table:q2304,c u,pg_map,129235.0
+a401:table:q2304,c u,hgb_ratio,468419.02093633305
+a401:table:q2304,c u,oracle_join,130977
+a401:table:q2304,p pl,pg_map,11102.0
+a401:table:q2304,p pl,hgb_ratio,40239.7800165216
+a401:table:q2304,p pl,oracle_join,11102
+a401:table:q2304,ph pl,pg_map,52430.0
+a401:table:q2304,ph pl,hgb_ratio,190035.27889265248
+a401:table:q2304,ph pl,oracle_join,71242
+a401:table:q2304,c p pl,pg_map,16003.0
+a401:table:q2304,c p pl,hgb_ratio,58003.71100742166
+a401:table:q2304,c p pl,oracle_join,20001
+a401:table:q2304,c ph pl,pg_map,180627.0
+a401:table:q2304,c ph pl,hgb_ratio,654692.0145058772
+a401:table:q2304,c ph pl,oracle_join,136748
+a401:table:q2304,c pl u,pg_map,37282.0
+a401:table:q2304,c pl u,hgb_ratio,135130.5601311438
+a401:table:q2304,c pl u,oracle_join,19570
+a401:table:q2304,p ph pl,pg_map,36596.0
+a401:table:q2304,p ph pl,hgb_ratio,132644.11722974462
+a401:table:q2304,p ph pl,oracle_join,71242
+a401:table:q2304,c p ph pl,pg_map,52753.0
+a401:table:q2304,c p ph pl,hgb_ratio,191206.00929666404
+a401:table:q2304,c p ph pl,oracle_join,136748
+a401:table:q2304,c p pl u,pg_map,15599.0
+a401:table:q2304,c p pl u,hgb_ratio,56539.391864323596
+a401:table:q2304,c p pl u,oracle_join,19570
+a401:table:q2304,c ph pl u,pg_map,176068.0
+a401:table:q2304,c ph pl u,hgb_ratio,638167.6804133423
+a401:table:q2304,c ph pl u,oracle_join,133792
+a401:table:q2304,c p ph pl u,pg_map,51420.0
+a401:table:q2304,c p ph pl u,hgb_ratio,8470948.509833604
+a401:table:q2304,c p ph pl u,oracle_join,133792
+a401:table:q1884,c pl,pg_map,46135.0
+a401:table:q1884,c pl,hgb_ratio,2489.5331728637516
+a401:table:q1884,c pl,oracle_join,30393
+a401:table:q1884,c u,pg_map,167741.0
+a401:table:q1884,c u,hgb_ratio,9051.626399682205
+a401:table:q1884,c u,oracle_join,127952
+a401:table:q1884,p pl,pg_map,4720.0
+a401:table:q1884,p pl,hgb_ratio,254.70026175174831
+a401:table:q1884,p pl,oracle_join,8681
+a401:table:q1884,ph pl,pg_map,10852.0
+a401:table:q1884,ph pl,hgb_ratio,585.5947543495705
+a401:table:q1884,ph pl,oracle_join,12844
+a401:table:q1884,c p pl,pg_map,8946.0
+a401:table:q1884,c p pl,hgb_ratio,482.7433350913433
+a401:table:q1884,c p pl,oracle_join,24969
+a401:table:q1884,c ph pl,pg_map,49153.0
+a401:table:q1884,c ph pl,hgb_ratio,2652.3902470092553
+a401:table:q1884,c ph pl,oracle_join,48392
+a401:table:q1884,c pl u,pg_map,44398.0
+a401:table:q1884,c pl u,hgb_ratio,2395.801318062314
+a401:table:q1884,c pl u,oracle_join,19194
+a401:table:q1884,p ph pl,pg_map,3510.0
+a401:table:q1884,p ph pl,hgb_ratio,189.40633871793148
+a401:table:q1884,p ph pl,oracle_join,11325
+a401:table:q1884,c p ph pl,pg_map,6653.0
+a401:table:q1884,c p ph pl,hgb_ratio,359.00865284626724
+a401:table:q1884,c p ph pl,oracle_join,42681
+a401:table:q1884,c p pl u,pg_map,8609.0
+a401:table:q1884,c p pl u,hgb_ratio,464.55816809762734
+a401:table:q1884,c p pl u,oracle_join,16606
+a401:table:q1884,c ph pl u,pg_map,47302.0
+a401:table:q1884,c ph pl u,hgb_ratio,2552.506733343474
+a401:table:q1884,c ph pl u,oracle_join,32372
+a401:table:q1884,c p ph pl u,pg_map,6402.0
+a401:table:q1884,c p ph pl u,hgb_ratio,28369.99371051396
+a401:table:q1884,c p ph pl u,oracle_join,29915
+a401:table:q1512,c pl,pg_map,6984.0
+a401:table:q1512,c pl,hgb_ratio,456.02171578705696
+a401:table:q1512,c pl,oracle_join,5910
+a401:table:q1512,c u,pg_map,23928.0
+a401:table:q1512,c u,hgb_ratio,1562.3836791742124
+a401:table:q1512,c u,oracle_join,4208
+a401:table:q1512,p pl,pg_map,1307.0
+a401:table:q1512,p pl,hgb_ratio,85.34083369611733
+a401:table:q1512,p pl,oracle_join,3442
+a401:table:q1512,ph pl,pg_map,15349.0
+a401:table:q1512,ph pl,hgb_ratio,1002.2161104833244
+a401:table:q1512,ph pl,oracle_join,10849
+a401:table:q1512,c p pl,pg_map,352.0
+a401:table:q1512,c p pl,hgb_ratio,22.983912364983397
+a401:table:q1512,c p pl,oracle_join,1670
+a401:table:q1512,c ph pl,pg_map,9892.0
+a401:table:q1512,c ph pl,hgb_ratio,645.9001736204993
+a401:table:q1512,c ph pl,oracle_join,5910
+a401:table:q1512,c pl u,pg_map,6738.0
+a401:table:q1512,c pl u,hgb_ratio,439.9590952138015
+a401:table:q1512,c pl u,oracle_join,832
+a401:table:q1512,p ph pl,pg_map,1292.0
+a401:table:q1512,p ph pl,hgb_ratio,84.36140561238224
+a401:table:q1512,p ph pl,oracle_join,3442
+a401:table:q1512,c p ph pl,pg_map,348.0
+a401:table:q1512,c p ph pl,hgb_ratio,22.722731542654042
+a401:table:q1512,c p ph pl,oracle_join,1670
+a401:table:q1512,c p pl u,pg_map,340.0
+a401:table:q1512,c p pl u,hgb_ratio,22.200369897995326
+a401:table:q1512,c p pl u,oracle_join,242
+a401:table:q1512,c ph pl u,pg_map,9544.0
+a401:table:q1512,c ph pl u,hgb_ratio,623.1774420778453
+a401:table:q1512,c ph pl u,oracle_join,832
+a401:table:q1512,c p ph pl u,pg_map,336.0
+a401:table:q1512,c p ph pl u,hgb_ratio,750.1113217299127
+a401:table:q1512,c p ph pl u,oracle_join,242
+a401:table:q1770,c pl,pg_map,38426.0
+a401:table:q1770,c pl,hgb_ratio,2752.041856360594
+a401:table:q1770,c pl,oracle_join,20156
+a401:table:q1770,c u,pg_map,127045.0
+a401:table:q1770,c u,hgb_ratio,9098.869454050166
+a401:table:q1770,c u,oracle_join,44148
+a401:table:q1770,p pl,pg_map,269.0
+a401:table:q1770,p pl,hgb_ratio,19.265582141284543
+a401:table:q1770,p pl,oracle_join,2710
+a401:table:q1770,ph pl,pg_map,52430.0
+a401:table:q1770,ph pl,hgb_ratio,3754.9980359388423
+a401:table:q1770,ph pl,oracle_join,71242
+a401:table:q1770,c p pl,pg_map,390.0
+a401:table:q1770,c p pl,hgb_ratio,27.9315131416393
+a401:table:q1770,c p pl,oracle_join,5212
+a401:table:q1770,c ph pl,pg_map,181469.0
+a401:table:q1770,c ph pl,hgb_ratio,12996.676303333697
+a401:table:q1770,c ph pl,oracle_join,137738
+a401:table:q1770,c pl u,pg_map,36651.0
+a401:table:q1770,c pl u,hgb_ratio,2624.9176619339023
+a401:table:q1770,c pl u,oracle_join,4383
+a401:table:q1770,p ph pl,pg_map,888.0
+a401:table:q1770,p ph pl,hgb_ratio,63.59790684557871
+a401:table:q1770,p ph pl,oracle_join,16666
+a401:table:q1770,c p ph pl,pg_map,1286.0
+a401:table:q1770,c p ph pl,hgb_ratio,92.10237410294394
+a401:table:q1770,c p ph pl,oracle_join,36851
+a401:table:q1770,c p pl u,pg_map,372.0
+a401:table:q1770,c p pl u,hgb_ratio,26.642366381255947
+a401:table:q1770,c p pl u,oracle_join,1146
+a401:table:q1770,c ph pl u,pg_map,173085.0
+a401:table:q1770,c ph pl u,hgb_ratio,12396.220390052918
+a401:table:q1770,c ph pl u,oracle_join,30644
+a401:table:q1770,c p ph pl u,pg_map,1227.0
+a401:table:q1770,c p ph pl u,hgb_ratio,11506.494267595008
+a401:table:q1770,c p ph pl u,oracle_join,8080
+a401:table:q1538,c pl,pg_map,38804.0
+a401:table:q1538,c pl,hgb_ratio,1714.1703604113816
+a401:table:q1538,c pl,oracle_join,20522
+a401:table:q1538,c u,pg_map,129852.0
+a401:table:q1538,c u,hgb_ratio,5736.224349039757
+a401:table:q1538,c u,oracle_join,56141
+a401:table:q1538,p pl,pg_map,684.0
+a401:table:q1538,p pl,hgb_ratio,30.2157645222499
+a401:table:q1538,p pl,oracle_join,4668
+a401:table:q1538,ph pl,pg_map,52430.0
+a401:table:q1538,ph pl,hgb_ratio,2316.1001957625176
+a401:table:q1538,ph pl,oracle_join,71242
+a401:table:q1538,c p pl,pg_map,1000.0
+a401:table:q1538,c p pl,hgb_ratio,44.175094330774705
+a401:table:q1538,c p pl,oracle_join,8679
+a401:table:q1538,c ph pl,pg_map,183256.0
+a401:table:q1538,c ph pl,hgb_ratio,8095.351086680449
+a401:table:q1538,c ph pl,oracle_join,140381
+a401:table:q1538,c pl u,pg_map,37460.0
+a401:table:q1538,c pl u,hgb_ratio,1654.7990336308205
+a401:table:q1538,c pl u,oracle_join,6828
+a401:table:q1538,p ph pl,pg_map,2253.0
+a401:table:q1538,p ph pl,hgb_ratio,99.5264875272354
+a401:table:q1538,p ph pl,oracle_join,29388
+a401:table:q1538,c p ph pl,pg_map,3295.0
+a401:table:q1538,c p ph pl,hgb_ratio,145.55693581990266
+a401:table:q1538,c p ph pl,oracle_join,60222
+a401:table:q1538,c p pl u,pg_map,965.0
+a401:table:q1538,c p pl u,hgb_ratio,42.62896602919759
+a401:table:q1538,c p pl u,oracle_join,2947
+a401:table:q1538,c ph pl u,pg_map,176909.0
+a401:table:q1538,c ph pl u,hgb_ratio,7814.971762963022
+a401:table:q1538,c ph pl u,oracle_join,47806
+a401:table:q1538,c p ph pl u,pg_map,3182.0
+a401:table:q1538,c p ph pl u,hgb_ratio,19167.30837955716
+a401:table:q1538,c p ph pl u,oracle_join,20485
+a401:table:q1485,c pl,pg_map,50284.0
+a401:table:q1485,c pl,hgb_ratio,1786.6300001917532
+a401:table:q1485,c pl,oracle_join,33326
+a401:table:q1485,c u,pg_map,161816.0
+a401:table:q1485,c u,hgb_ratio,5749.449528896444
+a401:table:q1485,c u,oracle_join,52076
+a401:table:q1485,p pl,pg_map,158.0
+a401:table:q1485,p pl,hgb_ratio,5.613864052786115
+a401:table:q1485,p pl,oracle_join,5721
+a401:table:q1485,ph pl,pg_map,2190.0
+a401:table:q1485,ph pl,hgb_ratio,77.81241946583286
+a401:table:q1485,ph pl,oracle_join,7307
+a401:table:q1485,c p pl,pg_map,300.0
+a401:table:q1485,c p pl,hgb_ratio,10.659235543264776
+a401:table:q1485,c p pl,oracle_join,16198
+a401:table:q1485,c ph pl,pg_map,9918.0
+a401:table:q1485,c ph pl,hgb_ratio,352.39432706033347
+a401:table:q1485,c ph pl,oracle_join,23054
+a401:table:q1485,c pl u,pg_map,46681.0
+a401:table:q1485,c pl u,hgb_ratio,1658.6125813171434
+a401:table:q1485,c pl u,oracle_join,5618
+a401:table:q1485,p ph pl,pg_map,22.0
+a401:table:q1485,p ph pl,hgb_ratio,1.0
+a401:table:q1485,p ph pl,oracle_join,3301
+a401:table:q1485,c p ph pl,pg_map,41.0
+a401:table:q1485,c p ph pl,hgb_ratio,1.4567621909128528
+a401:table:q1485,c p ph pl,oracle_join,9698
+a401:table:q1485,c p pl u,pg_map,279.0
+a401:table:q1485,c p pl u,hgb_ratio,9.913089055236242
+a401:table:q1485,c p pl u,oracle_join,2863
+a401:table:q1485,c ph pl u,pg_map,9207.0
+a401:table:q1485,c ph pl u,hgb_ratio,327.131938822796
+a401:table:q1485,c ph pl u,oracle_join,3754
+a401:table:q1485,c p ph pl u,pg_map,38.0
+a401:table:q1485,c p ph pl u,hgb_ratio,1451.6457578520856
+a401:table:q1485,c p ph pl u,oracle_join,1487
+a401:table:q2319,c pl,pg_map,45542.0
+a401:table:q2319,c pl,hgb_ratio,5354.960660377499
+a401:table:q2319,c pl,oracle_join,30004
+a401:table:q2319,c u,pg_map,168268.0
+a401:table:q2319,c u,hgb_ratio,19785.440261745225
+a401:table:q2319,c u,oracle_join,61707
+a401:table:q2319,p pl,pg_map,4606.0
+a401:table:q2319,p pl,hgb_ratio,541.5868605177367
+a401:table:q2319,p pl,oracle_join,8321
+a401:table:q2319,ph pl,pg_map,10713.0
+a401:table:q2319,ph pl,hgb_ratio,1259.6656614690648
+a401:table:q2319,ph pl,oracle_join,12679
+a401:table:q2319,c p pl,pg_map,8729.0
+a401:table:q2319,c p pl,hgb_ratio,1026.381177911273
+a401:table:q2319,c p pl,oracle_join,23922
+a401:table:q2319,c ph pl,pg_map,48521.0
+a401:table:q2319,c ph pl,hgb_ratio,5705.240134429244
+a401:table:q2319,c ph pl,oracle_join,47956
+a401:table:q2319,c pl u,pg_map,43965.0
+a401:table:q2319,c pl u,hgb_ratio,5169.53241916246
+a401:table:q2319,c pl u,oracle_join,7321
+a401:table:q2319,p ph pl,pg_map,3425.0
+a401:table:q2319,p ph pl,hgb_ratio,402.72144969024055
+a401:table:q2319,p ph pl,oracle_join,10998
+a401:table:q2319,c p ph pl,pg_map,6492.0
+a401:table:q2319,c p ph pl,hgb_ratio,763.3482193836618
+a401:table:q2319,c p ph pl,oracle_join,40879
+a401:table:q2319,c p pl u,pg_map,8427.0
+a401:table:q2319,c p pl u,hgb_ratio,990.8711405955203
+a401:table:q2319,c p pl u,oracle_join,6149
+a401:table:q2319,c ph pl u,pg_map,46840.0
+a401:table:q2319,c ph pl u,hgb_ratio,5507.583271092224
+a401:table:q2319,c ph pl u,oracle_join,13309
+a401:table:q2319,c p ph pl u,pg_map,6266.0
+a401:table:q2319,c p ph pl u,hgb_ratio,30594.836720146337
+a401:table:q2319,c p ph pl u,oracle_join,11799
+a401:table:q1788,c pl,pg_map,49885.0
+a401:table:q1788,c pl,hgb_ratio,7850.056203786936
+a401:table:q1788,c pl,oracle_join,33090
+a401:table:q1788,c u,pg_map,171504.0
+a401:table:q1788,c u,hgb_ratio,26988.394089892245
+a401:table:q1788,c u,oracle_join,171470
+a401:table:q1788,p pl,pg_map,5029.0
+a401:table:q1788,p pl,hgb_ratio,791.3788242727173
+a401:table:q1788,p pl,oracle_join,8177
+a401:table:q1788,ph pl,pg_map,52015.0
+a401:table:q1788,ph pl,hgb_ratio,8185.239519694848
+a401:table:q1788,ph pl,oracle_join,70730
+a401:table:q1788,c p pl,pg_map,9531.0
+a401:table:q1788,c p pl,hgb_ratio,1499.827316393571
+a401:table:q1788,c p pl,oracle_join,23894
+a401:table:q1788,c ph pl,pg_map,235589.0
+a401:table:q1788,c ph pl,hgb_ratio,37073.00573306526
+a401:table:q1788,c ph pl,oracle_join,230742
+a401:table:q1788,c pl u,pg_map,49084.0
+a401:table:q1788,c pl u,hgb_ratio,7724.008393438468
+a401:table:q1788,c pl u,oracle_join,32189
+a401:table:q1788,p ph pl,pg_map,16578.0
+a401:table:q1788,p ph pl,hgb_ratio,2608.76479395369
+a401:table:q1788,p ph pl,oracle_join,50285
+a401:table:q1788,c p ph pl,pg_map,31417.0
+a401:table:q1788,c p ph pl,hgb_ratio,4943.8752281121415
+a401:table:q1788,c p ph pl,oracle_join,163085
+a401:table:q1788,c p pl u,pg_map,9378.0
+a401:table:q1788,c p pl u,hgb_ratio,1475.7507683494816
+a401:table:q1788,c p pl u,oracle_join,23365
+a401:table:q1788,c ph pl u,pg_map,231804.0
+a401:table:q1788,c ph pl u,hgb_ratio,36477.386554327495
+a401:table:q1788,c ph pl u,oracle_join,223952
+a401:table:q1788,c p ph pl u,pg_map,30913.0
+a401:table:q1788,c p ph pl u,hgb_ratio,401062.1017005502
+a401:table:q1788,c p ph pl u,oracle_join,159266
+a401:table:q2207,c pl,pg_map,48739.0
+a401:table:q2207,c pl,hgb_ratio,9323.36192602402
+a401:table:q2207,c pl,oracle_join,32326
+a401:table:q2207,c u,pg_map,164500.0
+a401:table:q2207,c u,hgb_ratio,31467.470338557443
+a401:table:q2207,c u,oracle_join,67545
+a401:table:q2207,p pl,pg_map,5017.0
+a401:table:q2207,p pl,hgb_ratio,959.7100224227519
+a401:table:q2207,p pl,oracle_join,10781
+a401:table:q2207,ph pl,pg_map,48667.0
+a401:table:q2207,ph pl,hgb_ratio,9309.588929887994
+a401:table:q2207,ph pl,oracle_join,59268
+a401:table:q2207,c p pl,pg_map,9507.0
+a401:table:q2207,c p pl,hgb_ratio,1818.6093647943198
+a401:table:q2207,c p pl,oracle_join,32312
+a401:table:q2207,c ph pl,pg_map,220428.0
+a401:table:q2207,c ph pl,hgb_ratio,42166.02767044097
+a401:table:q2207,c ph pl,oracle_join,194504
+a401:table:q2207,c pl u,pg_map,45997.0
+a401:table:q2207,c pl u,hgb_ratio,8798.840323177063
+a401:table:q2207,c pl u,oracle_join,8210
+a401:table:q2207,p ph pl,pg_map,15837.0
+a401:table:q2207,p ph pl,hgb_ratio,3029.4852750865302
+a401:table:q2207,p ph pl,oracle_join,59260
+a401:table:q2207,c p ph pl,pg_map,30012.0
+a401:table:q2207,c p ph pl,hgb_ratio,5741.04388936648
+a401:table:q2207,c p ph pl,oracle_join,194480
+a401:table:q2207,c p pl u,pg_map,8972.0
+a401:table:q2207,c p pl u,hgb_ratio,1716.268351839133
+a401:table:q2207,c p pl u,oracle_join,8209
+a401:table:q2207,c ph pl u,pg_map,208028.0
+a401:table:q2207,c ph pl u,hgb_ratio,39794.01166923664
+a401:table:q2207,c ph pl u,oracle_join,53686
+a401:table:q2207,c p ph pl u,pg_map,28323.0
+a401:table:q2207,c p ph pl u,hgb_ratio,163172.31976413686
+a401:table:q2207,c p ph pl u,oracle_join,53685
+a401:table:q1844,c pl,pg_map,7224.0
+a401:table:q1844,c pl,hgb_ratio,789.1061000299283
+a401:table:q1844,c pl,oracle_join,6138
+a401:table:q1844,c u,pg_map,23289.0
+a401:table:q1844,c u,hgb_ratio,2543.9496073639257
+a401:table:q1844,c u,oracle_join,2992
+a401:table:q1844,p pl,pg_map,5054.0
+a401:table:q1844,p pl,hgb_ratio,552.0684149434188
+a401:table:q1844,p pl,oracle_join,9832
+a401:table:q1844,ph pl,pg_map,51032.0
+a401:table:q1844,ph pl,hgb_ratio,5574.427255914631
+a401:table:q1844,ph pl,oracle_join,70899
+a401:table:q1844,c p pl,pg_map,1376.0
+a401:table:q1844,c p pl,hgb_ratio,150.30592381522442
+a401:table:q1844,c p pl,oracle_join,5032
+a401:table:q1844,c ph pl,pg_map,33207.0
+a401:table:q1844,c ph pl,hgb_ratio,3627.3319855611608
+a401:table:q1844,c ph pl,oracle_join,43912
+a401:table:q1844,c pl u,pg_map,6718.0
+a401:table:q1844,c pl u,hgb_ratio,733.8337181618297
+a401:table:q1844,c pl u,oracle_join,631
+a401:table:q1844,p ph pl,pg_map,16214.0
+a401:table:q1844,p ph pl,hgb_ratio,1771.119366816896
+a401:table:q1844,p ph pl,oracle_join,61975
+a401:table:q1844,c p ph pl,pg_map,4415.0
+a401:table:q1844,c p ph pl,hgb_ratio,482.2679168925987
+a401:table:q1844,c p ph pl,oracle_join,35125
+a401:table:q1844,c p pl u,pg_map,1280.0
+a401:table:q1844,c p pl u,hgb_ratio,139.81946401416226
+a401:table:q1844,c p pl u,oracle_join,514
+a401:table:q1844,c ph pl u,pg_map,30882.0
+a401:table:q1844,c ph pl u,hgb_ratio,3373.3630372541866
+a401:table:q1844,c ph pl u,oracle_join,4125
+a401:table:q1844,c p ph pl u,pg_map,4106.0
+a401:table:q1844,c p ph pl u,hgb_ratio,7013.803097566675
+a401:table:q1844,c p ph pl u,oracle_join,3110
+a401:table:q1978,c pl,pg_map,4149.0
+a401:table:q1978,c pl,hgb_ratio,446.7750856844131
+a401:table:q1978,c pl,oracle_join,2933
+a401:table:q1978,c u,pg_map,165253.0
+a401:table:q1978,c u,hgb_ratio,17794.871832876914
+a401:table:q1978,c u,oracle_join,53067
+a401:table:q1978,p pl,pg_map,417.0
+a401:table:q1978,p pl,hgb_ratio,44.90364201745005
+a401:table:q1978,p pl,oracle_join,650
+a401:table:q1978,ph pl,pg_map,622.0
+a401:table:q1978,ph pl,hgb_ratio,66.97857394449385
+a401:table:q1978,ph pl,oracle_join,916
+a401:table:q1978,c p pl,pg_map,790.0
+a401:table:q1978,c p pl,hgb_ratio,85.06924986519314
+a401:table:q1978,c p pl,oracle_join,1728
+a401:table:q1978,c ph pl,pg_map,2817.0
+a401:table:q1978,c ph pl,hgb_ratio,303.3418694560115
+a401:table:q1978,c ph pl,oracle_join,2933
+a401:table:q1978,c pl u,pg_map,3934.0
+a401:table:q1978,c pl u,hgb_ratio,423.62332780970866
+a401:table:q1978,c pl u,oracle_join,579
+a401:table:q1978,p ph pl,pg_map,198.0
+a401:table:q1978,p ph pl,hgb_ratio,21.32115376368132
+a401:table:q1978,p ph pl,oracle_join,650
+a401:table:q1978,c p ph pl,pg_map,375.0
+a401:table:q1978,c p ph pl,hgb_ratio,40.380973037275226
+a401:table:q1978,c p ph pl,oracle_join,1728
+a401:table:q1978,c p pl u,pg_map,749.0
+a401:table:q1978,c p pl u,hgb_ratio,80.65426347978439
+a401:table:q1978,c p pl u,oracle_join,361
+a401:table:q1978,c ph pl u,pg_map,2671.0
+a401:table:q1978,c ph pl u,hgb_ratio,287.62021062016566
+a401:table:q1978,c ph pl u,oracle_join,579
+a401:table:q1978,c p ph pl u,pg_map,355.0
+a401:table:q1978,c p ph pl u,hgb_ratio,730.0879925139361
+a401:table:q1978,c p ph pl u,oracle_join,361
+a401:value:q1637,b u,pg_map,20.0
+a401:value:q1637,b u,hgb_ratio,13.55702486998263
+a401:value:q1637,b u,oracle_join,1097
+a401:value:q1637,p u,pg_map,7.0
+a401:value:q1637,p u,hgb_ratio,4.7449587044939205
+a401:value:q1637,p u,oracle_join,1000
+a401:value:q1637,p v,pg_map,137.0
+a401:value:q1637,p v,hgb_ratio,92.86562035938101
+a401:value:q1637,p v,oracle_join,310
+a401:value:q1637,b p u,pg_map,52.0
+a401:value:q1637,b p u,hgb_ratio,35.248264661954835
+a401:value:q1637,b p u,oracle_join,33351
+a401:value:q1637,p u v,pg_map,1.0
+a401:value:q1637,p u v,hgb_ratio,1.0
+a401:value:q1637,p u v,oracle_join,32
+a401:value:q1637,b p u v,pg_map,1.0
+a401:value:q1637,b p u v,hgb_ratio,161.3285959527933
+a401:value:q1637,b p u v,oracle_join,1106
+a401:value:q629,b u,pg_map,1.0
+a401:value:q629,b u,hgb_ratio,2.787519250023028
+a401:value:q629,b u,oracle_join,202
+a401:value:q629,p u,pg_map,1.0
+a401:value:q629,p u,hgb_ratio,2.787519250023028
+a401:value:q629,p u,oracle_join,127
+a401:value:q629,p v,pg_map,7030.0
+a401:value:q629,p v,hgb_ratio,19596.260327661887
+a401:value:q629,p v,oracle_join,10545
+a401:value:q629,b p u,pg_map,4.0
+a401:value:q629,b p u,hgb_ratio,11.150077000092113
+a401:value:q629,b p u,oracle_join,25654
+a401:value:q629,p u v,pg_map,1.0
+a401:value:q629,p u v,hgb_ratio,2.787519250023028
+a401:value:q629,p u v,oracle_join,489
+a401:value:q629,b p u v,pg_map,4.0
+a401:value:q629,b p u v,hgb_ratio,20047.838446165617
+a401:value:q629,b p u v,oracle_join,98778
+a401:value:q1928,b u,pg_map,1.0
+a401:value:q1928,b u,hgb_ratio,3.7666391166096482
+a401:value:q1928,b u,oracle_join,337
+a401:value:q1928,p u,pg_map,1.0
+a401:value:q1928,p u,hgb_ratio,3.7666391166096482
+a401:value:q1928,p u,oracle_join,828
+a401:value:q1928,p v,pg_map,213.0
+a401:value:q1928,p v,hgb_ratio,802.294131837855
+a401:value:q1928,p v,oracle_join,207
+a401:value:q1928,b p u,pg_map,32.0
+a401:value:q1928,b p u,hgb_ratio,120.53245173150874
+a401:value:q1928,b p u,oracle_join,279036
+a401:value:q1928,p u v,pg_map,1.0
+a401:value:q1928,p u v,hgb_ratio,3.7666391166096482
+a401:value:q1928,p u v,oracle_join,2
+a401:value:q1928,b p u v,pg_map,1.0
+a401:value:q1928,b p u v,hgb_ratio,30005.047202912458
+a401:value:q1928,b p u v,oracle_join,674
+a401:value:q1152,b u,pg_map,1.0
+a401:value:q1152,b u,hgb_ratio,2.783428990241547
+a401:value:q1152,b u,oracle_join,180
+a401:value:q1152,p u,pg_map,1.0
+a401:value:q1152,p u,hgb_ratio,2.783428990241547
+a401:value:q1152,p u,oracle_join,9
+a401:value:q1152,p v,pg_map,7.0
+a401:value:q1152,p v,hgb_ratio,19.48400293169083
+a401:value:q1152,p v,oracle_join,938
+a401:value:q1152,b p u,pg_map,1.0
+a401:value:q1152,b p u,hgb_ratio,2.783428990241547
+a401:value:q1152,b p u,oracle_join,1620
+a401:value:q1152,p u v,pg_map,1.0
+a401:value:q1152,p u v,hgb_ratio,2.783428990241547
+a401:value:q1152,p u v,oracle_join,124
+a401:value:q1152,b p u v,pg_map,1.0
+a401:value:q1152,b p u v,hgb_ratio,7451.239406876622
+a401:value:q1152,b p u v,oracle_join,22320
+a401:value:q506,b u,pg_map,1.0
+a401:value:q506,b u,hgb_ratio,4.260237455768136
+a401:value:q506,b u,oracle_join,53
+a401:value:q506,p u,pg_map,1.0
+a401:value:q506,p u,hgb_ratio,4.260237455768136
+a401:value:q506,p u,oracle_join,282
+a401:value:q506,p v,pg_map,2025.0
+a401:value:q506,p v,hgb_ratio,8626.980847930476
+a401:value:q506,p v,oracle_join,21113
+a401:value:q506,b p u,pg_map,1.0
+a401:value:q506,b p u,hgb_ratio,4.260237455768136
+a401:value:q506,b p u,oracle_join,8711
+a401:value:q506,p u v,pg_map,1.0
+a401:value:q506,p u v,hgb_ratio,4.260237455768136
+a401:value:q506,p u v,oracle_join,1299
+a401:value:q506,b p u v,pg_map,1.0
+a401:value:q506,b p u v,hgb_ratio,6709.873992834814
+a401:value:q506,b p u v,oracle_join,45109
+a401:value:q689,b u,pg_map,1.0
+a401:value:q689,b u,hgb_ratio,1.0
+a401:value:q689,b u,oracle_join,129
+a401:value:q689,p u,pg_map,1.0
+a401:value:q689,p u,hgb_ratio,1.0
+a401:value:q689,p u,oracle_join,1
+a401:value:q689,p v,pg_map,48.0
+a401:value:q689,p v,hgb_ratio,6.585597343480784
+a401:value:q689,p v,oracle_join,2028
+a401:value:q689,b p u,pg_map,1.0
+a401:value:q689,b p u,hgb_ratio,1.0
+a401:value:q689,b p u,oracle_join,119
+a401:value:q689,p u v,pg_map,3.0
+a401:value:q689,p u v,hgb_ratio,1.0
+a401:value:q689,p u v,oracle_join,30
+a401:value:q689,b p u v,pg_map,1.0
+a401:value:q689,b p u v,hgb_ratio,6277.30906783909
+a401:value:q689,b p u v,oracle_join,3570
+a401:value:q189,b u,pg_map,1.0
+a401:value:q189,b u,hgb_ratio,1.0
+a401:value:q189,b u,oracle_join,153
+a401:value:q189,p u,pg_map,1.0
+a401:value:q189,p u,hgb_ratio,1.0
+a401:value:q189,p u,oracle_join,170
+a401:value:q189,p v,pg_map,608.0
+a401:value:q189,p v,hgb_ratio,478.9643525062105
+a401:value:q189,p v,oracle_join,7880
+a401:value:q189,b p u,pg_map,1.0
+a401:value:q189,b p u,hgb_ratio,1.0
+a401:value:q189,b p u,oracle_join,26010
+a401:value:q189,p u v,pg_map,1.0
+a401:value:q189,p u v,hgb_ratio,1.0
+a401:value:q189,p u v,oracle_join,301
+a401:value:q189,b p u v,pg_map,1.0
+a401:value:q189,b p u v,hgb_ratio,693.2378786274099
+a401:value:q189,b p u v,oracle_join,46053
+a401:value:q1995,b u,pg_map,1.0
+a401:value:q1995,b u,hgb_ratio,1.0
+a401:value:q1995,b u,oracle_join,298
+a401:value:q1995,p u,pg_map,1.0
+a401:value:q1995,p u,hgb_ratio,1.0
+a401:value:q1995,p u,oracle_join,1
+a401:value:q1995,p v,pg_map,2.0
+a401:value:q1995,p v,hgb_ratio,1.0377561452825348
+a401:value:q1995,p v,oracle_join,186
+a401:value:q1995,b p u,pg_map,1.0
+a401:value:q1995,b p u,hgb_ratio,1.0
+a401:value:q1995,b p u,oracle_join,37
+a401:value:q1995,p u v,pg_map,2.0
+a401:value:q1995,p u v,hgb_ratio,1.0377561452825348
+a401:value:q1995,p u v,oracle_join,38
+a401:value:q1995,b p u v,pg_map,1.0
+a401:value:q1995,b p u v,hgb_ratio,19272.688252114596
+a401:value:q1995,b p u v,oracle_join,1406
+a401:value:q1942,b u,pg_map,1.0
+a401:value:q1942,b u,hgb_ratio,1.0
+a401:value:q1942,b u,oracle_join,186
+a401:value:q1942,p u,pg_map,1.0
+a401:value:q1942,p u,hgb_ratio,1.0
+a401:value:q1942,p u,oracle_join,5
+a401:value:q1942,p v,pg_map,93.0
+a401:value:q1942,p v,hgb_ratio,12.318193845744982
+a401:value:q1942,p v,oracle_join,2392
+a401:value:q1942,b p u,pg_map,1.0
+a401:value:q1942,b p u,hgb_ratio,1.0
+a401:value:q1942,b p u,oracle_join,770
+a401:value:q1942,p u v,pg_map,3.0
+a401:value:q1942,p u v,hgb_ratio,1.0
+a401:value:q1942,p u v,oracle_join,72
+a401:value:q1942,b p u v,pg_map,1.0
+a401:value:q1942,b p u v,hgb_ratio,17140.965416900042
+a401:value:q1942,b p u v,oracle_join,11088
+a401:value:q149,b u,pg_map,1.0
+a401:value:q149,b u,hgb_ratio,2.7479149388919195
+a401:value:q149,b u,oracle_join,162
+a401:value:q149,p u,pg_map,1.0
+a401:value:q149,p u,hgb_ratio,2.7479149388919195
+a401:value:q149,p u,oracle_join,12
+a401:value:q149,p v,pg_map,45.0
+a401:value:q149,p v,hgb_ratio,123.65617225013638
+a401:value:q149,p v,oracle_join,2841
+a401:value:q149,b p u,pg_map,1.0
+a401:value:q149,b p u,hgb_ratio,2.7479149388919195
+a401:value:q149,b p u,oracle_join,1944
+a401:value:q149,p u v,pg_map,1.0
+a401:value:q149,p u v,hgb_ratio,2.7479149388919195
+a401:value:q149,p u v,oracle_join,192
+a401:value:q149,b p u v,pg_map,1.0
+a401:value:q149,b p u v,hgb_ratio,7927.734598703188
+a401:value:q149,b p u v,oracle_join,31104
+a401:value:q948,b u,pg_map,1.0
+a401:value:q948,b u,hgb_ratio,3.1701161724093447
+a401:value:q948,b u,oracle_join,305
+a401:value:q948,p u,pg_map,1.0
+a401:value:q948,p u,hgb_ratio,3.1701161724093447
+a401:value:q948,p u,oracle_join,8
+a401:value:q948,p v,pg_map,3.0
+a401:value:q948,p v,hgb_ratio,9.510348517228035
+a401:value:q948,p v,oracle_join,252
+a401:value:q948,b p u,pg_map,1.0
+a401:value:q948,b p u,hgb_ratio,3.1701161724093447
+a401:value:q948,b p u,oracle_join,2440
+a401:value:q948,p u v,pg_map,1.0
+a401:value:q948,p u v,hgb_ratio,3.1701161724093447
+a401:value:q948,p u v,oracle_join,10
+a401:value:q948,b p u v,pg_map,1.0
+a401:value:q948,b p u v,hgb_ratio,1562.867272997807
+a401:value:q948,b p u v,oracle_join,3050
+a401:value:q1924,b u,pg_map,5.0
+a401:value:q1924,b u,hgb_ratio,1.6900951519846283
+a401:value:q1924,b u,oracle_join,504
+a401:value:q1924,p u,pg_map,1.0
+a401:value:q1924,p u,hgb_ratio,1.0
+a401:value:q1924,p u,oracle_join,1
+a401:value:q1924,p v,pg_map,1.0
+a401:value:q1924,p v,hgb_ratio,1.0
+a401:value:q1924,p v,oracle_join,1
+a401:value:q1924,b p u,pg_map,1.0
+a401:value:q1924,b p u,hgb_ratio,1.0
+a401:value:q1924,b p u,oracle_join,113
+a401:value:q1924,p u v,pg_map,1.0
+a401:value:q1924,p u v,hgb_ratio,1.0
+a401:value:q1924,p u v,oracle_join,1
+a401:value:q1924,b p u v,pg_map,1.0
+a401:value:q1924,b p u v,hgb_ratio,186.24848574870603
+a401:value:q1924,b p u v,oracle_join,113
+a401:value:q917,b u,pg_map,1.0
+a401:value:q917,b u,hgb_ratio,1.8072979199166734
+a401:value:q917,b u,oracle_join,244
+a401:value:q917,p u,pg_map,1.0
+a401:value:q917,p u,hgb_ratio,1.8072979199166734
+a401:value:q917,p u,oracle_join,67
+a401:value:q917,p v,pg_map,1307.0
+a401:value:q917,p v,hgb_ratio,2362.138381331092
+a401:value:q917,p v,oracle_join,3388
+a401:value:q917,b p u,pg_map,1.0
+a401:value:q917,b p u,hgb_ratio,1.8072979199166734
+a401:value:q917,b p u,oracle_join,16348
+a401:value:q917,p u v,pg_map,1.0
+a401:value:q917,p u v,hgb_ratio,1.8072979199166734
+a401:value:q917,p u v,oracle_join,238
+a401:value:q917,b p u v,pg_map,1.0
+a401:value:q917,b p u v,hgb_ratio,10032.310753457454
+a401:value:q917,b p u v,oracle_join,58072
+a401:value:q780,b u,pg_map,1.0
+a401:value:q780,b u,hgb_ratio,3.5478983360008365
+a401:value:q780,b u,oracle_join,165
+a401:value:q780,p u,pg_map,1.0
+a401:value:q780,p u,hgb_ratio,3.5478983360008365
+a401:value:q780,p u,oracle_join,160
+a401:value:q780,p v,pg_map,150.0
+a401:value:q780,p v,hgb_ratio,532.1847504001255
+a401:value:q780,p v,oracle_join,236
+a401:value:q780,b p u,pg_map,3.0
+a401:value:q780,b p u,hgb_ratio,10.64369500800251
+a401:value:q780,b p u,oracle_join,26400
+a401:value:q780,p u v,pg_map,1.0
+a401:value:q780,p u v,hgb_ratio,3.5478983360008365
+a401:value:q780,p u v,oracle_join,5
+a401:value:q780,b p u v,pg_map,1.0
+a401:value:q780,b p u v,hgb_ratio,659.9090904961556
+a401:value:q780,b p u v,oracle_join,825
+a401:value:q1224,b u,pg_map,1.0
+a401:value:q1224,b u,hgb_ratio,3.0554596715104414
+a401:value:q1224,b u,oracle_join,148
+a401:value:q1224,p u,pg_map,1.0
+a401:value:q1224,p u,hgb_ratio,3.0554596715104414
+a401:value:q1224,p u,oracle_join,35
+a401:value:q1224,p v,pg_map,372.0
+a401:value:q1224,p v,hgb_ratio,1136.6309978018842
+a401:value:q1224,p v,oracle_join,902
+a401:value:q1224,b p u,pg_map,1.0
+a401:value:q1224,b p u,hgb_ratio,3.0554596715104414
+a401:value:q1224,b p u,oracle_join,3252
+a401:value:q1224,p u v,pg_map,1.0
+a401:value:q1224,p u v,hgb_ratio,3.0554596715104414
+a401:value:q1224,p u v,oracle_join,108
+a401:value:q1224,b p u v,pg_map,1.0
+a401:value:q1224,b p u v,hgb_ratio,1698.8355773598055
+a401:value:q1224,b p u v,oracle_join,9094
+a401:value:q592,b u,pg_map,2.0
+a401:value:q592,b u,hgb_ratio,2.7065270297335142
+a401:value:q592,b u,oracle_join,525
+a401:value:q592,p u,pg_map,1.0
+a401:value:q592,p u,hgb_ratio,1.3532635148667571
+a401:value:q592,p u,oracle_join,21
+a401:value:q592,p v,pg_map,40.0
+a401:value:q592,p v,hgb_ratio,54.130540594670286
+a401:value:q592,p v,oracle_join,2077
+a401:value:q592,b p u,pg_map,1.0
+a401:value:q592,b p u,hgb_ratio,1.3532635148667571
+a401:value:q592,b p u,oracle_join,6612
+a401:value:q592,p u v,pg_map,1.0
+a401:value:q592,p u v,hgb_ratio,1.3532635148667571
+a401:value:q592,p u v,oracle_join,291
+a401:value:q592,b p u v,pg_map,1.0
+a401:value:q592,b p u v,hgb_ratio,17155.32157796588
+a401:value:q592,b p u v,oracle_join,91542
+a401:value:q1818,b u,pg_map,25.0
+a401:value:q1818,b u,hgb_ratio,36.85030687262984
+a401:value:q1818,b u,oracle_join,1841
+a401:value:q1818,p u,pg_map,1.0
+a401:value:q1818,p u,hgb_ratio,1.4740122749051936
+a401:value:q1818,p u,oracle_join,63
+a401:value:q1818,p v,pg_map,1.0
+a401:value:q1818,p v,hgb_ratio,1.4740122749051936
+a401:value:q1818,p v,oracle_join,2
+a401:value:q1818,b p u,pg_map,1.0
+a401:value:q1818,b p u,hgb_ratio,1.4740122749051936
+a401:value:q1818,b p u,oracle_join,15234
+a401:value:q1818,p u v,pg_map,1.0
+a401:value:q1818,p u v,hgb_ratio,1.4740122749051936
+a401:value:q1818,p u v,oracle_join,1
+a401:value:q1818,b p u v,pg_map,1.0
+a401:value:q1818,b p u v,hgb_ratio,1017.0684696845835
+a401:value:q1818,b p u v,oracle_join,71
+a401:value:q1209,b u,pg_map,2.0
+a401:value:q1209,b u,hgb_ratio,4.960591220335397
+a401:value:q1209,b u,oracle_join,341
+a401:value:q1209,p u,pg_map,1.0
+a401:value:q1209,p u,hgb_ratio,2.4802956101676985
+a401:value:q1209,p u,oracle_join,41
+a401:value:q1209,p v,pg_map,19.0
+a401:value:q1209,p v,hgb_ratio,47.12561659318627
+a401:value:q1209,p v,oracle_join,843
+a401:value:q1209,b p u,pg_map,1.0
+a401:value:q1209,b p u,hgb_ratio,2.4802956101676985
+a401:value:q1209,b p u,oracle_join,7917
+a401:value:q1209,p u v,pg_map,1.0
+a401:value:q1209,p u v,hgb_ratio,2.4802956101676985
+a401:value:q1209,p u v,oracle_join,2
+a401:value:q1209,b p u v,pg_map,1.0
+a401:value:q1209,b p u v,hgb_ratio,682.081292796117
+a401:value:q1209,b p u v,oracle_join,26
+a401:value:q815,b u,pg_map,8.0
+a401:value:q815,b u,hgb_ratio,14.400943864782876
+a401:value:q815,b u,oracle_join,817
+a401:value:q815,p u,pg_map,1.0
+a401:value:q815,p u,hgb_ratio,1.8001179830978595
+a401:value:q815,p u,oracle_join,201
+a401:value:q815,p v,pg_map,2687.0
+a401:value:q815,p v,hgb_ratio,4836.917020583948
+a401:value:q815,p v,oracle_join,4698
+a401:value:q815,b p u,pg_map,15.0
+a401:value:q815,b p u,hgb_ratio,27.001769746467893
+a401:value:q815,b p u,oracle_join,37016
+a401:value:q815,p u v,pg_map,1.0
+a401:value:q815,p u v,hgb_ratio,1.8001179830978595
+a401:value:q815,p u v,oracle_join,527
+a401:value:q815,b p u v,pg_map,10.0
+a401:value:q815,b p u v,hgb_ratio,5234.743094848575
+a401:value:q815,b p u v,oracle_join,108789
+a401:value:q232,b u,pg_map,1.0
+a401:value:q232,b u,hgb_ratio,5.035991113220661
+a401:value:q232,b u,oracle_join,100
+a401:value:q232,p u,pg_map,1.0
+a401:value:q232,p u,hgb_ratio,5.035991113220661
+a401:value:q232,p u,oracle_join,52
+a401:value:q232,p v,pg_map,697.0
+a401:value:q232,p v,hgb_ratio,3510.085805914801
+a401:value:q232,p v,oracle_join,14969
+a401:value:q232,b p u,pg_map,1.0
+a401:value:q232,b p u,hgb_ratio,5.035991113220661
+a401:value:q232,b p u,oracle_join,3120
+a401:value:q232,p u v,pg_map,2.0
+a401:value:q232,p u v,hgb_ratio,10.071982226441323
+a401:value:q232,p u v,oracle_join,992
+a401:value:q232,b p u v,pg_map,1.0
+a401:value:q232,b p u v,hgb_ratio,5841.749691335967
+a401:value:q232,b p u v,oracle_join,63280
+a401:value:q37,b u,pg_map,1.0
+a401:value:q37,b u,hgb_ratio,3.646319574048215
+a401:value:q37,b u,oracle_join,38
+a401:value:q37,p u,pg_map,1.0
+a401:value:q37,p u,hgb_ratio,3.646319574048215
+a401:value:q37,p u,oracle_join,16
+a401:value:q37,p v,pg_map,53.0
+a401:value:q37,p v,hgb_ratio,193.25493742455538
+a401:value:q37,p v,oracle_join,2522
+a401:value:q37,b p u,pg_map,1.0
+a401:value:q37,b p u,hgb_ratio,3.646319574048215
+a401:value:q37,b p u,oracle_join,608
+a401:value:q37,p u v,pg_map,1.0
+a401:value:q37,p u v,hgb_ratio,3.646319574048215
+a401:value:q37,p u v,oracle_join,145
+a401:value:q37,b p u v,pg_map,1.0
+a401:value:q37,b p u v,hgb_ratio,820.4219041608484
+a401:value:q37,b p u v,oracle_join,5510
+a401:value:q745,b u,pg_map,9.0
+a401:value:q745,b u,hgb_ratio,4.667598082801977
+a401:value:q745,b u,oracle_join,964
+a401:value:q745,p u,pg_map,1.0
+a401:value:q745,p u,hgb_ratio,1.0
+a401:value:q745,p u,oracle_join,17
+a401:value:q745,p v,pg_map,1.0
+a401:value:q745,p v,hgb_ratio,1.0
+a401:value:q745,p v,oracle_join,9
+a401:value:q745,b p u,pg_map,1.0
+a401:value:q745,b p u,hgb_ratio,1.0
+a401:value:q745,b p u,oracle_join,4246
+a401:value:q745,p u v,pg_map,1.0
+a401:value:q745,p u v,hgb_ratio,1.0
+a401:value:q745,p u v,oracle_join,1
+a401:value:q745,b p u v,pg_map,1.0
+a401:value:q745,b p u v,hgb_ratio,239.08474624130125
+a401:value:q745,b p u v,oracle_join,106
+a401:value:q1065,b u,pg_map,1.0
+a401:value:q1065,b u,hgb_ratio,1.130920979192165
+a401:value:q1065,b u,oracle_join,184
+a401:value:q1065,p u,pg_map,1.0
+a401:value:q1065,p u,hgb_ratio,1.130920979192165
+a401:value:q1065,p u,oracle_join,85
+a401:value:q1065,p v,pg_map,49.0
+a401:value:q1065,p v,hgb_ratio,55.41512798041609
+a401:value:q1065,p v,oracle_join,632
+a401:value:q1065,b p u,pg_map,1.0
+a401:value:q1065,b p u,hgb_ratio,1.130920979192165
+a401:value:q1065,b p u,oracle_join,15640
+a401:value:q1065,p u v,pg_map,1.0
+a401:value:q1065,p u v,hgb_ratio,1.130920979192165
+a401:value:q1065,p u v,oracle_join,10
+a401:value:q1065,b p u v,pg_map,1.0
+a401:value:q1065,b p u v,hgb_ratio,320.0506371113827
+a401:value:q1065,b p u v,oracle_join,1840
+a401:value:q1332,b u,pg_map,11.0
+a401:value:q1332,b u,hgb_ratio,4.468920097684041
+a401:value:q1332,b u,oracle_join,558
+a401:value:q1332,p u,pg_map,1.0
+a401:value:q1332,p u,hgb_ratio,1.0
+a401:value:q1332,p u,oracle_join,20
+a401:value:q1332,p v,pg_map,13.0
+a401:value:q1332,p v,hgb_ratio,5.281451024535685
+a401:value:q1332,p v,oracle_join,1414
+a401:value:q1332,b p u,pg_map,1.0
+a401:value:q1332,b p u,hgb_ratio,1.0
+a401:value:q1332,b p u,oracle_join,450
+a401:value:q1332,p u v,pg_map,1.0
+a401:value:q1332,p u v,hgb_ratio,1.0
+a401:value:q1332,p u v,oracle_join,268
+a401:value:q1332,b p u v,pg_map,1.0
+a401:value:q1332,b p u v,hgb_ratio,48.34559014767281
+a401:value:q1332,b p u v,oracle_join,4802
+a401:value:q111,b u,pg_map,15.0
+a401:value:q111,b u,hgb_ratio,4.7187183225995035
+a401:value:q111,b u,oracle_join,1147
+a401:value:q111,p u,pg_map,1.0
+a401:value:q111,p u,hgb_ratio,1.0
+a401:value:q111,p u,oracle_join,1
+a401:value:q111,p v,pg_map,1.0
+a401:value:q111,p v,hgb_ratio,1.0
+a401:value:q111,p v,oracle_join,1
+a401:value:q111,b p u,pg_map,1.0
+a401:value:q111,b p u,hgb_ratio,1.0
+a401:value:q111,b p u,oracle_join,38
+a401:value:q111,p u v,pg_map,1.0
+a401:value:q111,p u v,hgb_ratio,1.0
+a401:value:q111,p u v,oracle_join,1
+a401:value:q111,b p u v,pg_map,1.0
+a401:value:q111,b p u v,hgb_ratio,133.067856697306
+a401:value:q111,b p u v,oracle_join,38
+a401:value:q367,b u,pg_map,1.0
+a401:value:q367,b u,hgb_ratio,1.7251369769763678
+a401:value:q367,b u,oracle_join,158
+a401:value:q367,p u,pg_map,1.0
+a401:value:q367,p u,hgb_ratio,1.7251369769763678
+a401:value:q367,p u,oracle_join,52
+a401:value:q367,p v,pg_map,88.0
+a401:value:q367,p v,hgb_ratio,151.81205397392037
+a401:value:q367,p v,oracle_join,3007
+a401:value:q367,b p u,pg_map,1.0
+a401:value:q367,b p u,hgb_ratio,1.7251369769763678
+a401:value:q367,b p u,oracle_join,5061
+a401:value:q367,p u v,pg_map,1.0
+a401:value:q367,p u v,hgb_ratio,1.7251369769763678
+a401:value:q367,p u v,oracle_join,13
+a401:value:q367,b p u v,pg_map,1.0
+a401:value:q367,b p u v,hgb_ratio,324.32575167155716
+a401:value:q367,b p u v,oracle_join,1191
+a401:value:q1890,b u,pg_map,1.0
+a401:value:q1890,b u,hgb_ratio,3.610081933143822
+a401:value:q1890,b u,oracle_join,151
+a401:value:q1890,p u,pg_map,1.0
+a401:value:q1890,p u,hgb_ratio,3.610081933143822
+a401:value:q1890,p u,oracle_join,13
+a401:value:q1890,p v,pg_map,55.0
+a401:value:q1890,p v,hgb_ratio,198.5545063229102
+a401:value:q1890,p v,oracle_join,5342
+a401:value:q1890,b p u,pg_map,1.0
+a401:value:q1890,b p u,hgb_ratio,3.610081933143822
+a401:value:q1890,b p u,oracle_join,1963
+a401:value:q1890,p u v,pg_map,2.0
+a401:value:q1890,p u v,hgb_ratio,7.220163866287644
+a401:value:q1890,p u v,oracle_join,606
+a401:value:q1890,b p u v,pg_map,1.0
+a401:value:q1890,b p u v,hgb_ratio,21671.32184466236
+a401:value:q1890,b p u v,oracle_join,91506
+a401:value:q932,b u,pg_map,62.0
+a401:value:q932,b u,hgb_ratio,131.37773525829218
+a401:value:q932,b u,oracle_join,1119
+a401:value:q932,p u,pg_map,5.0
+a401:value:q932,p u,hgb_ratio,10.594978649862272
+a401:value:q932,p u,oracle_join,704
+a401:value:q932,p v,pg_map,804.0
+a401:value:q932,p v,hgb_ratio,1703.6725668978534
+a401:value:q932,p v,oracle_join,5512
+a401:value:q932,b p u,pg_map,83.0
+a401:value:q932,b p u,hgb_ratio,175.8766455877137
+a401:value:q932,b p u,oracle_join,16511
+a401:value:q932,p u v,pg_map,1.0
+a401:value:q932,p u v,hgb_ratio,2.1189957299724544
+a401:value:q932,p u v,oracle_join,411
+a401:value:q932,b p u v,pg_map,22.0
+a401:value:q932,b p u v,hgb_ratio,481.01203070374714
+a401:value:q932,b p u v,oracle_join,9835
+a401:value:q1642,b u,pg_map,1.0
+a401:value:q1642,b u,hgb_ratio,1.907233207090466
+a401:value:q1642,b u,oracle_join,12
+a401:value:q1642,p u,pg_map,1.0
+a401:value:q1642,p u,hgb_ratio,1.907233207090466
+a401:value:q1642,p u,oracle_join,4
+a401:value:q1642,p v,pg_map,1.0
+a401:value:q1642,p v,hgb_ratio,1.907233207090466
+a401:value:q1642,p v,oracle_join,130
+a401:value:q1642,b p u,pg_map,1.0
+a401:value:q1642,b p u,hgb_ratio,1.907233207090466
+a401:value:q1642,b p u,oracle_join,48
+a401:value:q1642,p u v,pg_map,1.0
+a401:value:q1642,p u v,hgb_ratio,1.907233207090466
+a401:value:q1642,p u v,oracle_join,1
+a401:value:q1642,b p u v,pg_map,1.0
+a401:value:q1642,b p u v,hgb_ratio,114.43399242542796
+a401:value:q1642,b p u v,oracle_join,12
+a401:value:q1484,b u,pg_map,1.0
+a401:value:q1484,b u,hgb_ratio,1.0
+a401:value:q1484,b u,oracle_join,381
+a401:value:q1484,p u,pg_map,1.0
+a401:value:q1484,p u,hgb_ratio,1.0
+a401:value:q1484,p u,oracle_join,420
+a401:value:q1484,p v,pg_map,33.0
+a401:value:q1484,p v,hgb_ratio,21.740616446899207
+a401:value:q1484,p v,oracle_join,12
+a401:value:q1484,b p u,pg_map,30.0
+a401:value:q1484,b p u,hgb_ratio,19.76419676990837
+a401:value:q1484,b p u,oracle_join,160020
+a401:value:q1484,p u v,pg_map,1.0
+a401:value:q1484,p u v,hgb_ratio,1.0
+a401:value:q1484,p u v,oracle_join,1
+a401:value:q1484,b p u v,pg_map,1.0
+a401:value:q1484,b p u v,hgb_ratio,5146.596838884139
+a401:value:q1484,b p u v,oracle_join,381
+a401:value:q1056,b u,pg_map,5.0
+a401:value:q1056,b u,hgb_ratio,20.905402858873305
+a401:value:q1056,b u,oracle_join,310
+a401:value:q1056,p u,pg_map,1.0
+a401:value:q1056,p u,hgb_ratio,4.181080571774661
+a401:value:q1056,p u,oracle_join,2
+a401:value:q1056,p v,pg_map,2.0
+a401:value:q1056,p v,hgb_ratio,8.362161143549322
+a401:value:q1056,p v,oracle_join,488
+a401:value:q1056,b p u,pg_map,1.0
+a401:value:q1056,b p u,hgb_ratio,4.181080571774661
+a401:value:q1056,b p u,oracle_join,73
+a401:value:q1056,p u v,pg_map,2.0
+a401:value:q1056,p u v,hgb_ratio,8.362161143549322
+a401:value:q1056,p u v,oracle_join,182
+a401:value:q1056,b p u v,pg_map,1.0
+a401:value:q1056,b p u v,hgb_ratio,2441.7510539164023
+a401:value:q1056,b p u v,oracle_join,6496
+a401:value:q1911,b u,pg_map,4.0
+a401:value:q1911,b u,hgb_ratio,1.8983218613169506
+a401:value:q1911,b u,oracle_join,196
+a401:value:q1911,p u,pg_map,1.0
+a401:value:q1911,p u,hgb_ratio,1.0
+a401:value:q1911,p u,oracle_join,80
+a401:value:q1911,p v,pg_map,12.0
+a401:value:q1911,p v,hgb_ratio,5.694965583950852
+a401:value:q1911,p v,oracle_join,380
+a401:value:q1911,b p u,pg_map,1.0
+a401:value:q1911,b p u,hgb_ratio,1.0
+a401:value:q1911,b p u,oracle_join,489
+a401:value:q1911,p u v,pg_map,1.0
+a401:value:q1911,p u v,hgb_ratio,1.0
+a401:value:q1911,p u v,oracle_join,62
+a401:value:q1911,b p u v,pg_map,1.0
+a401:value:q1911,b p u v,hgb_ratio,26.576506058437307
+a401:value:q1911,b p u v,oracle_join,465
+a401:value:q1236,b u,pg_map,1.0
+a401:value:q1236,b u,hgb_ratio,2.4502396563715894
+a401:value:q1236,b u,oracle_join,77
+a401:value:q1236,p u,pg_map,1.0
+a401:value:q1236,p u,hgb_ratio,2.4502396563715894
+a401:value:q1236,p u,oracle_join,12
+a401:value:q1236,p v,pg_map,16.0
+a401:value:q1236,p v,hgb_ratio,39.20383450194543
+a401:value:q1236,p v,oracle_join,1694
+a401:value:q1236,b p u,pg_map,1.0
+a401:value:q1236,b p u,hgb_ratio,2.4502396563715894
+a401:value:q1236,b p u,oracle_join,924
+a401:value:q1236,p u v,pg_map,1.0
+a401:value:q1236,p u v,hgb_ratio,2.4502396563715894
+a401:value:q1236,p u v,oracle_join,9
+a401:value:q1236,b p u v,pg_map,1.0
+a401:value:q1236,b p u v,hgb_ratio,303.82971739007706
+a401:value:q1236,b p u v,oracle_join,693
+a401:value:q175,b u,pg_map,43.0
+a401:value:q175,b u,hgb_ratio,124.94054911297977
+a401:value:q175,b u,oracle_join,772
+a401:value:q175,p u,pg_map,124.0
+a401:value:q175,p u,hgb_ratio,360.2936765118486
+a401:value:q175,p u,oracle_join,7624
+a401:value:q175,p v,pg_map,5480.0
+a401:value:q175,p v,hgb_ratio,15922.656026491375
+a401:value:q175,p v,oracle_join,7211
+a401:value:q175,b p u,pg_map,496.0
+a401:value:q175,b p u,hgb_ratio,1441.1747060473945
+a401:value:q175,b p u,oracle_join,99144
+a401:value:q175,p u v,pg_map,27.0
+a401:value:q175,p u v,hgb_ratio,78.45104246628962
+a401:value:q175,p u v,oracle_join,1014
+a401:value:q175,b p u v,pg_map,106.0
+a401:value:q175,b p u v,hgb_ratio,796.1328013245687
+a401:value:q175,b p u v,oracle_join,7306
+a401:value:q887,b u,pg_map,1.0
+a401:value:q887,b u,hgb_ratio,3.872390688230871
+a401:value:q887,b u,oracle_join,97
+a401:value:q887,p u,pg_map,1.0
+a401:value:q887,p u,hgb_ratio,3.872390688230871
+a401:value:q887,p u,oracle_join,47
+a401:value:q887,p v,pg_map,103.0
+a401:value:q887,p v,hgb_ratio,398.85624088777973
+a401:value:q887,p v,oracle_join,4330
+a401:value:q887,b p u,pg_map,1.0
+a401:value:q887,b p u,hgb_ratio,3.872390688230871
+a401:value:q887,b p u,oracle_join,1393
+a401:value:q887,p u v,pg_map,1.0
+a401:value:q887,p u v,hgb_ratio,3.872390688230871
+a401:value:q887,p u v,oracle_join,703
+a401:value:q887,b p u v,pg_map,1.0
+a401:value:q887,b p u v,hgb_ratio,7922.911348120362
+a401:value:q887,b p u v,oracle_join,21999
+a401:value:q1051,b u,pg_map,1.0
+a401:value:q1051,b u,hgb_ratio,2.7218235776934487
+a401:value:q1051,b u,oracle_join,199
+a401:value:q1051,p u,pg_map,1.0
+a401:value:q1051,p u,hgb_ratio,2.7218235776934487
+a401:value:q1051,p u,oracle_join,751
+a401:value:q1051,p v,pg_map,14321.0
+a401:value:q1051,p v,hgb_ratio,38979.23545614788
+a401:value:q1051,p v,oracle_join,19109
+a401:value:q1051,b p u,pg_map,5.0
+a401:value:q1051,b p u,hgb_ratio,13.609117888467244
+a401:value:q1051,b p u,oracle_join,75927
+a401:value:q1051,p u v,pg_map,1.0
+a401:value:q1051,p u v,hgb_ratio,2.7218235776934487
+a401:value:q1051,p u v,oracle_join,83
+a401:value:q1051,b p u v,pg_map,2.0
+a401:value:q1051,b p u v,hgb_ratio,4722.363907298133
+a401:value:q1051,b p u v,oracle_join,8331
+a401:value:q237,b u,pg_map,129.0
+a401:value:q237,b u,hgb_ratio,22.646548153012514
+a401:value:q237,b u,oracle_join,4515
+a401:value:q237,p u,pg_map,1.0
+a401:value:q237,p u,hgb_ratio,1.0
+a401:value:q237,p u,oracle_join,2
+a401:value:q237,p v,pg_map,1.0
+a401:value:q237,p v,hgb_ratio,1.0
+a401:value:q237,p v,oracle_join,2
+a401:value:q237,b p u,pg_map,1.0
+a401:value:q237,b p u,hgb_ratio,1.0
+a401:value:q237,b p u,oracle_join,282
+a401:value:q237,p u v,pg_map,1.0
+a401:value:q237,p u v,hgb_ratio,1.0
+a401:value:q237,p u v,oracle_join,1
+a401:value:q237,b p u v,pg_map,1.0
+a401:value:q237,b p u v,hgb_ratio,143.4281383024126
+a401:value:q237,b p u v,oracle_join,111
+a401:value:q1283,b u,pg_map,1.0
+a401:value:q1283,b u,hgb_ratio,6.22131325230851
+a401:value:q1283,b u,oracle_join,290
+a401:value:q1283,p u,pg_map,1.0
+a401:value:q1283,p u,hgb_ratio,6.22131325230851
+a401:value:q1283,p u,oracle_join,24
+a401:value:q1283,p v,pg_map,18.0
+a401:value:q1283,p v,hgb_ratio,111.98363854155319
+a401:value:q1283,p v,oracle_join,687
+a401:value:q1283,b p u,pg_map,1.0
+a401:value:q1283,b p u,hgb_ratio,6.22131325230851
+a401:value:q1283,b p u,oracle_join,4480
+a401:value:q1283,p u v,pg_map,1.0
+a401:value:q1283,p u v,hgb_ratio,6.22131325230851
+a401:value:q1283,p u v,oracle_join,41
+a401:value:q1283,b p u v,pg_map,1.0
+a401:value:q1283,b p u v,hgb_ratio,1897.5005419540958
+a401:value:q1283,b p u v,oracle_join,7995
+a401:value:q924,b u,pg_map,1.0
+a401:value:q924,b u,hgb_ratio,2.0879900356793
+a401:value:q924,b u,oracle_join,201
+a401:value:q924,p u,pg_map,1.0
+a401:value:q924,p u,hgb_ratio,2.0879900356793
+a401:value:q924,p u,oracle_join,1
+a401:value:q924,p v,pg_map,2.0
+a401:value:q924,p v,hgb_ratio,4.1759800713586
+a401:value:q924,p v,oracle_join,1189
+a401:value:q924,b p u,pg_map,1.0
+a401:value:q924,b p u,hgb_ratio,2.0879900356793
+a401:value:q924,b p u,oracle_join,201
+a401:value:q924,p u v,pg_map,2.0
+a401:value:q924,p u v,hgb_ratio,4.1759800713586
+a401:value:q924,p u v,oracle_join,69
+a401:value:q924,b p u v,pg_map,1.0
+a401:value:q924,b p u v,hgb_ratio,5311.846650768139
+a401:value:q924,b p u v,oracle_join,13869
+a401:value:q460,b u,pg_map,1.0
+a401:value:q460,b u,hgb_ratio,1.238298786031847
+a401:value:q460,b u,oracle_join,232
+a401:value:q460,p u,pg_map,1.0
+a401:value:q460,p u,hgb_ratio,1.238298786031847
+a401:value:q460,p u,oracle_join,11
+a401:value:q460,p v,pg_map,7.0
+a401:value:q460,p v,hgb_ratio,8.668091502222929
+a401:value:q460,p v,oracle_join,957
+a401:value:q460,b p u,pg_map,1.0
+a401:value:q460,b p u,hgb_ratio,1.238298786031847
+a401:value:q460,b p u,oracle_join,2552
+a401:value:q460,p u v,pg_map,1.0
+a401:value:q460,p u v,hgb_ratio,1.238298786031847
+a401:value:q460,p u v,oracle_join,15
+a401:value:q460,b p u v,pg_map,1.0
+a401:value:q460,b p u v,hgb_ratio,886.6219307988025
+a401:value:q460,b p u v,oracle_join,3480
+a401:value:q1210,b u,pg_map,1.0
+a401:value:q1210,b u,hgb_ratio,10.09011373745557
+a401:value:q1210,b u,oracle_join,30
+a401:value:q1210,p u,pg_map,1.0
+a401:value:q1210,p u,hgb_ratio,10.09011373745557
+a401:value:q1210,p u,oracle_join,15
+a401:value:q1210,p v,pg_map,8.0
+a401:value:q1210,p v,hgb_ratio,80.72090989964455
+a401:value:q1210,p v,oracle_join,1073
+a401:value:q1210,b p u,pg_map,1.0
+a401:value:q1210,b p u,hgb_ratio,10.09011373745557
+a401:value:q1210,b p u,oracle_join,224
+a401:value:q1210,p u v,pg_map,1.0
+a401:value:q1210,p u v,hgb_ratio,10.09011373745557
+a401:value:q1210,p u v,oracle_join,48
+a401:value:q1210,b p u v,pg_map,1.0
+a401:value:q1210,b p u v,hgb_ratio,645.7672791971564
+a401:value:q1210,b p u v,oracle_join,716
+a401:value:q70,b u,pg_map,15.0
+a401:value:q70,b u,hgb_ratio,11.900584903139126
+a401:value:q70,b u,oracle_join,917
+a401:value:q70,p u,pg_map,2.0
+a401:value:q70,p u,hgb_ratio,1.5867446537518834
+a401:value:q70,p u,oracle_join,608
+a401:value:q70,p v,pg_map,1819.0
+a401:value:q70,p v,hgb_ratio,1443.144262587338
+a401:value:q70,p v,oracle_join,3114
+a401:value:q70,b p u,pg_map,38.0
+a401:value:q70,b p u,hgb_ratio,30.148148421285786
+a401:value:q70,b p u,oracle_join,68704
+a401:value:q70,p u v,pg_map,1.0
+a401:value:q70,p u v,hgb_ratio,1.0
+a401:value:q70,p u v,oracle_join,75
+a401:value:q70,b p u v,pg_map,12.0
+a401:value:q70,b p u v,hgb_ratio,188.0292414695982
+a401:value:q70,b p u v,oracle_join,4717
+a401:value:q438,b u,pg_map,574.0
+a401:value:q438,b u,hgb_ratio,440.7796900842446
+a401:value:q438,b u,oracle_join,7535
+a401:value:q438,p u,pg_map,1.0
+a401:value:q438,p u,hgb_ratio,1.0
+a401:value:q438,p u,oracle_join,33
+a401:value:q438,p v,pg_map,1.0
+a401:value:q438,p v,hgb_ratio,1.0
+a401:value:q438,p v,oracle_join,1
+a401:value:q438,b p u,pg_map,4.0
+a401:value:q438,b p u,hgb_ratio,3.0716354709703455
+a401:value:q438,b p u,oracle_join,2429
+a401:value:q438,p u v,pg_map,1.0
+a401:value:q438,p u v,hgb_ratio,1.0
+a401:value:q438,p u v,oracle_join,1
+a401:value:q438,b p u v,pg_map,1.0
+a401:value:q438,b p u v,hgb_ratio,266.4643771066775
+a401:value:q438,b p u v,oracle_join,47
+a401:value:q747,b u,pg_map,67.0
+a401:value:q747,b u,hgb_ratio,31.402862499124407
+a401:value:q747,b u,oracle_join,1544
+a401:value:q747,p u,pg_map,1.0
+a401:value:q747,p u,hgb_ratio,1.0
+a401:value:q747,p u,oracle_join,12
+a401:value:q747,p v,pg_map,5.0
+a401:value:q747,p v,hgb_ratio,2.3434972014271946
+a401:value:q747,p v,oracle_join,854
+a401:value:q747,b p u,pg_map,1.0
+a401:value:q747,b p u,hgb_ratio,1.0
+a401:value:q747,b p u,oracle_join,543
+a401:value:q747,p u v,pg_map,1.0
+a401:value:q747,p u v,hgb_ratio,1.0
+a401:value:q747,p u v,oracle_join,122
+a401:value:q747,b p u v,pg_map,1.0
+a401:value:q747,b p u v,hgb_ratio,37.495955222835114
+a401:value:q747,b p u v,oracle_join,1150
+a401:value:q909,b u,pg_map,1.0
+a401:value:q909,b u,hgb_ratio,1.0
+a401:value:q909,b u,oracle_join,213
+a401:value:q909,p u,pg_map,1.0
+a401:value:q909,p u,hgb_ratio,1.0
+a401:value:q909,p u,oracle_join,74
+a401:value:q909,p v,pg_map,2939.0
+a401:value:q909,p v,hgb_ratio,1932.68363343501
+a401:value:q909,p v,oracle_join,9058
+a401:value:q909,b p u,pg_map,1.0
+a401:value:q909,b p u,hgb_ratio,1.0
+a401:value:q909,b p u,oracle_join,5220
+a401:value:q909,p u v,pg_map,3.0
+a401:value:q909,p u v,hgb_ratio,1.9727971760139607
+a401:value:q909,p u v,oracle_join,1059
+a401:value:q909,b p u v,pg_map,1.0
+a401:value:q909,b p u v,hgb_ratio,7197.4216971576
+a401:value:q909,b p u v,oracle_join,70469
+a401:value:q1458,b u,pg_map,1.0
+a401:value:q1458,b u,hgb_ratio,1.159767972893955
+a401:value:q1458,b u,oracle_join,29
+a401:value:q1458,p u,pg_map,1.0
+a401:value:q1458,p u,hgb_ratio,1.159767972893955
+a401:value:q1458,p u,oracle_join,2
+a401:value:q1458,p v,pg_map,71.0
+a401:value:q1458,p v,hgb_ratio,82.3435260754708
+a401:value:q1458,p v,oracle_join,140
+a401:value:q1458,b p u,pg_map,1.0
+a401:value:q1458,b p u,hgb_ratio,1.159767972893955
+a401:value:q1458,b p u,oracle_join,58
+a401:value:q1458,p u v,pg_map,2.0
+a401:value:q1458,p u v,hgb_ratio,2.31953594578791
+a401:value:q1458,p u v,oracle_join,21
+a401:value:q1458,b p u v,pg_map,1.0
+a401:value:q1458,b p u v,hgb_ratio,11432.992676788608
+a401:value:q1458,b p u v,oracle_join,609
+a401:value:q935,b u,pg_map,3.0
+a401:value:q935,b u,hgb_ratio,14.300327447998196
+a401:value:q935,b u,oracle_join,204
+a401:value:q935,p u,pg_map,1.0
+a401:value:q935,p u,hgb_ratio,4.766775815999399
+a401:value:q935,p u,oracle_join,131
+a401:value:q935,p v,pg_map,71.0
+a401:value:q935,p v,hgb_ratio,338.4410829359573
+a401:value:q935,p v,oracle_join,2688
+a401:value:q935,b p u,pg_map,1.0
+a401:value:q935,b p u,hgb_ratio,4.766775815999399
+a401:value:q935,b p u,oracle_join,2734
+a401:value:q935,p u v,pg_map,1.0
+a401:value:q935,p u v,hgb_ratio,4.766775815999399
+a401:value:q935,p u v,oracle_join,131
+a401:value:q935,b p u v,pg_map,1.0
+a401:value:q935,b p u v,hgb_ratio,452.8437025199429
+a401:value:q935,b p u v,oracle_join,1834
+a401:value:q1200,b u,pg_map,30.0
+a401:value:q1200,b u,hgb_ratio,28.475989530717357
+a401:value:q1200,b u,oracle_join,2156
+a401:value:q1200,p u,pg_map,3.0
+a401:value:q1200,p u,hgb_ratio,2.847598953071736
+a401:value:q1200,p u,oracle_join,763
+a401:value:q1200,p v,pg_map,3.0
+a401:value:q1200,p v,hgb_ratio,2.847598953071736
+a401:value:q1200,p v,oracle_join,9
+a401:value:q1200,b p u,pg_map,87.0
+a401:value:q1200,b p u,hgb_ratio,82.58036963908033
+a401:value:q1200,b p u,oracle_join,189989
+a401:value:q1200,p u v,pg_map,1.0
+a401:value:q1200,p u v,hgb_ratio,1.0
+a401:value:q1200,p u v,oracle_join,2
+a401:value:q1200,b p u v,pg_map,1.0
+a401:value:q1200,b p u v,hgb_ratio,3697.132640738137
+a401:value:q1200,b p u v,oracle_join,680
+a401:value:q795,b u,pg_map,1.0
+a401:value:q795,b u,hgb_ratio,11.045556111009292
+a401:value:q795,b u,oracle_join,112
+a401:value:q795,p u,pg_map,1.0
+a401:value:q795,p u,hgb_ratio,11.045556111009292
+a401:value:q795,p u,oracle_join,213
+a401:value:q795,p v,pg_map,7187.0
+a401:value:q795,p v,hgb_ratio,79384.41176982378
+a401:value:q795,p v,oracle_join,12816
+a401:value:q795,b p u,pg_map,1.0
+a401:value:q795,b p u,hgb_ratio,11.045556111009292
+a401:value:q795,b p u,oracle_join,23856
+a401:value:q795,p u v,pg_map,1.0
+a401:value:q795,p u v,hgb_ratio,11.045556111009292
+a401:value:q795,p u v,oracle_join,868
+a401:value:q795,b p u v,pg_map,1.0
+a401:value:q795,b p u v,hgb_ratio,133065.81446932894
+a401:value:q795,b p u v,oracle_join,97216
+a401:value:q1797,b u,pg_map,1.0
+a401:value:q1797,b u,hgb_ratio,1.0611633274989354
+a401:value:q1797,b u,oracle_join,133
+a401:value:q1797,p u,pg_map,1.0
+a401:value:q1797,p u,hgb_ratio,1.0611633274989354
+a401:value:q1797,p u,oracle_join,596
+a401:value:q1797,p v,pg_map,664.0
+a401:value:q1797,p v,hgb_ratio,704.6124494592931
+a401:value:q1797,p v,oracle_join,950
+a401:value:q1797,b p u,pg_map,7.0
+a401:value:q1797,b p u,hgb_ratio,7.428143292492548
+a401:value:q1797,b p u,oracle_join,48503
+a401:value:q1797,p u v,pg_map,1.0
+a401:value:q1797,p u v,hgb_ratio,1.0611633274989354
+a401:value:q1797,p u v,oracle_join,21
+a401:value:q1797,b p u v,pg_map,1.0
+a401:value:q1797,b p u v,hgb_ratio,371.4071646246274
+a401:value:q1797,b p u v,oracle_join,1525
+a401:value:q1064,b u,pg_map,1.0
+a401:value:q1064,b u,hgb_ratio,1.213451932623197
+a401:value:q1064,b u,oracle_join,389
+a401:value:q1064,p u,pg_map,1.0
+a401:value:q1064,p u,hgb_ratio,1.213451932623197
+a401:value:q1064,p u,oracle_join,602
+a401:value:q1064,p v,pg_map,226.0
+a401:value:q1064,p v,hgb_ratio,274.2401367728425
+a401:value:q1064,p v,oracle_join,459
+a401:value:q1064,b p u,pg_map,10.0
+a401:value:q1064,b p u,hgb_ratio,12.13451932623197
+a401:value:q1064,b p u,oracle_join,120049
+a401:value:q1064,p u v,pg_map,1.0
+a401:value:q1064,p u v,hgb_ratio,1.213451932623197
+a401:value:q1064,p u v,oracle_join,2
+a401:value:q1064,b p u v,pg_map,1.0
+a401:value:q1064,b p u v,hgb_ratio,4174.274648223797
+a401:value:q1064,b p u v,oracle_join,480
+a401:value:q663,b u,pg_map,6.0
+a401:value:q663,b u,hgb_ratio,4.0414814503663825
+a401:value:q663,b u,oracle_join,256
+a401:value:q663,p u,pg_map,1.0
+a401:value:q663,p u,hgb_ratio,1.0
+a401:value:q663,p u,oracle_join,15
+a401:value:q663,p v,pg_map,4.0
+a401:value:q663,p v,hgb_ratio,2.694320966910922
+a401:value:q663,p v,oracle_join,468
+a401:value:q663,b p u,pg_map,1.0
+a401:value:q663,b p u,hgb_ratio,1.0
+a401:value:q663,b p u,oracle_join,364
+a401:value:q663,p u v,pg_map,1.0
+a401:value:q663,p u v,hgb_ratio,1.0
+a401:value:q663,p u v,oracle_join,28
+a401:value:q663,b p u v,pg_map,1.0
+a401:value:q663,b p u v,hgb_ratio,76.78814755696128
+a401:value:q663,b p u v,oracle_join,525
+a401:value:q816,b u,pg_map,1.0
+a401:value:q816,b u,hgb_ratio,5.8635349048038625
+a401:value:q816,b u,oracle_join,113
+a401:value:q816,p u,pg_map,1.0
+a401:value:q816,p u,hgb_ratio,5.8635349048038625
+a401:value:q816,p u,oracle_join,183
+a401:value:q816,p v,pg_map,1728.0
+a401:value:q816,p v,hgb_ratio,10132.188315501075
+a401:value:q816,p v,oracle_join,2949
+a401:value:q816,b p u,pg_map,1.0
+a401:value:q816,b p u,hgb_ratio,5.8635349048038625
+a401:value:q816,b p u,oracle_join,12571
+a401:value:q816,p u v,pg_map,1.0
+a401:value:q816,p u v,hgb_ratio,5.8635349048038625
+a401:value:q816,p u v,oracle_join,17
+a401:value:q816,b p u v,pg_map,1.0
+a401:value:q816,b p u v,hgb_ratio,1031.9821432454798
+a401:value:q816,b p u v,oracle_join,953
+a401:value:q1790,b u,pg_map,1.0
+a401:value:q1790,b u,hgb_ratio,3.926781499647063
+a401:value:q1790,b u,oracle_join,57
+a401:value:q1790,p u,pg_map,1.0
+a401:value:q1790,p u,hgb_ratio,3.926781499647063
+a401:value:q1790,p u,oracle_join,14
+a401:value:q1790,p v,pg_map,47.0
+a401:value:q1790,p v,hgb_ratio,184.55873048341195
+a401:value:q1790,p v,oracle_join,3114
+a401:value:q1790,b p u,pg_map,1.0
+a401:value:q1790,b p u,hgb_ratio,3.926781499647063
+a401:value:q1790,b p u,oracle_join,798
+a401:value:q1790,p u v,pg_map,1.0
+a401:value:q1790,p u v,hgb_ratio,3.926781499647063
+a401:value:q1790,p u v,oracle_join,241
+a401:value:q1790,b p u v,pg_map,1.0
+a401:value:q1790,b p u v,hgb_ratio,4009.243911139651
+a401:value:q1790,b p u v,oracle_join,13737
+a401:value:q1689,b u,pg_map,23.0
+a401:value:q1689,b u,hgb_ratio,61.4086071927238
+a401:value:q1689,b u,oracle_join,1275
+a401:value:q1689,p u,pg_map,23.0
+a401:value:q1689,p u,hgb_ratio,61.4086071927238
+a401:value:q1689,p u,oracle_join,4262
+a401:value:q1689,p v,pg_map,8189.0
+a401:value:q1689,p v,hgb_ratio,21864.134100052834
+a401:value:q1689,p v,oracle_join,12479
+a401:value:q1689,b p u,pg_map,429.0
+a401:value:q1689,b p u,hgb_ratio,1145.404021116457
+a401:value:q1689,b p u,oracle_join,386991
+a401:value:q1689,p u v,pg_map,5.0
+a401:value:q1689,p u v,hgb_ratio,13.349697215809522
+a401:value:q1689,p u v,oracle_join,243
+a401:value:q1689,b p u v,pg_map,85.0
+a401:value:q1689,b p u v,hgb_ratio,11771.763004900837
+a401:value:q1689,b p u v,oracle_join,19854
+a401:value:q632,b u,pg_map,1.0
+a401:value:q632,b u,hgb_ratio,2.2482413167587714
+a401:value:q632,b u,oracle_join,14
+a401:value:q632,p u,pg_map,1.0
+a401:value:q632,p u,hgb_ratio,2.2482413167587714
+a401:value:q632,p u,oracle_join,39
+a401:value:q632,p v,pg_map,726.0
+a401:value:q632,p v,hgb_ratio,1632.223195966868
+a401:value:q632,p v,oracle_join,14343
+a401:value:q632,b p u,pg_map,1.0
+a401:value:q632,b p u,hgb_ratio,2.2482413167587714
+a401:value:q632,b p u,oracle_join,546
+a401:value:q632,p u v,pg_map,2.0
+a401:value:q632,p u v,hgb_ratio,4.496482633517543
+a401:value:q632,p u v,oracle_join,795
+a401:value:q632,b p u v,pg_map,1.0
+a401:value:q632,b p u v,hgb_ratio,3057.6081907919292
+a401:value:q632,b p u v,oracle_join,11130
+a401:value:q1698,b u,pg_map,1.0
+a401:value:q1698,b u,hgb_ratio,5.576680332011881
+a401:value:q1698,b u,oracle_join,93
+a401:value:q1698,p u,pg_map,1.0
+a401:value:q1698,p u,hgb_ratio,5.576680332011881
+a401:value:q1698,p u,oracle_join,565
+a401:value:q1698,p v,pg_map,39204.0
+a401:value:q1698,p v,hgb_ratio,218628.17573619378
+a401:value:q1698,p v,oracle_join,50108
+a401:value:q1698,b p u,pg_map,5.0
+a401:value:q1698,b p u,hgb_ratio,27.883401660059405
+a401:value:q1698,b p u,oracle_join,52545
+a401:value:q1698,p u v,pg_map,1.0
+a401:value:q1698,p u v,hgb_ratio,5.576680332011881
+a401:value:q1698,p u v,oracle_join,1994
+a401:value:q1698,b p u v,pg_map,5.0
+a401:value:q1698,b p u v,hgb_ratio,217200.54557119875
+a401:value:q1698,b p u v,oracle_join,185442
+a401:value:q1682,b u,pg_map,1.0
+a401:value:q1682,b u,hgb_ratio,3.197343327936211
+a401:value:q1682,b u,oracle_join,187
+a401:value:q1682,p u,pg_map,1.0
+a401:value:q1682,p u,hgb_ratio,3.197343327936211
+a401:value:q1682,p u,oracle_join,168
+a401:value:q1682,p v,pg_map,2156.0
+a401:value:q1682,p v,hgb_ratio,6893.4722150304715
+a401:value:q1682,p v,oracle_join,3186
+a401:value:q1682,b p u,pg_map,4.0
+a401:value:q1682,b p u,hgb_ratio,12.789373311744844
+a401:value:q1682,b p u,oracle_join,31416
+a401:value:q1682,p u v,pg_map,1.0
+a401:value:q1682,p u v,hgb_ratio,3.197343327936211
+a401:value:q1682,p u v,oracle_join,25
+a401:value:q1682,b p u v,pg_map,1.0
+a401:value:q1682,b p u v,hgb_ratio,2139.0226863893254
+a401:value:q1682,b p u v,oracle_join,4675
+a401:value:q480,b u,pg_map,1.0
+a401:value:q480,b u,hgb_ratio,10.331716677961875
+a401:value:q480,b u,oracle_join,155
+a401:value:q480,p u,pg_map,1.0
+a401:value:q480,p u,hgb_ratio,10.331716677961875
+a401:value:q480,p u,oracle_join,11
+a401:value:q480,p v,pg_map,12.0
+a401:value:q480,p v,hgb_ratio,123.9806001355425
+a401:value:q480,p v,oracle_join,1422
+a401:value:q480,b p u,pg_map,1.0
+a401:value:q480,b p u,hgb_ratio,10.331716677961875
+a401:value:q480,b p u,oracle_join,1705
+a401:value:q480,p u v,pg_map,1.0
+a401:value:q480,p u v,hgb_ratio,10.331716677961875
+a401:value:q480,p u v,oracle_join,180
+a401:value:q480,b p u v,pg_map,1.0
+a401:value:q480,b p u v,hgb_ratio,2572.597452812507
+a401:value:q480,b p u v,oracle_join,27900
+a401:value:q474,b u,pg_map,1.0
+a401:value:q474,b u,hgb_ratio,1.0
+a401:value:q474,b u,oracle_join,116
+a401:value:q474,p u,pg_map,1.0
+a401:value:q474,p u,hgb_ratio,1.0
+a401:value:q474,p u,oracle_join,1
+a401:value:q474,p v,pg_map,3.0
+a401:value:q474,p v,hgb_ratio,1.0
+a401:value:q474,p v,oracle_join,295
+a401:value:q474,b p u,pg_map,1.0
+a401:value:q474,b p u,hgb_ratio,1.0
+a401:value:q474,b p u,oracle_join,116
+a401:value:q474,p u v,pg_map,3.0
+a401:value:q474,p u v,hgb_ratio,1.0
+a401:value:q474,p u v,oracle_join,34
+a401:value:q474,b p u v,pg_map,1.0
+a401:value:q474,b p u v,hgb_ratio,14090.882778964497
+a401:value:q474,b p u v,oracle_join,3944

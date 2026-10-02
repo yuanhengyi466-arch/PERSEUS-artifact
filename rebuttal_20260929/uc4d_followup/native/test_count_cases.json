@@ -1,0 +1,2792 @@
+[
+  {
+    "qid": "s601:column:q868",
+    "row": [
+      "badges b,posts p",
+      "b.UserId=p.OwnerUserId",
+      "b.Date,<=,1409231668,p.Score,<=,22,p.ViewCount,>=,0,p.AnswerCount,<=,6,p.CreationDate,>=,1280255972",
+      "426103"
+    ],
+    "sql": "SELECT COUNT(*) FROM badges b,posts p WHERE b.UserId=p.OwnerUserId AND b.Date <= 1409231668 AND p.Score <= 22 AND p.ViewCount >= 0 AND p.AnswerCount <= 6 AND p.CreationDate >= 1280255972",
+    "role": "test",
+    "drift": "column",
+    "tables": 2,
+    "index": 868,
+    "sql_id": "1254e356c79d7272e57cb64c0efcf0efd141b5f29f6091bdd75d698da9915ac7",
+    "archived_truth": 426103.0,
+    "root_pg_rows": 698337.0,
+    "root_ratios": {
+      "residual_hgb": 1.1846078047336899,
+      "direct_hgb": 0.5327223819169757,
+      "residual_rf": 0.7052099919132232,
+      "direct_rf": 0.3770440514159606
+    },
+    "root_estimates": {
+      "pg_map": 698337.0,
+      "residual_hgb": 827255.4605343108,
+      "direct_hgb": 372019.7500207551,
+      "residual_rf": 492474.2301227045,
+      "direct_rf": 263303.8117336677
+    },
+    "truth": 426103
+  },
+  {
+    "qid": "s601:column:q2398",
+    "row": [
+      "comments c,postHistory ph,users u",
+      "u.Id=c.UserId,c.UserId=ph.UserId",
+      "c.Score,=,0,ph.PostHistoryTypeId,=,2,ph.CreationDate,<=,1408760564,u.DownVotes,>=,0,u.DownVotes,<=,55",
+      "8627433"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postHistory ph,users u WHERE u.Id=c.UserId AND c.UserId=ph.UserId AND c.Score = 0 AND ph.PostHistoryTypeId = 2 AND ph.CreationDate <= 1408760564 AND u.DownVotes >= 0 AND u.DownVotes <= 55",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 2398,
+    "sql_id": "495e2633b487d1cd91fafd250f527218ee45c0e5ea0ee885c120ab730f4d2b2a",
+    "archived_truth": 8627433.0,
+    "root_pg_rows": 56936169.0,
+    "root_ratios": {
+      "residual_hgb": 0.009176858701169589,
+      "direct_hgb": 0.0002460802409431187,
+      "residual_rf": 0.003524349337717155,
+      "direct_rf": 0.0003057877060535967
+    },
+    "root_estimates": {
+      "pg_map": 56936169.0,
+      "residual_hgb": 522495.1778989122,
+      "direct_hgb": 14010.866185898123,
+      "residual_rf": 200662.94950730202,
+      "direct_rf": 17410.380509989904
+    },
+    "truth": 8627433
+  },
+  {
+    "qid": "s601:column:q3363",
+    "row": [
+      "posts p,postLinks pl,postHistory ph",
+      "p.Id=pl.PostId,pl.PostId=ph.PostId",
+      "p.Score,<=,14,p.FavoriteCount,<=,56,pl.CreationDate,>=,1283264610,pl.CreationDate,<=,1408454231,ph.PostHistoryTypeId,=,2",
+      "4026"
+    ],
+    "sql": "SELECT COUNT(*) FROM posts p,postLinks pl,postHistory ph WHERE p.Id=pl.PostId AND pl.PostId=ph.PostId AND p.Score <= 14 AND p.FavoriteCount <= 56 AND pl.CreationDate >= 1283264610 AND pl.CreationDate <= 1408454231 AND ph.PostHistoryTypeId = 2",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3363,
+    "sql_id": "859743bffbcb246015b424bdd7f79bf988ce5a2fcf030175700c3d29a0c62e18",
+    "archived_truth": 4026.0,
+    "root_pg_rows": 1492.0,
+    "root_ratios": {
+      "residual_hgb": 0.8288588959107673,
+      "direct_hgb": 1.4585557794240027,
+      "residual_rf": 2.233435474941696,
+      "direct_rf": 1.0798505796039697
+    },
+    "root_estimates": {
+      "pg_map": 1492.0,
+      "residual_hgb": 1236.657472698865,
+      "direct_hgb": 2176.165222900612,
+      "residual_rf": 3332.28572861301,
+      "direct_rf": 1611.1370647691226
+    },
+    "truth": 4026
+  },
+  {
+    "qid": "s601:column:q4594",
+    "row": [
+      "comments c,postHistory ph,votes v",
+      "ph.PostId=c.PostId,ph.PostId=v.PostId",
+      "c.Score,=,0,ph.PostHistoryTypeId,=,2,ph.CreationDate,>=,1304105018,v.BountyAmount,>=,0,v.BountyAmount,<=,50",
+      "2979"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postHistory ph,votes v WHERE ph.PostId=c.PostId AND ph.PostId=v.PostId AND c.Score = 0 AND ph.PostHistoryTypeId = 2 AND ph.CreationDate >= 1304105018 AND v.BountyAmount >= 0 AND v.BountyAmount <= 50",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 4594,
+    "sql_id": "c084a725ec77b923ee24efe569d190b1aaadb74d9ecffa0c4adc05531e76eb51",
+    "archived_truth": 2979.0,
+    "root_pg_rows": 4132.0,
+    "root_ratios": {
+      "residual_hgb": 2.535702000179752,
+      "direct_hgb": 3.401128420809667,
+      "residual_rf": 2.301521362593846,
+      "direct_rf": 1.2674681962593697
+    },
+    "root_estimates": {
+      "pg_map": 4132.0,
+      "residual_hgb": 10477.520664742735,
+      "direct_hgb": 14053.462634785545,
+      "residual_rf": 9509.886270237772,
+      "direct_rf": 5237.178586943715
+    },
+    "truth": 2979
+  },
+  {
+    "qid": "s601:column:q7938",
+    "row": [
+      "tags t,posts p,users u,votes v,badges b",
+      "p.Id=t.ExcerptPostId,u.Id=v.UserId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "p.ViewCount,<=,2410,p.CreationDate,>=,1279574383,p.CreationDate,<=,1410554827,u.Views,<=,31,u.UpVotes,<=,42",
+      "117"
+    ],
+    "sql": "SELECT COUNT(*) FROM tags t,posts p,users u,votes v,badges b WHERE p.Id=t.ExcerptPostId AND u.Id=v.UserId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND p.ViewCount <= 2410 AND p.CreationDate >= 1279574383 AND p.CreationDate <= 1410554827 AND u.Views <= 31 AND u.UpVotes <= 42",
+    "role": "test",
+    "drift": "column",
+    "tables": 5,
+    "index": 7938,
+    "sql_id": "776b17dc3f8ea559ead2bfacae2815b09a730727e444ace72e7102d5e702bf43",
+    "archived_truth": 117.0,
+    "root_pg_rows": 7828.0,
+    "root_ratios": {
+      "residual_hgb": 0.13442474827598805,
+      "direct_hgb": 0.12859682075358664,
+      "residual_rf": 0.2681384732068534,
+      "direct_rf": 0.23317826454371463
+    },
+    "root_estimates": {
+      "pg_map": 7828.0,
+      "residual_hgb": 1052.2769295044345,
+      "direct_hgb": 1006.6559128590761,
+      "residual_rf": 2098.9879682632486,
+      "direct_rf": 1825.3194548481981
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:column:q2926",
+    "row": [
+      "comments c,votes v,users u",
+      "u.Id=c.UserId,c.PostId=v.PostId",
+      "v.CreationDate,>=,1279584000,v.CreationDate,<=,1410480000,u.DownVotes,>=,0,u.CreationDate,>=,1286900956,u.CreationDate,<=,1410074729",
+      "571146"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,votes v,users u WHERE u.Id=c.UserId AND c.PostId=v.PostId AND v.CreationDate >= 1279584000 AND v.CreationDate <= 1410480000 AND u.DownVotes >= 0 AND u.CreationDate >= 1286900956 AND u.CreationDate <= 1410074729",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 2926,
+    "sql_id": "1d81067e87444f2bbb5438748fe259aaea6f675f947a18c3e19dacf3471d99a3",
+    "archived_truth": 571146.0,
+    "root_pg_rows": 1293915.0,
+    "root_ratios": {
+      "residual_hgb": 0.022318149101470952,
+      "direct_hgb": 0.13700975886905317,
+      "residual_rf": 0.032956464689587475,
+      "direct_rf": 0.18365590124826214
+    },
+    "root_estimates": {
+      "pg_map": 1293915.0,
+      "residual_hgb": 28877.787894629786,
+      "direct_hgb": 177278.98214705093,
+      "residual_rf": 42642.86400882758,
+      "direct_rf": 237635.12546364512
+    },
+    "truth": 571146
+  },
+  {
+    "qid": "s601:column:q6604",
+    "row": [
+      "postHistory ph,posts p,votes v,users u",
+      "p.Id=ph.PostId,u.Id=p.OwnerUserId,p.Id=v.PostId",
+      "p.AnswerCount,<=,7,p.CommentCount,>=,0,p.CommentCount,<=,14,p.CreationDate,>=,1288968841,u.Views,>=,0",
+      "780294"
+    ],
+    "sql": "SELECT COUNT(*) FROM postHistory ph,posts p,votes v,users u WHERE p.Id=ph.PostId AND u.Id=p.OwnerUserId AND p.Id=v.PostId AND p.AnswerCount <= 7 AND p.CommentCount >= 0 AND p.CommentCount <= 14 AND p.CreationDate >= 1288968841 AND u.Views >= 0",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6604,
+    "sql_id": "d3e01618aa7a0145be6ef793be124a748d9416640c84d6e43e45ca4d751917b7",
+    "archived_truth": 780294.0,
+    "root_pg_rows": 470781.0,
+    "root_ratios": {
+      "residual_hgb": 1.7013286638407863,
+      "direct_hgb": 1.0078203786550308,
+      "residual_rf": 1.1870697407702646,
+      "direct_rf": 0.7691559835038542
+    },
+    "root_estimates": {
+      "pg_map": 470781.0,
+      "residual_hgb": 800953.2096916292,
+      "direct_hgb": 474462.685683594,
+      "residual_rf": 558849.879629566,
+      "direct_rf": 362104.023069928
+    },
+    "truth": 780294
+  },
+  {
+    "qid": "s601:column:q7197",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,users u",
+      "p.Id=pl.RelatedPostId,pl.RelatedPostId=c.PostId,pl.RelatedPostId=ph.PostId,u.Id=c.UserId",
+      "c.CreationDate,>=,1278798609,p.ViewCount,>=,0,pl.CreationDate,>=,1304030581,u.CreationDate,>=,1280183120,u.CreationDate,<=,1410385838",
+      "196592"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,users u WHERE p.Id=pl.RelatedPostId AND pl.RelatedPostId=c.PostId AND pl.RelatedPostId=ph.PostId AND u.Id=c.UserId AND c.CreationDate >= 1278798609 AND p.ViewCount >= 0 AND pl.CreationDate >= 1304030581 AND u.CreationDate >= 1280183120 AND u.CreationDate <= 1410385838",
+    "role": "test",
+    "drift": "column",
+    "tables": 5,
+    "index": 7197,
+    "sql_id": "41df7eb4589d477a0808c4dcfb5fa4baa24bcfa2a31dc644d757e5ee7390da0d",
+    "archived_truth": 196592.0,
+    "root_pg_rows": 29631.0,
+    "root_ratios": {
+      "residual_hgb": 0.8134014714087388,
+      "direct_hgb": 0.7262629463080196,
+      "residual_rf": 0.6093050658160919,
+      "direct_rf": 0.2853298968052153
+    },
+    "root_estimates": {
+      "pg_map": 29631.0,
+      "residual_hgb": 24101.89899931234,
+      "direct_hgb": 21519.89736205293,
+      "residual_rf": 18054.31840519662,
+      "direct_rf": 8454.610172235334
+    },
+    "truth": 196592
+  },
+  {
+    "qid": "s601:column:q5675",
+    "row": [
+      "comments c,votes v,badges b,users u",
+      "u.Id=c.UserId,u.Id=v.UserId,u.Id=b.UserId",
+      "v.BountyAmount,>=,0,v.BountyAmount,<=,50,u.Views,>=,0,u.Views,<=,38,u.CreationDate,<=,1406770520",
+      "45488"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,votes v,badges b,users u WHERE u.Id=c.UserId AND u.Id=v.UserId AND u.Id=b.UserId AND v.BountyAmount >= 0 AND v.BountyAmount <= 50 AND u.Views >= 0 AND u.Views <= 38 AND u.CreationDate <= 1406770520",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 5675,
+    "sql_id": "e07246c739518679ba3ed551db2936bfea46cc1746cc952373e245d422287e97",
+    "archived_truth": 45488.0,
+    "root_pg_rows": 55685.0,
+    "root_ratios": {
+      "residual_hgb": 0.7337472984481328,
+      "direct_hgb": 0.7137778820437447,
+      "residual_rf": 0.45270619371481624,
+      "direct_rf": 0.6080720682622865
+    },
+    "root_estimates": {
+      "pg_map": 55685.0,
+      "residual_hgb": 40858.718314084275,
+      "direct_hgb": 39746.72136160592,
+      "residual_rf": 25208.94439700954,
+      "direct_rf": 33860.49312118543
+    },
+    "truth": 45488
+  },
+  {
+    "qid": "s601:column:q3446",
+    "row": [
+      "posts p,postLinks pl,postHistory ph",
+      "p.Id=pl.PostId,pl.PostId=ph.PostId",
+      "p.Score,<=,67,p.CommentCount,>=,0,p.FavoriteCount,>=,0,p.FavoriteCount,<=,113,ph.PostHistoryTypeId,=,33",
+      "264"
+    ],
+    "sql": "SELECT COUNT(*) FROM posts p,postLinks pl,postHistory ph WHERE p.Id=pl.PostId AND pl.PostId=ph.PostId AND p.Score <= 67 AND p.CommentCount >= 0 AND p.FavoriteCount >= 0 AND p.FavoriteCount <= 113 AND ph.PostHistoryTypeId = 33",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3446,
+    "sql_id": "b3f17745655d66d444a5cac42fdf8097943b967c6f0dcf7bcd65b85e972b3710",
+    "archived_truth": 264.0,
+    "root_pg_rows": 20.0,
+    "root_ratios": {
+      "residual_hgb": 52.39793875247271,
+      "direct_hgb": 44.25374243551464,
+      "residual_rf": 24.917854445771063,
+      "direct_rf": 31.986573504911696
+    },
+    "root_estimates": {
+      "pg_map": 20.0,
+      "residual_hgb": 1047.9587750494543,
+      "direct_hgb": 885.0748487102927,
+      "residual_rf": 498.3570889154213,
+      "direct_rf": 639.7314700982339
+    },
+    "truth": 264
+  },
+  {
+    "qid": "s601:column:q6115",
+    "row": [
+      "comments c,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "c.CreationDate,<=,1410388030,ph.PostHistoryTypeId,=,4,u.Reputation,>=,1,u.DownVotes,>=,0,u.DownVotes,<=,0",
+      "1455671"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=ph.UserId AND u.Id=b.UserId AND c.CreationDate <= 1410388030 AND ph.PostHistoryTypeId = 4 AND u.Reputation >= 1 AND u.DownVotes >= 0 AND u.DownVotes <= 0",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6115,
+    "sql_id": "e9de10be5aaa7c165e694b92b274ee0435668d7b33e51e9619b1e1bc4372ddb0",
+    "archived_truth": 1455671.0,
+    "root_pg_rows": 1191158915.0,
+    "root_ratios": {
+      "residual_hgb": 0.008761060312713733,
+      "direct_hgb": 6.772908558936127e-05,
+      "residual_rf": 0.0042503329807863765,
+      "direct_rf": 7.905560845181417e-05
+    },
+    "root_estimates": {
+      "pg_map": 1191158915.0,
+      "residual_hgb": 10435815.096341651,
+      "direct_hgb": 80676.1041045657,
+      "residual_rf": 5062822.021782216,
+      "direct_rf": 94167.79278812779
+    },
+    "truth": 1455671
+  },
+  {
+    "qid": "s601:column:q1080",
+    "row": [
+      "comments c,posts p,postLinks pl",
+      "p.Id=c.PostId,p.Id=pl.PostId",
+      "c.CreationDate,>=,1282046719,p.AnswerCount,>=,0,p.AnswerCount,<=,3,pl.LinkTypeId,=,3,pl.CreationDate,>=,1304352115",
+      "2224"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl WHERE p.Id=c.PostId AND p.Id=pl.PostId AND c.CreationDate >= 1282046719 AND p.AnswerCount >= 0 AND p.AnswerCount <= 3 AND pl.LinkTypeId = 3 AND pl.CreationDate >= 1304352115",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 1080,
+    "sql_id": "44016ece9d90ef595ec958117535a09ca7beca16a673d8b229bb01e71e1f84f0",
+    "archived_truth": 2224.0,
+    "root_pg_rows": 737.0,
+    "root_ratios": {
+      "residual_hgb": 1.474280645521898,
+      "direct_hgb": 4.520763402606014,
+      "residual_rf": 2.6628793818184278,
+      "direct_rf": 5.970601783238717
+    },
+    "root_estimates": {
+      "pg_map": 737.0,
+      "residual_hgb": 1086.5448357496389,
+      "direct_hgb": 3331.8026277206322,
+      "residual_rf": 1962.5421044001812,
+      "direct_rf": 4400.333514246934
+    },
+    "truth": 2224
+  },
+  {
+    "qid": "s601:column:q5947",
+    "row": [
+      "comments c,postLinks pl,postHistory ph,votes v",
+      "pl.PostId=c.PostId,c.PostId=ph.PostId,ph.PostId=v.PostId",
+      "pl.LinkTypeId,=,1,pl.CreationDate,<=,1407146179,v.VoteTypeId,=,2,v.CreationDate,>=,1280102400,v.CreationDate,<=,1409097600",
+      "1271598"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,postHistory ph,votes v WHERE pl.PostId=c.PostId AND c.PostId=ph.PostId AND ph.PostId=v.PostId AND pl.LinkTypeId = 1 AND pl.CreationDate <= 1407146179 AND v.VoteTypeId = 2 AND v.CreationDate >= 1280102400 AND v.CreationDate <= 1409097600",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 5947,
+    "sql_id": "a23ef66cb2de33f726a4d8d872a30f94e047229c6818fbc91bd6bbd05a1cc21f",
+    "archived_truth": 1271598.0,
+    "root_pg_rows": 1277999.0,
+    "root_ratios": {
+      "residual_hgb": 0.14611491719780345,
+      "direct_hgb": 0.10156908854964394,
+      "residual_rf": 0.14826213394850551,
+      "direct_rf": 0.06095786397700363
+    },
+    "root_estimates": {
+      "pg_map": 1277999.0,
+      "residual_hgb": 186734.71806387563,
+      "direct_hgb": 129805.19359735641,
+      "residual_rf": 189478.8589240561,
+      "direct_rf": 77904.08920474666
+    },
+    "truth": 1271598
+  },
+  {
+    "qid": "s601:column:q4773",
+    "row": [
+      "comments c,posts p,postLinks pl,votes v",
+      "p.Id=c.PostId,c.PostId=pl.PostId,pl.PostId=v.PostId",
+      "c.Score,=,2,p.PostTypeId,=,1,p.Score,<=,22,p.ViewCount,>=,0,pl.LinkTypeId,=,1",
+      "13759"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,votes v WHERE p.Id=c.PostId AND c.PostId=pl.PostId AND pl.PostId=v.PostId AND c.Score = 2 AND p.PostTypeId = 1 AND p.Score <= 22 AND p.ViewCount >= 0 AND pl.LinkTypeId = 1",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 4773,
+    "sql_id": "c006c55c517e44c6cd6c7ce047474a2473e6fd941218a4b9f2f95686384e3628",
+    "archived_truth": 13759.0,
+    "root_pg_rows": 721.0,
+    "root_ratios": {
+      "residual_hgb": 8.623160689029785,
+      "direct_hgb": 11.629761661192433,
+      "residual_rf": 3.8951465253502597,
+      "direct_rf": 8.51810756234545
+    },
+    "root_estimates": {
+      "pg_map": 721.0,
+      "residual_hgb": 6217.298856790475,
+      "direct_hgb": 8385.058157719744,
+      "residual_rf": 2808.4006447775373,
+      "direct_rf": 6141.55555245107
+    },
+    "truth": 13759
+  },
+  {
+    "qid": "s601:column:q3498",
+    "row": [
+      "posts p,postLinks pl,postHistory ph",
+      "p.Id=pl.PostId,pl.PostId=ph.PostId",
+      "p.PostTypeId,=,1,p.ViewCount,=,97,p.CommentCount,>=,0,pl.CreationDate,>=,1311612644,ph.PostHistoryTypeId,=,2",
+      "38"
+    ],
+    "sql": "SELECT COUNT(*) FROM posts p,postLinks pl,postHistory ph WHERE p.Id=pl.PostId AND pl.PostId=ph.PostId AND p.PostTypeId = 1 AND p.ViewCount = 97 AND p.CommentCount >= 0 AND pl.CreationDate >= 1311612644 AND ph.PostHistoryTypeId = 2",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3498,
+    "sql_id": "b1b5e5943e5f03c07155ff97b718c0a0fd9ee84caed9b6d8ead8af4e696053ec",
+    "archived_truth": 38.0,
+    "root_pg_rows": 6.0,
+    "root_ratios": {
+      "residual_hgb": 12.943083478163912,
+      "direct_hgb": 32.022981628433506,
+      "residual_rf": 10.258298873692956,
+      "direct_rf": 30.710539429881475
+    },
+    "root_estimates": {
+      "pg_map": 6.0,
+      "residual_hgb": 77.65850086898347,
+      "direct_hgb": 192.13788977060102,
+      "residual_rf": 61.54979324215773,
+      "direct_rf": 184.26323657928884
+    },
+    "truth": 38
+  },
+  {
+    "qid": "s601:column:q8233",
+    "row": [
+      "comments c,posts p,tags t,postHistory ph,badges b,users u",
+      "u.Id=p.OwnerUserId,p.OwnerUserId=b.UserId,p.OwnerUserId=c.UserId,p.OwnerUserId=ph.UserId,p.Id=t.ExcerptPostId",
+      "p.CommentCount,>=,0,p.CommentCount,<=,15,p.CreationDate,>=,1279613611,t.Count,<=,463,b.Date,<=,1410465351",
+      "2498710619354"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,tags t,postHistory ph,badges b,users u WHERE u.Id=p.OwnerUserId AND p.OwnerUserId=b.UserId AND p.OwnerUserId=c.UserId AND p.OwnerUserId=ph.UserId AND p.Id=t.ExcerptPostId AND p.CommentCount >= 0 AND p.CommentCount <= 15 AND p.CreationDate >= 1279613611 AND t.Count <= 463 AND b.Date <= 1410465351",
+    "role": "test",
+    "drift": "column",
+    "tables": 6,
+    "index": 8233,
+    "sql_id": "89d27c852c432cc3776ec91d548508ff2d3ae3d0887e28e263ad148c844756de",
+    "archived_truth": 2498710619354.0,
+    "root_pg_rows": 2268316049.0,
+    "root_ratios": {
+      "residual_hgb": 0.30323868855008956,
+      "direct_hgb": 0.00030381042800434166,
+      "residual_rf": 0.10017959905030845,
+      "direct_rf": 0.00017696189742261398
+    },
+    "root_estimates": {
+      "pg_map": 2268316049.0,
+      "residual_hgb": 687841183.9158807,
+      "direct_hgb": 689138.0696958073,
+      "residual_rf": 227238992.3081998,
+      "direct_rf": 401405.51198520703
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:column:q3750",
+    "row": [
+      "posts p,postLinks pl,users u",
+      "p.Id=pl.PostId,p.OwnerUserId=u.Id",
+      "p.PostTypeId,=,1,p.ViewCount,>=,0,p.AnswerCount,<=,4,p.FavoriteCount,<=,21,u.CreationDate,<=,1410386356",
+      "4174"
+    ],
+    "sql": "SELECT COUNT(*) FROM posts p,postLinks pl,users u WHERE p.Id=pl.PostId AND p.OwnerUserId=u.Id AND p.PostTypeId = 1 AND p.ViewCount >= 0 AND p.AnswerCount <= 4 AND p.FavoriteCount <= 21 AND u.CreationDate <= 1410386356",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3750,
+    "sql_id": "fb75d644143b4e43f48fb34d7d22b047a89a54462ab8a3a09a46ce97ca3f727d",
+    "archived_truth": 4174.0,
+    "root_pg_rows": 155.0,
+    "root_ratios": {
+      "residual_hgb": 5.852837525691124,
+      "direct_hgb": 5.120807701342072,
+      "residual_rf": 7.758333021382943,
+      "direct_rf": 4.106442663574553
+    },
+    "root_estimates": {
+      "pg_map": 155.0,
+      "residual_hgb": 907.1898164821241,
+      "direct_hgb": 793.725193708021,
+      "residual_rf": 1202.5416183143561,
+      "direct_rf": 636.4986128540558
+    },
+    "truth": 4174
+  },
+  {
+    "qid": "s601:column:q6675",
+    "row": [
+      "postHistory ph,posts p,votes v,users u",
+      "p.Id=ph.PostId,u.Id=p.OwnerUserId,p.Id=v.PostId",
+      "p.Score,>=,0,u.Reputation,>=,1,u.Reputation,<=,277,u.CreationDate,>=,1293095408,u.CreationDate,<=,1410228119",
+      "480835"
+    ],
+    "sql": "SELECT COUNT(*) FROM postHistory ph,posts p,votes v,users u WHERE p.Id=ph.PostId AND u.Id=p.OwnerUserId AND p.Id=v.PostId AND p.Score >= 0 AND u.Reputation >= 1 AND u.Reputation <= 277 AND u.CreationDate >= 1293095408 AND u.CreationDate <= 1410228119",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6675,
+    "sql_id": "31a736e5335019392a6baa5ae961a23ea0601cf151109ebee87570232d6c1e77",
+    "archived_truth": 480835.0,
+    "root_pg_rows": 975753.0,
+    "root_ratios": {
+      "residual_hgb": 0.02839767748565862,
+      "direct_hgb": 0.250822943594401,
+      "residual_rf": 0.030969395829093208,
+      "direct_rf": 0.24721821181468914
+    },
+    "root_estimates": {
+      "pg_map": 975753.0,
+      "residual_hgb": 27709.118999663857,
+      "direct_hgb": 244741.23968106756,
+      "residual_rf": 30218.480888425183,
+      "direct_rf": 241223.91183281838
+    },
+    "truth": 480835
+  },
+  {
+    "qid": "s601:column:q3137",
+    "row": [
+      "comments c,badges b,users u",
+      "u.Id=c.UserId,c.UserId=b.UserId",
+      "c.Score,=,0,c.CreationDate,>=,1284476716,u.Reputation,>=,1,u.Reputation,<=,391,u.CreationDate,<=,1407252207",
+      "296228"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,badges b,users u WHERE u.Id=c.UserId AND c.UserId=b.UserId AND c.Score = 0 AND c.CreationDate >= 1284476716 AND u.Reputation >= 1 AND u.Reputation <= 391 AND u.CreationDate <= 1407252207",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3137,
+    "sql_id": "1317426fff79e7087e175d191490a3ecd8bbb3bd2e08fe9914a33f202408539d",
+    "archived_truth": 296228.0,
+    "root_pg_rows": 10788225.0,
+    "root_ratios": {
+      "residual_hgb": 0.011810014684091846,
+      "direct_hgb": 0.009180308383995483,
+      "residual_rf": 0.018932945823112224,
+      "direct_rf": 0.019269528361153886
+    },
+    "root_estimates": {
+      "pg_map": 10788225.0,
+      "residual_hgb": 127409.09566528676,
+      "direct_hgb": 99039.23241592967,
+      "residual_rf": 204252.87945254488,
+      "direct_rf": 207884.00760400938
+    },
+    "truth": 296228
+  },
+  {
+    "qid": "s601:column:q6950",
+    "row": [
+      "postHistory ph,votes v,users u,badges b",
+      "u.Id=ph.UserId,u.Id=v.UserId,u.Id=b.UserId",
+      "ph.PostHistoryTypeId,=,2,ph.CreationDate,<=,1409245222,v.BountyAmount,>=,0,v.CreationDate,<=,1409788800,u.CreationDate,>=,1280716297",
+      "22424310"
+    ],
+    "sql": "SELECT COUNT(*) FROM postHistory ph,votes v,users u,badges b WHERE u.Id=ph.UserId AND u.Id=v.UserId AND u.Id=b.UserId AND ph.PostHistoryTypeId = 2 AND ph.CreationDate <= 1409245222 AND v.BountyAmount >= 0 AND v.CreationDate <= 1409788800 AND u.CreationDate >= 1280716297",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6950,
+    "sql_id": "d9d95bd79c709349631a3ff43ac473d701c20c6158235b73331a303a22b0acef",
+    "archived_truth": 22424310.0,
+    "root_pg_rows": 21504.0,
+    "root_ratios": {
+      "residual_hgb": 1.4468876488458073,
+      "direct_hgb": 1.043217332881508,
+      "residual_rf": 1.042563559948482,
+      "direct_rf": 0.9257357462368658
+    },
+    "root_estimates": {
+      "pg_map": 21504.0,
+      "residual_hgb": 31113.87200078024,
+      "direct_hgb": 22433.345526283945,
+      "residual_rf": 22419.286793132156,
+      "direct_rf": 19907.021487077564
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:column:q3003",
+    "row": [
+      "comments c,votes v,users u",
+      "u.Id=c.UserId,c.PostId=v.PostId",
+      "c.Score,=,0,v.VoteTypeId,=,2,v.CreationDate,>=,1279497600,u.CreationDate,>=,1283255006,u.CreationDate,<=,1409177890",
+      "339828"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,votes v,users u WHERE u.Id=c.UserId AND c.PostId=v.PostId AND c.Score = 0 AND v.VoteTypeId = 2 AND v.CreationDate >= 1279497600 AND u.CreationDate >= 1283255006 AND u.CreationDate <= 1409177890",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3003,
+    "sql_id": "1225d8cee59faa463590802be59e486e6819d8616279752f6c974ea6514f9a9f",
+    "archived_truth": 339828.0,
+    "root_pg_rows": 793426.0,
+    "root_ratios": {
+      "residual_hgb": 0.013693317588946144,
+      "direct_hgb": 0.061166844924869575,
+      "residual_rf": 0.07238362763240871,
+      "direct_rf": 0.06389441056145176
+    },
+    "root_estimates": {
+      "pg_map": 793426.0,
+      "residual_hgb": 10864.634201327182,
+      "direct_hgb": 48531.365101359566,
+      "residual_rf": 57431.05213787152,
+      "direct_rf": 50695.48659413042
+    },
+    "truth": 339828
+  },
+  {
+    "qid": "s601:column:q207",
+    "row": [
+      "comments c,posts p",
+      "c.PostId=p.Id",
+      "c.Score,=,8,p.PostTypeId,=,1,p.Score,<=,21,p.CommentCount,<=,11,p.CreationDate,<=,1409781681",
+      "53"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p WHERE c.PostId=p.Id AND c.Score = 8 AND p.PostTypeId = 1 AND p.Score <= 21 AND p.CommentCount <= 11 AND p.CreationDate <= 1409781681",
+    "role": "test",
+    "drift": "column",
+    "tables": 2,
+    "index": 207,
+    "sql_id": "60b1d3c5b448696c7d36c5b1ff659d5bd9455f02300daf2ef4528e58da67a541",
+    "archived_truth": 53.0,
+    "root_pg_rows": 63.0,
+    "root_ratios": {
+      "residual_hgb": 4.22144203778044,
+      "direct_hgb": 7.444708087959653,
+      "residual_rf": 2.714931295422715,
+      "direct_rf": 6.072014588394201
+    },
+    "root_estimates": {
+      "pg_map": 63.0,
+      "residual_hgb": 265.9508483801677,
+      "direct_hgb": 469.01660954145814,
+      "residual_rf": 171.04067161163107,
+      "direct_rf": 382.53691906883466
+    },
+    "truth": 53
+  },
+  {
+    "qid": "s601:column:q7889",
+    "row": [
+      "tags t,posts p,users u,postHistory ph,badges b",
+      "p.Id=t.ExcerptPostId,u.Id=ph.UserId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "t.Count,>=,4,t.Count,<=,248,p.CommentCount,>=,0,u.Reputation,>=,1,u.DownVotes,>=,0",
+      "285026094"
+    ],
+    "sql": "SELECT COUNT(*) FROM tags t,posts p,users u,postHistory ph,badges b WHERE p.Id=t.ExcerptPostId AND u.Id=ph.UserId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND t.Count >= 4 AND t.Count <= 248 AND p.CommentCount >= 0 AND u.Reputation >= 1 AND u.DownVotes >= 0",
+    "role": "test",
+    "drift": "column",
+    "tables": 5,
+    "index": 7889,
+    "sql_id": "a3a5b0f212e86522f479b731f6d705d0472a1e4be535f9af8d13cfc96652ddbd",
+    "archived_truth": 285026094.0,
+    "root_pg_rows": 2998767.0,
+    "root_ratios": {
+      "residual_hgb": 0.026865368506878352,
+      "direct_hgb": 0.02845330092604315,
+      "residual_rf": 0.020442890750563696,
+      "direct_rf": 0.0542364596768411
+    },
+    "root_estimates": {
+      "pg_map": 2998767.0,
+      "residual_hgb": 80562.98052126607,
+      "direct_hgb": 85324.81985808763,
+      "residual_rf": 61303.46616739564,
+      "direct_rf": 162642.50547574175
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:column:q66",
+    "row": [
+      "comments c,posts p",
+      "c.PostId=p.Id",
+      "c.Score,=,0,p.Score,=,1,p.ViewCount,>=,0,p.ViewCount,<=,5803,p.AnswerCount,<=,9",
+      "15612"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p WHERE c.PostId=p.Id AND c.Score = 0 AND p.Score = 1 AND p.ViewCount >= 0 AND p.ViewCount <= 5803 AND p.AnswerCount <= 9",
+    "role": "test",
+    "drift": "column",
+    "tables": 2,
+    "index": 66,
+    "sql_id": "dd5bb577e224c0412fa3e03b638269909f17e06113539ee99e40a49bff5d0619",
+    "archived_truth": 15612.0,
+    "root_pg_rows": 7287.0,
+    "root_ratios": {
+      "residual_hgb": 2.7657626256541357,
+      "direct_hgb": 2.371043548586166,
+      "residual_rf": 2.548537279364436,
+      "direct_rf": 2.658789422490673
+    },
+    "root_estimates": {
+      "pg_map": 7287.0,
+      "residual_hgb": 20154.112253141688,
+      "direct_hgb": 17277.79433854739,
+      "residual_rf": 18571.191154728647,
+      "direct_rf": 19374.598521689535
+    },
+    "truth": 15612
+  },
+  {
+    "qid": "s601:column:q8353",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,votes v,users u",
+      "p.Id=pl.PostId,p.Id=c.PostId,p.Id=ph.PostId,p.Id=v.PostId,u.Id=p.OwnerUserId",
+      "p.CreationDate,>=,1289338881,p.CreationDate,<=,1410242038,v.CreationDate,>=,1279584000,v.CreationDate,<=,1410480000,u.Views,=,14",
+      "16598"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,votes v,users u WHERE p.Id=pl.PostId AND p.Id=c.PostId AND p.Id=ph.PostId AND p.Id=v.PostId AND u.Id=p.OwnerUserId AND p.CreationDate >= 1289338881 AND p.CreationDate <= 1410242038 AND v.CreationDate >= 1279584000 AND v.CreationDate <= 1410480000 AND u.Views = 14",
+    "role": "test",
+    "drift": "column",
+    "tables": 6,
+    "index": 8353,
+    "sql_id": "0efaa35b07703b815e9bf803e92a33b8417989ce232aaf13e6cff56e2e333362",
+    "archived_truth": 16598.0,
+    "root_pg_rows": 937.0,
+    "root_ratios": {
+      "residual_hgb": 0.24120466896999235,
+      "direct_hgb": 0.10803352940052698,
+      "residual_rf": 0.8350003442243465,
+      "direct_rf": 0.2946539349557753
+    },
+    "root_estimates": {
+      "pg_map": 937.0,
+      "residual_hgb": 226.00877482488283,
+      "direct_hgb": 101.22741704829377,
+      "residual_rf": 782.3953225382127,
+      "direct_rf": 276.09073705356144
+    },
+    "truth": 16598
+  },
+  {
+    "qid": "s601:column:q6565",
+    "row": [
+      "postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "pl.LinkTypeId,=,1,pl.CreationDate,>=,1309418335,u.Views,<=,11,b.Date,>=,1284122058,b.Date,<=,1408969811",
+      "10742"
+    ],
+    "sql": "SELECT COUNT(*) FROM postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND pl.LinkTypeId = 1 AND pl.CreationDate >= 1309418335 AND u.Views <= 11 AND b.Date >= 1284122058 AND b.Date <= 1408969811",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6565,
+    "sql_id": "4965ef1a52976578fa8a6e0960abc9b0fb9897dacbe762330b528546bc6851a8",
+    "archived_truth": 10742.0,
+    "root_pg_rows": 303695.0,
+    "root_ratios": {
+      "residual_hgb": 1.0756372051217848,
+      "direct_hgb": 0.912477948774717,
+      "residual_rf": 0.7019493676209408,
+      "direct_rf": 0.5453246349882723
+    },
+    "root_estimates": {
+      "pg_map": 303695.0,
+      "residual_hgb": 326665.64100946044,
+      "direct_hgb": 277114.9906531377,
+      "residual_rf": 213178.51319964163,
+      "direct_rf": 165612.36502276338
+    },
+    "truth": 10742
+  },
+  {
+    "qid": "s601:column:q3626",
+    "row": [
+      "posts p,postLinks pl,users u",
+      "p.Id=pl.PostId,p.OwnerUserId=u.Id",
+      "p.ViewCount,<=,5704,p.FavoriteCount,<=,9,pl.CreationDate,>=,1286651174,pl.CreationDate,<=,1400031774,u.UpVotes,>=,0",
+      "3513"
+    ],
+    "sql": "SELECT COUNT(*) FROM posts p,postLinks pl,users u WHERE p.Id=pl.PostId AND p.OwnerUserId=u.Id AND p.ViewCount <= 5704 AND p.FavoriteCount <= 9 AND pl.CreationDate >= 1286651174 AND pl.CreationDate <= 1400031774 AND u.UpVotes >= 0",
+    "role": "test",
+    "drift": "column",
+    "tables": 3,
+    "index": 3626,
+    "sql_id": "3459f1d89cced740771c8bb5f39c71a2b18cefbcb673d0f949fbbbbcffec344a",
+    "archived_truth": 3513.0,
+    "root_pg_rows": 579.0,
+    "root_ratios": {
+      "residual_hgb": 0.5889955965117706,
+      "direct_hgb": 1.4479554417505416,
+      "residual_rf": 1.7051434101797123,
+      "direct_rf": 2.3173607170836115
+    },
+    "root_estimates": {
+      "pg_map": 579.0,
+      "residual_hgb": 341.0284503803152,
+      "direct_hgb": 838.3662007735636,
+      "residual_rf": 987.2780344940534,
+      "direct_rf": 1341.751855191411
+    },
+    "truth": 3513
+  },
+  {
+    "qid": "s601:column:q396",
+    "row": [
+      "badges b,users u",
+      "b.UserId=u.Id",
+      "b.Date,>=,1279694292,b.Date,<=,1409798138,u.DownVotes,>=,0,u.DownVotes,<=,7,u.UpVotes,<=,62",
+      "63895"
+    ],
+    "sql": "SELECT COUNT(*) FROM badges b,users u WHERE b.UserId=u.Id AND b.Date >= 1279694292 AND b.Date <= 1409798138 AND u.DownVotes >= 0 AND u.DownVotes <= 7 AND u.UpVotes <= 62",
+    "role": "test",
+    "drift": "column",
+    "tables": 2,
+    "index": 396,
+    "sql_id": "598c8ac9465e153795071d4a3a3ee8001dca44e283d333d930820fb93569968e",
+    "archived_truth": 63895.0,
+    "root_pg_rows": 77583.0,
+    "root_ratios": {
+      "residual_hgb": 0.3735818959495133,
+      "direct_hgb": 0.36289857787177165,
+      "residual_rf": 0.3560927521244278,
+      "direct_rf": 0.4891669364746922
+    },
+    "root_estimates": {
+      "pg_map": 77583.0,
+      "residual_hgb": 28983.60423345109,
+      "direct_hgb": 28154.76036702566,
+      "residual_rf": 27626.743988069484,
+      "direct_rf": 37951.03843251605
+    },
+    "truth": 63895
+  },
+  {
+    "qid": "s601:column:q6894",
+    "row": [
+      "postHistory ph,votes v,users u,badges b",
+      "u.Id=ph.UserId,u.Id=v.UserId,u.Id=b.UserId",
+      "v.CreationDate,=,1344902400,u.Views,>=,0,u.CreationDate,<=,1406928002,b.Date,>=,1279578846,b.Date,<=,1410633971",
+      "11153880"
+    ],
+    "sql": "SELECT COUNT(*) FROM postHistory ph,votes v,users u,badges b WHERE u.Id=ph.UserId AND u.Id=v.UserId AND u.Id=b.UserId AND v.CreationDate = 1344902400 AND u.Views >= 0 AND u.CreationDate <= 1406928002 AND b.Date >= 1279578846 AND b.Date <= 1410633971",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6894,
+    "sql_id": "cf5a8a43308fcb33c307d47b5b585a3f3f5fa3e2e66a0fb22676b119b3b771cb",
+    "archived_truth": 11153880.0,
+    "root_pg_rows": 6976.0,
+    "root_ratios": {
+      "residual_hgb": 0.11578718260929947,
+      "direct_hgb": 0.14022123357013305,
+      "residual_rf": 0.21824447314823991,
+      "direct_rf": 0.08305734474171256
+    },
+    "root_estimates": {
+      "pg_map": 6976.0,
+      "residual_hgb": 807.7313858824731,
+      "direct_hgb": 978.1833253852482,
+      "residual_rf": 1522.4734446821217,
+      "direct_rf": 579.4080369181868
+    },
+    "truth": 11153880
+  },
+  {
+    "qid": "s601:column:q6554",
+    "row": [
+      "postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "pl.LinkTypeId,=,1,p.CommentCount,<=,13,p.CreationDate,>=,1279567695,u.Views,<=,33,b.Date,<=,1410626986",
+      "27763"
+    ],
+    "sql": "SELECT COUNT(*) FROM postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND pl.LinkTypeId = 1 AND p.CommentCount <= 13 AND p.CreationDate >= 1279567695 AND u.Views <= 33 AND b.Date <= 1410626986",
+    "role": "test",
+    "drift": "column",
+    "tables": 4,
+    "index": 6554,
+    "sql_id": "95660bf1918a201d7812542fc3805c0fa01347d44f666a52fdbe88ae7567e093",
+    "archived_truth": 27763.0,
+    "root_pg_rows": 349743.0,
+    "root_ratios": {
+      "residual_hgb": 1.172822898198704,
+      "direct_hgb": 0.44814764617569675,
+      "residual_rf": 0.7118553630768747,
+      "direct_rf": 0.6053575672321254
+    },
+    "root_estimates": {
+      "pg_map": 349743.0,
+      "residual_hgb": 410186.5988847093,
+      "direct_hgb": 156736.5022164267,
+      "residual_rf": 248966.4302485954,
+      "direct_rf": 211719.57163646523
+    },
+    "truth": 27763
+  },
+  {
+    "qid": "s601:table:q7780",
+    "row": [
+      "comments c,postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,p.Id=c.PostId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "c.Score,=,0,c.CreationDate,<=,1410461210,pl.LinkTypeId,=,1,p.Score,>=,0,p.ViewCount,<=,9010,p.CreationDate,<=,1409883027,u.Reputation,>=,1,u.Reputation,<=,909,u.DownVotes,=,0,b.Date,<=,1409755568",
+      "4779"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND p.Id=c.PostId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND c.Score = 0 AND c.CreationDate <= 1410461210 AND pl.LinkTypeId = 1 AND p.Score >= 0 AND p.ViewCount <= 9010 AND p.CreationDate <= 1409883027 AND u.Reputation >= 1 AND u.Reputation <= 909 AND u.DownVotes = 0 AND b.Date <= 1409755568",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 7780,
+    "sql_id": "5848ffccb25fa3be0f2065569f295b8e9922b33689fff89f241197ab0ad849b4",
+    "archived_truth": 4779.0,
+    "root_pg_rows": 235852.0,
+    "root_ratios": {
+      "residual_hgb": 1.4013527242111135,
+      "direct_hgb": 0.06324478547793257,
+      "residual_rf": 0.5978121917325511,
+      "direct_rf": 0.1013807438466098
+    },
+    "root_estimates": {
+      "pg_map": 235852.0,
+      "residual_hgb": 330511.8427106395,
+      "direct_hgb": 14916.40914454135,
+      "residual_rf": 140995.20104450564,
+      "direct_rf": 23910.851197710617
+    },
+    "truth": 91491
+  },
+  {
+    "qid": "s601:table:q3791",
+    "row": [
+      "comments c,postHistory ph,badges b,votes v,users u",
+      "u.Id=b.UserId,b.UserId=ph.UserId,ph.UserId=v.UserId,v.UserId=c.UserId",
+      "ph.PostHistoryTypeId,=,4,ph.CreationDate,>=,1300392482,ph.CreationDate,<=,1408188735,b.Date,<=,1408631404,u.Views,<=,45,u.DownVotes,=,0,u.CreationDate,<=,1405157438",
+      "567056"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postHistory ph,badges b,votes v,users u WHERE u.Id=b.UserId AND b.UserId=ph.UserId AND ph.UserId=v.UserId AND v.UserId=c.UserId AND ph.PostHistoryTypeId = 4 AND ph.CreationDate >= 1300392482 AND ph.CreationDate <= 1408188735 AND b.Date <= 1408631404 AND u.Views <= 45 AND u.DownVotes = 0 AND u.CreationDate <= 1405157438",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 3791,
+    "sql_id": "f0e42914a516bca653a9cb2b9b22715871d75dfd64e3839ee1cb51771abb5930",
+    "archived_truth": 567056.0,
+    "root_pg_rows": 106856146.0,
+    "root_ratios": {
+      "residual_hgb": 0.005028204114548598,
+      "direct_hgb": 0.0002615689960894719,
+      "residual_rf": 0.00548490351307648,
+      "direct_rf": 0.00026483891153869364
+    },
+    "root_estimates": {
+      "pg_map": 106856146.0,
+      "residual_hgb": 537294.5129820057,
+      "direct_hgb": 27950.25483521004,
+      "residual_rf": 586095.6505892132,
+      "direct_rf": 28299.66539785973
+    },
+    "truth": 939753
+  },
+  {
+    "qid": "s601:table:q6265",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "c.Score,=,2,c.CreationDate,>=,1281716100,c.CreationDate,<=,1410313355,p.ViewCount,<=,2041,p.AnswerCount,<=,6,p.FavoriteCount,=,0,u.Views,>=,0,u.Views,<=,63,u.DownVotes,<=,4,u.UpVotes,>=,0",
+      "175522"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND c.Score = 2 AND c.CreationDate >= 1281716100 AND c.CreationDate <= 1410313355 AND p.ViewCount <= 2041 AND p.AnswerCount <= 6 AND p.FavoriteCount = 0 AND u.Views >= 0 AND u.Views <= 63 AND u.DownVotes <= 4 AND u.UpVotes >= 0",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 6265,
+    "sql_id": "37c1e0409ddebf7951364a38f67e7b522a3a5cfb38090bbe6cd9f3d3762951fc",
+    "archived_truth": 175522.0,
+    "root_pg_rows": 656744855.0,
+    "root_ratios": {
+      "residual_hgb": 0.007994199801128567,
+      "direct_hgb": 0.00010841674135395797,
+      "residual_rf": 0.007430928191411012,
+      "direct_rf": 3.719674114996912e-05
+    },
+    "root_estimates": {
+      "pg_map": 656744855.0,
+      "residual_hgb": 5250149.589233209,
+      "direct_hgb": 71202.13708007763,
+      "residual_rf": 4880223.857583637,
+      "direct_rf": 24428.768373009003
+    },
+    "truth": 26588
+  },
+  {
+    "qid": "s601:table:q5537",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "p.ViewCount,<=,6142,p.CommentCount,>=,0,ph.PostHistoryTypeId,=,5,b.Date,>=,1279654046,u.Views,>=,0,u.Views,<=,98",
+      "107436270"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND p.ViewCount <= 6142 AND p.CommentCount >= 0 AND ph.PostHistoryTypeId = 5 AND b.Date >= 1279654046 AND u.Views >= 0 AND u.Views <= 98",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 5537,
+    "sql_id": "7d006f268803cad73006652e60a643ae46662a33bb6a13a932db2c4672aaea86",
+    "archived_truth": 107436270.0,
+    "root_pg_rows": 741441533556.0,
+    "root_ratios": {
+      "residual_hgb": 0.04244961750452192,
+      "direct_hgb": 4.270478663634518e-07,
+      "residual_rf": 0.005125696718744094,
+      "direct_rf": 2.5453503099816943e-07
+    },
+    "root_estimates": {
+      "pg_map": 741441533556.0,
+      "residual_hgb": 31473909501.418354,
+      "direct_hgb": 316631.02493833547,
+      "residual_rf": 3800404435.688578,
+      "direct_rf": 188722.84372700675
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:table:q5614",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "p.ViewCount,=,0,p.FavoriteCount,>=,0,p.FavoriteCount,<=,36,p.CreationDate,>=,1234516939,p.CreationDate,<=,1410466181,u.Reputation,<=,2092",
+      "49"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND p.ViewCount = 0 AND p.FavoriteCount >= 0 AND p.FavoriteCount <= 36 AND p.CreationDate >= 1234516939 AND p.CreationDate <= 1410466181 AND u.Reputation <= 2092",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 5614,
+    "sql_id": "7328d594db15d638d4d291fbebfefc87e8054ccfb587d382ca49320192436f9f",
+    "archived_truth": 49.0,
+    "root_pg_rows": 156451460.0,
+    "root_ratios": {
+      "residual_hgb": 0.5929895397504515,
+      "direct_hgb": 0.003811574390271065,
+      "residual_rf": 0.12876520403615477,
+      "direct_rf": 0.001985687829195292
+    },
+    "root_estimates": {
+      "pg_map": 156451460.0,
+      "residual_hgb": 92774079.25868618,
+      "direct_hgb": 596326.3782565179,
+      "residual_rf": 20145504.168654308,
+      "direct_rf": 310663.7599818341
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q7134",
+    "row": [
+      "comments c,postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,p.Id=c.PostId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "c.Score,=,1,p.PostTypeId,=,1,p.Score,=,2,p.AnswerCount,>=,0,p.AnswerCount,<=,4,p.CreationDate,>=,1280244914,u.DownVotes,<=,0,u.UpVotes,>=,0,u.UpVotes,<=,28,b.Date,>=,1279568350",
+      "1430"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND p.Id=c.PostId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND c.Score = 1 AND p.PostTypeId = 1 AND p.Score = 2 AND p.AnswerCount >= 0 AND p.AnswerCount <= 4 AND p.CreationDate >= 1280244914 AND u.DownVotes <= 0 AND u.UpVotes >= 0 AND u.UpVotes <= 28 AND b.Date >= 1279568350",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 7134,
+    "sql_id": "e031fa1b1e4b75f1539076b8457541b69542f65896a86651f642ac41ad4e4ce0",
+    "archived_truth": 1430.0,
+    "root_pg_rows": 3782.0,
+    "root_ratios": {
+      "residual_hgb": 0.9812865026672568,
+      "direct_hgb": 1.055548456164468,
+      "residual_rf": 1.6931178789954973,
+      "direct_rf": 0.9931312956743804
+    },
+    "root_estimates": {
+      "pg_map": 3782.0,
+      "residual_hgb": 3711.2255530875655,
+      "direct_hgb": 3992.0842612140173,
+      "residual_rf": 6403.371818360971,
+      "direct_rf": 3756.0225602405067
+    },
+    "truth": 937
+  },
+  {
+    "qid": "s601:table:q2435",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "c.Score,=,2,c.CreationDate,>=,1279818684,c.CreationDate,<=,1410363731,p.PostTypeId,=,2,p.Score,>=,-1,p.CommentCount,<=,13,ph.PostHistoryTypeId,=,5,ph.CreationDate,<=,1409745156,u.Reputation,=,1,u.Views,>=,0,u.CreationDate,>=,1283516641,u.CreationDate,<=,1410058021",
+      "1"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND c.Score = 2 AND c.CreationDate >= 1279818684 AND c.CreationDate <= 1410363731 AND p.PostTypeId = 2 AND p.Score >= -1 AND p.CommentCount <= 13 AND ph.PostHistoryTypeId = 5 AND ph.CreationDate <= 1409745156 AND u.Reputation = 1 AND u.Views >= 0 AND u.CreationDate >= 1283516641 AND u.CreationDate <= 1410058021",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2435,
+    "sql_id": "4fc21f05f3af3d34463b950c5ea5bdc9275f39ee62fde6ed3caa3579266d2864",
+    "archived_truth": 1.0,
+    "root_pg_rows": 138614459.0,
+    "root_ratios": {
+      "residual_hgb": 0.017503686482853574,
+      "direct_hgb": 0.0002272005907190502,
+      "residual_rf": 0.008620577221845567,
+      "direct_rf": 0.00012553255452478818
+    },
+    "root_estimates": {
+      "pg_map": 138614459.0,
+      "residual_hgb": 2426264.032326361,
+      "direct_hgb": 31493.286967001564,
+      "residual_rf": 1194936.6478738463,
+      "direct_rf": 17400.627132341517
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q2941",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "c.Score,=,1,v.BountyAmount,>=,0,v.BountyAmount,<=,150,v.CreationDate,>=,1279670400,u.Views,>=,0,u.DownVotes,>=,0,u.DownVotes,<=,0,u.UpVotes,>=,0,u.UpVotes,<=,14,u.CreationDate,>=,1280229248",
+      "157982"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND c.Score = 1 AND v.BountyAmount >= 0 AND v.BountyAmount <= 150 AND v.CreationDate >= 1279670400 AND u.Views >= 0 AND u.DownVotes >= 0 AND u.DownVotes <= 0 AND u.UpVotes >= 0 AND u.UpVotes <= 14 AND u.CreationDate >= 1280229248",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2941,
+    "sql_id": "203d2ed6d2983297d3c500b4d78398600ff8e37968399c7686b2bc077bfef3e4",
+    "archived_truth": 157982.0,
+    "root_pg_rows": 53313493.0,
+    "root_ratios": {
+      "residual_hgb": 0.015440720271428086,
+      "direct_hgb": 0.013795047345079444,
+      "residual_rf": 0.003544775684253616,
+      "direct_rf": 0.0034510344935363806
+    },
+    "root_estimates": {
+      "pg_map": 53313493.0,
+      "residual_hgb": 823198.7321057394,
+      "direct_hgb": 735462.1600665615,
+      "residual_rf": 188984.37362902536,
+      "direct_rf": 183986.70331391037
+    },
+    "truth": 233399
+  },
+  {
+    "qid": "s601:table:q5447",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "c.Score,=,0,p.Score,>=,-1,p.Score,<=,35,p.FavoriteCount,=,0,p.CreationDate,<=,1410041542,ph.PostHistoryTypeId,=,5,b.Date,>=,1279725792,u.Reputation,>=,1,u.UpVotes,>=,0",
+      "2277740181"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND c.Score = 0 AND p.Score >= -1 AND p.Score <= 35 AND p.FavoriteCount = 0 AND p.CreationDate <= 1410041542 AND ph.PostHistoryTypeId = 5 AND b.Date >= 1279725792 AND u.Reputation >= 1 AND u.UpVotes >= 0",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 5447,
+    "sql_id": "7f609616b4a9b9c868975e26927bd47a01f9337ff111e02ebb1aeb9dfe116478",
+    "archived_truth": 2277740181.0,
+    "root_pg_rows": 11779341798.0,
+    "root_ratios": {
+      "residual_hgb": 0.04557381928809032,
+      "direct_hgb": 1.7213797886811088e-06,
+      "residual_rf": 0.012053977050749431,
+      "direct_rf": 1.5017716201993047e-06
+    },
+    "root_estimates": {
+      "pg_map": 11779341798.0,
+      "residual_hgb": 536829594.43470085,
+      "direct_hgb": 20276.720895043793,
+      "residual_rf": 141987915.70602554,
+      "direct_rf": 17689.88121686385
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:table:q8661",
+    "row": [
+      "tags t,posts p,users u,votes v,badges b",
+      "p.Id=t.ExcerptPostId,u.Id=v.UserId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "p.Score,<=,27,p.CommentCount,>=,0,u.Views,>=,0,u.CreationDate,>=,1279567166,v.BountyAmount,<=,100,b.Date,<=,1410542473",
+      "883168"
+    ],
+    "sql": "SELECT COUNT(*) FROM tags t,posts p,users u,votes v,badges b WHERE p.Id=t.ExcerptPostId AND u.Id=v.UserId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND p.Score <= 27 AND p.CommentCount >= 0 AND u.Views >= 0 AND u.CreationDate >= 1279567166 AND v.BountyAmount <= 100 AND b.Date <= 1410542473",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 8661,
+    "sql_id": "e1d4a4f133225c2a37e030f8732cada3bb81b1ed7ea73f0b83cadd45e82a067b",
+    "archived_truth": 883168.0,
+    "root_pg_rows": 106.0,
+    "root_ratios": {
+      "residual_hgb": 56.723637200776906,
+      "direct_hgb": 91.95252996244422,
+      "residual_rf": 11.38903295888854,
+      "direct_rf": 31.9828685646782
+    },
+    "root_estimates": {
+      "pg_map": 106.0,
+      "residual_hgb": 6012.705543282352,
+      "direct_hgb": 9746.968176019087,
+      "residual_rf": 1207.2374936421852,
+      "direct_rf": 3390.184067855889
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:table:q2815",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "c.Score,=,1,p.ViewCount,<=,11637,p.AnswerCount,>=,0,p.CommentCount,>=,0,p.CommentCount,<=,10,p.CreationDate,>=,1279793475,p.CreationDate,<=,1410507787,v.BountyAmount,>=,0,v.CreationDate,>=,1280534400,u.Views,<=,80,u.DownVotes,<=,0,u.UpVotes,>=,0,u.UpVotes,<=,343",
+      "1308173"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND c.Score = 1 AND p.ViewCount <= 11637 AND p.AnswerCount >= 0 AND p.CommentCount >= 0 AND p.CommentCount <= 10 AND p.CreationDate >= 1279793475 AND p.CreationDate <= 1410507787 AND v.BountyAmount >= 0 AND v.CreationDate >= 1280534400 AND u.Views <= 80 AND u.DownVotes <= 0 AND u.UpVotes >= 0 AND u.UpVotes <= 343",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2815,
+    "sql_id": "18b7e3153e8140347942d443b1c75ab49beb895d10770373fe9e042e5594da06",
+    "archived_truth": 1308173.0,
+    "root_pg_rows": 12127013.0,
+    "root_ratios": {
+      "residual_hgb": 0.08883048164284046,
+      "direct_hgb": 0.06721129637896246,
+      "residual_rf": 0.02061348972557954,
+      "direct_rf": 0.017429042739364645
+    },
+    "root_estimates": {
+      "pg_map": 12127013.0,
+      "residual_hgb": 1077248.4056789877,
+      "direct_hgb": 815072.2649345307,
+      "residual_rf": 249980.05787746952,
+      "direct_rf": 211362.22787783065
+    },
+    "truth": 1377578
+  },
+  {
+    "qid": "s601:table:q7909",
+    "row": [
+      "comments c,postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,p.Id=c.PostId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "c.Score,=,3,c.CreationDate,>=,1283254154,c.CreationDate,<=,1409826644,pl.LinkTypeId,=,1,p.Score,<=,35,p.AnswerCount,<=,6,u.Reputation,>=,1,u.Reputation,<=,822,u.UpVotes,>=,0,u.UpVotes,<=,17",
+      "99"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND p.Id=c.PostId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND c.Score = 3 AND c.CreationDate >= 1283254154 AND c.CreationDate <= 1409826644 AND pl.LinkTypeId = 1 AND p.Score <= 35 AND p.AnswerCount <= 6 AND u.Reputation >= 1 AND u.Reputation <= 822 AND u.UpVotes >= 0 AND u.UpVotes <= 17",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 7909,
+    "sql_id": "e8cafb331dc4e386bf74da41b84a1f416cce6a93560c285bbd8e454a681dd879",
+    "archived_truth": 99.0,
+    "root_pg_rows": 5902.0,
+    "root_ratios": {
+      "residual_hgb": 0.25550360006500855,
+      "direct_hgb": 0.21560843180959785,
+      "residual_rf": 0.3976567198634725,
+      "direct_rf": 0.4680574960605927
+    },
+    "root_estimates": {
+      "pg_map": 5902.0,
+      "residual_hgb": 1507.9822475836804,
+      "direct_hgb": 1272.5209645402465,
+      "residual_rf": 2346.9699606342147,
+      "direct_rf": 2762.475341749618
+    },
+    "truth": 3016
+  },
+  {
+    "qid": "s601:table:q2633",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "c.Score,=,0,p.ViewCount,>=,0,p.ViewCount,<=,6936,p.CreationDate,>=,1279571841,p.CreationDate,<=,1410450452,v.CreationDate,>=,1279497600,u.Reputation,<=,161,u.Views,>=,0,u.UpVotes,<=,123",
+      "12484548"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND c.Score = 0 AND p.ViewCount >= 0 AND p.ViewCount <= 6936 AND p.CreationDate >= 1279571841 AND p.CreationDate <= 1410450452 AND v.CreationDate >= 1279497600 AND u.Reputation <= 161 AND u.Views >= 0 AND u.UpVotes <= 123",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2633,
+    "sql_id": "8ec151dbc8b9985d75e531dd5d1dc21883223c88601b43dd096235919a278b59",
+    "archived_truth": 12484548.0,
+    "root_pg_rows": 22748225334.0,
+    "root_ratios": {
+      "residual_hgb": 0.04487191975717068,
+      "direct_hgb": 2.183499314772442e-05,
+      "residual_rf": 0.017532236199049922,
+      "direct_rf": 9.297796143913942e-06
+    },
+    "root_estimates": {
+      "pg_map": 22748225334.0,
+      "residual_hgb": 1020756541.8052851,
+      "direct_hgb": 496707.34429078107,
+      "residual_rf": 398827259.6648993,
+      "direct_rf": 211508.36179135065
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:table:q447",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,votes v",
+      "p.Id=c.PostId,p.Id=pl.PostId,p.Id=ph.PostId,p.Id=v.PostId",
+      "p.ViewCount,>=,0,p.FavoriteCount,<=,4,ph.PostHistoryTypeId,=,33,ph.CreationDate,<=,1409156949",
+      "7781"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,votes v WHERE p.Id=c.PostId AND p.Id=pl.PostId AND p.Id=ph.PostId AND p.Id=v.PostId AND p.ViewCount >= 0 AND p.FavoriteCount <= 4 AND ph.PostHistoryTypeId = 33 AND ph.CreationDate <= 1409156949",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 447,
+    "sql_id": "407f8a3f27a98f32d89d7fe99c26dabbde331945dbc1614c846a2eb4c79741dd",
+    "archived_truth": 7781.0,
+    "root_pg_rows": 54.0,
+    "root_ratios": {
+      "residual_hgb": 5.166895563008365,
+      "direct_hgb": 15.449441862291767,
+      "residual_rf": 3.190319780392382,
+      "direct_rf": 4.787918650890861
+    },
+    "root_estimates": {
+      "pg_map": 54.0,
+      "residual_hgb": 279.0123604024517,
+      "direct_hgb": 834.2698605637554,
+      "residual_rf": 172.2772681411886,
+      "direct_rf": 258.54760714810647
+    },
+    "truth": 7781
+  },
+  {
+    "qid": "s601:table:q2428",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,users u",
+      "p.Id=pl.RelatedPostId,pl.RelatedPostId=c.PostId,pl.RelatedPostId=ph.PostId,u.Id=c.UserId",
+      "c.Score,=,0,c.CreationDate,<=,1410443533,p.Score,>=,-4,p.CommentCount,>=,0,p.CreationDate,<=,1406590916,pl.CreationDate,>=,1292470319,pl.CreationDate,<=,1409410434,u.Reputation,>=,1,u.Views,=,1,u.UpVotes,>=,0,u.UpVotes,<=,4",
+      "2087"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,users u WHERE p.Id=pl.RelatedPostId AND pl.RelatedPostId=c.PostId AND pl.RelatedPostId=ph.PostId AND u.Id=c.UserId AND c.Score = 0 AND c.CreationDate <= 1410443533 AND p.Score >= -4 AND p.CommentCount >= 0 AND p.CreationDate <= 1406590916 AND pl.CreationDate >= 1292470319 AND pl.CreationDate <= 1409410434 AND u.Reputation >= 1 AND u.Views = 1 AND u.UpVotes >= 0 AND u.UpVotes <= 4",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2428,
+    "sql_id": "96c1572dd75feea4d439ea8ee71344481861ee23642a20a38ca93026d905e506",
+    "archived_truth": 2087.0,
+    "root_pg_rows": 7031.0,
+    "root_ratios": {
+      "residual_hgb": 0.6598775232041697,
+      "direct_hgb": 1.7116191036641466,
+      "residual_rf": 0.9074155318742377,
+      "direct_rf": 0.8533948441767716
+    },
+    "root_estimates": {
+      "pg_map": 7031.0,
+      "residual_hgb": 4639.598865648517,
+      "direct_hgb": 12034.393917862615,
+      "residual_rf": 6380.038604607766,
+      "direct_rf": 6000.219149406881
+    },
+    "truth": 2087
+  },
+  {
+    "qid": "s601:table:q3253",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "p.PostTypeId,=,1,p.Score,>=,0,p.Score,<=,18,p.CommentCount,<=,10,p.FavoriteCount,<=,31,p.CreationDate,>=,1283911038,ph.CreationDate,=,1299267804,v.CreationDate,>=,1279497600,v.CreationDate,<=,1410393600,u.Reputation,>=,1,u.Reputation,<=,922,u.Views,>=,0,u.Views,<=,1319,u.UpVotes,>=,0",
+      "3"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND p.PostTypeId = 1 AND p.Score >= 0 AND p.Score <= 18 AND p.CommentCount <= 10 AND p.FavoriteCount <= 31 AND p.CreationDate >= 1283911038 AND ph.CreationDate = 1299267804 AND v.CreationDate >= 1279497600 AND v.CreationDate <= 1410393600 AND u.Reputation >= 1 AND u.Reputation <= 922 AND u.Views >= 0 AND u.Views <= 1319 AND u.UpVotes >= 0",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 3253,
+    "sql_id": "de03263c518b7cf095a5195d19850e1b6c785bc59f1203c6238279e4273d20f4",
+    "archived_truth": 3.0,
+    "root_pg_rows": 28008.0,
+    "root_ratios": {
+      "residual_hgb": 2.796254346621166,
+      "direct_hgb": 0.8387143314882838,
+      "residual_rf": 1.447285253305347,
+      "direct_rf": 0.6874257924089786
+    },
+    "root_estimates": {
+      "pg_map": 28008.0,
+      "residual_hgb": 78317.49174016561,
+      "direct_hgb": 23490.71099632385,
+      "residual_rf": 40535.56537457616,
+      "direct_rf": 19253.421593790674
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q8768",
+    "row": [
+      "tags t,posts p,users u,votes v,badges b",
+      "p.Id=t.ExcerptPostId,u.Id=v.UserId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "p.Score,>=,-3,p.Score,<=,26,p.FavoriteCount,>=,0,p.FavoriteCount,<=,5,u.CreationDate,>=,1299538449,v.BountyAmount,>=,0,v.BountyAmount,<=,50",
+      "88"
+    ],
+    "sql": "SELECT COUNT(*) FROM tags t,posts p,users u,votes v,badges b WHERE p.Id=t.ExcerptPostId AND u.Id=v.UserId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND p.Score >= -3 AND p.Score <= 26 AND p.FavoriteCount >= 0 AND p.FavoriteCount <= 5 AND u.CreationDate >= 1299538449 AND v.BountyAmount >= 0 AND v.BountyAmount <= 50",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 8768,
+    "sql_id": "202b23048b48d7781d02d2a07bd26fe385cee9eff0240474351bf080183b6324",
+    "archived_truth": 88.0,
+    "root_pg_rows": 11.0,
+    "root_ratios": {
+      "residual_hgb": 9.733809884668194,
+      "direct_hgb": 4.107210360059584,
+      "residual_rf": 4.699555342080062,
+      "direct_rf": 13.016405663755556
+    },
+    "root_estimates": {
+      "pg_map": 11.0,
+      "residual_hgb": 107.07190873135013,
+      "direct_hgb": 45.17931396065543,
+      "residual_rf": 51.695108762880686,
+      "direct_rf": 143.1804623013111
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q919",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,votes v",
+      "p.Id=c.PostId,p.Id=pl.PostId,p.Id=ph.PostId,p.Id=v.PostId",
+      "c.Score,=,0,p.ViewCount,>=,0,pl.CreationDate,<=,1407808086,ph.PostHistoryTypeId,=,5",
+      "292057"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,votes v WHERE p.Id=c.PostId AND p.Id=pl.PostId AND p.Id=ph.PostId AND p.Id=v.PostId AND c.Score = 0 AND p.ViewCount >= 0 AND pl.CreationDate <= 1407808086 AND ph.PostHistoryTypeId = 5",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 919,
+    "sql_id": "2dfa7bbb175a7c013ffafe62e5564641bcbe19cf1ac5b8dd38d6b124251a29ab",
+    "archived_truth": 292057.0,
+    "root_pg_rows": 19300.0,
+    "root_ratios": {
+      "residual_hgb": 1.217786361423118,
+      "direct_hgb": 0.8032814468534878,
+      "residual_rf": 0.9246161592569908,
+      "direct_rf": 1.0398255305860375
+    },
+    "root_estimates": {
+      "pg_map": 19300.0,
+      "residual_hgb": 23503.276775466176,
+      "direct_hgb": 15503.331924272314,
+      "residual_rf": 17845.091873659923,
+      "direct_rf": 20068.632740310524
+    },
+    "truth": 292057
+  },
+  {
+    "qid": "s601:table:q2379",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,users u",
+      "p.Id=pl.RelatedPostId,pl.RelatedPostId=c.PostId,pl.RelatedPostId=ph.PostId,u.Id=c.UserId",
+      "c.Score,=,1,c.CreationDate,>=,1279873071,p.ViewCount,>=,0,pl.CreationDate,>=,1292013285,pl.CreationDate,<=,1408519142,ph.PostHistoryTypeId,=,12,u.DownVotes,<=,2,u.UpVotes,>=,0,u.CreationDate,>=,1295144033",
+      "0"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,users u WHERE p.Id=pl.RelatedPostId AND pl.RelatedPostId=c.PostId AND pl.RelatedPostId=ph.PostId AND u.Id=c.UserId AND c.Score = 1 AND c.CreationDate >= 1279873071 AND p.ViewCount >= 0 AND pl.CreationDate >= 1292013285 AND pl.CreationDate <= 1408519142 AND ph.PostHistoryTypeId = 12 AND u.DownVotes <= 2 AND u.UpVotes >= 0 AND u.CreationDate >= 1295144033",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2379,
+    "sql_id": "7de6ddac59c302512c16c7b3f49f109362a619a566c5d778a6fdda92cba4af55",
+    "archived_truth": 0.0,
+    "root_pg_rows": 6.0,
+    "root_ratios": {
+      "residual_hgb": 2.252568133635497,
+      "direct_hgb": 45.87024589638603,
+      "residual_rf": 1.4241111588955946,
+      "direct_rf": 54.54301840365827
+    },
+    "root_estimates": {
+      "pg_map": 6.0,
+      "residual_hgb": 13.515408801812981,
+      "direct_hgb": 275.2214753783162,
+      "residual_rf": 8.544666953373568,
+      "direct_rf": 327.25811042194965
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q5520",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "p.ViewCount,<=,2382,u.CreationDate,>=,1280326434,u.CreationDate,<=,1409834519",
+      "9920015579222"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND p.ViewCount <= 2382 AND u.CreationDate >= 1280326434 AND u.CreationDate <= 1409834519",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 5520,
+    "sql_id": "387d23bc7bd0f9b8b2b42bcf6bfcc0ed9ba34254c7a0c8fda0399f5f10ad8b18",
+    "archived_truth": 9920015579222.0,
+    "root_pg_rows": 3142268753902.0,
+    "root_ratios": {
+      "residual_hgb": 0.03926045826340505,
+      "direct_hgb": 1.6908920014805244e-07,
+      "residual_rf": 0.01794540394256644,
+      "direct_rf": 1.45674118624861e-07
+    },
+    "root_estimates": {
+      "pg_map": 3142268753902.0,
+      "residual_hgb": 123366911264.97127,
+      "direct_hgb": 531323.7102475066,
+      "residual_rf": 56389282084.87629,
+      "direct_rf": 457747.2312071141
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:table:q7210",
+    "row": [
+      "comments c,postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,p.Id=c.PostId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "c.Score,=,2,c.CreationDate,<=,1410377310,pl.CreationDate,<=,1408899876,p.AnswerCount,>=,0,p.CreationDate,>=,1281153336,p.CreationDate,<=,1410437156,u.Views,<=,137,u.UpVotes,>=,0",
+      "603"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND p.Id=c.PostId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND c.Score = 2 AND c.CreationDate <= 1410377310 AND pl.CreationDate <= 1408899876 AND p.AnswerCount >= 0 AND p.CreationDate >= 1281153336 AND p.CreationDate <= 1410437156 AND u.Views <= 137 AND u.UpVotes >= 0",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 7210,
+    "sql_id": "d047f0eb54976856e459263316dc35feca3189238017aa601e8ec946c4cd3e27",
+    "archived_truth": 603.0,
+    "root_pg_rows": 16431.0,
+    "root_ratios": {
+      "residual_hgb": 0.5909273566696627,
+      "direct_hgb": 0.565366722931615,
+      "residual_rf": 0.6679373015939701,
+      "direct_rf": 0.8121407483454699
+    },
+    "root_estimates": {
+      "pg_map": 16431.0,
+      "residual_hgb": 9709.527397439228,
+      "direct_hgb": 9289.540624489367,
+      "residual_rf": 10974.877802490524,
+      "direct_rf": 13344.284636064416
+    },
+    "truth": 18913
+  },
+  {
+    "qid": "s601:table:q2569",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "c.Score,=,2,c.CreationDate,>=,1280180554,ph.CreationDate,>=,1304608421,u.DownVotes,<=,1",
+      "108977722"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND c.Score = 2 AND c.CreationDate >= 1280180554 AND ph.CreationDate >= 1304608421 AND u.DownVotes <= 1",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2569,
+    "sql_id": "62b84deb9281417d048f38ab956e7396e8adc39a41bacab94fcd58ceae1c1ac8",
+    "archived_truth": 108977722.0,
+    "root_pg_rows": 2993233494.0,
+    "root_ratios": {
+      "residual_hgb": 0.04763113894981736,
+      "direct_hgb": 0.00027230493931340816,
+      "residual_rf": 0.060598265661852,
+      "direct_rf": 0.0001829771543811554
+    },
+    "root_estimates": {
+      "pg_map": 2993233494.0,
+      "residual_hgb": 142571120.4619613,
+      "direct_hgb": 815072.2649345307,
+      "residual_rf": 181384758.45736548,
+      "direct_rf": 547693.3471304831
+    },
+    "truth": null
+  },
+  {
+    "qid": "s601:table:q6351",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "p.PostTypeId,=,1,p.Score,>=,0,p.CommentCount,<=,13,p.CreationDate,>=,1280766517,u.Reputation,=,101,u.Views,>=,0",
+      "6738072"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND p.PostTypeId = 1 AND p.Score >= 0 AND p.CommentCount <= 13 AND p.CreationDate >= 1280766517 AND u.Reputation = 101 AND u.Views >= 0",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 6351,
+    "sql_id": "c5043c574dc368b75ae7bd841a2c523dcdbb219a53c36e71f354099576e3e800",
+    "archived_truth": 6738072.0,
+    "root_pg_rows": 612756911124.0,
+    "root_ratios": {
+      "residual_hgb": 0.10702637377762023,
+      "direct_hgb": 1.2320547186799427e-07,
+      "residual_rf": 0.029293644177218615,
+      "direct_rf": 4.2306319873238136e-08
+    },
+    "root_estimates": {
+      "pg_map": 612756911124.0,
+      "residual_hgb": 65581150204.777245,
+      "direct_hgb": 75495.00437540705,
+      "residual_rf": 17949882921.598026,
+      "direct_rf": 25923.489886549294
+    },
+    "truth": 28693
+  },
+  {
+    "qid": "s601:table:q6064",
+    "row": [
+      "comments c,posts p,postHistory ph,badges b,users u",
+      "u.Id=c.UserId,u.Id=p.OwnerUserId,u.Id=ph.UserId,u.Id=b.UserId",
+      "c.CreationDate,>=,1279579185,p.PostTypeId,=,2,p.Score,<=,16,p.FavoriteCount,>=,0,ph.CreationDate,>=,1279574292,ph.CreationDate,<=,1405985069,b.Date,>=,1281652198,u.Views,>=,0,u.CreationDate,<=,1408459840",
+      "25691761762"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,badges b,users u WHERE u.Id=c.UserId AND u.Id=p.OwnerUserId AND u.Id=ph.UserId AND u.Id=b.UserId AND c.CreationDate >= 1279579185 AND p.PostTypeId = 2 AND p.Score <= 16 AND p.FavoriteCount >= 0 AND ph.CreationDate >= 1279574292 AND ph.CreationDate <= 1405985069 AND b.Date >= 1281652198 AND u.Views >= 0 AND u.CreationDate <= 1408459840",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 6064,
+    "sql_id": "c11e183491893afdf4f472930263cefbbe225aa9d0fd3ca41bad379ff4463df2",
+    "archived_truth": 25691761762.0,
+    "root_pg_rows": 465928471202.0,
+    "root_ratios": {
+      "residual_hgb": 0.019906982565467458,
+      "direct_hgb": 9.539046309575654e-07,
+      "residual_rf": 0.013390481194241173,
+      "direct_rf": 5.9187425067518e-07
+    },
+    "root_estimates": {
+      "pg_map": 465928471202.0,
+      "residual_hgb": 9275229952.97312,
+      "direct_hgb": 444451.3263745664,
+      "residual_rf": 6239006431.49192,
+      "direct_rf": 275771.06476091594
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q7922",
+    "row": [
+      "comments c,postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,p.Id=c.PostId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "c.CreationDate,>=,1239522423,c.CreationDate,<=,1410355157,pl.LinkTypeId,=,1,p.Score,>=,-2,p.Score,<=,26,p.ViewCount,>=,0,p.CommentCount,>=,0,p.CommentCount,<=,12,u.Reputation,<=,583,u.Views,>=,0,u.DownVotes,>=,0,u.DownVotes,<=,0,u.CreationDate,<=,1407192191",
+      "4847"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND p.Id=c.PostId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND c.CreationDate >= 1239522423 AND c.CreationDate <= 1410355157 AND pl.LinkTypeId = 1 AND p.Score >= -2 AND p.Score <= 26 AND p.ViewCount >= 0 AND p.CommentCount >= 0 AND p.CommentCount <= 12 AND u.Reputation <= 583 AND u.Views >= 0 AND u.DownVotes >= 0 AND u.DownVotes <= 0 AND u.CreationDate <= 1407192191",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 7922,
+    "sql_id": "68f9b77b7b94d97bbd9756586be4afe4e4febc7aad7ace66de874144253aa1b5",
+    "archived_truth": 4847.0,
+    "root_pg_rows": 293329.0,
+    "root_ratios": {
+      "residual_hgb": 2.745967510838695,
+      "direct_hgb": 0.3456423943759621,
+      "residual_rf": 1.043114124765067,
+      "direct_rf": 0.24820377441711067
+    },
+    "root_estimates": {
+      "pg_map": 293329.0,
+      "residual_hgb": 805471.9039868036,
+      "direct_hgb": 101386.9378999066,
+      "residual_rf": 305975.62310321233,
+      "direct_rf": 72805.36494599665
+    },
+    "truth": 97119
+  },
+  {
+    "qid": "s601:table:q1015",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,votes v",
+      "p.Id=c.PostId,p.Id=pl.PostId,p.Id=ph.PostId,p.Id=v.PostId",
+      "p.ViewCount,>=,0,p.ViewCount,<=,8023,p.AnswerCount,<=,13,p.CommentCount,>=,0,p.CommentCount,<=,15,p.CreationDate,>=,1279571108,p.CreationDate,<=,1409784786,pl.LinkTypeId,=,1,ph.CreationDate,>=,1279693605,ph.CreationDate,<=,1409246082,v.CreationDate,=,1294185600",
+      "0"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,votes v WHERE p.Id=c.PostId AND p.Id=pl.PostId AND p.Id=ph.PostId AND p.Id=v.PostId AND p.ViewCount >= 0 AND p.ViewCount <= 8023 AND p.AnswerCount <= 13 AND p.CommentCount >= 0 AND p.CommentCount <= 15 AND p.CreationDate >= 1279571108 AND p.CreationDate <= 1409784786 AND pl.LinkTypeId = 1 AND ph.CreationDate >= 1279693605 AND ph.CreationDate <= 1409246082 AND v.CreationDate = 1294185600",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 1015,
+    "sql_id": "73a6c6fbfe4471afee0c953edceb583238cb8a79910ed6fb99373d8e6fcf4f5a",
+    "archived_truth": 0.0,
+    "root_pg_rows": 28.0,
+    "root_ratios": {
+      "residual_hgb": 10.6007262704847,
+      "direct_hgb": 10.916793573729974,
+      "residual_rf": 5.7569946001323355,
+      "direct_rf": 19.09523157841505
+    },
+    "root_estimates": {
+      "pg_map": 28.0,
+      "residual_hgb": 296.8203355735716,
+      "direct_hgb": 305.67022006443926,
+      "residual_rf": 161.1958488037054,
+      "direct_rf": 534.6664841956214
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q8369",
+    "row": [
+      "tags t,posts p,users u,postHistory ph,badges b",
+      "p.Id=t.ExcerptPostId,u.Id=ph.UserId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "p.Score,<=,9,u.DownVotes,>=,0,u.UpVotes,>=,0,u.UpVotes,<=,5,b.Date,>=,1279900108,b.Date,<=,1405890709",
+      "9153"
+    ],
+    "sql": "SELECT COUNT(*) FROM tags t,posts p,users u,postHistory ph,badges b WHERE p.Id=t.ExcerptPostId AND u.Id=ph.UserId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND p.Score <= 9 AND u.DownVotes >= 0 AND u.UpVotes >= 0 AND u.UpVotes <= 5 AND b.Date >= 1279900108 AND b.Date <= 1405890709",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 8369,
+    "sql_id": "2483edc835be954bebd670d1e0f1712ab2817dcaeb10bb3adfac03a96d832848",
+    "archived_truth": 9153.0,
+    "root_pg_rows": 3202795.0,
+    "root_ratios": {
+      "residual_hgb": 0.00815966146754431,
+      "direct_hgb": 0.028996081641839918,
+      "residual_rf": 0.01283906124472462,
+      "direct_rf": 0.05251685896222452
+    },
+    "root_estimates": {
+      "pg_map": 3202795.0,
+      "residual_hgb": 26133.722949943574,
+      "direct_hgb": 92868.50530207668,
+      "residual_rf": 41120.88115929779,
+      "direct_rf": 168200.7332999179
+    },
+    "truth": 69
+  },
+  {
+    "qid": "s601:table:q2752",
+    "row": [
+      "comments c,posts p,postHistory ph,votes v,users u",
+      "u.Id=c.UserId,c.UserId=p.OwnerUserId,p.OwnerUserId=ph.UserId,ph.UserId=v.UserId",
+      "c.Score,=,0,c.CreationDate,>=,1280327820,p.Score,=,12,p.FavoriteCount,>=,0,ph.PostHistoryTypeId,=,24,u.Reputation,>=,1,u.Views,>=,0,u.UpVotes,>=,0,u.UpVotes,<=,6",
+      "1404"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postHistory ph,votes v,users u WHERE u.Id=c.UserId AND c.UserId=p.OwnerUserId AND p.OwnerUserId=ph.UserId AND ph.UserId=v.UserId AND c.Score = 0 AND c.CreationDate >= 1280327820 AND p.Score = 12 AND p.FavoriteCount >= 0 AND ph.PostHistoryTypeId = 24 AND u.Reputation >= 1 AND u.Views >= 0 AND u.UpVotes >= 0 AND u.UpVotes <= 6",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 2752,
+    "sql_id": "60447b89858e2f72ab6339078da533df08707819f1a5b249c35b9070340ba69b",
+    "archived_truth": 1404.0,
+    "root_pg_rows": 829066.0,
+    "root_ratios": {
+      "residual_hgb": 0.004645287577318054,
+      "direct_hgb": 0.010824980788926943,
+      "residual_rf": 0.020763489258308062,
+      "direct_rf": 0.010869929646327171
+    },
+    "root_estimates": {
+      "pg_map": 829066.0,
+      "residual_hgb": 3851.24999057677,
+      "direct_hgb": 8974.623522752505,
+      "residual_rf": 17214.302985428432,
+      "direct_rf": 9011.889092161882
+    },
+    "truth": 0
+  },
+  {
+    "qid": "s601:table:q515",
+    "row": [
+      "comments c,posts p,postLinks pl,postHistory ph,votes v",
+      "p.Id=c.PostId,p.Id=pl.PostId,p.Id=ph.PostId,p.Id=v.PostId",
+      "c.Score,=,3,p.PostTypeId,=,1,p.Score,<=,13,p.CommentCount,>=,0,p.FavoriteCount,<=,2,ph.CreationDate,>=,1298267970,v.CreationDate,>=,1279497600",
+      "10371"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,posts p,postLinks pl,postHistory ph,votes v WHERE p.Id=c.PostId AND p.Id=pl.PostId AND p.Id=ph.PostId AND p.Id=v.PostId AND c.Score = 3 AND p.PostTypeId = 1 AND p.Score <= 13 AND p.CommentCount >= 0 AND p.FavoriteCount <= 2 AND ph.CreationDate >= 1298267970 AND v.CreationDate >= 1279497600",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 515,
+    "sql_id": "955357810bedf2ea5a9c0474907f92f9eb4c1e6947b56a193483ae1809979372",
+    "archived_truth": 10371.0,
+    "root_pg_rows": 227.0,
+    "root_ratios": {
+      "residual_hgb": 12.023636160796627,
+      "direct_hgb": 2.436142692608599,
+      "residual_rf": 12.74481491906794,
+      "direct_rf": 1.8023541074691092
+    },
+    "root_estimates": {
+      "pg_map": 227.0,
+      "residual_hgb": 2729.3654085008343,
+      "direct_hgb": 553.004391222152,
+      "residual_rf": 2893.0729866284223,
+      "direct_rf": 409.13438239548776
+    },
+    "truth": 10371
+  },
+  {
+    "qid": "s601:table:q7372",
+    "row": [
+      "comments c,postLinks pl,posts p,users u,badges b",
+      "p.Id=pl.RelatedPostId,p.Id=c.PostId,u.Id=b.UserId,u.Id=p.OwnerUserId",
+      "c.Score,=,0,p.AnswerCount,<=,4,u.Views,>=,0,u.Views,<=,22,u.UpVotes,>=,0,u.UpVotes,<=,5",
+      "1867"
+    ],
+    "sql": "SELECT COUNT(*) FROM comments c,postLinks pl,posts p,users u,badges b WHERE p.Id=pl.RelatedPostId AND p.Id=c.PostId AND u.Id=b.UserId AND u.Id=p.OwnerUserId AND c.Score = 0 AND p.AnswerCount <= 4 AND u.Views >= 0 AND u.Views <= 22 AND u.UpVotes >= 0 AND u.UpVotes <= 5",
+    "role": "test",
+    "drift": "table",
+    "tables": 5,
+    "index": 7372,
+    "sql_id": "0746d908aba684e18bd16f348d56c8ef0c95dab4bc701e1991b1b16e2617ed88",
+    "archived_truth": 1867.0,
+    "root_pg_rows": 241469.0,
+    "root_ratios": {
+      "residual_hgb": 0.12352447920514256,
+      "direct_hgb": 0.08826585386597678,
+      "residual_rf": 0.3602256055084111,
+      "direct_rf": 0.2907917933208829
+    },
+    "root_estimates": {
+      "pg_map": 241469.0,
+      "residual_hgb": 29827.33246918657,
+      "direct_hgb": 21313.467467163548,
+      "residual_rf": 86983.31673651052,
+      "direct_rf": 70217.20354140027
+    },
+    "truth": 23895
+  },
+  {
+    "qid": "s601:value:q352",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,74,p.Score,<,144,p.CommentCount,>,0,p.CommentCount,<,44,u.DownVotes,>,27,u.DownVotes,<,613,v.CreationDate,>,1371009058,v.CreationDate,<,1401988483,v.VoteTypeId,>,1,v.VoteTypeId,<,7,b.Date,>,1324956391,b.Date,<,1369948963",
+      "18578"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 74 AND p.Score < 144 AND p.CommentCount > 0 AND p.CommentCount < 44 AND u.DownVotes > 27 AND u.DownVotes < 613 AND v.CreationDate > 1371009058 AND v.CreationDate < 1401988483 AND v.VoteTypeId > 1 AND v.VoteTypeId < 7 AND b.Date > 1324956391 AND b.Date < 1369948963",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 352,
+    "sql_id": "f939627ea4df993b30fd5a2f7aecefa978fd434955b6ca51b6d1425d7d399800",
+    "archived_truth": 18578.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 975.6808906078784,
+      "direct_hgb": 809.9633429544602,
+      "residual_rf": 817.8801420622858,
+      "direct_rf": 1224.0386169837925
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 975.6808906078784,
+      "direct_hgb": 809.9633429544602,
+      "residual_rf": 817.8801420622858,
+      "direct_rf": 1224.0386169837925
+    },
+    "truth": 18578
+  },
+  {
+    "qid": "s601:value:q397",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,28,p.Score,<,78,p.CommentCount,>,0,p.CommentCount,<,17,u.DownVotes,>,674,u.DownVotes,<,1312,v.CreationDate,>,1325263856,v.CreationDate,<,1402218258,v.VoteTypeId,>,2,v.VoteTypeId,<,12,b.Date,>,1313264666,b.Date,<,1314317242",
+      "90"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 28 AND p.Score < 78 AND p.CommentCount > 0 AND p.CommentCount < 17 AND u.DownVotes > 674 AND u.DownVotes < 1312 AND v.CreationDate > 1325263856 AND v.CreationDate < 1402218258 AND v.VoteTypeId > 2 AND v.VoteTypeId < 12 AND b.Date > 1313264666 AND b.Date < 1314317242",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 397,
+    "sql_id": "d549c80622daef1c5fa806208d0809b52fbdd2fa4c589d0c8b348abfcf14a240",
+    "archived_truth": 90.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 5924.498384364433,
+      "direct_hgb": 7688.792263270691,
+      "residual_rf": 4027.149734010091,
+      "direct_rf": 5801.858528873426
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 5924.498384364433,
+      "direct_hgb": 7688.792263270691,
+      "residual_rf": 4027.149734010091,
+      "direct_rf": 5801.858528873426
+    },
+    "truth": 90
+  },
+  {
+    "qid": "s601:value:q974",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-4,p.Score,<,112,p.CommentCount,>,6,p.CommentCount,<,34,u.DownVotes,>,595,u.DownVotes,<,1209,v.CreationDate,>,1262845461,v.CreationDate,<,1331148366,v.VoteTypeId,>,8,v.VoteTypeId,<,11,b.Date,>,1320648311,b.Date,<,1351549874",
+      "399"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -4 AND p.Score < 112 AND p.CommentCount > 6 AND p.CommentCount < 34 AND u.DownVotes > 595 AND u.DownVotes < 1209 AND v.CreationDate > 1262845461 AND v.CreationDate < 1331148366 AND v.VoteTypeId > 8 AND v.VoteTypeId < 11 AND b.Date > 1320648311 AND b.Date < 1351549874",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 974,
+    "sql_id": "a85c329231f0ddd2451a1b8b24415c0f69df82fc6e8afb38d0653798d93b8c8e",
+    "archived_truth": 399.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 1386.781909592252,
+      "direct_hgb": 1714.4125461512876,
+      "residual_rf": 1843.77591159887,
+      "direct_rf": 1380.3266828549886
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 1386.781909592252,
+      "direct_hgb": 1714.4125461512876,
+      "residual_rf": 1843.77591159887,
+      "direct_rf": 1380.3266828549886
+    },
+    "truth": 399
+  },
+  {
+    "qid": "s601:value:q587",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-9,p.Score,<,176,p.CommentCount,>,3,p.CommentCount,<,11,u.DownVotes,>,215,u.DownVotes,<,1801,v.CreationDate,>,1253026574,v.CreationDate,<,1347513219,v.VoteTypeId,>,8,v.VoteTypeId,<,10,b.Date,>,1286880031,b.Date,<,1391261578",
+      "3424"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -9 AND p.Score < 176 AND p.CommentCount > 3 AND p.CommentCount < 11 AND u.DownVotes > 215 AND u.DownVotes < 1801 AND v.CreationDate > 1253026574 AND v.CreationDate < 1347513219 AND v.VoteTypeId > 8 AND v.VoteTypeId < 10 AND b.Date > 1286880031 AND b.Date < 1391261578",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 587,
+    "sql_id": "60c6cd8365104edb05c8d0e720ac9689a100f1b9bb2afa76f0e2346560f6e187",
+    "archived_truth": 3424.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 1017.1287136699303,
+      "direct_hgb": 697.2553352599163,
+      "residual_rf": 1500.3487205142637,
+      "direct_rf": 1412.2880517424578
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 1017.1287136699303,
+      "direct_hgb": 697.2553352599163,
+      "residual_rf": 1500.3487205142637,
+      "direct_rf": 1412.2880517424578
+    },
+    "truth": 3424
+  },
+  {
+    "qid": "s601:value:q916",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-11,p.Score,<,178,p.CommentCount,>,5,p.CommentCount,<,44,u.DownVotes,>,380,u.DownVotes,<,444,v.CreationDate,>,1245334740,v.CreationDate,<,1398010978,v.VoteTypeId,>,3,v.VoteTypeId,<,9,b.Date,>,1375197762,b.Date,<,1387436564",
+      "63"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -11 AND p.Score < 178 AND p.CommentCount > 5 AND p.CommentCount < 44 AND u.DownVotes > 380 AND u.DownVotes < 444 AND v.CreationDate > 1245334740 AND v.CreationDate < 1398010978 AND v.VoteTypeId > 3 AND v.VoteTypeId < 9 AND b.Date > 1375197762 AND b.Date < 1387436564",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 916,
+    "sql_id": "23e480f43a5e53252369bff408ea9c6adfa6ded2a37e6e1a1bfa104a88d48817",
+    "archived_truth": 63.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 1203.7981032370742,
+      "direct_hgb": 1072.2816791321325,
+      "residual_rf": 1899.2484674334773,
+      "direct_rf": 1873.869249358668
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 1203.7981032370742,
+      "direct_hgb": 1072.2816791321325,
+      "residual_rf": 1899.2484674334773,
+      "direct_rf": 1873.869249358668
+    },
+    "truth": 63
+  },
+  {
+    "qid": "s601:value:q1183",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,38,p.Score,<,184,p.CommentCount,>,8,p.CommentCount,<,43,u.DownVotes,>,24,u.DownVotes,<,1492,v.CreationDate,>,1273347030,v.CreationDate,<,1339615080,v.VoteTypeId,>,1,v.VoteTypeId,<,13,b.Date,>,1341761668,b.Date,<,1342461998",
+      "516"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 38 AND p.Score < 184 AND p.CommentCount > 8 AND p.CommentCount < 43 AND u.DownVotes > 24 AND u.DownVotes < 1492 AND v.CreationDate > 1273347030 AND v.CreationDate < 1339615080 AND v.VoteTypeId > 1 AND v.VoteTypeId < 13 AND b.Date > 1341761668 AND b.Date < 1342461998",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1183,
+    "sql_id": "2512eedabaf0fa37bc87a1b73199ca87896d4cf9903321f21f26d5caf4e6b4f1",
+    "archived_truth": 516.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 585.6072710052978,
+      "direct_hgb": 858.3510503150873,
+      "residual_rf": 607.4341566579691,
+      "direct_rf": 816.1749607520235
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 585.6072710052978,
+      "direct_hgb": 858.3510503150873,
+      "residual_rf": 607.4341566579691,
+      "direct_rf": 816.1749607520235
+    },
+    "truth": 516
+  },
+  {
+    "qid": "s601:value:q1564",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-6,p.Score,<,138,p.CommentCount,>,22,p.CommentCount,<,36,u.DownVotes,>,73,u.DownVotes,<,1809,v.CreationDate,>,1277051052,v.CreationDate,<,1340451285,v.VoteTypeId,>,2,v.VoteTypeId,<,10,b.Date,>,1405299058,b.Date,<,1410278834",
+      "2"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -6 AND p.Score < 138 AND p.CommentCount > 22 AND p.CommentCount < 36 AND u.DownVotes > 73 AND u.DownVotes < 1809 AND v.CreationDate > 1277051052 AND v.CreationDate < 1340451285 AND v.VoteTypeId > 2 AND v.VoteTypeId < 10 AND b.Date > 1405299058 AND b.Date < 1410278834",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1564,
+    "sql_id": "9558a177e6f8b4215fa5f84183e24a130f70499a8c3e25bab8e9ace49a7c2511",
+    "archived_truth": 2.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 681.692827497176,
+      "direct_hgb": 1579.5756639016656,
+      "residual_rf": 1084.8844372489239,
+      "direct_rf": 1746.03626997642
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 681.692827497176,
+      "direct_hgb": 1579.5756639016656,
+      "residual_rf": 1084.8844372489239,
+      "direct_rf": 1746.03626997642
+    },
+    "truth": 2
+  },
+  {
+    "qid": "s601:value:q1469",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,12,p.Score,<,76,p.CommentCount,>,6,p.CommentCount,<,28,u.DownVotes,>,195,u.DownVotes,<,886,v.CreationDate,>,1304759116,v.CreationDate,<,1388456465,v.VoteTypeId,>,5,v.VoteTypeId,<,13,b.Date,>,1287211128,b.Date,<,1387173788",
+      "646"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 12 AND p.Score < 76 AND p.CommentCount > 6 AND p.CommentCount < 28 AND u.DownVotes > 195 AND u.DownVotes < 886 AND v.CreationDate > 1304759116 AND v.CreationDate < 1388456465 AND v.VoteTypeId > 5 AND v.VoteTypeId < 13 AND b.Date > 1287211128 AND b.Date < 1387173788",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1469,
+    "sql_id": "2ac75de4e1dfb5d423899306c43c559e59955e13d65c9216bb083ac571a20fd6",
+    "archived_truth": 646.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 262.0554667421326,
+      "direct_hgb": 496.983890385245,
+      "residual_rf": 619.054137288403,
+      "direct_rf": 561.3653319425871
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 262.0554667421326,
+      "direct_hgb": 496.983890385245,
+      "residual_rf": 619.054137288403,
+      "direct_rf": 561.3653319425871
+    },
+    "truth": 646
+  },
+  {
+    "qid": "s601:value:q178",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,7,p.Score,<,137,p.CommentCount,>,4,p.CommentCount,<,18,u.DownVotes,>,361,u.DownVotes,<,850,v.CreationDate,>,1240423894,v.CreationDate,<,1342941654,v.VoteTypeId,>,6,v.VoteTypeId,<,15,b.Date,>,1283543188,b.Date,<,1386566051",
+      "1700"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 7 AND p.Score < 137 AND p.CommentCount > 4 AND p.CommentCount < 18 AND u.DownVotes > 361 AND u.DownVotes < 850 AND v.CreationDate > 1240423894 AND v.CreationDate < 1342941654 AND v.VoteTypeId > 6 AND v.VoteTypeId < 15 AND b.Date > 1283543188 AND b.Date < 1386566051",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 178,
+    "sql_id": "f4bc0647ee04178ce4a5cac10de917e110a17f4bdefac5a2812a8aa1f260d7d5",
+    "archived_truth": 1700.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 1128.5446517739092,
+      "direct_hgb": 924.6493373702732,
+      "residual_rf": 1537.0880794609593,
+      "direct_rf": 1378.388031969448
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 1128.5446517739092,
+      "direct_hgb": 924.6493373702732,
+      "residual_rf": 1537.0880794609593,
+      "direct_rf": 1378.388031969448
+    },
+    "truth": 1700
+  },
+  {
+    "qid": "s601:value:q373",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-3,p.Score,<,73,p.CommentCount,>,18,p.CommentCount,<,26,u.DownVotes,>,5,u.DownVotes,<,1015,v.CreationDate,>,1281814228,v.CreationDate,<,1382451117,v.VoteTypeId,>,1,v.VoteTypeId,<,13,b.Date,>,1310364514,b.Date,<,1348373148",
+      "10460"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -3 AND p.Score < 73 AND p.CommentCount > 18 AND p.CommentCount < 26 AND u.DownVotes > 5 AND u.DownVotes < 1015 AND v.CreationDate > 1281814228 AND v.CreationDate < 1382451117 AND v.VoteTypeId > 1 AND v.VoteTypeId < 13 AND b.Date > 1310364514 AND b.Date < 1348373148",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 373,
+    "sql_id": "436130f2e4a3afc7afa60eef5afdd72ac5ba60b15d2458496d93edc64ae78e40",
+    "archived_truth": 10460.0,
+    "root_pg_rows": 7.0,
+    "root_ratios": {
+      "residual_hgb": 1042.762211721419,
+      "direct_hgb": 1820.6290414379532,
+      "residual_rf": 671.949593915516,
+      "direct_rf": 752.0715479557304
+    },
+    "root_estimates": {
+      "pg_map": 7.0,
+      "residual_hgb": 7299.335482049933,
+      "direct_hgb": 12744.403290065673,
+      "residual_rf": 4703.647157408612,
+      "direct_rf": 5264.500835690113
+    },
+    "truth": 10460
+  },
+  {
+    "qid": "s601:value:q1893",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,34,p.Score,<,152,p.CommentCount,>,4,p.CommentCount,<,12,u.DownVotes,>,302,u.DownVotes,<,1424,v.CreationDate,>,1311448923,v.CreationDate,<,1397449915,v.VoteTypeId,>,1,v.VoteTypeId,<,9,b.Date,>,1325606048,b.Date,<,1336645742",
+      "15176"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 34 AND p.Score < 152 AND p.CommentCount > 4 AND p.CommentCount < 12 AND u.DownVotes > 302 AND u.DownVotes < 1424 AND v.CreationDate > 1311448923 AND v.CreationDate < 1397449915 AND v.VoteTypeId > 1 AND v.VoteTypeId < 9 AND b.Date > 1325606048 AND b.Date < 1336645742",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1893,
+    "sql_id": "687933e039479ae98bd0392f5902ba9a985d5dfc01b62bd797955990dab9d654",
+    "archived_truth": 15176.0,
+    "root_pg_rows": 2.0,
+    "root_ratios": {
+      "residual_hgb": 3047.105815418235,
+      "direct_hgb": 3630.677578887874,
+      "residual_rf": 3047.958580552181,
+      "direct_rf": 1713.8049378927874
+    },
+    "root_estimates": {
+      "pg_map": 2.0,
+      "residual_hgb": 6094.21163083647,
+      "direct_hgb": 7261.355157775748,
+      "residual_rf": 6095.917161104362,
+      "direct_rf": 3427.609875785575
+    },
+    "truth": 15176
+  },
+  {
+    "qid": "s601:value:q1266",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,4,p.Score,<,139,p.CommentCount,>,13,p.CommentCount,<,33,u.DownVotes,>,714,u.DownVotes,<,967,v.CreationDate,>,1295008661,v.CreationDate,<,1337448585,v.VoteTypeId,>,2,v.VoteTypeId,<,14,b.Date,>,1304709192,b.Date,<,1408755308",
+      "392"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 4 AND p.Score < 139 AND p.CommentCount > 13 AND p.CommentCount < 33 AND u.DownVotes > 714 AND u.DownVotes < 967 AND v.CreationDate > 1295008661 AND v.CreationDate < 1337448585 AND v.VoteTypeId > 2 AND v.VoteTypeId < 14 AND b.Date > 1304709192 AND b.Date < 1408755308",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1266,
+    "sql_id": "284366fce9dddb4e9bb518a845b408a9f7aa9e2d2d89f87c71266b18fe1c490a",
+    "archived_truth": 392.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 2880.956294957253,
+      "direct_hgb": 1610.4174015059648,
+      "residual_rf": 2774.8585397672327,
+      "direct_rf": 3626.1323352173717
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 2880.956294957253,
+      "direct_hgb": 1610.4174015059648,
+      "residual_rf": 2774.8585397672327,
+      "direct_rf": 3626.1323352173717
+    },
+    "truth": 392
+  },
+  {
+    "qid": "s601:value:q1312",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,32,p.Score,<,131,p.CommentCount,>,2,p.CommentCount,<,30,u.DownVotes,>,612,u.DownVotes,<,1095,v.CreationDate,>,1234468984,v.CreationDate,<,1384453723,v.VoteTypeId,>,1,v.VoteTypeId,<,10,b.Date,>,1350326877,b.Date,<,1375588228",
+      "67408"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 32 AND p.Score < 131 AND p.CommentCount > 2 AND p.CommentCount < 30 AND u.DownVotes > 612 AND u.DownVotes < 1095 AND v.CreationDate > 1234468984 AND v.CreationDate < 1384453723 AND v.VoteTypeId > 1 AND v.VoteTypeId < 10 AND b.Date > 1350326877 AND b.Date < 1375588228",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1312,
+    "sql_id": "f25a1a0a18d143672b8d3cd54bd2ecdc278c490770f398127a3165447ffc88d0",
+    "archived_truth": 67408.0,
+    "root_pg_rows": 2.0,
+    "root_ratios": {
+      "residual_hgb": 5569.335136330299,
+      "direct_hgb": 7840.835247444587,
+      "residual_rf": 3910.7438544924457,
+      "direct_rf": 2766.6367024895694
+    },
+    "root_estimates": {
+      "pg_map": 2.0,
+      "residual_hgb": 11138.670272660598,
+      "direct_hgb": 15681.670494889175,
+      "residual_rf": 7821.4877089848915,
+      "direct_rf": 5533.273404979139
+    },
+    "truth": 67408
+  },
+  {
+    "qid": "s601:value:q406",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,25,p.Score,<,184,p.CommentCount,>,3,p.CommentCount,<,43,u.DownVotes,>,298,u.DownVotes,<,1387,v.CreationDate,>,1304062983,v.CreationDate,<,1329563450,v.VoteTypeId,>,2,v.VoteTypeId,<,7,b.Date,>,1305986921,b.Date,<,1355206671",
+      "558"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 25 AND p.Score < 184 AND p.CommentCount > 3 AND p.CommentCount < 43 AND u.DownVotes > 298 AND u.DownVotes < 1387 AND v.CreationDate > 1304062983 AND v.CreationDate < 1329563450 AND v.VoteTypeId > 2 AND v.VoteTypeId < 7 AND b.Date > 1305986921 AND b.Date < 1355206671",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 406,
+    "sql_id": "020e9c83feb81f3c02b6972afdff092fa93e6e703691e8a78f413ba0d3e53859",
+    "archived_truth": 558.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 620.2839047983539,
+      "direct_hgb": 637.8237194888108,
+      "residual_rf": 1569.8975850659538,
+      "direct_rf": 1197.5817766631224
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 620.2839047983539,
+      "direct_hgb": 637.8237194888108,
+      "residual_rf": 1569.8975850659538,
+      "direct_rf": 1197.5817766631224
+    },
+    "truth": 558
+  },
+  {
+    "qid": "s601:value:q1338",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-17,p.Score,<,74,p.CommentCount,>,11,p.CommentCount,<,26,u.DownVotes,>,295,u.DownVotes,<,1834,v.CreationDate,>,1255858131,v.CreationDate,<,1351523991,v.VoteTypeId,>,3,v.VoteTypeId,<,15,b.Date,>,1317631023,b.Date,<,1371041111",
+      "710"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -17 AND p.Score < 74 AND p.CommentCount > 11 AND p.CommentCount < 26 AND u.DownVotes > 295 AND u.DownVotes < 1834 AND v.CreationDate > 1255858131 AND v.CreationDate < 1351523991 AND v.VoteTypeId > 3 AND v.VoteTypeId < 15 AND b.Date > 1317631023 AND b.Date < 1371041111",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1338,
+    "sql_id": "3f7391bb6f0157ef9b69129149bfc4c02a50b4646d2126bf7d2474f3759d2f34",
+    "archived_truth": 710.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 213.35252279711364,
+      "direct_hgb": 258.9615938379996,
+      "residual_rf": 646.2406118782834,
+      "direct_rf": 562.9628239414932
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 213.35252279711364,
+      "direct_hgb": 258.9615938379996,
+      "residual_rf": 646.2406118782834,
+      "direct_rf": 562.9628239414932
+    },
+    "truth": 710
+  },
+  {
+    "qid": "s601:value:q1576",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,72,p.Score,<,174,p.CommentCount,>,0,p.CommentCount,<,25,u.DownVotes,>,560,u.DownVotes,<,1065,v.CreationDate,>,1290791214,v.CreationDate,<,1396697546,v.VoteTypeId,>,2,v.VoteTypeId,<,7,b.Date,>,1328367149,b.Date,<,1340027005",
+      "35"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 72 AND p.Score < 174 AND p.CommentCount > 0 AND p.CommentCount < 25 AND u.DownVotes > 560 AND u.DownVotes < 1065 AND v.CreationDate > 1290791214 AND v.CreationDate < 1396697546 AND v.VoteTypeId > 2 AND v.VoteTypeId < 7 AND b.Date > 1328367149 AND b.Date < 1340027005",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1576,
+    "sql_id": "ac944603910cdf6d6b227beeb185b644043125990efac7b71e6086829a29b945",
+    "archived_truth": 35.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 2688.163248095927,
+      "direct_hgb": 2309.8526189056056,
+      "residual_rf": 2319.213574566409,
+      "direct_rf": 3652.571894513837
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 2688.163248095927,
+      "direct_hgb": 2309.8526189056056,
+      "residual_rf": 2319.213574566409,
+      "direct_rf": 3652.571894513837
+    },
+    "truth": 35
+  },
+  {
+    "qid": "s601:value:q1191",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,29,p.Score,<,78,p.CommentCount,>,0,p.CommentCount,<,23,u.DownVotes,>,64,u.DownVotes,<,696,v.CreationDate,>,1285322074,v.CreationDate,<,1389798195,v.VoteTypeId,>,1,v.VoteTypeId,<,14,b.Date,>,1323454027,b.Date,<,1385696592",
+      "122989"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 29 AND p.Score < 78 AND p.CommentCount > 0 AND p.CommentCount < 23 AND u.DownVotes > 64 AND u.DownVotes < 696 AND v.CreationDate > 1285322074 AND v.CreationDate < 1389798195 AND v.VoteTypeId > 1 AND v.VoteTypeId < 14 AND b.Date > 1323454027 AND b.Date < 1385696592",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1191,
+    "sql_id": "2cce7b6fa0a2a1f403ee22af265a5e94ee4de1597cbc3b68d17bfc5fd4f55d70",
+    "archived_truth": 122989.0,
+    "root_pg_rows": 5.0,
+    "root_ratios": {
+      "residual_hgb": 1090.7948907606358,
+      "direct_hgb": 2185.76323661751,
+      "residual_rf": 644.5508828865047,
+      "direct_rf": 1099.8194874557114
+    },
+    "root_estimates": {
+      "pg_map": 5.0,
+      "residual_hgb": 5453.974453803179,
+      "direct_hgb": 10928.816183087549,
+      "residual_rf": 3222.754414432524,
+      "direct_rf": 5499.097437278557
+    },
+    "truth": 122989
+  },
+  {
+    "qid": "s601:value:q257",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,20,p.Score,<,24,p.CommentCount,>,8,p.CommentCount,<,30,u.DownVotes,>,43,u.DownVotes,<,599,v.CreationDate,>,1381629926,v.CreationDate,<,1386359277,v.VoteTypeId,>,1,v.VoteTypeId,<,12,b.Date,>,1320510159,b.Date,<,1329403983",
+      "58"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 20 AND p.Score < 24 AND p.CommentCount > 8 AND p.CommentCount < 30 AND u.DownVotes > 43 AND u.DownVotes < 599 AND v.CreationDate > 1381629926 AND v.CreationDate < 1386359277 AND v.VoteTypeId > 1 AND v.VoteTypeId < 12 AND b.Date > 1320510159 AND b.Date < 1329403983",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 257,
+    "sql_id": "6433813b6547f84c7fd802dbc66b242078ee3bc872ce444af60cc48e4171ba69",
+    "archived_truth": 58.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 858.8464348462428,
+      "direct_hgb": 439.488525937378,
+      "residual_rf": 668.4641042983986,
+      "direct_rf": 636.6707323910783
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 858.8464348462428,
+      "direct_hgb": 439.488525937378,
+      "residual_rf": 668.4641042983986,
+      "direct_rf": 636.6707323910783
+    },
+    "truth": 58
+  },
+  {
+    "qid": "s601:value:q1876",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,99,p.Score,<,134,p.CommentCount,>,9,p.CommentCount,<,12,u.DownVotes,>,665,u.DownVotes,<,998,v.CreationDate,>,1270402820,v.CreationDate,<,1334660109,v.VoteTypeId,>,1,v.VoteTypeId,<,14,b.Date,>,1375737141,b.Date,<,1379637763",
+      "697"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 99 AND p.Score < 134 AND p.CommentCount > 9 AND p.CommentCount < 12 AND u.DownVotes > 665 AND u.DownVotes < 998 AND v.CreationDate > 1270402820 AND v.CreationDate < 1334660109 AND v.VoteTypeId > 1 AND v.VoteTypeId < 14 AND b.Date > 1375737141 AND b.Date < 1379637763",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1876,
+    "sql_id": "06336e27b9bd343b323c658427771745f64b8806953e6b229038f4eaf1b1f2b5",
+    "archived_truth": 697.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 3075.695569029446,
+      "direct_hgb": 2614.160537118221,
+      "residual_rf": 1829.4156092469268,
+      "direct_rf": 2263.766703419996
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 3075.695569029446,
+      "direct_hgb": 2614.160537118221,
+      "residual_rf": 1829.4156092469268,
+      "direct_rf": 2263.766703419996
+    },
+    "truth": 697
+  },
+  {
+    "qid": "s601:value:q1274",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,0,p.Score,<,173,p.CommentCount,>,7,p.CommentCount,<,25,u.DownVotes,>,73,u.DownVotes,<,825,v.CreationDate,>,1312632156,v.CreationDate,<,1345821186,v.VoteTypeId,>,4,v.VoteTypeId,<,10,b.Date,>,1350811167,b.Date,<,1371834070",
+      "563"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 0 AND p.Score < 173 AND p.CommentCount > 7 AND p.CommentCount < 25 AND u.DownVotes > 73 AND u.DownVotes < 825 AND v.CreationDate > 1312632156 AND v.CreationDate < 1345821186 AND v.VoteTypeId > 4 AND v.VoteTypeId < 10 AND b.Date > 1350811167 AND b.Date < 1371834070",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1274,
+    "sql_id": "31e1dca3740022667dc2d833ff0026276737c25d91626cddae9404be1f0d8fef",
+    "archived_truth": 563.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 421.62640311473234,
+      "direct_hgb": 607.3506785960963,
+      "residual_rf": 576.6851928920729,
+      "direct_rf": 931.6466088296329
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 421.62640311473234,
+      "direct_hgb": 607.3506785960963,
+      "residual_rf": 576.6851928920729,
+      "direct_rf": 931.6466088296329
+    },
+    "truth": 563
+  },
+  {
+    "qid": "s601:value:q429",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,71,p.Score,<,140,p.CommentCount,>,1,p.CommentCount,<,11,u.DownVotes,>,554,u.DownVotes,<,1788,v.CreationDate,>,1251082482,v.CreationDate,<,1328245047,v.VoteTypeId,>,1,v.VoteTypeId,<,5,b.Date,>,1397814749,b.Date,<,1401242020",
+      "294"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 71 AND p.Score < 140 AND p.CommentCount > 1 AND p.CommentCount < 11 AND u.DownVotes > 554 AND u.DownVotes < 1788 AND v.CreationDate > 1251082482 AND v.CreationDate < 1328245047 AND v.VoteTypeId > 1 AND v.VoteTypeId < 5 AND b.Date > 1397814749 AND b.Date < 1401242020",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 429,
+    "sql_id": "af67f48beef6f99dd6a9d961dac442ea16064c7786a966cb1c8072d7523ee666",
+    "archived_truth": 294.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 5196.098580941058,
+      "direct_hgb": 3380.9123852478465,
+      "residual_rf": 3739.804725289206,
+      "direct_rf": 5526.681547435795
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 5196.098580941058,
+      "direct_hgb": 3380.9123852478465,
+      "residual_rf": 3739.804725289206,
+      "direct_rf": 5526.681547435795
+    },
+    "truth": 294
+  },
+  {
+    "qid": "s601:value:q1383",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-3,p.Score,<,186,p.CommentCount,>,12,p.CommentCount,<,34,u.DownVotes,>,272,u.DownVotes,<,1278,v.CreationDate,>,1237545006,v.CreationDate,<,1302044194,v.VoteTypeId,>,1,v.VoteTypeId,<,9,b.Date,>,1298587235,b.Date,<,1353665301",
+      "4422"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -3 AND p.Score < 186 AND p.CommentCount > 12 AND p.CommentCount < 34 AND u.DownVotes > 272 AND u.DownVotes < 1278 AND v.CreationDate > 1237545006 AND v.CreationDate < 1302044194 AND v.VoteTypeId > 1 AND v.VoteTypeId < 9 AND b.Date > 1298587235 AND b.Date < 1353665301",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1383,
+    "sql_id": "0987869aea73321ff2b62559c0a6c102ba4074a62aa9042a644b5238d5f6550b",
+    "archived_truth": 4422.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 1561.1237396591753,
+      "direct_hgb": 1744.1758685039717,
+      "residual_rf": 2442.1394514992735,
+      "direct_rf": 2428.4553571424003
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 1561.1237396591753,
+      "direct_hgb": 1744.1758685039717,
+      "residual_rf": 2442.1394514992735,
+      "direct_rf": 2428.4553571424003
+    },
+    "truth": 4422
+  },
+  {
+    "qid": "s601:value:q427",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,71,p.Score,<,140,p.CommentCount,>,0,p.CommentCount,<,16,u.DownVotes,>,101,u.DownVotes,<,616,v.CreationDate,>,1328885401,v.CreationDate,<,1400250625,v.VoteTypeId,>,1,v.VoteTypeId,<,5,b.Date,>,1393767194,b.Date,<,1410040683",
+      "16980"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 71 AND p.Score < 140 AND p.CommentCount > 0 AND p.CommentCount < 16 AND u.DownVotes > 101 AND u.DownVotes < 616 AND v.CreationDate > 1328885401 AND v.CreationDate < 1400250625 AND v.VoteTypeId > 1 AND v.VoteTypeId < 5 AND b.Date > 1393767194 AND b.Date < 1410040683",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 427,
+    "sql_id": "68fbdf95f2013e6ca59b1f6f92e4c58e89f5096cf92a0c4ae9bd983823e4737f",
+    "archived_truth": 16980.0,
+    "root_pg_rows": 2.0,
+    "root_ratios": {
+      "residual_hgb": 1517.1614125829678,
+      "direct_hgb": 2773.25865969982,
+      "residual_rf": 1144.9279403951343,
+      "direct_rf": 1794.4874950308895
+    },
+    "root_estimates": {
+      "pg_map": 2.0,
+      "residual_hgb": 3034.3228251659357,
+      "direct_hgb": 5546.51731939964,
+      "residual_rf": 2289.8558807902687,
+      "direct_rf": 3588.974990061779
+    },
+    "truth": 16980
+  },
+  {
+    "qid": "s601:value:q446",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,3,p.Score,<,124,p.CommentCount,>,1,p.CommentCount,<,10,u.DownVotes,>,659,u.DownVotes,<,1550,v.CreationDate,>,1383721842,v.CreationDate,<,1385684549,v.VoteTypeId,>,6,v.VoteTypeId,<,11,b.Date,>,1301737015,b.Date,<,1346529647",
+      "154"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 3 AND p.Score < 124 AND p.CommentCount > 1 AND p.CommentCount < 10 AND u.DownVotes > 659 AND u.DownVotes < 1550 AND v.CreationDate > 1383721842 AND v.CreationDate < 1385684549 AND v.VoteTypeId > 6 AND v.VoteTypeId < 11 AND b.Date > 1301737015 AND b.Date < 1346529647",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 446,
+    "sql_id": "99a89cb2efc502eee544a712545b5496d630ba2432f8b97fbe2659f8e4d8ae06",
+    "archived_truth": 154.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 6591.025544293965,
+      "direct_hgb": 6357.597387596637,
+      "residual_rf": 4260.1493588382355,
+      "direct_rf": 5031.740908549642
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 6591.025544293965,
+      "direct_hgb": 6357.597387596637,
+      "residual_rf": 4260.1493588382355,
+      "direct_rf": 5031.740908549642
+    },
+    "truth": 154
+  },
+  {
+    "qid": "s601:value:q779",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,-3,p.Score,<,24,p.CommentCount,>,1,p.CommentCount,<,3,u.DownVotes,>,436,u.DownVotes,<,1780,v.CreationDate,>,1301355102,v.CreationDate,<,1367455975,v.VoteTypeId,>,5,v.VoteTypeId,<,15,b.Date,>,1357345974,b.Date,<,1369781222",
+      "62"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > -3 AND p.Score < 24 AND p.CommentCount > 1 AND p.CommentCount < 3 AND u.DownVotes > 436 AND u.DownVotes < 1780 AND v.CreationDate > 1301355102 AND v.CreationDate < 1367455975 AND v.VoteTypeId > 5 AND v.VoteTypeId < 15 AND b.Date > 1357345974 AND b.Date < 1369781222",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 779,
+    "sql_id": "c74310eee9b62ad12e4b534663782aa9d6da3bbab51e492502c16b8c7bd1e695",
+    "archived_truth": 62.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 969.9136658284486,
+      "direct_hgb": 359.5665601981192,
+      "residual_rf": 799.7877220970284,
+      "direct_rf": 948.4265376779081
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 969.9136658284486,
+      "direct_hgb": 359.5665601981192,
+      "residual_rf": 799.7877220970284,
+      "direct_rf": 948.4265376779081
+    },
+    "truth": 62
+  },
+  {
+    "qid": "s601:value:q991",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,27,p.Score,<,88,p.CommentCount,>,7,p.CommentCount,<,25,u.DownVotes,>,142,u.DownVotes,<,1426,v.CreationDate,>,1281788636,v.CreationDate,<,1350946892,v.VoteTypeId,>,2,v.VoteTypeId,<,5,b.Date,>,1347946351,b.Date,<,1355235919",
+      "29"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 27 AND p.Score < 88 AND p.CommentCount > 7 AND p.CommentCount < 25 AND u.DownVotes > 142 AND u.DownVotes < 1426 AND v.CreationDate > 1281788636 AND v.CreationDate < 1350946892 AND v.VoteTypeId > 2 AND v.VoteTypeId < 5 AND b.Date > 1347946351 AND b.Date < 1355235919",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 991,
+    "sql_id": "76a730e5f24dfec599c8500e2e88aab9dffc5f917e4297a01cf7815178fcaab5",
+    "archived_truth": 29.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 232.86705570527826,
+      "direct_hgb": 372.2663708125009,
+      "residual_rf": 644.5224642342989,
+      "direct_rf": 618.7676649844188
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 232.86705570527826,
+      "direct_hgb": 372.2663708125009,
+      "residual_rf": 644.5224642342989,
+      "direct_rf": 618.7676649844188
+    },
+    "truth": 29
+  },
+  {
+    "qid": "s601:value:q1467",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,15,p.Score,<,92,p.CommentCount,>,2,p.CommentCount,<,28,u.DownVotes,>,773,u.DownVotes,<,1401,v.CreationDate,>,1283225127,v.CreationDate,<,1329874863,v.VoteTypeId,>,5,v.VoteTypeId,<,13,b.Date,>,1302760381,b.Date,<,1305362788",
+      "6"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 15 AND p.Score < 92 AND p.CommentCount > 2 AND p.CommentCount < 28 AND u.DownVotes > 773 AND u.DownVotes < 1401 AND v.CreationDate > 1283225127 AND v.CreationDate < 1329874863 AND v.VoteTypeId > 5 AND v.VoteTypeId < 13 AND b.Date > 1302760381 AND b.Date < 1305362788",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1467,
+    "sql_id": "3a2a9e97a0c36039f98b5e8a5cb77c2b57039de8c30b1d0ad7ac621c56f457cf",
+    "archived_truth": 6.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 478.86106282040333,
+      "direct_hgb": 583.7995074767387,
+      "residual_rf": 2154.617551071526,
+      "direct_rf": 1849.4140461008833
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 478.86106282040333,
+      "direct_hgb": 583.7995074767387,
+      "residual_rf": 2154.617551071526,
+      "direct_rf": 1849.4140461008833
+    },
+    "truth": 6
+  },
+  {
+    "qid": "s601:value:q609",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,16,p.Score,<,38,p.CommentCount,>,1,p.CommentCount,<,41,u.DownVotes,>,414,u.DownVotes,<,1209,v.CreationDate,>,1267850071,v.CreationDate,<,1399865115,v.VoteTypeId,>,2,v.VoteTypeId,<,11,b.Date,>,1317993958,b.Date,<,1354320171",
+      "725"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 16 AND p.Score < 38 AND p.CommentCount > 1 AND p.CommentCount < 41 AND u.DownVotes > 414 AND u.DownVotes < 1209 AND v.CreationDate > 1267850071 AND v.CreationDate < 1399865115 AND v.VoteTypeId > 2 AND v.VoteTypeId < 11 AND b.Date > 1317993958 AND b.Date < 1354320171",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 609,
+    "sql_id": "5a4a2f3f98ecac0bca5833609162ba64f1ae473b79ba2234b00306e148703b7b",
+    "archived_truth": 725.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 2084.498498655595,
+      "direct_hgb": 861.5826657194931,
+      "residual_rf": 1742.7766143488857,
+      "direct_rf": 1494.7343943196622
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 2084.498498655595,
+      "direct_hgb": 861.5826657194931,
+      "residual_rf": 1742.7766143488857,
+      "direct_rf": 1494.7343943196622
+    },
+    "truth": 725
+  },
+  {
+    "qid": "s601:value:q1303",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,2,p.Score,<,56,p.CommentCount,>,33,p.CommentCount,<,41,u.DownVotes,>,370,u.DownVotes,<,717,v.CreationDate,>,1273373326,v.CreationDate,<,1374113894,v.VoteTypeId,>,1,v.VoteTypeId,<,15,b.Date,>,1346443401,b.Date,<,1406645941",
+      "806"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 2 AND p.Score < 56 AND p.CommentCount > 33 AND p.CommentCount < 41 AND u.DownVotes > 370 AND u.DownVotes < 717 AND v.CreationDate > 1273373326 AND v.CreationDate < 1374113894 AND v.VoteTypeId > 1 AND v.VoteTypeId < 15 AND b.Date > 1346443401 AND b.Date < 1406645941",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 1303,
+    "sql_id": "06ccfb10d406a3101fc933b385a4c7e6e91ce1b0af72a82969b10b4361d31bd4",
+    "archived_truth": 806.0,
+    "root_pg_rows": 2.0,
+    "root_ratios": {
+      "residual_hgb": 2344.5538591479253,
+      "direct_hgb": 9649.878598488116,
+      "residual_rf": 2053.505200787307,
+      "direct_rf": 2593.1645733939768
+    },
+    "root_estimates": {
+      "pg_map": 2.0,
+      "residual_hgb": 4689.107718295851,
+      "direct_hgb": 19299.757196976232,
+      "residual_rf": 4107.010401574614,
+      "direct_rf": 5186.3291467879535
+    },
+    "truth": 806
+  },
+  {
+    "qid": "s601:value:q657",
+    "row": [
+      "votes v,posts p,badges b,users u",
+      "p.Id=v.PostId,u.Id=p.OwnerUserId,u.Id=b.UserId",
+      "p.Score,>,53,p.Score,<,147,p.CommentCount,>,2,p.CommentCount,<,10,u.DownVotes,>,31,u.DownVotes,<,347,v.CreationDate,>,1303071231,v.CreationDate,<,1330406876,v.VoteTypeId,>,1,v.VoteTypeId,<,5,b.Date,>,1289796919,b.Date,<,1292039387",
+      "461"
+    ],
+    "sql": "SELECT COUNT(*) FROM votes v,posts p,badges b,users u WHERE p.Id=v.PostId AND u.Id=p.OwnerUserId AND u.Id=b.UserId AND p.Score > 53 AND p.Score < 147 AND p.CommentCount > 2 AND p.CommentCount < 10 AND u.DownVotes > 31 AND u.DownVotes < 347 AND v.CreationDate > 1303071231 AND v.CreationDate < 1330406876 AND v.VoteTypeId > 1 AND v.VoteTypeId < 5 AND b.Date > 1289796919 AND b.Date < 1292039387",
+    "role": "test",
+    "drift": "value",
+    "tables": 4,
+    "index": 657,
+    "sql_id": "509205b7e9683cbe2aed86a7e2ff94259b93793d596cb30255a7994933a5456d",
+    "archived_truth": 461.0,
+    "root_pg_rows": 1.0,
+    "root_ratios": {
+      "residual_hgb": 445.3416442065021,
+      "direct_hgb": 986.9205415302234,
+      "residual_rf": 668.3958897772795,
+      "direct_rf": 804.6244697705833
+    },
+    "root_estimates": {
+      "pg_map": 1.0,
+      "residual_hgb": 445.3416442065021,
+      "direct_hgb": 986.9205415302234,
+      "residual_rf": 668.3958897772795,
+      "direct_rf": 804.6244697705833
+    },
+    "truth": 461
+  }
+]

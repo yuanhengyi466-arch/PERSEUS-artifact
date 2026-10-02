@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "training_selections": 54,
+  "configurations_scored": 216,
+  "verified_training_input_output_files": 213,
+  "within_outer_sql_role_conflicts": 0,
+  "timed_requests": 6480,
+  "correct": 6480,
+  "timeouts": 0,
+  "warmup_requests": 540,
+  "warmup_correct": 540,
+  "all_native_test_cases_preserved_each_block": true,
+  "paired_order_verified": true,
+  "original_submission_sha256": {
+    "main_kdd2027.pdf": "44fd3345505823434994b332bc255cc33fe07a1495970d5defcce9a29062862a",
+    "main_kdd2027.tex": "8e9a374baf8c301996bc1b66452c9eb41a62f23308e3a19cd9c462433f021e3c"
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.1",
+    "torch": "2.8.0+cu126",
+    "joblib": "1.4.2",
+    "psutil": "5.9.0",
+    "psycopg": "3.3.4"
+  },
+  "script_sha256": {
+    "analyze_estimator_controls.py": "3f66b5ff3a06870ea5641e893d958bab5855f3ffcfe31111b5ad5e76f779706c",
+    "run_estimator_controls.py": "3f111bd164e904f5fa6a98c564049c1852aa09958806db8f5f064f1f759bcfbc",
+    "run_throughput.py": "1c360dc09e6011ca98da1e8740f22cbb57dc86bb8c9506e7b0e5bd182c1cefc9",
+    "verify_completion.py": "6fba05d3af0a38b1716efca6f8de2e259b8b8e3471c5a8692b9842404a1d29c6"
+  }
+}

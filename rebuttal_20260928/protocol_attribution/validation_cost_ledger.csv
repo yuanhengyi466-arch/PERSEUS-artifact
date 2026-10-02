@@ -1,0 +1,13 @@
+outer,model,mode,estimator_gate_allowed_drifts,candidate_validation_sql_required,candidate_validation_executions_required,candidate_validation_measured_ms_required,accepted_validation_sql,eligible_rules
+401,hgb,runtime,column;table;value,180,540,46723.67670270614,0,0
+401,hgb,full,column;table,120,360,35616.85670213774,0,0
+401,rf,runtime,column;table;value,180,540,49466.4086002158,0,0
+401,rf,full,column;table,120,360,38089.911999879405,0,0
+402,hgb,runtime,column;table;value,180,540,58538.309301715344,0,0
+402,hgb,full,column;table,120,360,43974.15950137656,0,0
+402,rf,runtime,column;table;value,180,540,45648.660697741434,0,0
+402,rf,full,column;table,120,360,31413.399097742513,0,0
+403,hgb,runtime,column;table;value,180,540,39766.0688997712,0,0
+403,hgb,full,column;table,120,360,29113.203599350527,0,0
+403,rf,runtime,column;table;value,180,540,39774.8489996884,0,0
+403,rf,full,column;table,120,360,28909.602200845256,0,0

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "Held-out deployable native PostgreSQL callback selector policy",
+  "finished_at": "2026-06-22T22:05:23",
+  "detail": "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_hash_full_seeds123\\native_callback_detail.csv",
+  "csv": "paper\\workload_drift_residual_field\\results\\native_callback_selector_policy.csv",
+  "tex_rows": "paper\\workload_drift_residual_field\\results\\tables\\native_callback_selector_policy_rows.tex",
+  "split_seed": 20260618,
+  "rule": "column native-final if max_estimated_cardinality <= 200; otherwise default",
+  "rows": 6,
+  "methods_required": [
+    "default",
+    "native-final",
+    "native-multi",
+    "native-gated"
+  ]
+}

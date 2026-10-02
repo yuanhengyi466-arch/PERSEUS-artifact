@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Held-out selector policy over PostgreSQL deployable multi-subplan traces",
+  "finished_at": "2026-06-17T18:45:33",
+  "split_seed": 20260616,
+  "balanced_detail": "paper\\workload_drift_residual_field\\results_pg_deploy_k1450\\postgres_multisubplan_injection_detail.csv",
+  "column_detail": "paper\\workload_drift_residual_field\\results_pg_deploy_alltail_column\\postgres_multisubplan_injection_detail.csv",
+  "csv": "paper\\workload_drift_residual_field\\results\\postgres_selector_policy.csv",
+  "sensitivity_csv": "paper\\workload_drift_residual_field\\results\\postgres_selector_threshold_sensitivity.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\postgres_selector_policy.tex",
+  "rows": 4,
+  "sensitivity_rows": 16
+}

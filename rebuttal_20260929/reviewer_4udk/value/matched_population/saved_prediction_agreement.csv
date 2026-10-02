@@ -1,0 +1,10 @@
+drift,seed,method,retained_cases,exact_prediction_fraction,rtol_1e_6_atol_1_match_fraction,max_relative_prediction_difference
+value,1,raw-mscn,1450,1.0,1.0,0.0
+value,1,residual-field,1450,1.0,1.0,0.0
+value,1,mscn-finetune-best,1450,0.9993103448275862,1.0,8.484426834545192e-06
+value,2,raw-mscn,1450,1.0,1.0,0.0
+value,2,residual-field,1450,1.0,1.0,0.0
+value,2,mscn-finetune-best,1450,0.6420689655172414,0.8013793103448276,0.019230769230769232
+value,3,raw-mscn,1450,1.0,1.0,0.0
+value,3,residual-field,1450,1.0,1.0,0.0
+value,3,mscn-finetune-best,1450,0.9986206896551724,1.0,0.00019372336303758234

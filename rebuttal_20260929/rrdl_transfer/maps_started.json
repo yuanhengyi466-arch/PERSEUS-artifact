@@ -1,0 +1,9 @@
+{
+  "unix": 1790672270.6326156,
+  "command": [
+    "rebuttal_20260929/rrdl_transfer/run_transfer.py",
+    "all"
+  ],
+  "runner_sha256": "9d8c79eb7f0b5541b32a79df86d63c85dce9722c50b4e9c212355fab8ca3d507",
+  "protocol_sha256": "23207dbf3df1fd7ffb54faef089df211e79fe734687ca2530761f4db62eb7a8a"
+}

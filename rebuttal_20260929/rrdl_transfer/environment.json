@@ -1,0 +1,182 @@
+{
+  "configurations": {
+    "pg4": {
+      "from_collapse_limit": "8",
+      "jit": "off",
+      "join_collapse_limit": "8",
+      "max_parallel_workers_per_gather": "0",
+      "plan_cache_mode": "force_custom_plan",
+      "random_page_cost": "4",
+      "statement_timeout": "5000",
+      "work_mem": "4096"
+    },
+    "pg11": {
+      "from_collapse_limit": "8",
+      "jit": "off",
+      "join_collapse_limit": "8",
+      "max_parallel_workers_per_gather": "0",
+      "plan_cache_mode": "force_custom_plan",
+      "random_page_cost": "1.1",
+      "statement_timeout": "5000",
+      "work_mem": "4096"
+    }
+  },
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "cached_maps": true,
+  "callback_sha256": "8d6ba4a6f5b5224ed6005ca8f614fa960bcafa47e36d8284c5c80c9c3e5dbb76",
+  "version": "PostgreSQL 13.1, compiled by Visual C++ build 1944, 64-bit",
+  "catalog": [
+    [
+      "badges",
+      79851.0,
+      509
+    ],
+    [
+      "comments",
+      174305.0,
+      1452
+    ],
+    [
+      "posthistory",
+      303187.0,
+      2514
+    ],
+    [
+      "postlinks",
+      11102.0,
+      93
+    ],
+    [
+      "posts",
+      91976.0,
+      1083
+    ],
+    [
+      "tags",
+      1032.0,
+      7
+    ],
+    [
+      "users",
+      40325.0,
+      377
+    ],
+    [
+      "votes",
+      328064.0,
+      2455
+    ]
+  ],
+  "processes": [
+    {
+      "pid": 2532,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 8584,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 8664,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 9276,
+      "name": "python.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 9716,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 9724,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 9732,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 9752,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 9772,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 11208,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 11216,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 11224,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 19584,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 22732,
+      "name": "python.exe",
+      "entrypoint": "rebuttal_20260929/rrdl_transfer/run_transfer.py"
+    },
+    {
+      "pid": 26640,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 26712,
+      "name": "python.exe",
+      "entrypoint": "H:/yhy-bni/epc-memory/artifacts/runs/sw6_qwen_v6_20260929/frozen/scripts/run_scienceworld_subset.py"
+    },
+    {
+      "pid": 27104,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 27636,
+      "name": "python.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 31676,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 33416,
+      "name": "postgres.exe",
+      "entrypoint": null
+    },
+    {
+      "pid": 35692,
+      "name": "python.exe",
+      "entrypoint": "H:/yhy-bni/epc-memory/artifacts/runs/sw6_qwen_v6_20260929/frozen/scripts/run_scienceworld_subset.py"
+    },
+    {
+      "pid": 35772,
+      "name": "postgres.exe",
+      "entrypoint": null
+    }
+  ]
+}

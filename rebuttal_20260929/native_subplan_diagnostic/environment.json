@@ -1,0 +1,72 @@
+{
+  "protocol_sha256": "55c8e1f93d1861fd5107effa79762ac7301ade17b23605457799fadc959a13ea",
+  "runner_sha256": "dffcbbc6a4eb1e6a7365d7e54f117a1767d0889f30a959968e2408fe593fa582",
+  "cases": 180,
+  "inputs": {
+    "rebuttal_20260928\\protocol_attribution\\cases.json": "7c5474e6a5e0b7a5e0e21b4571de4ac2d14e4e89b7716d86a69dde0da2b92ea0",
+    "rebuttal_20260928\\protocol_attribution\\estimate_map.csv": "b7d03fbcfc33ce05be72848752bcf5ccd456a4138749bd73f3a1d3f63c7e83ae",
+    "rebuttal_20260928\\protocol_attribution\\models.joblib": "c9d6ca6eb6c9ecb702334e667a2ce84cdc28f28df0af3f3c600e39d63007bd11",
+    "rebuttal_20260928\\protocol_attribution\\run_protocol_attribution.py": "ac52138f32b0dad0a1b7c0784192ad26c3f856b1ca84a4df0af99ad03995a748",
+    "baselines\\End-to-End-CardEst-Benchmark\\postgresql-13.1\\src\\backend\\optimizer\\path\\costsize.c": "8d6ba4a6f5b5224ed6005ca8f614fa960bcafa47e36d8284c5c80c9c3e5dbb76"
+  },
+  "started_unix": 1790616307.1227283,
+  "command": [
+    "rebuttal_20260929/native_subplan_diagnostic/run_diagnostic.py",
+    "prepare"
+  ],
+  "server_version": "PostgreSQL 13.1, compiled by Visual C++ build 1944, 64-bit",
+  "settings": {
+    "effective_cache_size": "524288",
+    "geqo_threshold": "12",
+    "jit": "off",
+    "join_collapse_limit": "8",
+    "max_parallel_workers_per_gather": "0",
+    "random_page_cost": "4",
+    "search_path": "stats_inj, public",
+    "seq_page_cost": "1",
+    "statement_timeout": "5000",
+    "work_mem": "4096"
+  },
+  "table_statistics": [
+    [
+      "badges",
+      79851.0,
+      509
+    ],
+    [
+      "comments",
+      174305.0,
+      1452
+    ],
+    [
+      "posthistory",
+      303187.0,
+      2514
+    ],
+    [
+      "postlinks",
+      11102.0,
+      93
+    ],
+    [
+      "posts",
+      91976.0,
+      1083
+    ],
+    [
+      "tags",
+      1032.0,
+      7
+    ],
+    [
+      "users",
+      40325.0,
+      377
+    ],
+    [
+      "votes",
+      328064.0,
+      2455
+    ]
+  ]
+}

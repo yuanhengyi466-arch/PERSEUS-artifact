@@ -1,0 +1,39 @@
+{
+  "development_count_attempts": 1354,
+  "development_count_successes": 1341,
+  "development_count_ms": 124328.76759849023,
+  "fit_tune_gate_labels": {
+    "fit": 867,
+    "tune": 237,
+    "gate": 237
+  },
+  "unique_archived_validation_root_labels_for_correctness": 180,
+  "unique_archived_test_root_labels_for_correctness_only": 177,
+  "fit_successful_semantic_unique_labels": 866,
+  "predeployment_canonical_successful_development_plus_validation_root_labels": 1521,
+  "predeployment_equality_normalized_successful_development_plus_validation_root_labels": 1520,
+  "validation_distinct_parents_with_any_successful_measured_count": 129,
+  "validation_timed_executions": 3240,
+  "validation_warmup_executions": 1080,
+  "all_eight_model_fits_ms": 7054.609499988146,
+  "map_native_explain_ms": 2644.2766009131446,
+  "map_both_model_inference_ms": 4052.722200518474,
+  "validation_timed_request_ms": 1861930.4972987156,
+  "validation_warmup_ms": 621036.3376018358,
+  "test_count_attempts_diagnostic_only": 1486,
+  "test_count_statuses": {
+    "ok": 1367,
+    "timeout": 119
+  },
+  "test_count_ms_diagnostic_only": 759562.6158018131,
+  "cached_features_and_maps": true,
+  "online_inference_measured": false,
+  "cost_boundary": "Listed acquisition, fit, map and validation components; not exhaustive production setup.",
+  "listed_development_and_setup_ms": 2621047.2108004615,
+  "descriptive_break_even_workload_replays": {
+    "runtime_hgb": 28297.894625646393,
+    "full_hgb": 25176.353097838877,
+    "runtime_rf": null,
+    "full_rf": 39410.39121003826
+  }
+}

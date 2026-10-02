@@ -1,0 +1,393 @@
+{
+  "cases": 540,
+  "policies": [
+    "pg",
+    "raw",
+    "candidate:hgb",
+    "candidate:rf"
+  ],
+  "repeats": 3,
+  "seconds": 533.4776590000838,
+  "timings_sha256": "6560de3bedd67c63124e0821ce99a976f47aa04ee8cc099212554fb9a26a0df5",
+  "health": [
+    {
+      "completed": 10,
+      "total": 540,
+      "seconds": 3.609579600044526,
+      "host_cpu_percent": 17.5,
+      "available_memory": 5809053696
+    },
+    {
+      "completed": 20,
+      "total": 540,
+      "seconds": 8.957529200008139,
+      "host_cpu_percent": 17.7,
+      "available_memory": 5792489472
+    },
+    {
+      "completed": 30,
+      "total": 540,
+      "seconds": 21.088457700097933,
+      "host_cpu_percent": 19.4,
+      "available_memory": 5699780608
+    },
+    {
+      "completed": 40,
+      "total": 540,
+      "seconds": 25.22932490007952,
+      "host_cpu_percent": 19.0,
+      "available_memory": 5748346880
+    },
+    {
+      "completed": 50,
+      "total": 540,
+      "seconds": 42.25226380000822,
+      "host_cpu_percent": 18.1,
+      "available_memory": 5735657472
+    },
+    {
+      "completed": 60,
+      "total": 540,
+      "seconds": 48.522101500071585,
+      "host_cpu_percent": 16.6,
+      "available_memory": 5725999104
+    },
+    {
+      "completed": 70,
+      "total": 540,
+      "seconds": 61.691168300108984,
+      "host_cpu_percent": 17.3,
+      "available_memory": 5721165824
+    },
+    {
+      "completed": 80,
+      "total": 540,
+      "seconds": 71.46526610001456,
+      "host_cpu_percent": 17.1,
+      "available_memory": 5729300480
+    },
+    {
+      "completed": 90,
+      "total": 540,
+      "seconds": 80.7127248001052,
+      "host_cpu_percent": 21.1,
+      "available_memory": 5693915136
+    },
+    {
+      "completed": 100,
+      "total": 540,
+      "seconds": 110.43501200003084,
+      "host_cpu_percent": 18.4,
+      "available_memory": 5673799680
+    },
+    {
+      "completed": 110,
+      "total": 540,
+      "seconds": 116.15436250006314,
+      "host_cpu_percent": 16.7,
+      "available_memory": 5680996352
+    },
+    {
+      "completed": 120,
+      "total": 540,
+      "seconds": 122.19311020011082,
+      "host_cpu_percent": 16.7,
+      "available_memory": 5677912064
+    },
+    {
+      "completed": 130,
+      "total": 540,
+      "seconds": 138.89767050009686,
+      "host_cpu_percent": 21.0,
+      "available_memory": 5136310272
+    },
+    {
+      "completed": 140,
+      "total": 540,
+      "seconds": 150.1737490000669,
+      "host_cpu_percent": 20.6,
+      "available_memory": 5604429824
+    },
+    {
+      "completed": 150,
+      "total": 540,
+      "seconds": 158.11158260004595,
+      "host_cpu_percent": 18.9,
+      "available_memory": 5447757824
+    },
+    {
+      "completed": 160,
+      "total": 540,
+      "seconds": 168.1885629000608,
+      "host_cpu_percent": 17.9,
+      "available_memory": 5463486464
+    },
+    {
+      "completed": 170,
+      "total": 540,
+      "seconds": 175.99822380009573,
+      "host_cpu_percent": 17.0,
+      "available_memory": 5455929344
+    },
+    {
+      "completed": 180,
+      "total": 540,
+      "seconds": 185.05001280002762,
+      "host_cpu_percent": 20.6,
+      "available_memory": 5463154688
+    },
+    {
+      "completed": 190,
+      "total": 540,
+      "seconds": 189.25278480001725,
+      "host_cpu_percent": 16.9,
+      "available_memory": 5463851008
+    },
+    {
+      "completed": 200,
+      "total": 540,
+      "seconds": 204.0461255001137,
+      "host_cpu_percent": 18.3,
+      "available_memory": 5394632704
+    },
+    {
+      "completed": 210,
+      "total": 540,
+      "seconds": 210.7211686000228,
+      "host_cpu_percent": 16.7,
+      "available_memory": 5475717120
+    },
+    {
+      "completed": 220,
+      "total": 540,
+      "seconds": 217.8042086000787,
+      "host_cpu_percent": 21.5,
+      "available_memory": 5306974208
+    },
+    {
+      "completed": 230,
+      "total": 540,
+      "seconds": 262.6332834000932,
+      "host_cpu_percent": 18.0,
+      "available_memory": 5635121152
+    },
+    {
+      "completed": 240,
+      "total": 540,
+      "seconds": 267.1574495000532,
+      "host_cpu_percent": 16.5,
+      "available_memory": 5640728576
+    },
+    {
+      "completed": 250,
+      "total": 540,
+      "seconds": 276.2887471000431,
+      "host_cpu_percent": 22.5,
+      "available_memory": 5605527552
+    },
+    {
+      "completed": 260,
+      "total": 540,
+      "seconds": 281.7386708999984,
+      "host_cpu_percent": 18.6,
+      "available_memory": 5709680640
+    },
+    {
+      "completed": 270,
+      "total": 540,
+      "seconds": 286.74371210008394,
+      "host_cpu_percent": 16.0,
+      "available_memory": 5703909376
+    },
+    {
+      "completed": 280,
+      "total": 540,
+      "seconds": 300.95302270003594,
+      "host_cpu_percent": 16.5,
+      "available_memory": 5705744384
+    },
+    {
+      "completed": 290,
+      "total": 540,
+      "seconds": 307.8261822001077,
+      "host_cpu_percent": 19.0,
+      "available_memory": 5707169792
+    },
+    {
+      "completed": 300,
+      "total": 540,
+      "seconds": 314.9228543000063,
+      "host_cpu_percent": 26.6,
+      "available_memory": 5365710848
+    },
+    {
+      "completed": 310,
+      "total": 540,
+      "seconds": 319.2574617000064,
+      "host_cpu_percent": 22.8,
+      "available_memory": 5487411200
+    },
+    {
+      "completed": 320,
+      "total": 540,
+      "seconds": 336.13203850004356,
+      "host_cpu_percent": 20.1,
+      "available_memory": 5601357824
+    },
+    {
+      "completed": 330,
+      "total": 540,
+      "seconds": 346.33963100006804,
+      "host_cpu_percent": 24.8,
+      "available_memory": 5402701824
+    },
+    {
+      "completed": 340,
+      "total": 540,
+      "seconds": 351.0597325999988,
+      "host_cpu_percent": 23.0,
+      "available_memory": 5416722432
+    },
+    {
+      "completed": 350,
+      "total": 540,
+      "seconds": 375.3777691000141,
+      "host_cpu_percent": 23.9,
+      "available_memory": 5497749504
+    },
+    {
+      "completed": 360,
+      "total": 540,
+      "seconds": 383.6434001000598,
+      "host_cpu_percent": 24.0,
+      "available_memory": 5570084864
+    },
+    {
+      "completed": 370,
+      "total": 540,
+      "seconds": 398.44494780001696,
+      "host_cpu_percent": 23.8,
+      "available_memory": 5330993152
+    },
+    {
+      "completed": 380,
+      "total": 540,
+      "seconds": 405.50211340002716,
+      "host_cpu_percent": 25.0,
+      "available_memory": 5326561280
+    },
+    {
+      "completed": 390,
+      "total": 540,
+      "seconds": 408.7909326000372,
+      "host_cpu_percent": 25.6,
+      "available_memory": 5360521216
+    },
+    {
+      "completed": 400,
+      "total": 540,
+      "seconds": 418.3804726001108,
+      "host_cpu_percent": 16.8,
+      "available_memory": 5385596928
+    },
+    {
+      "completed": 410,
+      "total": 540,
+      "seconds": 427.1346802000189,
+      "host_cpu_percent": 17.3,
+      "available_memory": 5407444992
+    },
+    {
+      "completed": 420,
+      "total": 540,
+      "seconds": 432.27647870010696,
+      "host_cpu_percent": 17.0,
+      "available_memory": 5591232512
+    },
+    {
+      "completed": 430,
+      "total": 540,
+      "seconds": 440.05495460005477,
+      "host_cpu_percent": 16.1,
+      "available_memory": 5580410880
+    },
+    {
+      "completed": 440,
+      "total": 540,
+      "seconds": 449.7265155001078,
+      "host_cpu_percent": 15.8,
+      "available_memory": 5788266496
+    },
+    {
+      "completed": 450,
+      "total": 540,
+      "seconds": 463.29430370009504,
+      "host_cpu_percent": 16.3,
+      "available_memory": 5787627520
+    },
+    {
+      "completed": 460,
+      "total": 540,
+      "seconds": 470.594506500056,
+      "host_cpu_percent": 16.6,
+      "available_memory": 5790318592
+    },
+    {
+      "completed": 470,
+      "total": 540,
+      "seconds": 475.22863300004974,
+      "host_cpu_percent": 16.8,
+      "available_memory": 5793091584
+    },
+    {
+      "completed": 480,
+      "total": 540,
+      "seconds": 479.60410310002044,
+      "host_cpu_percent": 16.8,
+      "available_memory": 5790904320
+    },
+    {
+      "completed": 490,
+      "total": 540,
+      "seconds": 488.1871133000823,
+      "host_cpu_percent": 16.4,
+      "available_memory": 5781540864
+    },
+    {
+      "completed": 500,
+      "total": 540,
+      "seconds": 499.7538869000273,
+      "host_cpu_percent": 16.9,
+      "available_memory": 5605597184
+    },
+    {
+      "completed": 510,
+      "total": 540,
+      "seconds": 508.47326600004453,
+      "host_cpu_percent": 16.1,
+      "available_memory": 5608943616
+    },
+    {
+      "completed": 520,
+      "total": 540,
+      "seconds": 515.458475899999,
+      "host_cpu_percent": 16.1,
+      "available_memory": 5601591296
+    },
+    {
+      "completed": 530,
+      "total": 540,
+      "seconds": 524.0615260000341,
+      "host_cpu_percent": 16.3,
+      "available_memory": 5693374464
+    },
+    {
+      "completed": 540,
+      "total": 540,
+      "seconds": 533.476981600048,
+      "host_cpu_percent": 16.9,
+      "available_memory": 5869887488
+    }
+  ],
+  "selection_sha256": null
+}

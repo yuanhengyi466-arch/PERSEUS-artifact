@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "scope": "External estimator/data check over shipped SSCard result CSVs",
+  "selected_rows": 2,
+  "datasets": [
+    "DBLP_AN",
+    "WIKI"
+  ],
+  "estimators": [
+    "Astrid",
+    "DREAM",
+    "LBS",
+    "LPLM",
+    "MO",
+    "SSCard"
+  ],
+  "summary_csv": "paper\\workload_drift_residual_field\\results\\sscard_external_generalization.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\sscard_external_generalization.tex",
+  "source_summary": "research_plan\\sscard_posthoc_summary.csv",
+  "source_repo": "https://github.com/marlcplhra/SSCard"
+}

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "scope": "Optimizer-in-loop tail-stress expansion audit",
+  "finished_at": "2026-06-16T18:54:25",
+  "rows": [
+    {
+      "scope": "Balanced raw tail",
+      "drift": "C/T/V",
+      "query_groups": 13050,
+      "method_runs": 52200,
+      "subplans_or_hints": "--",
+      "coverage": "k1450",
+      "plan_change": "--",
+      "median_ratio": "--",
+      "note": "three drift axes"
+    },
+    {
+      "scope": "Balanced PG deploy",
+      "drift": "C/T/V",
+      "query_groups": 12599,
+      "method_runs": 37797,
+      "subplans_or_hints": 90384,
+      "coverage": "eligible",
+      "plan_change": "60\\%",
+      "median_ratio": "1x",
+      "p95_ratio": "1.81x",
+      "best_median_ratio": "0.95x",
+      "best_p95_ratio": "1x",
+      "win_rate": "26\\%",
+      "loss_rate": "30\\%",
+      "note": "1 timeout group"
+    },
+    {
+      "scope": "Column all-tail DuckDB",
+      "drift": "Column",
+      "query_groups": 13206,
+      "method_runs": 52824,
+      "subplans_or_hints": "--",
+      "coverage": "4766--4810",
+      "plan_change": "--",
+      "median_ratio": "--",
+      "note": "exec 100\\%, P95 red. 34\\%",
+      "raw_p95": 25.379886351191566,
+      "residual_p95": 16.683179895671547
+    },
+    {
+      "scope": "Column PG stress",
+      "drift": "Column",
+      "query_groups": 7206,
+      "method_runs": 21617,
+      "subplans_or_hints": 24519,
+      "coverage": "55\\%",
+      "plan_change": "68\\%",
+      "median_ratio": "1x",
+      "p95_ratio": "1.37x",
+      "best_median_ratio": "0.94x",
+      "best_p95_ratio": "1x",
+      "win_rate": "35\\%",
+      "loss_rate": "30\\%",
+      "note": "4 timeout/error method runs; cost picks 3336 multi-residual"
+    },
+    {
+      "scope": "Value all-tail DuckDB",
+      "drift": "Value",
+      "query_groups": 4365,
+      "method_runs": 17460,
+      "subplans_or_hints": "--",
+      "coverage": "1454--1456",
+      "plan_change": "--",
+      "median_ratio": "--",
+      "note": "exec 100\\%, P95 red. 6\\%",
+      "raw_p95": 26.529411764705884,
+      "residual_p95": 24.954216706352476
+    }
+  ],
+  "csv": "paper\\workload_drift_residual_field\\results\\optimizer_tail_stress.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\optimizer_tail_stress.tex",
+  "inputs": {
+    "result_dir": "paper\\workload_drift_residual_field\\results",
+    "pg_deploy_dir": "paper\\workload_drift_residual_field\\results_pg_deploy_k1450",
+    "duckdb_column_dir": "paper\\workload_drift_residual_field\\results_duckdb_alltail_column",
+    "duckdb_value_dir": "paper\\workload_drift_residual_field\\results_duckdb_alltail_value",
+    "pg_column_dir": "paper\\workload_drift_residual_field\\results_pg_deploy_alltail_column"
+  }
+}

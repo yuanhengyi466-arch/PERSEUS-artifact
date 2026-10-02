@@ -1,0 +1,5 @@
+method,attempted,paired_complete,method_failures,plan_shape_changes,paired_pg_planning_ms,paired_method_planning_ms,paired_pg_execution_ms,paired_method_execution_ms
+pg,180,180,0,0,127.805,127.805,19410.743,19410.743
+pg_map,180,180,0,5,127.805,114.556,19410.743,12741.1
+hgb_ratio,180,180,0,53,127.805,110.935,19410.743,14227.043
+oracle_join,180,180,0,118,127.805,112.039,19410.743,15264.374

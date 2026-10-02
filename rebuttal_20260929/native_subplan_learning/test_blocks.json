@@ -1,0 +1,17 @@
+[
+  {
+    "repetition": 0,
+    "unix_finished": 1790622836.0831823,
+    "requests_so_far": 1770
+  },
+  {
+    "repetition": 1,
+    "unix_finished": 1790623863.517083,
+    "requests_so_far": 3540
+  },
+  {
+    "repetition": 2,
+    "unix_finished": 1790624887.983985,
+    "requests_so_far": 5310
+  }
+]

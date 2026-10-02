@@ -1,0 +1,215 @@
+{
+  "kind": "retrospective one-factor validation sensitivity",
+  "unix": 1790670947.9073632,
+  "rules": [
+    {
+      "cap": 1.05,
+      "policy": "runtime__residual_hgb",
+      "rule": null,
+      "eligible_support_regions": 170,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "runtime__direct_hgb",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "runtime__residual_rf",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "runtime__direct_rf",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "full__residual_hgb",
+      "rule": null,
+      "eligible_support_regions": 170,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "full__direct_hgb",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "full__residual_rf",
+      "rule": null,
+      "eligible_support_regions": 73,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.05,
+      "policy": "full__direct_rf",
+      "rule": null,
+      "eligible_support_regions": 38,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "runtime__residual_hgb",
+      "rule": null,
+      "eligible_support_regions": 170,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "runtime__direct_hgb",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "runtime__residual_rf",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "runtime__direct_rf",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "full__residual_hgb",
+      "rule": null,
+      "eligible_support_regions": 170,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "full__direct_hgb",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "full__residual_rf",
+      "rule": null,
+      "eligible_support_regions": 73,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.1,
+      "policy": "full__direct_rf",
+      "rule": null,
+      "eligible_support_regions": 38,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.25,
+      "policy": "runtime__residual_hgb",
+      "rule": {
+        "drifts": [
+          "table",
+          "value"
+        ],
+        "min_tables": 2,
+        "min_pg_rows": 0,
+        "direction": "up"
+      },
+      "eligible_support_regions": 170,
+      "passing_regions": 4,
+      "selected_validation_support": 38
+    },
+    {
+      "cap": 1.25,
+      "policy": "runtime__direct_hgb",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.25,
+      "policy": "runtime__residual_rf",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.25,
+      "policy": "runtime__direct_rf",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.25,
+      "policy": "full__residual_hgb",
+      "rule": {
+        "drifts": [
+          "table",
+          "value"
+        ],
+        "min_tables": 2,
+        "min_pg_rows": 0,
+        "direction": "up"
+      },
+      "eligible_support_regions": 170,
+      "passing_regions": 4,
+      "selected_validation_support": 38
+    },
+    {
+      "cap": 1.25,
+      "policy": "full__direct_hgb",
+      "rule": null,
+      "eligible_support_regions": 172,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.25,
+      "policy": "full__residual_rf",
+      "rule": null,
+      "eligible_support_regions": 73,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    },
+    {
+      "cap": 1.25,
+      "policy": "full__direct_rf",
+      "rule": null,
+      "eligible_support_regions": 38,
+      "passing_regions": 0,
+      "selected_validation_support": 0
+    }
+  ],
+  "all_other_limits_fixed": true
+}

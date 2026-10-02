@@ -1,0 +1,39 @@
+{
+  "development_unique_labels": 1340,
+  "development_roles": {
+    "fit": 866,
+    "tune": 237,
+    "gate": 237
+  },
+  "shared_historical_development_count_attempts": 1354,
+  "shared_historical_count_ms": 124328.76759849023,
+  "new_count_and_request_costs": {
+    "validation": {
+      "reference_attempts": 90,
+      "reference_successes": 83,
+      "reference_ms": 49681.773398653604,
+      "timed_requests": 1620,
+      "timed_ms": 910740.1573983952,
+      "warmup_requests": 540,
+      "warmup_ms": 304210.57399897836
+    },
+    "test": {
+      "reference_attempts": 90,
+      "reference_successes": 81,
+      "reference_ms": 51741.53099942487,
+      "timed_requests": 3780,
+      "timed_ms": 2138943.7646025326,
+      "warmup_requests": 1260,
+      "warmup_ms": 712926.5196016058
+    }
+  },
+  "new_model_fits": 16,
+  "fit_tune_seconds": 13.135658499901183,
+  "map_explain_ms": 1217.3424999928102,
+  "map_four_model_inference_ms": 3457.320300047286,
+  "cached_map_deployment": true,
+  "online_model_inference_in_request": false,
+  "predeployment_successful_unique_labels": 1423,
+  "predeployment_count_attempts_including_reused_acquisition": 1444,
+  "listed_predeployment_ms": 1404459.7327950178
+}

@@ -1,0 +1,306 @@
+{
+  "passed": true,
+  "scope": "Held-out native PostgreSQL callback policy grid over deployment-safe features",
+  "finished_at": "2026-06-29T13:17:56",
+  "detail": "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_hash_full_seeds123\\native_callback_detail.csv",
+  "csv": "paper\\workload_drift_residual_field\\results\\native_callback_policy_grid.csv",
+  "tex_rows": "paper\\workload_drift_residual_field\\results\\tables\\native_callback_policy_grid_rows.tex",
+  "split_seed": 20260618,
+  "groups": 4527,
+  "candidate_rules": 8820,
+  "policy_classes": [
+    {
+      "class": "strict",
+      "validation_subset_p95_cap": 1.05,
+      "validation_subset_loss_cap": 0.25,
+      "validation_all_p95_cap": 1.01,
+      "min_validation_deploy": 20,
+      "objective": "maximize validation deploy under subset P95 <= 1.05"
+    },
+    {
+      "class": "balanced",
+      "validation_subset_p95_cap": 1.1,
+      "validation_subset_loss_cap": 0.25,
+      "validation_all_p95_cap": 1.01,
+      "min_validation_deploy": 20,
+      "objective": "maximize validation deploy under subset P95 <= 1.10"
+    },
+    {
+      "class": "coverage",
+      "validation_subset_p95_cap": 1.12,
+      "validation_subset_loss_cap": 0.25,
+      "validation_all_p95_cap": 1.01,
+      "min_validation_deploy": 20,
+      "objective": "maximize validation deploy under subset P95 <= 1.12"
+    },
+    {
+      "class": "frontier",
+      "validation_subset_p95_cap": 1.25,
+      "validation_subset_loss_cap": 0.35,
+      "validation_all_p95_cap": 1.02,
+      "min_validation_deploy": 20,
+      "objective": "maximize validation deploy under subset P95 <= 1.25"
+    }
+  ],
+  "selected": [
+    {
+      "policy_class": "strict",
+      "objective": "maximize validation deploy under subset P95 <= 1.05",
+      "validation_subset_p95_cap": 1.05,
+      "rule_name": "column gated card<=2000 subp<=5",
+      "rule": {
+        "drifts": [
+          "column"
+        ],
+        "method": "native-gated",
+        "max_cardinality": 2000,
+        "max_subplans": 5,
+        "max_joins": null,
+        "max_predicates": null
+      },
+      "validation": {
+        "groups": 1337,
+        "deployed": 41,
+        "coverage": 0.030665669409124907,
+        "drift_counts": {
+          "column": 41
+        },
+        "plan_changed": 1,
+        "plan_changed_rate": 0.024390243902439025,
+        "subset_n": 41,
+        "subset_median_ratio": 0.7080291970802919,
+        "subset_p90_ratio": 0.9646772228989037,
+        "subset_p95_ratio": 0.9824561403508771,
+        "subset_p99_ratio": 1.3808909607094042,
+        "subset_win_rate": 0.9512195121951219,
+        "subset_loss_rate": 0.04878048780487805,
+        "policy_n": 1337,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.0,
+        "policy_win_rate": 0.02916978309648467,
+        "policy_loss_rate": 0.0014958863126402393
+      },
+      "test": {
+        "groups": 3190,
+        "deployed": 71,
+        "coverage": 0.02225705329153605,
+        "drift_counts": {
+          "column": 71
+        },
+        "plan_changed": 3,
+        "plan_changed_rate": 0.04225352112676056,
+        "subset_n": 71,
+        "subset_median_ratio": 0.7225609756097561,
+        "subset_p90_ratio": 1.1854929261172242,
+        "subset_p95_ratio": 1.3022343821249431,
+        "subset_p99_ratio": 4.589606832845927,
+        "subset_win_rate": 0.7605633802816901,
+        "subset_loss_rate": 0.22535211267605634,
+        "policy_n": 3190,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.0,
+        "policy_win_rate": 0.016927899686520375,
+        "policy_loss_rate": 0.005015673981191223
+      }
+    },
+    {
+      "policy_class": "balanced",
+      "objective": "maximize validation deploy under subset P95 <= 1.10",
+      "validation_subset_p95_cap": 1.1,
+      "rule_name": "column gated card<=7500 subp<=5",
+      "rule": {
+        "drifts": [
+          "column"
+        ],
+        "method": "native-gated",
+        "max_cardinality": 7500,
+        "max_subplans": 5,
+        "max_joins": null,
+        "max_predicates": null
+      },
+      "validation": {
+        "groups": 1337,
+        "deployed": 46,
+        "coverage": 0.0344053851907255,
+        "drift_counts": {
+          "column": 46
+        },
+        "plan_changed": 1,
+        "plan_changed_rate": 0.021739130434782608,
+        "subset_n": 46,
+        "subset_median_ratio": 0.741210236785458,
+        "subset_p90_ratio": 0.9798258038864868,
+        "subset_p95_ratio": 1.0839206130283316,
+        "subset_p99_ratio": 1.3653955346815736,
+        "subset_win_rate": 0.9130434782608695,
+        "subset_loss_rate": 0.08695652173913043,
+        "policy_n": 1337,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.0,
+        "policy_win_rate": 0.031413612565445025,
+        "policy_loss_rate": 0.0029917726252804786
+      },
+      "test": {
+        "groups": 3190,
+        "deployed": 89,
+        "coverage": 0.027899686520376176,
+        "drift_counts": {
+          "column": 89
+        },
+        "plan_changed": 3,
+        "plan_changed_rate": 0.033707865168539325,
+        "subset_n": 89,
+        "subset_median_ratio": 0.7320056899004268,
+        "subset_p90_ratio": 1.1868558793553179,
+        "subset_p95_ratio": 1.2741338395823445,
+        "subset_p99_ratio": 4.059098547091876,
+        "subset_win_rate": 0.7415730337078652,
+        "subset_loss_rate": 0.24719101123595505,
+        "policy_n": 3190,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.0,
+        "policy_win_rate": 0.020689655172413793,
+        "policy_loss_rate": 0.006896551724137931
+      }
+    },
+    {
+      "policy_class": "coverage",
+      "objective": "maximize validation deploy under subset P95 <= 1.12",
+      "validation_subset_p95_cap": 1.12,
+      "rule_name": "column final card<=30000 subp<=5",
+      "rule": {
+        "drifts": [
+          "column"
+        ],
+        "method": "native-final",
+        "max_cardinality": 30000,
+        "max_subplans": 5,
+        "max_joins": null,
+        "max_predicates": null
+      },
+      "validation": {
+        "groups": 1337,
+        "deployed": 63,
+        "coverage": 0.04712041884816754,
+        "drift_counts": {
+          "column": 63
+        },
+        "plan_changed": 1,
+        "plan_changed_rate": 0.015873015873015872,
+        "subset_n": 63,
+        "subset_median_ratio": 0.7745762711864408,
+        "subset_p90_ratio": 1.0805706733946057,
+        "subset_p95_ratio": 1.1144443227700318,
+        "subset_p99_ratio": 1.476543209876544,
+        "subset_win_rate": 0.8095238095238095,
+        "subset_loss_rate": 0.1746031746031746,
+        "policy_n": 1337,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.0,
+        "policy_win_rate": 0.0381451009723261,
+        "policy_loss_rate": 0.008227374719521317
+      },
+      "test": {
+        "groups": 3190,
+        "deployed": 134,
+        "coverage": 0.04200626959247649,
+        "drift_counts": {
+          "column": 134
+        },
+        "plan_changed": 4,
+        "plan_changed_rate": 0.029850746268656716,
+        "subset_n": 134,
+        "subset_median_ratio": 0.8925777698351487,
+        "subset_p90_ratio": 1.180449904980775,
+        "subset_p95_ratio": 1.4034572837321027,
+        "subset_p99_ratio": 3.685701981050814,
+        "subset_win_rate": 0.6567164179104478,
+        "subset_loss_rate": 0.30597014925373134,
+        "policy_n": 3190,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.039356385431075,
+        "policy_win_rate": 0.027586206896551724,
+        "policy_loss_rate": 0.012852664576802508
+      }
+    },
+    {
+      "policy_class": "frontier",
+      "objective": "maximize validation deploy under subset P95 <= 1.25",
+      "validation_subset_p95_cap": 1.25,
+      "rule_name": "column+table final card<=30000 pred<=6",
+      "rule": {
+        "drifts": [
+          "column",
+          "table"
+        ],
+        "method": "native-final",
+        "max_cardinality": 30000,
+        "max_subplans": null,
+        "max_joins": null,
+        "max_predicates": 6
+      },
+      "validation": {
+        "groups": 1337,
+        "deployed": 150,
+        "coverage": 0.11219147344801796,
+        "drift_counts": {
+          "column": 113,
+          "table": 37
+        },
+        "plan_changed": 7,
+        "plan_changed_rate": 0.04666666666666667,
+        "subset_n": 150,
+        "subset_median_ratio": 0.8701142857142856,
+        "subset_p90_ratio": 1.120102562815585,
+        "subset_p95_ratio": 1.2280819803773038,
+        "subset_p99_ratio": 1.8421732456140345,
+        "subset_win_rate": 0.7466666666666667,
+        "subset_loss_rate": 0.24,
+        "policy_n": 1337,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.1528442261745013,
+        "policy_win_rate": 0.08376963350785341,
+        "policy_loss_rate": 0.02692595362752431
+      },
+      "test": {
+        "groups": 3190,
+        "deployed": 338,
+        "coverage": 0.10595611285266458,
+        "drift_counts": {
+          "column": 238,
+          "table": 100
+        },
+        "plan_changed": 13,
+        "plan_changed_rate": 0.038461538461538464,
+        "subset_n": 338,
+        "subset_median_ratio": 0.9425222672064777,
+        "subset_p90_ratio": 1.2674577885206286,
+        "subset_p95_ratio": 1.396860898123188,
+        "subset_p99_ratio": 1.7291887625848283,
+        "subset_win_rate": 0.5710059171597633,
+        "subset_loss_rate": 0.3905325443786982,
+        "policy_n": 3190,
+        "policy_median_ratio": 1.0,
+        "policy_p90_ratio": 1.0,
+        "policy_p95_ratio": 1.0,
+        "policy_p99_ratio": 1.2748293071841208,
+        "policy_win_rate": 0.06050156739811912,
+        "policy_loss_rate": 0.041379310344827586
+      }
+    }
+  ]
+}

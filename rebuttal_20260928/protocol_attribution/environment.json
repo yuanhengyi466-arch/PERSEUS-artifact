@@ -1,0 +1,22 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "H:\\Anaconda\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.1",
+    "joblib": "1.4.2",
+    "psycopg": "3.3.4",
+    "psutil": "5.9.0",
+    "threadpoolctl": "3.5.0"
+  },
+  "helper_sha256": {
+    "run_workload_drift_tail_residual_transport.py": "688faa7d1fd9c40fdd2d01bfda2c668fd701f313958b890b3e6c16ce4e972d7f",
+    "run_workload_drift_postgres_estimate_injection.py": "2a32531ee270187dcd90a3e4a968a020b7aee46e0516e821808f75cc925de4b1",
+    "run_workload_drift_postgres_multisubplan_injection.py": "20c84c37a95af956f93a6633fd0785f43f734c9e33553b694e30c2aed3f2363d",
+    "summarize_native_callback_policy_grid.py": "4c8ecf376150930b72959c1e8c074f5adc4f70e68d17e23d32413b16f10485ef"
+  },
+  "pg_port": 5434,
+  "notes": "Environment/source snapshot; no additional SQL issued during benchmark timing."
+}

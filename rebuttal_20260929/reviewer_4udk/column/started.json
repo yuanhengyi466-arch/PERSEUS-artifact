@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-09-28T16:39:09.213060+00:00",
+  "drift": "column",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch": "2.8.0+cu126",
+  "device": "cuda",
+  "command": [
+    "rebuttal_20260929/reviewer_4udk/run_estimator_controls.py",
+    "--drift",
+    "column"
+  ],
+  "protocol_hash": "32242eefe5413f3d890fef035bb900799ee4d597f3b35a364094b1c38e9d71aa",
+  "runner_hash": "3f111bd164e904f5fa6a98c564049c1852aa09958806db8f5f064f1f759bcfbc",
+  "dependencies": {
+    "run_workload_drift_mscn_windows.py": "63dee855a986e1d0241d197e369ea8ea89bf06b40fe5a7158413c2f230f88195",
+    "run_workload_drift_tail_residual_transport.py": "688faa7d1fd9c40fdd2d01bfda2c668fd701f313958b890b3e6c16ce4e972d7f",
+    "run_workload_drift_optimizer_risk_proxy.py": "85cc8dc83126b674c1c254530f42dcf87ab2d502fc91d7c47747f0b55a14e7ca"
+  },
+  "input_hashes": {
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_4_columns.csv": "6d097d07ccb905218e364a64b5b7ed565e27284b2dc7c0055b6f28e8633318f4",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns.csv": "26f6f35ad773273e3960d072e2c7c2a6988176735016c92cfb5f03f388d22388",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\model.pt": "1cf90a53a32d074641a56c8137fb150001ed69dbcef3a1e75794a1734304b088",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\predict_predictions.txt": "d01cb9ea39ef78b6372f808de9a729763f36ed3f5a7235fe16bdf4b4478451ce",
+    "research_plan\\workload_drift_mscn_windows\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_4_columns_bitmap.csv": "da49f1c79f41c6e986c7e0860db9b30f53abf00088d3b9c791d0b66ad289fcc6",
+    "research_plan\\workload_drift_mscn_windows\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns_bitmap.csv": "28c9aa763f6a59eadd5853bd0d57e7bae996b7fa590fffc2d4d4aa5b857b696c",
+    "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\metrics.json": "d4d113f82cb21fdba85aa8c3142b1f081671680e6dacbdcef420d9d896079dea"
+  },
+  "source_unique_sql": 8108,
+  "within_drift_source_target_sql_overlap": 0
+}

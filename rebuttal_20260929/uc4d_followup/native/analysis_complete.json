@@ -1,0 +1,20 @@
+{
+  "unix": 1790670326.1029875,
+  "script_sha256": "f71a7e514590fce702eb990c154604cdea64004e0845623bdef6c9f0643f29ed",
+  "timed_requests": 5400,
+  "mapped_root_checks": 900,
+  "mapped_join_checks": 2551,
+  "all_injection_checks_passed": true,
+  "cross_method_count_conflicts": 0,
+  "original_submission_unchanged": true,
+  "outputs": {
+    "runtime_summary.csv": "4405a0c399b063154225ef97edda028ff3e443c5505b337a403241de089c6241",
+    "paired_models.csv": "a9fcc97da5a61eed588d3656a587a623ce7fe382789ea4d8816a6625eef6f915",
+    "per_query.csv": "c9fbbca863125b4738f18080d89f0548182298aa74dc2da213007457e42f675b",
+    "request_statuses.csv": "5a70ba5b1fa5bd58b535e4b31eaf57db146e3ed09f40b2898b30d76552cef073",
+    "count_reconciliation.csv": "19246c6fe617918d0a3267bc75347de06e0ca1e381b5d489b374abb256a1528e",
+    "cost_ledger.json": "96afe7a6d110e6b7450a96166b7aea2fc232e360665bbf6d34d55c242660b249",
+    "validation_rejection_counts.csv": "51b3b0ca2f39d6ed5b7c7dfeb1cd144a7d57c07abf76dac3f0def08f9136e4c8"
+  },
+  "interpretation": "Historical held-out attribution replay; timeout-inclusive request totals are censored."
+}

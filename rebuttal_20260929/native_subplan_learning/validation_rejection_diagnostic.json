@@ -1,0 +1,118 @@
+[
+  {
+    "policy": "runtime_hgb",
+    "supported_rules": 202,
+    "correct_supported_rules": 6,
+    "unique_correct_supported_regions": 1,
+    "passing_rules": 0,
+    "best_p95_rule": {
+      "policy": "runtime_hgb",
+      "index": 96,
+      "rule": {
+        "drifts": [
+          "value"
+        ],
+        "min_tables": 2,
+        "min_pg_rows": 0,
+        "direction": "any"
+      },
+      "support": 60,
+      "failures": 0,
+      "median_ratio": 0.24852255326727074,
+      "p95_ratio": 1.3241084976536943,
+      "loss_fraction": 0.21666666666666667,
+      "whole_p95_latency_ratio": 1.0,
+      "saved_ms": 1521.1508985375986,
+      "passed": false
+    },
+    "p95_cap": 1.1,
+    "rejection_interpretation": "P95 alone excludes every correct supported region"
+  },
+  {
+    "policy": "full_hgb",
+    "supported_rules": 202,
+    "correct_supported_rules": 6,
+    "unique_correct_supported_regions": 1,
+    "passing_rules": 0,
+    "best_p95_rule": {
+      "policy": "full_hgb",
+      "index": 96,
+      "rule": {
+        "drifts": [
+          "value"
+        ],
+        "min_tables": 2,
+        "min_pg_rows": 0,
+        "direction": "any"
+      },
+      "support": 60,
+      "failures": 0,
+      "median_ratio": 0.24852255326727074,
+      "p95_ratio": 1.3241084976536943,
+      "loss_fraction": 0.21666666666666667,
+      "whole_p95_latency_ratio": 1.0,
+      "saved_ms": 1521.1508985375986,
+      "passed": false
+    },
+    "p95_cap": 1.1,
+    "rejection_interpretation": "P95 alone excludes every correct supported region"
+  },
+  {
+    "policy": "runtime_rf",
+    "supported_rules": 204,
+    "correct_supported_rules": 11,
+    "unique_correct_supported_regions": 6,
+    "passing_rules": 0,
+    "best_p95_rule": {
+      "policy": "runtime_rf",
+      "index": 2,
+      "rule": {
+        "drifts": [
+          "column"
+        ],
+        "min_tables": 2,
+        "min_pg_rows": 0,
+        "direction": "up"
+      },
+      "support": 21,
+      "failures": 0,
+      "median_ratio": 1.0431121266069785,
+      "p95_ratio": 1.4300981198513332,
+      "loss_fraction": 0.6190476190476191,
+      "whole_p95_latency_ratio": 1.0,
+      "saved_ms": -26.343299658037722,
+      "passed": false
+    },
+    "p95_cap": 1.1,
+    "rejection_interpretation": "P95 alone excludes every correct supported region"
+  },
+  {
+    "policy": "full_rf",
+    "supported_rules": 73,
+    "correct_supported_rules": 6,
+    "unique_correct_supported_regions": 1,
+    "passing_rules": 0,
+    "best_p95_rule": {
+      "policy": "full_rf",
+      "index": 96,
+      "rule": {
+        "drifts": [
+          "value"
+        ],
+        "min_tables": 2,
+        "min_pg_rows": 0,
+        "direction": "any"
+      },
+      "support": 60,
+      "failures": 0,
+      "median_ratio": 0.27658832503276726,
+      "p95_ratio": 1.5718197442067225,
+      "loss_fraction": 0.2833333333333333,
+      "whole_p95_latency_ratio": 1.0,
+      "saved_ms": 1601.0978991398588,
+      "passed": false
+    },
+    "p95_cap": 1.1,
+    "rejection_interpretation": "P95 alone excludes every correct supported region"
+  }
+]

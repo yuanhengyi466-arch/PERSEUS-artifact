@@ -1,0 +1,20 @@
+{
+  "unix": 1790670548.4585834,
+  "verified_output_hashes": 396,
+  "local_links_verified": 44,
+  "timed_native_requests": 5400,
+  "method_repetition_pairing_and_active_routes_verified": true,
+  "budget_extreme_pass_routing_verified": true,
+  "original_submission_unchanged": true,
+  "budget_models": 144,
+  "budget_configuration_fits": 576,
+  "native_configuration_fits": 16,
+  "script_hashes": {
+    "analyze_budget.py": "5538d8eab91416a6ef772289d47f36d6aa8217661652490b6c169d9ba5fb6911",
+    "analyze_native.py": "f71a7e514590fce702eb990c154604cdea64004e0845623bdef6c9f0643f29ed",
+    "run_budget.py": "ff2f0c1f54d9a0d6e096ed85cfbd058b0a623a911c893e05b09b03ff9e846f33",
+    "run_native.py": "0346f68e1979bb2f1599ca441b807bd9455f25d272ff7b1d554929bb12c07d75",
+    "verify_completion.py": "f907f851cd27ae258180fa98aeb9be9a821b4128381a723c8ba4da442550e0b5"
+  },
+  "protocol_sha256": "f48de673741255a7062fa6f34fab86d0d666caca7e7f5aad2727657efd2bfbed"
+}

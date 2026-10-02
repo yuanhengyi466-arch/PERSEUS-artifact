@@ -1,0 +1,3 @@
+method,label,card_file,repetition,attempted_queries,card_rows,slots_consumed,slot_covered_queries,slot_crossing_queries,slot_overflow_queries,completed,timeouts,errors,completed_pct,median_exec_ms_completed,p90_exec_ms_completed,sum_exec_s_completed,sum_wall_s_all,query_no_start,query_no_end
+pg,PostgreSQL file,pg_pg_single.txt,0,79,416,700,46,1,32,28,18,0,60.869565217391305,7673.3175,34223.30300000001,356.67077,1437.3270708,0,700
+sscard,SSCard file,sscard_pg_single.txt,0,79,416,700,46,1,32,27,19,0,58.69565217391305,6950.786,45487.6462,423.78520299999997,1564.4806852,0,700

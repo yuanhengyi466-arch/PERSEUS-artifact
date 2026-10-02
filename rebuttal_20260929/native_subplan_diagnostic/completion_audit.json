@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "population_preserved": true,
+  "unique_sql": 180,
+  "oracle_complete_cases": 171,
+  "timed_requests": 4320,
+  "warmup_requests": 720,
+  "profile_requests": 720,
+  "count_statuses": {
+    "ok": 1341,
+    "timeout": 13
+  },
+  "timed_statuses": {
+    "ok": 4320
+  },
+  "original_submission_unchanged": true,
+  "protocol_sha256": "55c8e1f93d1861fd5107effa79762ac7301ade17b23605457799fadc959a13ea",
+  "script_sha256": {
+    "analyze_diagnostic.py": "7159f20bab852bb24e64ee46e03f98b4fc2750267cd4613640c456914805841c",
+    "run_diagnostic.py": "dffcbbc6a4eb1e6a7365d7e54f117a1767d0889f30a959968e2408fe593fa582",
+    "verify_completion.py": "03b0b10818676528ba3ef08725ac274a21267a445b5bc076f8572e9ce2fdcb89"
+  }
+}

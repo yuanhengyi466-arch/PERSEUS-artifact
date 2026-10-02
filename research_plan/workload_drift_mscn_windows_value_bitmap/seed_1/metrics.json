@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "baseline": "workload-drift-benchmark MSCN SetConv",
+  "scope": "Windows CPU reproduction on official stats-drift CSV with reconstructed MSCN materialized-sample bitmaps",
+  "uses_materialized_samples": true,
+  "num_materialized_samples": 1000,
+  "counts_as_full_paper_reproduction": true,
+  "counts_as_real_data_baseline_subreproduction": true,
+  "counts_as_real_data_baseline_reproduction": true,
+  "train_seconds": 0.5578692000126466,
+  "epochs": 5,
+  "batch_size": 512,
+  "hidden_units": 128,
+  "seed": 1,
+  "threads": 4,
+  "feature_dims": {
+    "sample_feats": 1008,
+    "predicate_feats": 9,
+    "join_feats": 30
+  },
+  "encoding_sizes": {
+    "tables": 8,
+    "columns": 6,
+    "operators": 2,
+    "joins": 30
+  },
+  "train_rows": 2000,
+  "predict_rows": 2000,
+  "valid_rows": 200,
+  "epoch_losses": [
+    1.9843796491622925,
+    1.7271390855312347,
+    1.4349582493305206,
+    1.3436524868011475,
+    1.2787841856479645
+  ],
+  "valid_qerror": {
+    "median": 2.8566609985225657,
+    "p90": 15.234922680412371,
+    "p95": 26.600232684258557,
+    "p99": 62.04581538133634,
+    "max": 179.0,
+    "mean": 7.125542695258846
+  },
+  "predict_qerror": {
+    "median": 3.0039082404507838,
+    "p90": 15.310837282780426,
+    "p95": 27.662650709219857,
+    "p99": 64.9289642119752,
+    "max": 1078.7246376811595,
+    "mean": 8.029015638448325
+  },
+  "artifacts": {
+    "predict_qerror": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\predict_qerror.npy",
+    "valid_qerror": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\valid_qerror.npy",
+    "predictions": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\predict_predictions.txt",
+    "model": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\model.pt"
+  },
+  "provenance": {
+    "workload_drift_root": "baselines\\workload-drift-benchmark",
+    "mscn_root": "baselines\\workload-drift-benchmark\\baselines\\MSCN-modified",
+    "train_rel": "workloads/stats-drift/varying_value_queries/value_distribution_1_1.csv",
+    "predict_rel": "workloads/stats-drift/varying_value_queries/value_distribution_7_2.csv",
+    "train_sha256": "92a1738a5bf8742bbd41d828858f11feefd54e70c9224b0af913d8096a2cc6bc",
+    "predict_sha256": "1167b155967a3812b400c75a5e705140da11f57fe9a33dd9e87652c5657be5db",
+    "exported_sources": {
+      "baselines/MSCN-modified/workloads/stats/tables.csv": "working_tree",
+      "baselines/MSCN-modified/workloads/stats/joins.csv": "working_tree",
+      "baselines/MSCN-modified/workloads/stats/column_min_max_vals.csv": "working_tree",
+      "workloads/stats-drift/varying_value_queries/value_distribution_1_1.csv": "git_object_HEAD",
+      "workloads/stats-drift/varying_value_queries/value_distribution_7_2.csv": "git_object_HEAD"
+    },
+    "bitmap_files": {
+      "train_bitmap_file": "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_1_1_bitmap.csv",
+      "predict_bitmap_file": "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2_bitmap.csv",
+      "train_bitmap_sha256": "a3421bc101c6e2b22d80ecafc73fb2398d90d25bc378f412c581489f2e150194",
+      "predict_bitmap_sha256": "4d4f7af5906fcc53460ef31ad8404acd77f12922c82b2fc0b79273c34da20a7e"
+    },
+    "command": [
+      "experiments\\run_workload_drift_mscn_windows.py",
+      "--train-rel",
+      "workloads/stats-drift/varying_value_queries/value_distribution_1_1.csv",
+      "--predict-rel",
+      "workloads/stats-drift/varying_value_queries/value_distribution_7_2.csv",
+      "--epochs",
+      "5",
+      "--hidden-units",
+      "128",
+      "--batch-size",
+      "512",
+      "--threads",
+      "4",
+      "--seed",
+      "1",
+      "--num-materialized-samples",
+      "1000",
+      "--train-bitmap-file",
+      "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_1_1_bitmap.csv",
+      "--predict-bitmap-file",
+      "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2_bitmap.csv",
+      "--output-dir",
+      "research_plan\\workload_drift_mscn_windows_value_bitmap"
+    ],
+    "cwd": ".",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]"
+  }
+}

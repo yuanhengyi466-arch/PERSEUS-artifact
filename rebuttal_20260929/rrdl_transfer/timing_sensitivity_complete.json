@@ -1,0 +1,12 @@
+{
+  "unix": 1790677015.528273,
+  "script_sha256": "26d6542bdd07ad4cc64c102d8d4ed3e7d739d8d7d61ada148e5a6fa6dbf41c59",
+  "test_sha256": "d7160fa77bee2c8065a9a162e13cbc375a21807b13fdb10d2791dda58b994c0e",
+  "primary_results_unchanged": true,
+  "retrospective_diagnostic": true,
+  "outputs": {
+    "first_two_repetitions.csv": "79e1d2c760cbc7c944549e6a055ac8eb8a3283ec09d5ee68bfcabbd7dbd87034",
+    "paired_fallback_sensitivity.csv": "196216544272450d5b82c05a643643157d00fd6b34f3c5a979f927d982aa5181",
+    "postrun_process_observation.json": "500230084bb3c459042aae22ed71a49b70662ea3193892f95adf91ffc95bf3d8"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "observed_unix": 1790676545.2203898,
+  "test_start_unix": 1790672850.9259672,
+  "test_end_unix": 1790676262.8593621,
+  "final_repetition_start_unix": 1790675442.5219116,
+  "observed_processes_started_during_test": [
+    {
+      "pid": 32184,
+      "parent_pid": 36828,
+      "name": "python.exe",
+      "script_basename": null,
+      "created_unix": 1790676197.8886032,
+      "created_utc": "2026-09-29T10:03:17.888603+00:00",
+      "cpu_seconds_at_observation": 0.0,
+      "possible_overlap_seconds": 64.97075891494751
+    },
+    {
+      "pid": 32784,
+      "parent_pid": 32184,
+      "name": "python.exe",
+      "script_basename": null,
+      "created_unix": 1790676197.9111152,
+      "created_utc": "2026-09-29T10:03:17.911115+00:00",
+      "cpu_seconds_at_observation": 61.25,
+      "possible_overlap_seconds": 64.94824695587158
+    },
+    {
+      "pid": 36072,
+      "parent_pid": 35956,
+      "name": "python.exe",
+      "script_basename": "run_scienceworld_subset.py",
+      "created_unix": 1790676178.6428468,
+      "created_utc": "2026-09-29T10:02:58.642847+00:00",
+      "cpu_seconds_at_observation": 0.0,
+      "possible_overlap_seconds": 84.21651530265808
+    },
+    {
+      "pid": 36828,
+      "parent_pid": 36072,
+      "name": "python.exe",
+      "script_basename": "run_scienceworld_subset.py",
+      "created_unix": 1790676178.6722455,
+      "created_utc": "2026-09-29T10:02:58.672246+00:00",
+      "cpu_seconds_at_observation": 19.1875,
+      "possible_overlap_seconds": 84.1871166229248
+    }
+  ],
+  "interpretation": "A separate Python workload was observed post-run to have started late in the last repetition. No process was terminated. Post-run enumeration cannot recover exited processes or quantify interference. Primary three-repeat results are retained. The first-two-repeat sensitivity retains all 120 parents and all policies with no new selection; it removes the entire repetition overlapping the observed workload."
+}

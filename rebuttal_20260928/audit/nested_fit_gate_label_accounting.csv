@@ -1,0 +1,4 @@
+drift,split_seeds,per_split_fit,per_split_gate,per_split_fit_plus_gate,unique_fit_row_indices_across_seeds,unique_gate_row_indices_across_seeds,unique_fit_or_gate_row_indices_across_seeds,cross_seed_fit_gate_overlap_indices,index_hashes_verified,note
+column,11;12;13,2000,1000,3000,4640,2682,6143,1179,True,"Unique benchmark row indices within drift, not canonical SQL or distinct newly acquired labels; final-test labels and planner executions excluded."
+table,11;12;13,2000,1000,3000,4736,2683,6233,1186,True,"Unique benchmark row indices within drift, not canonical SQL or distinct newly acquired labels; final-test labels and planner executions excluded."
+value,11;12;13,500,500,1000,1151,1150,1732,569,True,"Unique benchmark row indices within drift, not canonical SQL or distinct newly acquired labels; final-test labels and planner executions excluded."

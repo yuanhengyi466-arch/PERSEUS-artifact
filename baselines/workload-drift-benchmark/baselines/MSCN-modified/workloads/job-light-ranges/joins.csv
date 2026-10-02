@@ -1,0 +1,12 @@
+name
+movie_companies.movie_id=title.id
+movie_companies.movie_id=movie_info_idx.movie_id
+movie_info_idx.movie_id=title.id
+movie_info_idx.movie_id=movie_keyword.movie_id
+movie_companies.movie_id=movie_keyword.movie_id
+movie_info.movie_id=title.id
+movie_companies.movie_id=movie_info.movie_id
+movie_info.movie_id=movie_keyword.movie_id
+movie_keyword.movie_id=title.id
+cast_info.movie_id=movie_keyword.movie_id
+cast_info.movie_id=title.id

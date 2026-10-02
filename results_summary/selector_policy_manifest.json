@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "Conservative validation-gated repair policy from held-out gates and optimizer-risk proxy",
+  "csv": "paper\\workload_drift_residual_field\\results\\selector_policy.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\selector_policy.tex",
+  "rows": 3
+}

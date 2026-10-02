@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scope": "Local official loaded-L SSCard query-path reproduction summary",
+  "datasets": [
+    "DBLP_AN",
+    "IMDB_AN",
+    "IMDB_MT",
+    "TPCH_PN",
+    "WIKI"
+  ],
+  "exp_name": "SSCard_buc1_h3_l5000_e32_spline_load_L_final",
+  "csv": "paper\\workload_drift_residual_field\\results\\sscard_official_reproduction.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\sscard_official_reproduction.tex",
+  "source_root": "baselines\\SSCard"
+}

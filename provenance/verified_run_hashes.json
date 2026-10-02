@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-03",
+  "Inputs": [
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_4_columns.csv",
+      "RecordedSHA256": "6d097d07ccb905218e364a64b5b7ed565e27284b2dc7c0055b6f28e8633318f4",
+      "CurrentSHA256": "6d097d07ccb905218e364a64b5b7ed565e27284b2dc7c0055b6f28e8633318f4",
+      "Matches": true
+    },
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns.csv",
+      "RecordedSHA256": "26f6f35ad773273e3960d072e2c7c2a6988176735016c92cfb5f03f388d22388",
+      "CurrentSHA256": "26f6f35ad773273e3960d072e2c7c2a6988176735016c92cfb5f03f388d22388",
+      "Matches": true
+    },
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\model.pt",
+      "RecordedSHA256": "1cf90a53a32d074641a56c8137fb150001ed69dbcef3a1e75794a1734304b088",
+      "CurrentSHA256": "1cf90a53a32d074641a56c8137fb150001ed69dbcef3a1e75794a1734304b088",
+      "Matches": true
+    },
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\predict_predictions.txt",
+      "RecordedSHA256": "d01cb9ea39ef78b6372f808de9a729763f36ed3f5a7235fe16bdf4b4478451ce",
+      "CurrentSHA256": "d01cb9ea39ef78b6372f808de9a729763f36ed3f5a7235fe16bdf4b4478451ce",
+      "Matches": true
+    },
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_4_columns_bitmap.csv",
+      "RecordedSHA256": "da49f1c79f41c6e986c7e0860db9b30f53abf00088d3b9c791d0b66ad289fcc6",
+      "CurrentSHA256": "da49f1c79f41c6e986c7e0860db9b30f53abf00088d3b9c791d0b66ad289fcc6",
+      "Matches": true
+    },
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows\\seed_1\\data\\workloads\\stats-drift\\varying_column_queries\\queries_5_columns_bitmap.csv",
+      "RecordedSHA256": "28c9aa763f6a59eadd5853bd0d57e7bae996b7fa590fffc2d4d4aa5b857b696c",
+      "CurrentSHA256": "28c9aa763f6a59eadd5853bd0d57e7bae996b7fa590fffc2d4d4aa5b857b696c",
+      "Matches": true
+    },
+    {
+      "Drift": "column",
+      "Path": "research_plan\\workload_drift_mscn_windows_bitmap\\seed_1\\metrics.json",
+      "RecordedSHA256": "d4d113f82cb21fdba85aa8c3142b1f081671680e6dacbdcef420d9d896079dea",
+      "CurrentSHA256": "d4d113f82cb21fdba85aa8c3142b1f081671680e6dacbdcef420d9d896079dea",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_table_queries\\queries_4_tables.csv",
+      "RecordedSHA256": "bda6e8bb603e842adbdee428e6c442f6b724f933a30c647b4013d1d09368ab55",
+      "CurrentSHA256": "bda6e8bb603e842adbdee428e6c442f6b724f933a30c647b4013d1d09368ab55",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_table_queries\\queries_5_tables.csv",
+      "RecordedSHA256": "cb15d570a7e327068e8377551be39834591e6268a021e2b3e0ed365608a915c3",
+      "CurrentSHA256": "cb15d570a7e327068e8377551be39834591e6268a021e2b3e0ed365608a915c3",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\model.pt",
+      "RecordedSHA256": "30f5f94f026de6ae756aeb4f584e3e8209d5f7972fd44e080107f9996ee0dcc9",
+      "CurrentSHA256": "30f5f94f026de6ae756aeb4f584e3e8209d5f7972fd44e080107f9996ee0dcc9",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\predict_predictions.txt",
+      "RecordedSHA256": "63fbef31aea783a7eaee5a491fddcf5ee3eb430c9808d0a5a7b493f1da7455f5",
+      "CurrentSHA256": "63fbef31aea783a7eaee5a491fddcf5ee3eb430c9808d0a5a7b493f1da7455f5",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table\\seed_1\\data\\workloads\\stats-drift\\varying_table_queries\\queries_4_tables_bitmap.csv",
+      "RecordedSHA256": "c840c16dcc88f573d4fe0a28f650c08b55a73f0e90b98feed54ecb7dec24fe0f",
+      "CurrentSHA256": "c840c16dcc88f573d4fe0a28f650c08b55a73f0e90b98feed54ecb7dec24fe0f",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table\\seed_1\\data\\workloads\\stats-drift\\varying_table_queries\\queries_5_tables_bitmap.csv",
+      "RecordedSHA256": "b8fca7cff6f68318b7fa589fd4f63d503dfd1584c57b19b435e5391cad9a4f00",
+      "CurrentSHA256": "b8fca7cff6f68318b7fa589fd4f63d503dfd1584c57b19b435e5391cad9a4f00",
+      "Matches": true
+    },
+    {
+      "Drift": "table",
+      "Path": "research_plan\\workload_drift_mscn_windows_table_bitmap\\seed_1\\metrics.json",
+      "RecordedSHA256": "d159172c91718667f0b9ea978b011f0c8355c35758511e887670ef00ad80ea62",
+      "CurrentSHA256": "d159172c91718667f0b9ea978b011f0c8355c35758511e887670ef00ad80ea62",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_1_1.csv",
+      "RecordedSHA256": "92a1738a5bf8742bbd41d828858f11feefd54e70c9224b0af913d8096a2cc6bc",
+      "CurrentSHA256": "92a1738a5bf8742bbd41d828858f11feefd54e70c9224b0af913d8096a2cc6bc",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2.csv",
+      "RecordedSHA256": "1167b155967a3812b400c75a5e705140da11f57fe9a33dd9e87652c5657be5db",
+      "CurrentSHA256": "1167b155967a3812b400c75a5e705140da11f57fe9a33dd9e87652c5657be5db",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\model.pt",
+      "RecordedSHA256": "f3f6c5a219873dfd6dc9207cf745680194256dc4a22b3ba1788b31f3c8493d87",
+      "CurrentSHA256": "f3f6c5a219873dfd6dc9207cf745680194256dc4a22b3ba1788b31f3c8493d87",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\predict_predictions.txt",
+      "RecordedSHA256": "00f652b570f9570dc88c31261d92421074b92e72f8055e5e33945fe878280dfb",
+      "CurrentSHA256": "00f652b570f9570dc88c31261d92421074b92e72f8055e5e33945fe878280dfb",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_1_1_bitmap.csv",
+      "RecordedSHA256": "a3421bc101c6e2b22d80ecafc73fb2398d90d25bc378f412c581489f2e150194",
+      "CurrentSHA256": "a3421bc101c6e2b22d80ecafc73fb2398d90d25bc378f412c581489f2e150194",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value\\seed_1\\data\\workloads\\stats-drift\\varying_value_queries\\value_distribution_7_2_bitmap.csv",
+      "RecordedSHA256": "4d4f7af5906fcc53460ef31ad8404acd77f12922c82b2fc0b79273c34da20a7e",
+      "CurrentSHA256": "4d4f7af5906fcc53460ef31ad8404acd77f12922c82b2fc0b79273c34da20a7e",
+      "Matches": true
+    },
+    {
+      "Drift": "value",
+      "Path": "research_plan\\workload_drift_mscn_windows_value_bitmap\\seed_1\\metrics.json",
+      "RecordedSHA256": "3a58c558ef5e33bc071027aca197af25738a17ddf141d684b1746e1e96693797",
+      "CurrentSHA256": "3a58c558ef5e33bc071027aca197af25738a17ddf141d684b1746e1e96693797",
+      "Matches": true
+    }
+  ],
+  "Scripts": [
+    {
+      "File": "analyze_estimator_controls.py",
+      "RecordedSHA256": "3f66b5ff3a06870ea5641e893d958bab5855f3ffcfe31111b5ad5e76f779706c",
+      "CurrentSHA256": "3f66b5ff3a06870ea5641e893d958bab5855f3ffcfe31111b5ad5e76f779706c",
+      "Matches": true
+    },
+    {
+      "File": "run_estimator_controls.py",
+      "RecordedSHA256": "3f111bd164e904f5fa6a98c564049c1852aa09958806db8f5f064f1f759bcfbc",
+      "CurrentSHA256": "3f111bd164e904f5fa6a98c564049c1852aa09958806db8f5f064f1f759bcfbc",
+      "Matches": true
+    },
+    {
+      "File": "run_throughput.py",
+      "RecordedSHA256": "1c360dc09e6011ca98da1e8740f22cbb57dc86bb8c9506e7b0e5bd182c1cefc9",
+      "CurrentSHA256": "1c360dc09e6011ca98da1e8740f22cbb57dc86bb8c9506e7b0e5bd182c1cefc9",
+      "Matches": true
+    },
+    {
+      "File": "verify_completion.py",
+      "RecordedSHA256": "6fba05d3af0a38b1716efca6f8de2e259b8b8e3471c5a8692b9842404a1d29c6",
+      "CurrentSHA256": "6fba05d3af0a38b1716efca6f8de2e259b8b8e3471c5a8692b9842404a1d29c6",
+      "Matches": true
+    }
+  ],
+  "InputFilesChecked": 21,
+  "InputMatches": 21,
+  "ScriptsChecked": 4,
+  "ScriptMatches": 4
+}

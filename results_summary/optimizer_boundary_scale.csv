@@ -1,0 +1,5 @@
+scope,query_groups,method_runs,subplans
+Raw tail,13050,52200,--
+Eligible,12600,--,90384
+PG exact,4527,18108,30513
+PG deploy,12599,37797,90384

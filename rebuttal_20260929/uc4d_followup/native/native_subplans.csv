@@ -1,0 +1,1484 @@
+qid,aliases,role,drift,semantic_id,tables,is_root,pg_rows
+s601:column:q917,b p,validation,column,19fc38771eb75f0deecb0bd43cfdd6349230dd9be52f5c713c5c50d0c2618a36,2,True,102970.0
+s601:column:q1193,c p,validation,column,5c9d388803ffbb3a79b7e955a874f90edb4f8acfd9307089bd0f057271624150,2,False,5147.0
+s601:column:q1193,p pl,validation,column,95121569e2638e287b837e019e44430955dc3b1dbf280bddcb3b8882067a07b3,2,False,328.0
+s601:column:q1193,c p pl,validation,column,ce27b487637af33801db3c3fc2142abf8b4cab9adfa349d9d0f15a787a41f7f9,3,True,621.0
+s601:column:q3469,p pl,validation,column,7736da1d0d48dc539e299e2fad4f303b5afa52c814ceccc732e52d540c32db50,2,False,10797.0
+s601:column:q3469,ph pl,validation,column,1d9fac8ea8410399ea28ae92d9a7ecffc9940777433563f6559adc9ce4dff6e8,2,False,49724.0
+s601:column:q3469,p ph pl,validation,column,9d9deeb3e5791f2a40e98cc9f6a27e559670620f0f18cf1511fe11633d241eac,3,True,34222.0
+s601:column:q5344,b u,validation,column,10ce5789cc9f59e0beb4bd90833261a986ddcb8bf976083d4f4676fe1e70a92a,2,False,77178.0
+s601:column:q5344,p u,validation,column,d441f7001c7c40749610b3d760ae8a125bd5e64eb367a974596a2cacdd4e8131,2,False,18974.0
+s601:column:q5344,u v,validation,column,cabed8d7151db567f02422f454abe4d001875f9014fcd9690792a2a907517b63,2,False,33420.0
+s601:column:q5344,b p u,validation,column,802a60def823dfeae12db706a9895646e5b4cdf7fab7aa2f23f05660f1271f76,3,False,690736.0
+s601:column:q5344,b u v,validation,column,3364478df9a740953751f4573e79f31ed263ed7808eab30579794799d0690806,3,False,66179.0
+s601:column:q5344,p u v,validation,column,907b36e03a9588eceb87cd2362f272f5e185a4bd1b6631a80bf1e24c4da4a9eb,3,False,16270.0
+s601:column:q5344,b p u v,validation,column,e9e945daca10c9d9f28cbb3ac5d8b605784a769ffbbaaf8491687cf7c4828ba4,4,True,592294.0
+s601:column:q4504,b v,validation,column,08fc8f0b2d15d4e9b800009ab6d7c1516c677e9eee630e136dd0a82b79678338,2,False,640637.0
+s601:column:q4504,u v,validation,column,c29cf507b799d72b07957b1c663b74bc0aefa5177c6e1817947a2412cdbb5a71,2,False,34521.0
+s601:column:q4504,b u v,validation,column,37720df41ebdd521f73c0e3f9c5881ee5b7e578f994479b096b020caa9cd2a5b,3,True,59985.0
+s601:column:q3729,p pl,validation,column,7ce62110b352c3bd13a42ff8430e897ca200832c78e9fe029fc03bfa8f78e870,2,False,9832.0
+s601:column:q3729,p u,validation,column,31e28289e1480a7314cf80e39b2424b6b76e416ca6c348dcc1eddf065244fc5c,2,False,43507.0
+s601:column:q3729,p pl u,validation,column,f3dbefd7e940ea62de040dcaf4eed29aa3bfd4bd1cfb9b6e5a62ee09aa8e8b93,3,True,4726.0
+s601:column:q5120,c p,validation,column,f7d861d2cd1bf046614a7edcdf401a3a7303631440f4f1665f00f1e4674cffa4,2,False,170130.0
+s601:column:q5120,p u,validation,column,6191664800d2460fc441ac44626e5b9ea0cb57e44a5a509eb525a198307f6e1f,2,False,82697.0
+s601:column:q5120,p v,validation,column,d809824f9dd308f18b04691e3d3b62d71b12ac59a17e3768ad1182f86ac23e42,2,False,255845.0
+s601:column:q5120,c p u,validation,column,feef3187d70428c40f45d5907fb628266a85afec35a520af1712af682151e640,3,False,156721.0
+s601:column:q5120,c p v,validation,column,d11fdc338edbb7ea9f185024fff756acfb80551d059607183f1b84c385cb6f02,3,False,484855.0
+s601:column:q5120,p u v,validation,column,4d21c897ce09f3c2a3a15555fd1d5545eb994931b03b3b92355db89739a7b772,3,False,235679.0
+s601:column:q5120,c p u v,validation,column,472088766fe25c5b6809309b6ae0669e877672bdadca8bb69ef7e34b748d92d6,4,True,446640.0
+s601:column:q5802,c ph,validation,column,4bd180d6f928bb9573ba46bf5bad26f2e87ee9cc98672d268f56974a6340867f,2,False,730670.0
+s601:column:q5802,c pl,validation,column,0e02952c7d0ca17ff5b08e7b04ac00b308c109fb61db9fad5271e87ac5c8148f,2,False,50054.0
+s601:column:q5802,ph v,validation,column,4614d8d1787bb8910bcdec09500539fa5df56e75b6aad9018f0ff0edd1316b97,2,False,1096796.0
+s601:column:q5802,c ph pl,validation,column,997fb484b8b71a30b18211bcc198a7d9eeeafaaeb565e6702ee2903339ba21d3,3,False,211648.0
+s601:column:q5802,c ph v,validation,column,f44705d923414980be88a0057981830b6ee27da61c18d7b65f2fe5d8e2f289c1,3,False,4565084.0
+s601:column:q5802,c ph pl v,validation,column,404c24e8ba696e69bd0a510bc6c2d27e34161654912e8f53a73aedd13c6adac4,4,True,1319519.0
+s601:column:q1794,c p,validation,column,a549d58233ed93562cf68402f49f04a46760503b28076c2ef14ff1bbf660d74b,2,False,36110.0
+s601:column:q1794,p ph,validation,column,3f0d7d80c8a71a184e99a47410556a452bb069f8e19f2412cc2ef98a2aad9385,2,False,1.0
+s601:column:q1794,c p ph,validation,column,71faa37bc026c31a384aec0460c039806f10f02b4fc2ee16c322314381a22a4a,3,True,1.0
+s601:column:q3072,b c,validation,column,628c3eb649b05344567b48061541e0cb7ee75275680049c00f044cc071bbbab7,2,False,12037663.0
+s601:column:q3072,c u,validation,column,4b5858ec44301e44064778507f5a0dc555ef35db38b46590b1993db79d8b5e0b,2,False,123581.0
+s601:column:q3072,b c u,validation,column,e421d5ccec96c43a5dd82957c2e1b2f7e2876e58994c2161443495ab78eea722,3,True,11067369.0
+s601:column:q7940,b u,validation,column,46397deb063ad7225bc81c8bf43eb76348463929368c27783171c46866e3aa87,2,False,76047.0
+s601:column:q7940,p t,validation,column,a23b6da644639fb6817c68e90198b0ce058188b5072191d91ddbe806b272d1d4,2,False,85.0
+s601:column:q7940,p u,validation,column,295fe1e7c3202983d256dc9ad83bd65f305e7ace2fedb44d099f9e4971564a1f,2,False,12627.0
+s601:column:q7940,u v,validation,column,b2772284aa5574a8b8f96e002f233dce186f7fbe5f829c422f84325d7da0b92c,2,False,33823.0
+s601:column:q7940,b p u,validation,column,edd5886aacfbea7f7ea15bd12ec5bf988d286b6beb550297b4994990029d9624,3,False,454155.0
+s601:column:q7940,b u v,validation,column,6443e2d5b974566a4891b78f813320ea00c4894e712a323f05412ca41a0d4d69,3,False,65209.0
+s601:column:q7940,p t u,validation,column,17d722900bf9dada8e5b09cd5ffee537f86a9026d31f41303d501ec4ca6724f8,3,False,82.0
+s601:column:q7940,p u v,validation,column,8b986820d75da34e5de79adca10dfb2a2d19b976b395362df1e38f09b14333be,3,False,10827.0
+s601:column:q7940,b p t u,validation,column,34acc5cd1ae3c3926ae0ab89bb944586a9ccf8a8f5ef85bfc3f43178b79b420f,4,False,2943.0
+s601:column:q7940,b p u v,validation,column,f26da606404b535612f95c2b16efa1242763c9fdd2e97e4b969981b87010656d,4,False,389430.0
+s601:column:q7940,p t u v,validation,column,106dc24e208f87eac1a762ba0e26dde3dc9312693bf4687abf8751305b1db628,4,False,70.0
+s601:column:q7940,b p t u v,validation,column,2cbd22ec7d14c6ae4322a240b36499014222ee4bee68436ce24ae3c5f2d27f9e,5,True,2524.0
+s601:column:q6681,p ph,validation,column,b8d4555312db0e9e70b70e166c560778b25969d330057bc4c690bf4a115891ca,2,False,43660.0
+s601:column:q6681,p u,validation,column,867e8dd6efc9a49066a410fb860c553dd9132edb4c1a918421fd08d0f45f0398,2,False,12873.0
+s601:column:q6681,p v,validation,column,1215acc856e31e3b159a960fd9e04580c9bda95112c5c57e244dcaa1e1a3b050,2,False,37747.0
+s601:column:q6681,p ph u,validation,column,88b311184b8292e9d972e98ed733ed2a1e6591568257868142e706c6e32fbb33,3,False,42434.0
+s601:column:q6681,p ph v,validation,column,271b852b12cdf6b65da4bc04006cdfd3202f3af4729841cdd2aa3f84b87f2023,3,False,124427.0
+s601:column:q6681,p u v,validation,column,9aca64ac481668c13dd9abafeedd1a9dc4917dedd71fb149ee72171b0adcb9ad,3,False,36687.0
+s601:column:q6681,p ph u v,validation,column,5ae95e26dd95ff3ad3a0def96e5a9a09bb5c2b5a6cb1bb7a660c6fddef4bb8d5,4,True,120933.0
+s601:column:q5238,b u,validation,column,824f5100c10930523b4720005a0cdea7c0883d27c013fe23301eb1209f627096,2,False,79133.0
+s601:column:q5238,p u,validation,column,09a0cf073b85a4a7cefd9e18658c76ed7ea8a2d6a449491987f7f0b554246c38,2,False,42109.0
+s601:column:q5238,p v,validation,column,8a5dd1eedc01f6e7dc40f99bb040441ffefab25b66a7e79026837da5d190033e,2,False,121768.0
+s601:column:q5238,b p u,validation,column,17d4c183d796c5bb281c421946b24fc34fd1fb110d2a48f8fe73ec3325357662,3,False,1519192.0
+s601:column:q5238,p u v,validation,column,f40732beab508d49cc26401aaabedfc3c3c12e7d135f7f7b18ddb12085b9fd91,3,False,120007.0
+s601:column:q5238,b p u v,validation,column,d9bb4e0b89b46d8015b282973ddbd9682f0cc4ad220346ec3c0e6c1af9368983,4,True,4329555.0
+s601:column:q6844,b ph,validation,column,ed93030a06c4a2eaf3f8895ab080aa31ba29404f66cc6c7cae0fc79f445b9082,2,False,15447595.0
+s601:column:q6844,p ph,validation,column,a90eb692a31f880bbcde151c44620ea1a38592d14006ba1d3b2dd62c2e9b7756,2,False,11290527.0
+s601:column:q6844,p u,validation,column,f43825e36590767a815d3779b0e17a09bc9d085f9711ddbc4a65b05ac3c65476,2,False,18491.0
+s601:column:q6844,b p ph,validation,column,b4da0a80e9f957445959cd94c569e6cbcd394f808c67b28611ff6c1191606439,3,False,411031813.0
+s601:column:q6844,p ph u,validation,column,dcee3df22b536694d32d4f85dfa2d003b7d9537e46c3d70afa2f33b8aa3dff90,3,False,10730668.0
+s601:column:q6844,b p ph u,validation,column,cc496f5f245665e5f9689a6af44ad0fd418673d388aae049d5c63e83a5ade315,4,True,390650142.0
+s601:column:q331,b u,validation,column,905bcaf622675c01e72dceeb7dbd99ee5210a77e1a6272287503ddcc7271635f,2,True,74751.0
+s601:column:q3010,c u,validation,column,70966677e0061ccaef659efd5feee0e378d98f5e8017a3e06b85508aaaa7120b,2,False,161707.0
+s601:column:q3010,c v,validation,column,3aed99a028ebae162357f0a2ae835ef0483c57084b13dca5282b14d1faaef49a,2,False,1364101.0
+s601:column:q3010,c u v,validation,column,76db1cd600ece2412f4f45f635a3e1b77277dcd4d1af99280be03110ae827ee8,3,True,1277811.0
+s601:column:q1041,b p,validation,column,5a8ffb8d4d211331d7527a8d067ebf5654a3aa4c4df53410145963bceaa95ba6,2,True,97820.0
+s601:column:q2232,c u,validation,column,1c4ac2c322a18fb5f6c263cd51ae306f42177b556197000499fd4fd5f3d2c6ba,2,False,167945.0
+s601:column:q2232,p u,validation,column,a0304eff66f2a569b33633fba7c5d61dd2341d190a349c20fff0783a746fd3ab,2,False,41459.0
+s601:column:q2232,c p u,validation,column,f0abe856963b8d75cafea45a5048d63fcd620e9040da63177c9d7786e4a74534,3,True,25037750.0
+s601:column:q1276,c p,validation,column,403a8b1649487f02c51407378ea2ce8eedf44a1cb9ac8eaeb16399dd3582e528,2,False,11322.0
+s601:column:q1276,p pl,validation,column,3fe7f35e1d239da1414052fab9c1b079a2b51a923840b4c6747aa8c4f19a9766,2,False,737.0
+s601:column:q1276,c p pl,validation,column,4dd5004597731e41397c16aa60f0947e47af33b0b8b4a5dac33e7ee087ef9b9c,3,True,1367.0
+s601:column:q5933,c ph,validation,column,88eb050e9d57e18135e10058407d7d030d617133e5d47561007d951a0211a67d,2,False,635243.0
+s601:column:q5933,c pl,validation,column,646f976fbaffaffe5c0b1ef8c142ef314944aa93934b6ec4ef7bcb1a5af4e49f,2,False,35748.0
+s601:column:q5933,ph v,validation,column,4fb397872fc35f35ae51e95ec0b1ae2b62987726cc396b257ae0fc4cc4564467,2,False,7174.0
+s601:column:q5933,c ph pl,validation,column,7e76cb79ffd75cd138df298e7fa29f6f1e26d88ac8777a6eddc800baa94385fd,3,False,168825.0
+s601:column:q5933,c ph v,validation,column,e590bbf0eb8fcca1ae9bccf9e5ace5787b7bce2b5af2bf99d57319534385125b,3,False,23242.0
+s601:column:q5933,c ph pl v,validation,column,943381d2b37a0377a4c1ea6d7b9e03c8af3d1df175579cf2f30a7a4b0a87a00e,4,True,6164.0
+s601:column:q1957,c p,validation,column,e29a3b242586e2783c32ba270062b4dec781651177993a4cff9ca4ad694e36f0,2,False,166584.0
+s601:column:q1957,c u,validation,column,c2cf8543c5e1af6f9102a91f326c8261c0fe6b8206da04c2f2bd540c0a098d58,2,False,169726.0
+s601:column:q1957,c p u,validation,column,66bce0bbc6512b146edbfc5dd8e97f9e087b196321966e2658bd04863f155771,3,True,163769.0
+s601:column:q5735,b u,validation,column,79379a2e3fbcdea85d686f105f58c562287cee37086adf3c7458707360cf4b60,2,False,72872.0
+s601:column:q5735,c u,validation,column,32513a88c4ab442c5ab28d14f95bb7c3860362eb6e5aed88a2c52e012bbcea9e,2,False,159009.0
+s601:column:q5735,u v,validation,column,681e0fdcf987387f2fce631b98f466982840dbabae7e54db38f925ab8d20778c,2,False,31704.0
+s601:column:q5735,b c u,validation,column,2ed5428026e1b153768c1b57a1757a600fbe7fa082ef0a4d6e7b9503642f2ba9,3,False,14016647.0
+s601:column:q5735,b u v,validation,column,96e284b63f28b2ccb6067c8dcd9e8142f21a81bf84d46b2d02cd995ae9acdddf,3,False,61795.0
+s601:column:q5735,c u v,validation,column,4d7f0616ecd36a3e53b5bc3876bccda9a966570d721d1c5bb1b8cd02a8beda21,3,False,134838.0
+s601:column:q5735,b c u v,validation,column,eb2f8a7e20e2782d166fc5e19150b08bcd708227a34b8a6711274106021b96aa,4,True,11885957.0
+s601:column:q8294,b u,validation,column,0958350ccc4eb5438aa16121e56a080286159ac8decfc3fadcc87f577d868c76,2,False,77479.0
+s601:column:q8294,c p,validation,column,21b8b07e6a2a64efd9d555ba51dd39925c72f609087aad85a66154e6187f8643,2,False,90581.0
+s601:column:q8294,p ph,validation,column,6b64d1f071ba0e45996db8d8ac9804e28671aa735f27cc09cde3c260ca0cbbc9,2,False,147857.0
+s601:column:q8294,p u,validation,column,4aae3f186027040316f808bcc1bb4b1e7958acd30308e55897701fc50bb5d7ed,2,False,45706.0
+s601:column:q8294,p v,validation,column,abda455b63a19c7e4d01c2991b89b0a3b8f4445b21264f14848b1e8adffe5c01,2,False,3654.0
+s601:column:q8294,b p u,validation,column,39c3f3fb5d308313389370230f5af2aa867ad6269200af757ff42b9b924454cb,3,False,1663933.0
+s601:column:q8294,c p ph,validation,column,43c13b9ca2b30a3856d656eb6922c64b8d89a6f3eff23e9c2d2c8b086d1bf577,3,False,280206.0
+s601:column:q8294,c p u,validation,column,0dd1ed536dbf8c3ed4c891cf9a4f850c6f8a93f3ca0cf9447bd6018fb37dafb0,3,False,86618.0
+s601:column:q8294,c p v,validation,column,114b4e82ba5593afb30654a34d91e80ceca00fdd71b3eaee2db53538591c38fd,3,False,6925.0
+s601:column:q8294,p ph u,validation,column,8dba0817171f7abd62c7064c08f4b9858aea459901b7682d96b1a6b8a3a001c2,3,False,141389.0
+s601:column:q8294,p ph v,validation,column,96154f8441a3e48ccbe9f2c994b873608460230e70e18a3191976e3bacc8e291,3,False,11304.0
+s601:column:q8294,p u v,validation,column,6b15c2a70500451dfbf0eff15703b1c4c674345ac71edc294f723d728086fb92,3,False,3494.0
+s601:column:q8294,b c p u,validation,column,99fedcd1e914573b7206bf809f123cfe14356e67c79d560f742732c2d831e5a7,4,False,3153342.0
+s601:column:q8294,b p ph u,validation,column,5bf251a45ea16dfe3a9955993a6fa52d19ae8d6bce507a2d79c1d362cc54f1fd,4,False,5147253.0
+s601:column:q8294,b p u v,validation,column,02adbf466e2354e0cf53c3ffa55c9af0a7542791408e4db50cb68053698c2847,4,False,127216.0
+s601:column:q8294,c p ph u,validation,column,e353a2e17793333f8fb5de236596565fc183a06e58022f1cb247ffc989020b0a,4,False,267948.0
+s601:column:q8294,c p ph v,validation,column,fd74a02750048280f28aef6a2e9ff72c92d8358ec9164299bc17a5449053f8e2,4,False,21423.0
+s601:column:q8294,c p u v,validation,column,c2c0e21e6605fbb90cfe49fe055b57d1bda41f65ec492a710959593eb6c4c9d4,4,False,6622.0
+s601:column:q8294,p ph u v,validation,column,2874f6a4bc35711741e3cb1e5ffcfe328a68c182612817af5d4cef31b9e120c8,4,False,10810.0
+s601:column:q8294,b c p ph u,validation,column,b00d3dbe86650b35180ff52e17b3ccc9ba6f4b5883e723022f5eda7804900a55,5,False,9754632.0
+s601:column:q8294,b c p u v,validation,column,16616af607411aa6da9a853ee619f3a890ea84d00f631ceb5f37d405f9cc229f,5,False,241088.0
+s601:column:q8294,b p ph u v,validation,column,3cbdf9b8b9c70e70d53b7bc59db8b40798dccbda033f033643bd922bc8c55a38,5,False,393532.0
+s601:column:q8294,c p ph u v,validation,column,1046c13dbbed4c777a0c7759183b447305b34bb5cd2a0ecdad4d80f8634a7e22,5,False,20486.0
+s601:column:q8294,b c p ph u v,validation,column,6b231f48f04d7be5e0a38728adb0a4689cb300419e1777fed1700300f6cf5b3d,6,True,745788.0
+s601:column:q3455,p pl,validation,column,c3b37594f9563d52adb88f545c149c9f7f8932cae3edc60891907ff7a48936af,2,False,664.0
+s601:column:q3455,ph pl,validation,column,aef7a310dec5873287628c3bdaf3605c773b2ebd65e6b35ae94807eec6637775,2,False,48105.0
+s601:column:q3455,p ph pl,validation,column,3893a255c274ddb1ae6edec31535986e75e06ec23c4545ff41de047724c25a69,3,True,2188.0
+s601:column:q6139,b u,validation,column,cc4948c5f39b6e5bc5fb1a4d89e1a1f15978630b0fde07157fe1d1ba6aabc0f6,2,False,77245.0
+s601:column:q6139,c u,validation,column,1ec28eabaab0e0dcc55a693c7b85c6af76717734a64fd81d965328f846bdcc0f,2,False,162941.0
+s601:column:q6139,ph u,validation,column,e7cdb7bc2c1657e3fba8e59634540ec3928bd0de1ed2a8dbabe1972e30ead290,2,False,262985.0
+s601:column:q6139,b c u,validation,column,0a5240c30d5504b157f516d02ee77a2c2c0085ae2c06328c3849078b7a7c31f1,3,False,14592196.0
+s601:column:q6139,b ph u,validation,column,67cbef4b0858c4c98e23087b9af028c378a1ec20b8bf0caa0d2fcb2006c0221f,3,False,13399280.0
+s601:column:q6139,c ph u,validation,column,c7fe612201473a8a268f3b4684813093d674b6902f0940d739e2836da76eb866,3,False,231661741.0
+s601:column:q6139,b c ph u,validation,column,8d37d03f13f1e7b40ccecfc461e0eeda7130f6d8f1500590166cbac8d42f0c21,4,True,20746533018.0
+s601:column:q3128,b c,validation,column,5e724653afda2eac6f340204c725b27e7dece529b8f2153fb7ff82f77c10a191,2,False,15492446.0
+s601:column:q3128,c u,validation,column,dd1c4a33a644406558f1c857c2e3e374554cf83cd48284b48452ab358e353520,2,False,145068.0
+s601:column:q3128,b c u,validation,column,792feda37c6963266671863d53681a44656fd88b6750c8455f5314cad7eb35ce,3,True,12893781.0
+s601:column:q6952,b u,validation,column,de31a006cc313b4a12b3819c5b9182ad03aaede47f02d75f8e45ef8c9874430e,2,False,78497.0
+s601:column:q6952,ph u,validation,column,2772f5336a0d90ee5b8969784d50b779f71e20cd2b215adbdfecde3aa04f936d,2,False,82904.0
+s601:column:q6952,u v,validation,column,027467c781541fdf4e169230ceb21ececfee5bde35b3ca78895d1904fd6ae006,2,False,158.0
+s601:column:q6952,b ph u,validation,column,e882649adad4ffa9be1b3f5bc649cc577ce4977a0a42d77ba795d3a5e8782c90,3,False,4223996.0
+s601:column:q6952,b u v,validation,column,9942d6e59646ac191b4737c7e2a374e379ef0392b671a3cb6a0f6b7e2f1b22b6,3,False,312.0
+s601:column:q6952,ph u v,validation,column,46f48c9927be5cba454c277e2d9b1d9cafea2d0d719adddb4eb3d818d6c7bf00,3,False,330.0
+s601:column:q6952,b ph u v,validation,column,228befb37831b6d477d4b014dff00b7b0a231233ced5da8345e9eea27d972325,4,True,16793.0
+s601:column:q7101,c p,validation,column,6f07067dde10619a9e7c195ea772e106b39044d24f263d77b17ac821df9a0671,2,False,168889.0
+s601:column:q7101,p ph,validation,column,5225b2f848e2c2aefebfff9db66271b5bbe7da1644f7f921c84fb8b76cd5db20,2,False,293766.0
+s601:column:q7101,p pl,validation,column,16b27d04ff25700b3698def76fce5bd81344434b4489d929f2f7d539256c3dac,2,False,9801.0
+s601:column:q7101,p v,validation,column,3ddfe53b652fe8dda259fe14ed33685f3a6f444049700c27bb226beb066bb1ae,2,False,253978.0
+s601:column:q7101,c p ph,validation,column,e790a936308586dde7655f234937f4c77eebf6c37280887d93d223322f99ca96,3,False,556721.0
+s601:column:q7101,c p pl,validation,column,ab43e8426471b553695426fc7f8f6785bd302bf528e77a24b754379a148aa7f8,3,False,18573.0
+s601:column:q7101,c p v,validation,column,32ebc494629d1286144950c3f88f5b347cf0add8cdfd5a0aca0ec467ae590eb2,3,False,481318.0
+s601:column:q7101,p ph pl,validation,column,491eb645e43ffc7a0494911a07827da17cd7f915353fc7d134195644839d5ee8,3,False,32307.0
+s601:column:q7101,p ph v,validation,column,1fa9260f5b4c61652cdbd00ad96403b7ed3570a4488867356ee7496f70df36e3,3,False,837206.0
+s601:column:q7101,p pl v,validation,column,57ea26244f2245d619b20e9c7902c224a9fc268b9b895bdf443878d6a92210b5,3,False,27932.0
+s601:column:q7101,c p ph pl,validation,column,d6a3d7f15b5a02fc41faa4e09ce94f78430f29920b36478854e269446fcdeee8,4,False,61225.0
+s601:column:q7101,c p ph v,validation,column,d7a819444081ee6860b90031efa551abdd772e3e0f9b8a1b5e199efba370fad0,4,False,1586603.0
+s601:column:q7101,c p pl v,validation,column,1d55608872a3d59ff6a696f7aa2cfa3b4df14aeaa011b2d503ffb55e9bda44f4,4,False,52931.0
+s601:column:q7101,p ph pl v,validation,column,75e8d0040160787c3e6d39279421db4541b3c1ace9ef75443cf703f05c061897,4,False,92072.0
+s601:column:q7101,c p ph pl v,validation,column,a16ca3a88973933a6c81e031b6d940d47915a24c27b0ce10e01f33eaa377b47c,5,True,174486.0
+s601:column:q4945,c p,validation,column,685006ba4cae653826cf5da555189b39c5c14d119d766e7f5138d438a5412d4c,2,False,80483.0
+s601:column:q4945,p pl,validation,column,8ef4091983181af79620373c2c639c3a417342adf272bf2cc4ee05aa0cd5b08e,2,False,5176.0
+s601:column:q4945,p u,validation,column,0954c500eea646e607702d9251af848e7920b774291b4b1bbfaf9e35524c3685,2,False,41664.0
+s601:column:q4945,c p pl,validation,column,b6cf169bd02e79d9ecd69a27d995038c0b191505f25704efae2d8a6fd6005288,3,False,9715.0
+s601:column:q4945,c p u,validation,column,08d32e25a16802a11522b364fc7ee495f8a3d359996476a3839d8baf65471fd9,3,False,78203.0
+s601:column:q4945,p pl u,validation,column,46e324a4d4afb48923db983464c0ac3dfbd3b1e2dd669e6dd065ab23c4f10c9b,3,False,5029.0
+s601:column:q4945,c p pl u,validation,column,ef046b0f1b05e86e57ceeb0cad6eb1183623ee24804381180dbc2a5c4f9fb7e2,4,True,9440.0
+s601:column:q5454,c ph,validation,column,fd0a0de9e6230ff492c890ae307680422b6c9203664638ec31fbbf7105d18204,2,False,197796980.0
+s601:column:q5454,ph v,validation,column,1bca9cb9c15c8c881139cb106d944861e96228b5a36468c01ddd20fac166919b,2,False,55052.0
+s601:column:q5454,u v,validation,column,0424973bef0ec1b8af56d7751948e850b1d4dd580b33899fc25b7f920160089b,2,False,159.0
+s601:column:q5454,c ph v,validation,column,3e667dd52deb7e65c1b212d45d222459f615ccec00939e7864b2c0fd55d0a5a7,3,False,35915838.0
+s601:column:q5454,ph u v,validation,column,c66d9dc9c5050ab37a2942d74f1b25902c739d03daa1eba99cbeedc3b74384c1,3,False,1108.0
+s601:column:q5454,c ph u v,validation,column,9a74fc0b1c4a289b9fb90c6acfb0e6e7a9d46a812dfd956583ad9c1f743c62c0,4,True,722876.0
+s601:table:q590,c p,validation,table,18b84322a3e9f792580762ad40b1629e2a3cf4ebe0c3acacf6b59b0342fc9414,2,False,8003.0
+s601:table:q590,p ph,validation,table,1f770dab32f0c1166e5c851f767108f06de2bb529ab086de1bb707251a1e2336,2,False,4023.0
+s601:table:q590,p pl,validation,table,3ea58cd6b85182531b5fc12679c457ab374aee30a4e4368eaf7797d79220d567,2,False,606.0
+s601:table:q590,p v,validation,table,367afe1158341826f5bac2ea1f06c733499c9ffcfa83e2d2d594ad04ca26dd88,2,False,15453.0
+s601:table:q590,c p ph,validation,table,6aa142b3503ee27b0c7600bab63d827f8b1350c6a14889e550181d2ce5f9d4c9,3,False,5884.0
+s601:table:q590,c p pl,validation,table,874bc81f3630f6eda7b6cc38953df25f6449155f216a7a84f6e18f026a094dab,3,False,886.0
+s601:table:q590,c p v,validation,table,715aa423f0390f8f2306a15752a2438bc0d3be7066f0cadcd3507505f36fd08a,3,False,22600.0
+s601:table:q590,p ph pl,validation,table,6764e0565b4c659c386c7a9f73281fd7b7b560fd523f9b6222f56a42e5484a89,3,False,446.0
+s601:table:q590,p ph v,validation,table,68d220192f28d8e263473e4895a6c5c1d44e6773e0bc9889c22157b7e45c63d7,3,False,11361.0
+s601:table:q590,p pl v,validation,table,0e20f63245404d68916815a9c92cd674f1d05ad031d34b3e4f7b4db656d58f57,3,False,1711.0
+s601:table:q590,c p ph pl,validation,table,1f57824af90f57b10c3b35a657ba6ee6bde82194d3caf20370f89ad2adccfcc5,4,False,652.0
+s601:table:q590,c p ph v,validation,table,39346f8e5d651c3cb3bd2988b3f15bf11b60d6eb5c816c0df7c707eac558b9c0,4,False,16616.0
+s601:table:q590,c p pl v,validation,table,f6b254ea98b46e41566fabff448e3a20e8374a697577da0f402fbbe4ed0e1310,4,False,2502.0
+s601:table:q590,p ph pl v,validation,table,619de9c99302bbf0e6f72657b6568d7c8adc79c2f5fba26d1383bb7cecf458f8,4,False,1259.0
+s601:table:q590,c p ph pl v,validation,table,202cba50616f7b512f7ada595a1395a6f4c3ba15983e0f80a1ba3d21982012ba,5,True,1841.0
+s601:table:q4941,b v,validation,table,df0b663c986531baa641d544f8bcf35b9a10bfabf6b6048df204c2f2eea3189b,2,False,3354.0
+s601:table:q4941,c p,validation,table,819a7952de3aac5a09b14f4e9cffba63cc9a63c9adda033a64c042d046084936,2,False,28966416.0
+s601:table:q4941,c u,validation,table,d2ea05ef327497bb46dd2e3be383c886d31027e61277947fd3f17ef2c518cfb0,2,False,160859.0
+s601:table:q4941,p v,validation,table,9353b593c02e901b9b9b5b66f3e21a2766ec8d84b1c9acdab76d3ab29b2be8cd,2,False,5406.0
+s601:table:q4941,b p v,validation,table,ab45846bee1f08af1b417bdec7501f39e074986ff7aa06ef96bd36f0ccb42d85,3,False,196793.0
+s601:table:q4941,c p u,validation,table,5644bc4ed4bd328ea77df82bbb63c555b353e2d04b8f643f24454fbb6338e767,3,False,26731945.0
+s601:table:q4941,c p v,validation,table,55b58f5452ebae7f227a11c5867da58df26df461de2a30372baa1fe308d6c5f4,3,False,8258746.0
+s601:table:q4941,b c p v,validation,table,fd4f648181cba3b511f512288b528f6662eb9373f1b2c009607bf3781d8e6b61,4,False,739614324.0
+s601:table:q4941,c p u v,validation,table,fb7ca5fc3718b4a468de0e90ae46c5aaa9713dbf543586e4b3686e07173e1eb6,4,False,105296.0
+s601:table:q4941,b c p u v,validation,table,f2e11b3be465e401ca43cb71925a3b6b0d551a4aca70ead7076cb3edf7768462,5,True,9429776.0
+s601:table:q837,c p,validation,table,f0d221bfa265709bd7495fa0dca0e0aa632f2120293855498836586f62339ed1,2,False,1800.0
+s601:table:q837,p ph,validation,table,12ce67475f7ffcf32ff1b3e5ad2e7da304331d3f4a8795ad5ef1d5d45c713fd8,2,False,131.0
+s601:table:q837,p pl,validation,table,ed3890f2b09afab53034cf67fc2655c15e732388778147e4276958b2a9f722dc,2,False,105.0
+s601:table:q837,p v,validation,table,d1df907c3ef78317e1b0a2c013804b727963d7225e1edfe9bdaf857d173c6809,2,False,19.0
+s601:table:q837,c p ph,validation,table,899d64943a35e02eb12f6fbc1104968a8b8718c67c5cbc7c08c3236731be12b6,3,False,248.0
+s601:table:q837,c p pl,validation,table,7fe471d68b2085e97f89bebdb116ebb084af5a0e70c38c00bfe970dc0664ccd0,3,False,199.0
+s601:table:q837,c p v,validation,table,5961f8dddecdd114fe2880737ee9f6f388012730a7295fa92135c7238564b9b1,3,False,37.0
+s601:table:q837,p ph pl,validation,table,7ab3a0be8ef3f7cc011ac1931b3b1d7bf507b7e12419bca2afade1a7de54ecc9,3,False,15.0
+s601:table:q837,p ph v,validation,table,f5c2f12321c99b82573ef6555dd7e8ea871eb90663dbef6abd402b1ccd67147d,3,False,3.0
+s601:table:q837,p pl v,validation,table,089b8248eac49ca7ae53a4807648deb24fd60b1d8f3851be7962f8fb52c067b1,3,False,2.0
+s601:table:q837,c p ph pl,validation,table,0ef3bb2b228674265707262621f324b45c80e5353e7910fe8d08ed8c29abfd34,4,False,27.0
+s601:table:q837,c p ph v,validation,table,26ddcb3180b101bddf6dc489be547b4c60a8dde69be379c2621826830f3feaea,4,False,5.0
+s601:table:q837,c p pl v,validation,table,1f4b268ac271140152c14bb18cc3316e2f4d87be5a634ed5de053cf8fab58658,4,False,4.0
+s601:table:q837,p ph pl v,validation,table,abbfba5ea448a51c7a51b42710b42eb78451817c356035e89109ae5cf4831058,4,False,1.0
+s601:table:q837,c p ph pl v,validation,table,4270d69022e842ace466e8fab8374959f08415d0dbc9461a13e039ba4ecdc67f,5,True,1.0
+s601:table:q5884,b u,validation,table,d977409c39b49b99475f471761d180b3fd3311b47a801be22689fdaf96bd0297,2,False,78142.0
+s601:table:q5884,c u,validation,table,323f6ef94f3f79a991554bc05a6c2c9737eb9dd1bc677307ef32d800dcb9c626,2,False,165846.0
+s601:table:q5884,p u,validation,table,c5a6f377c539e9a226584b5dbda279fd590e9a5ac54e3fd3713458d03dce8a91,2,False,5646.0
+s601:table:q5884,ph u,validation,table,6307f39c6f39f9e5a4da9ec4933425d5c59d419da411991b388b3b8616bf1a16,2,False,39458.0
+s601:table:q5884,b c u,validation,table,37e4755a7568814df6b020f78a35ee2d2021fadb7184899aa472b34efbf66d5f,3,False,14852366.0
+s601:table:q5884,b p u,validation,table,8ded2ff95e2ad8de2cf8063fff910207e6b28c2897d08e42457a9c71ee8ab179,3,False,205537.0
+s601:table:q5884,b ph u,validation,table,e6a8214f831ef92538dad8ae418d00a7f19b35c9cfa5ded9a0e6e65980d30af5,3,False,2010396.0
+s601:table:q5884,c p u,validation,table,1d2582845c3c4fdafabe26c752b5decd18caeea2749760122ffaea39205c969b,3,False,3375526.0
+s601:table:q5884,c ph u,validation,table,034b4851dba4ed6b0d11d1277ee662cf44930f6eb5db0e08d40202e95a6fddf5,3,False,34971581.0
+s601:table:q5884,p ph u,validation,table,acfb93f25ec55a637cec9f50f180de5b1b0ad19dc32a967d89a952f3a46daa14,3,False,469828.0
+s601:table:q5884,b c p u,validation,table,4deb420a52341905a220bb5ad2cd7b20d6ed0fe08cd26d770fa793d88b37b509,4,False,302296174.0
+s601:table:q5884,b c ph u,validation,table,250767d8b7d1db2ef7ae013882706f9aab4447a1b5bb30d4b0e616d99d0f9362,4,False,3131889972.0
+s601:table:q5884,b p ph u,validation,table,217fb0f19396a1b21f17508e406158cb162123fb9452bd15bb3da6c69c8fbf62,4,False,17104079.0
+s601:table:q5884,c p ph u,validation,table,1e44f6bb2a833eba0f83ac8ea3a4283f1b73904cd750e702c99c684da649624e,4,False,711790637.0
+s601:table:q5884,b c p ph u,validation,table,26e225f16be4ed40f0d3f84c3414b9ca0da518ead8342d0dd149f29d04a3ba49,5,True,63744614624.0
+s601:table:q5303,b u,validation,table,c415096f3223d09c7376dd3cdca59148995d61a668a03267c6fc8338ef85f4c1,2,False,72439.0
+s601:table:q5303,c u,validation,table,96bbba7e082c2276166b952ed0effa1fba04b0a5af48777015403cb3c60f2106,2,False,118891.0
+s601:table:q5303,p u,validation,table,462bc930f8dc39feb381bdb49b84ca7f5b8974d34b5f6a662d8d2bb732045f3c,2,False,38014.0
+s601:table:q5303,ph u,validation,table,a276747c2121bf318a62c6a75ae54be83f76fb580c41145555d14e05cee50247,2,False,255077.0
+s601:table:q5303,b c u,validation,table,21ebf678f4bf7fd7c3b0300799220f9f1e5ceff75495e0d01660345e4b032ade,3,False,10647341.0
+s601:table:q5303,b p u,validation,table,55872b2d564a927d22da04b57a7b4b6e6153cb72492721664f42817908a91972,3,False,1383914.0
+s601:table:q5303,b ph u,validation,table,773fe1f8debef1627978df28500300e7c0cf586d4caf445ac12c9acf06414ebc,3,False,12996339.0
+s601:table:q5303,c p u,validation,table,3e00505f14af794cbd5b62fa4a7289f55e5c5f789c1ec8cdb00f27a19bd696ff,3,False,17575887.0
+s601:table:q5303,c ph u,validation,table,b4f79de04625c8d06eed6037fb7feb129a6a23ae8e0bcd760eb1bfd07136a7a3,3,False,174828319.0
+s601:table:q5303,p ph u,validation,table,79c2f558a555fcb9a2ca208a5fe17742f1d28fc41527ece98c9b6bfc40c4ab2c,3,False,22060131.0
+s601:table:q5303,b c p u,validation,table,85a12564476b499f189245106d9fdf36dec87eaacc965779b66fcd1242bd51ce,4,False,1574013607.0
+s601:table:q5303,b c ph u,validation,table,6bf712a8f7f082835b5f8b75d8b515148e0a0fb4e443ec1e2ffe4bc7ab1487b6,4,False,15656800264.0
+s601:table:q5303,b p ph u,validation,table,fe7174b403f7abbb54ab5192fac9097333d4f83549b0c1059d708911fe2772ca,4,False,803099987.0
+s601:table:q5303,c p ph u,validation,table,0f59113209f947614717a54f4230df6ee674a7bd01a7c42fb39490f251862d99,4,False,25845153002.0
+s601:table:q5303,b c p ph u,validation,table,26a841892c0b0b21f9e5d8f84bd7cc4ced72345618a400c1c775ce10628d3dd8,5,True,2314570097141.0
+s601:table:q5460,b u,validation,table,6a68dc827a35d208956f873c0d3272c873f9a7ec263a62972ab23ec5d53c7280,2,False,74382.0
+s601:table:q5460,c u,validation,table,4feb38359c3df7447386b1ba3835e0b9fd030cf508fb53a0b375ef24f26f13bf,2,False,22731.0
+s601:table:q5460,p u,validation,table,3c154197f1f34f4ed763949847e51de7f956b136c8e6f6ed316e33c8632966e1,2,False,34.0
+s601:table:q5460,ph u,validation,table,182dae3761f4150a06f4b0e45f669c774f80846e1bafa4325e6d1cb3fffac8d7,2,False,259400.0
+s601:table:q5460,b c u,validation,table,56cddc423f7417cb7c60bec2c082e39281a0a27a384c4e20ccf4326a2d6da5f2,3,False,2035692.0
+s601:table:q5460,b p u,validation,table,babd07c8d1a48568c415984eb7ac5a7fae2fc84472d80068d52a9bf458274808,3,False,1237.0
+s601:table:q5460,b ph u,validation,table,47d548a5a65115bae889bce8121afc60c7fb58e0519a7a5e8945d4c531abd783,3,False,13216595.0
+s601:table:q5460,c p u,validation,table,88b38cc8d89dbd0588e2b21eaa94651a8ef787f269d18a1a28437ff23dddaa0d,3,False,2924.0
+s601:table:q5460,c ph u,validation,table,83bf16976cf53558067c6d194dc0a91c90d6455e4b37a0eefc3cc7b599d7baa6,3,False,33104598.0
+s601:table:q5460,p ph u,validation,table,1b91a1612706898c374e6227feed6e569b009e28b51fa75feec9a4aa99b3ce0c,3,False,19522.0
+s601:table:q5460,b c p u,validation,table,52181ba39e1ba1f1269d7d6083725dcfbde11a6531fd043c267ec5b7bce2e6c0,4,False,261878.0
+s601:table:q5460,b c ph u,validation,table,1406c16b2498907e9a5f172ac60db7b0741136fec4834c0a6918484b6d2e248e,4,False,2964692244.0
+s601:table:q5460,b p ph u,validation,table,ebc9d45b50d617ddd75d62fced30de6a26432ecfe46d8e4f9ee84c0f972334e6,4,False,710708.0
+s601:table:q5460,c p ph u,validation,table,b6d2c99fc3561b3a258b1f6946f5a194fbcb3ce9287836f92f45bddcf461a6b3,4,False,4258041.0
+s601:table:q5460,b c p ph u,validation,table,30a946d3f0bd99a10c7757ad424c7830943e556f3e7f0462a27231926fbc3179,5,True,381386971.0
+s601:table:q1704,c pl,validation,table,f1f4d6e0eb78df971174a913fde4919153bdea24341f4b5e22b4e95895f195e1,2,False,45546.0
+s601:table:q1704,c u,validation,table,b2fbdb77fb36a64345be3c06befe6888bd7ca36e450b3c8cc93ab10155fa42a7,2,False,159159.0
+s601:table:q1704,p pl,validation,table,fb2900639a266835ea99479cb6ff43745b7b9fb0cc283097c151b91200e87fba,2,False,10029.0
+s601:table:q1704,ph pl,validation,table,540bcbed19deb2b08341a539a85c4741fd52e6cb38b4125a7bcf9bcd22851278,2,False,2594.0
+s601:table:q1704,c p pl,validation,table,d6fee778fb4ee7754bf62ea921e3808bc8b46c5fd5afbb2b76937a10c1065472,3,False,18763.0
+s601:table:q1704,c ph pl,validation,table,917a14217f9364cc6b387541aed3ad29cdcf4d86d921cb3a23d02e0235a20988,3,False,11601.0
+s601:table:q1704,c pl u,validation,table,579c9a3808fed3d417a2475cbae01dc3ef469b0c6e2db4aec51e63b81fdbc919,3,False,42126.0
+s601:table:q1704,p ph pl,validation,table,45201a2fdd55b47044d4bae6c5c3bea98e2761490048b56a280368718eb80f22,3,False,1783.0
+s601:table:q1704,c p ph pl,validation,table,ecaecaa352ffb1c0318cd6b9fc7c0fdbacea1e653238e3ebaa9a7c5cc4c2be19,4,False,3336.0
+s601:table:q1704,c p pl u,validation,table,8ae1581a9aba39f0198d527770e4909a2e6660bc325f79428c4666048c5d2246,4,False,17354.0
+s601:table:q1704,c ph pl u,validation,table,85f8dc84f2d2902b8a17cf2331a62c2a3d9d28c717074f6556b54c6c61787484,4,False,10730.0
+s601:table:q1704,c p ph pl u,validation,table,21c8dc65d71b4508f9a46efd01673363d33dc1a1762daf11c8ff1528187287c9,5,True,3085.0
+s601:table:q3820,b ph,validation,table,6c62ddfc1367f6b2925f2fce9966eaeee2d86fc40b1c791f9aea11b5bb698a3e,2,False,14080124.0
+s601:table:q3820,b u,validation,table,a0f11850d5ce1ee778d3c56fb2dbea4983c264e7ab83ed18b5921efc3872fd1e,2,False,78308.0
+s601:table:q3820,c v,validation,table,fc7106b15b2eb39899d59262e22a549dbf7cfa400d417c980e1f42bb29a4acb4,2,False,8348769.0
+s601:table:q3820,ph v,validation,table,69c2d3aa592d9dfdc4452476e82daa1978d4acb7277dc29e22096c033161e70b,2,False,10828122.0
+s601:table:q3820,b ph u,validation,table,5645fabfa97fab995b743956830fb245b6896541b85ca6a8aa627550e048201a,3,False,13814409.0
+s601:table:q3820,b ph v,validation,table,2fbaf03ddebf2c859b3d561a1dc643b4ac00aa50257aa47fe9a08975a763dad0,3,False,128731913.0
+s601:table:q3820,c ph v,validation,table,beb863e3257949178c2ecb01745de5ea4f12b9fec61ee03fa289568c65bf1eba,3,False,7064187752.0
+s601:table:q3820,b c ph v,validation,table,dd24deabbf32e808c661442a0e4139da5c9c898166119c1cb585b50947376ece,4,False,19420252243.0
+s601:table:q3820,b ph u v,validation,table,16507aa85a9b73f071779c1dd2597ba15da9610949d2df226d54f4d287024df3,4,False,11845604.0
+s601:table:q3820,b c ph u v,validation,table,3c9e17a761b6d093ba59911a4cfa9e9b797be1c0d83547a9d86616b3967f6b3f,5,True,1787005369.0
+s601:table:q619,c p,validation,table,247598adb0428fc7864a659fb8c9f9b62db48175913c7fa41200abacdacacc8d,2,False,11281.0
+s601:table:q619,p ph,validation,table,116a0b518949e5b7dc2b94bf3695b0d2d889f8fc72e6a67450fea2badb23df12,2,False,995.0
+s601:table:q619,p pl,validation,table,478ea729e51492b42efde2c63d12d7606d7da5c508bfe92904b4b86f8e51b46c,2,False,5125.0
+s601:table:q619,p v,validation,table,832ebe6d4e25a1d444dd01f4cc2a0a9e6ca27164b1fed330ab16a651ab2fe119,2,False,121001.0
+s601:table:q619,c p ph,validation,table,d834dcf2fe2d151b8c1585875870ed52939231773770be0684a383575bef3326,3,False,264.0
+s601:table:q619,c p pl,validation,table,2edd00fdea217d2d764baa63cee3e4e3dbe8bacf6b84a885ebe6eb6fa21ebfd4,3,False,1362.0
+s601:table:q619,c p v,validation,table,4ec7ff9656c437a33bc7a9acaafe8243678f7d8c0cc6ec7aa703990141e34772,3,False,32150.0
+s601:table:q619,p ph pl,validation,table,4056c421e2a1f1a20be28e3dd230654ad1632d36a83ea8d21900283ffab669f3,3,False,120.0
+s601:table:q619,p ph v,validation,table,8856a60a2276a5054f0b4c342a82925ec2d6d6bfb8fe97a499438efdc5659707,3,False,2836.0
+s601:table:q619,p pl v,validation,table,6e962ef8807231f673cd8c6faf4ded9b6405c564156181fa574ec7eff46c5341,3,False,14606.0
+s601:table:q619,c p ph pl,validation,table,219227acd29376a91bbc5242480dd6fa8cd587f96f64fd361e51a001e19d5406,4,False,32.0
+s601:table:q619,c p ph v,validation,table,ae45e7ce471e115cd4b6d11bf585741eafa71d579c9d6e805dc595db8f90956b,4,False,752.0
+s601:table:q619,c p pl v,validation,table,f5517bba0a0bb2e2f9baea37fe823f9993d897ad9cd7dae83e9c91e246f6f78b,4,False,3882.0
+s601:table:q619,p ph pl v,validation,table,32f41c4abed63562ca5aa8562bb1837dee81a2b61d5e53699b79a5b13d814f56,4,False,342.0
+s601:table:q619,c p ph pl v,validation,table,eb46767b61fee06e1780cc1ad74b349844719c1a3d9bde67dfc46b744bc707b5,5,True,91.0
+s601:table:q4850,b v,validation,table,e53b745c1df95421aedaef2cfbe7b5b29b881e06bc088af3777d2f88ecd297c6,2,False,4326.0
+s601:table:q4850,c p,validation,table,2a4c8453b2dac3625b9e39dc5c9a143adf2b8f40eb6d6a4dab62e85e35a5766b,2,False,2381055.0
+s601:table:q4850,c u,validation,table,2e9ae1a81e6e8bd335b1cf574530187d255e069021b1f5a19be3ddd27fa831f2,2,False,130562.0
+s601:table:q4850,p v,validation,table,c8db5d52cc1f05df50facf37718355c30bb5a43d93f28675636ee7b9e0787397,2,False,753.0
+s601:table:q4850,b p v,validation,table,56430b23d5ae96fd8700b5c93ac91955e89d5676baf3ee2a9afb8bd07ed9736c,3,False,27411.0
+s601:table:q4850,c p u,validation,table,384ec75acf7f639b34e1f13ff906a5942804d058a425bfb6ca721ccd4f6ffe0b,3,False,2342799.0
+s601:table:q4850,c p v,validation,table,2d83a222198ee3ab05b8962c48290504b02fb86ad3fb0ebc5e6b9855afd65bcb,3,False,875733.0
+s601:table:q4850,b c p v,validation,table,8a59a7b7db643a95b9eb8cc027fc4b1342c89d90315e8222d253630c2144c086,4,False,78426527.0
+s601:table:q4850,c p u v,validation,table,5a59d83a9c5c27b642b580aedb1c87a499aae17bff9a935b7c687b97006e5682,4,False,11904.0
+s601:table:q4850,b c p u v,validation,table,73566354bed4214828043be380380d29e7dc5e30fa4bd28da0a6d4be5ea7d1cf,5,True,1066078.0
+s601:table:q4568,b v,validation,table,bb3971ea428889dd74b23fd3e465690cc1aa02cb7565389ac28c2d3ae7a33051,2,False,730063.0
+s601:table:q4568,c p,validation,table,07ae791bcd42455a4145d0165daf8f5f6f9788bbc243deaa55acbf791e06c489,2,False,8506500.0
+s601:table:q4568,c u,validation,table,125079a1f92a15afc5a883c8951d14c8c50ddd1c6bd386c0b2daa0b803a48b2a,2,False,131647.0
+s601:table:q4568,p v,validation,table,fc3fb5014e1f7907e80fdcd872fee0964503b5d75b9b6c285c4d426c2f73f0b7,2,False,447819.0
+s601:table:q4568,b p v,validation,table,146ea68fe79261bea1410a7fd2cec69e7c441726691785feac2dc6e8e68f6f89,3,False,16302852.0
+s601:table:q4568,c p u,validation,table,6a03d6ccead6641a1f0dca275bab609b865cea77fe122500b44c91c52e566c3f,3,False,8325411.0
+s601:table:q4568,c p v,validation,table,a5573730f418753d9d44572d9df1295af6f1ee237e01bcc8dc64c515c2f05ea4,3,False,527977667.0
+s601:table:q4568,b c p v,validation,table,db300fe55cd6c002cc7240f939ee0b1f38aace4b96b19e660a610800ce7fb839,4,False,47283191018.0
+s601:table:q4568,c p u v,validation,table,d3f6ba397e8505efdb37d3db93de7731e918585e5bd6cca8cac9694924b990da,4,False,7138889.0
+s601:table:q4568,b c p u v,validation,table,5d30ac4d311b5580908c3e59b8325487b194d53d2a2124d78dc90d542a90bdaa,5,True,639325219.0
+s601:table:q525,c p,validation,table,3b44892fe4d76bb7a13c9b25aa16a1e62861f142d0574cbbeda3c5602bd82422,2,False,577.0
+s601:table:q525,p ph,validation,table,d374542038be5c81e0121afb7604d689dd299ef18fa59f94f491379a223aecda,2,False,45.0
+s601:table:q525,p pl,validation,table,d3cc4d53c69656fd782917bf79bf6c31422e4c11194a48137537ed383c0deb88,2,False,43.0
+s601:table:q525,p v,validation,table,2aa309af24dde883400c179491f3c618fa3cf6594279b7836c0d1d68c41d00a8,2,False,1424.0
+s601:table:q525,c p ph,validation,table,8f5649285b8ef9d334202146518ba715e2a5ffa670c295b2a0a6f9bd73cb99fe,3,False,65.0
+s601:table:q525,c p pl,validation,table,9050a6b1e157635af9c57c21d0b61bc17f6ee0e64c9c29a0b1f2dd961a794951,3,False,62.0
+s601:table:q525,c p v,validation,table,f662f45fb16c536bd541b96e434686f04bbd24c9723feb01ef54dd328d30fb7d,3,False,2054.0
+s601:table:q525,p ph pl,validation,table,c18ff482f1eb3755447d60855157e8577d8cdffa0798e93773550460f8540ebf,3,False,5.0
+s601:table:q525,p ph v,validation,table,60d69fce286f797b4b1675dfb974f82afb064048361b50ce3ed54015b1aa3daf,3,False,160.0
+s601:table:q525,p pl v,validation,table,266868567397f526482090b65289e30e822262897a9e0b4d618d430fcb552fec,3,False,153.0
+s601:table:q525,c p ph pl,validation,table,da6979e789e75e766c09f2929657c95264f2e1c4dbfdd99abed486aa09d8d700,4,False,7.0
+s601:table:q525,c p ph v,validation,table,06923127397eb6c55bc97693e0dae564a38288af37f0ff7917fc770ccf294b5d,4,False,231.0
+s601:table:q525,c p pl v,validation,table,ed168aa29ef2f043abd03192f2297a1219f980f2de4032289ff32fd58ca2759f,4,False,221.0
+s601:table:q525,p ph pl v,validation,table,2045cc092d6dd6cdb28bab6ca2ef9b0af1009ae84df00d21ce4bf5ea8c8d353b,4,False,18.0
+s601:table:q525,c p ph pl v,validation,table,db6d4da5777f93d63a606889c455f8201e45547dd71c65b2494d5515729f49dc,5,True,25.0
+s601:table:q8616,b u,validation,table,e8e422dd5454a8a95f09d7cd59e7d0ecf9d6ff689fb5fa7472b6c4f10deec820,2,False,78213.0
+s601:table:q8616,p t,validation,table,f1d711acafc58075df2846a014005a226a1fcbdb86e7db81f2ef46305139727f,2,False,269.0
+s601:table:q8616,p u,validation,table,8a7ac56837d439e2044118676efb8a3c2d3f2ae7db8bc205becb498b92debd25,2,False,40148.0
+s601:table:q8616,u v,validation,table,015c216e35cbd4d38cf73aa0a0035055d9e67f170b0f8c6c60ae15bd6448df3a,2,False,204.0
+s601:table:q8616,b p u,validation,table,2c3c1839f445d7c2997718777946a5063e513c8f0f82cd2f06ff19f54d81e7ac,3,False,1479638.0
+s601:table:q8616,b u v,validation,table,ee0842659f47d831002f95f920e35dfbb31e2de8df4d9e624d66c3c4f9380c07,3,False,402.0
+s601:table:q8616,p t u,validation,table,54de05fad33da4433856cf53cb6ca9d7a98f011d8e8e7a1ecbccd0a19e2daa31,3,False,260.0
+s601:table:q8616,p u v,validation,table,5b6169ea8663562162f742c6cc13af25dfbbd5d075a92c4a33a404510005c610,3,False,207.0
+s601:table:q8616,b p t u,validation,table,6d103670a8fceff726f780755e8e357349b35c3bca3eb5646bd4cd04bc2f7ff3,4,False,9588.0
+s601:table:q8616,b p u v,validation,table,a61101d54bedb9bea05c129c1a370b2a9f8daa030500e9637cbcdfcf65420dd8,4,False,7611.0
+s601:table:q8616,p t u v,validation,table,110bf4871036f4ebe34d6611ad11014fb0af78ef1c2541bce032750dc7c6136a,4,False,1.0
+s601:table:q8616,b p t u v,validation,table,c2672b21500c93ef55c586c2741680b89c46ae5d522a9846a8ed81be48aed591,5,True,49.0
+s601:table:q5666,b u,validation,table,5b41579d6390687c7464f19d8155b89f2533e5d3f5a0f19dcb87452afc783f71,2,False,78588.0
+s601:table:q5666,c u,validation,table,fc6413c1c69fbd4449d87ce5c43e31bdb7c0a94d7f1e6ba619326f0f9924a5d1,2,False,168791.0
+s601:table:q5666,p u,validation,table,95fd2c149503be2cff322b2a43d192fde3dc0fc56264b30a23b0673a2ed6d6ee,2,False,41590.0
+s601:table:q5666,ph u,validation,table,f9fd0edbd5b940ce9fb968f62d3a354b42e2016565f735d1c31fd155c0e38096,2,False,83000.0
+s601:table:q5666,b c u,validation,table,5b8d65ba9551eae35cb13da9ecbb58df0ccedab3c9eaf9a289d0f9da6e75f0e8,3,False,15116131.0
+s601:table:q5666,b p u,validation,table,445391b3e14517da7aa291534c101a93757587bf17cf122eb25a3f9ded757326,3,False,1514089.0
+s601:table:q5666,b ph u,validation,table,130201b68601b58accacaddb082b38e25600d14513c848da05e10878ebb0a326,3,False,4228898.0
+s601:table:q5666,c p u,validation,table,d46ffdd1e3189d00a04b7241d6e9ad9c8abd06b7a333029bdeb94110e7d8a70e,3,False,25163923.0
+s601:table:q5666,c ph u,validation,table,2c333109db1b328fb0ae86e7ea90551a3a63d61d259533387ceda37564120e99,3,False,74445172.0
+s601:table:q5666,p ph u,validation,table,6f878a76f921df6f02b52af53cb8c0e4af4279d82c2b5d4784ac5535a4ceed28,3,False,7238953.0
+s601:table:q5666,b c p u,validation,table,2528b61f459ff8317a30dafd63ac525612dbaac0914685580af73c754c09878f,4,False,2253562301.0
+s601:table:q5666,b c ph u,validation,table,2c6152ffa30e36433dfbe0fd57e882ed6268e324c59758a46ea2b20837fc115f,4,False,6666958666.0
+s601:table:q5666,b p ph u,validation,table,0289473b42f3a43b20154f821158d4358fcbdaeb37665dd810f01e907acc5a90,4,False,263534437.0
+s601:table:q5666,c p ph u,validation,table,f7a94990f1ac6e0450b6cf29fc1bce1e86ffbf2db8c15fda3535d2ee3865dd1f,4,False,11098530454.0
+s601:table:q5666,b c p ph u,validation,table,fae8dc340f26ed985582e8d3a84e0259aad70232ded33b773bae3dd628df01d0,5,True,993932052150.0
+s601:table:q5628,b u,validation,table,c8219b612394bf1671d022e6ac2b29842683e488b5177c0ca125371df4eff287,2,False,3103.0
+s601:table:q5628,c u,validation,table,16f0c494aaaa47aac091b871fa79b2ce997ea22704c46001aed1b6c8a5b9ff03,2,False,5143.0
+s601:table:q5628,p u,validation,table,cf8f7027390694aa38353f64f296f599afb3f5955f6543cc27da0b78bf884832,2,False,3482.0
+s601:table:q5628,ph u,validation,table,80569768e9f402a2a4370e5afde43563873d873a98bed0c4b1f3359131922d24,2,False,10926.0
+s601:table:q5628,b c u,validation,table,e35f3832559d147a114bf6b6269391d1cd67a537e7004555c3a271039c4cdd92,3,False,460584.0
+s601:table:q5628,b p u,validation,table,f64e009f4df978d838bec62a7069f30610db9a9494d89d3a1cc2253ae9c3743e,3,False,126766.0
+s601:table:q5628,b ph u,validation,table,45329e06beaea9ce4f7ae038add7e320b85be0d566873ac489da863d7133f332,3,False,556702.0
+s601:table:q5628,c p u,validation,table,c1596101f5cb8c4e885c6739787d4f4f58140fbf581b6b0764bfb422660cb7e2,3,False,1625834.0
+s601:table:q5628,c ph u,validation,table,ed2745c43f29baac582453b29e448b5ba5dd00538be5e1baffb9a0011610a849,3,False,7562754.0
+s601:table:q5628,p ph u,validation,table,31ac5baf56697226d22370e09a71d8091b66ad4b4c6d5ac6f6ee5ba7f08274ff,3,False,2020693.0
+s601:table:q5628,b c p u,validation,table,bd228645d016eb8af5a78b27929bb93c8970f8f7b5cefc58e8cc99aae13b9505,4,False,145602006.0
+s601:table:q5628,b c ph u,validation,table,fa5a4c3c4b9484a8641f885d43db31e6c0c693d09d982f76a4f36fa4fb152e91,4,False,677284558.0
+s601:table:q5628,b p ph u,validation,table,c16468071c706fe96997dca39f13c32191ca0ed44a882fd8f664128a05de7879,4,False,73563400.0
+s601:table:q5628,c p ph u,validation,table,104562bdf1f9185f28b2291056548bbd0aaa76ea8838955e4427d9a737a63748,4,False,2390771048.0
+s601:table:q5628,b c p ph u,validation,table,5b909f34f9fdc1c58cebc34015a7287ebc1f21cb1038679e9d334b27ce46f9ff,5,True,214106186079.0
+s601:table:q408,c p,validation,table,a476f2c551e2232e5a80d8a54ebc7d4759fded4c77f5111d7b4690d229e7414c,2,False,3935.0
+s601:table:q408,p ph,validation,table,0157f98302e8357977cb71f5e48f7310bf6ecc67e469cdf8f8584f27e06f72a1,2,False,8871.0
+s601:table:q408,p pl,validation,table,fd63e0f556e852ea6b2f48ba8c29fa512599645783f993bb2c03b43e4c7e0439,2,False,325.0
+s601:table:q408,p v,validation,table,c0d39cab9744b5738936c435d207e462dfdba9d1af53b4ed8190530718f7ce8a,2,False,7669.0
+s601:table:q408,c p ph,validation,table,320882d5843d0ce050dabe30fdde295120512a0d343237c8b55c07d6e2171e9b,3,False,12971.0
+s601:table:q408,c p pl,validation,table,9dffb2f5b0eff0f7f020d360324546a639905e362bcc2b106995267724f3ea27,3,False,475.0
+s601:table:q408,c p v,validation,table,0eefe9e3d327d2b6ef62f6450e15b782f19e9272540f54b430f403caac3092da,3,False,11214.0
+s601:table:q408,p ph pl,validation,table,3d78276909502e1cbe45ebcda699774b3e2c3dd5dcba3e82bb30ee923da5c81b,3,False,1071.0
+s601:table:q408,p ph v,validation,table,2c097e7c550f5e399d94a6fe9911fc4e2db5a2bee1d2ae9d7b88cef9351dd9df,3,False,25282.0
+s601:table:q408,p pl v,validation,table,e54a5c076775195ff52465f00c9035bef5895b93f81252c6f0069d73af649b0c,3,False,926.0
+s601:table:q408,c p ph pl,validation,table,cf33e623034585b27aa2f784bc366f7fb22cb33275cbdae6588c625035bb2ef7,4,False,1566.0
+s601:table:q408,c p ph v,validation,table,2bd5f9461f4b789056f7e16b84861fe3c3238785b9ab7dacf58eaa29df6e4464,4,False,36966.0
+s601:table:q408,c p pl v,validation,table,14a28da73279b785e6ec51eb1305975cf787258130181184b4de8d905412764c,4,False,1354.0
+s601:table:q408,p ph pl v,validation,table,a82e6fb7e3c38d2eaa07c92d7971140dc1dc6dfb1d16ad56fe0da3d01d1fe142,4,False,3052.0
+s601:table:q408,c p ph pl v,validation,table,25674f71bc86407a638e5fae7a5b3927fbc3c38967667f948c8b065b16f714ae,5,True,4463.0
+s601:table:q2507,c p,validation,table,434a7b5a4c51b36db69f8108a89bad76bf77a095a28dae3be112e326afa2e184,2,False,241598.0
+s601:table:q2507,c u,validation,table,cd8ec6ede5faa99148fe99ec9663b40918ccecdd6caca526d57ed7c39e620ee4,2,False,21936.0
+s601:table:q2507,p ph,validation,table,a43383735f6d915d779f08eb87317d14f882334f41ba806733e627a04fa575ec,2,False,89419.0
+s601:table:q2507,ph v,validation,table,c5747730163efc7ff31aaf94f12feb38a8c8258f0d787c99d87cf6d0f08e13d7,2,False,640423.0
+s601:table:q2507,c p ph,validation,table,0ebd7a19398f0896aeaf0894097f63e77489f4b63d7ba22016d722393c170abc,3,False,19160882.0
+s601:table:q2507,c p u,validation,table,03ef6a9ff8add30593f74c61622969ce134b7d0ac6405615adc01396836568c0,3,False,217897.0
+s601:table:q2507,p ph v,validation,table,b1478b510d087136fdbd958b75d424d5e5c7a8768597d2083661a4257aa77d44,3,False,2201523.0
+s601:table:q2507,c p ph u,validation,table,11b58d84953d9b3e0bcd6e79da449c703815b9cedf099ca6d2c6ec1512323726,4,False,17281204.0
+s601:table:q2507,c p ph v,validation,table,b69d0bf1ada657513a6cb4ec85f895645018b5d92e4e8762cdec0e61fc8fd1ad,4,False,1189269121.0
+s601:table:q2507,c p ph u v,validation,table,e855c267101808933ad36b0509ced5a69375059d75fddabfc3dadd01891002b1,5,True,14818318.0
+s601:table:q3130,c p,validation,table,2c7d8cea171f9f7ed8eac4dd82ce1777f483368bfe56afc1b036a08b5e5bcdb5,2,False,25592766.0
+s601:table:q3130,c u,validation,table,b86b42a6a85ee12d93e41e651d536dd9628ba45f3668299b2cbed71c74a6132d,2,False,162431.0
+s601:table:q3130,p ph,validation,table,8885116fd5e69ff11e0e5b6e48b15e03bca147841c61c176a415ef67f9a0663f,2,False,24126864.0
+s601:table:q3130,ph v,validation,table,7c0b8c0e6eeefc9b483347de223d2f1505fa0dcc2ab6e8a9e0845dea2647c616,2,False,69593.0
+s601:table:q3130,c p ph,validation,table,5536c5d2ae46daf59e72345be2745ae183f11218412c0f3eaa37743da50ae637,3,False,36637887233.0
+s601:table:q3130,c p u,validation,table,e2bc0653ae07347451126ac5cfd85e90bffb6b909f88089ee61332789e690a09,3,False,24118111.0
+s601:table:q3130,p ph v,validation,table,17e08a08302e7ff035b758965f30ecdfc0e70a8730d5ddf20deea5bd9685f499,3,False,3576044.0
+s601:table:q3130,c p ph u,validation,table,3d4a1f88b7eea5cb039bf4236643f3e8d4d81555efdc98e296757479d6605796,4,False,34526811897.0
+s601:table:q3130,c p ph v,validation,table,fea39abe3e7fee51518a4efb1ea3ba603dd45348cfe019c2663f862e6a0fd9c0,4,False,13690004539.0
+s601:table:q3130,c p ph u v,validation,table,7908b8359d89712d218501355c37f0b79dcd27ea7795671db818f0514c943bc3,5,True,178233740.0
+s601:table:q2756,c p,validation,table,872602fa522c503d618382e640b8a0c871f757bcab4799e3fa4a951d44bc3ddc,2,False,4136761.0
+s601:table:q2756,c u,validation,table,1e2a87f68224cb53d324f9cd08b1f8c0f404cd2ee3726efb445f1624a4e21a93,2,False,166881.0
+s601:table:q2756,p ph,validation,table,d0c44251c93c778b8f849abf8fdd87248134d688b0f0638927c19c49f7b3f3e7,2,False,3923051.0
+s601:table:q2756,ph v,validation,table,925a09240abe3d3cb432acc3a5971f2491b3a24aef373bd763a7030b68d57989,2,False,71334.0
+s601:table:q2756,c p ph,validation,table,c83087c82ef2af6d4318f5792f186999beeb4d4fac1baa225bf7a85bd242cef2,3,False,6024476509.0
+s601:table:q2756,c p u,validation,table,3414b5cf68e571686edbc0d1520cdf7dcd5845372bf07430bf029a886ed55b87,3,False,3960578.0
+s601:table:q2756,p ph v,validation,table,6aadb3f16d16125510b65ee6c64fdf55457f00f1ddc16545440b8098878e5890,3,False,585884.0
+s601:table:q2756,c p ph u,validation,table,62c8cfd46ac320253618560a01a5128f3b7bdd3f1e1cd5c874970e8a6595241b,4,False,5767896726.0
+s601:table:q2756,c p ph v,validation,table,4d7aa6b6a01e15e13a1041f44e3005fdf16afdf1e674e4e9dee251b4bd20861e,4,False,2268184938.0
+s601:table:q2756,c p ph u v,validation,table,90691dff9cae3cdf1adbeab5ee06474e0ffc16834974e705634ddf94993773df,5,True,30001080.0
+s601:table:q7944,b u,validation,table,e94d4c33c163e83c8c4b12d7ce76b4a5ec0eb54dc84a25cd039817efc73d63e8,2,False,72600.0
+s601:table:q7944,c p,validation,table,8a91f63a2eba196e313170142e4a3c74f1f81629017063815d2d91110fda3359,2,False,28217.0
+s601:table:q7944,p pl,validation,table,69e331f4236d4e4a419ee8a4c4a2062abeb25a2205b16f0d16cf21d2ad479d6f,2,False,2329.0
+s601:table:q7944,p u,validation,table,15189baa5434678450295ed67eb92a4efd736d32181da87e28bb36d5070e9e94,2,False,17288.0
+s601:table:q7944,b p u,validation,table,ff9544b306c26396c70ac13ae15774b7bea5382e0e2ee37fb68679c0f68c293f,3,False,638613.0
+s601:table:q7944,c p pl,validation,table,ddaa4aecdb491d7d290d2e161114501ab5d43f6ccfc12e0f28dab76a7952a2e9,3,False,3406.0
+s601:table:q7944,c p u,validation,table,6868251fff329895180eaedb07d162db6dd6a46307a93dad30aaeafe1b02efd7,3,False,25283.0
+s601:table:q7944,p pl u,validation,table,cd0441421a5edb3be756362be700b788dab83522b8e56824fac6d3b991ebaa11,3,False,2087.0
+s601:table:q7944,b c p u,validation,table,2abb9c5b87fe953eb761c9d30c1d8ef10ac84584baa6ce4ea13b14682ea09cf3,4,False,933944.0
+s601:table:q7944,b p pl u,validation,table,a5a4d7f922b1ebd0b99c549df9afd7c3a365f99779c8a1a8f112641fc9425776,4,False,77084.0
+s601:table:q7944,c p pl u,validation,table,408a3f9d69aa054f22a366b0eea3a4034391ce1f7437b57fc521b063d2f93446,4,False,3052.0
+s601:table:q7944,b c p pl u,validation,table,ee8c929f293b27c406692bdb584e2162be60918b0ce64778311cb549e5868102,5,True,112732.0
+s601:table:q4068,b ph,validation,table,e2ff955da298bd0b0392d4f2d213b8772dd04ef490b4951fa83a3c4ecf7b3669,2,False,14239350.0
+s601:table:q4068,b u,validation,table,c6562faca16459c1bd8f215f5dc45b355123355e8ec0ad5eaa0a28c71e4d1d40,2,False,79851.0
+s601:table:q4068,c v,validation,table,265f7f8bdda325884d793c473e29be6855ec3bcfe6d88eb178cdf23611d4bde7,2,False,8201525.0
+s601:table:q4068,ph v,validation,table,49ace0095e351777f25dbfa5ec9281fa2e9604c7a69453add900a4a70882a9c4,2,False,10860488.0
+s601:table:q4068,b ph u,validation,table,c6cc9ed065e1419780892b0551fdd11f9b03a124ea17d4d2e1a41b88e8ab78ba,3,False,14239350.0
+s601:table:q4068,b ph v,validation,table,ecf5600f808edb60220d993686a2cc1025a652799b0989e55dec6be1c866163e,3,False,129176547.0
+s601:table:q4068,c ph v,validation,table,48dd7244ba5ad79b8290eb507105f2250d9d6649204958e1e9bf20dcf7a15fb8,3,False,7014824324.0
+s601:table:q4068,b c ph v,validation,table,5771a07f9e500e1a337b006ef03f25368e205ecd411fe50921b3eed08935f4fc,4,False,19293486813.0
+s601:table:q4068,b ph u v,validation,table,762571d5f391aa7faebb6c270a1917c9a8ed783a6acda61548c1f6ec140eb5df,4,False,12115151.0
+s601:table:q4068,b c ph u v,validation,table,186ab98c0806b69b432630e3c6204decb024a180fb5d229bdec326acd7e4e8b7,5,True,1809488787.0
+s601:table:q4596,b v,validation,table,61a0ce10c693565caa40ff93dfc930d2bac9a3ee3f08d15a8c8bbcb6fdc1f1f0,2,False,4147.0
+s601:table:q4596,c p,validation,table,fa250612f8f4671da797a9279d076a7554e87d132d6b4b1b644c5b9fca60f389,2,False,3255470.0
+s601:table:q4596,c u,validation,table,981df70685cdfb7b5fb56e8048fb47f96aa70c45c4940670acb2c354ea10b7ec,2,False,129852.0
+s601:table:q4596,p v,validation,table,3339d411faea5e0a9cf1209cba749633a68b610009b07f6887ae5cf51ae61bbe,2,False,982.0
+s601:table:q4596,b p v,validation,table,7283ffc5e1ddef1fbf6959dc9ef509c78f4d6d15b0a67f4bf2ceefbd5bbe5d1b,3,False,35440.0
+s601:table:q4596,c p u,validation,table,0b646fb49b813fe8696e4dc97e6e83cf8879565483a97260984381d1e704e042,3,False,3142716.0
+s601:table:q4596,c p v,validation,table,521b5ebdf212a908770d9622e0b5e299d931ad320b50f8dcb76876fa1b2a7ce9,3,False,1157302.0
+s601:table:q4596,b c p v,validation,table,697f73bc06669a41e3daf08003f55e3309b974ac5e2f5f9dd610539671dfe096,4,False,102785836.0
+s601:table:q4596,c p u v,validation,table,48e04adc80d8b4aca00406e19d922e29fd5c733f153fcdfade4e4591077b3e6a,4,False,15435.0
+s601:table:q4596,b c p u v,validation,table,e7236c45b71a09efe95b8af7a7d79ece371163c284ad73dfe6161510b3ba63b8,5,True,1370835.0
+s601:table:q4663,b v,validation,table,32fa490589f4c37382ddfedfd67d51b4072ab1ae32c0944506d8642ffd3832da,2,False,4198.0
+s601:table:q4663,c p,validation,table,c0dc13b3819e8b7d7d122d2aac74b4f9ad26cb7b635fba1a963e725c83003c74,2,False,102036.0
+s601:table:q4663,c u,validation,table,ae21635a86d5cdba82795715cf68c12d6ad82c050a6a31a4723fee1d56ada5db,2,False,580.0
+s601:table:q4663,p v,validation,table,0e3df7d995d87d47c73340fc35148890e3be210b25207f82d096347de54f09cc,2,False,6805.0
+s601:table:q4663,b p v,validation,table,1db1213c5e99c0ed2fac9f3902ae2c922ca45765eb68b9eae412a4ffbe036555,3,False,246332.0
+s601:table:q4663,c p u,validation,table,821e7d35d7c160a4a42c8f6ca8981f7e4016e40d5767384c3d9fbd810175d41b,3,False,96366.0
+s601:table:q4663,c p v,validation,table,3e652f88f58866b3c0e61c7a41da362d6ea6a5d0d9634a031e385388c84eece8,3,False,36621.0
+s601:table:q4663,b c p v,validation,table,543c8980f3ce858ffaf6814e35ced88570260c7dc5cfe6ea0cbd80c38e88f88b,4,False,3261151.0
+s601:table:q4663,c p u v,validation,table,8bab084b0ba0af08b340c5ed9f7e690cfd3331a8f7f5ef673dcf6f55b524ace0,4,False,478.0
+s601:table:q4663,b c p u v,validation,table,568e3cbc6b464637e3ee8892de40286a828c823dbe2b6dd54ee37545dbc5ff76,5,True,42550.0
+s601:table:q8352,b u,validation,table,9d9cf5660f5452bf03767d7d9bab71c4c1e4a7b02ce74804480e4151f2f2f75a,2,False,72533.0
+s601:table:q8352,p t,validation,table,719ba3858e0c95cefe464ba766156fcbb6d229b73d8c22569849142916ece828,2,False,591.0
+s601:table:q8352,p u,validation,table,49865b1e52a943e676e58c60e9d19c66dd3368479de12dc7403c0cece9bf3d1a,2,False,85171.0
+s601:table:q8352,ph u,validation,table,cb804186c1071ef7c1ee44b739825c557eea14723fb4336fc4146d0af7b0b51c,2,False,266205.0
+s601:table:q8352,b p u,validation,table,d5a91a795e3eb7253dd10f461eecd1dafb54b3a074323ee9d567c0f5003f2194,3,False,3018542.0
+s601:table:q8352,b ph u,validation,table,2f300088f2a8119dc8df002fdc9d32fa218ebc57a2fcb0fc2ef9c9e8e33d8535,3,False,13013174.0
+s601:table:q8352,p ph u,validation,table,574fcf8a0693b08c10b9233fbd4d6cc2ac084a198095fcad7b654682077ef642,3,False,46510062.0
+s601:table:q8352,p t u,validation,table,c18030f19ed93b9459d0e50d5201472c381ef84688d947971481febfe61fb33f,3,False,551.0
+s601:table:q8352,b p ph u,validation,table,53c541376595f6223771a94b65586d70e91be0972d8577e3e7e7b40d6cd32feb,4,False,541557756.0
+s601:table:q8352,b p t u,validation,table,0115c7d7c31907b84f214a863241406c62f14e9ab7124a9819019f73c59495ba,4,False,19560.0
+s601:table:q8352,p ph t u,validation,table,47278c2a3334b00d138e9a0127fc311ee14fcd7da7fb6f53a2d32710a38681a6,4,False,301383.0
+s601:table:q8352,b p ph t u,validation,table,07c3d3c45b30ba20d4b6dfba53e7b077e45d78577d250f5a7347da498a65442c,5,True,3509268.0
+s601:table:q6271,b u,validation,table,e232f485c24acefe0b3d8f6f91ced3c306be07898d45e86e7b2652b3ac17ca40,2,False,72239.0
+s601:table:q6271,c u,validation,table,c266cc8178eb3ce40fa2440363a61f87ed109aa8dca1c80cb2134f995552ce59,2,False,156364.0
+s601:table:q6271,p u,validation,table,d1056fcd37709f15b34945e2363dab8b4e07be30a4e4cb304247883b13b09c8b,2,False,17743.0
+s601:table:q6271,ph u,validation,table,ae0f11b33f906d178c2d45c143538e44be01c7bbf8b0f94b46984d31d9fae0f4,2,False,256353.0
+s601:table:q6271,b c u,validation,table,1a210889ab94db4f4e0de8577d5f77f21a7cc57c89a140a06815b8e93fc4c544,3,False,13894988.0
+s601:table:q6271,b p u,validation,table,2dd054ec6cfeacc96689d47d40bed8dc00658d63fbc77aff1cfbc2c1eda9b135,3,False,640951.0
+s601:table:q6271,b ph u,validation,table,c4f5a386c72f8fe7a6fc7a0a673e840930b8dc8a0ebac34d05e491df4d5564df,3,False,12960430.0
+s601:table:q6271,c p u,validation,table,8bcf786e099bfc650903697bb00451e5a92ab4b3fdb4074cd7b4e6fe6c40885f,3,False,10735472.0
+s601:table:q6271,c ph u,validation,table,7fdc198e645ce04161bf1fbc2c7057a6719d57597895b586fdb96df2101e58d0,3,False,229931022.0
+s601:table:q6271,p ph u,validation,table,93a5a23c59d33348672a0eceaaf8064d14f04c1f283695cb7e164a1659e67673,3,False,10296587.0
+s601:table:q6271,b c p u,validation,table,ded949645d2a89cff4367bb952deaeae6e3ea1535aade0b581d51a87d48276a2,4,False,953989456.0
+s601:table:q6271,b c ph u,validation,table,528cb5149eb998fc2045ffc7c1950cda8e5ddeea51cea5bbe661ed58dad2c038,4,False,20432429997.0
+s601:table:q6271,b p ph u,validation,table,ad1b74272947054331dce4960be13d03f4e7e9aab30f13efdfa937fb20eb6d5c,4,False,371950968.0
+s601:table:q6271,c p ph u,validation,table,c3d6c674eef1f3d1a570206cc13978b9c00a13a1bf318eee74ce2606af8c0e01,4,False,15786396064.0
+s601:table:q6271,b c p ph u,validation,table,cc5ceed03a45a0f51bf7975edcd866bd536d3d4a9e8039f9d41a4dd8123d3d0d,5,True,1402831245982.0
+s601:table:q8534,b u,validation,table,ebd01e8eb8ce0296f45adbe6c88c2bdc74de9d765f9c72316e0102a0101af831,2,False,78873.0
+s601:table:q8534,p t,validation,table,d54c53063d8ed0c113ac7fca9a1435dd98587c557bf8a42b791f16a05d9dbf82,2,False,587.0
+s601:table:q8534,p u,validation,table,0ca7b2bb78426d891d1f1c059b974d7fdb72d5c1f4cbe225cc260a9feb1af4dc,2,False,88480.0
+s601:table:q8534,ph u,validation,table,26756b505d69969a12bd8e63af0795e077969564ff7c50aa7992972c5f5f0a66,2,False,278484.0
+s601:table:q8534,b p u,validation,table,85087cf901aef45b2a4a9ef3b93e727d876ac1c99c2f12ed3cae8b5650961499,3,False,3259578.0
+s601:table:q8534,b ph u,validation,table,1e76c0f14c497e04f147cf0f50c4298e2c0451878bed2696f4ab3d037945545d,3,False,14150586.0
+s601:table:q8534,p ph u,validation,table,7992e0d7a392edbd991cb3b49fb05838f361dff125f746da25168001631bd9a7,3,False,48317447.0
+s601:table:q8534,p t u,validation,table,63bb5596da4ba72b7d874204d2f1c860c79153d07a76e0827946b93a752bb244,3,False,573.0
+s601:table:q8534,b p ph u,validation,table,bf45f861eb0a57de627e2147b81a7ecc53f899557fd424aa1cbbd24fe3d0ed42,4,False,584802207.0
+s601:table:q8534,b p t u,validation,table,ec28b485ab452bd1dd53c6afeb870f6c804f3256e14875b829456dede26fe7c6,4,False,21122.0
+s601:table:q8534,p ph t u,validation,table,4bddbef549563114da5305f58f9918b55b0d06b3c06f3a2708c165c48004296a,4,False,313095.0
+s601:table:q8534,b p ph t u,validation,table,89b68a68dd5101fea6fe518439e5369ea534a335e0bffbc958306c033d1750bc,5,True,3789489.0
+s601:table:q8475,b u,validation,table,5d4ad9ab88ed42b8539058758082c453b99f14ce7baf5152d86a9375cf26bf93,2,False,72548.0
+s601:table:q8475,p t,validation,table,a43baf7e446d6b08679a351da43a1db3912e9cbf827f936f9870477f12281348,2,False,80.0
+s601:table:q8475,p u,validation,table,921d0f57d7395bd7bae4e691ab4bbd1c961100683d6f176a7daa7a49993c29ed,2,False,11053.0
+s601:table:q8475,ph u,validation,table,152dce839764c05df49050da4ac36a97846daa01fec1126050640ec6ea7fce74,2,False,255460.0
+s601:table:q8475,b p u,validation,table,c548ed6509da8d1da916d89dba62791aa50d4866305584911c82434f5d830c4b,3,False,408285.0
+s601:table:q8475,b ph u,validation,table,61c06c850f6e9417af911dfd481c9db68daf34895fc63bf21365256870bf63f0,3,False,13015879.0
+s601:table:q8475,p ph u,validation,table,15c0a283dc0e9c822d1ebe9fc671577f54252700d882f14224a3c1532e8cee0e,3,False,6035721.0
+s601:table:q8475,p t u,validation,table,ced84a87503d90507635079bdd0bb627451b834b0d3e31ff59e8e9a56431faed,3,False,72.0
+s601:table:q8475,b p ph u,validation,table,20a24f556f693fb291b85c628dce14386d63058d99faed9918ea8a0449b000f0,4,False,73250527.0
+s601:table:q8475,b p t u,validation,table,c273c80c5f7f182363adb3ff2277fbda63cc4fed5aa58289c20aa2602876f3bb,4,False,2646.0
+s601:table:q8475,p ph t u,validation,table,e8cc3418a603af544cbd66c0a5ebdaf069d8c57960d346fc2a25154087a42027,4,False,39111.0
+s601:table:q8475,b p ph t u,validation,table,afab8beb97fca108aceedce8d8f9f0353b2cee9bef4dfd128e023fc0b145b9ab,5,True,474660.0
+s601:table:q1030,c p,validation,table,390856f0ae86dc591c9ff66c9239d61dd15ae55ea6e41b79eec92234fe181834,2,False,79902.0
+s601:table:q1030,p ph,validation,table,9ba9aa9c8b0b4bf178b7f4dd3ec07a3998225a213693f9daf543e1fd4d2f982a,2,False,140640.0
+s601:table:q1030,p pl,validation,table,8f824cada5dd177ef4f7a6130345be530050ab0a7dec9c472312f0aae05328c6,2,False,4190.0
+s601:table:q1030,p v,validation,table,99ee370328fdb071e1f908cf457f8401bde27f38fd38b824b57f9179e03f3046,2,False,17.0
+s601:table:q1030,c p ph,validation,table,c24684b3e12583a3aa942ef4dd88db4b49d0b2881be8ac4d1e019ad7c7334c61,3,False,263387.0
+s601:table:q1030,c p pl,validation,table,0f9d50e19b93da988854555ebcc7735bca9ae99935e399607429626d52e90f5a,3,False,7846.0
+s601:table:q1030,c p v,validation,table,0672c1f08fa1123573aa99655ad3c65cb74bf5da4832457f287a9dc7a7416ccc,3,False,32.0
+s601:table:q1030,p ph pl,validation,table,f01365711b645a38b93a59251ccf6bebfe4c948db1aa9cf6e64fe7a00a5017c6,3,False,13811.0
+s601:table:q1030,p ph v,validation,table,e3c19f3bb649fdd32b7dea4ddce7a6f4b7833996cccf06800cd57fa75d86cc48,3,False,57.0
+s601:table:q1030,p pl v,validation,table,4a529a514252a956824464a76b1f9c8f72d77748debd564b81a2127b2addd340,3,False,2.0
+s601:table:q1030,c p ph pl,validation,table,c30510d527a72cf244af9b3e893b1e5a99973d9a3ae62e0229a3ea1cd1e72308,4,False,25864.0
+s601:table:q1030,c p ph v,validation,table,8843a8a3bdcfdda4a07edaf5fe40f714b67dcf73d6bb9502777e47f114839d0c,4,False,106.0
+s601:table:q1030,c p pl v,validation,table,0b16f555c09b20789a6a9b623851fad097ac6ec02d624183df0a12c4bd919b5c,4,False,3.0
+s601:table:q1030,p ph pl v,validation,table,88406265afe0f137dfa8bc5b0bbfce65cfd4d3ce92c5fea9975f5ec15283dbe3,4,False,6.0
+s601:table:q1030,c p ph pl v,validation,table,042ba66d92a5548b9c4899da8eac32fa49837170ecf7411c4d4df5823f0210fb,5,True,10.0
+s601:table:q7046,b u,validation,table,acc4927a18705c7bffd3cf8091ebfd72799f64d660aa6e97dfd0de7367a5a72d,2,False,76094.0
+s601:table:q7046,c p,validation,table,a7228924a94dda18307ac3c9ab768bcdba8b092f6396bc733fba74b3f4b7bc83,2,False,37883.0
+s601:table:q7046,p pl,validation,table,1bc993d0db50ea179f915596a0b7f593921ef3321d5b47cb3416525e11c9649f,2,False,2413.0
+s601:table:q7046,p u,validation,table,72888e603c698fc6312c61ffcddfbbbf510d45cfd2aec82b7b23bbbdb25a9df6,2,False,19236.0
+s601:table:q7046,b p u,validation,table,d6e1c6d6272dde4acfc3541066ccac4276368acf4cc2375341d4fbe3f5917ac3,3,False,693498.0
+s601:table:q7046,c p pl,validation,table,a74443e822977ea242d1469bd9bb29b20fe70a9e4202eb10dcf356c779be7bc6,3,False,4573.0
+s601:table:q7046,c p u,validation,table,69c631cd470ec07ff7fcd5bb23221a7b5f7e694e2693af22ec4fdb2f4470df10,3,False,36454.0
+s601:table:q7046,p pl u,validation,table,708eef59b7aed7e785181723dc8744b660c6bc1414834a68331d8ff54b1cf9ba,3,False,2322.0
+s601:table:q7046,b c p u,validation,table,f99e3afa9838ba91e444291c38a9ba040cbb2182da887ff59da8860f1be34916,4,False,1314258.0
+s601:table:q7046,b p pl u,validation,table,f0e535dcdb6fe751028de8b2f00fcd5e891d09f2f2d96ce40b5ad4c7000184e4,4,False,83709.0
+s601:table:q7046,c p pl u,validation,table,e54713bffdb474ad9cf3a2614b2177d2d8e951b63794dc1d74b630fecc46c456,4,False,4400.0
+s601:table:q7046,b c p pl u,validation,table,3c79fb20765b11d085664d40434c0bf2de87484230ee58749836692e1cadc4b7,5,True,158638.0
+s601:table:q8604,b u,validation,table,3823d72b2df04618380ab5a5b2ce399c1c698a75506e5f757aa98012d1bcb8e7,2,False,78926.0
+s601:table:q8604,p t,validation,table,0a498bbfafcfaae831606670a5affc5e4e1564b6b41a6d2ad37327059bd0813a,2,False,265.0
+s601:table:q8604,p u,validation,table,957f60ebfd4e820f294118acce859f37c3ade8f7d01ff140dd6d89022893f668,2,False,39854.0
+s601:table:q8604,ph u,validation,table,fe4f4dd13bd33abbf7574b8962b8ea7b4209c3badf7971f22de86db602194aea,2,False,262777.0
+s601:table:q8604,b p u,validation,table,8bdea22eb9dd904be1bbd5d86f56da63d65fbf22d3360e85ec7c991503985d7a,3,False,1472190.0
+s601:table:q8604,b ph u,validation,table,5ce89a1f298f20944aef99da80370c7832276c97523afcc394e2d67cb36e2402,3,False,13388680.0
+s601:table:q8604,p ph u,validation,table,2c94249b20d35b1dd1f2c0ad90a1fb8bbb9b1f430efa1534dcd3622767a1651d,3,False,20577795.0
+s601:table:q8604,p t u,validation,table,221b21b43393749f63958ef326b6ca67fdfa550e372b5a3adc3c919554a772d4,3,False,258.0
+s601:table:q8604,b p ph u,validation,table,3771efcd2f15d80007d265ea01131f4195e2422a23f0d3c7944f94d2d084bce2,4,False,249735401.0
+s601:table:q8604,b p t u,validation,table,54b99e8693f59976173ea2cc720cdc3f74ea704fe3ae73710f07d993b1e2ad94,4,False,9539.0
+s601:table:q8604,p ph t u,validation,table,a91593b61022b0df91137315b7a4225b8c12370f2d10caead0c320444a22dc42,4,False,133343.0
+s601:table:q8604,b p ph t u,validation,table,4d5daf9d07d741feb169621b0603732081826fc11ddbb1813cbdf4022ed49123,5,True,1618273.0
+s601:value:q402,b u,validation,value,0f4934b8e4b7b53701b2934c0f2207728a9b0a0627d6348c250992de4cc2fdcb,2,False,34.0
+s601:value:q402,p u,validation,value,a0156026cf9daf52ae9ebef94431914233ae3894585f240e2a838b6d63015259,2,False,1.0
+s601:value:q402,p v,validation,value,7d5e9bf39487539010b25c9e80c83a4777795a4d3662553e13c4862530e902b4,2,False,10.0
+s601:value:q402,b p u,validation,value,83ef6f0e073fbbbde060d28b971be400043aea91134145b42b1c48d6e3df5228,3,False,1.0
+s601:value:q402,p u v,validation,value,542a0901c8918fc7c0f4153edacbd7b323029dc18007e2333217fd8935a9495c,3,False,1.0
+s601:value:q402,b p u v,validation,value,d787286238be3ab3e937a5afd96de716881e7377597f7344990bd692ba61e9a8,4,True,1.0
+s601:value:q1425,b u,validation,value,d2e07f8cbf11381cb3b082dd61428dd1ff605e13d5057d97a06d99a75bda9e01,2,False,8.0
+s601:value:q1425,p u,validation,value,8900dcda20b1671dc1f4311fe8cadf01aeef2541c4e569b5b94d99a8fd5ec877,2,False,1.0
+s601:value:q1425,p v,validation,value,6fc3dc76bcf0a7f29d87780a875d99afdf8cb24040034b503eaa5c0e9e373bb5,2,False,2.0
+s601:value:q1425,b p u,validation,value,0ea6113dd984b075c262cf67c237b72327dc56ba10b5308c36d22338778ec61e,3,False,1.0
+s601:value:q1425,p u v,validation,value,a90b9d43dc32f5a15b87387ab9e185990912c881e56c2bf59c1dc45e97f5acc4,3,False,2.0
+s601:value:q1425,b p u v,validation,value,c4b7717dbc7095b713b2c71ee037c6ee98fa2dfe137853926c4fa405ddae5f06,4,True,2.0
+s601:value:q1235,b u,validation,value,4afd4eec1128ee7cee8e4ee21053e4fcebe2ea602a3ea3540bc624575017eb9d,2,False,1.0
+s601:value:q1235,p u,validation,value,7e269553d2cdc3798c702c279fd7037140fb06dc935cb8cf801668f038ae6297,2,False,1.0
+s601:value:q1235,p v,validation,value,b64f0e998651db6e32c324e2608d923800fd8d1af4f50cec62a99f519313e7de,2,False,9.0
+s601:value:q1235,b p u,validation,value,583d2f1ed1e29000dde10bfe01742b32ab8c332f908daacaf3b6a3702e88c768,3,False,11.0
+s601:value:q1235,p u v,validation,value,2d2bc2d9ad1c53efc527e5ab1fd3818dfaa97a46ca1865e5f1ada71a81e6ee93,3,False,1.0
+s601:value:q1235,b p u v,validation,value,07a0c741c2af83d0e0f3f980099b8350ecfaa811b8a8f5da28bf94a8db619dad,4,True,1.0
+s601:value:q1537,b u,validation,value,ce162e3ec392354872a90a368c8cc68a6556ac54de97a96e54b270810599b85f,2,False,1.0
+s601:value:q1537,p u,validation,value,323ff159ce372816c1c0efc28417f644365d0b505c1117e476d2618a7271249f,2,False,1.0
+s601:value:q1537,p v,validation,value,3afd7e76f10e773c328900de3297cdf8018bfe681ecf0089df733f472a642de2,2,False,52561.0
+s601:value:q1537,b p u,validation,value,1f1a5b9ae811b06918504899ed0b0ddb85e91e3a5441dba4d06e433163c481c0,3,False,1.0
+s601:value:q1537,p u v,validation,value,b06ca907312c47cd0d377a5927f4684fd8f3ba274adeaaf5f0a771e29816f655,3,False,3.0
+s601:value:q1537,b p u v,validation,value,3fad72495420b478f1eece8b7b111732b1d0158f44fd6582d257d621da9c27b5,4,True,3.0
+s601:value:q1098,b u,validation,value,b83cd5dd6b535916c02ad9a2af6d65c9fee6e0d2cc561bf46ad53c143f3f639a,2,False,1.0
+s601:value:q1098,p u,validation,value,6b913cb97e0e31c5e52b79f43c855aaf355cad2109040dca661e4b0b888463cc,2,False,1.0
+s601:value:q1098,p v,validation,value,944077d1d27903fbf97d5d4906aae3bb441c4211d4f236279619e4b46fb888c8,2,False,1484.0
+s601:value:q1098,b p u,validation,value,c9863546858232755ec6fe70d5894a69640175bc9ae733f6d72146a179340125,3,False,14.0
+s601:value:q1098,p u v,validation,value,4b1bf285e078593469c0023c43a05f22902fe8a9594fd1bea114015695fb9129,3,False,1.0
+s601:value:q1098,b p u v,validation,value,8ab0093b3b64edce6ea137325564b498026c9ef0f21866a9cdb8629d29594560,4,True,1.0
+s601:value:q604,b u,validation,value,442b81508c4d8bc62e498369c62fbe1fed6bcbed2444bb6d66eb204464e0c11f,2,False,3.0
+s601:value:q604,p u,validation,value,68616b87f0f015b2d3a52914df8f1eeb2babb9f5fdf235617869940e04172613,2,False,4.0
+s601:value:q604,p v,validation,value,afed31a97847cc52e0d96da7825c7aebc57eb5da494b463e6c84165d1741654f,2,False,2565.0
+s601:value:q604,b p u,validation,value,2a04e01b7f1b1c63d0d898c5647d1ccbf0571ed500811237d281a1eddd93ab54,3,False,11.0
+s601:value:q604,p u v,validation,value,16d38cbb87a4471bb8a0f9db0208a414b92764de61d67335b7cba98358f11c79,3,False,1.0
+s601:value:q604,b p u v,validation,value,788a71ddd5e212af452d50b1ff3d83e7b497c11cfe208b32212947f086516a5d,4,True,3.0
+s601:value:q434,b u,validation,value,123e67f652d8ddf7c52e3881808cfb6d2330ef5c17481a6500b45560eb4c5fd7,2,False,1.0
+s601:value:q434,p u,validation,value,9d96b2b864a0e6bdc0131568b034e20b190ae6cb32594535c805a94052c9cc5f,2,False,1.0
+s601:value:q434,p v,validation,value,d08f25cc5a937b515f9c5235daa03106931d9a99e233f74385a606d680772821,2,False,6931.0
+s601:value:q434,b p u,validation,value,893417d4572a03096665c60d64a82e10f793e1d061f8e4bccb56f14cde4f8225,3,False,4.0
+s601:value:q434,p u v,validation,value,5bdf21203f6243abe6e896485fd2eff7d95a2d4c5e5e1d34530535a5a713d283,3,False,1.0
+s601:value:q434,b p u v,validation,value,d0bcda7049b8ba8605f648f3627749736255694bfbc408e51cb7428e05fe09a6,4,True,2.0
+s601:value:q1123,b u,validation,value,5d0f7f89a63d9359a0f30013e46b71fee2c806c623fe134d52eda6fd4c33d1d8,2,False,15.0
+s601:value:q1123,p u,validation,value,0a999938e11edbe740d395e59689ee3dcf339c9ce89ff2ecdef1cd3a04b310e2,2,False,1.0
+s601:value:q1123,p v,validation,value,deeec0c0d28582f1d022c80e0bccd7372bd98b02a4e805c375be8b397152c439,2,False,1.0
+s601:value:q1123,b p u,validation,value,e508ef8804de70719c73f0249c1276e57cf671703762b34f6b00c510aa7561ae,3,False,4.0
+s601:value:q1123,p u v,validation,value,c2372200ab1eef423675b2689344e8d3db7bf88b628d1ed4cc77ed1fa9ca8df2,3,False,1.0
+s601:value:q1123,b p u v,validation,value,6671914ae7d09e029ca2214ca2a9df687e78e7cffaf32a6e6b470f8dd28549a8,4,True,1.0
+s601:value:q1778,b u,validation,value,1bc201ee58b0d68be328b6198e4e8daa81ec61fb6939849b464805e10c573cb3,2,False,1.0
+s601:value:q1778,p u,validation,value,c428e77b6854b0551c7086291911e6e45f2a5eac8f3addba090085e3da5ca197,2,False,1.0
+s601:value:q1778,p v,validation,value,0df4ffb3c4e3f19bd415155687859a3464d70baf33d61436514d7d19481b3a01,2,False,11.0
+s601:value:q1778,b p u,validation,value,69bf1dfd93664d5f04cfc3623a31c7e260b7ef6443baf5b2d5cc460ba2c5bfb2,3,False,1.0
+s601:value:q1778,p u v,validation,value,e41e2996726bdd14f3b3eeb4dbce5c57022163c6f65c1346caa68717cf45adf1,3,False,1.0
+s601:value:q1778,b p u v,validation,value,c03f542639256ad96490d91f28c5628971c9fe8502c18986c763c847049f5660,4,True,1.0
+s601:value:q1606,b u,validation,value,5ff63940bc4c8e5ea28dc86ca690a5aad7e2d9b256639c1affd476fc2d58e404,2,False,2.0
+s601:value:q1606,p u,validation,value,5a61469667197c35f8132ed02a1d657ef62828690ed13445569420c436ae92dd,2,False,1.0
+s601:value:q1606,p v,validation,value,a961285b741f262e38331933d2e1f92d013c3d9c3943f8606bec446d5cfb6316,2,False,10.0
+s601:value:q1606,b p u,validation,value,937408f8dd422c7e8f1cc1e63a6af52da0a1cbae630ce61b7d02c4648d76607d,3,False,1.0
+s601:value:q1606,p u v,validation,value,b303ea9e7829aa2c53fe02f231ecb1564f19065c09f2b929112ea7edb2a4b08d,3,False,1.0
+s601:value:q1606,b p u v,validation,value,b0a5609ae4239ea3ec99d0ae4c0c92a5564b4b0c77a182e3eb159cf8ec7da8b3,4,True,1.0
+s601:value:q1275,b u,validation,value,fa10b2a0d9bf6b960398bd947c65feb601a92ad600e381f2856d48354e05f9f9,2,False,4.0
+s601:value:q1275,p u,validation,value,052ed9fb793734ea3bbb1322a8e1899caf484a89c65ba00e2e3385a4f8a39ec4,2,False,1.0
+s601:value:q1275,p v,validation,value,2b5c7017787f90ddd9f0d0f66e6da21e72bfb2bb7b3efdf6fa7d35bf5b98951b,2,False,1.0
+s601:value:q1275,b p u,validation,value,96e60241919ec372f6b13853a293e4d1027d2ed0b6b092779beafed213c5872b,3,False,1.0
+s601:value:q1275,p u v,validation,value,25f14982634b7e60d49d2ffac63e2cb720d18df00b242f08b60b8a9009c73697,3,False,1.0
+s601:value:q1275,b p u v,validation,value,b269503f8596c283f6b25961441aec280410210b27f8ae305634ba85815d86da,4,True,1.0
+s601:value:q1173,b u,validation,value,47ab9253d1b199c914c9a24de5d711f1cdfbaf34fdaada5a199418bc7ceefe8c,2,False,3.0
+s601:value:q1173,p u,validation,value,d543ac40aade66626ac5cfe10e2a57fc7f852df677e5f5ebe0cc3f1f8a9f17d6,2,False,1.0
+s601:value:q1173,p v,validation,value,26d8439e8247ba9b3a464ccfe48512ad2668d70280a6f3e9aedd333bc062be05,2,False,1.0
+s601:value:q1173,b p u,validation,value,6b0f774d5acb524baac7c0066522bc09cfc3895b73c4805d13945767b5d0c61b,3,False,1.0
+s601:value:q1173,p u v,validation,value,53c8885d8f3cec7902a6519982367890872874066838f339a494e1c5fdda5425,3,False,1.0
+s601:value:q1173,b p u v,validation,value,97d8738cff7709d4426baba254e6a03ad400e79bb558fe474606ed4fe3a37b0d,4,True,1.0
+s601:value:q802,b u,validation,value,ff4f565f6ed8b2fd0efa3dfbd4ce9906f0d9a69db613a3cb85c05e2259a141ca,2,False,1.0
+s601:value:q802,p u,validation,value,1286f1d11f1d05f121f2dd7f99f05d42c923df160ab2f4f5e54e40e26d0f5bfc,2,False,1.0
+s601:value:q802,p v,validation,value,a40315d5bb00a284fac3dffb0dc406e2d5e473e335fbf2fa76caaff051c71963,2,False,857.0
+s601:value:q802,b p u,validation,value,13edb31242a2e7b96f68345e3da899263bb6108f84debd4f4068bf8bbf61d72e,3,False,3.0
+s601:value:q802,p u v,validation,value,d5d520bea5456550ba2e5964fd5ceedc11b3beba342d9195284eed672c9f87b8,3,False,1.0
+s601:value:q802,b p u v,validation,value,c499bea4ae74d5ad61df047f3a194b3c2c32e33ce4f0050027e9c9dd4ebe91f8,4,True,1.0
+s601:value:q105,b u,validation,value,c6269333dcbbd311e49aa8543deebf0f7451caed99be56875bd0b8f2d977a7dd,2,False,1.0
+s601:value:q105,p u,validation,value,d4072c9f40f9631c3229bf0cddb12934c7be0439aca82823e610baaacab6d48f,2,False,1.0
+s601:value:q105,p v,validation,value,949089c6a33f31b57796133113e9d68640fda0efcd54b3725bb426a6f5d15432,2,False,49.0
+s601:value:q105,b p u,validation,value,69e3bc630e87a5ee2bb75baeb871e3a2ad4c2f64c7c442b3dd343155d9ba6637,3,False,1.0
+s601:value:q105,p u v,validation,value,9164febb0a53ea816f4d278ad8384dfb39fd86d7d0912852db694da696e2ed6f,3,False,1.0
+s601:value:q105,b p u v,validation,value,4499339a7cc4e500646e29d2ea78851bd6c757acd42232bd9be0d7ac6c679eca,4,True,1.0
+s601:value:q1342,b u,validation,value,0b6fd651a3375f08d9a13608d56a92030c3976484d848ddc1fde4c2e7d42902a,2,False,1.0
+s601:value:q1342,p u,validation,value,8e122759a3263eb77b1931689526262c11a9bd8f68cd996f3f6f4508ba45937c,2,False,1.0
+s601:value:q1342,p v,validation,value,f9dbf3c5e0d9fd4beb17a436a51082bab7d2fc2f583ccc080692b115c0f89046,2,False,2447.0
+s601:value:q1342,b p u,validation,value,8b3ddafa6f63e9523c39331e01c77d055e2c3c81bc65136532bc2ee1e83c80a5,3,False,4.0
+s601:value:q1342,p u v,validation,value,16ae7221ef99bd11e832572c85641a46e16b07aca67ad53473972f04df1c02f9,3,False,1.0
+s601:value:q1342,b p u v,validation,value,c694bb1481410a21024d091614bb9048809825c4cd1c738ffe48d26dea251f51,4,True,1.0
+s601:value:q1777,b u,validation,value,00d4588fb3a78eb62ed0c2d85dd7e21f6075c5028fcdd2a5455b1df7ff01d5b9,2,False,11.0
+s601:value:q1777,p u,validation,value,d58e73cfa7852871c9e19a95a584e23fb3055d4cf043f92f5bd025461d0c7ae7,2,False,2.0
+s601:value:q1777,p v,validation,value,7979545659cdf935a6854ed5337d3bce3be6e5176a5b7bf447402563bdf2174d,2,False,1126.0
+s601:value:q1777,b p u,validation,value,f8a36f55317332fcd00f8a983827391d9be8c45f41add7d595244f699fde3e73,3,False,5.0
+s601:value:q1777,p u v,validation,value,e9b3ff38fa981301407989103f9cc39b2b316a3d9b680a20563035af192362c8,3,False,2.0
+s601:value:q1777,b p u v,validation,value,6b9f223d4a13b02489e96a069626472137ff89732fd91f0405fe4f9bb1e2f663,4,True,6.0
+s601:value:q1220,b u,validation,value,872b99ed9eb25b2dd4c34365eb56f9010378b15a6bc7a7bc6cd6b8b1940e61b6,2,False,1.0
+s601:value:q1220,p u,validation,value,b4ce9a355bb4810036e1d04c6bca614bb40be809dbc00fefdb3c7258a565e77d,2,False,1.0
+s601:value:q1220,p v,validation,value,4bd66b36d6c5516371cf31ae108d63dbe65708781cc32f6203338c7ce3458ac6,2,False,22.0
+s601:value:q1220,b p u,validation,value,63f4b803bb448b814eb2f0bf52d2c1ef5fc383caee54b06930ee2f7474218ef6,3,False,1.0
+s601:value:q1220,p u v,validation,value,39c18df8c37429e9509a4387738a2cd51670522c84389ba329633904038d6232,3,False,1.0
+s601:value:q1220,b p u v,validation,value,de9126c8de2a9e4bd451b1f8a8ff26560fcf4a0fa39211f445c8c5fc92972917,4,True,1.0
+s601:value:q1737,b u,validation,value,0a1052cf7a4191632fc29ea1b8dc086eb1b5d457b7403a4d6cd2393bfb82e2a0,2,False,28.0
+s601:value:q1737,p u,validation,value,81ecfda8b00438b20be475258c2d3c89fcc299be9fcc2e9558b831a67e194f36,2,False,1.0
+s601:value:q1737,p v,validation,value,baf39cbeb8ae60b99022a7f5f44ac90c0d50c0bdaeb1844f0ea52b4cbb54d628,2,False,2.0
+s601:value:q1737,b p u,validation,value,84e4d8f451bf3c198a84db70a7273135ca9146c49ef9b9d01f9bd75a551a4452,3,False,1.0
+s601:value:q1737,p u v,validation,value,5767ef06b0547e8a1fa18605ba6c454c0c5f7574a48113ced6cae57102f93302,3,False,2.0
+s601:value:q1737,b p u v,validation,value,57de96da84dfebbfaf89ee55d27465cfaded12afe4cde4a37a764f5107eccdf6,4,True,2.0
+s601:value:q274,b u,validation,value,149d675c93ce9c86d230fde726f8b16733034fae9ec33308bf90f27b11014ff3,2,False,1.0
+s601:value:q274,p u,validation,value,032cb00cdaf5fce01f9e444d4420ef1e9e025c7e185617b71d3e810dd777d508,2,False,1.0
+s601:value:q274,p v,validation,value,fe114ab989eb368e808e7bdc00cacaada30fca818b000e59547f3bfd62575747,2,False,1.0
+s601:value:q274,b p u,validation,value,eeaa46268c9200667d251cb2eae26834758e942afdd2d59b30dc0c589465dcb1,3,False,1.0
+s601:value:q274,p u v,validation,value,1ec4fc761436b13d9decb99ef19e4ae0fef28f37ad33ce2e7d1b518aa5e34330,3,False,1.0
+s601:value:q274,b p u v,validation,value,51f1703481fc31b474949000d28cff555aeaa4f2a344b6bea240e816144d5ece,4,True,1.0
+s601:value:q1175,b u,validation,value,3371404d5c1486ce96d5e2094c368863928d3cf5e7351a57570ddf591ef039f4,2,False,1.0
+s601:value:q1175,p u,validation,value,286fddb446bb076da531f86b667f633f4371868532b55411ff6d2ff5228f226e,2,False,1.0
+s601:value:q1175,p v,validation,value,c12ae411b2294b37df51b90c335332c9d4b5cb37ed3804cf141dd8cfd14f6d86,2,False,749.0
+s601:value:q1175,b p u,validation,value,89776151db63a8d1db6bd8bf7bedf17ccb06b80bf90d894b6b1903355629c4b5,3,False,31.0
+s601:value:q1175,p u v,validation,value,34d445a4b25b8d993dd7d72767c3e653c8679b4def68312ca0a2a052aa3328fa,3,False,1.0
+s601:value:q1175,b p u v,validation,value,aa9c1e827a9c7d0c66e7455e34425b43cb9bdde274abf35f746d1e90c053913a,4,True,1.0
+s601:value:q1563,b u,validation,value,8a114e3844ee817a59545d3dd3832ba90d00c3c7016d22940b9817d4c924f1e8,2,False,35.0
+s601:value:q1563,p u,validation,value,62f0b5b2f8c773f381971f55a579715184430929059262284b5417d8a5e11632,2,False,1.0
+s601:value:q1563,p v,validation,value,17589c7ddfbe0a15ed67804bc52bf4806ae187ab4eda662be0045aef13677733,2,False,3.0
+s601:value:q1563,b p u,validation,value,467fc3134640f13713f045cd14b80c30d3e8bef96ad70899a016e8aa2bfebe38,3,False,2.0
+s601:value:q1563,p u v,validation,value,e7dac4c93ad835787f2fadcc7b386806de91c8b1c667a47c275571581b4d2996,3,False,1.0
+s601:value:q1563,b p u v,validation,value,f2beaabe0dafb86e16fad4799d28064c996acca91fbb342ffb6b251feade84ec,4,True,1.0
+s601:value:q1382,b u,validation,value,ca025c11a52130800205eeac52b0369b8827f09ec43978f9776ec2def8d34e36,2,False,24.0
+s601:value:q1382,p u,validation,value,ee208445c41bb40fbb876682d5a733c9f2cdb1bd6921f34452da4a78f47b7748,2,False,1.0
+s601:value:q1382,p v,validation,value,63b0ad50b2fc64530840b53542df989fd1b722094984f430e53b1798a78fa6ef,2,False,8.0
+s601:value:q1382,b p u,validation,value,e6c5f75d5de07afa9f6df87fb8f15e1be0f8179a6b5f3d7d79acd96a4439a68e,3,False,4.0
+s601:value:q1382,p u v,validation,value,384f15ad62596664b02dee310389c0f89601b585618040f9f5e2d9fceb409966,3,False,1.0
+s601:value:q1382,b p u v,validation,value,4c6ee0286a6f47f1917bf8f672f31ba34442ecd8be408559013fa072d87151c5,4,True,1.0
+s601:value:q804,b u,validation,value,bba62938a287962bbcc5715e0273524539811e607213b96a41f70051d370a4e4,2,False,1.0
+s601:value:q804,p u,validation,value,96dbbc9d0289f05483af1840669c8857d8143f538a4bed80d805649e7e17e693,2,False,1.0
+s601:value:q804,p v,validation,value,cda63ef8bf85263d132a17ed359ee03dea6d587eeb1b5453ea974c482d737cd1,2,False,1.0
+s601:value:q804,b p u,validation,value,34ceef7ede8dfab958ca9cf4d703ef0328c54485fb591e1bcf49ed8081389f61,3,False,1.0
+s601:value:q804,p u v,validation,value,326ff8e31c415d2ead413932ac051c26889b919930dfe08f1d3d64645ecedfd4,3,False,1.0
+s601:value:q804,b p u v,validation,value,1ab73b9d04933c2f3e8dbf62151b550a360a75861b95ef462a566459f794f328,4,True,1.0
+s601:value:q904,b u,validation,value,5dbd365622017a5d40951d15384c37bfa81022c8d344b461f072a72c5aa74858,2,False,1.0
+s601:value:q904,p u,validation,value,eae95b1f2c2b7094169ccf34985a2d77aae9734f89e6fdbf6b289677cb3d788d,2,False,1.0
+s601:value:q904,p v,validation,value,56ef79a8ebd2d8c3b67bb055ef4a677fdf78985b2cf2e3231e5b4a05246cbfb5,2,False,1.0
+s601:value:q904,b p u,validation,value,eb6604b6d0423f45696fd4e00c4b40869e15654238286ee9326394190b88f2a9,3,False,1.0
+s601:value:q904,p u v,validation,value,12f150b9fab3acd3efd425d9188f2c35eace9febf48f8f849cb60395140568ac,3,False,1.0
+s601:value:q904,b p u v,validation,value,bab31b5f9b7a492715bd283d93dba5f6652deade1af39d05c8686eeeb93ea6d4,4,True,1.0
+s601:value:q1751,b u,validation,value,acdde671483216ed1b59afdae1fcf2c7bba7756eb68ebffb22cfaf234fdee019,2,False,1.0
+s601:value:q1751,p u,validation,value,6527016b6ab48f5d0b5cf69666bbe1340a0258420148344486a91cf41f1b3a53,2,False,1.0
+s601:value:q1751,p v,validation,value,3ae4aa732e78ee5b9e1da717a38d43051bc5ab9ff382575130dac6f19b2b7ffc,2,False,2.0
+s601:value:q1751,b p u,validation,value,0d56e8638d7fe8fe76fc332f151fdf5f2454039df23087b01b8a0cf23237de8b,3,False,1.0
+s601:value:q1751,p u v,validation,value,872c3800b66051df8d938f763620986c24969d68a62e53d584fa40435c13f74c,3,False,1.0
+s601:value:q1751,b p u v,validation,value,26902424ec10aac88c61b9ff38685acfd1a7d2015f98d2ba4d901fab4cb9c650,4,True,1.0
+s601:value:q708,b u,validation,value,afcbbc660391e96a059d2d2bc1cae463d1bf524aada46127fc46a3a9c0103cd6,2,False,1.0
+s601:value:q708,p u,validation,value,0e572dba1935f6cbc274ae6588f98bac78eb58cb6eaf51679370202462ae1bc3,2,False,1.0
+s601:value:q708,p v,validation,value,20a157c3a782ed666deacb7b7befa011a1f57003a768333969ff97bec8b396a8,2,False,2.0
+s601:value:q708,b p u,validation,value,a2c9f1b9ebb41726268b9a701b515985e824f78f526b1db4f9115081859b7e4c,3,False,1.0
+s601:value:q708,p u v,validation,value,874c6d35801b388ae49fada94d065f9528326089e86e96d6d121629476dd510b,3,False,1.0
+s601:value:q708,b p u v,validation,value,cbd804d8129f642e597779656dba3aa62115c0da15c74acace92fda98f97f1ea,4,True,1.0
+s601:value:q1032,b u,validation,value,de78f26a34ea6a105533cb6bb0bbb2108b06d7817efe21bd2dfe73ccbab8ab37,2,False,1.0
+s601:value:q1032,p u,validation,value,c6c70b897463a2a8b8cd32e209e93c56f9c4c1517d4f618c1c5a22517fd365ac,2,False,1.0
+s601:value:q1032,p v,validation,value,18d4208fa95b4408896029a24cb6a6f3e18a07dabd7f278db4b1598b556a3b14,2,False,3377.0
+s601:value:q1032,b p u,validation,value,8802a57ae74652c6dbe041b7ea305e62fd1ca4204c551a9e8382973f7fe3770a,3,False,1.0
+s601:value:q1032,p u v,validation,value,eb5ab36b406196fe21bd4b4f3d90943ab6ba228a6a11862de422dbd174107a29,3,False,2.0
+s601:value:q1032,b p u v,validation,value,f2ba1ce0cca9faee5904502a86eb9eebd9a997e7d489ca61e275ffbb8ebf767d,4,True,2.0
+s601:value:q344,b u,validation,value,2781e34a7f5da4363bdcc6cfa556e8fc2c503cebcdaaa4ae8966d8178c537b7b,2,False,2.0
+s601:value:q344,p u,validation,value,c0c45de18ee0dc627a87630bc16bcc2900ede140a192ff0977ba008bf319de46,2,False,1.0
+s601:value:q344,p v,validation,value,8ded9214ce3889cb85b752e8731090d8b3a2e1a95a9f358c3a3b1c3a053f0069,2,False,163.0
+s601:value:q344,b p u,validation,value,823298b9a1a04f5b62c060c47be4c7e21c099191218f11698711755664197fd3,3,False,7.0
+s601:value:q344,p u v,validation,value,4cf39eef5e33f44d374c4f39449b38e876b0627ad3291da7e3fc57bfd8e63a18,3,False,1.0
+s601:value:q344,b p u v,validation,value,c09ff4026c287432f79880294c0d85a6648975bb4ec057334c8bbe79032270ea,4,True,1.0
+s601:value:q984,b u,validation,value,ef419e7605609b506074f9b1da536d17d705ccabacba4a4312bb89cc6207474b,2,False,11.0
+s601:value:q984,p u,validation,value,e3c99e2081ec7a1ec09d34dbd9c6074f486fa9ce6b96aa7b00288e126b480311,2,False,85.0
+s601:value:q984,p v,validation,value,d6fe64e2ac46db27ffc4add269774cf4f15ed5038278d9a64f65a1fb2462d824,2,False,26262.0
+s601:value:q984,b p u,validation,value,bdb3aaab4a6c2dba41b80aa0eff1eb8f4400041689d4305600d7e9da4548e692,3,False,88.0
+s601:value:q984,p u v,validation,value,b0134bb62bb07827196b4090799c7c13423fba72ffa66cd9e79a53ab029954ce,3,False,127.0
+s601:value:q984,b p u v,validation,value,10c00cd0b5425e7bbce0cf885333a5ad2131a1a412f7947b4ae7b126148f71c9,4,True,132.0
+s601:value:q308,b u,validation,value,0914498463656ac1be0bdba31fb17423cd76c6796186ff18151294942a9133ab,2,False,1.0
+s601:value:q308,p u,validation,value,cbe799019cb1d63159695fe3b21db9b471ba32df484de81335b5e61cd12a1f92,2,False,1.0
+s601:value:q308,p v,validation,value,eac6d8bef9161b1f0c4f14e179a2047cec61217539530782dd7106c8cfa2bc4b,2,False,536.0
+s601:value:q308,b p u,validation,value,6c92205af1d246a8d7fe9ad3e695388ee608864b5d396b3d3355612135fb3fa5,3,False,24.0
+s601:value:q308,p u v,validation,value,a98ce421fc4fb10ffeffbce7c5fe85044c35ce7b4fba27d73b5074df2299a4b5,3,False,1.0
+s601:value:q308,b p u v,validation,value,92938f023a0a14ae915631291e4ab45e7c97c0dfe7fb4af38bdfa7ef98d93ba7,4,True,1.0
+s601:column:q868,b p,test,column,1254e356c79d7272e57cb64c0efcf0efd141b5f29f6091bdd75d698da9915ac7,2,True,698337.0
+s601:column:q2398,c ph,test,column,7a679c6ecdbb5120fa2b024448f8eac94b6ca807f691fcb5d4a9c2c1d33884a4,2,False,57923337.0
+s601:column:q2398,c u,test,column,a90d75e59bcd8b9df4b9ccb2cc008449a00a749c8fb9a1b6419c6b1a859e1777,2,False,132219.0
+s601:column:q2398,c ph u,test,column,495e2633b487d1cd91fafd250f527218ee45c0e5ea0ee885c120ab730f4d2b2a,3,True,56936169.0
+s601:column:q3363,p pl,test,column,576247d316e4cbe9186cbc9d2678450b54be2eb9fb0d8f71594b020fb35393ee,2,False,1510.0
+s601:column:q3363,ph pl,test,column,8b9d16c120516a4d2c9968174c32c9f2b649d41400f8f003427b5d117ae2822d,2,False,15187.0
+s601:column:q3363,p ph pl,test,column,859743bffbcb246015b424bdd7f79bf988ce5a2fcf030175700c3d29a0c62e18,3,True,1492.0
+s601:column:q4594,c ph,test,column,4a8c3b5446f31372490acd2bed356e5b762843ab1f448d6ad3f3247ca11bdc7f,2,False,174419.0
+s601:column:q4594,ph v,test,column,a3e969a6babb05c69b00b6ff7f967f9c940d84763732a00bbb13b4d3874baed7,2,False,1972.0
+s601:column:q4594,c ph v,test,column,c084a725ec77b923ee24efe569d190b1aaadb74d9ecffa0c4adc05531e76eb51,3,True,4132.0
+s601:column:q7938,b u,test,column,be0c8d4342a509c48e2dd3a86b4f4e9c88baff2ee60f882cf478c4974981b04c,2,False,76263.0
+s601:column:q7938,p t,test,column,b414fffc76b2b855cb15b72a6aacc0c5b2e1ae132ed3573581a0bfedb7abab23,2,False,263.0
+s601:column:q7938,p u,test,column,599e62f7a024bfa2160915b3e94249da81c2d9d60f8860dc696f497d499bfe4d,2,False,38138.0
+s601:column:q7938,u v,test,column,2c7fb55646368611d5f26c0a49053f829940ee03ad942097d1ff082a20edeb36,2,False,33024.0
+s601:column:q7938,b p u,test,column,7acde2cbbb979ad8b9a1f52cc668fadb98a53aff51339a4e4dd736befe3308b0,3,False,1408813.0
+s601:column:q7938,b u v,test,column,74ea0e67137ff6f7271abbd834ddff4ca9a539344b3c873ae20accad1e7694de,3,False,65394.0
+s601:column:q7938,p t u,test,column,6f9d32feb2b1a7bfe92567847292ac0cc6e3b7d857364e60da44e3adfd27a8ab,3,False,248.0
+s601:column:q7938,p u v,test,column,b928e11f1881db464605dd16980831e777d6d7192a408f9e33686718fbb2db83,3,False,32703.0
+s601:column:q7938,b p t u,test,column,b49a6e22401c205a133092ac14558a9ee04e397197ff663d48a41203d3242e7d,4,False,9129.0
+s601:column:q7938,b p u v,test,column,154d5a0bec29ceb0186fec232773b02bf8d4d70dbe419e9a54e7ae74e0d573f3,4,False,1208032.0
+s601:column:q7938,p t u v,test,column,2fa758385ea6b479d562cde947d73c4d8a9dbc8fa63aa3a332161e68c1357770,4,False,213.0
+s601:column:q7938,b p t u v,test,column,776b17dc3f8ea559ead2bfacae2815b09a730727e444ace72e7102d5e702bf43,5,True,7828.0
+s601:column:q2926,c u,test,column,78565dc190e06a99940f69139c99ec74a52cd9d292dee8e2f9b1b611de90fccd,2,False,165248.0
+s601:column:q2926,c v,test,column,561a8f6f685a545ec890600d43eb532cd2d11e940fd6216aa9bf33b4dc9fd83a,2,False,1364833.0
+s601:column:q2926,c u v,test,column,1d81067e87444f2bbb5438748fe259aaea6f675f947a18c3e19dacf3471d99a3,3,True,1293915.0
+s601:column:q6604,p ph,test,column,d6c90ba1c46abd85af3f2dee2d8fef18da06f82604aff61c9b89a964a53f7efe,2,False,133925.0
+s601:column:q6604,p u,test,column,1f6fd058b3e135ea8737bc1775a4593c863afe44f3829d3ae16f2b39b2d0e71f,2,False,40040.0
+s601:column:q6604,p v,test,column,5ea65870777292d7e91cdcaf5527883eec027cabd312abef6210a15f088ed658,2,False,144914.0
+s601:column:q6604,p ph u,test,column,a557f4bffbd0412fb3cf093a136e703f482e1f71d541140f7e8df6f1e392c36f,3,False,131988.0
+s601:column:q6604,p ph v,test,column,f1b25bc5dc3e8de8b64aea3fabe35bc37d4394f289ac288c2fb78574ad1648a9,3,False,477690.0
+s601:column:q6604,p u v,test,column,e49e3fd7968e366824dd857c1ab823f18d12db8a108932c39937d680c8ec055f,3,False,142816.0
+s601:column:q6604,p ph u v,test,column,d3e01618aa7a0145be6ef793be124a748d9416640c84d6e43e45ca4d751917b7,4,True,470781.0
+s601:column:q7197,c pl,test,column,438d9ac242d170da5c74f3baf0ebb59e1dd1afcac1d5f5fe11536b856d7312d6,2,False,47456.0
+s601:column:q7197,c u,test,column,8cc00e567340bc95923b7e21c5be5fc0f7deecc9b8a3477922bc8fa3c6fb193d,2,False,167683.0
+s601:column:q7197,p pl,test,column,d9b47feadb7caa38f6e3f6e3c289d11c1af8effabd1a4da42d327d3626bbf51e,2,False,4931.0
+s601:column:q7197,ph pl,test,column,6204fa6a3ead78193aced9c4ed167ba0f353c238b15565b1e52ef39ab930f3d6,2,False,49946.0
+s601:column:q7197,c p pl,test,column,de21d10da6cbf59e6ffa555b1258c7ed3ea348fb967978ebf3518553db82c2d6,3,False,9257.0
+s601:column:q7197,c ph pl,test,column,3ec14c2070eca3910ef21ffe318d20a7475cb13ba9103ba32557c329d4a691bc,3,False,224114.0
+s601:column:q7197,c pl u,test,column,4ca04c9a4186584b9fa0dc5265f1e5973747d1dc3fd7932b650838ce3122b021,3,False,46082.0
+s601:column:q7197,p ph pl,test,column,3a13b031bd3a0c3b81e77785ffd6e7b8a049de06683493b22a9cd7b226ca5306,3,False,16253.0
+s601:column:q7197,c p ph pl,test,column,8aec63f17965cad1c4d913eb9eba96965d803e244ac640445fc349d66cb65b9a,4,False,30514.0
+s601:column:q7197,c p pl u,test,column,5472e429d98193eb02f13db8bfc44ad15078e8bca48c51721636b25edc2f0ae8,4,False,8989.0
+s601:column:q7197,c ph pl u,test,column,460ba793144d137d48fcdd063078f19945b7a4b9140f4237375ea53d6b0013ad,4,False,217626.0
+s601:column:q7197,c p ph pl u,test,column,41df7eb4589d477a0808c4dcfb5fa4baa24bcfa2a31dc644d757e5ee7390da0d,5,True,29631.0
+s601:column:q5675,b u,test,column,01e7905abfc426a95011b30f609dace3f79d47a9083e19688ed80eb881ee4ac8,2,False,72821.0
+s601:column:q5675,c u,test,column,8f2390cdfa65f3a7419e1dca0a42c18f382868904f4972736165631e1476c9b1,2,False,156406.0
+s601:column:q5675,u v,test,column,4ac94080a0074c2fc628d65f85dec6e67616a32d64ce7f97ba0665d7a54cafad,2,False,146.0
+s601:column:q5675,b c u,test,column,73b754fd38a7234067b4eb2710c3deec37a590364e586b6e416d110b2a1fdd51,3,False,14006997.0
+s601:column:q5675,b u v,test,column,3fea6649100c11964d7b35d16907974becede49112c9b8818f3b2f030a959eba,3,False,290.0
+s601:column:q5675,c u v,test,column,23d98adfcceb3b9b7fe6dfaadd79c3074efe5bb397c3b7369a13ebb3e903af89,3,False,622.0
+s601:column:q5675,b c u v,test,column,e07246c739518679ba3ed551db2936bfea46cc1746cc952373e245d422287e97,4,True,55685.0
+s601:column:q3446,p pl,test,column,55bbe32e6eb01f3d1f6c21010a075f0cc26d9c4adbe8fd4f5f9ae2fa23322b7e,2,False,1597.0
+s601:column:q3446,ph pl,test,column,8e234e55c9e532f07edde63daeafda37f713d4d018034d87f9c0de4ecd39f1ac,2,False,196.0
+s601:column:q3446,p ph pl,test,column,b3f17745655d66d444a5cac42fdf8097943b967c6f0dcf7bcd65b85e972b3710,3,True,20.0
+s601:column:q6115,b u,test,column,4b92fa1b38bb89920185430838d2ff95e1dd600b470c24d1e1c733296e49938d,2,False,78344.0
+s601:column:q6115,c u,test,column,165a47a16cc62c8229afd7eedfa293af3a719195d04d125b8b0c89d5586ce8fa,2,False,167709.0
+s601:column:q6115,ph u,test,column,4aebeb7f1d2be94d00670af8fa11ea910a27bc82d0007913f4376f32df625288,2,False,14879.0
+s601:column:q6115,b c u,test,column,bc802d54d680afd8b09f3fd0248f8654909a75a82a7e6c9f02eb82e2fcb1c0be,3,False,15019226.0
+s601:column:q6115,b ph u,test,column,f35e2d358ec664ac227d622ef37db68e078b7ccd9da9e0bb864b3f80326f361c,3,False,758078.0
+s601:column:q6115,c ph u,test,column,0bd0cf563a3d40726d2744a632503677fa372fe8968237caa025c8067d2fd83b,3,False,13300821.0
+s601:column:q6115,b c ph u,test,column,e9de10be5aaa7c165e694b92b274ee0435668d7b33e51e9619b1e1bc4372ddb0,4,True,1191158915.0
+s601:column:q1080,c p,test,column,6abde1c2ecd26151c4bdc10a698aa69d3d05e439a28b62f934d5c958f11c45bd,2,False,77703.0
+s601:column:q1080,p pl,test,column,c16da61ab72576143dee8fd178fe33cbba50d6e2856f214cd6e5a903e9422403,2,False,393.0
+s601:column:q1080,c p pl,test,column,44016ece9d90ef595ec958117535a09ca7beca16a673d8b229bb01e71e1f84f0,3,True,737.0
+s601:column:q5947,c ph,test,column,bd830e1c6d125ac60261285898d95b023ddf48def7100a65ae7a501348495aa7,2,False,823175.0
+s601:column:q5947,c pl,test,column,0ce701e3beb02f6d1fb6486522baf95cde0d124414ccb6f0228b3d1918f4fced,2,False,44091.0
+s601:column:q5947,ph v,test,column,5417ccbf1fa5b71e9a73a4b683db7ff31f4e2a57a9aca06573bc16d253e29d1e,2,False,1205943.0
+s601:column:q5947,c ph pl,test,column,74f0d5c2ea0032c1e152276a9e132c0c1eb7c9207f92a9921096df6c4c17776a,3,False,208225.0
+s601:column:q5947,c ph v,test,column,3122dba4c47423b4478fe9ee4853d332c9f541dfc17dbbb7f229e01616b35296,3,False,5063092.0
+s601:column:q5947,c ph pl v,test,column,a23ef66cb2de33f726a4d8d872a30f94e047229c6818fbc91bd6bbd05a1cc21f,4,True,1277999.0
+s601:column:q4773,c p,test,column,2f0f98f8483ac59dcd668970d12164322667eda2d3ab9689acf0c9b898b3892d,2,False,1820.0
+s601:column:q4773,c pl,test,column,acf488b89c32c69de1dd13fde23d550cd1b3aeb1e5b60ede561233d97a597f8d,2,False,2244.0
+s601:column:q4773,pl v,test,column,0e312c67dd32b3ef9a7b154eb4e4dbbc84768cc8b46cb98fbb4176f0c466c02e,2,False,80318.0
+s601:column:q4773,c p pl,test,column,0abd34f3d1c0aac1ad7523f634834b35ca005bcc7f7ad69ec9a75f140490f22b,3,False,202.0
+s601:column:q4773,c pl v,test,column,80c4e714820931127e0114ff0b4538cd6d055c4cebff21a0ff0e843bab21ad49,3,False,17732.0
+s601:column:q4773,c p pl v,test,column,c006c55c517e44c6cd6c7ce047474a2473e6fd941218a4b9f2f95686384e3628,4,True,721.0
+s601:column:q3498,p pl,test,column,356d7a8277c29a6cd48844abc65daf30caa7c46a1cef843c89d1eb24f9b200cf,2,False,6.0
+s601:column:q3498,ph pl,test,column,4fec29ebfb51798fc7b171de429ab9408a60ed41f65a1bb8a3da0c6061b6c913,2,False,14649.0
+s601:column:q3498,p ph pl,test,column,b1b5e5943e5f03c07155ff97b718c0a0fd9ee84caed9b6d8ead8af4e696053ec,3,True,6.0
+s601:column:q8233,b p,test,column,9a9765a28578799c256cb2632e341b71359d250fd1c4668178bdb7e1e25a140a,2,False,3297105.0
+s601:column:q8233,c p,test,column,de89caa80ea98bd6a639fe69e0ec9163c03b0989e8079ae75b32293aad59849d,2,False,55016010.0
+s601:column:q8233,p ph,test,column,3440911e3d21cc1373e22d7272c02d136d0ce813e2e0c2dd0ee8df1486d4dfdc,2,False,52681194.0
+s601:column:q8233,p t,test,column,3d0870a339c0cb630df4d9b996132bfa07909ef684f519cf71efaaa9ea5f0ddd,2,False,559.0
+s601:column:q8233,p u,test,column,6e1905baa3eaafa763b1d7534efc81b0230cbf2c6c5bc9a927f81a765ca229f9,2,False,89468.0
+s601:column:q8233,b c p,test,column,dbc4ef032ae5142291b95368f5ef2f94610b5fe3f065e3f11827753bf417dce8,3,False,644545343.0
+s601:column:q8233,b p ph,test,column,c26333c05f1bf62a363e844bc62f31ed013e2c1540f0f69ccdafaa3c9f634bb0,3,False,1913345616.0
+s601:column:q8233,b p t,test,column,ab189c7e5bae5be626290aa26f552bb2b483cb56482ff7583c0c0dd25734f10c,3,False,20289.0
+s601:column:q8233,b p u,test,column,082f55d3bf48735c2ae1c7066dd6c4fc8c339ed689a58304e2279dceebaf6aa5,3,False,3249407.0
+s601:column:q8233,c p ph,test,column,3a3653f44cc733cbf448ab70b65cda7e4df7cf39b02f6e89d0248ab3c538eedc,3,False,31926384377.0
+s601:column:q8233,c p t,test,column,f54b0cb5d3250b6a1f42b284db125affa29d65ebb85369b74192f426f52faa99,3,False,338538.0
+s601:column:q8233,c p u,test,column,b42b3bbbe2b4e8d097bb3218bcd739454a19f2426570926b465000b41bfa8e8c,3,False,54220112.0
+s601:column:q8233,p ph t,test,column,a06262bcc53b1575c046920b81ae9aef03309ed0fe9d1428595bc2dda8838515,3,False,324171.0
+s601:column:q8233,p ph u,test,column,24c713d4b2f376172990464298925cfc54f27ab2b77ba63b814c295c7deb9d93,3,False,51919073.0
+s601:column:q8233,p t u,test,column,898b37227f58a09a1fc4cafad120448bb9619a16db1bec83c3d0ee8f33eec4f1,3,False,551.0
+s601:column:q8233,b c p ph,test,column,a9c4685e34eb0ad0a787698c747240be5b6268dd8b79c34208e90840d3967e9e,4,False,374036618960.0
+s601:column:q8233,b c p t,test,column,fd2d632e24cbf67f08f0be4c54cfb58db93b8ac05cc42aefd334f8310f412219,4,False,3966173.0
+s601:column:q8233,b c p u,test,column,e6b221c80839f38ab13bf6a6ba8b292ea25a06135a3a2cb0d0b754f959578f8b,4,False,635220920.0
+s601:column:q8233,b p ph t,test,column,e8f20e0361de3637bb964ffe6589626eaf7baf5877ddde3b274236aba4b8de27,4,False,11773662.0
+s601:column:q8233,b p ph u,test,column,7805543ace7ea53a299d127757c4050257d130589cb92b6185222133b1b5a987,4,False,1885665883.0
+s601:column:q8233,b p t u,test,column,593b85118ab176c7c002cdf1a1d5b5aeb54ad3d7aae1cf76d958253b2f9bce3e,4,False,19995.0
+s601:column:q8233,c p ph t,test,column,e78c6d47667fa23e4b709e3db993666f5773c7b89cea0e9d6b8de50867c6ae56,4,False,196457161.0
+s601:column:q8233,c p ph u,test,column,abcc7d37b37e2a48a6333826de808909e44a6acbbbffd7b27e8c8f38d9c25ab8,4,False,31464516018.0
+s601:column:q8233,c p t u,test,column,3c5186c3a9fed80cfee70e758a0061085b3ea0b0c32110caa4a86fc81c352d40,4,False,333640.0
+s601:column:q8233,p ph t u,test,column,529898f54d664c19a9520e9060ca5132f83d2362f74ebe5fd475831ec49007c0,4,False,319481.0
+s601:column:q8233,b c p ph t,test,column,d335f86014d7899761b22e649471d8431b67222ed7102277f5e3682a50304210,5,False,2301612713.0
+s601:column:q8233,b c p ph u,test,column,ae881fb46ecdb6679ce3bf9e5d1e7a3ba860a555497f8a6a07e5a3de50c83a2a,5,False,368625555891.0
+s601:column:q8233,b c p t u,test,column,1e0a416a92c1e2301980a4cbffa5d6c3979b0b7bceac4506041b42388a69bb16,5,False,3908796.0
+s601:column:q8233,b p ph t u,test,column,b6d752e0dff8c5bb20c899c0f9e5779b785b971b1cdc7f3831d93474485b73e0,5,False,11603336.0
+s601:column:q8233,c p ph t u,test,column,7b6fa0aa39bc1458681cf97e393b98e3793ae41e09b3514aee3f667da0288050,5,False,193615081.0
+s601:column:q8233,b c p ph t u,test,column,89d27c852c432cc3776ec91d548508ff2d3ae3d0887e28e263ad148c844756de,6,True,2268316049.0
+s601:column:q3750,p pl,test,column,bbe7863983274e51a092d905d315bd236c9d11e984c51bd2dcbe7a3a9dc93a9e,2,False,158.0
+s601:column:q3750,p u,test,column,a227fa5d3f7ef43eba11bd5d48cdd2997a230482d2847a1c2299b617e5f1ba03,2,False,1284.0
+s601:column:q3750,p pl u,test,column,fb75d644143b4e43f48fb34d7d22b047a89a54462ab8a3a09a46ce97ca3f727d,3,True,155.0
+s601:column:q6675,p ph,test,column,f71752841ff0cc0195289a46d01fa89859f99f2d82d3b11ce167ce1e6c11a258,2,False,299848.0
+s601:column:q6675,p u,test,column,67fd37766bd2f69e29c086a683cdb20cfa827de89874d9c3fd08d9079a1afa91,2,False,82989.0
+s601:column:q6675,p v,test,column,6fc9cbff6fb1bf01a74211ce3325826e3a47e558441dc628376275c2cc757f28,2,False,324451.0
+s601:column:q6675,p ph u,test,column,781aca20d5461d0b289df18da3bb9ce63f12214d4ae94dc6bc02ccc948e85202,3,False,273562.0
+s601:column:q6675,p ph v,test,column,ab357b5c5d67309e980f495f42279d140962ee358299ab6892de411a4a504d62,3,False,1069511.0
+s601:column:q6675,p u v,test,column,394fd4ce1a5a4105d06a41e4c141ea971dac7105ed386db48ec44fe08fcbb9e1,3,False,296009.0
+s601:column:q6675,p ph u v,test,column,31a736e5335019392a6baa5ae961a23ea0601cf151109ebee87570232d6c1e77,4,True,975753.0
+s601:column:q3137,b c,test,column,5ca263d7339c6aec3669c2f4c58999dd42943059d2b9f46d24e1902d95ed3a6c,2,False,11846284.0
+s601:column:q3137,c u,test,column,d4e6396c756a25bf916bf89e7566e4231b825705fccc8f171787880375add41b,2,False,120464.0
+s601:column:q3137,b c u,test,column,1317426fff79e7087e175d191490a3ecd8bbb3bd2e08fe9914a33f202408539d,3,True,10788225.0
+s601:column:q6950,b u,test,column,7abdec40d524a9be62c41c15ec2cc432ce8e7005285e62318410ac8dcf9def41,2,False,78916.0
+s601:column:q6950,ph u,test,column,cf9b791e84cd56a2bf2aa57d213d6be47bcfee857810f476e8acd59697b1d08d,2,False,81885.0
+s601:column:q6950,u v,test,column,8d9385ba86d5b746d4952ff45fbf73d60dc532bcc082bbe667d9fcf08500de8a,2,False,205.0
+s601:column:q6950,b ph u,test,column,a744d25c589faee703c77dcd13a7f4ae330d0c1350f8881dccd4415bc2939460,3,False,4172101.0
+s601:column:q6950,b u v,test,column,d7932b5ca5d33656cd2db1d8f89e3723df6c8eee81067c5218b52a38f2b4a7a7,3,False,407.0
+s601:column:q6950,ph u v,test,column,b8cbe01ee6822232c7a411d6006f443c63835874b38617de0cf3d5b40b00a52d,3,False,422.0
+s601:column:q6950,b ph u v,test,column,d9d95bd79c709349631a3ff43ac473d701c20c6158235b73331a303a22b0acef,4,True,21504.0
+s601:column:q3003,c u,test,column,343b55c5ca786bf57feb9a4067cfbbf5930c15e03c87f87627e74710a21f780b,2,False,126649.0
+s601:column:q3003,c v,test,column,85f89dd24398290ddd4c1dab3ebb1f676ed3f5482605634bfa4b7226e7f9960f,2,False,842679.0
+s601:column:q3003,c u v,test,column,1225d8cee59faa463590802be59e486e6819d8616279752f6c974ea6514f9a9f,3,True,793426.0
+s601:column:q207,c p,test,column,60b1d3c5b448696c7d36c5b1ff659d5bd9455f02300daf2ef4528e58da67a541,2,True,63.0
+s601:column:q7889,b u,test,column,1cacd9734f31af68d87804aa3457ee275ab0dcd2c3233e983bdf3bd0a128044f,2,False,79851.0
+s601:column:q7889,p t,test,column,29a3d7afe0f6fe1c2eeaf9919f268333ca6f30fe593e6f7afb41a9ff1b67d0d4,2,False,459.0
+s601:column:q7889,p u,test,column,858333c751128894ae8956b0d7ff7db865c12cff26a98b0b0df7e2c72f1411ff,2,False,90645.0
+s601:column:q7889,ph u,test,column,7e6b401485dbd98b69e7ae049d7d7af922381a198e58663ce02435abeaf5d124,2,False,281176.0
+s601:column:q7889,b p u,test,column,56374cf7937d42347094ad5c4417985d512902147e2e35d7e9a2650a96728018,3,False,3348390.0
+s601:column:q7889,b ph u,test,column,0873e022cb1a9a04afef7ea7442bfa43496d0e2c8deb677bea88e4bb582ef8e4,3,False,14326100.0
+s601:column:q7889,p ph u,test,column,0dbf52d1b7fd7d8af7f6381e6dd6625036d9f573d7c9890ecd7c9746ace034d0,3,False,49499664.0
+s601:column:q7889,p t u,test,column,3c36f9b1c4b9cb6e7af5cdc711946c8e89f805c7c09156a1a936b2eab467d0af,3,False,452.0
+s601:column:q7889,b p ph u,test,column,0e0285678dce6e600158d3bd745221c57af60804de45bfc2f320a25ca3d4aacb,4,False,600735998.0
+s601:column:q7889,b p t u,test,column,b62dbbdba44e6bee62b5b7eb67c817ddc190621df40626109b4da47af947f0a2,4,False,16715.0
+s601:column:q7889,p ph t u,test,column,f8c405f32566430d36bd366bb841d79452d46ac834760ddc26e1c31cb7c56383,4,False,247094.0
+s601:column:q7889,b p ph t u,test,column,a3a5b0f212e86522f479b731f6d705d0472a1e4be535f9af8d13cfc96652ddbd,5,True,2998767.0
+s601:column:q66,c p,test,column,dd5bb577e224c0412fa3e03b638269909f17e06113539ee99e40a49bff5d0619,2,True,7287.0
+s601:column:q8353,c p,test,column,caddf070ee94240b57865d7302666edba8e9607ab243aa85da0886cafa5a5dd9,2,False,165262.0
+s601:column:q8353,p ph,test,column,db88a8f508cea10ced5eb83b85cbe69199d1013e59204e7ccda37b44c8c49dcb,2,False,287457.0
+s601:column:q8353,p pl,test,column,969da60ab11af7db7da719db6e24d20438ad60fabc99c21863848771a96def3c,2,False,10526.0
+s601:column:q8353,p u,test,column,60b3c331f2bbff732e111ab50b1e0a6bc7130f9af6cb68a8c27dd660ee1c1634,2,False,352.0
+s601:column:q8353,p v,test,column,e8a0fd52c093e7bb479c016c9a47cd7438b4e3acea2e949311e0f30c2f0b65a2,2,False,308214.0
+s601:column:q8353,c p ph,test,column,0e4c15a5b93e10446d4359fdb039143bdf68d3734e595f9d9217123cd08566ef,3,False,544765.0
+s601:column:q8353,c p pl,test,column,872d49dfd4eb27c07ad4750d70bc901d21598b10c2435772623b7e009a9bd865,3,False,19948.0
+s601:column:q8353,c p u,test,column,b522b9ad3b8b520227535d63136bd9efc150a3c0921a4550892d086c08bc45e2,3,False,666.0
+s601:column:q8353,c p v,test,column,631d398954c8f034027b638f372982f8960108d43496f32ebbfd84189cea2332,3,False,584102.0
+s601:column:q8353,p ph pl,test,column,bfc1b9ef8239de8be4bc70ccd4cecb63465ffbb3f6f9b71b99448bf4cfe9c8d4,3,False,34698.0
+s601:column:q8353,p ph u,test,column,ade46b410cf83033cbcebf15d4386e5870b46ba257007b5c5946b97c4893c86a,3,False,1159.0
+s601:column:q8353,p ph v,test,column,ce38b3f64f6e05adea1d380ae1ffd4e2f72296f8fd2f8f34a621575f6144f535,3,False,1015988.0
+s601:column:q8353,p pl u,test,column,4aba50b7955fb78dcca75370711609d577847769aa73d40527ec986727e041f9,3,False,42.0
+s601:column:q8353,p pl v,test,column,c3fca48140c0eebfe77599e746600492c50b45dc353a5841fcd23408d3612033,3,False,37203.0
+s601:column:q8353,p u v,test,column,500ebd3aa206de62bd7d68bfb7928e8ebeab4453db99e3805c6f1d59122160c8,3,False,1244.0
+s601:column:q8353,c p ph pl,test,column,cfb29b663b33e2bad92555496b63456d6b785b8666d9e066274154ad06566288,4,False,65756.0
+s601:column:q8353,c p ph u,test,column,fd990a44a79148a0def0d8cdc3c960eb3160fb0b3fab29a7eaada4f195cc6071,4,False,2197.0
+s601:column:q8353,c p ph v,test,column,057687b18bd94ef14dcfab8e496eb7220c3edf685e4a7576118aca4ee99961fb,4,False,1925418.0
+s601:column:q8353,c p pl u,test,column,9e5872185532c8089c97e2105c9c687ccd8ca62973613829a9aad4957dee88f3,4,False,80.0
+s601:column:q8353,c p pl v,test,column,116c4cc9f5680dd7355d6e916565f49d48b00d95f1e7422e2575e48ead7b93f6,4,False,70504.0
+s601:column:q8353,c p u v,test,column,fabb5908f56dff04bf1d1d6560899ce441650f63d66bc26c6b577bd98791d307,4,False,2354.0
+s601:column:q8353,p ph pl u,test,column,334a7087040fa502cd2e5ed378658effe0a988f872b1fa5c426fd584b11baa4a,4,False,140.0
+s601:column:q8353,p ph pl v,test,column,d85e683cc78e0ed8dbc14caca2d2182e2439fc5c89ec92a03830df590f43fa40,4,False,122637.0
+s601:column:q8353,p ph u v,test,column,52f8f1463c71ba1fc668fae80512df0647bb9ee2034ff2441bad37d028976d63,4,False,4096.0
+s601:column:q8353,p pl u v,test,column,8690a3bbc4f7ea24d0b1f6bf6c0e98240f0f7e872949720fc6b1e56bc055b8a2,4,False,148.0
+s601:column:q8353,c p ph pl u,test,column,fb372c57418a777d149d7820b2b4548aa8056285397153d08479a201c88dcf37,5,False,265.0
+s601:column:q8353,c p ph pl v,test,column,435583b7bcc427c38e6799f2e1d58ff1832192d692fa2f1ff0ff5ff935fa4bfe,5,False,232408.0
+s601:column:q8353,c p ph u v,test,column,7d9e2e90d2770e6ed4775ea8b1f4fb9cdcf2ff5699d5ec1b82c043083a03ccc2,5,False,7765.0
+s601:column:q8353,c p pl u v,test,column,34d88b0e0a54ef2da4ffa82b2bee544cc1505313e6b56ed7749bbdde89fe9d06,5,False,283.0
+s601:column:q8353,p ph pl u v,test,column,047fce780c9dba02245b88afa2ebe4541470d37d820c6a2871651322debc7245,5,False,495.0
+s601:column:q8353,c p ph pl u v,test,column,0efaa35b07703b815e9bf803e92a33b8417989ce232aaf13e6cff56e2e333362,6,True,937.0
+s601:column:q6565,b u,test,column,6e852355a6abd9bc11f2ad89af417d1911e52303dc8f00024458fadc8a01e4de,2,False,70701.0
+s601:column:q6565,p pl,test,column,1415cfe251a1de95d70a5b964ebce056996bf3fce5d9e5d3f768c6234cccb7d2,2,False,9560.0
+s601:column:q6565,p u,test,column,2ef596f10431e7e27e9773c1f45450ced847c58c5f08498fc1f6f06eb54aaa04,2,False,84001.0
+s601:column:q6565,b p u,test,column,35004b13caf5c44417dad958a1bb300814b6ff63beac915d3499763f3dfdd89a,3,False,2921827.0
+s601:column:q6565,p pl u,test,column,7432983b5e96dd8c54f3aa2d01d229add74d9b8504c6b3b67bc5e28ac27c39e0,3,False,8731.0
+s601:column:q6565,b p pl u,test,column,4965ef1a52976578fa8a6e0960abc9b0fb9897dacbe762330b528546bc6851a8,4,True,303695.0
+s601:column:q3626,p pl,test,column,44f182f9c749ff8843f0defbfda9c7dbe1f37f7de80d9691f55282c0c109d6bc,2,False,587.0
+s601:column:q3626,p u,test,column,f1fbf03231168673fdf7d13e3e987aed193d8cb2b63add6463cc6d6830ae7650,2,False,5773.0
+s601:column:q3626,p pl u,test,column,3459f1d89cced740771c8bb5f39c71a2b18cefbcb673d0f949fbbbbcffec344a,3,True,579.0
+s601:column:q396,b u,test,column,598c8ac9465e153795071d4a3a3ee8001dca44e283d333d930820fb93569968e,2,True,77583.0
+s601:column:q6894,b u,test,column,75881d9717c9aee928c67e695c931e6d9272c957d818137b3487d1035fe035c8,2,False,74757.0
+s601:column:q6894,ph u,test,column,2150909202635d7389c2914982ac0da224636f308632627e4ab68a4c448a9993,2,False,263653.0
+s601:column:q6894,u v,test,column,baa1931d28cf3e1c836e2068d49f269f395113c57af27f86a71f1661c306cebc,2,False,20.0
+s601:column:q6894,b ph u,test,column,48d29e98e4ab3fd9f40d98074349e7cba5314aed9ba441210a863220277edd49,3,False,13412120.0
+s601:column:q6894,b u v,test,column,e04599dee25f1d87afe7c6098ef8915142c37d9e09a312095a2bdc09239fe285,3,False,39.0
+s601:column:q6894,ph u v,test,column,f00d913a2ac9167542cfd2f943336475c8841911c03550cbf563ae73e05dd4d5,3,False,137.0
+s601:column:q6894,b ph u v,test,column,cf5a8a43308fcb33c307d47b5b585a3f3f5fa3e2e66a0fb22676b119b3b771cb,4,True,6976.0
+s601:column:q6554,b u,test,column,c1d1cdff9655a522ca6602f10ea198a07ca8de5e7c1dcf7609d8f06fd31c9bd4,2,False,77615.0
+s601:column:q6554,p pl,test,column,39c33fbebd730595601cb4c1f7dd0d0fb286331f3f0a39f87dc6b1fc5c8db818,2,False,10029.0
+s601:column:q6554,p u,test,column,92c474f7b72904f081826fcdccb230c76b0820fef3ad2e149e502c90bacf226d,2,False,86784.0
+s601:column:q6554,b p u,test,column,881e76ab8f83ad9c4b7602618f3dd4fd8bf253012414d4bffd3a827c223ee1ad,3,False,3158057.0
+s601:column:q6554,p pl u,test,column,ce6179d34540eea4ecfa45001d281fbb8c36d734d9923e0e5b8e358e44273759,3,False,9611.0
+s601:column:q6554,b p pl u,test,column,95660bf1918a201d7812542fc3805c0fa01347d44f666a52fdbe88ae7567e093,4,True,349743.0
+s601:table:q7780,b u,test,table,03d379ccd3c0c6a56670e42062adc0d333343f06bd54f56eebe069f2b82266c2,2,False,76798.0
+s601:table:q7780,c p,test,table,c452005b8a8c8b8454eb1894e352622580395f03161a7a3f56c6f252a1bbd506,2,False,60825.0
+s601:table:q7780,p pl,test,table,fba0f28f12fb83c874efcb82e87d8e6da6c1ea4644e7dfdef6c94460139e7eff,2,False,4617.0
+s601:table:q7780,p u,test,table,972469794735adff60d46301f9eae091d10658b64a00d767b8f8ce88b18e242c,2,False,39954.0
+s601:table:q7780,b p u,test,table,c7f3f0925944f1e8c0b4f1a8f392cbf4af5f9aa7b9171847562d00a0383d0526,3,False,1459770.0
+s601:table:q7780,c p pl,test,table,ec8687491c4de53783b10dc2d75687b57bd0fbc846d9afe74c75ab9d2ca37027,3,False,6736.0
+s601:table:q7780,c p u,test,table,7fa83fb667b04d7a1ea3b7e64350b03837b39626deaf2cbc530cbaa1f70c83d8,3,False,58289.0
+s601:table:q7780,p pl u,test,table,cae43e8ce304ff89e485e035faa18f4b97b0d119752042cd296f1cfdf1d90c9c,3,False,4425.0
+s601:table:q7780,b c p u,test,table,3d7bf31732f196cf99e740759fdeb32888c26abeb042eb2d104f7038f96d5028,4,False,2129662.0
+s601:table:q7780,b p pl u,test,table,e69bd5dd690554fc765a354218f543232fe3a5a1e0b2db2741e2cbe3001421e2,4,False,161664.0
+s601:table:q7780,c p pl u,test,table,584092bc52ab76ac66aa2510b7604f01962a3be12bf763daf8d508b9f0ead29b,4,False,6455.0
+s601:table:q7780,b c p pl u,test,table,5848ffccb25fa3be0f2065569f295b8e9922b33689fff89f241197ab0ad849b4,5,True,235852.0
+s601:table:q3791,b ph,test,table,4fdf69f7ee04a303d8904f20cd0117a99b59415ec06000162aa87808b1b6afba,2,False,732250.0
+s601:table:q3791,b u,test,table,4db43fa1279afae47dbad5414dbc87dc8cd62856267b06fb48f624ff78dc81b9,2,False,67745.0
+s601:table:q3791,c v,test,table,d6f8ab5922f715b94b7be3db4accd2938d51ed550b6724b43346a64f911042e8,2,False,10818685.0
+s601:table:q3791,ph v,test,table,bedbd87f75a20e90f874f3e668eacb8dec92744511247c6d3cf8abdf8699ed9f,2,False,577563.0
+s601:table:q3791,b ph u,test,table,3708a2fb0fd1c5590cc6114ceb263c1e0d4bd28ebabf5eeb18cae2a8176a9bb9,3,False,637462.0
+s601:table:q3791,b ph v,test,table,cb5a0791a187c739e2130c2620722e8bdd74b2942eba7f9235326976038e4f87,3,False,6694823.0
+s601:table:q3791,c ph v,test,table,986b88468acc0fba24a4e910ddfb69041aabdd4b592a71208bd82169f510f550,3,False,488270551.0
+s601:table:q3791,b c ph v,test,table,a32f2698b8566bde43a1256edd1bcb898aa6cdef63c39f372ebf105655aaa5d9,4,False,1308759159.0
+s601:table:q3791,b ph u v,test,table,3646228116d1120ba1a7a8df58235c653b0a82f992f6a393eab7a193c91d7f7b,4,False,546612.0
+s601:table:q3791,b c ph u v,test,table,f0e42914a516bca653a9cb2b9b22715871d75dfd64e3839ee1cb51771abb5930,5,True,106856146.0
+s601:table:q6265,b u,test,table,388f26d5e9006ab84504072bc95f2417fa909cd9d695734610ea1539b6b8c080,2,False,78134.0
+s601:table:q6265,c u,test,table,d56edc27e445a688ff8aaeb78acdb7ad608fc34513beece3b78deb892e0d5f95,2,False,8013.0
+s601:table:q6265,p u,test,table,96a7935dc74f740d1c2f9ffc0a08a4f12b91e59c67da51198b7fdb5f80d9059c,2,False,173.0
+s601:table:q6265,ph u,test,table,1f11e67fd28844e39ccd9e9cc39bf3bccabc40b62672b48c2c92c66b23b37f36,2,False,275130.0
+s601:table:q6265,b c u,test,table,8b051b10de41008fe82e40015e6720c627c59f102accd31d0f35dd3c292357ab,3,False,717625.0
+s601:table:q6265,b p u,test,table,af40af4399fcf50375292fe088529a69aa036aa27ad7fba4adb3a9cbb24bc55d,3,False,6285.0
+s601:table:q6265,b ph u,test,table,d46e8719c2f230ae2e8d3c1b378cbf775e323d58cbddbf9e3ff337dde08d36e2,3,False,14018084.0
+s601:table:q6265,c p u,test,table,a64d32a5ace87aa74156c937f3d61c26c33beb79c89a04d190aedfe474442a0b,3,False,4987.0
+s601:table:q6265,c ph u,test,table,b82e4ddde4d5ecdc927f1f117c8479bb508a17491ce849452086a3446f4a9852,3,False,11783332.0
+s601:table:q6265,p ph u,test,table,7eab19df5510cd40a7851372c20c19f7c1307a6a92679237c0aee08fc1fb389f,3,False,100172.0
+s601:table:q6265,b c p u,test,table,ab9b4adcda58817f6ce6d9349e12ef55329ba4dcd62e38675508862e77bdd2bc,4,False,446617.0
+s601:table:q6265,b c ph u,test,table,205a00a6b4fde39dba656fd6ff93f8e109db442e70f1eeaca46f012c9c38141e,4,False,1055260174.0
+s601:table:q6265,b p ph u,test,table,158249bbfa5de14115bf9a722710da1785616e6c2233f4777764ba3679757cd2,4,False,3647038.0
+s601:table:q6265,c p ph u,test,table,ca34dc3e8250e8d86e7f3fdc3974c544ef56ca7eb4b939d0a77afbda4d2b29c8,4,False,7333613.0
+s601:table:q6265,b c p ph u,test,table,37c1e0409ddebf7951364a38f67e7b522a3a5cfb38090bbe6cd9f3d3762951fc,5,True,656744855.0
+s601:table:q5537,b u,test,table,d4ccc58c4138d7a85d59eb0916f875f6f698bfc54854ff8e3b81f6a4c64b614b,2,False,78869.0
+s601:table:q5537,c u,test,table,ee7447118b8d079e13c71b776f7df39625034f913f0219b509628fbc0c8605d8,2,False,169735.0
+s601:table:q5537,p u,test,table,814b88498a8818d30dffd3c083ac14280abf1739d23c9058b5426e1db0b3e61a,2,False,41330.0
+s601:table:q5537,ph u,test,table,cc2f75607f9521b4425fae14765a324c9c06ce1e421e408954666215576aeaf6,2,False,62779.0
+s601:table:q5537,b c u,test,table,6581d5d38fae032a6c648dbf22c62bfa90a5c0a894d761d724de5cf501783154,3,False,15170229.0
+s601:table:q5537,b p u,test,table,425a0b3cc0ba2b710b9a0d282c5efa732725a64ef2ee0af39da9864fba22f630,3,False,1501612.0
+s601:table:q5537,b ph u,test,table,00217ae622aa7f7405f12bce065de98dbfe42fb60471d8a8afc5b139dbbf8fdc,3,False,3192218.0
+s601:table:q5537,c p u,test,table,e3cbcfd1d084f54da6fee17717718f5f1b274d9a2d3ad8f9a6e1795b8f7c6931,3,False,25006663.0
+s601:table:q5537,c ph u,test,table,ca2275fd28388f830614487eba9990d46ea5d6847b8e1d4fa2fc50e3e7ab32a6,3,False,56308379.0
+s601:table:q5537,p ph u,test,table,f2720d1cec78983a2e462098ef48acc2125379bd88980458351d7b240f858e78,3,False,5410869.0
+s601:table:q5537,b c p u,test,table,00a07103e1214f3ab2c8185aa949426928172bbd96e86f191a70378f2596b2e1,4,False,2234991512.0
+s601:table:q5537,b c ph u,test,table,9e4f3a92b1eef78b13ead906d12059b4ec65fa39841707f03f413ea706c24b85,4,False,5032608691.0
+s601:table:q5537,b p ph u,test,table,2be688515ff0322b8451e42fcba107d97f0cad3455b161f573ba7f1b504989e9,4,False,196588207.0
+s601:table:q5537,c p ph u,test,table,78c99dd8a8eca8e458f67e07178b2b510584ecf3fb21d8116fa46c7f945d8d38,4,False,8295771371.0
+s601:table:q5537,b c p ph u,test,table,7d006f268803cad73006652e60a643ae46662a33bb6a13a932db2c4672aaea86,5,True,741441533556.0
+s601:table:q5614,b u,test,table,83fa5af06f7bc8c31ec85ed3f634e52aea0cc99b77cdaa0d8702ac697bf0caad,2,False,79546.0
+s601:table:q5614,c u,test,table,a0c8d88a9f6fbab09533488224d6f0e7343d50d27350dced5bfcb5b51d75ad05,2,False,170850.0
+s601:table:q5614,p u,test,table,8745b738f401c4c21d8afaf4677dda7b349ef81b1a8ff0a973cdf0a2fd9a9e70,2,False,2.0
+s601:table:q5614,ph u,test,table,28e359e793da741e00277ced4c3609959a4204466690c4aecce20dea0d86d40b,2,False,280102.0
+s601:table:q5614,b c u,test,table,1ec9c69812acb41bd96d3abd98a3169228485df0aeadc4d1836119da86e53375,3,False,15300478.0
+s601:table:q5614,b p u,test,table,fc5d1c30cf6264d8ae001d54a4a46fbfd77567a52770be3bbd8e1ab1401df73d,3,False,72.0
+s601:table:q5614,b ph u,test,table,ef0fbdf51702e0ad97324baf23595d8891458a3418fb0009fbb2fa5f0ea171c8,3,False,14271389.0
+s601:table:q5614,c p u,test,table,4e749719f98e3afbddac2f268b616d8e97afaf7a2b9ede9df734ec14b2123495,3,False,1188.0
+s601:table:q5614,c ph u,test,table,103a8e0398d439aa69d225df3cbd73ff6327932f0b860efd501cc9fdba817c67,3,False,251232397.0
+s601:table:q5614,p ph u,test,table,98293c6170ab9f5caf51f85300bc51e0e19b3b50497f8c4b6ab0a0f441a661af,3,False,1140.0
+s601:table:q5614,b c p u,test,table,0e3b67a50d3e57d91488c9c1743968fb80d126e53afbc4d5b78627eb4a9563da,4,False,106394.0
+s601:table:q5614,b c ph u,test,table,32de0d1487b2ccad6a37beee76477d6ecb8e45503cb74f50a1e0425b2daa987a,4,False,22499188961.0
+s601:table:q5614,b p ph u,test,table,43c647ef2c123ba2db258921acabb7ff95102d1366df70a71486f2a9c89a8ffc,4,False,41591.0
+s601:table:q5614,c p ph u,test,table,ddec65eeee27b453991d94833431b93a0c50172ff24871450f57a676b425ef3b,4,False,1746902.0
+s601:table:q5614,b c p ph u,test,table,7328d594db15d638d4d291fbebfefc87e8054ccfb587d382ca49320192436f9f,5,True,156451460.0
+s601:table:q7134,b u,test,table,6d97077d8084aec02edf4aa4911c5779fcf551a49606b341129ff6be0977096c,2,False,76542.0
+s601:table:q7134,c p,test,table,b7a7a660033cd231bc266f733fdff0bc18d2ac5fb42b79b202ca74d4ab6cf96e,2,False,898.0
+s601:table:q7134,p pl,test,table,e2f3cc2f05553a71e274ea04e9ef427b4aae1ab6ff8e98b1479bb15124237481,2,False,398.0
+s601:table:q7134,p u,test,table,6ad16279063f9177f2a24550750ac40678a453f454974ab7310bec423a7b4735,2,False,3117.0
+s601:table:q7134,b p u,test,table,96bc4f11700353b111e96dbd1550bcf88f9726ba1dce98e97f76ee1fc99d92ab,3,False,115089.0
+s601:table:q7134,c p pl,test,table,d9a21e3b8d170d2ae98642251272b30d233a8c91b409b6cee70d1b46e3b47477,3,False,108.0
+s601:table:q7134,c p u,test,table,1e35bbd2c605145b32735e80d08cae7fae85d161656205878b88cf4b6cbdd4e5,3,False,849.0
+s601:table:q7134,p pl u,test,table,0f9d5dd5945e8ce934be771fbe324f6a9c043c1408fd8b42ea8413a182d0ab2c,3,False,376.0
+s601:table:q7134,b c p u,test,table,48b558103bfed43a923614aa3a50b66efa46b40e9339e38250a11086837318e4,4,False,31335.0
+s601:table:q7134,b p pl u,test,table,dd8edb11fdb333667e39c7b6dd72448e20a2e2f9515ef85c2f4ec948ad6c1e1d,4,False,13892.0
+s601:table:q7134,c p pl u,test,table,bbfc3f59922db06b33c76efeb36207fcef7e7c9b17db1471ab489268d0b627c3,4,False,102.0
+s601:table:q7134,b c p pl u,test,table,e031fa1b1e4b75f1539076b8457541b69542f65896a86651f642ac41ad4e4ce0,5,True,3782.0
+s601:table:q2435,c p,test,table,cc7748e34123c820bd56fc1488def8d990075f1ca87fda34a592c1c8f30f4e08,2,False,1371749.0
+s601:table:q2435,c u,test,table,16692b26c109d2ce3fbd2f0a14f9ffc09c5ae271a6e4da682189be828416c0b4,2,False,2993.0
+s601:table:q2435,p ph,test,table,9efcb14757360271212fd32bec8fd2a172591d36d3b4a14807cd9a3acfe747c3,2,False,6129500.0
+s601:table:q2435,ph v,test,table,fa3017f313b1524d884c0d5279dd22faa9f466f5343d66090f71f282f9bbf41d,2,False,2648362.0
+s601:table:q2435,c p ph,test,table,35dffc00cacb6f67303d63e040065047cbb5bdb65e973c8b888367d9014fd172,3,False,449891224.0
+s601:table:q2435,c p u,test,table,127fe985005f862bd598cd92757d6a37630e84336f8dcff09292dcfda07f26df,3,False,492891.0
+s601:table:q2435,p ph v,test,table,0aa49d919ba212437b078908bfdad137d9e0788ccf4fe47997afe4712850213c,3,False,150910161.0
+s601:table:q2435,c p ph u,test,table,394b484c3e9de74b95961aee8faba42f4c98e2f8ad1013efa223ab2b09190ea1,4,False,161652943.0
+s601:table:q2435,c p ph v,test,table,581704ad854af840871732678511f59b561e3eb95116c481a033c432e6c8bed5,4,False,27923648844.0
+s601:table:q2435,c p ph u v,test,table,4fc21f05f3af3d34463b950c5ea5bdc9275f39ee62fde6ed3caa3579266d2864,5,True,138614459.0
+s601:table:q2941,c p,test,table,1cb511392daddc8e14ebc04dfe2808bd7a3cb322d9c7308f0af58e1dba357c79,2,False,8008069.0
+s601:table:q2941,c u,test,table,168289856a0058af2e83ec259e923d1f229b1d3d35e1b81e67de5c58548c403c,2,False,23072.0
+s601:table:q2941,p ph,test,table,130bfdf43c30058d07f79f090377187e8ac62412ad50bd3e8b37190ef38f2341,2,False,53374665.0
+s601:table:q2941,ph v,test,table,50e005b07013c333defbea4a1f7c6cffd49d402d9b88d15be31c686966ac3eaa,2,False,68046.0
+s601:table:q2941,c p ph,test,table,c044e442c36d26093f02cfbe6021615653edca14bd2d58dd8a30127d42e12341,3,False,11775779426.0
+s601:table:q2941,c p u,test,table,cab2278b9ebe0798e1038ca9f4e054ef81af834784dfef0599bc7cd15c6e320b,3,False,7378211.0
+s601:table:q2941,p ph v,test,table,0d639ddedec7a740837c47d81cfe77c32d4a35b11dc29667026838fa729e5474,3,False,7530570.0
+s601:table:q2941,c p ph u,test,table,42ca139c8bf95e8200a861506bd7985a4aff6ba4d12e01cc00c3dd94916f2bdf,4,False,10849580475.0
+s601:table:q2941,c p ph v,test,table,ee486ea4622edb152e0c07bd55b05a1d9727355933477a63e1d4ee00b009c062,4,False,4188452379.0
+s601:table:q2941,c p ph u v,test,table,203d2ed6d2983297d3c500b4d78398600ff8e37968399c7686b2bc077bfef3e4,5,True,53313493.0
+s601:table:q5447,b u,test,table,d2b2699ada974c4ba106b3015ff8dffe119e9cfae48efbfcc48bffc2753a0c45,2,False,79632.0
+s601:table:q5447,c u,test,table,efd1954f7f1f69be15ef551c14eb0552c4250a48b7c374a28b1f2eaa021fb420,2,False,132350.0
+s601:table:q5447,p u,test,table,37018e5737651f6831d037f41d006d087402564ce6858c4346a0513e49666f4e,2,False,852.0
+s601:table:q5447,ph u,test,table,a7a673f13666d4be6fb04a9db3add959be0ea1257391fafb4d26b9c6867b7ccd,2,False,63433.0
+s601:table:q5447,b c u,test,table,342c28be91d9326b0cf0e316c51eb4d2ce64fe047778d1d1a9a9fd6fb7f0a652,3,False,11820122.0
+s601:table:q5447,b p u,test,table,cc331f840c609c9955ba422a1c489e0d63b5178ae85690dc02fecf7e803d97b1,3,False,30914.0
+s601:table:q5447,b ph u,test,table,e2145e208b8c9cb9efa2d1eef0b2e3318a32a32f70cc5f3b946ab0e2ec601a24,3,False,3223105.0
+s601:table:q5447,c p u,test,table,413965ed875033da62d634b2310a14859c71621dd62de1bfd006571d0d790cd1,3,False,397577.0
+s601:table:q5447,c ph u,test,table,cb01d4cc5f531de54db73cdb1c7e8b556797ec0f70bf951116e1f89163580997,3,False,43906064.0
+s601:table:q5447,p ph u,test,table,b83cd9d1fdc02b090cd0af3a6188f7739a00d20c46538d6324d0b44c5c722e0d,3,False,111477.0
+s601:table:q5447,b c p u,test,table,2d7c49a1dbf8f5113364a05aea0c7b56ad8c25245a3d7954917340a4e7221cd8,4,False,35507491.0
+s601:table:q5447,b c ph u,test,table,4954f1fb3023d30246171d616ed5eeb8aa895520daa5cb78796cc977c936d479,4,False,3921236091.0
+s601:table:q5447,b p ph u,test,table,898bb874fab3be1e53f0f5d77a5955fe6375a2cd185f9fc2399305d82bf936eb,4,False,4047231.0
+s601:table:q5447,c p ph u,test,table,9adb689d78ea848136b0810e53022466c67e9e9d1427a8b0258c31a237dcee3a,4,False,131893149.0
+s601:table:q5447,b c p ph u,test,table,7f609616b4a9b9c868975e26927bd47a01f9337ff111e02ebb1aeb9dfe116478,5,True,11779341798.0
+s601:table:q8661,b u,test,table,1143c61de9f5d701f0bb5cd5e5fd5417aeedb121160b67b0161e443b876fc1e2,2,False,79690.0
+s601:table:q8661,p t,test,table,7841abcb4b44e965b675e6f93311bca08e4eb845a2e39b8e031fdffc889c7615,2,False,593.0
+s601:table:q8661,p u,test,table,b597f0913171b344d208de2414b94acde751b057fa69afd4e350e863a7f498cb,2,False,90150.0
+s601:table:q8661,u v,test,table,80110ae4932c7a2fd50dc65d10b724dc53aa030591ce9943e98a23c930ffd23d,2,False,198.0
+s601:table:q8661,b p u,test,table,6a508b2768516718b82919f731d0e538f83e3e2dd49eaea0983ca5fc1d9cb351,3,False,3325343.0
+s601:table:q8661,b u v,test,table,d1d0db1512d9512bcc1e2e8fa5b491e19fde52edc8b7b6feea9ebe49e021bf3c,3,False,391.0
+s601:table:q8661,p t u,test,table,ee3e38da2bfad1d202ae56234933aad6c1bfed9b5da7b5b135d30557ce917688,3,False,584.0
+s601:table:q8661,p u v,test,table,b6a32434b7f4d85584c48987fc5b0ad54ea36ff5e35d57094abd88f37e6b9a1a,3,False,443.0
+s601:table:q8661,b p t u,test,table,91c24e6b451d4137413451cbdc829a4fefd66c53216e63ded250941d873cb145,4,False,21548.0
+s601:table:q8661,b p u v,test,table,6c2f2b39c21b3dc612156e87f6cd86ecab6ba96423830e20efcde5bf35f43ee3,4,False,16332.0
+s601:table:q8661,p t u v,test,table,ce5ca93fa3a149cc2525b7db0f286c4d931c0d96fa0a4e22b7424587cd68467a,4,False,3.0
+s601:table:q8661,b p t u v,test,table,e1d4a4f133225c2a37e030f8732cada3bb81b1ed7ea73f0b83cadd45e82a067b,5,True,106.0
+s601:table:q2815,c p,test,table,a293b2a9f46b61e60bafe763f1b9191af1637d4ab1084d3a79b6c7dca1358e81,2,False,1685529.0
+s601:table:q2815,c u,test,table,11a644bde1ccc5fbe8f8380a51b5ca08312f78c49ba77082c90e054fb6a91c01,2,False,23807.0
+s601:table:q2815,p ph,test,table,f06c3936e29321f48e0792b181906493abe01b8fdaf46b64b797883e1d6e00cb,2,False,11234237.0
+s601:table:q2815,ph v,test,table,a34f47ce02d369cbaf952e452045a2a1f1fbe471661191873c2013cf95b03950,2,False,71268.0
+s601:table:q2815,c p ph,test,table,c741da247809f71cfc24f9eefb2b8c15b3767a131678c2eab82f7fdaa15087fc,3,False,2478552285.0
+s601:table:q2815,c p u,test,table,e9cdfdff12f34e46798df66d2c6306d73a744a103b242788f365f20fb89d5001,3,False,1602433.0
+s601:table:q2815,p ph v,test,table,0b0c7df18bc25ccb2045cb2ed9664581dca7721ed48ec7a2aeea5bcdd3e03dce,3,False,1660061.0
+s601:table:q2815,c p ph u,test,table,7d7cf10ef61a102b2c91a051b87682b200d12c81a26503623d45afb502fd36f9,4,False,2356360700.0
+s601:table:q2815,c p ph v,test,table,04b3e5e1401a3d3f2c0348dda7d7306f86c53e1a46a0af4371614d1b271d1913,4,False,923314958.0
+s601:table:q2815,c p ph u v,test,table,18b7e3153e8140347942d443b1c75ab49beb895d10770373fe9e042e5594da06,5,True,12127013.0
+s601:table:q7909,b u,test,table,914daa36e87e901604d01b1101d4e01b5cffb22fb06539e351335405d54aa975,2,False,76554.0
+s601:table:q7909,c p,test,table,71cd373bd97c8374205a7fdbe868892b354fbce2999cf70647c8c18cbe339a87,2,False,1527.0
+s601:table:q7909,p pl,test,table,56025df271a343d5f853d58b8edeae1307ed9a3a4a6069a781eb40152ade177f,2,False,4709.0
+s601:table:q7909,p u,test,table,10e6b74b60d06bbdb08d8f8b239f16108458d39333a0805d86074a1613ae0080,2,False,40175.0
+s601:table:q7909,b p u,test,table,a71cc0274a1df35924dc9f6d748f885a12b565e674409f7b75fa07d0536dc284,3,False,1484028.0
+s601:table:q7909,c p pl,test,table,522b0c210cbc4829480ff011db04ff35c2ec57c3d6cc4d011b9722a779349162,3,False,169.0
+s601:table:q7909,c p u,test,table,142f60c1ee1af81f685bc77e4e5201336610efb3323447e62b24676d5aa6bfb8,3,False,1443.0
+s601:table:q7909,p pl u,test,table,18d5688182a981972821c6c753ee68ca583a78856bc5c63c77c8013556580dfa,3,False,4449.0
+s601:table:q7909,b c p u,test,table,d4bf542fdca0be7127b94bc1cf5546156d53e6002b87c2a1f1a2018a1a32fadf,4,False,53294.0
+s601:table:q7909,b p pl u,test,table,8c2a9ff67513d544bb9997c4291414fd2659b8db9055b76d7b905d85c6e7b5b8,4,False,164351.0
+s601:table:q7909,c p pl u,test,table,eb79ea78319bdbc4909dee1a988c28465524ee5b01ce96bef1d2c36b67fe780d,4,False,160.0
+s601:table:q7909,b c p pl u,test,table,e8cafb331dc4e386bf74da41b84a1f416cce6a93560c285bbd8e454a681dd879,5,True,5902.0
+s601:table:q2633,c p,test,table,93aa96cc242c01b1b653339abc1cb8dc94b284deff2a76904d63265607994570,2,False,19600166.0
+s601:table:q2633,c u,test,table,e42a7865d4014de55d0c133344d1b9fa440d67df03440494392c7ffbe58f114d,2,False,124778.0
+s601:table:q2633,p ph,test,table,8e7e846d53b97bea21e86b6dc36573a507b5cb205f11864ae05fa03050fbc960,2,False,24320825.0
+s601:table:q2633,ph v,test,table,6032a8c59e845398d60cd919618799b0e025427a8f705eb4ff49f7b91c1dda04,2,False,11782209.0
+s601:table:q2633,c p ph,test,table,0208a36b7ebb29968a7bc3c398f2d2dc921987053e3e4a71a68cfe1d05697c6e,3,False,28821833518.0
+s601:table:q2633,c p u,test,table,7cfc37d57b7a610c816e2ef86360719d470a29383b79c0cb4c70cfa333bb9fbc,3,False,18181944.0
+s601:table:q2633,p ph v,test,table,3c72b7d63f6d87ee24381f30b3a216b4c7eea28e6f74bcab28a670e8a0609211,3,False,594144621.0
+s601:table:q2633,c p ph u,test,table,2b8d499a565b7a8166dd06f26e514626e18af868eefa7bf218c901325503320c,4,False,26736353163.0
+s601:table:q2633,c p ph v,test,table,944fced392b56087b79d0d6be6b66e754363decca9ca55b7522c8fd11f5a3081,4,False,1775034043352.0
+s601:table:q2633,c p ph u v,test,table,8ec151dbc8b9985d75e531dd5d1dc21883223c88601b43dd096235919a278b59,5,True,22748225334.0
+s601:table:q447,c p,test,table,bf15573201ff9759cad97af9c72a562621c8ed5976b6f25069c8df835c0d99af,2,False,10417.0
+s601:table:q447,p ph,test,table,85952f31cb2673c173d624928167b9f139b2bb85e7a90e26e8482179fe697559,2,False,66.0
+s601:table:q447,p pl,test,table,5759b4e1348001a446c168fa2483cecdd221c909a68875e70c768e6caaeb817a,2,False,664.0
+s601:table:q447,p v,test,table,ce9dcd3b6f915ab6f212ed7751fbb7a0e0698d5b6921a3beff1b0e4e9aa09450,2,False,19607.0
+s601:table:q447,c p ph,test,table,81abf3dc10d58fc67dc313ec2e0c5afa215c1688a853195ef92d200cb1b54ccc,3,False,126.0
+s601:table:q447,c p pl,test,table,c29f7a9ca91c517939da4d356302482c20b0ceb01bc006af9b627fb76c5ef7c5,3,False,1257.0
+s601:table:q447,c p v,test,table,09dbef45998b749a1e40229d170650aae3e2743b0160a905220552ed664d5db5,3,False,37156.0
+s601:table:q447,p ph pl,test,table,beb565e4f1f2177c6f5800bc444806ca14d8b3597ff17d26b3f7b65545426561,3,False,8.0
+s601:table:q447,p ph v,test,table,f35dbcf5436ce3bc963f65e0a4e550121ad804622da05dd254ca17c5156d0246,3,False,235.0
+s601:table:q447,p pl v,test,table,68b7832ec4f975fbe0d20fa51d7be06af6ad5f9c4e3924930dea555d3824c9d6,3,False,2368.0
+s601:table:q447,c p ph pl,test,table,6ca84482c3d27702d24d0f319fde86cc2f3584e4032f7b24615622e5d6e4c05b,4,False,15.0
+s601:table:q447,c p ph v,test,table,12cf41768f2f2e5489d10db1e8170a067cc35857a3f55cd50c9243d496b4dfc1,4,False,449.0
+s601:table:q447,c p pl v,test,table,4e37d5a14adb39ddb6c874097117b57c9398bc4c384f4e0a41c44b2f7b824734,4,False,4484.0
+s601:table:q447,p ph pl v,test,table,45a7dde233606658501de8dee8b07b062beaeb0140fd7f2992465e1f1003c04f,4,False,29.0
+s601:table:q447,c p ph pl v,test,table,407f8a3f27a98f32d89d7fe99c26dabbde331945dbc1614c846a2eb4c79741dd,5,True,54.0
+s601:table:q2428,c pl,test,table,0b4512902730ea775cb84b4b416d881810a3907947d18dfc1786e31b4e525159,2,False,37265.0
+s601:table:q2428,c u,test,table,f7d8e334924a3225ea06689871df6484d43a564f96a63af9a9213a7ef846bdb4,2,False,19428.0
+s601:table:q2428,p pl,test,table,fe025a8a0e050f6af1f0aa2d40b526c4948af2763fc7f47b01b2572b56f188ce,2,False,10099.0
+s601:table:q2428,ph pl,test,table,a16966795295efac307a679d31e2ba817c0794c30a7b5100575a6af016c2b396,2,False,50485.0
+s601:table:q2428,c p pl,test,table,d19a657a7e93d945c7202e782d7d6df0292773b31c507520fe3bb7b74f9bd2d7,3,False,14730.0
+s601:table:q2428,c ph pl,test,table,63cc798620fc36d0b094f4bad366a03ca88d8e654d3a993ad591960ca68b9cd7,3,False,175989.0
+s601:table:q2428,c pl u,test,table,a8f1c9ab16225c8893e593110d158586740fe76b6590c596e21fe1fe69260a2d,3,False,5397.0
+s601:table:q2428,p ph pl,test,table,a0b25680714d27a28e1015adb6a30f051b2d3faad1a0a148b70f71aed9ae1cd0,3,False,33289.0
+s601:table:q2428,c p ph pl,test,table,1e7e3a2a0bed2175d284484a54e76f71d04e67069bd11dacd6c34b967926b019,4,False,48554.0
+s601:table:q2428,c p pl u,test,table,3380959aa9c846dc8a30e2189fc457392846db46e06e09f48d390aa9d46bf4ff,4,False,2133.0
+s601:table:q2428,c ph pl u,test,table,aaca85edba70c47d668ca22e37845aa22ef634a5d23cbf2eb991344630b4ef79,4,False,25486.0
+s601:table:q2428,c p ph pl u,test,table,96c1572dd75feea4d439ea8ee71344481861ee23642a20a38ca93026d905e506,5,True,7031.0
+s601:table:q3253,c p,test,table,7d70631c77f47e3d6ebd80cd1942da1cd3521dbf1baf6b8062c4e3137c7b9b21,2,False,3488915.0
+s601:table:q3253,c u,test,table,1ab574b4878dd4731581a0ede687b8d9bf0274388f3180e6a75519fab089ab62,2,False,169880.0
+s601:table:q3253,p ph,test,table,1d28be31274199127d94835a9fb94d62b2e9b685d2cb3fa5d5c99b9e7f5fda66,2,False,22.0
+s601:table:q3253,ph v,test,table,5fd37068f00e56838344d9ca6fcd318d0bc1f70b20190d236cbed28758009a6f,2,False,78.0
+s601:table:q3253,c p ph,test,table,b655d7c0fe31465fc480ccfd05d39ce2084d06d61649d0b5ebd9624550e8745c,3,False,33843.0
+s601:table:q3253,c p u,test,table,97ca26c9dcbe107fd9c95723a299897a7018d213c002aec45f054e05ab8ff84a,3,False,3400340.0
+s601:table:q3253,p ph v,test,table,1924ce131af765e9c517a233b65fa184186bf5f7cc1f27e35cd58b2be85fbdbb,3,False,536.0
+s601:table:q3253,c p ph u,test,table,c4893cf3dd02c2e7ded6a9bdd0400b6c9321f4e7cba1e6e33c396815cea82987,4,False,32984.0
+s601:table:q3253,c p ph v,test,table,69f6f4d4e5521bb9acd0df36086ae47ec60ddf69bf3b6c4685487bea60d99805,4,False,2080082.0
+s601:table:q3253,c p ph u v,test,table,de03263c518b7cf095a5195d19850e1b6c785bc59f1203c6238279e4273d20f4,5,True,28008.0
+s601:table:q8768,b u,test,table,2cf65d340a2e52fed28787756078740e8e7810a3716716d60f1029a098a3aa92,2,False,75231.0
+s601:table:q8768,p t,test,table,f6e0e76a9f9c7112084def6b82ec0ee602ed9c82d94399c38ee59ad44041c49a,2,False,78.0
+s601:table:q8768,p u,test,table,f51c1f282d7f5a62bb1478e688c22232d852dea684a02823560a17b7942960e8,2,False,11212.0
+s601:table:q8768,u v,test,table,eb5051d0a6a7cf55aaa036e5db5ea68e22f110b5c70f06ccfa41448e6bef9334,2,False,151.0
+s601:table:q8768,b p u,test,table,fcb7850c3453c27c9c69adedbc1e1b8caf0c85070534e6d546f94a2ded83c2cf,3,False,414158.0
+s601:table:q8768,b u v,test,table,9c5a34a0642033427f48ecd2f24fbf96e5220d73e7ed69e427b904119ca3813f,3,False,299.0
+s601:table:q8768,p t u,test,table,eff8763b3e5fd2da0f5bbeea63bec40a746ad84ee9fec8c4d3bf25909bae3d10,3,False,72.0
+s601:table:q8768,p u v,test,table,375e068123914ad4d9825e0bb266ef5ec83a0c372086320d66d4bba7ef3cb842,3,False,45.0
+s601:table:q8768,b p t u,test,table,5fcec0bf14229936bde084e823160d728b10d9080ed49f88d99c7c6857e3abb4,4,False,2684.0
+s601:table:q8768,b p u v,test,table,1f4c3fdfe008cc4e8dbbce2ba2c1f35a312daf169638f6589c28ff8bfc2bca6a,4,False,1646.0
+s601:table:q8768,p t u v,test,table,0eda8a01f05799fb0019cde11f20c3ea9bcfa4293e4eac831f12fae430b11e25,4,False,1.0
+s601:table:q8768,b p t u v,test,table,202b23048b48d7781d02d2a07bd26fe385cee9eff0240474351bf080183b6324,5,True,11.0
+s601:table:q919,c p,test,table,33ad6308c57059f757903a46fa16e1c937d4b78b9f7223395fc6efbdd1e2a0a6,2,False,62709.0
+s601:table:q919,p ph,test,table,57a0ce2437227b7f41f8b09cf92caf2d0cd4d26269c3fa6f2e6ed4cf483d314b,2,False,31887.0
+s601:table:q919,p pl,test,table,ed5b361ba26cdd1171d879eb6d49eab68e5cb034e6db1fed245018274ef985da,2,False,4976.0
+s601:table:q919,p v,test,table,7e333cdc675b13caf59c4beff9537f64f784b034f270d5227e211ff53ea76af8,2,False,152943.0
+s601:table:q919,c p ph,test,table,feb1e64673b24d348b691664c0cead43246e9437f4e832b00a1d4017ab1ac130,3,False,46634.0
+s601:table:q919,c p pl,test,table,df4012777a09b9915e2f965b60c98f77f5e14169005b7b21deec1de29d8773db,3,False,7277.0
+s601:table:q919,c p v,test,table,271361319589e9700e87d1907bcc8ad09f196ef461e91f14c42a3cc31914b5eb,3,False,223673.0
+s601:table:q919,p ph pl,test,table,41ebb3dfcf509d9ac9e5cc57ebeca198703ff73571fdc4b40e07d3b4c0ea291c,3,False,3700.0
+s601:table:q919,p ph v,test,table,84c9183428997443dfd339d781a9389b2a49806a85cefddb6e027af069ec64a4,3,False,113736.0
+s601:table:q919,p pl v,test,table,af86e103a9b31746f290542f29ae563a7a7a33ec430436c25a5b526e7912edc3,3,False,17749.0
+s601:table:q919,c p ph pl,test,table,238d49737e5715dc0ab4898e2e2c8b885276e0a62382e2c97dd12be2056faeb7,4,False,5411.0
+s601:table:q919,c p ph v,test,table,03e2cd7cec5fd8688b873f464d72c1a978e2a52590d1c805830d8426a467db5c,4,False,166336.0
+s601:table:q919,c p pl v,test,table,3d3b905b2a019f14c579069f0ad9c05bd05843939f572c4d01a83da175536af3,4,False,25956.0
+s601:table:q919,p ph pl v,test,table,12a7dc322f8eac9028ec7eee14af96d4b5d972111140ac900191c0becf2c0b48,4,False,13197.0
+s601:table:q919,c p ph pl v,test,table,2dfa7bbb175a7c013ffafe62e5564641bcbe19cf1ac5b8dd38d6b124251a29ab,5,True,19300.0
+s601:table:q2379,c pl,test,table,bde017d0b97614c6b5d96089743b69443e96026a6b5c4c17c5e0bc17d12b47c3,2,False,6799.0
+s601:table:q2379,c u,test,table,5652be8483e5997fe4ef7f5a7aaafbc855b3edcd793c42aa83a11df94e35bc57,2,False,23086.0
+s601:table:q2379,p pl,test,table,a9a3a9c34393a1541718d8669a100be7c8ec9cf6cd81dae8c653f3c585ea3768,2,False,4918.0
+s601:table:q2379,ph pl,test,table,c299e0479cedef8821333dde32c383f18c03d4604495e56a9f382a029ca42c81,2,False,71.0
+s601:table:q2379,c p pl,test,table,c1590f9d98dfaff07aa265e2be151d00e200df8a18a95b4d2d386cd1be05e418,3,False,1326.0
+s601:table:q2379,c ph pl,test,table,107f63561c779c939e366b6644032a720d9280a01191c38e6e3e2872727377dc,3,False,46.0
+s601:table:q2379,c pl u,test,table,e817d07154714e11ae11af94a875c9787845a1f31ab591cebf9dae63c198b3ef,3,False,6328.0
+s601:table:q2379,p ph pl,test,table,b73557e98c591b6cde8c0582fb9e624aed290de373b65bcdc98d9b7e0029ff15,3,False,23.0
+s601:table:q2379,c p ph pl,test,table,6dcae3aa054771f74362046cf4f6c9436fc2ca45f46f73746c11a42dae328ad5,4,False,6.0
+s601:table:q2379,c p pl u,test,table,32dd083a4eec9d6aa79b6528a9ae1641b5c34892243ed3ffe3b069d6d45021e6,4,False,1234.0
+s601:table:q2379,c ph pl u,test,table,90cd5593e444fca037d6c0bc1be9af2af5f76d763bffa2be1cfe9ea1e16eef43,4,False,43.0
+s601:table:q2379,c p ph pl u,test,table,7de6ddac59c302512c16c7b3f49f109362a619a566c5d778a6fdda92cba4af55,5,True,6.0
+s601:table:q5520,b u,test,table,5ce8850578fbe1e3689d5cbb87ec1640dd8992d236b4e3ba53762c6c14c414e0,2,False,78027.0
+s601:table:q5520,c u,test,table,faf19880213a0c250d3e4a8b5b4c0ec3d199dd441e944d1cd48ac43d78581d4c,2,False,167587.0
+s601:table:q5520,p u,test,table,7156c5f989be9263941ed9ac0595c31a8aed7b3ab489a4a31e8f5dd60ac29c5a,2,False,39437.0
+s601:table:q5520,ph u,test,table,842a2f4d2ac426199423a032aa890bb4fde6704e3259bd63c8c994671d99104b,2,False,274754.0
+s601:table:q5520,b c u,test,table,3164482381ebdbe2258c4c82d01cf27bcbea96a4663bf608d97b77ce3b6b6568,3,False,15008341.0
+s601:table:q5520,b p u,test,table,648c32226593386a5eed62beb49b6108a65f8e92060c5c0fa9c35671543240be,3,False,1435699.0
+s601:table:q5520,b ph u,test,table,e6af725c25598343216349abdcd8d8dd0223f06bb5fe80694e3885a9d052d275,3,False,13998900.0
+s601:table:q5520,c p u,test,table,97e448861eb367b68c64015f31a1fb7c31660bc0116fd5c2cd59659b9ae4aa97,3,False,23861088.0
+s601:table:q5520,c ph u,test,table,6125330f5381674a017a9d403295714b4b08a1ad7a7197aecb2fa7534d9a20f7,3,False,246435522.0
+s601:table:q5520,p ph u,test,table,822073ecd2498a3575a9966f9b917de767868d33414b4d78422f84bdb25df854,3,False,22885605.0
+s601:table:q5520,b c p u,test,table,0cab72b35ff8db386a0e9507eed4ad427fc032326f4108f8a416b36531ee2c4e,4,False,2136886578.0
+s601:table:q5520,b c ph u,test,table,d41aa76f2e6d9267367b29c3aafde74e1546b9f72b7072d0cff1ebfaecdcf6b0,4,False,22069603490.0
+s601:table:q5520,b p ph u,test,table,9652934e4c0b5ec4e541ebeb691c68a78e3a133396adc3daa4a139059e5d2b59,4,False,833151507.0
+s601:table:q5520,c p ph u,test,table,d5df3cdc36b0b53c554f86e3f308b333b76d519a3af987565dd667a72d1f79c9,4,False,35087474237.0
+s601:table:q5520,b c p ph u,test,table,387d23bc7bd0f9b8b2b42bcf6bfcc0ed9ba34254c7a0c8fda0399f5f10ad8b18,5,True,3142268753902.0
+s601:table:q7210,b u,test,table,8514072c371aa951ebc9b9305084f81a0ed45ef79c08b87f2c87432a41615b90,2,False,79233.0
+s601:table:q7210,c p,test,table,7c3d0606bcd987f0863a521bd480b2ba1a6ca624a592764154003ff775525449,2,False,3853.0
+s601:table:q7210,p pl,test,table,4de0503c41a66a5a97e0c1e6ba571b0c99c9d5986330fcc0b28e0b908023e5f4,2,False,4973.0
+s601:table:q7210,p u,test,table,841a31423974fb4805212bab0178ea9581d391eb31c815774bdf285d87d49b69,2,False,41189.0
+s601:table:q7210,b p u,test,table,ab9936e3dee8864994a57d8e6323037bd9eb6644700d073b42a6c56f7c3702c2,3,False,1521516.0
+s601:table:q7210,c p pl,test,table,5f078d8710736ca83b3ed20e2eb323dd9577038f9d325a01f2ae3f99d2b82ba3,3,False,455.0
+s601:table:q7210,c p u,test,table,b7a3a10bda96fc791a773fccefb38c795239ec55d1e2383e87007b42396aa31f,3,False,3768.0
+s601:table:q7210,p pl u,test,table,3a04a36da100bf6d7881c2c905d3b58c849b7f83f1a2eef80bd074696e9e9d9f,3,False,4863.0
+s601:table:q7210,b c p u,test,table,5e60a85e1c133a373bb4eed9f81e24e6b9099a6c214ff69c70fb083dea6cc2e8,4,False,139173.0
+s601:table:q7210,b p pl u,test,table,afd794f3c9011f212f8ab60716c0fd97605901b60f61ed4a4b93927ecd35ee6e,4,False,179635.0
+s601:table:q7210,c p pl u,test,table,b6ccae127f64cabdf5dfd3cedaa28370eaa351d72b03f43526a821a8759a7529,4,False,445.0
+s601:table:q7210,b c p pl u,test,table,d047f0eb54976856e459263316dc35feca3189238017aa601e8ec946c4cd3e27,5,True,16431.0
+s601:table:q2569,c p,test,table,466e6b3186c8d6947bcb44c0e223680d2b99bf8faabca8df4041a515ed0b9059,2,False,2673727.0
+s601:table:q2569,c u,test,table,0846497857198ea27667422bda0542098dbeb7de8e57b95f2a0d607f3109194c,2,False,8132.0
+s601:table:q2569,p ph,test,table,852fa6e993c9e16098becc3bd9811880e1caada0f3a6bf45b24b600428368c9e,2,False,48720378.0
+s601:table:q2569,ph v,test,table,382a19c3f4c80e13ddd456379a4a9b247ac46c347f2a434834bc95c329a385ce,2,False,10838814.0
+s601:table:q2569,c p ph,test,table,e6d631eada4f9a0c4e211e3bdf781138cb67fa137e582635171c4ad96d9f73d8,3,False,3588842522.0
+s601:table:q2569,c p u,test,table,62ea6b0721e7eb8d09c2e80fc83e91fa0178d1fc558c96cbb72a1d1bac53f9ec,3,False,2600629.0
+s601:table:q2569,p ph v,test,table,c917e3e375ba120e7b3e7001d382f2fa0fdc28189302384fff4f0098ee46d9d9,3,False,1199510575.0
+s601:table:q2569,c p ph u,test,table,03badc076f0f1616ade7c22ac3f2daa1bc9c8f4ff68cd1cbd58b8e1bcdbbcd74,4,False,3490725344.0
+s601:table:q2569,c p ph v,test,table,51e1585d7e9cbe9e39bbfcec24e78ff13b0931b3b22350e5525dabd7519452c8,4,False,222750685044.0
+s601:table:q2569,c p ph u v,test,table,62b84deb9281417d048f38ab956e7396e8adc39a41bacab94fcd58ceae1c1ac8,5,True,2993233494.0
+s601:table:q6351,b u,test,table,4af0add24b6f914955acdcbd8310d20918cfd4ac5ee508010b501e0c2eebce34,2,False,14964.0
+s601:table:q6351,c u,test,table,9fb37fff97cbeafa287c617d1124be063b55939e8ae2183e924e289270b1d394,2,False,32140.0
+s601:table:q6351,p u,test,table,a38e2d538bc88818c0e9dc78cca6de625bb8339d9ba8549c91e44cd0e781ef81,2,False,7690.0
+s601:table:q6351,ph u,test,table,f22c0520da57d87e6bf761201e2c943b12f36d15295e551ea95aee661340b3f3,2,False,52693.0
+s601:table:q6351,b c u,test,table,9784241ece673c336991f5f180a659cc3b18f1ab907d531dcbd468c72fa452aa,3,False,2878338.0
+s601:table:q6351,b p u,test,table,1a851a88731450fe5c6896fce4a9513d36b0a1b9379c9b5d00129f7f774dd1fd,3,False,279968.0
+s601:table:q6351,b ph u,test,table,1fba8fa120bfebbb408801ff2609cca04e880f5120fb07bada2f2a1da2d7e135,3,False,2684745.0
+s601:table:q6351,c p u,test,table,e7ab50065ab9cf651df7e295884add31ed91098feea4c74e674f7c9c8f9fcaed,3,False,4653022.0
+s601:table:q6351,c ph u,test,table,444f2a2b3e33a398088de3233f7beb0609ed2794807f87f0cb9caa91e95861c8,3,False,47262035.0
+s601:table:q6351,p ph u,test,table,965c5193652dcec0c923e61df626732c9c2a9f0158d57af26f45bdcedb2699c6,3,False,4462799.0
+s601:table:q6351,b c p u,test,table,4e7d359c7f6afaab7d8218a2b0fff0d9bc4c9b443ced204e423279efb739f8ab,4,False,416702746.0
+s601:table:q6351,b c ph u,test,table,c06868934df5715dfce4aa6806a42cb0aae0e15baef0e2301657d300dc11a5ab,4,False,4232565059.0
+s601:table:q6351,b p ph u,test,table,416869bbbcb93675eca5a9716b573c13245bbbf360b5834ea0de09d72b6b1aae,4,False,162468318.0
+s601:table:q6351,c p ph u,test,table,62fe5e15b474ef78d592bf473b3d101299cd7dec7e3863bcca6126e2f52c0996,4,False,6842219529.0
+s601:table:q6351,b c p ph u,test,table,c5043c574dc368b75ae7bd841a2c523dcdbb219a53c36e71f354099576e3e800,5,True,612756911124.0
+s601:table:q6064,b u,test,table,a523a4e0c46725ad45e54c2cc7720fb8a918e09d71cf63de411bbfbe8ce2831b,2,False,75913.0
+s601:table:q6064,c u,test,table,12b6f4a64625555e76fd4827519e19c934fae17cabb18ab98bbd3e22d811781d,2,False,164121.0
+s601:table:q6064,p u,test,table,06d64139e6f769bc934e66daabdab5ee0b7efe6ba43a5f62abf8781551e5f73b,2,False,6454.0
+s601:table:q6064,ph u,test,table,521548dbb229b7d854ad580961eccb22fc92c45ca0aeb4aca99c0f52d0962758,2,False,252486.0
+s601:table:q6064,b c u,test,table,e6c393009db398a938de3d2a473f99ae64c5af2262a382a7824755c57576609b,3,False,14463417.0
+s601:table:q6064,b p u,test,table,103a44710bbb931b26f2e0f70d2adf28fde322b3e806299212f5534c0ab32ddc,3,False,231225.0
+s601:table:q6064,b ph u,test,table,749ed9f68007a568e88a85d65eb06f43349e71de0008e73178119a0595f5b18a,3,False,12659074.0
+s601:table:q6064,c p u,test,table,ccea6818a202402bf0677630656675dd254282151cafa05c3844c607d31cca8d,3,False,3868250.0
+s601:table:q6064,c ph u,test,table,c7e499082b42753eb16be8969864f01a4fdd9df6df47e52e9beed2cbe58844ad,3,False,224317434.0
+s601:table:q6064,p ph u,test,table,95b4b9792b4237cf7c577ccdc0ac333750826b37736c6c5faa7f8a7de1885f84,3,False,3481420.0
+s601:table:q6064,b c p u,test,table,62afb9b6f2dee4ec17aca611a5f4922838e5547efb8a83e69a6c292b98e7cca6,4,False,340895145.0
+s601:table:q6064,b c ph u,test,table,5a9df560db23c653a5e05f251f3d6e0ebf22d3737d09b5bbac5048eb32783f3b,4,False,19768300312.0
+s601:table:q6064,b p ph u,test,table,8c3e4c392fbaae6b2662fc1a6d578caa22dcdc67cf4c0cc3a8410845e3ab68a3,4,False,124718967.0
+s601:table:q6064,c p ph u,test,table,97a83af6e8e0dc65e095fe23d3c6d56a7d3913599a10a83deaf0e5379557b297,4,False,5287043977.0
+s601:table:q6064,b c p ph u,test,table,c11e183491893afdf4f472930263cefbbe225aa9d0fd3ca41bad379ff4463df2,5,True,465928471202.0
+s601:table:q7922,b u,test,table,633d52f0a09ab655e3d3e8dd429f16868f619c5e2effa5bfbac5ebeaaad3f617,2,False,72877.0
+s601:table:q7922,c p,test,table,f8dc7d928623b17c9a5722989a1065dfede180ef35150592ba87645100a25624,2,False,79718.0
+s601:table:q7922,p pl,test,table,b5f93c62f818cecd79efe54573461ced7510d934ec5f5fe92097433957fa64a4,2,False,4682.0
+s601:table:q7922,p u,test,table,b88c0d4ec67264d96949da7396a4d094664c2bc6575823b507e35716ad472532,2,False,38024.0
+s601:table:q7922,b p u,test,table,ce3df2c01881bc2a7d060d44fe29dc2a8f1d199ec023f9901c161fd0aa7713a3,3,False,1404571.0
+s601:table:q7922,c p pl,test,table,5a290ce8657f7e7ffe9b1415780e17466cce44f197406708f3d080c342c6280b,3,False,8828.0
+s601:table:q7922,c p u,test,table,289d40741f64e8f798a7739088966ce42613a7a008d07a3cfc6d9e30b290572f,3,False,71703.0
+s601:table:q7922,p pl u,test,table,d13b6e933dd14b6bfca2690d3672bff0b37f036b74f7ca7e9f6dcc307edf636c,3,False,4211.0
+s601:table:q7922,b c p u,test,table,b20d9d0d0dc17307070b57dbff67d53a2369ac11a98d2fd920fc47b06c0c006d,4,False,2648659.0
+s601:table:q7922,b p pl u,test,table,5bff14f82cca3b691614b3738ea25928405a140d601bbe6bb12eb463b860f23f,4,False,155551.0
+s601:table:q7922,c p pl u,test,table,90928293e62ddd1ac30f5a06de99b943777bede95a4a61a03a90710140b8b946,4,False,7940.0
+s601:table:q7922,b c p pl u,test,table,68f9b77b7b94d97bbd9756586be4afe4e4febc7aad7ace66de874144253aa1b5,5,True,293329.0
+s601:table:q1015,c p,test,table,80196c052fbec38931eb3c505fd17e1a7f9b4846002e75365631d7f4093db46b,2,False,36606.0
+s601:table:q1015,p ph,test,table,bcda8b8448b0c7acf92958968ca0a8dc8fc5099867d20af06aaa7b32586b9125,2,False,61944.0
+s601:table:q1015,p pl,test,table,ca5aec11c640f5be5b0541f74a7cd6d77420bf79a7d9964f4017fa8aaca45f69,2,False,2139.0
+s601:table:q1015,p v,test,table,411f1bc9b287139ef73560a7fe0a07478c1ef38362239fd412b0981a5488e20c,2,False,42.0
+s601:table:q1015,c p ph,test,table,10a5e0a6f67ff138d0cdc916d2e73c04dba1223bfb3f1d40af31b09a413da4a4,3,False,117391.0
+s601:table:q1015,c p pl,test,table,0208f19f93b3edc3f6c795d7cc08d4dada0b9dc147e96e0790cbafd77dffa935,3,False,4054.0
+s601:table:q1015,c p v,test,table,a422b743c37379e36d9a85f54c415787b9515456edfe50e180887383b56c0be8,3,False,79.0
+s601:table:q1015,p ph pl,test,table,92ab6c95be50b4088dea9fbfd4a73c8efea129ec8361c6d623e6aec84c7d6fc0,3,False,6860.0
+s601:table:q1015,p ph v,test,table,9be43d57cd479371db96d845cd19a11dd9113fefcf7cc7f4125de807c6abb678,3,False,134.0
+s601:table:q1015,p pl v,test,table,149bf8715487372d1353eeed165839ce438074ef0970d9b96699cc1bb8fa32a8,3,False,5.0
+s601:table:q1015,c p ph pl,test,table,7760823e448488c4b950aa714b5930b6a5975766bcd00190b5c9b365d71bf5ce,4,False,13001.0
+s601:table:q1015,c p ph v,test,table,532444fb95339f0fab1509c7975f40e118eb56f9d6d9617c5dce1582313e9b5e,4,False,254.0
+s601:table:q1015,c p pl v,test,table,e9184e38aa727dce2da3652eb595bafe082ff28cd03d50b316645e4fe8bb679f,4,False,9.0
+s601:table:q1015,p ph pl v,test,table,de72991ffd43c866282812b99c3a8d6c99bce702dcf232394e5a25ce39912dee,4,False,15.0
+s601:table:q1015,c p ph pl v,test,table,73a6c6fbfe4471afee0c953edceb583238cb8a79910ed6fb99373d8e6fcf4f5a,5,True,28.0
+s601:table:q8369,b u,test,table,dae7e27de7a1b9982984498055cab80ef2ec43fd0c4056c7e5400ca68377def4,2,False,68943.0
+s601:table:q8369,p t,test,table,53187d7b37d47ef714dbfa0a7481978f48d75be7f895a8d0a63e229638194e42,2,False,568.0
+s601:table:q8369,p u,test,table,bbd303aebe7e565f03724c4c3aa7760e3d586c21ec1d338a9f63b372f64dea50,2,False,80086.0
+s601:table:q8369,ph u,test,table,42d8140dc7e31c3df725f1920b716fa437cc867183db0f9eb71e97bf305a81f2,2,False,260690.0
+s601:table:q8369,b p u,test,table,9c70aa394447c5a7f23e29f77509ce9e655742429b97c4d60512a36b4aa148d8,3,False,2754924.0
+s601:table:q8369,b ph u,test,table,e16efeb87ec7796bb6f0325242aa82dd4fb9ae8d70fcc6e6f15eb5bc2cd58e1b,3,False,12369128.0
+s601:table:q8369,p ph u,test,table,2add724f4ace620ec76b446555b2c52a88178ae46cd1c69e33b50b91e2ce785e,3,False,43733178.0
+s601:table:q8369,p t u,test,table,3c3d0d7a6e5d1fc01464a0d651e1db7cb755d97c45ba73029b07f4d649b7800a,3,False,519.0
+s601:table:q8369,b p ph u,test,table,5a688dccb3150c0e6d74f867d714bf7edfc487425ac14a7e2ad71527ad503278,4,False,494262112.0
+s601:table:q8369,b p t u,test,table,9bd068ca7786e1000f875a115594f6a8c5fca51566093888c5ef41d04afce7c6,4,False,17852.0
+s601:table:q8369,p ph t u,test,table,8ae331f6f3c7ddc23c6c1c81817aa183e4506e050a670949f7dd2b480e8a3e99,4,False,283389.0
+s601:table:q8369,b p ph t u,test,table,2483edc835be954bebd670d1e0f1712ab2817dcaeb10bb3adfac03a96d832848,5,True,3202795.0
+s601:table:q2752,c p,test,table,d987d9b594fd19a3de1c168ae2adae2f34eff0e00849f42f0a8e0ee39ef5a094,2,False,29643.0
+s601:table:q2752,c u,test,table,23d6034467a053c5bea2b3b78008ba80804350fb16c624ee52f2da98f64f76a7,2,False,122606.0
+s601:table:q2752,p ph,test,table,1e1b5e40ebf70fe750435b367fdf6593fff348b9982babea651b10decdf3ff4e,2,False,895.0
+s601:table:q2752,ph v,test,table,b654c30acb4b4163f0257e7f24353ee022a80fbe0d1341e5a0a1a98a44456897,2,False,286177.0
+s601:table:q2752,c p ph,test,table,15220cdf92b2d4f413a8729f4085bf3b35c1ec38d1070d7b8fbea231b95a62ac,3,False,1050540.0
+s601:table:q2752,c p u,test,table,ae2d3bba60a2f95f2bbfe21859281df2253528dfc238c378edc8cf8646ecea72,3,False,27282.0
+s601:table:q2752,p ph v,test,table,578df3a392d14e78eca2ae9fb8f5136206f09b8be68e5064f54d0d053ac8bdc8,3,False,22035.0
+s601:table:q2752,c p ph u,test,table,2b3882da4639d1bf605a0e7cce0b13e303e3f82d5c9a35a39238670b56c7d134,4,False,966861.0
+s601:table:q2752,c p ph v,test,table,933f0e7ac0dba311d270d4e835786b86398a27523f9405cd1926cd3aae245b22,4,False,65204451.0
+s601:table:q2752,c p ph u v,test,table,60447b89858e2f72ab6339078da533df08707819f1a5b249c35b9070340ba69b,5,True,829066.0
+s601:table:q515,c p,test,table,4cb77f0a2956154735108c1c6c3b9169c4d0223436293299cfd7a70707f5ca8e,2,False,172.0
+s601:table:q515,p ph,test,table,cc8c5118ac9aa72bef7bb738f9b8c2db8314249b01ecc0d199d0ae0869bfd242,2,False,14518.0
+s601:table:q515,p pl,test,table,7b5b6eb78a116aace0fe38b8087af0c525078c8fdf2d88ce0771c71cc57db131,2,False,564.0
+s601:table:q515,p v,test,table,2239b3b9ade2d0cd5c49fd098fc45dbd09e803cd38e8381d877230dd23e61146,2,False,16546.0
+s601:table:q515,c p ph,test,table,26fd637954ae63ad07e9f97ef52ed6de83d6196a08d8464b249cd15f56fda2d2,3,False,534.0
+s601:table:q515,c p pl,test,table,b6f6f02ed0539508c79a5e5ea705a9ac38a524dcda5ea203ada32e8b57c4943b,3,False,21.0
+s601:table:q515,c p v,test,table,4ce2952a58a039bfbcedb3b53535941c15ebcae77bccb1c167aaa9b59e9b2813,3,False,609.0
+s601:table:q515,p ph pl,test,table,c0def65f3a188c6b740b8b9e49eaca806a978639d3bf96198bdb26996e132cf7,3,False,1752.0
+s601:table:q515,p ph v,test,table,57631a243d72fdaf2e96587c87732585eeb6b81a6bf12719c3ebb4d823c41cf7,3,False,51382.0
+s601:table:q515,p pl v,test,table,91aaea96a406ef9acf7158f8d7d2b10f78dce7d1d3f8e9b9816e0cae2a8b6424,3,False,1996.0
+s601:table:q515,c p ph pl,test,table,d2ec2bb10786dc861a47ceae414a9ed29fe28dca6d00d9cba3a2b0112dc45462,4,False,64.0
+s601:table:q515,c p ph v,test,table,d53de34501be8a144eab50e30ea216fd4a76025a2efe19c345edfb9ffa9163df,4,False,1890.0
+s601:table:q515,c p pl v,test,table,fcf402d4431486db8da8dcabaa2bd3239ce3e7c524c8c49143d0d88d6950b58e,4,False,74.0
+s601:table:q515,p ph pl v,test,table,3ff83d789178d2e65b4c065cb71d49e83a41b5cae78ce75414d79542e33136d4,4,False,6201.0
+s601:table:q515,c p ph pl v,test,table,955357810bedf2ea5a9c0474907f92f9eb4c1e6947b56a193483ae1809979372,5,True,227.0
+s601:table:q7372,b u,test,table,27b553862df6c831fd54a756d7bb0b23249ebb89267cdf21567adf24f9b97917,2,False,71063.0
+s601:table:q7372,c p,test,table,97762bea46a6146f7b6a09a3ee4343039dff1cdc3375a8602179eac803b1d2e1,2,False,61746.0
+s601:table:q7372,p pl,test,table,5d3bbbd229efa2c1b2effc7360ffdd9903ce48b2dfb8bcf6b68fa0a8d4bbff16,2,False,5096.0
+s601:table:q7372,p u,test,table,5e64976cb57e3b12f063056e05d4c3fb87b51cc64a57f4a82815530dc267c412,2,False,37031.0
+s601:table:q7372,b p u,test,table,7b2e61e9ca91b2826c6294419c35538f04776a4cf3b714cd69ade8a586a38d9d,3,False,1367895.0
+s601:table:q7372,c p pl,test,table,87064ff5194b411b3b7004279f6d1ec328b562a2dcc2c761322298e719ea6ae4,3,False,7453.0
+s601:table:q7372,c p u,test,table,4b08d07c610063d4f0031ab9d72c9fec61217c34e29e60368b35d6e5ce9833ef,3,False,54156.0
+s601:table:q7372,p pl u,test,table,322ed0b9576b25ae0051c2f13ed10a8e1842f92a5e34bc3f4939df87b26c5ecf,3,False,4470.0
+s601:table:q7372,b c p u,test,table,005653ef476b0c35e8c9b0bde38974e7a37365ff9a0e08990b8bf0eb49ba917e,4,False,2000489.0
+s601:table:q7372,b p pl u,test,table,2d3de7438419fff2b3fa39fc48b9bdc8cf24191123bd649a34526049a0a20094,4,False,165112.0
+s601:table:q7372,c p pl u,test,table,478e99c7e09a3ada1aa9a9741e6f269f60bdf9a019120823348b545c90c8f6c6,4,False,6537.0
+s601:table:q7372,b c p pl u,test,table,0746d908aba684e18bd16f348d56c8ef0c95dab4bc701e1991b1b16e2617ed88,5,True,241469.0
+s601:value:q352,b u,test,value,c0048b71ec221f3ed6c00fa887ec950dacbb7d75b66ddd5d9fa537b70b657792,2,False,39.0
+s601:value:q352,p u,test,value,a687634d9424f1562dbf5fdf73f4168a6fa9bedf29af15db3bfd8b183f7d7196,2,False,1.0
+s601:value:q352,p v,test,value,5b8f250531a9d265fa147f3e0cf5a2662cc60e36b1ab078f1139d06c8630dcb8,2,False,18.0
+s601:value:q352,b p u,test,value,250a1fbefbc0cae19311e692ed4b0134e1edd59b56f9f9df2edb5c8cbf1f249d,3,False,1.0
+s601:value:q352,p u v,test,value,635e48622e7a0ebe49dfef500499cdfd7cb4256b0cbf72f205e87c2b47c439bb,3,False,1.0
+s601:value:q352,b p u v,test,value,f939627ea4df993b30fd5a2f7aecefa978fd434955b6ca51b6d1425d7d399800,4,True,1.0
+s601:value:q397,b u,test,value,8872b3af49b9f98e9f50a59bbf71a4c148e84cc79931a6e87ccbe9ab811c0eac,2,False,1.0
+s601:value:q397,p u,test,value,2b37473be13d07e307099b130bdc8effe2e5055dcc40cd3847d80af4b441dbf5,2,False,1.0
+s601:value:q397,p v,test,value,f3a4aa765399f35e6a362aba0a54d96fe1ff7fa09066ba0167955fb38d3493c8,2,False,62.0
+s601:value:q397,b p u,test,value,b1445493256f0b10d4e2dfb16eb536be5935c688e88c04b03598a75b6439ba65,3,False,1.0
+s601:value:q397,p u v,test,value,e909ad211893b4099a348499d24bc230dab2ae3187b2177910169dc5dae31757,3,False,1.0
+s601:value:q397,b p u v,test,value,d549c80622daef1c5fa806208d0809b52fbdd2fa4c589d0c8b348abfcf14a240,4,True,1.0
+s601:value:q974,b u,test,value,ff8753196915e0c408e85c78fc5a25606aca571ddeaafbc4f4718abfb9050518,2,False,1.0
+s601:value:q974,p u,test,value,d09b5117b83af178fdfc8c2b69995e734aebd2ea06bbd65bef6d5ca323761147,2,False,1.0
+s601:value:q974,p v,test,value,c53a504735772cd0437f2203dfc7370b7368fee4717887d0e5b07b6a05ebe3d3,2,False,17.0
+s601:value:q974,b p u,test,value,0f7847a4ed259f5fad3d1e04a8300c7dc267b0c633f11835e72c5ecac09c3b72,3,False,1.0
+s601:value:q974,p u v,test,value,6eaa19fc892c8cca0929bd2aa4ad9d68ae7351b850b7873c1c98cf7263cdf40c,3,False,1.0
+s601:value:q974,b p u v,test,value,a85c329231f0ddd2451a1b8b24415c0f69df82fc6e8afb38d0653798d93b8c8e,4,True,1.0
+s601:value:q587,b u,test,value,70bd8c7658900f98f38914373c5f6a4375f48bc21ab9ffb9562829df75d7dc53,2,False,3.0
+s601:value:q587,p u,test,value,96e69a6b4632149efbb14f22475ba0e7843a5cc9cd847334b32dc05a609277f9,2,False,1.0
+s601:value:q587,p v,test,value,efc209845f348dfb7f63d8936354ee0b5f77559cb5ea5816b8b2a54a5157ff29,2,False,75.0
+s601:value:q587,b p u,test,value,622ea94c7f37ac987398144caaaf893ca0f1193ba00dd002ab8c870757f76004,3,False,20.0
+s601:value:q587,p u v,test,value,0bf01f293997b317a40c6c30b4ff54eb0cfbd5def2ee24b0ea8d307dd1021df0,3,False,1.0
+s601:value:q587,b p u v,test,value,60c6cd8365104edb05c8d0e720ac9689a100f1b9bb2afa76f0e2346560f6e187,4,True,1.0
+s601:value:q916,b u,test,value,45df936dcd2b80002783ec04c3ac45f5e30e9ea698235135c47473bd59dc2393,2,False,1.0
+s601:value:q916,p u,test,value,42e0c96d5040fd013278ffae65d2ae616b91656d6824edb61e44c92235efaea6,2,False,1.0
+s601:value:q916,p v,test,value,810fe506f86bf6ef736ef94011abba28ffe6e25fe564e65db5f759d91d459b8b,2,False,2730.0
+s601:value:q916,b p u,test,value,de93cbe2d3a4f3eb70603b954a7aaf51f710ad5a688446e6b7bcd918a1a94977,3,False,1.0
+s601:value:q916,p u v,test,value,9d801bd2a1ab0885de9240efdee2845fdf5024f77135d7221f14db6c5c1a224d,3,False,1.0
+s601:value:q916,b p u v,test,value,23e480f43a5e53252369bff408ea9c6adfa6ded2a37e6e1a1bfa104a88d48817,4,True,1.0
+s601:value:q1183,b u,test,value,de895370e3c54d52ea9be5b18a690d16d1bd3cdffe312229b3d68a76ec3f033b,2,False,1.0
+s601:value:q1183,p u,test,value,9bae2578e709b2198232f8006abb1f61acb8de35b3d82341334e1eb7ec4bfb62,2,False,1.0
+s601:value:q1183,p v,test,value,0b1f9e46e1346ccaf8e659996e4e34e48bbc45c768acff624b88b34102142abd,2,False,6.0
+s601:value:q1183,b p u,test,value,7a48f8a88fc9130fe03583c9b7efd97bdab678ccb162a57abfadcda1862a6d9b,3,False,1.0
+s601:value:q1183,p u v,test,value,691734a885da7d95dc40e6c786e7017461bb6405692161fbfa4988d3f017bb1e,3,False,1.0
+s601:value:q1183,b p u v,test,value,2512eedabaf0fa37bc87a1b73199ca87896d4cf9903321f21f26d5caf4e6b4f1,4,True,1.0
+s601:value:q1564,b u,test,value,54a6a7bd5f94d6fa9b190243a6a310c762836ca334a9ef391c7b36a8e2d04a10,2,False,3.0
+s601:value:q1564,p u,test,value,3aeedf3bcf8066cb6b7fa37048b7aa4bdba1fd1e2ebcd3bd5e5f37cd4eac6bd2,2,False,1.0
+s601:value:q1564,p v,test,value,f12118de14b15c439092125922c6388f76d824bb5d1f30069a53bce5cb2a27bd,2,False,5.0
+s601:value:q1564,b p u,test,value,37a37dfdc9f8f627b7820f38caa60659c2284617d0441603f9a3c7441fc4e6b5,3,False,1.0
+s601:value:q1564,p u v,test,value,c84f19ed670ca482d16dac97382271a41e7d95257f646ea6b33ae8ec223dbedb,3,False,1.0
+s601:value:q1564,b p u v,test,value,9558a177e6f8b4215fa5f84183e24a130f70499a8c3e25bab8e9ace49a7c2511,4,True,1.0
+s601:value:q1469,b u,test,value,ec33704c4e23373a44916812a4ec49e12d9edf5f42d01dffe54867def04655e8,2,False,4.0
+s601:value:q1469,p u,test,value,458feb03195bb59fb6cf4c5c6a1639c9ed7aa0b3dc53b1bd5e26571e6b928529,2,False,1.0
+s601:value:q1469,p v,test,value,6d1f75d6abe8bc1004864857740d99bfa249763b3d95a077ddb7b9059f507a7d,2,False,3.0
+s601:value:q1469,b p u,test,value,47cc2ea0f77b4d70c40c4bffb7a944d2b44dc7c3d6a1e0fe382ce3eb1287961c,3,False,1.0
+s601:value:q1469,p u v,test,value,127193e51dfb7c33c35a1b43e01eb39948f2f650f199dc9f909a479479b0c96e,3,False,1.0
+s601:value:q1469,b p u v,test,value,2ac75de4e1dfb5d423899306c43c559e59955e13d65c9216bb083ac571a20fd6,4,True,1.0
+s601:value:q178,b u,test,value,ee12ed138ad21fbf55d30f710b9629034c04bbc58b231a6dfa7c6fb53d5c87cb,2,False,1.0
+s601:value:q178,p u,test,value,1075350a1cd1dc5cb00dad12b32d0aec956040bd1ee44c10ae58d2a1c4ec4251,2,False,1.0
+s601:value:q178,p v,test,value,e0a98c83646f3e54e2c4b30988017f27a2554268969b430e85cfb30daeec729a,2,False,10.0
+s601:value:q178,b p u,test,value,a2f2e5d1fa81cc053b3324bb5f82ccd8685cee52f93cd875241f340873264ded,3,False,1.0
+s601:value:q178,p u v,test,value,95ed594539df4219c2eaad5d7e523bb431dd94954e9d62706e2b137b557fc1c9,3,False,1.0
+s601:value:q178,b p u v,test,value,f4bc0647ee04178ce4a5cac10de917e110a17f4bdefac5a2812a8aa1f260d7d5,4,True,1.0
+s601:value:q373,b u,test,value,4b6296c5cd672a6ce9924a3e4b155e22d1903231921b1129f98e10680b0ae7ba,2,False,81.0
+s601:value:q373,p u,test,value,2e7590b57b16e44081b539b259d69331e74d5499f70ed40cc4d3bb0d65d09278,2,False,1.0
+s601:value:q373,p v,test,value,34c6b36e050111bcbe73aa1235dbb7a8ef68d2e045c297c3ed14c41462dfe0aa,2,False,164.0
+s601:value:q373,b p u,test,value,2d348b47cb3a8341547c97bcc7356d880feb721c37f598cf1222d78e8e4e8d30,3,False,3.0
+s601:value:q373,p u v,test,value,fbad5541dc053383a8a7ab0720e0c0d661075daaae9aa7a58327128854fb3978,3,False,2.0
+s601:value:q373,b p u v,test,value,436130f2e4a3afc7afa60eef5afdd72ac5ba60b15d2458496d93edc64ae78e40,4,True,7.0
+s601:value:q1893,b u,test,value,b6177571d14470c130bdefa8b500e571a25ab1de75cebf17369c42946a3cfe42,2,False,1.0
+s601:value:q1893,p u,test,value,df494af92d4b02ba3144ddb3f72df8e3e757140a048e2c94654a2b04b86bcdf8,2,False,1.0
+s601:value:q1893,p v,test,value,0b2302deaa821d5b59984d5d84e93998548a86ad651708382e7b6ae02979172a,2,False,71.0
+s601:value:q1893,b p u,test,value,5675ac52ac3be8b249c61de372a7b5e93d5f25bf2d3db1275a7ae8508123dd67,3,False,1.0
+s601:value:q1893,p u v,test,value,d0adfa62358416302371d5df88e378a4d0b309bb464e0466793c85e6a416a4cc,3,False,2.0
+s601:value:q1893,b p u v,test,value,687933e039479ae98bd0392f5902ba9a985d5dfc01b62bd797955990dab9d654,4,True,2.0
+s601:value:q1266,b u,test,value,779c8c934876e4b39615895a8e02635883d06bb5f0958e1c5a65e7a2c80855e5,2,False,2.0
+s601:value:q1266,p u,test,value,b33adbb63fb4645f315858f506056032392eebb4d90b9b7d759ac13fe44ce387,2,False,1.0
+s601:value:q1266,p v,test,value,ee0bcb2c86defc1195af3aa6cf90a0cdcc4e7215de4ff6527d9fb9a5d05f2856,2,False,10.0
+s601:value:q1266,b p u,test,value,9fa5a54ea3e499faf08b26a424d6b006ce94802208a1f97319545c82ee1c2f9c,3,False,1.0
+s601:value:q1266,p u v,test,value,8c0a62fcea222464ace728bbf92a96738c7811ca1295270d39f519c19aa3ab34,3,False,1.0
+s601:value:q1266,b p u v,test,value,284366fce9dddb4e9bb518a845b408a9f7aa9e2d2d89f87c71266b18fe1c490a,4,True,1.0
+s601:value:q1312,b u,test,value,97301d905a22292b4fcd35de4891393c94295e5b4250431374899a8e88dfc6b0,2,False,1.0
+s601:value:q1312,p u,test,value,43e9860e651d12be1d4eb727dfaf311c88f08d7f0dc2063e0d6641f443ef489a,2,False,1.0
+s601:value:q1312,p v,test,value,1db522b0832eb239cd30af2d3617f04ed8a8975ca3c1e15df7e0784277d1d3bc,2,False,181.0
+s601:value:q1312,b p u,test,value,67fc8f21656954bf2ec084594d8b99ee7f9f20113fb317e2257ce9e1991742a6,3,False,1.0
+s601:value:q1312,p u v,test,value,5a05ff00f7950b61d3b93ec3731c5234bbbaf175c059a02d680b478c8f55a7ec,3,False,2.0
+s601:value:q1312,b p u v,test,value,f25a1a0a18d143672b8d3cd54bd2ecdc278c490770f398127a3165447ffc88d0,4,True,2.0
+s601:value:q406,b u,test,value,42b2a8e6fe68438e00f1a1e7f267fb3a8ef59e478bb702ac2dd2cf41b3e7eaad,2,False,1.0
+s601:value:q406,p u,test,value,b3c1b7248f254b45f7ad48f47a835f66643fe38ced92d13e7f452bdf5d6be938,2,False,1.0
+s601:value:q406,p v,test,value,1c7cb54609d9832c76f54b1cc7ce6befbfd9e0d9edd66e6d3e6a039674327034,2,False,6.0
+s601:value:q406,b p u,test,value,6c25163673dad0a3bf086a2cfe2b7cade387fee4410d72fa7804ae7b5bfce645,3,False,1.0
+s601:value:q406,p u v,test,value,d7fd4fe91eb3dd1c80fae4723fe64bd51212093b462b7947eed6547fd489ca0e,3,False,1.0
+s601:value:q406,b p u v,test,value,020e9c83feb81f3c02b6972afdff092fa93e6e703691e8a78f413ba0d3e53859,4,True,1.0
+s601:value:q1338,b u,test,value,1c65df662348ba5be3719b3c88866005d9c765810a45e8e1f1c8f47ffd0876df,2,False,1.0
+s601:value:q1338,p u,test,value,047de3a72bf347959d1dff6fb7d7e232898c5fa11c6534c3e610a956373708fb,2,False,1.0
+s601:value:q1338,p v,test,value,2fe4a47a7bd9ee65e08453dfe6aabb991c8a61a078f8c4503bd4538200698597,2,False,162.0
+s601:value:q1338,b p u,test,value,614f9693645e0ee76518155836b466a79fbee360d03bd1c15348b35858f85c41,3,False,1.0
+s601:value:q1338,p u v,test,value,5d9c65abc78ad670f3188e66f06944081c7a4d0b369b6314aca209f3ef0a4356,3,False,1.0
+s601:value:q1338,b p u v,test,value,3f7391bb6f0157ef9b69129149bfc4c02a50b4646d2126bf7d2474f3759d2f34,4,True,1.0
+s601:value:q1576,b u,test,value,3770432e91b6ef64ab53fe3e8f5dce36c1c899f38906e61e97992e9396958e79,2,False,1.0
+s601:value:q1576,p u,test,value,2487d5adeed1684235816621d21797d19b6b7ab79eb92c4a60785f8e4443a7e6,2,False,1.0
+s601:value:q1576,p v,test,value,0fbcddf5b7db2f0c58ec1a2a55b2670dd2d13c1a0ff546773f7350fd3216354a,2,False,7.0
+s601:value:q1576,b p u,test,value,1594a155c7637e6ee3ba8dc2765c9ba1acee4bd31a40c6f66eca457bad0dc94c,3,False,1.0
+s601:value:q1576,p u v,test,value,46f5f3ecd3aea7422a3940a39614aea37db54700329573587886d204e39cb703,3,False,1.0
+s601:value:q1576,b p u v,test,value,ac944603910cdf6d6b227beeb185b644043125990efac7b71e6086829a29b945,4,True,1.0
+s601:value:q1191,b u,test,value,aec02366d907824d77ae15f35187fe2e12edaa3487068d62395012fcb70cd0db,2,False,26.0
+s601:value:q1191,p u,test,value,1c2716e240ae2766523129e98760af531778de470a204370a3c646cae55c4623,2,False,1.0
+s601:value:q1191,p v,test,value,a912d5f523c22284d2c1da15dc4bf090f44f9e6427ab91cea1d2734a673686c0,2,False,445.0
+s601:value:q1191,b p u,test,value,1983215efee186983d9bd582eed87d809f446ba5120401b166cfdfd276ec587b,3,False,2.0
+s601:value:q1191,p u v,test,value,33f6556875c77e0ac349ad1646228d98fbaf794eadc6214e9dbf53b3c39ac4ef,3,False,2.0
+s601:value:q1191,b p u v,test,value,2cce7b6fa0a2a1f403ee22af265a5e94ee4de1597cbc3b68d17bfc5fd4f55d70,4,True,5.0
+s601:value:q257,b u,test,value,44ab56aaf3bf75b57e1117f2f417fe55a09db7576fdbd9d2d05826dc4b10eac3,2,False,4.0
+s601:value:q257,p u,test,value,f755a037e9e59ed72397c4b788d1197d31a68c6eca6cf1edd5859752eec74fe9,2,False,1.0
+s601:value:q257,p v,test,value,7345e5740688376d0f11c37dbfba345e41c1fa4caa2ca8bce7de56b22fdab963,2,False,1.0
+s601:value:q257,b p u,test,value,7734a960304ebcd0aa828461e7a49f67354b820768ccba1d3b8d55a9e4e3e0d0,3,False,1.0
+s601:value:q257,p u v,test,value,36f852fbbfc7d9f979bbf8c5955dc12cb0f31439377c257d1b9f47e4ccc855f8,3,False,1.0
+s601:value:q257,b p u v,test,value,6433813b6547f84c7fd802dbc66b242078ee3bc872ce444af60cc48e4171ba69,4,True,1.0
+s601:value:q1876,b u,test,value,659c0e9d2d7b0e6c99dcbcf798063ca511c409329e7f0c0ccc2337004830cc41,2,False,1.0
+s601:value:q1876,p u,test,value,dfe9f32eb75cec2341e9e2f8dff7318d42c0a7c285d21df181fb0e87929321d4,2,False,1.0
+s601:value:q1876,p v,test,value,f08119b2246bbfd04df40f54969934aadc033a6153d6cbdb7922590ed4618615,2,False,1.0
+s601:value:q1876,b p u,test,value,a2e5ebe16e7c0f1163c5514a776739634ca9471704af93f2ede788d5a9e49867,3,False,1.0
+s601:value:q1876,p u v,test,value,3b0073a8454de3cbe30ac16d2035b4f06dfd8834aa0bc70af1c677875576affa,3,False,1.0
+s601:value:q1876,b p u v,test,value,06336e27b9bd343b323c658427771745f64b8806953e6b229038f4eaf1b1f2b5,4,True,1.0
+s601:value:q1274,b u,test,value,351a911ae823b9d3919ef4b3a29aad99d1581e4090175cb202cdb406cb4f4f5e,2,False,8.0
+s601:value:q1274,p u,test,value,764d77b6e75e6e941bcb6a08951c2adb7d4f7cdd78b27c43113a446cfa51d4cd,2,False,2.0
+s601:value:q1274,p v,test,value,4a96a7c820427fb26d3dfd400bc5706b10234e29df004916343e558ace36323d,2,False,266.0
+s601:value:q1274,b p u,test,value,a1d4dc526f918c90b7da556a93fda2dafd4ce6b0061c8f4505324f5b44184968,3,False,11.0
+s601:value:q1274,p u v,test,value,9d059ffd47d631d77907dc18bc24c7a288434db998e5b0f34aae22b4236c2487,3,False,1.0
+s601:value:q1274,b p u v,test,value,31e1dca3740022667dc2d833ff0026276737c25d91626cddae9404be1f0d8fef,4,True,1.0
+s601:value:q429,b u,test,value,8de2e791d36e73a69fd078e30c8d094e106249aa05d37b82e5f009b1084c4224,2,False,1.0
+s601:value:q429,p u,test,value,50ab4438528fd1d9c16ffcd59f0238e618ac04b621893fe8d9b78e79ee947ea9,2,False,1.0
+s601:value:q429,p v,test,value,769c58c6237c30655d487c2067bd89ad658793113bedc7f081e273685af847b1,2,False,11.0
+s601:value:q429,b p u,test,value,c259e873f61cd46cd097ff90d461209f698a80817e7c59ffe8d4ab92b7b6aed3,3,False,1.0
+s601:value:q429,p u v,test,value,b95892a512e2d1387a904543a5e8ee46b99e3467de47a499dc47296ab5eef302,3,False,1.0
+s601:value:q429,b p u v,test,value,af67f48beef6f99dd6a9d961dac442ea16064c7786a966cb1c8072d7523ee666,4,True,1.0
+s601:value:q1383,b u,test,value,355395802d2005d4ff100458c1ee05b79641b7846223c73dc21537fb39c901b4,2,False,1.0
+s601:value:q1383,p u,test,value,51d6f83af8b1c8d3bd5105b9099c29089f86227362e17800a342b00cc11b6722,2,False,1.0
+s601:value:q1383,p v,test,value,9b932f9e6936732b2805973e8af41aea742afccff27e0a6e6846b23e0f9d4ab9,2,False,237.0
+s601:value:q1383,b p u,test,value,396d0cb19579078622cc778db1f0963dabe4929fd1cf8ea996f0c8c7757c2457,3,False,1.0
+s601:value:q1383,p u v,test,value,1fea39ec55cc8e7cb332f3006a492c18b5cd4fe4c626798cafff651d2a1f7c49,3,False,1.0
+s601:value:q1383,b p u v,test,value,0987869aea73321ff2b62559c0a6c102ba4074a62aa9042a644b5238d5f6550b,4,True,1.0
+s601:value:q427,b u,test,value,58fcab06e301bfc5120fdda4d3764e47a91231d5d192a786822bc09ca982330a,2,False,9.0
+s601:value:q427,p u,test,value,6819a67656fc0321d2cc625b1ce6f9b148e6aa041079af2b668f5dc4b1eeab5c,2,False,1.0
+s601:value:q427,p v,test,value,1aa5a3b3568a7c08069442fae8b1190a4adae005c8755b2f55c5fd5dee60df25,2,False,39.0
+s601:value:q427,b p u,test,value,cb88b10d28513d1cd21a1d39b13ba5b8544758ba63f5e3127c0d6982d34ccfe0,3,False,1.0
+s601:value:q427,p u v,test,value,5a985f2870f1c81399dd1e581fdb255be323123b0da804e80894be46b3943c22,3,False,2.0
+s601:value:q427,b p u v,test,value,68fbdf95f2013e6ca59b1f6f92e4c58e89f5096cf92a0c4ae9bd983823e4737f,4,True,2.0
+s601:value:q446,b u,test,value,03cab41e9c1bad80a047ed0ee62e392d066a32922dbe65d6236f3c10621b8739,2,False,1.0
+s601:value:q446,p u,test,value,99bd2c476c68c34215f2b28e0b40df0e4f83f49ec9f07aedfbe1a06e0efd8c23,2,False,1.0
+s601:value:q446,p v,test,value,2a9de1950ac4864c7f69415d053bcca117db349c54cd04f70355f5a3312021b8,2,False,4.0
+s601:value:q446,b p u,test,value,9db49faf831dd47318c76835d25199663bbe05e9a5f7a3decacba3333a965a52,3,False,2.0
+s601:value:q446,p u v,test,value,f783e10d0fde8ea150d649e5a893db0fce862fa2040bc311b5d0a58e39292ba9,3,False,1.0
+s601:value:q446,b p u v,test,value,99a89cb2efc502eee544a712545b5496d630ba2432f8b97fbe2659f8e4d8ae06,4,True,1.0
+s601:value:q779,b u,test,value,5120db8e5be433816747293e2ffa3f77fd48ec8a01448063da26e38eb91ae12d,2,False,1.0
+s601:value:q779,p u,test,value,a91430b4c604f39a926c238692fc5e32b0c727dee4b35ee0306fe936891586c1,2,False,1.0
+s601:value:q779,p v,test,value,98f2008a0193f93affb3be412bc30a353701cd1db5c993fef6e24d122f8b8220,2,False,208.0
+s601:value:q779,b p u,test,value,a82897eaca0c339bcb0f9cfb3c6122f155a24191a80ebba9d3e009d7b112f1f6,3,False,1.0
+s601:value:q779,p u v,test,value,7730ce6d4a71ee01ff4a39120c33d0d973d419ad04fd0d52a711a51b682c4d77,3,False,1.0
+s601:value:q779,b p u v,test,value,c74310eee9b62ad12e4b534663782aa9d6da3bbab51e492502c16b8c7bd1e695,4,True,1.0
+s601:value:q991,b u,test,value,2a974bd1fd32b03ad1ba7b0f6b3c0d535de9799d2fe21d4150a06c652b290a5f,2,False,1.0
+s601:value:q991,p u,test,value,5cae23cb9c69743a26386bf45e89c12cdf72b8c487e25114028b3ff017b3d118,2,False,1.0
+s601:value:q991,p v,test,value,ef99977409f234b565eac3920bf8bea9c061391513e4a3c6e9f6f5f6f1a221eb,2,False,1.0
+s601:value:q991,b p u,test,value,d55c02ec4e8fd9338052dd637dffd425e2fa12006d2ead2299ba39f60f902989,3,False,1.0
+s601:value:q991,p u v,test,value,b3a38dede596ffe368eee41b08399789f7a5f84500cb8a62071d4f3fd31a0e94,3,False,1.0
+s601:value:q991,b p u v,test,value,76a730e5f24dfec599c8500e2e88aab9dffc5f917e4297a01cf7815178fcaab5,4,True,1.0
+s601:value:q1467,b u,test,value,3b3863f93774ffaa61606bf7f001bde65997159b4d6f65a7dcfe3351b8586d4e,2,False,1.0
+s601:value:q1467,p u,test,value,2b00bdb4194f1d83307a04b4cc528d3a622edabd40c4f7d8a5bb0fd640caa2a2,2,False,1.0
+s601:value:q1467,p v,test,value,052418538f9f666f21fb249f9088d3746862488e6f7c8e3611c5fb09052e0502,2,False,4.0
+s601:value:q1467,b p u,test,value,420c507389d935caa5a6932762021c5a7849e27279d94e39d785e8844760549e,3,False,1.0
+s601:value:q1467,p u v,test,value,50bfa113a02ee8d7fcbd69ba4cf5a485f9b821c9f8193a78d8f8ee6014abba41,3,False,1.0
+s601:value:q1467,b p u v,test,value,3a2a9e97a0c36039f98b5e8a5cb77c2b57039de8c30b1d0ad7ac621c56f457cf,4,True,1.0
+s601:value:q609,b u,test,value,52de901262db2814a01df2d070112ce799c2f2e11ad189a919485567ebb29e3f,2,False,1.0
+s601:value:q609,p u,test,value,5df2995bc8f75c973c774ef568a1ec77d9452998e4889a0278aafe4ba49109e7,2,False,1.0
+s601:value:q609,p v,test,value,844d78ef8eefad600ea10367f129bdf7909377957a126075353c61fa5876fcd9,2,False,190.0
+s601:value:q609,b p u,test,value,624eac183c8e643077745ed545ec5b782bc3ec70792f569463ccdd19a9225010,3,False,1.0
+s601:value:q609,p u v,test,value,3a9626c2239934a2dca7ebbddf302aaba6172688a27288833e4190e036c1f625,3,False,1.0
+s601:value:q609,b p u v,test,value,5a4a2f3f98ecac0bca5833609162ba64f1ae473b79ba2234b00306e148703b7b,4,True,1.0
+s601:value:q1303,b u,test,value,738af3bae6f035c4307b04d40c1ecc90cff78c42f69094e9d9d722c42edc1fc0,2,False,1.0
+s601:value:q1303,p u,test,value,598fa636b5909177111290a42a9c7e8f321f9541bb2a54765bb509e446cebb04,2,False,1.0
+s601:value:q1303,p v,test,value,b5e38e97ec93365f4e6430a9f011e43199991dfb8d249f775935f8bdc7b120d6,2,False,2.0
+s601:value:q1303,b p u,test,value,65582cc5e6486a2af5623d08f3fdf116b617320ea0867bb59d22659a46d9abf3,3,False,1.0
+s601:value:q1303,p u v,test,value,c0141010c61c40fb8091eb3191a5dfd1749b996015768e9c5e8aff9fbd350d9e,3,False,2.0
+s601:value:q1303,b p u v,test,value,06ccfb10d406a3101fc933b385a4c7e6e91ce1b0af72a82969b10b4361d31bd4,4,True,2.0
+s601:value:q657,b u,test,value,a2a4b2e9c0bc272f1015a3bc75fa8815e5f40078afef27cde2fe516fdaa525c8,2,False,1.0
+s601:value:q657,p u,test,value,c637bdef2707ceb298824a56c0b29cd759fa54443ad33f999b13d44ae7988169,2,False,1.0
+s601:value:q657,p v,test,value,99a24f3fa6b93b778d4dae292c93450fd053c78fe59fb694e235668d80f7f61e,2,False,10.0
+s601:value:q657,b p u,test,value,a214be7361ab7ac5e1a3747ebb8bfd61f163dffc8ab95b6a2175ca1e759f7373,3,False,1.0
+s601:value:q657,p u v,test,value,3cbcb0346284548db3fa21bec7f8cc542ca76c49e7fb774862bd4d36b01d7e0f,3,False,1.0
+s601:value:q657,b p u v,test,value,509205b7e9683cbe2aed86a7e2ff94259b93793d596cb30255a7994933a5456d,4,True,1.0

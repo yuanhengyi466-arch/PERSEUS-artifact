@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "audit_completed": true,
+  "official_slot_coverage_complete": false,
+  "fullprefix_coverage_complete": true,
+  "scope": "SSCard modified-PostgreSQL DBMS hook and card-slot coverage audit",
+  "reason": "The patched hook runs through the full 79-query workload. Shipped 416-slot card files do not cover the 700 consumed slots, while the prefix-preserving fullprefix replay reaches slot 700 with no overflow.",
+  "run_manifest": "paper\\workload_drift_residual_field\\results\\sscard_dbms_e2e\\sscard_dbms_e2e_run_manifest.json",
+  "detail_csv": "paper\\workload_drift_residual_field\\results\\sscard_dbms_e2e\\sscard_dbms_e2e_detail.csv",
+  "summary_csv": "paper\\workload_drift_residual_field\\results\\sscard_dbms_e2e_summary.csv",
+  "table": "paper\\workload_drift_residual_field\\results\\tables\\sscard_dbms_e2e.tex",
+  "query_count": 79,
+  "statement_timeout_ms": 60000,
+  "summary": [
+    {
+      "method": "pg",
+      "label": "PostgreSQL file",
+      "card_file": "pg_pg_single.txt",
+      "repetition": "0",
+      "attempted_queries": 79,
+      "card_rows": 416,
+      "slots_consumed": 700,
+      "slot_covered_queries": 46,
+      "slot_crossing_queries": 1,
+      "slot_overflow_queries": 32,
+      "completed": 28,
+      "timeouts": 18,
+      "errors": 0,
+      "completed_pct": 60.869565217391305,
+      "median_exec_ms_completed": 7673.3175,
+      "p90_exec_ms_completed": 34223.30300000001,
+      "sum_exec_s_completed": 356.67077,
+      "sum_wall_s_all": 1437.3270708,
+      "query_no_start": 0,
+      "query_no_end": 700
+    },
+    {
+      "method": "sscard",
+      "label": "SSCard file",
+      "card_file": "sscard_pg_single.txt",
+      "repetition": "0",
+      "attempted_queries": 79,
+      "card_rows": 416,
+      "slots_consumed": 700,
+      "slot_covered_queries": 46,
+      "slot_crossing_queries": 1,
+      "slot_overflow_queries": 32,
+      "completed": 27,
+      "timeouts": 19,
+      "errors": 0,
+      "completed_pct": 58.69565217391305,
+      "median_exec_ms_completed": 6950.786,
+      "p90_exec_ms_completed": 45487.6462,
+      "sum_exec_s_completed": 423.78520299999997,
+      "sum_wall_s_all": 1564.4806852,
+      "query_no_start": 0,
+      "query_no_end": 700
+    }
+  ],
+  "comparison": {
+    "common_completed_queries": 27,
+    "median_sscard_vs_pg_completed_ratio": 1.0694063368201754,
+    "p90_sscard_vs_pg_completed_ratio": 1.759528418889774,
+    "sscard_faster_common_completed": 8
+  },
+  "fullprefix_manifest": "paper\\workload_drift_residual_field\\results\\sscard_fullprefix_replay_manifest.json",
+  "fullprefix_summary": [
+    {
+      "method": "pg",
+      "label": "PG prefix",
+      "attempted_queries": 79,
+      "completed": 52,
+      "timeouts": 27,
+      "errors": 0,
+      "query_no_end": 700,
+      "median_exec_ms_completed": 623.585,
+      "p90_exec_ms_completed": 7625.7435
+    },
+    {
+      "method": "sscard",
+      "label": "SSCard prefix",
+      "attempted_queries": 79,
+      "completed": 52,
+      "timeouts": 27,
+      "errors": 0,
+      "query_no_end": 700,
+      "median_exec_ms_completed": 735.7555,
+      "p90_exec_ms_completed": 8322.8563
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "residual_hgb": {
+    "config_id": 1,
+    "parameters": {
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20
+    },
+    "clip": [
+      -7.261777652534431,
+      9.470192974858463
+    ]
+  },
+  "direct_hgb": {
+    "config_id": 0,
+    "parameters": {
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 5
+    },
+    "clip": [
+      0.0,
+      13.611032056923495
+    ]
+  },
+  "residual_rf": {
+    "config_id": 1,
+    "parameters": {
+      "max_depth": 14,
+      "min_samples_leaf": 5
+    },
+    "clip": [
+      -7.261777652534431,
+      9.470192974858463
+    ]
+  },
+  "direct_rf": {
+    "config_id": 1,
+    "parameters": {
+      "max_depth": 14,
+      "min_samples_leaf": 5
+    },
+    "clip": [
+      0.0,
+      13.611032056923495
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "family": "mscn_retrain",
+  "selected_config_id": 3,
+  "candidates": [
+    {
+      "family": "mscn_retrain",
+      "config_id": 0,
+      "config": {
+        "lr": 0.0001,
+        "epochs": 20
+      },
+      "tuning": {
+        "n": 500,
+        "median": 5.112388148149391,
+        "p90": 1154.6833386353946,
+        "p95": 4559.686653473207,
+        "p99": 177133.84184840732,
+        "max": 1458050.2684653634,
+        "mean": 7627.501957898106
+      },
+      "cumulative_fit_and_tune_seconds": 11.526548699941486
+    },
+    {
+      "family": "mscn_retrain",
+      "config_id": 1,
+      "config": {
+        "lr": 0.0001,
+        "epochs": 60
+      },
+      "tuning": {
+        "n": 500,
+        "median": 4.82066449308058,
+        "p90": 252.07472696437534,
+        "p95": 1081.952407521698,
+        "p99": 9627.950438652364,
+        "max": 23887.326016727082,
+        "mean": 371.7205424539677
+      },
+      "cumulative_fit_and_tune_seconds": 33.637073699967004
+    },
+    {
+      "family": "mscn_retrain",
+      "config_id": 2,
+      "config": {
+        "lr": 0.001,
+        "epochs": 20
+      },
+      "tuning": {
+        "n": 500,
+        "median": 3.6432823117981243,
+        "p90": 120.63223672325984,
+        "p95": 332.52681223458933,
+        "p99": 2344.986008022143,
+        "max": 6431.6724025480235,
+        "mean": 108.37759022896903
+      },
+      "cumulative_fit_and_tune_seconds": 11.639795299968682
+    },
+    {
+      "family": "mscn_retrain",
+      "config_id": 3,
+      "config": {
+        "lr": 0.001,
+        "epochs": 60
+      },
+      "tuning": {
+        "n": 500,
+        "median": 2.6682907023954527,
+        "p90": 32.808899832236484,
+        "p95": 104.62432432432372,
+        "p99": 1058.8691830670077,
+        "max": 19323.240212755558,
+        "mean": 77.29485611430351
+      },
+      "cumulative_fit_and_tune_seconds": 31.285962200025097
+    }
+  ],
+  "output_log_min": 0.0,
+  "output_log_max": 32.178886254179375,
+  "source_training_rows": 15632,
+  "target_training_rows": 2000,
+  "selected_before_gate_and_test": true,
+  "original_output_range_exceeded_by_fit_labels": 115
+}

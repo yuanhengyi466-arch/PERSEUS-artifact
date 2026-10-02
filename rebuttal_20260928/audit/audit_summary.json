@@ -1,0 +1,107 @@
+{
+  "kind": "Existing-trace audit; no new SQL executions, model fits, or deployment measurements",
+  "native_original_split": {
+    "groups": 4527,
+    "unique_sql_hashes": 1989,
+    "validation_groups": 1337,
+    "test_groups": 3190,
+    "shared_sql_hashes": 892,
+    "test_groups_with_sql_in_validation": 1282,
+    "validation_unique_sql": 1065,
+    "test_unique_sql": 1816,
+    "method_status_counts": {
+      "default:executed": 4527,
+      "native-raw:executed": 4527,
+      "native-final:executed": 4527,
+      "native-multi:executed": 4527,
+      "native-gated:executed": 4527,
+      "default:error": 1,
+      "native-raw:error": 1,
+      "native-final:error": 1,
+      "native-multi:error": 1,
+      "native-gated:error": 1
+    }
+  },
+  "sscard_gate_recheck": {
+    "reports": 128,
+    "original_passing_reports": 34,
+    "eq5_passing_reports": 9,
+    "original_passing_that_fail_eq5": 28,
+    "note": "Reclassification of stored split statistics, not refitting or independent validation."
+  },
+  "nested_row_label_accounting": [
+    {
+      "drift": "column",
+      "split_seeds": "11;12;13",
+      "per_split_fit": 2000,
+      "per_split_gate": 1000,
+      "per_split_fit_plus_gate": 3000,
+      "unique_fit_row_indices_across_seeds": 4640,
+      "unique_gate_row_indices_across_seeds": 2682,
+      "unique_fit_or_gate_row_indices_across_seeds": 6143,
+      "cross_seed_fit_gate_overlap_indices": 1179,
+      "index_hashes_verified": true,
+      "note": "Unique benchmark row indices within drift, not canonical SQL or distinct newly acquired labels; final-test labels and planner executions excluded."
+    },
+    {
+      "drift": "table",
+      "split_seeds": "11;12;13",
+      "per_split_fit": 2000,
+      "per_split_gate": 1000,
+      "per_split_fit_plus_gate": 3000,
+      "unique_fit_row_indices_across_seeds": 4736,
+      "unique_gate_row_indices_across_seeds": 2683,
+      "unique_fit_or_gate_row_indices_across_seeds": 6233,
+      "cross_seed_fit_gate_overlap_indices": 1186,
+      "index_hashes_verified": true,
+      "note": "Unique benchmark row indices within drift, not canonical SQL or distinct newly acquired labels; final-test labels and planner executions excluded."
+    },
+    {
+      "drift": "value",
+      "split_seeds": "11;12;13",
+      "per_split_fit": 500,
+      "per_split_gate": 500,
+      "per_split_fit_plus_gate": 1000,
+      "unique_fit_row_indices_across_seeds": 1151,
+      "unique_gate_row_indices_across_seeds": 1150,
+      "unique_fit_or_gate_row_indices_across_seeds": 1732,
+      "cross_seed_fit_gate_overlap_indices": 569,
+      "index_hashes_verified": true,
+      "note": "Unique benchmark row indices within drift, not canonical SQL or distinct newly acquired labels; final-test labels and planner executions excluded."
+    }
+  ],
+  "limitations": [
+    "Original split contains repeated SQL identities across validation and test; policy metrics reproduce the original protocol only.",
+    "EXPLAIN execution/planning and client wall observations are separate metrics. None includes offline model fitting or inference and all policy-selection overhead.",
+    "Fallback observations are reused exactly, yielding ratio 1 by construction.",
+    "No throughput measurement or fresh grouped-split experiment is produced by this script.",
+    "No source revision ID establishes that local code was the version submitted; matching packaged copies and hashes establish the audited snapshot only."
+  ],
+  "input_provenance": [
+    {
+      "path": "experiments\\summarize_native_callback_policy_grid.py",
+      "sha256": "4c8ecf376150930b72959c1e8c074f5adc4f70e68d17e23d32413b16f10485ef",
+      "packaged_code_identical": true
+    },
+    {
+      "path": "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_hash_full_seeds123\\native_callback_detail.csv",
+      "sha256": "586b03825ff24e4ab3924978654683324deaa7739dbadd21b675e26204375699",
+      "packaged_code_identical": null
+    },
+    {
+      "path": "paper\\workload_drift_residual_field\\results\\native_callback_policy_grid_manifest.json",
+      "sha256": "a2198bfcad42ab66cc6bb16026c435ddd1320babe5fac6cfa5f5f5368e9bfb59",
+      "packaged_code_identical": null
+    },
+    {
+      "path": "paper\\workload_drift_residual_field\\results\\nested_final_test.json",
+      "sha256": "aea8eab43044a20570242a0b16e2c6c0c2dc647e638d65d06b87bb8ecff5fd02",
+      "packaged_code_identical": null
+    },
+    {
+      "path": "experiments\\run_sscard_posthoc_calibration.py",
+      "sha256": "3ba103f02ec64a7fb47f68a6f448817f5358827c92672cdd9fa4e350798228ac",
+      "packaged_code_identical": true
+    }
+  ]
+}

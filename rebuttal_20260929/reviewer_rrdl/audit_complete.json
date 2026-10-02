@@ -1,0 +1,37 @@
+{
+  "unix": 1790670948.080329,
+  "analysis_kind": "existing-evidence audit, no training or SQL execution",
+  "inputs": {
+    "paper\\workload_drift_residual_field\\results\\native_optimizer_callback_hash_full_seeds123\\native_callback_detail.csv": "586b03825ff24e4ab3924978654683324deaa7739dbadd21b675e26204375699",
+    "paper\\workload_drift_residual_field\\results\\native_callback_policy_grid_manifest.json": "a2198bfcad42ab66cc6bb16026c435ddd1320babe5fac6cfa5f5f5368e9bfb59",
+    "experiments\\summarize_native_callback_policy_grid.py": "4c8ecf376150930b72959c1e8c074f5adc4f70e68d17e23d32413b16f10485ef",
+    "rebuttal_20260928\\audit\\native_original_policy_recomputed.csv": "5e13e409f9be6224f6187f4aefa27b9c1655b78e14e8d5ca3c48dc1912e3435c",
+    "rebuttal_20260929\\uc4d_followup\\budget_gate_passes.csv": "063a98f7e145e2695e5725b6773dad986eca98fc4d8eeb5bdd68883dc42e1945",
+    "rebuttal_20260929\\uc4d_followup\\budget_summary.csv": "0476c23d237c6654021aac96d74ee82c212b39d2e60e1d9ac6ff8e347b73c620",
+    "rebuttal_20260929\\reviewer_uc4d\\sscard_eq5_passing_reports.csv": "f7855ce57cba3ca5d478de640613e85fae9eb593977ae0683f8737891c3a2f85",
+    "rebuttal_20260929\\uc4d_followup\\native\\rule_search.json": "fbf6fe33ed7efb242876db8772eba440954b5cacd025f648b9275590a9f7db5c",
+    "rebuttal_20260929\\uc4d_followup\\native\\selected_rules.json": "42ea72dc2cab5a2a165f8cb710d220e935fc9871f644e2ef861098e07d0e5e84",
+    "rebuttal_20260929\\uc4d_followup\\native\\cases.json": "9c8d257996517deaf9e742ed0471c34f2294dd8039a0567016721d32a368c7ee",
+    "rebuttal_20260929\\uc4d_followup\\native\\validation_requests.csv": "72f088f4e352d1b69558bdaee5b936b833e32c03f7889dfd4b44276fba2e965a",
+    "rebuttal_20260929\\uc4d_followup\\native\\test_requests.csv": "866fbeef36b25d214fc13b25eb9de8bcdc15296aa74328e385276ccf499978a8",
+    "rebuttal_20260929\\uc4d_followup\\native\\estimator_gates.json": "deb5ef508d2a11424c761a2e9d12d69cfb55473e43b34c16a8b61faf2561d5d7",
+    "rebuttal_20260929\\uc4d_followup\\native\\environment.json": "4c10776a34108fde0fea563381bdd0e597b2b2d306088d383d00769d799eda31",
+    "rebuttal_20260929\\uc4d_followup\\native\\cost_ledger.json": "96afe7a6d110e6b7450a96166b7aea2fc232e360665bbf6d34d55c242660b249",
+    "rebuttal_20260929\\uc4d_followup\\native\\analysis_complete.json": "32b4872d120e67d073dd8da3172ab408112f8741527c588bba94d544d243b07d",
+    "rebuttal_20260929\\native_subplan_learning\\environment.json": "9bd51cac71db44db808f088931303a7748e0783e152623cc0d771a0dca55d750"
+  },
+  "outputs": {
+    "original_policy_utility.csv": "f18d5864a583f17692304c1a569a2d1fd3649edecaf11793015c46d7c33e0bad",
+    "cap_selected_rules.json": "7423ef5f4d0e3ad711cfa3e6b7a91376223f62b0b2e6b68621b883e7608cf2c3",
+    "cap_validation_sensitivity.csv": "73b70d2fdfd724334bad2b1f5fd6086e83803ba7af1c4b8142010bf4016330ad",
+    "cap_test_replay.csv": "32ccd2b9bd113230fa1afa0e1441a48a461f573caf70824fee89b53a2d1b11a9",
+    "estimator_budget_passes.csv": "063a98f7e145e2695e5725b6773dad986eca98fc4d8eeb5bdd68883dc42e1945",
+    "pg_adapter_gate_scope.csv": "2706ab4a4b2e48dee9f7e7ff2c1ca721011a8f7cca79f7e8da136ef4c28ac4a7",
+    "scope_evidence.json": "ed60867508222a6027ac13bf2d5e3c4e2a60121ba75da1abdcf3737752d6f5cd"
+  },
+  "script_sha256": "7b94248d18038b258e1110734846dcdbb1551ff9a91f881692d2c3606a17ba5a",
+  "analysis_plan_sha256": "98f4c2cd364d9fcd1a014d0ac1ef324b1936847ccbfad153bcb34a2e62b32b4e",
+  "original_submission_unchanged": true,
+  "cap_policy_conditions": 24,
+  "cap_conditions_with_nonzero_validation_admission": 2
+}

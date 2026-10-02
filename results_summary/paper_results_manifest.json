@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "scope": "Windows-native no-API Workload-Drift STATS experiments for SIGMOD-style paper",
+  "drifts": [
+    "column",
+    "table",
+    "value"
+  ],
+  "methods": [
+    "MSCN bitmap",
+    "global calibration",
+    "signature-tail",
+    "isotonic",
+    "ridge-residual",
+    "random-forest",
+    "residual-field",
+    "gated-residual-field"
+  ],
+  "budget_sweep_rows": 26,
+  "expected_negative_result": "Residual-field does not pass the strict value-drift gate under the strong bitmap MSCN baseline.",
+  "outputs": {
+    "budget_sweep_csv": "paper\\workload_drift_residual_field\\results\\budget_sweep.csv",
+    "baseline_summary_csv": "paper\\workload_drift_residual_field\\results\\baseline_summary.csv",
+    "bitmap_effect_summary_csv": "paper\\workload_drift_residual_field\\results\\bitmap_effect_summary.csv",
+    "default_method_comparison_csv": "paper\\workload_drift_residual_field\\results\\default_method_comparison.csv",
+    "figures": "paper\\workload_drift_residual_field\\results\\figures",
+    "tables": "paper\\workload_drift_residual_field\\results\\tables"
+  },
+  "expanded": {
+    "expanded_rows": 39,
+    "expanded_all_csv": "paper\\workload_drift_residual_field\\results\\expanded_all.csv",
+    "expanded_method_comparison_csv": "paper\\workload_drift_residual_field\\results\\expanded_method_comparison.csv",
+    "feature_ablation_csv": "paper\\workload_drift_residual_field\\results\\feature_ablation.csv"
+  }
+}

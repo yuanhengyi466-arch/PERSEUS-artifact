@@ -1,0 +1,11 @@
+role,method,parents,pg11_vs_pg4_plan_changes
+validation,pg,60,25
+validation,pg_map,60,25
+validation,repair,60,32
+test,pg,120,52
+test,pg_map,120,51
+test,repair,120,69
+test,source110,120,52
+test,source125,120,66
+test,target110,120,52
+test,target125,120,52

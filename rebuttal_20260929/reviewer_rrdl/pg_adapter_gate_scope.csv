@@ -1,0 +1,13 @@
+family,drift,passed,gate_subqueries,raw_p95,candidate_p95,raw_p99,candidate_p99,scope
+residual_hgb,column,True,84,55.50462759294827,28.891103700680247,1163.1115548305752,60.02551543992239,PG-relative subplan target; not the same labels/unit as MSCN root gate
+residual_hgb,table,True,82,84.8138087248323,4.671448367838298,183.40141889760739,8.102704314978304,PG-relative subplan target; not the same labels/unit as MSCN root gate
+residual_hgb,value,True,72,22834.650000000005,19.896119867234788,93187.46000000004,57.017062946386204,PG-relative subplan target; not the same labels/unit as MSCN root gate
+direct_hgb,column,True,84,55.50462759294827,16.386547489799863,1163.1115548305752,122.66096016794184,PG-relative subplan target; not the same labels/unit as MSCN root gate
+direct_hgb,table,True,82,84.8138087248323,7.087683501318916,183.40141889760739,11.016224316500278,PG-relative subplan target; not the same labels/unit as MSCN root gate
+direct_hgb,value,True,72,22834.650000000005,24.924976965133624,93187.46000000004,42.798499786039635,PG-relative subplan target; not the same labels/unit as MSCN root gate
+residual_rf,column,False,84,55.50462759294827,36.675625532614966,1163.1115548305752,104.03221428126659,PG-relative subplan target; not the same labels/unit as MSCN root gate
+residual_rf,table,True,82,84.8138087248323,6.240357905213844,183.40141889760739,12.455462067993253,PG-relative subplan target; not the same labels/unit as MSCN root gate
+residual_rf,value,True,72,22834.650000000005,26.46493760814974,93187.46000000004,40.46412890789621,PG-relative subplan target; not the same labels/unit as MSCN root gate
+direct_rf,column,True,84,55.50462759294827,19.406653876642107,1163.1115548305752,143.41566845580948,PG-relative subplan target; not the same labels/unit as MSCN root gate
+direct_rf,table,False,82,84.8138087248323,13.600091260756306,183.40141889760739,20.604346407710405,PG-relative subplan target; not the same labels/unit as MSCN root gate
+direct_rf,value,True,72,22834.650000000005,19.059053815776096,93187.46000000004,45.93980612247524,PG-relative subplan target; not the same labels/unit as MSCN root gate

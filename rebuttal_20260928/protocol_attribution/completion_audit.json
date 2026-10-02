@@ -1,0 +1,63 @@
+{
+  "verified": true,
+  "input_files_hash_checked": 9,
+  "timed_validation_requests": 6480,
+  "timed_test_requests": 16200,
+  "timed_total_requests": 22680,
+  "status_counts": {
+    "validation": {
+      "ok": 6477,
+      "timeout": 3
+    },
+    "test": {
+      "ok": 16200
+    }
+  },
+  "non_ok_records": [
+    {
+      "qid": "a402:column:q3974",
+      "policy": "candidate:hgb",
+      "repeat": "0",
+      "status": "timeout",
+      "error": "QueryCanceled: canceling statement due to statement timeout"
+    },
+    {
+      "qid": "a402:column:q3974",
+      "policy": "candidate:hgb",
+      "repeat": "1",
+      "status": "timeout",
+      "error": "QueryCanceled: canceling statement due to statement timeout"
+    },
+    {
+      "qid": "a402:column:q3974",
+      "policy": "candidate:hgb",
+      "repeat": "2",
+      "status": "timeout",
+      "error": "QueryCanceled: canceling statement due to statement timeout"
+    }
+  ],
+  "zero_within_outer_sql_role_overlap": true,
+  "test_split_query_cases": 540,
+  "unique_test_sql": 494,
+  "root_checks_passed": 1620,
+  "candidate_plan_changes": {
+    "hgb": 159,
+    "rf": 153,
+    "raw": 15
+  },
+  "selected_policies": 12,
+  "selected_global_fallbacks": 12,
+  "candidate_validation_accounting": {
+    "runtime": {
+      "candidate_executions": 3240,
+      "observed_candidate_request_ms": 279917.9732018383
+    },
+    "full": {
+      "candidate_executions": 2160,
+      "observed_candidate_request_ms": 207117.133101332
+    }
+  },
+  "candidate_validation_time_fraction_omitted": 0.26007919129941814,
+  "cost_scope": "Counterfactual requirements from shared measurements; excludes label acquisition and other offline work.",
+  "additional_analysis": "Native-subset q-error is descriptive and computed after completion; no policies were changed."
+}

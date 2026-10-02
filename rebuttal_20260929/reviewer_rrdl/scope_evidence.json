@@ -1,0 +1,35 @@
+{
+  "native_environments": [
+    {
+      "file": "rebuttal_20260929\\uc4d_followup\\native\\environment.json",
+      "version": "PostgreSQL 13.1, compiled by Visual C++ build 1944, 64-bit",
+      "settings": {
+        "jit": "off",
+        "join_collapse_limit": "8",
+        "max_parallel_workers_per_gather": "0",
+        "plan_cache_mode": "force_custom_plan",
+        "random_page_cost": "4",
+        "statement_timeout": "5000",
+        "work_mem": "4096"
+      }
+    },
+    {
+      "file": "rebuttal_20260929\\native_subplan_learning\\environment.json",
+      "version": "PostgreSQL 13.1, compiled by Visual C++ build 1944, 64-bit",
+      "settings": {
+        "jit": "off",
+        "join_collapse_limit": "8",
+        "max_parallel_workers_per_gather": "0",
+        "plan_cache_mode": "force_custom_plan",
+        "random_page_cost": "4",
+        "statement_timeout": "5000",
+        "work_mem": "4096"
+      }
+    }
+  ],
+  "sscard_eq5_archive_passes": 9,
+  "sscard_scope": "Existing artifact reclassification, no unchanged-rule native transfer",
+  "independent_cross_workload_transfer": "not measured",
+  "native_coverage_by_total_labels": "not measured",
+  "online_refresh_catalog_invalidation_concurrent_compilation": "not measured"
+}

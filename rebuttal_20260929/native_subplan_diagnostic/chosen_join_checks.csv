@@ -1,0 +1,2277 @@
+qid,method,active,aliases,node_type,parameterized_context,expected_map_rows,observed_path_rows,matches
+a401:column:q2170,pg,pg,p u,Hash Join,False,,852,
+a401:column:q2170,pg,pg,c p u,Nested Loop,False,,510264,
+a401:column:q2170,pg_map,pg_map,p u,Hash Join,False,852.0,852,True
+a401:column:q2170,pg_map,pg_map,c p u,Nested Loop,False,510264.0,510264,True
+a401:column:q2170,hgb_ratio,hgb_ratio,p u,Hash Join,False,1793.802209654549,1794,True
+a401:column:q2170,hgb_ratio,hgb_ratio,c p u,Nested Loop,False,4707.678099515929,4708,True
+a401:column:q2170,oracle_join,oracle_join,p u,Hash Join,False,855.0,855,True
+a401:column:q2170,oracle_join,oracle_join,c p u,Nested Loop,False,33974.0,33974,True
+a401:column:q2599,pg,pg,u v,Merge Join,False,,32399,
+a401:column:q2599,pg,pg,c u v,Hash Join,False,,9742355,
+a401:column:q2599,pg_map,pg_map,u v,Merge Join,False,32399.0,32399,True
+a401:column:q2599,pg_map,pg_map,c u v,Hash Join,False,9742355.0,9742355,True
+a401:column:q2599,hgb_ratio,hgb_ratio,u v,Merge Join,False,10524.28615843316,10524,True
+a401:column:q2599,hgb_ratio,hgb_ratio,c u v,Hash Join,False,323925.76248095126,323926,True
+a401:column:q2599,oracle_join,oracle_join,u v,Merge Join,False,13854.0,13854,True
+a401:column:q2599,oracle_join,oracle_join,c u v,Hash Join,False,60712.0,60712,True
+a401:column:q6989,pg,pg,b v,Nested Loop,False,,443,
+a401:column:q6989,pg,pg,b u v,Nested Loop,False,,38,
+a401:column:q6989,pg,pg,b ph u v,Nested Loop,False,,2653,
+a401:column:q6989,pg_map,pg_map,b v,Nested Loop,False,,443,
+a401:column:q6989,pg_map,pg_map,b u v,Nested Loop,False,38.0,38,True
+a401:column:q6989,pg_map,pg_map,b ph u v,Nested Loop,False,2653.0,2653,True
+a401:column:q6989,hgb_ratio,hgb_ratio,b v,Nested Loop,False,,443,
+a401:column:q6989,hgb_ratio,hgb_ratio,b u v,Nested Loop,False,54.275298386864726,54,True
+a401:column:q6989,hgb_ratio,hgb_ratio,b ph u v,Nested Loop,False,26676.309157144013,26676,True
+a401:column:q6989,oracle_join,oracle_join,b v,Nested Loop,False,,443,
+a401:column:q6989,oracle_join,oracle_join,b u v,Nested Loop,False,410.0,410,True
+a401:column:q6989,oracle_join,oracle_join,b ph u v,Nested Loop,False,169764.0,169764,True
+a401:column:q6326,pg,pg,p t,Hash Join,False,,590,
+a401:column:q6326,pg,pg,p t u,Nested Loop,False,,553,
+a401:column:q6326,pg,pg,p t u v,Nested Loop,False,,1967,
+a401:column:q6326,pg_map,pg_map,p t,Hash Join,False,590.0,590,True
+a401:column:q6326,pg_map,pg_map,p t u,Nested Loop,False,553.0,553,True
+a401:column:q6326,pg_map,pg_map,p t u v,Nested Loop,False,1967.0,1967,True
+a401:column:q6326,hgb_ratio,hgb_ratio,p t,Hash Join,False,9.686351940549583,10,True
+a401:column:q6326,hgb_ratio,hgb_ratio,p t u,Nested Loop,False,9.078902751057491,9,True
+a401:column:q6326,hgb_ratio,hgb_ratio,p t u v,Nested Loop,False,920.318357171844,920,True
+a401:column:q6326,oracle_join,oracle_join,p t,Hash Join,False,596.0,596,True
+a401:column:q6326,oracle_join,oracle_join,p t u,Nested Loop,False,7.0,7,True
+a401:column:q6326,oracle_join,oracle_join,p t u v,Nested Loop,False,10.0,10,True
+a401:column:q5760,pg,pg,b v,Merge Join,False,,4428,
+a401:column:q5760,pg,pg,b u v,Merge Join,False,,448,
+a401:column:q5760,pg,pg,b c u v,Nested Loop,False,,4283428,
+a401:column:q5760,pg_map,pg_map,b v,Merge Join,False,,4428,
+a401:column:q5760,pg_map,pg_map,b u v,Merge Join,False,399.0,399,True
+a401:column:q5760,pg_map,pg_map,b c u v,Nested Loop,False,4283428.0,4283428,True
+a401:column:q5760,hgb_ratio,hgb_ratio,b v,Merge Join,False,,4428,
+a401:column:q5760,hgb_ratio,hgb_ratio,b u v,Merge Join,False,1137.7456285091598,1138,True
+a401:column:q5760,hgb_ratio,hgb_ratio,b c u v,Nested Loop,False,37314.63482373651,37315,True
+a401:column:q5760,oracle_join,oracle_join,u v,Merge Join,False,515.0,515,True
+a401:column:q5760,oracle_join,oracle_join,c u v,Nested Loop,False,10046.0,10046,True
+a401:column:q5760,oracle_join,oracle_join,b c u v,Hash Join,False,155111.0,155111,True
+a401:column:q6151,pg,pg,c u,Nested Loop,False,,1,
+a401:column:q6151,pg,pg,b c u,Nested Loop,False,,85,
+a401:column:q6151,pg,pg,b c ph u,Nested Loop,False,,119019,
+a401:column:q6151,pg_map,pg_map,c u,Nested Loop,False,1.0,1,True
+a401:column:q6151,pg_map,pg_map,b c u,Nested Loop,False,85.0,85,True
+a401:column:q6151,pg_map,pg_map,b c ph u,Nested Loop,False,119019.0,119019,True
+a401:column:q6151,hgb_ratio,hgb_ratio,c u,Nested Loop,False,1.0,1,True
+a401:column:q6151,hgb_ratio,hgb_ratio,b c u,Nested Loop,False,6.71264201978166,7,True
+a401:column:q6151,hgb_ratio,hgb_ratio,b c ph u,Nested Loop,False,721.9643922922816,722,True
+a401:column:q6151,oracle_join,oracle_join,c u,Nested Loop,False,1.0,1,True
+a401:column:q6151,oracle_join,oracle_join,c ph u,Nested Loop,False,12.0,12,True
+a401:column:q6151,oracle_join,oracle_join,b c ph u,Nested Loop,False,96.0,96,True
+a401:column:q6600,pg,pg,p u,Hash Join,False,,40593,
+a401:column:q6600,pg,pg,p ph u,Merge Join,False,,133811,
+a401:column:q6600,pg,pg,p ph u v,Merge Join,False,,477284,
+a401:column:q6600,pg_map,pg_map,p u,Hash Join,False,40593.0,40593,True
+a401:column:q6600,pg_map,pg_map,p ph u,Merge Join,False,133811.0,133811,True
+a401:column:q6600,pg_map,pg_map,p ph u v,Merge Join,False,477284.0,477284,True
+a401:column:q6600,hgb_ratio,hgb_ratio,p u,Hash Join,False,36762.21981560742,36762,True
+a401:column:q6600,hgb_ratio,hgb_ratio,p ph u,Merge Join,False,121183.1940419837,121183,True
+a401:column:q6600,hgb_ratio,hgb_ratio,p ph u v,Merge Join,False,39374.05540174818,39374,True
+a401:column:q6600,oracle_join,oracle_join,p u,Hash Join,False,31360.0,31360,True
+a401:column:q6600,oracle_join,oracle_join,p u v,Merge Join,False,81008.0,81008,True
+a401:column:q6600,oracle_join,oracle_join,p ph u v,Merge Join,False,474667.0,474667,True
+a401:column:q2380,pg,pg,c u,Nested Loop,False,,1,
+a401:column:q2380,pg,pg,c ph u,Nested Loop,False,,198,
+a401:column:q2380,pg_map,pg_map,c u,Nested Loop,False,1.0,1,True
+a401:column:q2380,pg_map,pg_map,c ph u,Nested Loop,False,198.0,198,True
+a401:column:q2380,hgb_ratio,hgb_ratio,c u,Nested Loop,False,1.0,1,True
+a401:column:q2380,hgb_ratio,hgb_ratio,c ph u,Nested Loop,False,25.933129152751285,26,True
+a401:column:q2380,oracle_join,oracle_join,c u,Nested Loop,False,1.0,1,True
+a401:column:q2380,oracle_join,oracle_join,c ph u,Nested Loop,False,31.0,31,True
+a401:column:q2464,pg,pg,ph u,Hash Join,False,,77491,
+a401:column:q2464,pg,pg,c ph u,Hash Join,False,,68649666,
+a401:column:q2464,pg_map,pg_map,ph u,Hash Join,False,,77491,
+a401:column:q2464,pg_map,pg_map,c ph u,Hash Join,False,68649666.0,68649666,True
+a401:column:q2464,hgb_ratio,hgb_ratio,c u,Hash Join,False,89814.14953809687,89814,True
+a401:column:q2464,hgb_ratio,hgb_ratio,c ph u,Hash Join,False,1607650.0015580358,1607650,True
+a401:column:q2464,oracle_join,pg,ph u,Hash Join,False,,77491,
+a401:column:q2464,oracle_join,pg,c ph u,Hash Join,False,,68649666,
+a401:column:q5312,pg,pg,p v,Merge Join,False,,4772,
+a401:column:q5312,pg,pg,b p v,Merge Join,False,,10619,
+a401:column:q5312,pg,pg,b p u v,Merge Join,False,,1098,
+a401:column:q5312,pg_map,pg_map,p v,Merge Join,False,,4772,
+a401:column:q5312,pg_map,pg_map,b p v,Merge Join,False,,10619,
+a401:column:q5312,pg_map,pg_map,b p u v,Merge Join,False,1098.0,1098,True
+a401:column:q5312,hgb_ratio,hgb_ratio,p v,Merge Join,False,,4772,
+a401:column:q5312,hgb_ratio,hgb_ratio,b p v,Merge Join,False,,10619,
+a401:column:q5312,hgb_ratio,hgb_ratio,b p u v,Merge Join,False,78047.39848892618,78047,True
+a401:column:q5312,oracle_join,oracle_join,p v,Merge Join,False,,4772,
+a401:column:q5312,oracle_join,oracle_join,b p v,Merge Join,False,,10619,
+a401:column:q5312,oracle_join,oracle_join,b p u v,Merge Join,False,88318.0,88318,True
+a401:column:q4278,pg,pg,u v,Merge Join,False,,33880,
+a401:column:q4278,pg,pg,p u v,Hash Join,False,,7297,
+a401:column:q4278,pg_map,pg_map,u v,Merge Join,False,33880.0,33880,True
+a401:column:q4278,pg_map,pg_map,p u v,Hash Join,False,7297.0,7297,True
+a401:column:q4278,hgb_ratio,hgb_ratio,u v,Merge Join,False,1052.6143509399212,1053,True
+a401:column:q4278,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,19633.028572361396,19633,True
+a401:column:q4278,oracle_join,oracle_join,u v,Merge Join,False,20319.0,20319,True
+a401:column:q4278,oracle_join,oracle_join,p u v,Hash Join,False,15899.0,15899,True
+a401:column:q3011,pg,pg,c v,Merge Join,False,,29461,
+a401:column:q3011,pg,pg,c u v,Hash Join,False,,28851,
+a401:column:q3011,pg_map,pg_map,c v,Merge Join,False,29461.0,29461,True
+a401:column:q3011,pg_map,pg_map,c u v,Hash Join,False,28851.0,28851,True
+a401:column:q3011,hgb_ratio,hgb_ratio,c v,Merge Join,False,75647.76512445253,75648,True
+a401:column:q3011,hgb_ratio,hgb_ratio,c u v,Hash Join,False,3160.8702646957354,3161,True
+a401:column:q3011,oracle_join,oracle_join,c v,Merge Join,False,13940.0,13940,True
+a401:column:q3011,oracle_join,oracle_join,c u v,Hash Join,False,13668.0,13668,True
+a401:column:q2139,pg,pg,p u,Hash Join,False,,13243,
+a401:column:q2139,pg,pg,c p u,Hash Join,False,,8012391,
+a401:column:q2139,pg_map,pg_map,p u,Hash Join,False,13243.0,13243,True
+a401:column:q2139,pg_map,pg_map,c p u,Hash Join,False,8012391.0,8012391,True
+a401:column:q2139,hgb_ratio,hgb_ratio,p u,Hash Join,False,15845.992612820075,15846,True
+a401:column:q2139,hgb_ratio,hgb_ratio,c p u,Hash Join,False,32746.151161749374,32746,True
+a401:column:q2139,oracle_join,oracle_join,p u,Hash Join,False,13660.0,13660,True
+a401:column:q2139,oracle_join,oracle_join,c p u,Hash Join,False,361043.0,361043,True
+a401:column:q6212,pg,pg,ph u,Hash Join,False,,41869,
+a401:column:q6212,pg,pg,b ph u,Merge Join,False,,2133256,
+a401:column:q6212,pg,pg,b c ph u,Merge Join,False,,483173078,
+a401:column:q6212,pg_map,pg_map,ph u,Hash Join,False,41869.0,41869,True
+a401:column:q6212,pg_map,pg_map,b ph u,Merge Join,False,2133256.0,2133256,True
+a401:column:q6212,pg_map,pg_map,b c ph u,Merge Join,False,483173078.0,483173078,True
+a401:column:q6212,hgb_ratio,hgb_ratio,ph u,Hash Join,False,27065.83156188235,27066,True
+a401:column:q6212,hgb_ratio,hgb_ratio,b ph u,Merge Join,False,1379023.802201507,1379024,True
+a401:column:q6212,hgb_ratio,hgb_ratio,b c ph u,Merge Join,False,13906.23536648148,13906,True
+a401:column:q6212,oracle_join,oracle_join,c u,Hash Join,False,259.0,259,True
+a401:column:q6212,oracle_join,oracle_join,c ph u,Nested Loop,False,339.0,339,True
+a401:column:q6212,oracle_join,oracle_join,b c ph u,Nested Loop,False,947.0,947,True
+a401:column:q3853,pg,pg,p u,Hash Join,False,,12322,
+a401:column:q3853,pg,pg,p ph u,Nested Loop,False,,6728700,
+a401:column:q3853,pg_map,pg_map,p u,Hash Join,False,,12322,
+a401:column:q3853,pg_map,pg_map,p ph u,Nested Loop,False,6728700.0,6728700,True
+a401:column:q3853,hgb_ratio,hgb_ratio,p u,Hash Join,False,,12322,
+a401:column:q3853,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,945357.05327666,945357,True
+a401:column:q3853,oracle_join,oracle_join,p u,Hash Join,False,,12322,
+a401:column:q3853,oracle_join,oracle_join,p ph u,Nested Loop,False,120515.0,120515,True
+a401:column:q3889,pg,pg,ph u,Hash Join,False,,58983,
+a401:column:q3889,pg,pg,p ph u,Nested Loop,False,,4827160,
+a401:column:q3889,pg_map,pg_map,ph u,Hash Join,False,58983.0,58983,True
+a401:column:q3889,pg_map,pg_map,p ph u,Nested Loop,False,4827160.0,4827160,True
+a401:column:q3889,hgb_ratio,hgb_ratio,ph u,Hash Join,False,1422.7245122317852,1423,True
+a401:column:q3889,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,600971.975046581,600972,True
+a401:column:q3889,oracle_join,oracle_join,ph u,Hash Join,False,63944.0,63944,True
+a401:column:q3889,oracle_join,oracle_join,p ph u,Nested Loop,False,709773.0,709773,True
+a401:column:q5493,pg,pg,c u,Merge Join,False,,124358,
+a401:column:q5493,pg,pg,ph v,Merge Join,False,,11660805,
+a401:column:q5493,pg,pg,c ph u v,Merge Join,False,,753405092,
+a401:column:q5493,pg_map,pg_map,u v,Merge Join,False,32490.0,32490,True
+a401:column:q5493,pg_map,pg_map,ph u v,Hash Join,False,222472.0,222472,True
+a401:column:q5493,pg_map,pg_map,c ph u v,Hash Join,False,753405092.0,753405092,True
+a401:column:q5493,hgb_ratio,hgb_ratio,u v,Merge Join,False,4017.5293238852314,4018,True
+a401:column:q5493,hgb_ratio,hgb_ratio,ph u v,Nested Loop,False,27509.62707735904,27510,True
+a401:column:q5493,hgb_ratio,hgb_ratio,c ph u v,Hash Join,False,1723084.9403440943,1723085,True
+a401:column:q5493,oracle_join,pg,c u,Merge Join,False,,124358,
+a401:column:q5493,oracle_join,pg,ph v,Merge Join,False,,11660805,
+a401:column:q5493,oracle_join,pg,c ph u v,Merge Join,False,,753405092,
+a401:column:q5813,pg,pg,pl v,Nested Loop,False,,114,
+a401:column:q5813,pg,pg,ph pl v,Nested Loop,False,,158,
+a401:column:q5813,pg,pg,c ph pl v,Nested Loop,False,,719,
+a401:column:q5813,pg_map,pg_map,pl v,Nested Loop,False,,114,
+a401:column:q5813,pg_map,pg_map,ph pl v,Nested Loop,False,,158,
+a401:column:q5813,pg_map,pg_map,c ph pl v,Nested Loop,False,719.0,719,True
+a401:column:q5813,hgb_ratio,hgb_ratio,pl v,Nested Loop,False,,114,
+a401:column:q5813,hgb_ratio,hgb_ratio,c pl v,Nested Loop,False,,100,
+a401:column:q5813,hgb_ratio,hgb_ratio,c ph pl v,Nested Loop,False,315.10422251406965,315,True
+a401:column:q5813,oracle_join,oracle_join,pl v,Nested Loop,False,,114,
+a401:column:q5813,oracle_join,oracle_join,ph pl v,Nested Loop,False,,158,
+a401:column:q5813,oracle_join,oracle_join,c ph pl v,Nested Loop,False,169.0,169,True
+a401:column:q4149,pg,pg,p u,Hash Join,False,,44,
+a401:column:q4149,pg,pg,p ph u,Nested Loop,False,,5,
+a401:column:q4149,pg_map,pg_map,p u,Hash Join,False,44.0,44,True
+a401:column:q4149,pg_map,pg_map,p ph u,Nested Loop,False,5.0,5,True
+a401:column:q4149,hgb_ratio,hgb_ratio,p u,Hash Join,False,2.178882014155106,2,True
+a401:column:q4149,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,5.447205035387765,5,True
+a401:column:q4149,oracle_join,oracle_join,p u,Hash Join,False,84.0,84,True
+a401:column:q4149,oracle_join,oracle_join,p ph u,Nested Loop,False,10.0,10,True
+a401:column:q2709,pg,pg,u v,Merge Join,False,,17106,
+a401:column:q2709,pg,pg,c u v,Merge Join,False,,5266073,
+a401:column:q2709,pg_map,pg_map,u v,Merge Join,False,17106.0,17106,True
+a401:column:q2709,pg_map,pg_map,c u v,Merge Join,False,5266073.0,5266073,True
+a401:column:q2709,hgb_ratio,hgb_ratio,u v,Merge Join,False,23502.6323869691,23503,True
+a401:column:q2709,hgb_ratio,hgb_ratio,c u v,Merge Join,False,31258.528553486143,31259,True
+a401:column:q2709,oracle_join,oracle_join,u v,Merge Join,False,4252.0,4252,True
+a401:column:q2709,oracle_join,oracle_join,c u v,Merge Join,False,1313.0,1313,True
+a401:column:q4007,pg,pg,p u,Hash Join,False,,45489,
+a401:column:q4007,pg,pg,p ph u,Nested Loop,False,,22243320,
+a401:column:q4007,pg_map,pg_map,p u,Hash Join,False,,45489,
+a401:column:q4007,pg_map,pg_map,p ph u,Nested Loop,False,22243320.0,22243320,True
+a401:column:q4007,hgb_ratio,hgb_ratio,ph u,Hash Join,False,3204.538575543164,3205,True
+a401:column:q4007,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,467870.05474888696,467870,True
+a401:column:q4007,oracle_join,pg,p u,Hash Join,False,,45489,
+a401:column:q4007,oracle_join,pg,p ph u,Nested Loop,False,,22243320,
+a401:column:q8315,pg,pg,p v,Hash Join,False,,102,
+a401:column:q8315,pg,pg,p u v,Nested Loop,False,,99,
+a401:column:q8315,pg,pg,c p u v,Nested Loop,False,,187,
+a401:column:q8315,pg,pg,c p ph u v,Nested Loop,False,,618,
+a401:column:q8315,pg,pg,b c p ph u v,Nested Loop,False,,22486,
+a401:column:q8315,pg_map,pg_map,p v,Hash Join,False,102.0,102,True
+a401:column:q8315,pg_map,pg_map,p u v,Nested Loop,False,99.0,99,True
+a401:column:q8315,pg_map,pg_map,c p u v,Nested Loop,False,187.0,187,True
+a401:column:q8315,pg_map,pg_map,c p ph u v,Nested Loop,False,618.0,618,True
+a401:column:q8315,pg_map,pg_map,b c p ph u v,Nested Loop,False,22486.0,22486,True
+a401:column:q8315,hgb_ratio,hgb_ratio,p v,Hash Join,False,1143.6376900117539,1144,True
+a401:column:q8315,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1110.0012873643493,1110,True
+a401:column:q8315,hgb_ratio,hgb_ratio,c p u v,Nested Loop,False,2096.669098354882,2097,True
+a401:column:q8315,hgb_ratio,hgb_ratio,c p ph u v,Nested Loop,False,6929.098945365333,6929,True
+a401:column:q8315,hgb_ratio,hgb_ratio,b c p ph u v,Hash Join,False,114980.43638304448,114980,True
+a401:column:q8315,oracle_join,oracle_join,p v,Hash Join,False,506.0,506,True
+a401:column:q8315,oracle_join,oracle_join,p u v,Nested Loop,False,314.0,314,True
+a401:column:q8315,oracle_join,oracle_join,c p u v,Nested Loop,False,1111.0,1111,True
+a401:column:q8315,oracle_join,oracle_join,c p ph u v,Nested Loop,False,10735.0,10735,True
+a401:column:q8315,oracle_join,oracle_join,b c p ph u v,Hash Join,False,108082.0,108082,True
+a401:column:q5739,pg,pg,b v,Merge Join,False,,4428,
+a401:column:q5739,pg,pg,b u v,Merge Join,False,,462,
+a401:column:q5739,pg,pg,b c u v,Nested Loop,False,,5632973,
+a401:column:q5739,pg_map,pg_map,b v,Merge Join,False,,4428,
+a401:column:q5739,pg_map,pg_map,b u v,Merge Join,False,411.0,411,True
+a401:column:q5739,pg_map,pg_map,b c u v,Nested Loop,False,5632973.0,5632973,True
+a401:column:q5739,hgb_ratio,hgb_ratio,b v,Merge Join,False,,4428,
+a401:column:q5739,hgb_ratio,hgb_ratio,b u v,Merge Join,False,4856.078222712678,4856,True
+a401:column:q5739,hgb_ratio,hgb_ratio,b c u v,Hash Join,False,108913.20938434421,108913,True
+a401:column:q5739,oracle_join,oracle_join,u v,Merge Join,False,807.0,807,True
+a401:column:q5739,oracle_join,oracle_join,c u v,Nested Loop,False,30125.0,30125,True
+a401:column:q5739,oracle_join,oracle_join,b c u v,Merge Join,False,584560.0,584560,True
+a401:column:q6359,pg,pg,p pl,Hash Join,False,,1455,
+a401:column:q6359,pg,pg,p pl u,Nested Loop,False,,1434,
+a401:column:q6359,pg,pg,p pl u v,Nested Loop,False,,5115,
+a401:column:q6359,pg_map,pg_map,p pl,Hash Join,False,1455.0,1455,True
+a401:column:q6359,pg_map,pg_map,p pl u,Nested Loop,False,1434.0,1434,True
+a401:column:q6359,pg_map,pg_map,p pl u v,Nested Loop,False,5115.0,5115,True
+a401:column:q6359,hgb_ratio,hgb_ratio,p pl,Hash Join,False,1625.7556646420894,1626,True
+a401:column:q6359,hgb_ratio,hgb_ratio,p pl u,Nested Loop,False,1602.2911498946778,1602,True
+a401:column:q6359,hgb_ratio,hgb_ratio,p pl u v,Nested Loop,False,30274.810813386535,30275,True
+a401:column:q6359,oracle_join,oracle_join,p pl,Hash Join,False,7864.0,7864,True
+a401:column:q6359,oracle_join,oracle_join,p pl u,Hash Join,False,7668.0,7668,True
+a401:column:q6359,oracle_join,oracle_join,p pl u v,Nested Loop,False,272281.0,272281,True
+a401:column:q2711,pg,pg,u v,Merge Join,False,,208,
+a401:column:q2711,pg,pg,c u v,Nested Loop,False,,63354,
+a401:column:q2711,pg_map,pg_map,u v,Merge Join,False,208.0,208,True
+a401:column:q2711,pg_map,pg_map,c u v,Nested Loop,False,63354.0,63354,True
+a401:column:q2711,hgb_ratio,hgb_ratio,u v,Merge Join,False,347.9857869230818,348,True
+a401:column:q2711,hgb_ratio,hgb_ratio,c u v,Nested Loop,False,50698.85234094746,50699,True
+a401:column:q2711,oracle_join,oracle_join,u v,Merge Join,False,1097.0,1097,True
+a401:column:q2711,oracle_join,oracle_join,c u v,Nested Loop,False,507376.0,507376,True
+a401:column:q3953,pg,pg,p u,Hash Join,False,,45793,
+a401:column:q3953,pg,pg,p ph u,Nested Loop,False,,25006399,
+a401:column:q3953,pg_map,pg_map,p u,Hash Join,False,,45793,
+a401:column:q3953,pg_map,pg_map,p ph u,Nested Loop,False,25006399.0,25006399,True
+a401:column:q3953,hgb_ratio,hgb_ratio,ph u,Merge Join,False,10810.375698588065,10810,True
+a401:column:q3953,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,329060.68888303847,329061,True
+a401:column:q3953,oracle_join,oracle_join,p u,Hash Join,False,,45793,
+a401:column:q3953,oracle_join,oracle_join,p ph u,Nested Loop,False,230431.0,230431,True
+a401:column:q4620,pg,pg,ph v,Nested Loop,False,,32898,
+a401:column:q4620,pg,pg,c ph v,Hash Join,False,,68073,
+a401:column:q4620,pg_map,pg_map,ph v,Nested Loop,False,32898.0,32898,True
+a401:column:q4620,pg_map,pg_map,c ph v,Hash Join,False,68073.0,68073,True
+a401:column:q4620,hgb_ratio,hgb_ratio,ph v,Nested Loop,False,41465.87049058671,41466,True
+a401:column:q4620,hgb_ratio,hgb_ratio,c ph v,Hash Join,False,10464.151523279557,10464,True
+a401:column:q4620,oracle_join,oracle_join,ph v,Nested Loop,False,46020.0,46020,True
+a401:column:q4620,oracle_join,oracle_join,c ph v,Hash Join,False,78771.0,78771,True
+a401:column:q4250,pg,pg,u v,Merge Join,False,,31498,
+a401:column:q4250,pg,pg,p u v,Hash Join,False,,31435,
+a401:column:q4250,pg_map,pg_map,u v,Merge Join,False,31498.0,31498,True
+a401:column:q4250,pg_map,pg_map,p u v,Hash Join,False,31435.0,31435,True
+a401:column:q4250,hgb_ratio,hgb_ratio,u v,Merge Join,False,4977.671948131355,4978,True
+a401:column:q4250,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,125322.19144006207,125322,True
+a401:column:q4250,oracle_join,oracle_join,u v,Merge Join,False,23320.0,23320,True
+a401:column:q4250,oracle_join,oracle_join,p u v,Hash Join,False,21360.0,21360,True
+a401:column:q3936,pg,pg,p u,Hash Join,False,,40482,
+a401:column:q3936,pg,pg,p ph u,Nested Loop,False,,22106201,
+a401:column:q3936,pg_map,pg_map,p u,Hash Join,False,,40482,
+a401:column:q3936,pg_map,pg_map,p ph u,Nested Loop,False,22106201.0,22106201,True
+a401:column:q3936,hgb_ratio,hgb_ratio,ph u,Merge Join,False,4923.7744221022285,4924,True
+a401:column:q3936,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,242907.08788910828,242907,True
+a401:column:q3936,oracle_join,oracle_join,p u,Hash Join,False,,40482,
+a401:column:q3936,oracle_join,oracle_join,p ph u,Nested Loop,False,870000.0,870000,True
+a401:column:q4205,pg,pg,u v,Merge Join,False,,34508,
+a401:column:q4205,pg,pg,p u v,Hash Join,False,,15476,
+a401:column:q4205,pg_map,pg_map,u v,Merge Join,False,34508.0,34508,True
+a401:column:q4205,pg_map,pg_map,p u v,Hash Join,False,15476.0,15476,True
+a401:column:q4205,hgb_ratio,hgb_ratio,u v,Merge Join,False,14929.673020218508,14930,True
+a401:column:q4205,hgb_ratio,hgb_ratio,p u v,Hash Join,False,118249.7768695115,118250,True
+a401:column:q4205,oracle_join,oracle_join,u v,Merge Join,False,29310.0,29310,True
+a401:column:q4205,oracle_join,oracle_join,p u v,Hash Join,False,19858.0,19858,True
+a401:column:q4044,pg,pg,p u,Nested Loop,False,,2,
+a401:column:q4044,pg,pg,p ph u,Nested Loop,False,,7,
+a401:column:q4044,pg_map,pg_map,p u,Nested Loop,False,2.0,2,True
+a401:column:q4044,pg_map,pg_map,p ph u,Nested Loop,False,7.0,7,True
+a401:column:q4044,hgb_ratio,hgb_ratio,p u,Nested Loop,False,1.0,1,True
+a401:column:q4044,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,29.96374523514319,30,True
+a401:column:q4044,oracle_join,oracle_join,p u,Nested Loop,False,1.0,1,True
+a401:column:q4044,oracle_join,oracle_join,p ph u,Nested Loop,False,11.0,11,True
+a401:column:q5066,pg,pg,u v,Merge Join,False,,194,
+a401:column:q5066,pg,pg,p u v,Nested Loop,False,,12498,
+a401:column:q5066,pg,pg,c p u v,Merge Join,False,,19062368,
+a401:column:q5066,pg_map,pg_map,u v,Merge Join,False,194.0,194,True
+a401:column:q5066,pg_map,pg_map,p u v,Nested Loop,False,435.0,435,True
+a401:column:q5066,pg_map,pg_map,c p u v,Nested Loop,False,19062368.0,19062368,True
+a401:column:q5066,hgb_ratio,hgb_ratio,u v,Merge Join,False,997.8397176396049,998,True
+a401:column:q5066,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,2237.4241091403514,2237,True
+a401:column:q5066,hgb_ratio,hgb_ratio,c p u v,Nested Loop,False,99002.15920168617,99002,True
+a401:column:q5066,oracle_join,oracle_join,u v,Merge Join,False,537.0,537,True
+a401:column:q5066,oracle_join,oracle_join,c u v,Nested Loop,False,14413.0,14413,True
+a401:column:q5066,oracle_join,oracle_join,c p u v,Hash Join,False,611887.0,611887,True
+a401:column:q7012,pg,pg,b v,Merge Join,False,,715388,
+a401:column:q7012,pg,pg,b u v,Merge Join,False,,51608,
+a401:column:q7012,pg,pg,b ph u v,Merge Join,False,,16435638,
+a401:column:q7012,pg_map,pg_map,b v,Merge Join,False,,715388,
+a401:column:q7012,pg_map,pg_map,b u v,Merge Join,False,51608.0,51608,True
+a401:column:q7012,pg_map,pg_map,b ph u v,Merge Join,False,16435638.0,16435638,True
+a401:column:q7012,hgb_ratio,hgb_ratio,b v,Merge Join,False,,715388,
+a401:column:q7012,hgb_ratio,hgb_ratio,b u v,Merge Join,False,76135.99302756689,76136,True
+a401:column:q7012,hgb_ratio,hgb_ratio,b ph u v,Merge Join,False,1751689.919415148,1751690,True
+a401:column:q7012,oracle_join,oracle_join,b v,Merge Join,False,,715388,
+a401:column:q7012,oracle_join,oracle_join,b u v,Merge Join,False,4871.0,4871,True
+a401:column:q7012,oracle_join,oracle_join,b ph u v,Nested Loop,False,33680.0,33680,True
+a401:column:q3831,pg,pg,p u,Hash Join,False,,6015,
+a401:column:q3831,pg,pg,p ph u,Nested Loop,False,,741078,
+a401:column:q3831,pg_map,pg_map,p u,Hash Join,False,,6015,
+a401:column:q3831,pg_map,pg_map,p ph u,Nested Loop,False,741078.0,741078,True
+a401:column:q3831,hgb_ratio,hgb_ratio,ph u,Hash Join,False,4287.201995788266,4287,True
+a401:column:q3831,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,795599.0147507488,795599,True
+a401:column:q3831,oracle_join,oracle_join,p u,Hash Join,False,,6015,
+a401:column:q3831,oracle_join,oracle_join,p ph u,Nested Loop,False,166623.0,166623,True
+a401:column:q5667,pg,pg,b v,Merge Join,False,,4352,
+a401:column:q5667,pg,pg,b u v,Merge Join,False,,457,
+a401:column:q5667,pg,pg,b c u v,Nested Loop,False,,4368040,
+a401:column:q5667,pg_map,pg_map,b v,Merge Join,False,,4352,
+a401:column:q5667,pg_map,pg_map,b u v,Merge Join,False,407.0,407,True
+a401:column:q5667,pg_map,pg_map,b c u v,Nested Loop,False,4368040.0,4368040,True
+a401:column:q5667,hgb_ratio,hgb_ratio,b v,Merge Join,False,,4352,
+a401:column:q5667,hgb_ratio,hgb_ratio,b u v,Merge Join,False,2314.4665023588705,2314,True
+a401:column:q5667,hgb_ratio,hgb_ratio,b c u v,Nested Loop,False,161734.0093208566,161734,True
+a401:column:q5667,oracle_join,oracle_join,b v,Merge Join,False,,4352,
+a401:column:q5667,oracle_join,oracle_join,b u v,Merge Join,False,11880.0,11880,True
+a401:column:q5667,oracle_join,oracle_join,b c u v,Hash Join,False,662403.0,662403,True
+a401:column:q4798,pg,pg,pl v,Nested Loop,False,,53,
+a401:column:q4798,pg,pg,p pl v,Nested Loop,False,,2,
+a401:column:q4798,pg,pg,c p pl v,Nested Loop,False,,2,
+a401:column:q4798,pg_map,pg_map,pl v,Nested Loop,False,53.0,53,True
+a401:column:q4798,pg_map,pg_map,p pl v,Nested Loop,False,,2,
+a401:column:q4798,pg_map,pg_map,c p pl v,Nested Loop,False,2.0,2,True
+a401:column:q4798,hgb_ratio,hgb_ratio,pl v,Nested Loop,False,1.1336812002540337,1,True
+a401:column:q4798,hgb_ratio,hgb_ratio,c pl v,Nested Loop,False,3.9999695178774397,4,True
+a401:column:q4798,hgb_ratio,hgb_ratio,c p pl v,Nested Loop,False,8.834157277451244,9,True
+a401:column:q4798,oracle_join,oracle_join,pl v,Nested Loop,False,37.0,37,True
+a401:column:q4798,oracle_join,oracle_join,p pl v,Nested Loop,False,,2,
+a401:column:q4798,oracle_join,oracle_join,c p pl v,Nested Loop,False,42.0,42,True
+a401:column:q4191,pg,pg,p v,Nested Loop,False,,1484,
+a401:column:q4191,pg,pg,p u v,Merge Join,False,,156,
+a401:column:q4191,pg_map,pg_map,p v,Nested Loop,False,1484.0,1484,True
+a401:column:q4191,pg_map,pg_map,p u v,Merge Join,False,156.0,156,True
+a401:column:q4191,hgb_ratio,hgb_ratio,p v,Nested Loop,False,1606.337188809,1606,True
+a401:column:q4191,hgb_ratio,hgb_ratio,p u v,Merge Join,False,13754.532788541754,13755,True
+a401:column:q4191,oracle_join,oracle_join,p v,Nested Loop,False,1255.0,1255,True
+a401:column:q4191,oracle_join,oracle_join,p u v,Merge Join,False,783.0,783,True
+a401:column:q2534,pg,pg,c u,Hash Join,False,,126112,
+a401:column:q2534,pg,pg,c ph u,Hash Join,False,,184411135,
+a401:column:q2534,pg_map,pg_map,c u,Hash Join,False,126112.0,126112,True
+a401:column:q2534,pg_map,pg_map,c ph u,Hash Join,False,184411135.0,184411135,True
+a401:column:q2534,hgb_ratio,hgb_ratio,c u,Hash Join,False,8829.349752245525,8829,True
+a401:column:q2534,hgb_ratio,hgb_ratio,c ph u,Hash Join,False,657364.1043061439,657364,True
+a401:column:q2534,oracle_join,pg,c u,Hash Join,False,,126112,
+a401:column:q2534,oracle_join,pg,c ph u,Hash Join,False,,184411135,
+a401:column:q4318,pg,pg,u v,Nested Loop,False,,21,
+a401:column:q4318,pg,pg,p u v,Nested Loop,False,,19,
+a401:column:q4318,pg_map,pg_map,u v,Nested Loop,False,,21,
+a401:column:q4318,pg_map,pg_map,p u v,Nested Loop,False,19.0,19,True
+a401:column:q4318,hgb_ratio,hgb_ratio,u v,Nested Loop,False,,21,
+a401:column:q4318,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,27.536562330858402,28,True
+a401:column:q4318,oracle_join,oracle_join,u v,Nested Loop,False,,21,
+a401:column:q4318,oracle_join,oracle_join,p u v,Nested Loop,False,15.0,15,True
+a401:column:q4949,pg,pg,p pl,Hash Join,False,,5651,
+a401:column:q4949,pg,pg,p pl u,Hash Join,False,,5396,
+a401:column:q4949,pg,pg,c p pl u,Nested Loop,False,,10226,
+a401:column:q4949,pg_map,pg_map,p pl,Hash Join,False,5651.0,5651,True
+a401:column:q4949,pg_map,pg_map,p pl u,Hash Join,False,5396.0,5396,True
+a401:column:q4949,pg_map,pg_map,c p pl u,Nested Loop,False,10226.0,10226,True
+a401:column:q4949,hgb_ratio,hgb_ratio,p pl,Hash Join,False,1022.7779835393412,1023,True
+a401:column:q4949,hgb_ratio,hgb_ratio,p pl u,Nested Loop,False,976.6253758942285,977,True
+a401:column:q4949,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,5387.004760584844,5387,True
+a401:column:q4949,oracle_join,oracle_join,p pl,Hash Join,False,5.0,5,True
+a401:column:q4949,oracle_join,oracle_join,p pl u,Nested Loop,False,4.0,4,True
+a401:column:q4949,oracle_join,oracle_join,c p pl u,Nested Loop,False,13.0,13,True
+a401:column:q8298,pg,pg,c p,Hash Join,False,,226,
+a401:column:q8298,pg,pg,c p ph,Nested Loop,False,,107,
+a401:column:q8298,pg,pg,c p ph u,Nested Loop,False,,105,
+a401:column:q8298,pg,pg,c p ph u v,Nested Loop,False,,375,
+a401:column:q8298,pg,pg,b c p ph u v,Nested Loop,False,,13669,
+a401:column:q8298,pg_map,pg_map,c p,Hash Join,False,226.0,226,True
+a401:column:q8298,pg_map,pg_map,c p ph,Nested Loop,False,107.0,107,True
+a401:column:q8298,pg_map,pg_map,c p ph u,Nested Loop,False,105.0,105,True
+a401:column:q8298,pg_map,pg_map,c p ph u v,Nested Loop,False,374.0,374,True
+a401:column:q8298,pg_map,pg_map,b c p ph u v,Nested Loop,False,13669.0,13669,True
+a401:column:q8298,hgb_ratio,hgb_ratio,c ph,Hash Join,False,,2297,
+a401:column:q8298,hgb_ratio,hgb_ratio,c ph v,Nested Loop,False,,18139,
+a401:column:q8298,hgb_ratio,hgb_ratio,c p ph v,Hash Join,False,51071.35964927335,51071,True
+a401:column:q8298,hgb_ratio,hgb_ratio,c p ph u v,Hash Join,False,50133.04070558592,50133,True
+a401:column:q8298,hgb_ratio,hgb_ratio,b c p ph u v,Hash Join,False,2072210.3643520125,2072210,True
+a401:column:q8298,oracle_join,oracle_join,c p,Hash Join,False,859.0,859,True
+a401:column:q8298,oracle_join,oracle_join,c p u,Nested Loop,False,839.0,839,True
+a401:column:q8298,oracle_join,oracle_join,c p ph u,Nested Loop,False,839.0,839,True
+a401:column:q8298,oracle_join,oracle_join,c p ph u v,Nested Loop,False,10247.0,10247,True
+a401:column:q8298,oracle_join,oracle_join,b c p ph u v,Hash Join,False,324095.0,324095,True
+a401:column:q4285,pg,pg,u v,Merge Join,False,,208,
+a401:column:q4285,pg,pg,p u v,Nested Loop,False,,208,
+a401:column:q4285,pg_map,pg_map,u v,Merge Join,False,208.0,208,True
+a401:column:q4285,pg_map,pg_map,p u v,Nested Loop,False,208.0,208,True
+a401:column:q4285,hgb_ratio,hgb_ratio,p v,Nested Loop,False,3131.3188044616204,3131,True
+a401:column:q4285,hgb_ratio,hgb_ratio,p u v,Merge Join,False,11825.055686195517,11825,True
+a401:column:q4285,oracle_join,oracle_join,p v,Nested Loop,False,1744.0,1744,True
+a401:column:q4285,oracle_join,oracle_join,p u v,Merge Join,False,752.0,752,True
+a401:column:q4282,pg,pg,u v,Merge Join,False,,209,
+a401:column:q4282,pg,pg,p u v,Nested Loop,False,,88,
+a401:column:q4282,pg_map,pg_map,u v,Merge Join,False,209.0,209,True
+a401:column:q4282,pg_map,pg_map,p u v,Nested Loop,False,88.0,88,True
+a401:column:q4282,hgb_ratio,hgb_ratio,p v,Nested Loop,False,1801.6294479545359,1802,True
+a401:column:q4282,hgb_ratio,hgb_ratio,p u v,Merge Join,False,7552.154136749469,7552,True
+a401:column:q4282,oracle_join,oracle_join,p v,Nested Loop,False,461.0,461,True
+a401:column:q4282,oracle_join,oracle_join,p u v,Merge Join,False,291.0,291,True
+a401:column:q3820,pg,pg,p u,Hash Join,False,,380,
+a401:column:q3820,pg,pg,p ph u,Nested Loop,False,,207488,
+a401:column:q3820,pg_map,pg_map,p u,Hash Join,False,,380,
+a401:column:q3820,pg_map,pg_map,p ph u,Nested Loop,False,207488.0,207488,True
+a401:column:q3820,hgb_ratio,hgb_ratio,p u,Hash Join,False,,380,
+a401:column:q3820,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,52521.11318364448,52521,True
+a401:column:q3820,oracle_join,oracle_join,p u,Hash Join,False,,380,
+a401:column:q3820,oracle_join,oracle_join,p ph u,Nested Loop,False,5849.0,5849,True
+a401:column:q5455,pg,pg,u v,Merge Join,False,,1763,
+a401:column:q5455,pg,pg,ph u v,Nested Loop,False,,14396,
+a401:column:q5455,pg,pg,c ph u v,Hash Join,False,,9391857,
+a401:column:q5455,pg_map,pg_map,u v,Merge Join,False,1763.0,1763,True
+a401:column:q5455,pg_map,pg_map,ph u v,Nested Loop,False,2773.0,2773,True
+a401:column:q5455,pg_map,pg_map,c ph u v,Nested Loop,False,9391857.0,9391857,True
+a401:column:q5455,hgb_ratio,hgb_ratio,c v,Merge Join,False,,846293,
+a401:column:q5455,hgb_ratio,hgb_ratio,c u v,Merge Join,False,,44866,
+a401:column:q5455,hgb_ratio,hgb_ratio,c ph u v,Hash Join,False,1503732.025933667,1503732,True
+a401:column:q5455,oracle_join,pg,u v,Merge Join,False,,1763,
+a401:column:q5455,oracle_join,pg,ph u v,Nested Loop,False,,14396,
+a401:column:q5455,oracle_join,pg,c ph u v,Hash Join,False,,9391857,
+a401:column:q5479,pg,pg,c u,Merge Join,False,,158533,
+a401:column:q5479,pg,pg,ph v,Merge Join,False,,11566535,
+a401:column:q5479,pg,pg,c ph u v,Merge Join,False,,952682964,
+a401:column:q5479,pg_map,pg_map,u v,Merge Join,False,31963.0,31963,True
+a401:column:q5479,pg_map,pg_map,ph u v,Hash Join,False,217091.0,217091,True
+a401:column:q5479,pg_map,pg_map,c ph u v,Hash Join,False,952682964.0,952682964,True
+a401:column:q5479,hgb_ratio,hgb_ratio,u v,Merge Join,False,3273.1225605962068,3273,True
+a401:column:q5479,hgb_ratio,hgb_ratio,ph u v,Nested Loop,False,22230.87475526049,22231,True
+a401:column:q5479,hgb_ratio,hgb_ratio,c ph u v,Merge Join,False,3779132.5828433745,3779133,True
+a401:column:q5479,oracle_join,pg,c u,Merge Join,False,,158533,
+a401:column:q5479,oracle_join,pg,ph v,Merge Join,False,,11566535,
+a401:column:q5479,oracle_join,pg,c ph u v,Merge Join,False,,952682964,
+a401:column:q3873,pg,pg,p u,Hash Join,False,,38100,
+a401:column:q3873,pg,pg,p ph u,Nested Loop,False,,20805885,
+a401:column:q3873,pg_map,pg_map,p u,Hash Join,False,,38100,
+a401:column:q3873,pg_map,pg_map,p ph u,Nested Loop,False,20805885.0,20805885,True
+a401:column:q3873,hgb_ratio,hgb_ratio,ph u,Merge Join,False,20256.378205108234,20256,True
+a401:column:q3873,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,636204.1881031368,636204,True
+a401:column:q3873,oracle_join,oracle_join,p u,Hash Join,False,,38100,
+a401:column:q3873,oracle_join,oracle_join,p ph u,Nested Loop,False,324023.0,324023,True
+a401:column:q4243,pg,pg,u v,Merge Join,False,,33884,
+a401:column:q4243,pg,pg,p u v,Hash Join,False,,944,
+a401:column:q4243,pg_map,pg_map,u v,Merge Join,False,33884.0,33884,True
+a401:column:q4243,pg_map,pg_map,p u v,Hash Join,False,944.0,944,True
+a401:column:q4243,hgb_ratio,hgb_ratio,u v,Merge Join,False,12884.963296660108,12885,True
+a401:column:q4243,hgb_ratio,hgb_ratio,p u v,Hash Join,False,73912.85565267151,73913,True
+a401:column:q4243,oracle_join,oracle_join,u v,Merge Join,False,23083.0,23083,True
+a401:column:q4243,oracle_join,oracle_join,p u v,Hash Join,False,11162.0,11162,True
+a401:column:q6334,pg,pg,p t,Hash Join,False,,591,
+a401:column:q6334,pg,pg,p t u,Nested Loop,False,,575,
+a401:column:q6334,pg,pg,p t u v,Nested Loop,False,,2050,
+a401:column:q6334,pg_map,pg_map,p t,Hash Join,False,591.0,591,True
+a401:column:q6334,pg_map,pg_map,p t u,Nested Loop,False,575.0,575,True
+a401:column:q6334,pg_map,pg_map,p t u v,Nested Loop,False,2050.0,2050,True
+a401:column:q6334,hgb_ratio,hgb_ratio,p t,Hash Join,False,17.937321363765122,18,True
+a401:column:q6334,hgb_ratio,hgb_ratio,p t u,Nested Loop,False,17.45170860264796,17,True
+a401:column:q6334,hgb_ratio,hgb_ratio,p t u v,Nested Loop,False,2067.3445764684625,2067,True
+a401:column:q6334,oracle_join,oracle_join,p t,Hash Join,False,596.0,596,True
+a401:column:q6334,oracle_join,oracle_join,p t u,Nested Loop,False,130.0,130,True
+a401:column:q6334,oracle_join,oracle_join,p t u v,Nested Loop,False,157.0,157,True
+a401:column:q2267,pg,pg,p u,Hash Join,False,,361,
+a401:column:q2267,pg,pg,c p u,Nested Loop,False,,168585,
+a401:column:q2267,pg_map,pg_map,p u,Hash Join,False,361.0,361,True
+a401:column:q2267,pg_map,pg_map,c p u,Nested Loop,False,168585.0,168585,True
+a401:column:q2267,hgb_ratio,hgb_ratio,p u,Hash Join,False,553.885713726969,554,True
+a401:column:q2267,hgb_ratio,hgb_ratio,c p u,Nested Loop,False,3869.528448807246,3870,True
+a401:column:q2267,oracle_join,oracle_join,p u,Hash Join,False,894.0,894,True
+a401:column:q2267,oracle_join,oracle_join,c p u,Nested Loop,False,25291.0,25291,True
+a401:column:q2542,pg,pg,c u,Hash Join,False,,128697,
+a401:column:q2542,pg,pg,c ph u,Hash Join,False,,177584977,
+a401:column:q2542,pg_map,pg_map,c u,Hash Join,False,128697.0,128697,True
+a401:column:q2542,pg_map,pg_map,c ph u,Hash Join,False,177584977.0,177584977,True
+a401:column:q2542,hgb_ratio,hgb_ratio,c u,Hash Join,False,50581.015663303624,50581,True
+a401:column:q2542,hgb_ratio,hgb_ratio,c ph u,Hash Join,False,2954700.5413999944,2954701,True
+a401:column:q2542,oracle_join,pg,c u,Hash Join,False,,128697,
+a401:column:q2542,oracle_join,pg,c ph u,Hash Join,False,,177584977,
+a401:column:q4203,pg,pg,u v,Merge Join,False,,201,
+a401:column:q4203,pg,pg,p u v,Nested Loop,False,,201,
+a401:column:q4203,pg_map,pg_map,u v,Merge Join,False,201.0,201,True
+a401:column:q4203,pg_map,pg_map,p u v,Nested Loop,False,201.0,201,True
+a401:column:q4203,hgb_ratio,hgb_ratio,p v,Nested Loop,False,4071.604116047661,4072,True
+a401:column:q4203,hgb_ratio,hgb_ratio,p u v,Merge Join,False,14041.919119816634,14042,True
+a401:column:q4203,oracle_join,oracle_join,p v,Nested Loop,False,1744.0,1744,True
+a401:column:q4203,oracle_join,oracle_join,p u v,Merge Join,False,493.0,493,True
+a401:column:q6169,pg,pg,ph u,Hash Join,False,,12441,
+a401:column:q6169,pg,pg,b ph u,Merge Join,False,,633886,
+a401:column:q6169,pg,pg,b c ph u,Merge Join,False,,999336100,
+a401:column:q6169,pg_map,pg_map,ph u,Hash Join,False,12441.0,12441,True
+a401:column:q6169,pg_map,pg_map,b ph u,Merge Join,False,633886.0,633886,True
+a401:column:q6169,pg_map,pg_map,b c ph u,Merge Join,False,999336100.0,999336100,True
+a401:column:q6169,hgb_ratio,hgb_ratio,ph u,Hash Join,False,4664.189159787604,4664,True
+a401:column:q6169,hgb_ratio,hgb_ratio,b ph u,Merge Join,False,237646.8298160216,237647,True
+a401:column:q6169,hgb_ratio,hgb_ratio,b c ph u,Merge Join,False,92678.68703757369,92679,True
+a401:column:q6169,oracle_join,oracle_join,ph u,Hash Join,False,962.0,962,True
+a401:column:q6169,oracle_join,oracle_join,c ph u,Nested Loop,False,4647.0,4647,True
+a401:column:q6169,oracle_join,oracle_join,b c ph u,Hash Join,False,26687.0,26687,True
+a401:column:q3963,pg,pg,ph u,Hash Join,False,,56820,
+a401:column:q3963,pg,pg,p ph u,Nested Loop,False,,10002921,
+a401:column:q3963,pg_map,pg_map,ph u,Hash Join,False,56820.0,56820,True
+a401:column:q3963,pg_map,pg_map,p ph u,Nested Loop,False,10002921.0,10002921,True
+a401:column:q3963,hgb_ratio,hgb_ratio,ph u,Hash Join,False,1395.7557261317006,1396,True
+a401:column:q3963,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,112528.22413737394,112528,True
+a401:column:q3963,oracle_join,oracle_join,ph u,Hash Join,False,10720.0,10720,True
+a401:column:q3963,oracle_join,oracle_join,p ph u,Nested Loop,False,35907.0,35907,True
+a401:column:q5562,pg,pg,c u,Merge Join,False,,156714,
+a401:column:q5562,pg,pg,ph v,Merge Join,False,,11750321,
+a401:column:q5562,pg,pg,c ph u v,Merge Join,False,,956719195,
+a401:column:q5562,pg_map,pg_map,u v,Merge Join,False,31406.0,31406,True
+a401:column:q5562,pg_map,pg_map,ph u v,Merge Join,False,218985.0,218985,True
+a401:column:q5562,pg_map,pg_map,c ph u v,Hash Join,False,956719195.0,956719195,True
+a401:column:q5562,hgb_ratio,hgb_ratio,u v,Merge Join,False,24560.37673885763,24560,True
+a401:column:q5562,hgb_ratio,hgb_ratio,ph u v,Merge Join,False,171252.43902944462,171252,True
+a401:column:q5562,hgb_ratio,hgb_ratio,c ph u v,Hash Join,False,27750163.292591434,27750163,True
+a401:column:q5562,oracle_join,pg,c u,Merge Join,False,,156714,
+a401:column:q5562,oracle_join,pg,ph v,Merge Join,False,,11750321,
+a401:column:q5562,oracle_join,pg,c ph u v,Merge Join,False,,956719195,
+a401:column:q3843,pg,pg,ph u,Hash Join,False,,34224,
+a401:column:q3843,pg,pg,p ph u,Nested Loop,False,,2789117,
+a401:column:q3843,pg_map,pg_map,ph u,Hash Join,False,34224.0,34224,True
+a401:column:q3843,pg_map,pg_map,p ph u,Nested Loop,False,2789117.0,2789117,True
+a401:column:q3843,hgb_ratio,hgb_ratio,ph u,Hash Join,False,2131.0629438606834,2131,True
+a401:column:q3843,hgb_ratio,hgb_ratio,p ph u,Nested Loop,False,321617.39924643404,321617,True
+a401:column:q3843,oracle_join,oracle_join,ph u,Hash Join,False,31470.0,31470,True
+a401:column:q3843,oracle_join,oracle_join,p ph u,Nested Loop,False,266086.0,266086,True
+a401:column:q2288,pg,pg,ph u,Hash Join,False,,11041,
+a401:column:q2288,pg,pg,c ph u,Hash Join,False,,7642319,
+a401:column:q2288,pg_map,pg_map,ph u,Hash Join,False,,11041,
+a401:column:q2288,pg_map,pg_map,c ph u,Hash Join,False,7642319.0,7642319,True
+a401:column:q2288,hgb_ratio,hgb_ratio,ph u,Hash Join,False,,11041,
+a401:column:q2288,hgb_ratio,hgb_ratio,c ph u,Hash Join,False,56794.10948222375,56794,True
+a401:column:q2288,oracle_join,pg,ph u,Hash Join,False,,11041,
+a401:column:q2288,oracle_join,pg,c ph u,Hash Join,False,,7642319,
+a401:column:q2166,pg,pg,p u,Hash Join,False,,5364,
+a401:column:q2166,pg,pg,c p u,Hash Join,False,,3245623,
+a401:column:q2166,pg_map,pg_map,p u,Hash Join,False,5364.0,5364,True
+a401:column:q2166,pg_map,pg_map,c p u,Hash Join,False,3245623.0,3245623,True
+a401:column:q2166,hgb_ratio,hgb_ratio,p u,Hash Join,False,7708.776102820842,7709,True
+a401:column:q2166,hgb_ratio,hgb_ratio,c p u,Hash Join,False,71725.82149807707,71726,True
+a401:column:q2166,oracle_join,oracle_join,p u,Hash Join,False,11596.0,11596,True
+a401:column:q2166,oracle_join,oracle_join,c p u,Hash Join,False,676952.0,676952,True
+a401:column:q6160,pg,pg,b u,Nested Loop,False,,2,
+a401:column:q6160,pg,pg,b c u,Nested Loop,False,,291,
+a401:column:q6160,pg,pg,b c ph u,Nested Loop,False,,420854,
+a401:column:q6160,pg_map,pg_map,b u,Nested Loop,False,2.0,2,True
+a401:column:q6160,pg_map,pg_map,b c u,Nested Loop,False,291.0,291,True
+a401:column:q6160,pg_map,pg_map,b c ph u,Nested Loop,False,420854.0,420854,True
+a401:column:q6160,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.0,1,True
+a401:column:q6160,hgb_ratio,hgb_ratio,b c u,Nested Loop,False,3.464792545533886,3,True
+a401:column:q6160,hgb_ratio,hgb_ratio,b c ph u,Nested Loop,False,367.8871480134227,368,True
+a401:column:q6160,oracle_join,oracle_join,b u,Nested Loop,False,5.0,5,True
+a401:column:q6160,oracle_join,oracle_join,b c u,Nested Loop,False,50.0,50,True
+a401:column:q6160,oracle_join,oracle_join,b c ph u,Nested Loop,False,700.0,700,True
+a401:column:q5063,pg,pg,p u,Nested Loop,False,,423,
+a401:column:q5063,pg,pg,p u v,Nested Loop,False,,62,
+a401:column:q5063,pg,pg,c p u v,Nested Loop,False,,94085,
+a401:column:q5063,pg_map,pg_map,p u,Nested Loop,False,423.0,423,True
+a401:column:q5063,pg_map,pg_map,p u v,Nested Loop,False,2.0,2,True
+a401:column:q5063,pg_map,pg_map,c p u v,Nested Loop,False,94085.0,94085,True
+a401:column:q5063,hgb_ratio,hgb_ratio,p u,Nested Loop,False,44.668039507460406,45,True
+a401:column:q5063,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:column:q5063,hgb_ratio,hgb_ratio,c p u v,Nested Loop,False,31.46826423929835,31,True
+a401:column:q5063,oracle_join,oracle_join,p u,Nested Loop,False,453.0,453,True
+a401:column:q5063,oracle_join,oracle_join,p u v,Nested Loop,False,191.0,191,True
+a401:column:q5063,oracle_join,oracle_join,c p u v,Nested Loop,False,18387.0,18387,True
+a401:table:q1720,pg,pg,p pl,Hash Join,False,,4491,
+a401:table:q1720,pg,pg,p ph pl,Nested Loop,False,,2036,
+a401:table:q1720,pg,pg,c p ph pl,Nested Loop,False,,3859,
+a401:table:q1720,pg,pg,c p ph pl u,Nested Loop,False,,3740,
+a401:table:q1720,pg_map,pg_map,p pl,Hash Join,False,4491.0,4491,True
+a401:table:q1720,pg_map,pg_map,p ph pl,Nested Loop,False,2036.0,2036,True
+a401:table:q1720,pg_map,pg_map,c p ph pl,Nested Loop,False,3859.0,3859,True
+a401:table:q1720,pg_map,pg_map,c p ph pl u,Nested Loop,False,3740.0,3740,True
+a401:table:q1720,hgb_ratio,hgb_ratio,p pl,Hash Join,False,486.2337021408489,486,True
+a401:table:q1720,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,220.43460644817822,220,True
+a401:table:q1720,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,417.8080286264832,418,True
+a401:table:q1720,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,16943.58259858256,16944,True
+a401:table:q1720,oracle_join,oracle_join,p pl,Hash Join,False,9649.0,9649,True
+a401:table:q1720,oracle_join,oracle_join,c p pl,Hash Join,False,28703.0,28703,True
+a401:table:q1720,oracle_join,oracle_join,c p pl u,Hash Join,False,6057.0,6057,True
+a401:table:q1720,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,5922.0,5922,True
+a401:table:q2305,pg,pg,p pl,Hash Join,False,,705,
+a401:table:q2305,pg,pg,c p pl,Nested Loop,False,,1337,
+a401:table:q2305,pg,pg,c p pl u,Nested Loop,False,,1284,
+a401:table:q2305,pg,pg,c p ph pl u,Nested Loop,False,,4231,
+a401:table:q2305,pg_map,pg_map,p pl,Hash Join,False,705.0,705,True
+a401:table:q2305,pg_map,pg_map,c p pl,Nested Loop,False,1337.0,1337,True
+a401:table:q2305,pg_map,pg_map,c p pl u,Nested Loop,False,1284.0,1284,True
+a401:table:q2305,pg_map,pg_map,c p ph pl u,Nested Loop,False,4231.0,4231,True
+a401:table:q2305,hgb_ratio,hgb_ratio,p pl,Hash Join,False,45.67242958134481,46,True
+a401:table:q2305,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,86.61565723440853,87,True
+a401:table:q2305,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,83.18212706730033,83,True
+a401:table:q2305,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,61840.08095161252,61840,True
+a401:table:q2305,oracle_join,oracle_join,c p,Hash Join,False,,11517,
+a401:table:q2305,oracle_join,oracle_join,c p u,Hash Join,False,,11058,
+a401:table:q2305,oracle_join,oracle_join,c p pl u,Hash Join,False,7300.0,7300,True
+a401:table:q2305,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,52523.0,52523,True
+a401:table:q1477,pg,pg,ph pl,Hash Join,False,,7519,
+a401:table:q1477,pg,pg,p ph pl,Nested Loop,False,,5178,
+a401:table:q1477,pg,pg,c p ph pl,Nested Loop,False,,9679,
+a401:table:q1477,pg,pg,c p ph pl u,Hash Join,False,,9523,
+a401:table:q1477,pg_map,pg_map,ph pl,Hash Join,False,7519.0,7519,True
+a401:table:q1477,pg_map,pg_map,p ph pl,Nested Loop,False,5178.0,5178,True
+a401:table:q1477,pg_map,pg_map,c p ph pl,Nested Loop,False,9679.0,9679,True
+a401:table:q1477,pg_map,pg_map,c p ph pl u,Hash Join,False,9523.0,9523,True
+a401:table:q1477,hgb_ratio,hgb_ratio,ph pl,Hash Join,False,467.3255726352231,467,True
+a401:table:q1477,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,321.826282099373,322,True
+a401:table:q1477,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,601.5752384008944,602,True
+a401:table:q1477,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,53726.964849913784,53727,True
+a401:table:q1477,oracle_join,oracle_join,p pl,Merge Join,False,10735.0,10735,True
+a401:table:q1477,oracle_join,oracle_join,p ph pl,Hash Join,False,10730.0,10730,True
+a401:table:q1477,oracle_join,oracle_join,c p ph pl,Hash Join,False,31208.0,31208,True
+a401:table:q1477,oracle_join,oracle_join,c p ph pl u,Hash Join,False,30434.0,30434,True
+a401:table:q1278,pg,pg,p pl,Hash Join,False,,4740,
+a401:table:q1278,pg,pg,p ph pl,Nested Loop,False,,4646,
+a401:table:q1278,pg,pg,c p ph pl,Nested Loop,False,,8804,
+a401:table:q1278,pg,pg,c p ph pl u,Hash Join,False,,8663,
+a401:table:q1278,pg_map,pg_map,p pl,Hash Join,False,4740.0,4740,True
+a401:table:q1278,pg_map,pg_map,p ph pl,Nested Loop,False,4646.0,4646,True
+a401:table:q1278,pg_map,pg_map,c p ph pl,Nested Loop,False,8804.0,8804,True
+a401:table:q1278,pg_map,pg_map,c p ph pl u,Hash Join,False,8663.0,8663,True
+a401:table:q1278,hgb_ratio,hgb_ratio,p pl,Hash Join,False,122.98868563656373,123,True
+a401:table:q1278,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,120.54966950790615,121,True
+a401:table:q1278,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,228.43721273086646,228,True
+a401:table:q1278,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,14482.462620287313,14482,True
+a401:table:q1278,oracle_join,oracle_join,p pl,Hash Join,False,10180.0,10180,True
+a401:table:q1278,oracle_join,oracle_join,p ph pl,Hash Join,False,10177.0,10177,True
+a401:table:q1278,oracle_join,oracle_join,c p ph pl,Hash Join,False,30376.0,30376,True
+a401:table:q1278,oracle_join,oracle_join,c p ph pl u,Hash Join,False,29574.0,29574,True
+a401:table:q1362,pg,pg,p pl,Hash Join,False,,5142,
+a401:table:q1362,pg,pg,p ph pl,Hash Join,False,,2313,
+a401:table:q1362,pg,pg,c p ph pl,Nested Loop,False,,3384,
+a401:table:q1362,pg,pg,c p ph pl u,Nested Loop,False,,3330,
+a401:table:q1362,pg_map,pg_map,p pl,Hash Join,False,5142.0,5142,True
+a401:table:q1362,pg_map,pg_map,p ph pl,Hash Join,False,2314.0,2314,True
+a401:table:q1362,pg_map,pg_map,c p ph pl,Nested Loop,False,3384.0,3384,True
+a401:table:q1362,pg_map,pg_map,c p ph pl u,Nested Loop,False,3330.0,3330,True
+a401:table:q1362,hgb_ratio,hgb_ratio,p pl,Hash Join,False,269.3081956478346,269,True
+a401:table:q1362,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,121.19392546267781,121,True
+a401:table:q1362,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,177.23433179157377,177,True
+a401:table:q1362,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,25710.919430005288,25711,True
+a401:table:q1362,oracle_join,oracle_join,p pl,Hash Join,False,9118.0,9118,True
+a401:table:q1362,oracle_join,oracle_join,p ph pl,Hash Join,False,8878.0,8878,True
+a401:table:q1362,oracle_join,oracle_join,c p ph pl,Hash Join,False,16783.0,16783,True
+a401:table:q1362,oracle_join,oracle_join,c p ph pl u,Hash Join,False,16429.0,16429,True
+a401:table:q2119,pg,pg,p pl,Hash Join,False,,143,
+a401:table:q2119,pg,pg,p ph pl,Nested Loop,False,,68,
+a401:table:q2119,pg,pg,c p ph pl,Nested Loop,False,,99,
+a401:table:q2119,pg,pg,c p ph pl u,Nested Loop,False,,94,
+a401:table:q2119,pg_map,pg_map,p pl,Hash Join,False,143.0,143,True
+a401:table:q2119,pg_map,pg_map,p ph pl,Nested Loop,False,68.0,68,True
+a401:table:q2119,pg_map,pg_map,c p ph pl,Nested Loop,False,99.0,99,True
+a401:table:q2119,pg_map,pg_map,c p ph pl u,Nested Loop,False,94.0,94,True
+a401:table:q2119,hgb_ratio,hgb_ratio,p pl,Hash Join,False,15.647618040861317,16,True
+a401:table:q2119,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,7.4408253620878995,7,True
+a401:table:q2119,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,10.832966335980911,11,True
+a401:table:q2119,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,3151.8460842585273,3152,True
+a401:table:q2119,oracle_join,oracle_join,p ph,Hash Join,False,,560,
+a401:table:q2119,oracle_join,oracle_join,c p ph,Nested Loop,False,,820,
+a401:table:q2119,oracle_join,oracle_join,c p ph u,Nested Loop,False,,780,
+a401:table:q2119,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,1900.0,1900,True
+a401:table:q2138,pg,pg,p pl,Hash Join,False,,705,
+a401:table:q2138,pg,pg,c p pl,Nested Loop,False,,190,
+a401:table:q2138,pg,pg,c p pl u,Nested Loop,False,,179,
+a401:table:q2138,pg,pg,c p ph pl u,Nested Loop,False,,584,
+a401:table:q2138,pg_map,pg_map,p pl,Hash Join,False,705.0,705,True
+a401:table:q2138,pg_map,pg_map,c p pl,Nested Loop,False,190.0,190,True
+a401:table:q2138,pg_map,pg_map,c p pl u,Nested Loop,False,179.0,179,True
+a401:table:q2138,pg_map,pg_map,c p ph pl u,Nested Loop,False,584.0,584,True
+a401:table:q2138,hgb_ratio,hgb_ratio,p pl,Hash Join,False,61.45237418733758,61,True
+a401:table:q2138,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,16.561632759708,17,True
+a401:table:q2138,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,15.602801389409116,16,True
+a401:table:q2138,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,4212.320542699416,4212,True
+a401:table:q2138,oracle_join,oracle_join,c u,Hash Join,False,3063.0,3063,True
+a401:table:q2138,oracle_join,oracle_join,c pl u,Hash Join,False,503.0,503,True
+a401:table:q2138,oracle_join,oracle_join,c p pl u,Nested Loop,False,242.0,242,True
+a401:table:q2138,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,1679.0,1679,True
+a401:table:q1993,pg,pg,p pl,Hash Join,False,,2194,
+a401:table:q1993,pg,pg,c p pl,Nested Loop,False,,4105,
+a401:table:q1993,pg,pg,c p pl u,Nested Loop,False,,4039,
+a401:table:q1993,pg,pg,c p ph pl u,Nested Loop,False,,13182,
+a401:table:q1993,pg_map,pg_map,p pl,Hash Join,False,2194.0,2194,True
+a401:table:q1993,pg_map,pg_map,c p pl,Nested Loop,False,4105.0,4105,True
+a401:table:q1993,pg_map,pg_map,c p pl u,Nested Loop,False,4039.0,4039,True
+a401:table:q1993,pg_map,pg_map,c p ph pl u,Nested Loop,False,13182.0,13182,True
+a401:table:q1993,hgb_ratio,hgb_ratio,p pl,Hash Join,False,843.1589647084062,843,True
+a401:table:q1993,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,1577.5604148258922,1578,True
+a401:table:q1993,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,1552.196471493734,1552,True
+a401:table:q1993,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,851104.0278061188,851104,True
+a401:table:q1993,oracle_join,oracle_join,p pl,Hash Join,False,8787.0,8787,True
+a401:table:q1993,oracle_join,oracle_join,c p pl,Hash Join,False,24177.0,24177,True
+a401:table:q1993,oracle_join,oracle_join,c p pl u,Hash Join,False,23615.0,23615,True
+a401:table:q1993,oracle_join,oracle_join,c p ph pl u,Hash Join,False,158997.0,158997,True
+a401:table:q1459,pg,pg,p pl,Hash Join,False,,346,
+a401:table:q1459,pg,pg,p ph pl,Nested Loop,False,,342,
+a401:table:q1459,pg,pg,c p ph pl,Nested Loop,False,,649,
+a401:table:q1459,pg,pg,c p ph pl u,Nested Loop,False,,639,
+a401:table:q1459,pg_map,pg_map,p pl,Hash Join,False,346.0,346,True
+a401:table:q1459,pg_map,pg_map,p ph pl,Nested Loop,False,342.0,342,True
+a401:table:q1459,pg_map,pg_map,c p ph pl,Nested Loop,False,649.0,649,True
+a401:table:q1459,pg_map,pg_map,c p ph pl u,Nested Loop,False,639.0,639,True
+a401:table:q1459,hgb_ratio,hgb_ratio,p pl,Hash Join,False,17.479569188806252,17,True
+a401:table:q1459,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,17.27749324442699,17,True
+a401:table:q1459,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,32.78682197553543,33,True
+a401:table:q1459,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,16662.525626694798,16663,True
+a401:table:q1459,oracle_join,oracle_join,p ph,Hash Join,False,,2836,
+a401:table:q1459,oracle_join,oracle_join,c p ph,Nested Loop,False,,5374,
+a401:table:q1459,oracle_join,oracle_join,c p ph u,Hash Join,False,,5288,
+a401:table:q1459,oracle_join,oracle_join,c p ph pl u,Hash Join,False,21833.0,21833,True
+a401:table:q2072,pg,pg,p pl,Hash Join,False,,338,
+a401:table:q2072,pg,pg,c p pl,Nested Loop,False,,490,
+a401:table:q2072,pg,pg,c p pl u,Nested Loop,False,,452,
+a401:table:q2072,pg,pg,c p ph pl u,Nested Loop,False,,446,
+a401:table:q2072,pg_map,pg_map,p pl,Hash Join,False,338.0,338,True
+a401:table:q2072,pg_map,pg_map,c p pl,Nested Loop,False,490.0,490,True
+a401:table:q2072,pg_map,pg_map,c p pl u,Nested Loop,False,452.0,452,True
+a401:table:q2072,pg_map,pg_map,c p ph pl u,Nested Loop,False,446.0,446,True
+a401:table:q2072,hgb_ratio,hgb_ratio,p pl,Hash Join,False,22.063304557465756,22,True
+a401:table:q2072,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,31.98526400342669,32,True
+a401:table:q2072,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,29.504774141936455,30,True
+a401:table:q2072,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,1533.6607709398165,1534,True
+a401:table:q2072,oracle_join,oracle_join,c p,Hash Join,False,,4059,
+a401:table:q2072,oracle_join,oracle_join,c p u,Nested Loop,False,,3740,
+a401:table:q2072,oracle_join,oracle_join,c p pl u,Hash Join,False,1667.0,1667,True
+a401:table:q2072,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,1667.0,1667,True
+a401:table:q1249,pg,pg,ph pl,Hash Join,False,,6988,
+a401:table:q1249,pg,pg,p ph pl,Nested Loop,False,,4810,
+a401:table:q1249,pg,pg,c p ph pl,Nested Loop,False,,7034,
+a401:table:q1249,pg,pg,c p ph pl u,Hash Join,False,,6356,
+a401:table:q1249,pg_map,pg_map,ph pl,Hash Join,False,6988.0,6988,True
+a401:table:q1249,pg_map,pg_map,p ph pl,Nested Loop,False,4810.0,4810,True
+a401:table:q1249,pg_map,pg_map,c p ph pl,Nested Loop,False,7034.0,7034,True
+a401:table:q1249,pg_map,pg_map,c p ph pl u,Hash Join,False,6356.0,6356,True
+a401:table:q1249,hgb_ratio,hgb_ratio,p pl,Merge Join,False,334.44981383969565,334,True
+a401:table:q1249,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,146.9269891833899,147,True
+a401:table:q1249,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,214.86163033595938,215,True
+a401:table:q1249,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,1367.7955762274082,1368,True
+a401:table:q1249,oracle_join,oracle_join,c u,Hash Join,False,31757.0,31757,True
+a401:table:q1249,oracle_join,oracle_join,c pl u,Hash Join,False,2884.0,2884,True
+a401:table:q1249,oracle_join,oracle_join,c p pl u,Nested Loop,False,2754.0,2754,True
+a401:table:q1249,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,2688.0,2688,True
+a401:table:q1345,pg,pg,p pl,Hash Join,False,,572,
+a401:table:q1345,pg,pg,c p pl,Nested Loop,False,,156,
+a401:table:q1345,pg,pg,c p pl u,Nested Loop,False,,3,
+a401:table:q1345,pg,pg,c p ph pl u,Nested Loop,False,,8,
+a401:table:q1345,pg_map,pg_map,p pl,Hash Join,False,572.0,572,True
+a401:table:q1345,pg_map,pg_map,c p pl,Nested Loop,False,156.0,156,True
+a401:table:q1345,pg_map,pg_map,c p pl u,Nested Loop,False,3.0,3,True
+a401:table:q1345,pg_map,pg_map,c p ph pl u,Nested Loop,False,8.0,8,True
+a401:table:q1345,hgb_ratio,hgb_ratio,p pl,Hash Join,False,11.471730974921192,11,True
+a401:table:q1345,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,3.128653902251234,3,True
+a401:table:q1345,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,1.0,1,True
+a401:table:q1345,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,7.139748648727175,7,True
+a401:table:q1345,oracle_join,oracle_join,c u,Hash Join,False,109.0,109,True
+a401:table:q1345,oracle_join,oracle_join,c pl u,Nested Loop,False,17.0,17,True
+a401:table:q1345,oracle_join,oracle_join,c p pl u,Nested Loop,False,5.0,5,True
+a401:table:q1345,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,16.0,16,True
+a401:table:q1016,pg,pg,pl v,Hash Join,False,,39,
+a401:table:q1016,pg,pg,p pl v,Nested Loop,False,,4,
+a401:table:q1016,pg,pg,p ph pl v,Nested Loop,False,,2,
+a401:table:q1016,pg,pg,c p ph pl v,Nested Loop,False,,2,
+a401:table:q1016,pg_map,pg_map,pl v,Hash Join,False,,39,
+a401:table:q1016,pg_map,pg_map,p pl v,Nested Loop,False,4.0,4,True
+a401:table:q1016,pg_map,pg_map,p ph pl v,Nested Loop,False,2.0,2,True
+a401:table:q1016,pg_map,pg_map,c p ph pl v,Nested Loop,False,2.0,2,True
+a401:table:q1016,hgb_ratio,hgb_ratio,pl v,Hash Join,False,,39,
+a401:table:q1016,hgb_ratio,hgb_ratio,p pl v,Nested Loop,False,1.0,1,True
+a401:table:q1016,hgb_ratio,hgb_ratio,c p pl v,Nested Loop,False,1.0,1,True
+a401:table:q1016,hgb_ratio,hgb_ratio,c p ph pl v,Nested Loop,False,15.08358348866905,15,True
+a401:table:q1016,oracle_join,oracle_join,pl v,Hash Join,False,,39,
+a401:table:q1016,oracle_join,oracle_join,p pl v,Nested Loop,False,11.0,11,True
+a401:table:q1016,oracle_join,oracle_join,p ph pl v,Nested Loop,False,8.0,8,True
+a401:table:q1016,oracle_join,oracle_join,c p ph pl v,Nested Loop,False,15.0,15,True
+a401:table:q1509,pg,pg,p pl,Hash Join,False,,2419,
+a401:table:q1509,pg,pg,p ph pl,Nested Loop,False,,1147,
+a401:table:q1509,pg,pg,c p ph pl,Nested Loop,False,,1677,
+a401:table:q1509,pg,pg,c p ph pl u,Nested Loop,False,,1614,
+a401:table:q1509,pg_map,pg_map,p pl,Hash Join,False,2419.0,2419,True
+a401:table:q1509,pg_map,pg_map,p ph pl,Nested Loop,False,1147.0,1147,True
+a401:table:q1509,pg_map,pg_map,c p ph pl,Nested Loop,False,1677.0,1677,True
+a401:table:q1509,pg_map,pg_map,c p ph pl u,Nested Loop,False,1614.0,1614,True
+a401:table:q1509,hgb_ratio,hgb_ratio,p pl,Hash Join,False,196.1249226760108,196,True
+a401:table:q1509,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,92.99515763099811,93,True
+a401:table:q1509,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,135.96589306642008,136,True
+a401:table:q1509,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,1833.5531733435241,1834,True
+a401:table:q1509,oracle_join,oracle_join,p pl,Hash Join,False,468.0,468,True
+a401:table:q1509,oracle_join,oracle_join,c p pl,Nested Loop,False,994.0,994,True
+a401:table:q1509,oracle_join,oracle_join,c p pl u,Nested Loop,False,675.0,675,True
+a401:table:q1509,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,675.0,675,True
+a401:table:q2215,pg,pg,p pl,Hash Join,False,,310,
+a401:table:q2215,pg,pg,p ph pl,Nested Loop,False,,134,
+a401:table:q2215,pg,pg,c p ph pl,Nested Loop,False,,196,
+a401:table:q2215,pg,pg,c p ph pl u,Nested Loop,False,,185,
+a401:table:q2215,pg_map,pg_map,p pl,Hash Join,False,310.0,310,True
+a401:table:q2215,pg_map,pg_map,p ph pl,Nested Loop,False,134.0,134,True
+a401:table:q2215,pg_map,pg_map,c p ph pl,Nested Loop,False,196.0,196,True
+a401:table:q2215,pg_map,pg_map,c p ph pl u,Nested Loop,False,185.0,185,True
+a401:table:q2215,hgb_ratio,hgb_ratio,p pl,Hash Join,False,4.0313629537903255,4,True
+a401:table:q2215,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,1.742589147767431,2,True
+a401:table:q2215,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,2.548861738525496,3,True
+a401:table:q2215,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,483.1783566067082,483,True
+a401:table:q2215,oracle_join,oracle_join,p ph,Hash Join,False,,1222,
+a401:table:q2215,oracle_join,oracle_join,c p ph,Nested Loop,False,,1787,
+a401:table:q2215,oracle_join,oracle_join,c p ph u,Nested Loop,False,,1688,
+a401:table:q2215,oracle_join,oracle_join,c p ph pl u,Hash Join,False,2259.0,2259,True
+a401:table:q1787,pg,pg,p pl,Hash Join,False,,5769,
+a401:table:q1787,pg,pg,p ph pl,Nested Loop,False,,19017,
+a401:table:q1787,pg,pg,c p ph pl,Hash Join,False,,36043,
+a401:table:q1787,pg,pg,c p ph pl u,Hash Join,False,,35464,
+a401:table:q1787,pg_map,pg_map,p pl,Hash Join,False,5769.0,5769,True
+a401:table:q1787,pg_map,pg_map,p ph pl,Nested Loop,False,19018.0,19018,True
+a401:table:q1787,pg_map,pg_map,c p ph pl,Hash Join,False,36041.0,36041,True
+a401:table:q1787,pg_map,pg_map,c p ph pl u,Hash Join,False,35464.0,35464,True
+a401:table:q1787,hgb_ratio,hgb_ratio,p pl,Hash Join,False,86.58460347898907,87,True
+a401:table:q1787,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,164.1040135966834,164,True
+a401:table:q1787,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,161.46250029935246,161,True
+a401:table:q1787,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,4026.266609063533,4026,True
+a401:table:q1787,oracle_join,oracle_join,p pl,Hash Join,False,5.0,5,True
+a401:table:q1787,oracle_join,oracle_join,c p pl,Nested Loop,False,14.0,14,True
+a401:table:q1787,oracle_join,oracle_join,c p pl u,Nested Loop,False,14.0,14,True
+a401:table:q1787,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,26.0,26,True
+a401:table:q1202,pg,pg,p pl,Hash Join,False,,5080,
+a401:table:q1202,pg,pg,p ph pl,Nested Loop,False,,16159,
+a401:table:q1202,pg,pg,c p ph pl,Hash Join,False,,30623,
+a401:table:q1202,pg,pg,c p ph pl u,Hash Join,False,,29907,
+a401:table:q1202,pg_map,pg_map,p pl,Hash Join,False,5080.0,5080,True
+a401:table:q1202,pg_map,pg_map,p ph pl,Nested Loop,False,16160.0,16160,True
+a401:table:q1202,pg_map,pg_map,c p ph pl,Hash Join,False,30625.0,30625,True
+a401:table:q1202,pg_map,pg_map,c p ph pl u,Hash Join,False,29907.0,29907,True
+a401:table:q1202,hgb_ratio,hgb_ratio,p pl,Hash Join,False,350.79134083526446,351,True
+a401:table:q1202,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,664.7772122482462,665,True
+a401:table:q1202,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,649.2401941994402,649,True
+a401:table:q1202,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,66522.74405045938,66523,True
+a401:table:q1202,oracle_join,oracle_join,p pl,Hash Join,False,10894.0,10894,True
+a401:table:q1202,oracle_join,oracle_join,c p pl,Hash Join,False,30330.0,30330,True
+a401:table:q1202,oracle_join,oracle_join,c p pl u,Hash Join,False,8635.0,8635,True
+a401:table:q1202,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,53119.0,53119,True
+a401:table:q1406,pg,pg,p pl,Hash Join,False,,4749,
+a401:table:q1406,pg,pg,p ph pl,Nested Loop,False,,3532,
+a401:table:q1406,pg,pg,c p ph pl,Nested Loop,False,,5157,
+a401:table:q1406,pg,pg,c p ph pl u,Hash Join,False,,5074,
+a401:table:q1406,pg_map,pg_map,p pl,Hash Join,False,4749.0,4749,True
+a401:table:q1406,pg_map,pg_map,p ph pl,Nested Loop,False,3531.0,3531,True
+a401:table:q1406,pg_map,pg_map,c p ph pl,Nested Loop,False,5157.0,5157,True
+a401:table:q1406,pg_map,pg_map,c p ph pl u,Hash Join,False,5074.0,5074,True
+a401:table:q1406,hgb_ratio,hgb_ratio,p pl,Hash Join,False,783.2569431148628,783,True
+a401:table:q1406,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,582.3710815200211,582,True
+a401:table:q1406,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,850.5487588215092,851,True
+a401:table:q1406,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,130930.74137831543,130931,True
+a401:table:q1406,oracle_join,oracle_join,p pl,Hash Join,False,10181.0,10181,True
+a401:table:q1406,oracle_join,oracle_join,p ph pl,Hash Join,False,12841.0,12841,True
+a401:table:q1406,oracle_join,oracle_join,c p ph pl,Hash Join,False,31503.0,31503,True
+a401:table:q1406,oracle_join,oracle_join,c p ph pl u,Hash Join,False,30947.0,30947,True
+a401:table:q1899,pg,pg,p pl,Hash Join,False,,623,
+a401:table:q1899,pg,pg,c p pl,Nested Loop,False,,911,
+a401:table:q1899,pg,pg,c p pl u,Nested Loop,False,,874,
+a401:table:q1899,pg,pg,c p ph pl u,Nested Loop,False,,856,
+a401:table:q1899,pg_map,pg_map,p pl,Hash Join,False,623.0,623,True
+a401:table:q1899,pg_map,pg_map,c p pl,Nested Loop,False,911.0,911,True
+a401:table:q1899,pg_map,pg_map,c p pl u,Nested Loop,False,874.0,874,True
+a401:table:q1899,pg_map,pg_map,c p ph pl u,Nested Loop,False,856.0,856,True
+a401:table:q1899,hgb_ratio,hgb_ratio,p pl,Hash Join,False,45.78578499606823,46,True
+a401:table:q1899,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,66.95160534738066,67,True
+a401:table:q1899,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,64.23238537169122,64,True
+a401:table:q1899,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,11575.572451646418,11576,True
+a401:table:q1899,oracle_join,oracle_join,p pl,Hash Join,False,4312.0,4312,True
+a401:table:q1899,oracle_join,oracle_join,c p pl,Hash Join,False,7987.0,7987,True
+a401:table:q1899,oracle_join,oracle_join,c p pl u,Hash Join,False,5607.0,5607,True
+a401:table:q1899,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,5605.0,5605,True
+a401:table:q195,pg,pg,p pl,Nested Loop,False,,48,
+a401:table:q195,pg,pg,c p pl,Nested Loop,False,,13,
+a401:table:q195,pg,pg,c p pl v,Nested Loop,False,,1,
+a401:table:q195,pg,pg,c p ph pl v,Nested Loop,False,,1,
+a401:table:q195,pg_map,pg_map,p pl,Nested Loop,False,48.0,48,True
+a401:table:q195,pg_map,pg_map,c p pl,Nested Loop,False,13.0,13,True
+a401:table:q195,pg_map,pg_map,c p pl v,Nested Loop,False,1.0,1,True
+a401:table:q195,pg_map,pg_map,c p ph pl v,Nested Loop,False,1.0,1,True
+a401:table:q195,hgb_ratio,hgb_ratio,p pl,Nested Loop,False,1.0427508906401983,1,True
+a401:table:q195,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,1.0,1,True
+a401:table:q195,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,1.0,1,True
+a401:table:q195,hgb_ratio,hgb_ratio,c p ph pl v,Nested Loop,False,8.73303870911166,9,True
+a401:table:q195,oracle_join,oracle_join,p pl,Nested Loop,False,352.0,352,True
+a401:table:q195,oracle_join,oracle_join,c p pl,Nested Loop,False,140.0,140,True
+a401:table:q195,oracle_join,oracle_join,c p pl v,Nested Loop,False,3.0,3,True
+a401:table:q195,oracle_join,oracle_join,c p ph pl v,Nested Loop,False,21.0,21,True
+a401:table:q2424,pg,pg,ph pl,Hash Join,False,,2133,
+a401:table:q2424,pg,pg,p ph pl,Nested Loop,False,,634,
+a401:table:q2424,pg,pg,c p ph pl,Nested Loop,False,,1202,
+a401:table:q2424,pg,pg,c p ph pl u,Nested Loop,False,,1131,
+a401:table:q2424,pg_map,pg_map,ph pl,Hash Join,False,2133.0,2133,True
+a401:table:q2424,pg_map,pg_map,p ph pl,Nested Loop,False,635.0,635,True
+a401:table:q2424,pg_map,pg_map,c p ph pl,Nested Loop,False,1202.0,1202,True
+a401:table:q2424,pg_map,pg_map,c p ph pl u,Nested Loop,False,1131.0,1131,True
+a401:table:q2424,hgb_ratio,hgb_ratio,ph pl,Hash Join,False,83.91888492752253,84,True
+a401:table:q2424,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,24.982884167359025,25,True
+a401:table:q2424,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,47.29043585695362,47,True
+a401:table:q2424,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,4276.125534459713,4276,True
+a401:table:q2424,oracle_join,oracle_join,p pl,Hash Join,False,9308.0,9308,True
+a401:table:q2424,oracle_join,oracle_join,p ph pl,Hash Join,False,5046.0,5046,True
+a401:table:q2424,oracle_join,oracle_join,c p ph pl,Nested Loop,False,14614.0,14614,True
+a401:table:q2424,oracle_join,oracle_join,c p ph pl u,Hash Join,False,4207.0,4207,True
+a401:table:q2175,pg,pg,p pl,Hash Join,False,,2291,
+a401:table:q2175,pg,pg,p ph pl,Nested Loop,False,,2265,
+a401:table:q2175,pg,pg,c p ph pl,Nested Loop,False,,4293,
+a401:table:q2175,pg,pg,c p ph pl u,Nested Loop,False,,4059,
+a401:table:q2175,pg_map,pg_map,p pl,Hash Join,False,2291.0,2291,True
+a401:table:q2175,pg_map,pg_map,p ph pl,Nested Loop,False,2265.0,2265,True
+a401:table:q2175,pg_map,pg_map,c p ph pl,Nested Loop,False,4293.0,4293,True
+a401:table:q2175,pg_map,pg_map,c p ph pl u,Nested Loop,False,4059.0,4059,True
+a401:table:q2175,hgb_ratio,hgb_ratio,p pl,Hash Join,False,16.412680359392137,16,True
+a401:table:q2175,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,16.226416854658748,16,True
+a401:table:q2175,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,30.754970223863136,31,True
+a401:table:q2175,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,453.6805856829268,454,True
+a401:table:q2175,oracle_join,oracle_join,p pl,Hash Join,False,6872.0,6872,True
+a401:table:q2175,oracle_join,oracle_join,c p pl,Hash Join,False,19791.0,19791,True
+a401:table:q2175,oracle_join,oracle_join,c p pl u,Hash Join,False,3885.0,3885,True
+a401:table:q2175,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,3885.0,3885,True
+a401:table:q1666,pg,pg,p pl,Hash Join,False,,2300,
+a401:table:q1666,pg,pg,p ph pl,Nested Loop,False,,2190,
+a401:table:q1666,pg,pg,c p ph pl,Nested Loop,False,,4149,
+a401:table:q1666,pg,pg,c p ph pl u,Nested Loop,False,,3908,
+a401:table:q1666,pg_map,pg_map,p pl,Hash Join,False,2300.0,2300,True
+a401:table:q1666,pg_map,pg_map,p ph pl,Nested Loop,False,2189.0,2189,True
+a401:table:q1666,pg_map,pg_map,c p ph pl,Nested Loop,False,4149.0,4149,True
+a401:table:q1666,pg_map,pg_map,c p ph pl u,Nested Loop,False,3908.0,3908,True
+a401:table:q1666,hgb_ratio,hgb_ratio,p pl,Hash Join,False,210.27634365532123,210,True
+a401:table:q1666,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,200.12822446152094,200,True
+a401:table:q1666,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,379.3202390547512,379,True
+a401:table:q1666,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,8698.58379003719,8699,True
+a401:table:q1666,oracle_join,oracle_join,p pl,Hash Join,False,7288.0,7288,True
+a401:table:q1666,oracle_join,oracle_join,c p pl,Hash Join,False,18315.0,18315,True
+a401:table:q1666,oracle_join,oracle_join,c p pl u,Hash Join,False,3100.0,3100,True
+a401:table:q1666,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,2997.0,2997,True
+a401:table:q1217,pg,pg,p pl,Hash Join,False,,2263,
+a401:table:q1217,pg,pg,p ph pl,Nested Loop,False,,1683,
+a401:table:q1217,pg,pg,c p ph pl,Nested Loop,False,,2438,
+a401:table:q1217,pg,pg,c p ph pl u,Nested Loop,False,,2377,
+a401:table:q1217,pg_map,pg_map,p pl,Hash Join,False,2263.0,2263,True
+a401:table:q1217,pg_map,pg_map,p ph pl,Nested Loop,False,1683.0,1683,True
+a401:table:q1217,pg_map,pg_map,c p ph pl,Nested Loop,False,2438.0,2438,True
+a401:table:q1217,pg_map,pg_map,c p ph pl u,Nested Loop,False,2377.0,2377,True
+a401:table:q1217,hgb_ratio,hgb_ratio,p pl,Hash Join,False,33.548602734152446,34,True
+a401:table:q1217,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,24.95019814475412,25,True
+a401:table:q1217,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,36.14294894647091,36,True
+a401:table:q1217,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,2717.7036685053295,2718,True
+a401:table:q1217,oracle_join,oracle_join,p pl,Hash Join,False,6720.0,6720,True
+a401:table:q1217,oracle_join,oracle_join,c p pl,Hash Join,False,13535.0,13535,True
+a401:table:q1217,oracle_join,oracle_join,c p pl u,Hash Join,False,5438.0,5438,True
+a401:table:q1217,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,10185.0,10185,True
+a401:table:q1997,pg,pg,p pl,Hash Join,False,,222,
+a401:table:q1997,pg,pg,c p pl,Nested Loop,False,,322,
+a401:table:q1997,pg,pg,c p pl u,Nested Loop,False,,310,
+a401:table:q1997,pg,pg,c p ph pl u,Nested Loop,False,,1023,
+a401:table:q1997,pg_map,pg_map,p pl,Hash Join,False,222.0,222,True
+a401:table:q1997,pg_map,pg_map,c p pl,Nested Loop,False,322.0,322,True
+a401:table:q1997,pg_map,pg_map,c p pl u,Nested Loop,False,310.0,310,True
+a401:table:q1997,pg_map,pg_map,c p ph pl u,Nested Loop,False,1023.0,1023,True
+a401:table:q1997,hgb_ratio,hgb_ratio,p pl,Hash Join,False,27.983748627122488,28,True
+a401:table:q1997,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,40.58904080150199,41,True
+a401:table:q1997,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,39.07640574057645,39,True
+a401:table:q1997,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,2121.3446200263256,2121,True
+a401:table:q1997,oracle_join,oracle_join,p pl,Hash Join,False,138.0,138,True
+a401:table:q1997,oracle_join,oracle_join,c p pl,Nested Loop,False,293.0,293,True
+a401:table:q1997,oracle_join,oracle_join,c p pl u,Nested Loop,False,116.0,116,True
+a401:table:q1997,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,716.0,716,True
+a401:table:q2411,pg,pg,p pl,Nested Loop,False,,21,
+a401:table:q2411,pg,pg,c p pl,Nested Loop,False,,30,
+a401:table:q2411,pg,pg,c p pl u,Nested Loop,False,,29,
+a401:table:q2411,pg,pg,c p ph pl u,Nested Loop,False,,92,
+a401:table:q2411,pg_map,pg_map,p pl,Nested Loop,False,21.0,21,True
+a401:table:q2411,pg_map,pg_map,c p pl,Nested Loop,False,30.0,30,True
+a401:table:q2411,pg_map,pg_map,c p pl u,Nested Loop,False,29.0,29,True
+a401:table:q2411,pg_map,pg_map,c p ph pl u,Nested Loop,False,92.0,92,True
+a401:table:q2411,hgb_ratio,hgb_ratio,p pl,Nested Loop,False,1.4278374801161986,1,True
+a401:table:q2411,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,2.0397678287374266,2,True
+a401:table:q2411,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,1.9717755677795124,2,True
+a401:table:q2411,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,1843.0662177861807,1843,True
+a401:table:q2411,oracle_join,oracle_join,p pl,Nested Loop,False,150.0,150,True
+a401:table:q2411,oracle_join,oracle_join,c p pl,Nested Loop,False,199.0,199,True
+a401:table:q2411,oracle_join,oracle_join,c p pl u,Nested Loop,False,67.0,67,True
+a401:table:q2411,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,481.0,481,True
+a401:table:q1416,pg,pg,p pl,Hash Join,False,,2214,
+a401:table:q1416,pg,pg,c p pl,Nested Loop,False,,4195,
+a401:table:q1416,pg,pg,c p pl u,Nested Loop,False,,4023,
+a401:table:q1416,pg,pg,c p ph pl u,Nested Loop,False,,12734,
+a401:table:q1416,pg_map,pg_map,p pl,Hash Join,False,2214.0,2214,True
+a401:table:q1416,pg_map,pg_map,c p pl,Nested Loop,False,4195.0,4195,True
+a401:table:q1416,pg_map,pg_map,c p pl u,Nested Loop,False,4023.0,4023,True
+a401:table:q1416,pg_map,pg_map,c p ph pl u,Nested Loop,False,12734.0,12734,True
+a401:table:q1416,hgb_ratio,hgb_ratio,p pl,Hash Join,False,140.41314129974637,140,True
+a401:table:q1416,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,266.0492898610822,266,True
+a401:table:q1416,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,255.14095187392937,255,True
+a401:table:q1416,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,86278.1674774218,86278,True
+a401:table:q1416,oracle_join,oracle_join,p pl,Hash Join,False,10181.0,10181,True
+a401:table:q1416,oracle_join,oracle_join,c p pl,Hash Join,False,30379.0,30379,True
+a401:table:q1416,oracle_join,oracle_join,c p pl u,Hash Join,False,7979.0,7979,True
+a401:table:q1416,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,52462.0,52462,True
+a401:table:q1310,pg,pg,p pl,Merge Join,False,,11102,
+a401:table:q1310,pg,pg,p ph pl,Hash Join,False,,8256,
+a401:table:q1310,pg,pg,c p ph pl,Hash Join,False,,15461,
+a401:table:q1310,pg,pg,c p ph pl u,Hash Join,False,,15068,
+a401:table:q1310,pg_map,pg_map,p pl,Merge Join,False,11102.0,11102,True
+a401:table:q1310,pg_map,pg_map,p ph pl,Hash Join,False,8256.0,8256,True
+a401:table:q1310,pg_map,pg_map,c p ph pl,Hash Join,False,15461.0,15461,True
+a401:table:q1310,pg_map,pg_map,c p ph pl u,Hash Join,False,15068.0,15068,True
+a401:table:q1310,hgb_ratio,hgb_ratio,p pl,Merge Join,False,1609.6575670871398,1610,True
+a401:table:q1310,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,1197.0215162917875,1197,True
+a401:table:q1310,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,2241.6605696932324,2242,True
+a401:table:q1310,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,174066.58885128825,174067,True
+a401:table:q1310,oracle_join,oracle_join,p pl,Merge Join,False,11102.0,11102,True
+a401:table:q1310,oracle_join,oracle_join,p ph pl,Hash Join,False,13872.0,13872,True
+a401:table:q1310,oracle_join,oracle_join,c p ph pl,Hash Join,False,51933.0,51933,True
+a401:table:q1310,oracle_join,oracle_join,c p ph pl u,Hash Join,False,46204.0,46204,True
+a401:table:q2288,pg,pg,p pl,Hash Join,False,,2177,
+a401:table:q2288,pg,pg,c p pl,Nested Loop,False,,4125,
+a401:table:q2288,pg,pg,c p pl u,Nested Loop,False,,4016,
+a401:table:q2288,pg,pg,c p ph pl u,Nested Loop,False,,12309,
+a401:table:q2288,pg_map,pg_map,p pl,Hash Join,False,2177.0,2177,True
+a401:table:q2288,pg_map,pg_map,c p pl,Nested Loop,False,4125.0,4125,True
+a401:table:q2288,pg_map,pg_map,c p pl u,Nested Loop,False,4016.0,4016,True
+a401:table:q2288,pg_map,pg_map,c p ph pl u,Nested Loop,False,12309.0,12309,True
+a401:table:q2288,hgb_ratio,hgb_ratio,p pl,Hash Join,False,118.86377898672443,119,True
+a401:table:q2288,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,225.22420226010027,225,True
+a401:table:q2288,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,219.27282333977277,219,True
+a401:table:q2288,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,41854.35535265843,41854,True
+a401:table:q2288,oracle_join,oracle_join,p pl,Hash Join,False,7864.0,7864,True
+a401:table:q2288,oracle_join,oracle_join,c p pl,Hash Join,False,21740.0,21740,True
+a401:table:q2288,oracle_join,oracle_join,c p pl u,Hash Join,False,6505.0,6505,True
+a401:table:q2288,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,40947.0,40947,True
+a401:table:q2107,pg,pg,p pl,Hash Join,False,,160,
+a401:table:q2107,pg,pg,c p pl,Nested Loop,False,,303,
+a401:table:q2107,pg,pg,c p pl u,Nested Loop,False,,298,
+a401:table:q2107,pg,pg,c p ph pl u,Nested Loop,False,,957,
+a401:table:q2107,pg_map,pg_map,p pl,Hash Join,False,160.0,160,True
+a401:table:q2107,pg_map,pg_map,c p pl,Nested Loop,False,303.0,303,True
+a401:table:q2107,pg_map,pg_map,c p pl u,Nested Loop,False,298.0,298,True
+a401:table:q2107,pg_map,pg_map,c p ph pl u,Nested Loop,False,957.0,957,True
+a401:table:q2107,hgb_ratio,hgb_ratio,p pl,Hash Join,False,365.29054318556246,365,True
+a401:table:q2107,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,691.768966157659,692,True
+a401:table:q2107,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,680.3536366831102,680,True
+a401:table:q2107,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,5952108.036510613,5952108,True
+a401:table:q2107,oracle_join,oracle_join,c p,Hash Join,False,,2543,
+a401:table:q2107,oracle_join,oracle_join,c p u,Nested Loop,False,,2502,
+a401:table:q2107,oracle_join,oracle_join,c p ph u,Nested Loop,False,,8039,
+a401:table:q2107,oracle_join,oracle_join,c p ph pl u,Hash Join,False,175095.0,175095,True
+a401:table:q2050,pg,pg,p pl,Hash Join,False,,10775,
+a401:table:q2050,pg,pg,c p pl,Hash Join,False,,20351,
+a401:table:q2050,pg,pg,c p pl u,Hash Join,False,,19971,
+a401:table:q2050,pg,pg,c p ph pl u,Hash Join,False,,65833,
+a401:table:q2050,pg_map,pg_map,p pl,Hash Join,False,10775.0,10775,True
+a401:table:q2050,pg_map,pg_map,c p pl,Hash Join,False,20351.0,20351,True
+a401:table:q2050,pg_map,pg_map,c p pl u,Hash Join,False,19971.0,19971,True
+a401:table:q2050,pg_map,pg_map,c p ph pl u,Hash Join,False,65833.0,65833,True
+a401:table:q2050,hgb_ratio,hgb_ratio,p pl,Hash Join,False,1131.7240698875544,1132,True
+a401:table:q2050,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,2137.5142966386657,2138,True
+a401:table:q2050,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,2097.601986053304,2098,True
+a401:table:q2050,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,179353.31988306154,179353,True
+a401:table:q2050,oracle_join,oracle_join,p pl,Hash Join,False,10688.0,10688,True
+a401:table:q2050,oracle_join,oracle_join,c p pl,Hash Join,False,29845.0,29845,True
+a401:table:q2050,oracle_join,oracle_join,c p pl u,Hash Join,False,14135.0,14135,True
+a401:table:q2050,oracle_join,oracle_join,c p ph pl u,Hash Join,False,96457.0,96457,True
+a401:table:q1169,pg,pg,p pl,Hash Join,False,,5176,
+a401:table:q1169,pg,pg,c p pl,Nested Loop,False,,7569,
+a401:table:q1169,pg,pg,c p pl u,Hash Join,False,,7307,
+a401:table:q1169,pg,pg,c p ph pl u,Nested Loop,False,,22650,
+a401:table:q1169,pg_map,pg_map,p pl,Hash Join,False,5176.0,5176,True
+a401:table:q1169,pg_map,pg_map,c p pl,Nested Loop,False,7569.0,7569,True
+a401:table:q1169,pg_map,pg_map,c p pl u,Hash Join,False,7307.0,7307,True
+a401:table:q1169,pg_map,pg_map,c p ph pl u,Nested Loop,False,22650.0,22650,True
+a401:table:q1169,hgb_ratio,hgb_ratio,p pl,Hash Join,False,270.24501634479634,270,True
+a401:table:q1169,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,395.18634635119076,395,True
+a401:table:q1169,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,381.5070197896883,382,True
+a401:table:q1169,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,35658.4017751012,35658,True
+a401:table:q1169,oracle_join,oracle_join,p pl,Hash Join,False,11097.0,11097,True
+a401:table:q1169,oracle_join,oracle_join,c p pl,Hash Join,False,20511.0,20511,True
+a401:table:q1169,oracle_join,oracle_join,c p pl u,Hash Join,False,6828.0,6828,True
+a401:table:q1169,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,42179.0,42179,True
+a401:table:q1197,pg,pg,p pl,Hash Join,False,,648,
+a401:table:q1197,pg,pg,p ph pl,Nested Loop,False,,51,
+a401:table:q1197,pg,pg,c p ph pl,Nested Loop,False,,74,
+a401:table:q1197,pg,pg,c p ph pl u,Nested Loop,False,,72,
+a401:table:q1197,pg_map,pg_map,p pl,Hash Join,False,648.0,648,True
+a401:table:q1197,pg_map,pg_map,p ph pl,Nested Loop,False,51.0,51,True
+a401:table:q1197,pg_map,pg_map,c p ph pl,Nested Loop,False,74.0,74,True
+a401:table:q1197,pg_map,pg_map,c p ph pl u,Nested Loop,False,72.0,72,True
+a401:table:q1197,hgb_ratio,hgb_ratio,p pl,Hash Join,False,37.82580726294564,38,True
+a401:table:q1197,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,2.977031127176277,3,True
+a401:table:q1197,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,4.3196137923734215,4,True
+a401:table:q1197,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,670.0071230927315,670,True
+a401:table:q1197,oracle_join,oracle_join,ph pl,Hash Join,False,1337.0,1337,True
+a401:table:q1197,oracle_join,oracle_join,p ph pl,Nested Loop,False,537.0,537,True
+a401:table:q1197,oracle_join,oracle_join,c p ph pl,Nested Loop,False,1046.0,1046,True
+a401:table:q1197,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,397.0,397,True
+a401:table:q1505,pg,pg,p pl,Hash Join,False,,630,
+a401:table:q1505,pg,pg,c p pl,Nested Loop,False,,1194,
+a401:table:q1505,pg,pg,c p pl u,Nested Loop,False,,1096,
+a401:table:q1505,pg,pg,c p ph pl u,Nested Loop,False,,3613,
+a401:table:q1505,pg_map,pg_map,p pl,Hash Join,False,630.0,630,True
+a401:table:q1505,pg_map,pg_map,c p pl,Nested Loop,False,1194.0,1194,True
+a401:table:q1505,pg_map,pg_map,c p pl u,Nested Loop,False,1096.0,1096,True
+a401:table:q1505,pg_map,pg_map,c p ph pl u,Nested Loop,False,3613.0,3613,True
+a401:table:q1505,hgb_ratio,hgb_ratio,p pl,Hash Join,False,37.18437470300656,37,True
+a401:table:q1505,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,70.47324348474578,70,True
+a401:table:q1505,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,64.68900741983364,65,True
+a401:table:q1505,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,11481.472497582627,11481,True
+a401:table:q1505,oracle_join,oracle_join,p pl,Hash Join,False,346.0,346,True
+a401:table:q1505,oracle_join,oracle_join,c p pl,Nested Loop,False,1228.0,1228,True
+a401:table:q1505,oracle_join,oracle_join,c p pl u,Nested Loop,False,867.0,867,True
+a401:table:q1505,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,5285.0,5285,True
+a401:table:q1894,pg,pg,p pl,Hash Join,False,,593,
+a401:table:q1894,pg,pg,c p pl,Nested Loop,False,,1123,
+a401:table:q1894,pg,pg,c p pl u,Nested Loop,False,,1080,
+a401:table:q1894,pg,pg,c p ph pl u,Nested Loop,False,,3549,
+a401:table:q1894,pg_map,pg_map,p pl,Hash Join,False,593.0,593,True
+a401:table:q1894,pg_map,pg_map,c p pl,Nested Loop,False,1123.0,1123,True
+a401:table:q1894,pg_map,pg_map,c p pl u,Nested Loop,False,1080.0,1080,True
+a401:table:q1894,pg_map,pg_map,c p ph pl u,Nested Loop,False,3549.0,3549,True
+a401:table:q1894,hgb_ratio,hgb_ratio,p pl,Hash Join,False,27.01355938662298,27,True
+a401:table:q1894,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,51.1572128013113,51,True
+a401:table:q1894,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,49.19838809030829,49,True
+a401:table:q1894,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,26835.944094804356,26836,True
+a401:table:q1894,oracle_join,oracle_join,p pl,Hash Join,False,3749.0,3749,True
+a401:table:q1894,oracle_join,oracle_join,c p pl,Hash Join,False,9531.0,9531,True
+a401:table:q1894,oracle_join,oracle_join,c p pl u,Hash Join,False,2524.0,2524,True
+a401:table:q1894,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,17710.0,17710,True
+a401:table:q1325,pg,pg,p pl,Hash Join,False,,690,
+a401:table:q1325,pg,pg,c p pl,Nested Loop,False,,1009,
+a401:table:q1325,pg,pg,c p pl u,Nested Loop,False,,980,
+a401:table:q1325,pg,pg,c p ph pl u,Nested Loop,False,,3231,
+a401:table:q1325,pg_map,pg_map,p pl,Hash Join,False,690.0,690,True
+a401:table:q1325,pg_map,pg_map,c p pl,Nested Loop,False,1009.0,1009,True
+a401:table:q1325,pg_map,pg_map,c p pl u,Nested Loop,False,980.0,980,True
+a401:table:q1325,pg_map,pg_map,c p ph pl u,Nested Loop,False,3231.0,3231,True
+a401:table:q1325,hgb_ratio,hgb_ratio,p pl,Hash Join,False,69.80670274908982,70,True
+a401:table:q1325,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,102.07965662874149,102,True
+a401:table:q1325,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,99.14575173059134,99,True
+a401:table:q1325,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,37008.478723534856,37008,True
+a401:table:q1325,oracle_join,oracle_join,p pl,Hash Join,False,4702.0,4702,True
+a401:table:q1325,oracle_join,oracle_join,c p pl,Hash Join,False,9510.0,9510,True
+a401:table:q1325,oracle_join,oracle_join,c p pl u,Hash Join,False,3237.0,3237,True
+a401:table:q1325,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,22274.0,22274,True
+a401:table:q2325,pg,pg,p pl,Hash Join,False,,624,
+a401:table:q2325,pg,pg,p ph pl,Nested Loop,False,,279,
+a401:table:q2325,pg,pg,c p ph pl,Nested Loop,False,,521,
+a401:table:q2325,pg,pg,c p ph pl u,Nested Loop,False,,509,
+a401:table:q2325,pg_map,pg_map,p pl,Hash Join,False,624.0,624,True
+a401:table:q2325,pg_map,pg_map,p ph pl,Nested Loop,False,279.0,279,True
+a401:table:q2325,pg_map,pg_map,c p ph pl,Nested Loop,False,521.0,521,True
+a401:table:q2325,pg_map,pg_map,c p ph pl u,Nested Loop,False,509.0,509,True
+a401:table:q2325,hgb_ratio,hgb_ratio,p pl,Hash Join,False,43.339652645381946,43,True
+a401:table:q2325,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,19.37782546163712,19,True
+a401:table:q2325,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,36.18583177603204,36,True
+a401:table:q2325,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,8135.213965310236,8135,True
+a401:table:q2325,oracle_join,oracle_join,p ph,Hash Join,False,,2308,
+a401:table:q2325,oracle_join,oracle_join,c p ph,Nested Loop,False,,4318,
+a401:table:q2325,oracle_join,oracle_join,c p ph u,Nested Loop,False,,4216,
+a401:table:q2325,oracle_join,oracle_join,c p ph pl u,Hash Join,False,3217.0,3217,True
+a401:table:q1805,pg,pg,p pl,Hash Join,False,,565,
+a401:table:q1805,pg,pg,c p pl,Nested Loop,False,,1061,
+a401:table:q1805,pg,pg,c p pl u,Nested Loop,False,,1044,
+a401:table:q1805,pg,pg,c p ph pl u,Nested Loop,False,,3441,
+a401:table:q1805,pg_map,pg_map,p pl,Hash Join,False,565.0,565,True
+a401:table:q1805,pg_map,pg_map,c p pl,Nested Loop,False,1061.0,1061,True
+a401:table:q1805,pg_map,pg_map,c p pl u,Nested Loop,False,1044.0,1044,True
+a401:table:q1805,pg_map,pg_map,c p ph pl u,Nested Loop,False,3441.0,3441,True
+a401:table:q1805,hgb_ratio,hgb_ratio,p pl,Hash Join,False,26.851610555327433,27,True
+a401:table:q1805,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,50.42399787469453,50,True
+a401:table:q1805,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,49.616073309312995,50,True
+a401:table:q1805,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,51434.42635614022,51434,True
+a401:table:q1805,oracle_join,oracle_join,p pl,Hash Join,False,3059.0,3059,True
+a401:table:q1805,oracle_join,oracle_join,c p pl,Nested Loop,False,7930.0,7930,True
+a401:table:q1805,oracle_join,oracle_join,c p pl u,Hash Join,False,7789.0,7789,True
+a401:table:q1805,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,52377.0,52377,True
+a401:table:q1892,pg,pg,p pl,Hash Join,False,,306,
+a401:table:q1892,pg,pg,p ph pl,Nested Loop,False,,297,
+a401:table:q1892,pg,pg,c p ph pl,Nested Loop,False,,557,
+a401:table:q1892,pg,pg,c p ph pl u,Nested Loop,False,,526,
+a401:table:q1892,pg_map,pg_map,p pl,Hash Join,False,306.0,306,True
+a401:table:q1892,pg_map,pg_map,p ph pl,Nested Loop,False,297.0,297,True
+a401:table:q1892,pg_map,pg_map,c p ph pl,Nested Loop,False,557.0,557,True
+a401:table:q1892,pg_map,pg_map,c p ph pl u,Nested Loop,False,526.0,526,True
+a401:table:q1892,hgb_ratio,hgb_ratio,p pl,Hash Join,False,18.882041278426406,19,True
+a401:table:q1892,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,18.326687123178573,18,True
+a401:table:q1892,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,34.37025160811604,34,True
+a401:table:q1892,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,2464.7851530243934,2465,True
+a401:table:q1892,oracle_join,oracle_join,c p,Hash Join,False,,4760,
+a401:table:q1892,oracle_join,oracle_join,c p u,Nested Loop,False,,4492,
+a401:table:q1892,oracle_join,oracle_join,c p pl u,Hash Join,False,2095.0,2095,True
+a401:table:q1892,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,2091.0,2091,True
+a401:table:q1714,pg,pg,p pl,Hash Join,False,,629,
+a401:table:q1714,pg,pg,c p pl,Nested Loop,False,,1193,
+a401:table:q1714,pg,pg,c p pl u,Nested Loop,False,,1132,
+a401:table:q1714,pg,pg,c p ph pl u,Nested Loop,False,,3663,
+a401:table:q1714,pg_map,pg_map,p pl,Hash Join,False,629.0,629,True
+a401:table:q1714,pg_map,pg_map,c p pl,Nested Loop,False,1193.0,1193,True
+a401:table:q1714,pg_map,pg_map,c p pl u,Nested Loop,False,1132.0,1132,True
+a401:table:q1714,pg_map,pg_map,c p ph pl u,Nested Loop,False,3663.0,3663,True
+a401:table:q1714,hgb_ratio,hgb_ratio,p pl,Hash Join,False,42.42883030559324,42,True
+a401:table:q1714,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,80.47312329820784,80,True
+a401:table:q1714,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,76.35840366602788,76,True
+a401:table:q1714,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,14504.116885753518,14504,True
+a401:table:q1714,oracle_join,oracle_join,p pl,Hash Join,False,5259.0,5259,True
+a401:table:q1714,oracle_join,oracle_join,c p pl,Hash Join,False,13432.0,13432,True
+a401:table:q1714,oracle_join,oracle_join,c p pl u,Hash Join,False,1877.0,1877,True
+a401:table:q1714,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,12018.0,12018,True
+a401:table:q2021,pg,pg,p pl,Hash Join,False,,2310,
+a401:table:q2021,pg,pg,c p pl,Nested Loop,False,,4336,
+a401:table:q2021,pg,pg,c p pl u,Nested Loop,False,,4152,
+a401:table:q2021,pg,pg,c p ph pl u,Nested Loop,False,,13686,
+a401:table:q2021,pg_map,pg_map,p pl,Hash Join,False,2310.0,2310,True
+a401:table:q2021,pg_map,pg_map,c p pl,Nested Loop,False,4336.0,4336,True
+a401:table:q2021,pg_map,pg_map,c p pl u,Nested Loop,False,4152.0,4152,True
+a401:table:q2021,pg_map,pg_map,c p ph pl u,Nested Loop,False,13686.0,13686,True
+a401:table:q2021,hgb_ratio,hgb_ratio,p pl,Hash Join,False,50.158409014806395,50,True
+a401:table:q2021,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,94.15015648839851,94,True
+a401:table:q2021,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,90.15485464479488,90,True
+a401:table:q2021,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,8250.211452653584,8250,True
+a401:table:q2021,oracle_join,oracle_join,p pl,Hash Join,False,6687.0,6687,True
+a401:table:q2021,oracle_join,oracle_join,c p pl,Hash Join,False,17888.0,17888,True
+a401:table:q2021,oracle_join,oracle_join,c p pl u,Hash Join,False,3539.0,3539,True
+a401:table:q2021,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,23220.0,23220,True
+a401:table:q2403,pg,pg,p pl,Hash Join,False,,5175,
+a401:table:q2403,pg,pg,p ph pl,Nested Loop,False,,17059,
+a401:table:q2403,pg,pg,c p ph pl,Hash Join,False,,32331,
+a401:table:q2403,pg,pg,c p ph pl u,Hash Join,False,,31211,
+a401:table:q2403,pg_map,pg_map,p pl,Hash Join,False,5175.0,5175,True
+a401:table:q2403,pg_map,pg_map,p ph pl,Nested Loop,False,17060.0,17060,True
+a401:table:q2403,pg_map,pg_map,c p ph pl,Hash Join,False,32331.0,32331,True
+a401:table:q2403,pg_map,pg_map,c p ph pl u,Hash Join,False,31211.0,31211,True
+a401:table:q2403,hgb_ratio,hgb_ratio,p pl,Hash Join,False,195.96672332548494,196,True
+a401:table:q2403,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,371.40900915485145,371,True
+a401:table:q2403,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,358.53390076245245,359,True
+a401:table:q2403,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,36294.36253868491,36294,True
+a401:table:q2403,oracle_join,oracle_join,p pl,Hash Join,False,11096.0,11096,True
+a401:table:q2403,oracle_join,oracle_join,c p pl,Hash Join,False,33275.0,33275,True
+a401:table:q2403,oracle_join,oracle_join,c p pl u,Hash Join,False,8135.0,8135,True
+a401:table:q2403,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,57999.0,57999,True
+a401:table:q1749,pg,pg,p pl,Hash Join,False,,173,
+a401:table:q1749,pg,pg,c p pl,Nested Loop,False,,329,
+a401:table:q1749,pg,pg,c p pl u,Nested Loop,False,,320,
+a401:table:q1749,pg,pg,c p ph pl u,Nested Loop,False,,1056,
+a401:table:q1749,pg_map,pg_map,p pl,Hash Join,False,173.0,173,True
+a401:table:q1749,pg_map,pg_map,c p pl,Nested Loop,False,329.0,329,True
+a401:table:q1749,pg_map,pg_map,c p pl u,Nested Loop,False,320.0,320,True
+a401:table:q1749,pg_map,pg_map,c p ph pl u,Nested Loop,False,1056.0,1056,True
+a401:table:q1749,hgb_ratio,hgb_ratio,p pl,Hash Join,False,11.6048758976036,12,True
+a401:table:q1749,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,22.06938826769702,22,True
+a401:table:q1749,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,21.46566640019163,21,True
+a401:table:q1749,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,3175.979504323353,3176,True
+a401:table:q1749,oracle_join,oracle_join,p pl,Hash Join,False,254.0,254,True
+a401:table:q1749,oracle_join,oracle_join,c p pl,Nested Loop,False,609.0,609,True
+a401:table:q1749,oracle_join,oracle_join,c p pl u,Nested Loop,False,202.0,202,True
+a401:table:q1749,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,1197.0,1197,True
+a401:table:q2111,pg,pg,p pl,Hash Join,False,,9431,
+a401:table:q2111,pg,pg,p ph pl,Nested Loop,False,,31088,
+a401:table:q2111,pg,pg,c p ph pl,Hash Join,False,,58916,
+a401:table:q2111,pg,pg,c p ph pl u,Hash Join,False,,57969,
+a401:table:q2111,pg_map,pg_map,p pl,Hash Join,False,9431.0,9431,True
+a401:table:q2111,pg_map,pg_map,p ph pl,Nested Loop,False,31088.0,31088,True
+a401:table:q2111,pg_map,pg_map,c p ph pl,Hash Join,False,58915.0,58915,True
+a401:table:q2111,pg_map,pg_map,c p ph pl u,Hash Join,False,57969.0,57969,True
+a401:table:q2111,hgb_ratio,hgb_ratio,p pl,Hash Join,False,2609.9829748805014,2610,True
+a401:table:q2111,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,4946.265052490638,4946,True
+a401:table:q2111,hgb_ratio,hgb_ratio,c p pl u,Hash Join,False,4866.839210714505,4867,True
+a401:table:q2111,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,798381.3661612563,798381,True
+a401:table:q2111,oracle_join,oracle_join,p pl,Hash Join,False,9498.0,9498,True
+a401:table:q2111,oracle_join,oracle_join,c p pl,Hash Join,False,28663.0,28663,True
+a401:table:q2111,oracle_join,oracle_join,c p pl u,Hash Join,False,27886.0,27886,True
+a401:table:q2111,oracle_join,oracle_join,c p ph pl u,Hash Join,False,194021.0,194021,True
+a401:table:q2110,pg,pg,p pl,Hash Join,False,,5176,
+a401:table:q2110,pg,pg,p ph pl,Hash Join,False,,2447,
+a401:table:q2110,pg,pg,c p ph pl,Nested Loop,False,,3578,
+a401:table:q2110,pg,pg,c p ph pl u,Nested Loop,False,,3317,
+a401:table:q2110,pg_map,pg_map,p pl,Hash Join,False,5176.0,5176,True
+a401:table:q2110,pg_map,pg_map,p ph pl,Hash Join,False,2447.0,2447,True
+a401:table:q2110,pg_map,pg_map,c p ph pl,Nested Loop,False,3578.0,3578,True
+a401:table:q2110,pg_map,pg_map,c p ph pl u,Nested Loop,False,3317.0,3317,True
+a401:table:q2110,hgb_ratio,hgb_ratio,p pl,Hash Join,False,303.8882054406167,304,True
+a401:table:q2110,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,143.66584982866866,144,True
+a401:table:q2110,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,210.06800600203368,210,True
+a401:table:q2110,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,8086.44401080998,8086,True
+a401:table:q2110,oracle_join,oracle_join,p pl,Hash Join,False,11097.0,11097,True
+a401:table:q2110,oracle_join,oracle_join,c p pl,Hash Join,False,20511.0,20511,True
+a401:table:q2110,oracle_join,oracle_join,c p pl u,Hash Join,False,6132.0,6132,True
+a401:table:q2110,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,6132.0,6132,True
+a401:table:q1602,pg,pg,c pl,Hash Join,False,,198,
+a401:table:q1602,pg,pg,c pl u,Nested Loop,False,,12,
+a401:table:q1602,pg,pg,c p pl u,Nested Loop,False,,5,
+a401:table:q1602,pg,pg,c p ph pl u,Nested Loop,False,,16,
+a401:table:q1602,pg_map,pg_map,c pl,Hash Join,False,198.0,198,True
+a401:table:q1602,pg_map,pg_map,c pl u,Nested Loop,False,12.0,12,True
+a401:table:q1602,pg_map,pg_map,c p pl u,Nested Loop,False,5.0,5,True
+a401:table:q1602,pg_map,pg_map,c p ph pl u,Nested Loop,False,16.0,16,True
+a401:table:q1602,hgb_ratio,hgb_ratio,c pl,Hash Join,False,7.678633310883716,8,True
+a401:table:q1602,hgb_ratio,hgb_ratio,c pl u,Nested Loop,False,1.0,1,True
+a401:table:q1602,hgb_ratio,hgb_ratio,c ph pl u,Nested Loop,False,2.171734673785293,2,True
+a401:table:q1602,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,8.260347955647633,8,True
+a401:table:q1602,oracle_join,oracle_join,c pl,Hash Join,False,257.0,257,True
+a401:table:q1602,oracle_join,oracle_join,c pl u,Nested Loop,False,2.0,2,True
+a401:table:q1602,oracle_join,oracle_join,c p pl u,Nested Loop,False,2.0,2,True
+a401:table:q1602,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,12.0,12,True
+a401:table:q2291,pg,pg,p pl,Hash Join,False,,43,
+a401:table:q2291,pg,pg,c p pl,Nested Loop,False,,82,
+a401:table:q2291,pg,pg,c p pl u,Nested Loop,False,,80,
+a401:table:q2291,pg,pg,c p ph pl u,Nested Loop,False,,254,
+a401:table:q2291,pg_map,pg_map,p pl,Hash Join,False,43.0,43,True
+a401:table:q2291,pg_map,pg_map,c p pl,Nested Loop,False,82.0,82,True
+a401:table:q2291,pg_map,pg_map,c p pl u,Nested Loop,False,80.0,80,True
+a401:table:q2291,pg_map,pg_map,c p ph pl u,Nested Loop,False,254.0,254,True
+a401:table:q2291,hgb_ratio,hgb_ratio,p pl,Hash Join,False,3.591068883378904,4,True
+a401:table:q2291,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,6.848084847373724,7,True
+a401:table:q2291,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,6.6810583876816825,7,True
+a401:table:q2291,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,2843.0408836480938,2843,True
+a401:table:q2291,oracle_join,oracle_join,p pl,Hash Join,False,139.0,139,True
+a401:table:q2291,oracle_join,oracle_join,c p pl,Nested Loop,False,439.0,439,True
+a401:table:q2291,oracle_join,oracle_join,c p pl u,Nested Loop,False,166.0,166,True
+a401:table:q2291,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,1088.0,1088,True
+a401:table:q1640,pg,pg,p pl,Merge Join,False,,10784,
+a401:table:q1640,pg,pg,c p pl,Hash Join,False,,15772,
+a401:table:q1640,pg,pg,c p pl u,Hash Join,False,,15019,
+a401:table:q1640,pg,pg,c p ph pl u,Hash Join,False,,48489,
+a401:table:q1640,pg_map,pg_map,p pl,Merge Join,False,10784.0,10784,True
+a401:table:q1640,pg_map,pg_map,c p pl,Hash Join,False,15772.0,15772,True
+a401:table:q1640,pg_map,pg_map,c p pl u,Hash Join,False,15019.0,15019,True
+a401:table:q1640,pg_map,pg_map,c p ph pl u,Hash Join,False,48489.0,48489,True
+a401:table:q1640,hgb_ratio,hgb_ratio,p pl,Merge Join,False,174.44726568180852,174,True
+a401:table:q1640,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,255.13559665555303,255,True
+a401:table:q1640,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,242.9546998585944,243,True
+a401:table:q1640,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,12497.826584536331,12498,True
+a401:table:q1640,oracle_join,oracle_join,p pl,Merge Join,False,7329.0,7329,True
+a401:table:q1640,oracle_join,oracle_join,c p pl,Hash Join,False,14116.0,14116,True
+a401:table:q1640,oracle_join,oracle_join,c p pl u,Hash Join,False,4936.0,4936,True
+a401:table:q1640,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,32912.0,32912,True
+a401:table:q1760,pg,pg,p pl,Hash Join,False,,10121,
+a401:table:q1760,pg,pg,p ph pl,Hash Join,False,,9727,
+a401:table:q1760,pg,pg,c p ph pl,Hash Join,False,,18434,
+a401:table:q1760,pg,pg,c p ph pl u,Hash Join,False,,17951,
+a401:table:q1760,pg_map,pg_map,p pl,Hash Join,False,10121.0,10121,True
+a401:table:q1760,pg_map,pg_map,p ph pl,Hash Join,False,9727.0,9727,True
+a401:table:q1760,pg_map,pg_map,c p ph pl,Hash Join,False,18434.0,18434,True
+a401:table:q1760,pg_map,pg_map,c p ph pl u,Hash Join,False,17951.0,17951,True
+a401:table:q1760,hgb_ratio,hgb_ratio,p pl,Hash Join,False,552.4254103245152,552,True
+a401:table:q1760,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,530.92006385007,531,True
+a401:table:q1760,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,1006.1663880962467,1006,True
+a401:table:q1760,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,10942.236862364049,10942,True
+a401:table:q1760,oracle_join,oracle_join,p pl,Hash Join,False,9919.0,9919,True
+a401:table:q1760,oracle_join,oracle_join,c p pl,Hash Join,False,27227.0,27227,True
+a401:table:q1760,oracle_join,oracle_join,c p pl u,Hash Join,False,6796.0,6796,True
+a401:table:q1760,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,6227.0,6227,True
+a401:table:q2304,pg,pg,p pl,Merge Join,False,,11102,
+a401:table:q2304,pg,pg,c p pl,Hash Join,False,,16003,
+a401:table:q2304,pg,pg,c p pl u,Hash Join,False,,15599,
+a401:table:q2304,pg,pg,c p ph pl u,Hash Join,False,,51420,
+a401:table:q2304,pg_map,pg_map,p pl,Merge Join,False,11102.0,11102,True
+a401:table:q2304,pg_map,pg_map,c p pl,Hash Join,False,16003.0,16003,True
+a401:table:q2304,pg_map,pg_map,c p pl u,Hash Join,False,15599.0,15599,True
+a401:table:q2304,pg_map,pg_map,c p ph pl u,Hash Join,False,51420.0,51420,True
+a401:table:q2304,hgb_ratio,hgb_ratio,p pl,Merge Join,False,40239.7800165216,40240,True
+a401:table:q2304,hgb_ratio,hgb_ratio,c p pl,Hash Join,False,58003.71100742166,58004,True
+a401:table:q2304,hgb_ratio,hgb_ratio,c p pl u,Hash Join,False,56539.391864323596,56539,True
+a401:table:q2304,hgb_ratio,hgb_ratio,c p ph pl u,Hash Join,False,8470948.509833604,8470949,True
+a401:table:q2304,oracle_join,oracle_join,p pl,Merge Join,False,11102.0,11102,True
+a401:table:q2304,oracle_join,oracle_join,c p pl,Hash Join,False,20001.0,20001,True
+a401:table:q2304,oracle_join,oracle_join,c p pl u,Hash Join,False,19570.0,19570,True
+a401:table:q2304,oracle_join,oracle_join,c p ph pl u,Hash Join,False,133792.0,133792,True
+a401:table:q1884,pg,pg,p pl,Hash Join,False,,4720,
+a401:table:q1884,pg,pg,p ph pl,Nested Loop,False,,3510,
+a401:table:q1884,pg,pg,c p ph pl,Nested Loop,False,,6653,
+a401:table:q1884,pg,pg,c p ph pl u,Hash Join,False,,6402,
+a401:table:q1884,pg_map,pg_map,p pl,Hash Join,False,4720.0,4720,True
+a401:table:q1884,pg_map,pg_map,p ph pl,Nested Loop,False,3510.0,3510,True
+a401:table:q1884,pg_map,pg_map,c p ph pl,Nested Loop,False,6653.0,6653,True
+a401:table:q1884,pg_map,pg_map,c p ph pl u,Hash Join,False,6402.0,6402,True
+a401:table:q1884,hgb_ratio,hgb_ratio,p pl,Hash Join,False,254.70026175174831,255,True
+a401:table:q1884,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,189.40633871793148,189,True
+a401:table:q1884,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,359.00865284626724,359,True
+a401:table:q1884,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,28369.99371051396,28370,True
+a401:table:q1884,oracle_join,oracle_join,p pl,Hash Join,False,8681.0,8681,True
+a401:table:q1884,oracle_join,oracle_join,c p pl,Hash Join,False,24969.0,24969,True
+a401:table:q1884,oracle_join,oracle_join,c p pl u,Hash Join,False,16606.0,16606,True
+a401:table:q1884,oracle_join,oracle_join,c p ph pl u,Hash Join,False,29915.0,29915,True
+a401:table:q1512,pg,pg,p pl,Hash Join,False,,1307,
+a401:table:q1512,pg,pg,c p pl,Nested Loop,False,,352,
+a401:table:q1512,pg,pg,c p pl u,Nested Loop,False,,340,
+a401:table:q1512,pg,pg,c p ph pl u,Nested Loop,False,,336,
+a401:table:q1512,pg_map,pg_map,p pl,Hash Join,False,1307.0,1307,True
+a401:table:q1512,pg_map,pg_map,c p pl,Nested Loop,False,352.0,352,True
+a401:table:q1512,pg_map,pg_map,c p pl u,Nested Loop,False,340.0,340,True
+a401:table:q1512,pg_map,pg_map,c p ph pl u,Nested Loop,False,336.0,336,True
+a401:table:q1512,hgb_ratio,hgb_ratio,p pl,Hash Join,False,85.34083369611733,85,True
+a401:table:q1512,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,22.983912364983397,23,True
+a401:table:q1512,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,22.200369897995326,22,True
+a401:table:q1512,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,750.1113217299127,750,True
+a401:table:q1512,oracle_join,oracle_join,p pl,Hash Join,False,3442.0,3442,True
+a401:table:q1512,oracle_join,oracle_join,c p pl,Hash Join,False,1670.0,1670,True
+a401:table:q1512,oracle_join,oracle_join,c p pl u,Nested Loop,False,242.0,242,True
+a401:table:q1512,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,242.0,242,True
+a401:table:q1770,pg,pg,p pl,Hash Join,False,,269,
+a401:table:q1770,pg,pg,c p pl,Nested Loop,False,,390,
+a401:table:q1770,pg,pg,c p pl u,Nested Loop,False,,372,
+a401:table:q1770,pg,pg,c p ph pl u,Nested Loop,False,,1227,
+a401:table:q1770,pg_map,pg_map,p pl,Hash Join,False,269.0,269,True
+a401:table:q1770,pg_map,pg_map,c p pl,Nested Loop,False,390.0,390,True
+a401:table:q1770,pg_map,pg_map,c p pl u,Nested Loop,False,372.0,372,True
+a401:table:q1770,pg_map,pg_map,c p ph pl u,Nested Loop,False,1227.0,1227,True
+a401:table:q1770,hgb_ratio,hgb_ratio,p pl,Hash Join,False,19.265582141284543,19,True
+a401:table:q1770,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,27.9315131416393,28,True
+a401:table:q1770,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,26.642366381255947,27,True
+a401:table:q1770,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,11506.494267595008,11506,True
+a401:table:q1770,oracle_join,oracle_join,p pl,Hash Join,False,2710.0,2710,True
+a401:table:q1770,oracle_join,oracle_join,c p pl,Nested Loop,False,5212.0,5212,True
+a401:table:q1770,oracle_join,oracle_join,c p pl u,Hash Join,False,1146.0,1146,True
+a401:table:q1770,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,8080.0,8080,True
+a401:table:q1538,pg,pg,p pl,Hash Join,False,,684,
+a401:table:q1538,pg,pg,c p pl,Nested Loop,False,,1000,
+a401:table:q1538,pg,pg,c p pl u,Nested Loop,False,,965,
+a401:table:q1538,pg,pg,c p ph pl u,Nested Loop,False,,3182,
+a401:table:q1538,pg_map,pg_map,p pl,Hash Join,False,684.0,684,True
+a401:table:q1538,pg_map,pg_map,c p pl,Nested Loop,False,1000.0,1000,True
+a401:table:q1538,pg_map,pg_map,c p pl u,Nested Loop,False,965.0,965,True
+a401:table:q1538,pg_map,pg_map,c p ph pl u,Nested Loop,False,3182.0,3182,True
+a401:table:q1538,hgb_ratio,hgb_ratio,p pl,Hash Join,False,30.2157645222499,30,True
+a401:table:q1538,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,44.175094330774705,44,True
+a401:table:q1538,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,42.62896602919759,43,True
+a401:table:q1538,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,19167.30837955716,19167,True
+a401:table:q1538,oracle_join,oracle_join,p pl,Hash Join,False,4668.0,4668,True
+a401:table:q1538,oracle_join,oracle_join,c p pl,Hash Join,False,8679.0,8679,True
+a401:table:q1538,oracle_join,oracle_join,c p pl u,Hash Join,False,2947.0,2947,True
+a401:table:q1538,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,20485.0,20485,True
+a401:table:q1485,pg,pg,p pl,Hash Join,False,,158,
+a401:table:q1485,pg,pg,p ph pl,Nested Loop,False,,22,
+a401:table:q1485,pg,pg,c p ph pl,Nested Loop,False,,41,
+a401:table:q1485,pg,pg,c p ph pl u,Nested Loop,False,,38,
+a401:table:q1485,pg_map,pg_map,p pl,Hash Join,False,158.0,158,True
+a401:table:q1485,pg_map,pg_map,p ph pl,Nested Loop,False,22.0,22,True
+a401:table:q1485,pg_map,pg_map,c p ph pl,Nested Loop,False,41.0,41,True
+a401:table:q1485,pg_map,pg_map,c p ph pl u,Nested Loop,False,38.0,38,True
+a401:table:q1485,hgb_ratio,hgb_ratio,p pl,Hash Join,False,5.613864052786115,6,True
+a401:table:q1485,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,1.0,1,True
+a401:table:q1485,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,1.4567621909128528,1,True
+a401:table:q1485,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,1451.6457578520856,1452,True
+a401:table:q1485,oracle_join,oracle_join,p ph,Hash Join,False,,180,
+a401:table:q1485,oracle_join,oracle_join,c p ph,Nested Loop,False,,342,
+a401:table:q1485,oracle_join,oracle_join,c p ph u,Nested Loop,False,,317,
+a401:table:q1485,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,1487.0,1487,True
+a401:table:q2319,pg,pg,p pl,Hash Join,False,,4606,
+a401:table:q2319,pg,pg,p ph pl,Nested Loop,False,,3425,
+a401:table:q2319,pg,pg,c p ph pl,Nested Loop,False,,6491,
+a401:table:q2319,pg,pg,c p ph pl u,Hash Join,False,,6266,
+a401:table:q2319,pg_map,pg_map,p pl,Hash Join,False,4606.0,4606,True
+a401:table:q2319,pg_map,pg_map,p ph pl,Nested Loop,False,3425.0,3425,True
+a401:table:q2319,pg_map,pg_map,c p ph pl,Nested Loop,False,6492.0,6492,True
+a401:table:q2319,pg_map,pg_map,c p ph pl u,Hash Join,False,6266.0,6266,True
+a401:table:q2319,hgb_ratio,hgb_ratio,p pl,Hash Join,False,541.5868605177367,542,True
+a401:table:q2319,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,402.72144969024055,403,True
+a401:table:q2319,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,763.3482193836618,763,True
+a401:table:q2319,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,30594.836720146337,30595,True
+a401:table:q2319,oracle_join,oracle_join,p pl,Hash Join,False,8321.0,8321,True
+a401:table:q2319,oracle_join,oracle_join,c p pl,Hash Join,False,23922.0,23922,True
+a401:table:q2319,oracle_join,oracle_join,c p pl u,Hash Join,False,6149.0,6149,True
+a401:table:q2319,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,11799.0,11799,True
+a401:table:q1788,pg,pg,p pl,Hash Join,False,,5029,
+a401:table:q1788,pg,pg,p ph pl,Nested Loop,False,,16577,
+a401:table:q1788,pg,pg,c p ph pl,Hash Join,False,,31418,
+a401:table:q1788,pg,pg,c p ph pl u,Hash Join,False,,30913,
+a401:table:q1788,pg_map,pg_map,p pl,Hash Join,False,5029.0,5029,True
+a401:table:q1788,pg_map,pg_map,p ph pl,Nested Loop,False,16578.0,16578,True
+a401:table:q1788,pg_map,pg_map,c p ph pl,Hash Join,False,31417.0,31417,True
+a401:table:q1788,pg_map,pg_map,c p ph pl u,Hash Join,False,30913.0,30913,True
+a401:table:q1788,hgb_ratio,hgb_ratio,p pl,Hash Join,False,791.3788242727173,791,True
+a401:table:q1788,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,1499.827316393571,1500,True
+a401:table:q1788,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,1475.7507683494816,1476,True
+a401:table:q1788,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,401062.1017005502,401062,True
+a401:table:q1788,oracle_join,oracle_join,p pl,Hash Join,False,8177.0,8177,True
+a401:table:q1788,oracle_join,oracle_join,c p pl,Hash Join,False,23894.0,23894,True
+a401:table:q1788,oracle_join,oracle_join,c p pl u,Hash Join,False,23365.0,23365,True
+a401:table:q1788,oracle_join,oracle_join,c p ph pl u,Hash Join,False,159266.0,159266,True
+a401:table:q2207,pg,pg,p pl,Hash Join,False,,5017,
+a401:table:q2207,pg,pg,p ph pl,Nested Loop,False,,15837,
+a401:table:q2207,pg,pg,c p ph pl,Hash Join,False,,30011,
+a401:table:q2207,pg,pg,c p ph pl u,Hash Join,False,,28323,
+a401:table:q2207,pg_map,pg_map,p pl,Hash Join,False,5017.0,5017,True
+a401:table:q2207,pg_map,pg_map,p ph pl,Nested Loop,False,15837.0,15837,True
+a401:table:q2207,pg_map,pg_map,c p ph pl,Hash Join,False,30012.0,30012,True
+a401:table:q2207,pg_map,pg_map,c p ph pl u,Hash Join,False,28323.0,28323,True
+a401:table:q2207,hgb_ratio,hgb_ratio,p pl,Hash Join,False,959.7100224227519,960,True
+a401:table:q2207,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,1818.6093647943198,1819,True
+a401:table:q2207,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,1716.268351839133,1716,True
+a401:table:q2207,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,163172.31976413686,163172,True
+a401:table:q2207,oracle_join,oracle_join,p pl,Hash Join,False,10781.0,10781,True
+a401:table:q2207,oracle_join,oracle_join,c p pl,Hash Join,False,32312.0,32312,True
+a401:table:q2207,oracle_join,oracle_join,c p pl u,Hash Join,False,8209.0,8209,True
+a401:table:q2207,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,53685.0,53685,True
+a401:table:q1844,pg,pg,p pl,Hash Join,False,,5054,
+a401:table:q1844,pg,pg,c p pl,Hash Join,False,,1376,
+a401:table:q1844,pg,pg,c p pl u,Nested Loop,False,,1280,
+a401:table:q1844,pg,pg,c p ph pl u,Nested Loop,False,,4106,
+a401:table:q1844,pg_map,pg_map,p pl,Hash Join,False,5054.0,5054,True
+a401:table:q1844,pg_map,pg_map,c p pl,Hash Join,False,1376.0,1376,True
+a401:table:q1844,pg_map,pg_map,c p pl u,Nested Loop,False,1280.0,1280,True
+a401:table:q1844,pg_map,pg_map,c p ph pl u,Nested Loop,False,4106.0,4106,True
+a401:table:q1844,hgb_ratio,hgb_ratio,p pl,Hash Join,False,552.0684149434188,552,True
+a401:table:q1844,hgb_ratio,hgb_ratio,c p pl,Nested Loop,False,150.30592381522442,150,True
+a401:table:q1844,hgb_ratio,hgb_ratio,c p pl u,Nested Loop,False,139.81946401416226,140,True
+a401:table:q1844,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,7013.803097566675,7014,True
+a401:table:q1844,oracle_join,oracle_join,c u,Hash Join,False,2992.0,2992,True
+a401:table:q1844,oracle_join,oracle_join,c pl u,Hash Join,False,631.0,631,True
+a401:table:q1844,oracle_join,oracle_join,c p pl u,Nested Loop,False,514.0,514,True
+a401:table:q1844,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,3110.0,3110,True
+a401:table:q1978,pg,pg,p pl,Hash Join,False,,417,
+a401:table:q1978,pg,pg,p ph pl,Nested Loop,False,,198,
+a401:table:q1978,pg,pg,c p ph pl,Nested Loop,False,,374,
+a401:table:q1978,pg,pg,c p ph pl u,Nested Loop,False,,355,
+a401:table:q1978,pg_map,pg_map,p pl,Hash Join,False,417.0,417,True
+a401:table:q1978,pg_map,pg_map,p ph pl,Nested Loop,False,198.0,198,True
+a401:table:q1978,pg_map,pg_map,c p ph pl,Nested Loop,False,375.0,375,True
+a401:table:q1978,pg_map,pg_map,c p ph pl u,Nested Loop,False,355.0,355,True
+a401:table:q1978,hgb_ratio,hgb_ratio,p pl,Hash Join,False,44.90364201745005,45,True
+a401:table:q1978,hgb_ratio,hgb_ratio,p ph pl,Nested Loop,False,21.32115376368132,21,True
+a401:table:q1978,hgb_ratio,hgb_ratio,c p ph pl,Nested Loop,False,40.380973037275226,40,True
+a401:table:q1978,hgb_ratio,hgb_ratio,c p ph pl u,Nested Loop,False,730.0879925139361,730,True
+a401:table:q1978,oracle_join,oracle_join,p pl,Hash Join,False,650.0,650,True
+a401:table:q1978,oracle_join,oracle_join,c p pl,Nested Loop,False,1728.0,1728,True
+a401:table:q1978,oracle_join,oracle_join,c p pl u,Nested Loop,False,361.0,361,True
+a401:table:q1978,oracle_join,oracle_join,c p ph pl u,Nested Loop,False,361.0,361,True
+a401:value:q1637,pg,pg,b u,Nested Loop,False,,20,
+a401:value:q1637,pg,pg,b p u,Nested Loop,False,,52,
+a401:value:q1637,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1637,pg_map,pg_map,b u,Nested Loop,False,20.0,20,True
+a401:value:q1637,pg_map,pg_map,b p u,Nested Loop,False,52.0,52,True
+a401:value:q1637,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1637,hgb_ratio,hgb_ratio,b u,Nested Loop,False,13.55702486998263,14,True
+a401:value:q1637,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,35.248264661954835,35,True
+a401:value:q1637,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,161.3285959527933,161,True
+a401:value:q1637,oracle_join,oracle_join,p u,Nested Loop,False,1000.0,1000,True
+a401:value:q1637,oracle_join,oracle_join,p u v,Nested Loop,False,32.0,32,True
+a401:value:q1637,oracle_join,oracle_join,b p u v,Nested Loop,False,1106.0,1106,True
+a401:value:q629,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q629,pg,pg,b p u,Nested Loop,False,,4,
+a401:value:q629,pg,pg,b p u v,Nested Loop,False,,4,
+a401:value:q629,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q629,pg_map,pg_map,b p u,Nested Loop,False,4.0,4,True
+a401:value:q629,pg_map,pg_map,b p u v,Nested Loop,False,4.0,4,True
+a401:value:q629,hgb_ratio,hgb_ratio,p u,Nested Loop,False,2.787519250023028,3,True
+a401:value:q629,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,2.787519250023028,3,True
+a401:value:q629,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,20047.838446165617,20048,True
+a401:value:q629,oracle_join,oracle_join,p u,Nested Loop,False,127.0,127,True
+a401:value:q629,oracle_join,oracle_join,p u v,Nested Loop,False,489.0,489,True
+a401:value:q629,oracle_join,oracle_join,b p u v,Nested Loop,False,98778.0,98778,True
+a401:value:q1928,pg,pg,p u,Nested Loop,False,,1,
+a401:value:q1928,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1928,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1928,pg_map,pg_map,p u,Nested Loop,False,1.0,1,True
+a401:value:q1928,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1928,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1928,hgb_ratio,hgb_ratio,p u,Nested Loop,False,3.7666391166096482,4,True
+a401:value:q1928,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,3.7666391166096482,4,True
+a401:value:q1928,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,30005.047202912458,30005,True
+a401:value:q1928,oracle_join,oracle_join,p u,Nested Loop,False,828.0,828,True
+a401:value:q1928,oracle_join,oracle_join,p u v,Nested Loop,False,2.0,2,True
+a401:value:q1928,oracle_join,oracle_join,b p u v,Nested Loop,False,674.0,674,True
+a401:value:q1152,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1152,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1152,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1152,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1152,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1152,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1152,hgb_ratio,hgb_ratio,b u,Nested Loop,False,2.783428990241547,3,True
+a401:value:q1152,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,2.783428990241547,3,True
+a401:value:q1152,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,7451.239406876622,7451,True
+a401:value:q1152,oracle_join,oracle_join,p v,Nested Loop,False,938.0,938,True
+a401:value:q1152,oracle_join,oracle_join,b u,Nested Loop,False,180.0,180,True
+a401:value:q1152,oracle_join,oracle_join,b p u v,Merge Join,False,22320.0,22320,True
+a401:value:q506,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q506,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q506,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q506,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q506,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q506,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q506,hgb_ratio,hgb_ratio,b u,Nested Loop,False,4.260237455768136,4,True
+a401:value:q506,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,4.260237455768136,4,True
+a401:value:q506,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,6709.873992834814,6710,True
+a401:value:q506,oracle_join,oracle_join,p u,Nested Loop,False,282.0,282,True
+a401:value:q506,oracle_join,oracle_join,p u v,Nested Loop,False,1299.0,1299,True
+a401:value:q506,oracle_join,oracle_join,b p u v,Merge Join,False,45109.0,45109,True
+a401:value:q689,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q689,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q689,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q689,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q689,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q689,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q689,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.0,1,True
+a401:value:q689,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q689,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,6277.30906783909,6277,True
+a401:value:q689,oracle_join,oracle_join,p u,Nested Loop,False,1.0,1,True
+a401:value:q689,oracle_join,oracle_join,p u v,Nested Loop,False,30.0,30,True
+a401:value:q689,oracle_join,oracle_join,b p u v,Nested Loop,False,3570.0,3570,True
+a401:value:q189,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q189,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q189,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q189,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q189,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q189,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q189,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.0,1,True
+a401:value:q189,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q189,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,693.2378786274099,693,True
+a401:value:q189,oracle_join,oracle_join,p u,Nested Loop,False,170.0,170,True
+a401:value:q189,oracle_join,oracle_join,p u v,Nested Loop,False,301.0,301,True
+a401:value:q189,oracle_join,oracle_join,b p u v,Nested Loop,False,46053.0,46053,True
+a401:value:q1995,pg,pg,b p,Nested Loop,False,,12,
+a401:value:q1995,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1995,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1995,pg_map,pg_map,b p,Nested Loop,False,,12,
+a401:value:q1995,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1995,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1995,hgb_ratio,hgb_ratio,p v,Nested Loop,False,1.0377561452825348,1,True
+a401:value:q1995,hgb_ratio,hgb_ratio,b p v,Nested Loop,False,,12,
+a401:value:q1995,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,19272.688252114596,19273,True
+a401:value:q1995,oracle_join,oracle_join,p v,Nested Loop,False,186.0,186,True
+a401:value:q1995,oracle_join,oracle_join,b u,Nested Loop,False,298.0,298,True
+a401:value:q1995,oracle_join,oracle_join,b p u v,Merge Join,False,1406.0,1406,True
+a401:value:q1942,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1942,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1942,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1942,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1942,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1942,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1942,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.0,1,True
+a401:value:q1942,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1942,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,17140.965416900042,17141,True
+a401:value:q1942,oracle_join,oracle_join,p u,Nested Loop,False,5.0,5,True
+a401:value:q1942,oracle_join,oracle_join,p u v,Nested Loop,False,72.0,72,True
+a401:value:q1942,oracle_join,oracle_join,b p u v,Nested Loop,False,11088.0,11088,True
+a401:value:q149,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q149,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q149,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q149,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q149,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q149,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q149,hgb_ratio,hgb_ratio,b u,Nested Loop,False,2.7479149388919195,3,True
+a401:value:q149,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,2.7479149388919195,3,True
+a401:value:q149,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,7927.734598703188,7928,True
+a401:value:q149,oracle_join,oracle_join,p u,Nested Loop,False,12.0,12,True
+a401:value:q149,oracle_join,oracle_join,p u v,Nested Loop,False,192.0,192,True
+a401:value:q149,oracle_join,oracle_join,b p u v,Hash Join,False,31104.0,31104,True
+a401:value:q948,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q948,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q948,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q948,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q948,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q948,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q948,hgb_ratio,hgb_ratio,b u,Nested Loop,False,3.1701161724093447,3,True
+a401:value:q948,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,3.1701161724093447,3,True
+a401:value:q948,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,1562.867272997807,1563,True
+a401:value:q948,oracle_join,oracle_join,p u,Nested Loop,False,8.0,8,True
+a401:value:q948,oracle_join,oracle_join,p u v,Nested Loop,False,10.0,10,True
+a401:value:q948,oracle_join,oracle_join,b p u v,Nested Loop,False,3050.0,3050,True
+a401:value:q1924,pg,pg,p v,Nested Loop,False,,1,
+a401:value:q1924,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1924,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1924,pg_map,pg_map,p v,Nested Loop,False,1.0,1,True
+a401:value:q1924,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1924,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1924,hgb_ratio,hgb_ratio,p v,Nested Loop,False,1.0,1,True
+a401:value:q1924,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1924,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,186.24848574870603,186,True
+a401:value:q1924,oracle_join,oracle_join,p v,Nested Loop,False,1.0,1,True
+a401:value:q1924,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1924,oracle_join,oracle_join,b p u v,Nested Loop,False,113.0,113,True
+a401:value:q917,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q917,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q917,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q917,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q917,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q917,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q917,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.8072979199166734,2,True
+a401:value:q917,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.8072979199166734,2,True
+a401:value:q917,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,10032.310753457454,10032,True
+a401:value:q917,oracle_join,oracle_join,p u,Nested Loop,False,67.0,67,True
+a401:value:q917,oracle_join,oracle_join,p u v,Nested Loop,False,238.0,238,True
+a401:value:q917,oracle_join,oracle_join,b p u v,Nested Loop,False,58072.0,58072,True
+a401:value:q780,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q780,pg,pg,b p u,Nested Loop,False,,3,
+a401:value:q780,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q780,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q780,pg_map,pg_map,b p u,Nested Loop,False,3.0,3,True
+a401:value:q780,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q780,hgb_ratio,hgb_ratio,p u,Nested Loop,False,3.5478983360008365,4,True
+a401:value:q780,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,3.5478983360008365,4,True
+a401:value:q780,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,659.9090904961556,660,True
+a401:value:q780,oracle_join,oracle_join,p u,Nested Loop,False,160.0,160,True
+a401:value:q780,oracle_join,oracle_join,p u v,Nested Loop,False,5.0,5,True
+a401:value:q780,oracle_join,oracle_join,b p u v,Nested Loop,False,825.0,825,True
+a401:value:q1224,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1224,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1224,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1224,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1224,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1224,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1224,hgb_ratio,hgb_ratio,b u,Nested Loop,False,3.0554596715104414,3,True
+a401:value:q1224,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,3.0554596715104414,3,True
+a401:value:q1224,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,1698.8355773598055,1699,True
+a401:value:q1224,oracle_join,oracle_join,p u,Nested Loop,False,35.0,35,True
+a401:value:q1224,oracle_join,oracle_join,p u v,Nested Loop,False,108.0,108,True
+a401:value:q1224,oracle_join,oracle_join,b p u v,Nested Loop,False,9094.0,9094,True
+a401:value:q592,pg,pg,b u,Nested Loop,False,,2,
+a401:value:q592,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q592,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q592,pg_map,pg_map,b u,Nested Loop,False,2.0,2,True
+a401:value:q592,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q592,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q592,hgb_ratio,hgb_ratio,b u,Nested Loop,False,2.7065270297335142,3,True
+a401:value:q592,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.3532635148667571,1,True
+a401:value:q592,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,17155.32157796588,17155,True
+a401:value:q592,oracle_join,oracle_join,p v,Nested Loop,False,2077.0,2077,True
+a401:value:q592,oracle_join,oracle_join,b u,Nested Loop,False,525.0,525,True
+a401:value:q592,oracle_join,oracle_join,b p u v,Merge Join,False,91542.0,91542,True
+a401:value:q1818,pg,pg,b u,Nested Loop,False,,25,
+a401:value:q1818,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1818,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1818,pg_map,pg_map,b u,Nested Loop,False,25.0,25,True
+a401:value:q1818,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1818,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1818,hgb_ratio,hgb_ratio,b u,Nested Loop,False,36.85030687262984,37,True
+a401:value:q1818,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.4740122749051936,1,True
+a401:value:q1818,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,1017.0684696845835,1017,True
+a401:value:q1818,oracle_join,oracle_join,p u,Nested Loop,False,63.0,63,True
+a401:value:q1818,oracle_join,oracle_join,p u v,Hash Join,False,1.0,1,True
+a401:value:q1818,oracle_join,oracle_join,b p u v,Nested Loop,False,71.0,71,True
+a401:value:q1209,pg,pg,b u,Nested Loop,False,,2,
+a401:value:q1209,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1209,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1209,pg_map,pg_map,b u,Nested Loop,False,2.0,2,True
+a401:value:q1209,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1209,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1209,hgb_ratio,hgb_ratio,b u,Nested Loop,False,4.960591220335397,5,True
+a401:value:q1209,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,2.4802956101676985,2,True
+a401:value:q1209,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,682.081292796117,682,True
+a401:value:q1209,oracle_join,oracle_join,p u,Nested Loop,False,41.0,41,True
+a401:value:q1209,oracle_join,oracle_join,p u v,Nested Loop,False,2.0,2,True
+a401:value:q1209,oracle_join,oracle_join,b p u v,Nested Loop,False,26.0,26,True
+a401:value:q815,pg,pg,p u,Nested Loop,False,,1,
+a401:value:q815,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q815,pg,pg,b p u v,Nested Loop,False,,10,
+a401:value:q815,pg_map,pg_map,p u,Nested Loop,False,1.0,1,True
+a401:value:q815,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q815,pg_map,pg_map,b p u v,Nested Loop,False,10.0,10,True
+a401:value:q815,hgb_ratio,hgb_ratio,p u,Nested Loop,False,1.8001179830978595,2,True
+a401:value:q815,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.8001179830978595,2,True
+a401:value:q815,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,5234.743094848575,5235,True
+a401:value:q815,oracle_join,oracle_join,p u,Nested Loop,False,201.0,201,True
+a401:value:q815,oracle_join,oracle_join,p u v,Nested Loop,False,527.0,527,True
+a401:value:q815,oracle_join,oracle_join,b p u v,Nested Loop,False,108789.0,108789,True
+a401:value:q232,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q232,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q232,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q232,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q232,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q232,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q232,hgb_ratio,hgb_ratio,b u,Nested Loop,False,5.035991113220661,5,True
+a401:value:q232,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,5.035991113220661,5,True
+a401:value:q232,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,5841.749691335967,5842,True
+a401:value:q232,oracle_join,oracle_join,p u,Nested Loop,False,52.0,52,True
+a401:value:q232,oracle_join,oracle_join,p u v,Nested Loop,False,992.0,992,True
+a401:value:q232,oracle_join,oracle_join,b p u v,Merge Join,False,63280.0,63280,True
+a401:value:q37,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q37,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q37,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q37,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q37,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q37,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q37,hgb_ratio,hgb_ratio,b u,Nested Loop,False,3.646319574048215,4,True
+a401:value:q37,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,3.646319574048215,4,True
+a401:value:q37,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,820.4219041608484,820,True
+a401:value:q37,oracle_join,oracle_join,p u,Nested Loop,False,16.0,16,True
+a401:value:q37,oracle_join,oracle_join,p u v,Nested Loop,False,145.0,145,True
+a401:value:q37,oracle_join,oracle_join,b p u v,Hash Join,False,5510.0,5510,True
+a401:value:q745,pg,pg,b u,Nested Loop,False,,9,
+a401:value:q745,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q745,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q745,pg_map,pg_map,b u,Nested Loop,False,9.0,9,True
+a401:value:q745,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q745,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q745,hgb_ratio,hgb_ratio,b u,Nested Loop,False,4.667598082801977,5,True
+a401:value:q745,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q745,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,239.08474624130125,239,True
+a401:value:q745,oracle_join,oracle_join,p u,Nested Loop,False,17.0,17,True
+a401:value:q745,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q745,oracle_join,oracle_join,b p u v,Nested Loop,False,106.0,106,True
+a401:value:q1065,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1065,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1065,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1065,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1065,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1065,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1065,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.130920979192165,1,True
+a401:value:q1065,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.130920979192165,1,True
+a401:value:q1065,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,320.0506371113827,320,True
+a401:value:q1065,oracle_join,oracle_join,p u,Nested Loop,False,85.0,85,True
+a401:value:q1065,oracle_join,oracle_join,p u v,Nested Loop,False,10.0,10,True
+a401:value:q1065,oracle_join,oracle_join,b p u v,Nested Loop,False,1840.0,1840,True
+a401:value:q1332,pg,pg,p u,Hash Join,False,,1,
+a401:value:q1332,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1332,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1332,pg_map,pg_map,p u,Hash Join,False,1.0,1,True
+a401:value:q1332,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1332,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1332,hgb_ratio,hgb_ratio,p u,Hash Join,False,1.0,1,True
+a401:value:q1332,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1332,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,48.34559014767281,48,True
+a401:value:q1332,oracle_join,oracle_join,p u,Hash Join,False,20.0,20,True
+a401:value:q1332,oracle_join,oracle_join,p u v,Nested Loop,False,268.0,268,True
+a401:value:q1332,oracle_join,oracle_join,b p u v,Hash Join,False,4802.0,4802,True
+a401:value:q111,pg,pg,p u,Hash Join,False,,1,
+a401:value:q111,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q111,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q111,pg_map,pg_map,p u,Hash Join,False,1.0,1,True
+a401:value:q111,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q111,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q111,hgb_ratio,hgb_ratio,p u,Hash Join,False,1.0,1,True
+a401:value:q111,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q111,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,133.067856697306,133,True
+a401:value:q111,oracle_join,oracle_join,p u,Hash Join,False,1.0,1,True
+a401:value:q111,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q111,oracle_join,oracle_join,b p u v,Nested Loop,False,38.0,38,True
+a401:value:q367,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q367,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q367,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q367,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q367,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q367,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q367,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.7251369769763678,2,True
+a401:value:q367,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.7251369769763678,2,True
+a401:value:q367,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,324.32575167155716,324,True
+a401:value:q367,oracle_join,oracle_join,p u,Nested Loop,False,52.0,52,True
+a401:value:q367,oracle_join,oracle_join,p u v,Nested Loop,False,13.0,13,True
+a401:value:q367,oracle_join,oracle_join,b p u v,Nested Loop,False,1191.0,1191,True
+a401:value:q1890,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1890,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1890,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1890,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1890,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1890,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1890,hgb_ratio,hgb_ratio,b u,Nested Loop,False,3.610081933143822,4,True
+a401:value:q1890,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,3.610081933143822,4,True
+a401:value:q1890,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,21671.32184466236,21671,True
+a401:value:q1890,oracle_join,oracle_join,p v,Nested Loop,False,5342.0,5342,True
+a401:value:q1890,oracle_join,oracle_join,b u,Nested Loop,False,151.0,151,True
+a401:value:q1890,oracle_join,oracle_join,b p u v,Merge Join,False,91506.0,91506,True
+a401:value:q932,pg,pg,b u,Nested Loop,False,,62,
+a401:value:q932,pg,pg,b p u,Nested Loop,False,,83,
+a401:value:q932,pg,pg,b p u v,Nested Loop,False,,22,
+a401:value:q932,pg_map,pg_map,b u,Nested Loop,False,62.0,62,True
+a401:value:q932,pg_map,pg_map,b p u,Nested Loop,False,83.0,83,True
+a401:value:q932,pg_map,pg_map,b p u v,Nested Loop,False,22.0,22,True
+a401:value:q932,hgb_ratio,hgb_ratio,p u,Nested Loop,False,10.594978649862272,11,True
+a401:value:q932,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,2.1189957299724544,2,True
+a401:value:q932,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,481.01203070374714,481,True
+a401:value:q932,oracle_join,oracle_join,p u,Nested Loop,False,704.0,704,True
+a401:value:q932,oracle_join,oracle_join,p u v,Nested Loop,False,411.0,411,True
+a401:value:q932,oracle_join,oracle_join,b p u v,Nested Loop,False,9835.0,9835,True
+a401:value:q1642,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1642,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1642,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1642,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1642,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1642,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1642,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.907233207090466,2,True
+a401:value:q1642,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.907233207090466,2,True
+a401:value:q1642,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,114.43399242542796,114,True
+a401:value:q1642,oracle_join,oracle_join,p u,Nested Loop,False,4.0,4,True
+a401:value:q1642,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1642,oracle_join,oracle_join,b p u v,Nested Loop,False,12.0,12,True
+a401:value:q1484,pg,pg,p u,Nested Loop,False,,1,
+a401:value:q1484,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1484,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1484,pg_map,pg_map,p u,Nested Loop,False,1.0,1,True
+a401:value:q1484,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1484,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1484,hgb_ratio,hgb_ratio,p u,Nested Loop,False,1.0,1,True
+a401:value:q1484,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1484,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,5146.596838884139,5147,True
+a401:value:q1484,oracle_join,oracle_join,p u,Nested Loop,False,420.0,420,True
+a401:value:q1484,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1484,oracle_join,oracle_join,b p u v,Nested Loop,False,381.0,381,True
+a401:value:q1056,pg,pg,b p,Nested Loop,False,,3,
+a401:value:q1056,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1056,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1056,pg_map,pg_map,b p,Nested Loop,False,,3,
+a401:value:q1056,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1056,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1056,hgb_ratio,hgb_ratio,b p,Nested Loop,False,,3,
+a401:value:q1056,hgb_ratio,hgb_ratio,b p v,Nested Loop,False,,25,
+a401:value:q1056,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,2441.7510539164023,2442,True
+a401:value:q1056,oracle_join,oracle_join,b p,Nested Loop,False,,3,
+a401:value:q1056,oracle_join,oracle_join,b p v,Nested Loop,False,,1554,
+a401:value:q1056,oracle_join,oracle_join,b p u v,Hash Join,False,6496.0,6496,True
+a401:value:q1911,pg,pg,b u,Hash Join,False,,4,
+a401:value:q1911,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1911,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1911,pg_map,pg_map,b u,Hash Join,False,4.0,4,True
+a401:value:q1911,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1911,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1911,hgb_ratio,hgb_ratio,b u,Hash Join,False,1.8983218613169506,2,True
+a401:value:q1911,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1911,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,26.576506058437307,27,True
+a401:value:q1911,oracle_join,oracle_join,b p,Hash Join,False,,49,
+a401:value:q1911,oracle_join,oracle_join,b p v,Nested Loop,False,,256,
+a401:value:q1911,oracle_join,oracle_join,b p u v,Hash Join,False,465.0,465,True
+a401:value:q1236,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1236,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1236,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1236,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1236,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1236,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1236,hgb_ratio,hgb_ratio,b u,Nested Loop,False,2.4502396563715894,2,True
+a401:value:q1236,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,2.4502396563715894,2,True
+a401:value:q1236,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,303.82971739007706,304,True
+a401:value:q1236,oracle_join,oracle_join,p u,Nested Loop,False,12.0,12,True
+a401:value:q1236,oracle_join,oracle_join,p u v,Nested Loop,False,9.0,9,True
+a401:value:q1236,oracle_join,oracle_join,b p u v,Nested Loop,False,693.0,693,True
+a401:value:q175,pg,pg,b u,Hash Join,False,,43,
+a401:value:q175,pg,pg,b p u,Nested Loop,False,,496,
+a401:value:q175,pg,pg,b p u v,Nested Loop,False,,106,
+a401:value:q175,pg_map,pg_map,b u,Hash Join,False,43.0,43,True
+a401:value:q175,pg_map,pg_map,b p u,Nested Loop,False,496.0,496,True
+a401:value:q175,pg_map,pg_map,b p u v,Nested Loop,False,106.0,106,True
+a401:value:q175,hgb_ratio,hgb_ratio,b u,Hash Join,False,124.94054911297977,125,True
+a401:value:q175,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1441.1747060473945,1441,True
+a401:value:q175,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,796.1328013245687,796,True
+a401:value:q175,oracle_join,oracle_join,p u,Hash Join,False,7624.0,7624,True
+a401:value:q175,oracle_join,oracle_join,p u v,Hash Join,False,1014.0,1014,True
+a401:value:q175,oracle_join,oracle_join,b p u v,Hash Join,False,7306.0,7306,True
+a401:value:q887,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q887,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q887,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q887,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q887,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q887,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q887,hgb_ratio,hgb_ratio,b u,Nested Loop,False,3.872390688230871,4,True
+a401:value:q887,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,3.872390688230871,4,True
+a401:value:q887,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,7922.911348120362,7923,True
+a401:value:q887,oracle_join,oracle_join,p u,Nested Loop,False,47.0,47,True
+a401:value:q887,oracle_join,oracle_join,p u v,Nested Loop,False,703.0,703,True
+a401:value:q887,oracle_join,oracle_join,b p u v,Merge Join,False,21999.0,21999,True
+a401:value:q1051,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1051,pg,pg,b p u,Nested Loop,False,,5,
+a401:value:q1051,pg,pg,b p u v,Nested Loop,False,,2,
+a401:value:q1051,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1051,pg_map,pg_map,b p u,Nested Loop,False,5.0,5,True
+a401:value:q1051,pg_map,pg_map,b p u v,Nested Loop,False,2.0,2,True
+a401:value:q1051,hgb_ratio,hgb_ratio,p u,Nested Loop,False,2.7218235776934487,3,True
+a401:value:q1051,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,2.7218235776934487,3,True
+a401:value:q1051,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,4722.363907298133,4722,True
+a401:value:q1051,oracle_join,oracle_join,p u,Nested Loop,False,751.0,751,True
+a401:value:q1051,oracle_join,oracle_join,p u v,Nested Loop,False,83.0,83,True
+a401:value:q1051,oracle_join,oracle_join,b p u v,Nested Loop,False,8331.0,8331,True
+a401:value:q237,pg,pg,p v,Nested Loop,False,,1,
+a401:value:q237,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q237,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q237,pg_map,pg_map,p v,Nested Loop,False,1.0,1,True
+a401:value:q237,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q237,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q237,hgb_ratio,hgb_ratio,p v,Nested Loop,False,1.0,1,True
+a401:value:q237,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q237,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,143.4281383024126,143,True
+a401:value:q237,oracle_join,oracle_join,p v,Nested Loop,False,2.0,2,True
+a401:value:q237,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q237,oracle_join,oracle_join,b p u v,Nested Loop,False,111.0,111,True
+a401:value:q1283,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1283,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1283,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1283,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1283,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1283,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1283,hgb_ratio,hgb_ratio,b u,Nested Loop,False,6.22131325230851,6,True
+a401:value:q1283,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,6.22131325230851,6,True
+a401:value:q1283,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,1897.5005419540958,1898,True
+a401:value:q1283,oracle_join,oracle_join,p u,Nested Loop,False,24.0,24,True
+a401:value:q1283,oracle_join,oracle_join,p u v,Nested Loop,False,41.0,41,True
+a401:value:q1283,oracle_join,oracle_join,b p u v,Nested Loop,False,7995.0,7995,True
+a401:value:q924,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q924,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q924,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q924,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q924,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q924,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q924,hgb_ratio,hgb_ratio,b u,Nested Loop,False,2.0879900356793,2,True
+a401:value:q924,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,2.0879900356793,2,True
+a401:value:q924,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,5311.846650768139,5312,True
+a401:value:q924,oracle_join,oracle_join,p v,Nested Loop,False,1189.0,1189,True
+a401:value:q924,oracle_join,oracle_join,b u,Nested Loop,False,201.0,201,True
+a401:value:q924,oracle_join,oracle_join,b p u v,Merge Join,False,13869.0,13869,True
+a401:value:q460,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q460,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q460,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q460,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q460,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q460,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q460,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.238298786031847,1,True
+a401:value:q460,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.238298786031847,1,True
+a401:value:q460,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,886.6219307988025,887,True
+a401:value:q460,oracle_join,oracle_join,p u,Nested Loop,False,11.0,11,True
+a401:value:q460,oracle_join,oracle_join,p u v,Nested Loop,False,15.0,15,True
+a401:value:q460,oracle_join,oracle_join,b p u v,Nested Loop,False,3480.0,3480,True
+a401:value:q1210,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1210,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1210,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1210,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1210,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1210,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1210,hgb_ratio,hgb_ratio,b u,Nested Loop,False,10.09011373745557,10,True
+a401:value:q1210,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,10.09011373745557,10,True
+a401:value:q1210,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,645.7672791971564,646,True
+a401:value:q1210,oracle_join,oracle_join,p u,Nested Loop,False,15.0,15,True
+a401:value:q1210,oracle_join,oracle_join,p u v,Nested Loop,False,48.0,48,True
+a401:value:q1210,oracle_join,oracle_join,b p u v,Hash Join,False,716.0,716,True
+a401:value:q70,pg,pg,b u,Nested Loop,False,,15,
+a401:value:q70,pg,pg,b p u,Nested Loop,False,,38,
+a401:value:q70,pg,pg,b p u v,Nested Loop,False,,12,
+a401:value:q70,pg_map,pg_map,b u,Nested Loop,False,15.0,15,True
+a401:value:q70,pg_map,pg_map,b p u,Nested Loop,False,38.0,38,True
+a401:value:q70,pg_map,pg_map,b p u v,Nested Loop,False,12.0,12,True
+a401:value:q70,hgb_ratio,hgb_ratio,b u,Nested Loop,False,11.900584903139126,12,True
+a401:value:q70,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,30.148148421285786,30,True
+a401:value:q70,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,188.0292414695982,188,True
+a401:value:q70,oracle_join,oracle_join,p u,Nested Loop,False,608.0,608,True
+a401:value:q70,oracle_join,oracle_join,p u v,Nested Loop,False,75.0,75,True
+a401:value:q70,oracle_join,oracle_join,b p u v,Nested Loop,False,4717.0,4717,True
+a401:value:q438,pg,pg,p u,Nested Loop,False,,1,
+a401:value:q438,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q438,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q438,pg_map,pg_map,p u,Nested Loop,False,1.0,1,True
+a401:value:q438,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q438,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q438,hgb_ratio,hgb_ratio,p u,Nested Loop,False,1.0,1,True
+a401:value:q438,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q438,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,266.4643771066775,266,True
+a401:value:q438,oracle_join,oracle_join,p v,Nested Loop,False,1.0,1,True
+a401:value:q438,oracle_join,oracle_join,p u v,Nested Loop,False,1.0,1,True
+a401:value:q438,oracle_join,oracle_join,b p u v,Nested Loop,False,47.0,47,True
+a401:value:q747,pg,pg,p u,Hash Join,False,,1,
+a401:value:q747,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q747,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q747,pg_map,pg_map,p u,Hash Join,False,1.0,1,True
+a401:value:q747,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q747,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q747,hgb_ratio,hgb_ratio,p u,Hash Join,False,1.0,1,True
+a401:value:q747,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q747,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,37.495955222835114,37,True
+a401:value:q747,oracle_join,oracle_join,p u,Hash Join,False,12.0,12,True
+a401:value:q747,oracle_join,oracle_join,p u v,Nested Loop,False,122.0,122,True
+a401:value:q747,oracle_join,oracle_join,b p u v,Hash Join,False,1150.0,1150,True
+a401:value:q909,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q909,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q909,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q909,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q909,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q909,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q909,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.0,1,True
+a401:value:q909,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q909,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,7197.4216971576,7197,True
+a401:value:q909,oracle_join,oracle_join,p u,Nested Loop,False,74.0,74,True
+a401:value:q909,oracle_join,oracle_join,p u v,Nested Loop,False,1059.0,1059,True
+a401:value:q909,oracle_join,oracle_join,b p u v,Merge Join,False,70469.0,70469,True
+a401:value:q1458,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1458,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1458,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1458,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1458,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1458,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1458,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.159767972893955,1,True
+a401:value:q1458,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.159767972893955,1,True
+a401:value:q1458,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,11432.992676788608,11433,True
+a401:value:q1458,oracle_join,oracle_join,p u,Nested Loop,False,2.0,2,True
+a401:value:q1458,oracle_join,oracle_join,p u v,Nested Loop,False,21.0,21,True
+a401:value:q1458,oracle_join,oracle_join,b p u v,Hash Join,False,609.0,609,True
+a401:value:q935,pg,pg,b u,Hash Join,False,,3,
+a401:value:q935,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q935,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q935,pg_map,pg_map,b u,Hash Join,False,3.0,3,True
+a401:value:q935,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q935,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q935,hgb_ratio,hgb_ratio,b u,Hash Join,False,14.300327447998196,14,True
+a401:value:q935,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,4.766775815999399,5,True
+a401:value:q935,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,452.8437025199429,453,True
+a401:value:q935,oracle_join,oracle_join,p u,Nested Loop,False,131.0,131,True
+a401:value:q935,oracle_join,oracle_join,p u v,Nested Loop,False,131.0,131,True
+a401:value:q935,oracle_join,oracle_join,b p u v,Hash Join,False,1834.0,1834,True
+a401:value:q1200,pg,pg,p u,Nested Loop,False,,3,
+a401:value:q1200,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1200,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1200,pg_map,pg_map,p u,Nested Loop,False,3.0,3,True
+a401:value:q1200,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1200,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1200,hgb_ratio,hgb_ratio,p u,Nested Loop,False,2.847598953071736,3,True
+a401:value:q1200,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1200,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,3697.132640738137,3697,True
+a401:value:q1200,oracle_join,oracle_join,p u,Nested Loop,False,763.0,763,True
+a401:value:q1200,oracle_join,oracle_join,p u v,Hash Join,False,2.0,2,True
+a401:value:q1200,oracle_join,oracle_join,b p u v,Nested Loop,False,680.0,680,True
+a401:value:q795,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q795,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q795,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q795,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q795,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q795,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q795,hgb_ratio,hgb_ratio,b u,Nested Loop,False,11.045556111009292,11,True
+a401:value:q795,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,11.045556111009292,11,True
+a401:value:q795,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,133065.81446932894,133066,True
+a401:value:q795,oracle_join,oracle_join,p u,Nested Loop,False,213.0,213,True
+a401:value:q795,oracle_join,oracle_join,p u v,Nested Loop,False,868.0,868,True
+a401:value:q795,oracle_join,oracle_join,b p u v,Nested Loop,False,97216.0,97216,True
+a401:value:q1797,pg,pg,p u,Nested Loop,False,,1,
+a401:value:q1797,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1797,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1797,pg_map,pg_map,p u,Nested Loop,False,1.0,1,True
+a401:value:q1797,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1797,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1797,hgb_ratio,hgb_ratio,p u,Nested Loop,False,1.0611633274989354,1,True
+a401:value:q1797,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0611633274989354,1,True
+a401:value:q1797,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,371.4071646246274,371,True
+a401:value:q1797,oracle_join,oracle_join,p u,Nested Loop,False,596.0,596,True
+a401:value:q1797,oracle_join,oracle_join,p u v,Nested Loop,False,21.0,21,True
+a401:value:q1797,oracle_join,oracle_join,b p u v,Nested Loop,False,1525.0,1525,True
+a401:value:q1064,pg,pg,p u,Nested Loop,False,,1,
+a401:value:q1064,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q1064,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1064,pg_map,pg_map,p u,Nested Loop,False,1.0,1,True
+a401:value:q1064,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q1064,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1064,hgb_ratio,hgb_ratio,p u,Nested Loop,False,1.213451932623197,1,True
+a401:value:q1064,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.213451932623197,1,True
+a401:value:q1064,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,4174.274648223797,4174,True
+a401:value:q1064,oracle_join,oracle_join,p u,Nested Loop,False,602.0,602,True
+a401:value:q1064,oracle_join,oracle_join,p u v,Hash Join,False,2.0,2,True
+a401:value:q1064,oracle_join,oracle_join,b p u v,Nested Loop,False,480.0,480,True
+a401:value:q663,pg,pg,p u,Hash Join,False,,1,
+a401:value:q663,pg,pg,p u v,Nested Loop,False,,1,
+a401:value:q663,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q663,pg_map,pg_map,p u,Hash Join,False,1.0,1,True
+a401:value:q663,pg_map,pg_map,p u v,Nested Loop,False,1.0,1,True
+a401:value:q663,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q663,hgb_ratio,hgb_ratio,p u,Hash Join,False,1.0,1,True
+a401:value:q663,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,1.0,1,True
+a401:value:q663,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,76.78814755696128,77,True
+a401:value:q663,oracle_join,oracle_join,p u,Hash Join,False,15.0,15,True
+a401:value:q663,oracle_join,oracle_join,p u v,Nested Loop,False,28.0,28,True
+a401:value:q663,oracle_join,oracle_join,b p u v,Hash Join,False,525.0,525,True
+a401:value:q816,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q816,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q816,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q816,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q816,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q816,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q816,hgb_ratio,hgb_ratio,b u,Nested Loop,False,5.8635349048038625,6,True
+a401:value:q816,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,5.8635349048038625,6,True
+a401:value:q816,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,1031.9821432454798,1032,True
+a401:value:q816,oracle_join,oracle_join,p u,Nested Loop,False,183.0,183,True
+a401:value:q816,oracle_join,oracle_join,p u v,Nested Loop,False,17.0,17,True
+a401:value:q816,oracle_join,oracle_join,b p u v,Nested Loop,False,953.0,953,True
+a401:value:q1790,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1790,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q1790,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1790,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1790,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q1790,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1790,hgb_ratio,hgb_ratio,b u,Nested Loop,False,3.926781499647063,4,True
+a401:value:q1790,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,3.926781499647063,4,True
+a401:value:q1790,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,4009.243911139651,4009,True
+a401:value:q1790,oracle_join,oracle_join,p u,Nested Loop,False,14.0,14,True
+a401:value:q1790,oracle_join,oracle_join,p u v,Nested Loop,False,241.0,241,True
+a401:value:q1790,oracle_join,oracle_join,b p u v,Hash Join,False,13737.0,13737,True
+a401:value:q1689,pg,pg,p u,Nested Loop,False,,23,
+a401:value:q1689,pg,pg,p u v,Nested Loop,False,,5,
+a401:value:q1689,pg,pg,b p u v,Nested Loop,False,,85,
+a401:value:q1689,pg_map,pg_map,p u,Nested Loop,False,23.0,23,True
+a401:value:q1689,pg_map,pg_map,p u v,Nested Loop,False,5.0,5,True
+a401:value:q1689,pg_map,pg_map,b p u v,Nested Loop,False,85.0,85,True
+a401:value:q1689,hgb_ratio,hgb_ratio,p u,Nested Loop,False,61.4086071927238,61,True
+a401:value:q1689,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,13.349697215809522,13,True
+a401:value:q1689,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,11771.763004900837,11772,True
+a401:value:q1689,oracle_join,oracle_join,p u,Nested Loop,False,4262.0,4262,True
+a401:value:q1689,oracle_join,oracle_join,p u v,Hash Join,False,243.0,243,True
+a401:value:q1689,oracle_join,oracle_join,b p u v,Nested Loop,False,19854.0,19854,True
+a401:value:q632,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q632,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q632,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q632,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q632,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q632,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q632,hgb_ratio,hgb_ratio,b u,Nested Loop,False,2.2482413167587714,2,True
+a401:value:q632,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,2.2482413167587714,2,True
+a401:value:q632,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,3057.6081907919292,3058,True
+a401:value:q632,oracle_join,oracle_join,p u,Nested Loop,False,39.0,39,True
+a401:value:q632,oracle_join,oracle_join,p u v,Nested Loop,False,795.0,795,True
+a401:value:q632,oracle_join,oracle_join,b p u v,Merge Join,False,11130.0,11130,True
+a401:value:q1698,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1698,pg,pg,b p u,Nested Loop,False,,5,
+a401:value:q1698,pg,pg,b p u v,Nested Loop,False,,5,
+a401:value:q1698,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1698,pg_map,pg_map,b p u,Nested Loop,False,5.0,5,True
+a401:value:q1698,pg_map,pg_map,b p u v,Nested Loop,False,5.0,5,True
+a401:value:q1698,hgb_ratio,hgb_ratio,p u,Nested Loop,False,5.576680332011881,6,True
+a401:value:q1698,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,5.576680332011881,6,True
+a401:value:q1698,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,217200.54557119875,217201,True
+a401:value:q1698,oracle_join,oracle_join,p u,Nested Loop,False,565.0,565,True
+a401:value:q1698,oracle_join,oracle_join,p u v,Nested Loop,False,1994.0,1994,True
+a401:value:q1698,oracle_join,oracle_join,b p u v,Nested Loop,False,185442.0,185442,True
+a401:value:q1682,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q1682,pg,pg,b p u,Nested Loop,False,,4,
+a401:value:q1682,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q1682,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q1682,pg_map,pg_map,b p u,Nested Loop,False,4.0,4,True
+a401:value:q1682,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q1682,hgb_ratio,hgb_ratio,p u,Nested Loop,False,3.197343327936211,3,True
+a401:value:q1682,hgb_ratio,hgb_ratio,p u v,Nested Loop,False,3.197343327936211,3,True
+a401:value:q1682,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,2139.0226863893254,2139,True
+a401:value:q1682,oracle_join,oracle_join,p u,Nested Loop,False,168.0,168,True
+a401:value:q1682,oracle_join,oracle_join,p u v,Nested Loop,False,25.0,25,True
+a401:value:q1682,oracle_join,oracle_join,b p u v,Nested Loop,False,4675.0,4675,True
+a401:value:q480,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q480,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q480,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q480,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q480,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q480,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q480,hgb_ratio,hgb_ratio,b u,Nested Loop,False,10.331716677961875,10,True
+a401:value:q480,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,10.331716677961875,10,True
+a401:value:q480,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,2572.597452812507,2573,True
+a401:value:q480,oracle_join,oracle_join,p v,Nested Loop,False,1422.0,1422,True
+a401:value:q480,oracle_join,oracle_join,b u,Nested Loop,False,155.0,155,True
+a401:value:q480,oracle_join,oracle_join,b p u v,Merge Join,False,27900.0,27900,True
+a401:value:q474,pg,pg,b u,Nested Loop,False,,1,
+a401:value:q474,pg,pg,b p u,Nested Loop,False,,1,
+a401:value:q474,pg,pg,b p u v,Nested Loop,False,,1,
+a401:value:q474,pg_map,pg_map,b u,Nested Loop,False,1.0,1,True
+a401:value:q474,pg_map,pg_map,b p u,Nested Loop,False,1.0,1,True
+a401:value:q474,pg_map,pg_map,b p u v,Nested Loop,False,1.0,1,True
+a401:value:q474,hgb_ratio,hgb_ratio,b u,Nested Loop,False,1.0,1,True
+a401:value:q474,hgb_ratio,hgb_ratio,b p u,Nested Loop,False,1.0,1,True
+a401:value:q474,hgb_ratio,hgb_ratio,b p u v,Nested Loop,False,14090.882778964497,14091,True
+a401:value:q474,oracle_join,oracle_join,p v,Nested Loop,False,295.0,295,True
+a401:value:q474,oracle_join,oracle_join,b u,Nested Loop,False,116.0,116,True
+a401:value:q474,oracle_join,oracle_join,b p u v,Merge Join,False,3944.0,3944,True

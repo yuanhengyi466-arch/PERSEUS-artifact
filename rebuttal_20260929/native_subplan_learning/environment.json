@@ -1,0 +1,17 @@
+{
+  "version": "PostgreSQL 13.1, compiled by Visual C++ build 1944, 64-bit",
+  "settings": {
+    "jit": "off",
+    "join_collapse_limit": "8",
+    "max_parallel_workers_per_gather": "0",
+    "plan_cache_mode": "force_custom_plan",
+    "random_page_cost": "4",
+    "statement_timeout": "5000",
+    "work_mem": "4096"
+  },
+  "other_active_sessions": [],
+  "prepare_threshold": null,
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "sklearn": "1.5.1",
+  "callback_source_sha256": "8d6ba4a6f5b5224ed6005ca8f614fa960bcafa47e36d8284c5c80c9c3e5dbb76"
+}
